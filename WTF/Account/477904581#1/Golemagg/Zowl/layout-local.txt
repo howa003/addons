@@ -1,4 +1,11 @@
 Version: 1
+Frame: ThreatClassic2BarFrame
+FrameLevel: 1
+Anchor: CENTER
+X: -9
+Y: -199
+W: 203
+H: 103
 Frame: FocusFrame
 FrameLevel: 1
 Anchor: LEFT
@@ -13,13 +20,6 @@ X: 380
 Y: -17
 W: 128
 H: 64
-Frame: AtlasLoot_GUI-Frame
-FrameLevel: 1
-Anchor: TOP
-X: 111
-Y: -119
-W: 920
-H: 600
 Frame: ATT-Classic-Window-Prime
 FrameLevel: 1
 Anchor: CENTER
@@ -107,7 +107,7 @@ H: 300
 Frame: ATT-Classic-Window-AuctionData
 FrameLevel: 2
 Anchor: TOP
-X: -68
+X: 72
 Y: -114
 W: 300
 H: 427
@@ -118,3 +118,10 @@ X: 0
 Y: 0
 W: 300
 H: 300
+Frame: AtlasLoot_GUI-Frame
+FrameLevel: 1
+Anchor: TOPRIGHT
+X: -220
+Y: -38
+W: 920
+H: 600

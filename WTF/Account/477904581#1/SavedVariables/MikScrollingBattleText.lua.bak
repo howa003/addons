@@ -2,10 +2,10 @@
 MSBTProfiles_SavedVars = {
 	["profiles"] = {
 		["Default"] = {
-			["enableBlizzardDamage"] = false,
+			["creationVersion"] = "5.7.153",
 			["normalFontName"] = "2002",
 			["critFontName"] = "2002 Bold",
-			["creationVersion"] = "5.7.153",
+			["enableBlizzardDamage"] = false,
 		},
 	},
 }

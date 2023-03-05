@@ -37,7 +37,7 @@ FarmHudDB = {
 		0, -- [3]
 		0.5, -- [4]
 	},
-	["holdKeyForMouseOn"] = "_none",
+	["trailPathScale"] = 1,
 	["rotation"] = true,
 	["buttons_alpha"] = 0.6,
 	["tracking^136025"] = "client",
@@ -50,7 +50,7 @@ FarmHudDB = {
 		0.75, -- [5]
 	},
 	["hud_size"] = 1,
-	["time_local"] = true,
+	["trailPathIcon"] = "arrow01",
 	["mouseoverinfo_color"] = {
 		1, -- [1]
 		0.82, -- [2]
@@ -60,11 +60,11 @@ FarmHudDB = {
 	["buttons_show"] = false,
 	["trailPathShow"] = true,
 	["coords_show"] = true,
-	["tracking^136464"] = "client",
+	["buttons_radius"] = 0.56,
 	["showDummy"] = true,
-	["player_dot"] = "blizz",
 	["showDummyBg"] = true,
-	["SuperTrackedQuest"] = true,
+	["gathercircle_show"] = true,
+	["tracking^136455"] = "client",
 	["tracking^136453"] = "client",
 	["healcircle_color"] = {
 		0, -- [1]
@@ -72,7 +72,7 @@ FarmHudDB = {
 		1, -- [3]
 		0.5, -- [4]
 	},
-	["time_show"] = true,
+	["trailPathCount"] = 32,
 	["cardinalpoints_radius"] = 0.47,
 	["trailPathTimeout"] = 60,
 	["tracking^136451"] = "client",
@@ -84,9 +84,9 @@ FarmHudDB = {
 		["radius"] = 80,
 		["hide"] = false,
 	},
-	["coords_bottom"] = false,
+	["tracking^136454"] = "client",
 	["text_scale"] = 1.4,
-	["trailPathCount"] = 32,
+	["time_show"] = true,
 	["time_color"] = {
 		1, -- [1]
 		0.82, -- [2]
@@ -94,13 +94,13 @@ FarmHudDB = {
 		0.7, -- [4]
 	},
 	["tracking^133939"] = "client",
-	["tracking^136454"] = "client",
+	["coords_bottom"] = false,
 	["healcircle_show"] = true,
 	["time_radius"] = 0.48,
-	["tracking^136455"] = "client",
-	["gathercircle_show"] = true,
-	["buttons_radius"] = 0.56,
-	["trailPathIcon"] = "arrow01",
+	["SuperTrackedQuest"] = true,
+	["player_dot"] = "blizz",
+	["tracking^136464"] = "client",
+	["time_local"] = true,
 	["tracking^136452"] = "client",
-	["trailPathScale"] = 1,
+	["holdKeyForMouseOn"] = "_none",
 }

@@ -786,15 +786,11 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Flame Tsunami",
 		},
-		[28467] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[56548] = {
+			["school"] = 64,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Unstoppable Abomination",
 		},
 		[60708] = {
 			["school"] = 32,
@@ -845,6 +841,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kel'Thuzad",
 		},
+		[57570] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Tenebron",
+		},
 		[58956] = {
 			["school"] = 4,
 			["token"] = {
@@ -853,14 +857,6 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Sartharion",
-		},
-		[57570] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Tenebron",
 		},
 		[56438] = {
 			["school"] = 1,
@@ -947,11 +943,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Blizzard",
 		},
-		[56548] = {
-			["school"] = 64,
+		[28467] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
+			["source"] = "Unstoppable Abomination",
 		},
 		[56397] = {
 			["school"] = 64,

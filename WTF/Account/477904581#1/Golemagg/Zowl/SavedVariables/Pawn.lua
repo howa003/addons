@@ -19,9 +19,9 @@ PawnOptions = {
 		}, -- [3]
 		nil, -- [4]
 		{
-			["ID"] = 31043,
-			["Level"] = 146,
-			["Link"] = "|cffa335ee|Hitem:31043:2661:32215:32215:32210::::80:::::::::|h[Thunderheart Vest]|h|r",
+			["ID"] = 34398,
+			["Level"] = 159,
+			["Link"] = "|cffa335ee|Hitem:34398:2661:32196:32196:32210::::80:::::::::|h[Utopian Tunic of Elune]|h|r",
 		}, -- [5]
 		{
 			["ID"] = 34555,
@@ -39,9 +39,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:34572:2940:32196::::::80:::::::::|h[Thunderheart Footwraps]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 34446,
-			["Level"] = 154,
-			["Link"] = "|cffa335ee|Hitem:34446:2650:32210::::::80:::::::::|h[Thunderheart Bands]|h|r",
+			["ID"] = 41640,
+			["Level"] = 232,
+			["Link"] = "|cffa335ee|Hitem:41640::::::::80:::::::::|h[Furious Gladiator's Armwraps of Dominance]|h|r",
 		}, -- [9]
 		{
 			["ID"] = 40466,
@@ -73,9 +73,9 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:44013::::::::80:::::::::|h[Cannoneer's Fuselighter]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 45810,
-			["Level"] = 200,
-			["Link"] = "|cff0070dd|Hitem:45810::::::::80:::::::::|h[Cloak of Crimson Snow]|h|r",
+			["ID"] = 42069,
+			["Level"] = 232,
+			["Link"] = "|cffa335ee|Hitem:42069::::::::80:::::::::|h[Furious Gladiator's Cloak of Dominance]|h|r",
 		}, -- [15]
 		{
 			["ID"] = 34336,

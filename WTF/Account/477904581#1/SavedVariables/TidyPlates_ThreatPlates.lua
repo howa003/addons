@@ -16,12 +16,15 @@ ThreatPlatesDB = {
 		["Banger - Golemagg"] = {
 			["welcome"] = true,
 		},
-		["Zandalar - Gandling"] = {
-			["welcome"] = true,
-		},
 		["Zandalar - Zandalar Tribe"] = {
 			["welcome"] = true,
 		},
+		["Zandalar - Gandling"] = {
+			["welcome"] = true,
+		},
+	},
+	["global"] = {
+		["version"] = "11.1.9",
 	},
 	["profileKeys"] = {
 		["Zowl - Golemagg"] = "Default",
@@ -29,11 +32,8 @@ ThreatPlatesDB = {
 		["Zandalar - Golemagg"] = "Default",
 		["Azerot - Golemagg"] = "Default",
 		["Banger - Golemagg"] = "Default",
-		["Zandalar - Gandling"] = "Default",
 		["Zandalar - Zandalar Tribe"] = "Default",
-	},
-	["global"] = {
-		["version"] = "11.1.9",
+		["Zandalar - Gandling"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

@@ -1,7 +1,7 @@
 
 JoanasGuides_Character = {
-	["bookmarks"] = {
-	},
 	["knownTaxis"] = {
+	},
+	["bookmarks"] = {
 	},
 }

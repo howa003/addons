@@ -1,5 +1,11 @@
 
 RCLootCouncilDB = {
+	["profileKeys"] = {
+		["Zowl - Golemagg"] = "Default",
+		["Banger - Golemagg"] = "Default",
+		["Azerot - Golemagg"] = "Default",
+		["Zandalar - Golemagg"] = "Default",
+	},
 	["global"] = {
 		["logMaxEntries"] = 4000,
 		["log"] = {
@@ -4069,362 +4075,9 @@ RCLootCouncilDB = {
 		["Classic_game"] = 11,
 		["Classic_oldVersion"] = "0.17.1",
 		["locale"] = "enUS",
-		["verTestCandidates"] = {
-			["Mystögan-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676222824, -- [3]
-			},
-			["Tominda-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676222824, -- [3]
-			},
-			["Krutodin-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676221889, -- [3]
-			},
-			["Flowerist-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676201491, -- [3]
-			},
-			["Jehmambah-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676222824, -- [3]
-			},
-			["Gryfel-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676222824, -- [3]
-			},
-			["Oslica-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676222824, -- [3]
-			},
-			["Kriplellin-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676277125, -- [3]
-			},
-			["Angrön-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676222824, -- [3]
-			},
-			["Stepas-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676211986, -- [3]
-			},
-			["Tominou-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676210652, -- [3]
-			},
-			["Cizosaurus-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676202627, -- [3]
-			},
-			["Chmllda-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676277125, -- [3]
-			},
-			["Confiknez-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676222824, -- [3]
-			},
-			["Mastarpone-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676210652, -- [3]
-			},
-			["Zdrc-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676202749, -- [3]
-			},
-			["Prdzriti-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676211439, -- [3]
-			},
-			["Pomenato-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676210652, -- [3]
-			},
-			["Raptorkacz-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676277125, -- [3]
-			},
-			["Spoderlock-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676277125, -- [3]
-			},
-			["Fireburns-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676211986, -- [3]
-			},
-			["Skapitos-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676222655, -- [3]
-			},
-			["Elkredence-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676277125, -- [3]
-			},
-			["Zdechliak-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676222823, -- [3]
-			},
-			["Wrathie-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676202749, -- [3]
-			},
-			["Puky-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676222824, -- [3]
-			},
-			["Misshealin-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676222824, -- [3]
-			},
-			["Vypol-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676202749, -- [3]
-			},
-			["Nobrainopain-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676211890, -- [3]
-			},
-			["Vopicaqq-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676277125, -- [3]
-			},
-			["Breesix-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676222824, -- [3]
-			},
-			["Geeners-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676222824, -- [3]
-			},
-			["Zukkzug-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676202749, -- [3]
-			},
-			["Santtii-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676222824, -- [3]
-			},
-			["Badkittyx-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676211987, -- [3]
-			},
-			["Kimby-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676222824, -- [3]
-			},
-			["Tomindos-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676202749, -- [3]
-			},
-			["Førc-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676200636, -- [3]
-			},
-			["éuropa-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676202749, -- [3]
-			},
-			["Ratsam-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676211986, -- [3]
-			},
-			["Wôrlm-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676222824, -- [3]
-			},
-			["Kofoa-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676222824, -- [3]
-			},
-			["Aggai-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676202080, -- [3]
-			},
-			["Bioohazard-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676222824, -- [3]
-			},
-			["Ugarra-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676222824, -- [3]
-			},
-			["Spoly-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676222824, -- [3]
-			},
-			["Deathko-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676277125, -- [3]
-			},
-			["Tankkys-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676222824, -- [3]
-			},
-			["Craxiee-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676200445, -- [3]
-			},
-			["Krutto-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676199729, -- [3]
-			},
-			["Vernitka-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676202749, -- [3]
-			},
-			["Zowl-Golemagg"] = {
-				"0.17.1", -- [1]
-				nil, -- [2]
-				1676275948, -- [3]
-			},
-			["Saktak-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676202314, -- [3]
-			},
-			["Tominny-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676210501, -- [3]
-			},
-			["Theolin-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676222824, -- [3]
-			},
-			["Zandalar-Golemagg"] = {
-				"0.17.1", -- [1]
-				nil, -- [2]
-				1676277125, -- [3]
-			},
-			["årch-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676200160, -- [3]
-			},
-			["Diego-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676222824, -- [3]
-			},
-			["Tomigege-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676202627, -- [3]
-			},
-			["Miosham-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676202749, -- [3]
-			},
-			["Karrx-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676202749, -- [3]
-			},
-			["Quickster-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676221133, -- [3]
-			},
-			["Kredencium-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676222824, -- [3]
-			},
-			["Ugara-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676200227, -- [3]
-			},
-			["Norry-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676201921, -- [3]
-			},
-			["Wokujin-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676222824, -- [3]
-			},
-			["Rogalo-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676222824, -- [3]
-			},
-			["Zld-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676222824, -- [3]
-			},
-			["Tyralyon-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1676222825, -- [3]
-			},
-		},
 		["version"] = "2.19.3",
 		["regionID"] = 3,
 		["Classic_version"] = "0.17.1",
-	},
-	["profileKeys"] = {
-		["Zowl - Golemagg"] = "Default",
-		["Banger - Golemagg"] = "Default",
-		["Azerot - Golemagg"] = "Default",
-		["Zandalar - Golemagg"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -4440,14 +4093,14 @@ RCLootCouncilDB = {
 						0.84, -- [2]
 						1, -- [3]
 					},
+					["background"] = "Blizzard Garrison Background 3",
+					["border"] = "Blizzard Dialog",
 					["borderColor"] = {
 						0.62, -- [1]
 						0.86, -- [2]
 						0.87, -- [3]
 						0.85, -- [4]
 					},
-					["background"] = "Blizzard Garrison Background 3",
-					["border"] = "Blizzard Dialog",
 				},
 				["lootframe"] = {
 					["bgColor"] = {
@@ -4455,14 +4108,14 @@ RCLootCouncilDB = {
 						0.84, -- [2]
 						1, -- [3]
 					},
+					["background"] = "Blizzard Garrison Background 3",
+					["border"] = "Blizzard Dialog",
 					["borderColor"] = {
 						0.62, -- [1]
 						0.86, -- [2]
 						0.87, -- [3]
 						0.85, -- [4]
 					},
-					["background"] = "Blizzard Garrison Background 3",
-					["border"] = "Blizzard Dialog",
 				},
 				["default"] = {
 					["bgColor"] = {
@@ -4470,14 +4123,14 @@ RCLootCouncilDB = {
 						0.84, -- [2]
 						1, -- [3]
 					},
+					["background"] = "Blizzard Garrison Background 3",
+					["border"] = "Blizzard Dialog",
 					["borderColor"] = {
 						0.62, -- [1]
 						0.86, -- [2]
 						0.87, -- [3]
 						0.85, -- [4]
 					},
-					["background"] = "Blizzard Garrison Background 3",
-					["border"] = "Blizzard Dialog",
 				},
 				["votingframe"] = {
 					["y"] = 46.76936043692876,
@@ -4529,14 +4182,14 @@ RCLootCouncilLootDB = {
 					["instance"] = "The Obsidian Sanctum-25 Player",
 					["owner"] = "Tominda-Golemagg",
 					["response"] = "Upgrade",
-					["typeCode"] = "default",
+					["isAwardReason"] = false,
 					["difficultyID"] = 4,
 					["lootWon"] = "|cffa335ee|Hitem:40632::::::::80:::::::::|h[Crown of the Lost Protector]|h|r",
-					["id"] = "1674064451-2",
+					["votes"] = 2,
 					["date"] = "18/01/23",
 					["responseID"] = 3,
-					["votes"] = 2,
-					["isAwardReason"] = false,
+					["id"] = "1674064451-2",
+					["typeCode"] = "default",
 				}, -- [1]
 			},
 			["Mastarpone-Golemagg"] = {
@@ -4557,14 +4210,14 @@ RCLootCouncilLootDB = {
 					["instance"] = "Naxxramas-25 Player",
 					["owner"] = "Tominda-Golemagg",
 					["response"] = "BiS",
-					["typeCode"] = "default",
+					["isAwardReason"] = false,
 					["difficultyID"] = 4,
 					["lootWon"] = "|cffa335ee|Hitem:44577::::::::80:::::::::|h[Heroic Key to the Focusing Iris]|h|r",
-					["id"] = "1674062525-0",
+					["votes"] = 2,
 					["date"] = "18/01/23",
 					["responseID"] = 1,
-					["votes"] = 2,
-					["isAwardReason"] = false,
+					["id"] = "1674062525-0",
+					["typeCode"] = "default",
 				}, -- [1]
 			},
 			["Zdrc-Golemagg"] = {
@@ -4580,7 +4233,7 @@ RCLootCouncilLootDB = {
 					["itemReplaced1"] = "|cffa335ee|Hitem:39714:3789:::::::80:::::::::|h[Webbed Death]|h|r",
 					["typeCode"] = "default",
 					["owner"] = "Tominda-Golemagg",
-					["instance"] = "The Obsidian Sanctum-25 Player",
+					["votes"] = 1,
 					["response"] = "BiS",
 					["id"] = "1674064627-5",
 					["difficultyID"] = 4,
@@ -4594,7 +4247,7 @@ RCLootCouncilLootDB = {
 					},
 					["responseID"] = 1,
 					["itemReplaced2"] = "|cffa335ee|Hitem:37667:1606:::::::80:::::::::|h[The Fleshshaper]|h|r",
-					["votes"] = 1,
+					["instance"] = "The Obsidian Sanctum-25 Player",
 				}, -- [1]
 			},
 			["Mystögan-Golemagg"] = {
@@ -4610,21 +4263,21 @@ RCLootCouncilLootDB = {
 					["itemReplaced1"] = "|cffa335ee|Hitem:40388:3827:::::::80:::::::::|h[Journey's End]|h|r",
 					["instance"] = "Ulduar-25 Player",
 					["owner"] = "Ugarra-Golemagg",
-					["typeCode"] = "default",
-					["response"] = "BiS",
-					["id"] = "1675009290-27",
-					["difficultyID"] = 176,
-					["lootWon"] = "|cffa335ee|Hitem:45613::::::::80:::::::::|h[Dreambinder]|h|r",
-					["note"] = "asi kyssko kek ? :D",
-					["isAwardReason"] = false,
-					["responseID"] = 1,
-					["boss"] = "Freya",
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
+					["response"] = "BiS",
+					["boss"] = "Freya",
+					["difficultyID"] = 176,
+					["lootWon"] = "|cffa335ee|Hitem:45613::::::::80:::::::::|h[Dreambinder]|h|r",
+					["note"] = "asi kyssko kek ? :D",
+					["isAwardReason"] = false,
+					["responseID"] = 1,
+					["id"] = "1675009290-27",
+					["typeCode"] = "default",
 				}, -- [1]
 			},
 			["Totterr-Golemagg"] = {
@@ -4646,369 +4299,14 @@ RCLootCouncilLootDB = {
 					["instance"] = "The Obsidian Sanctum-25 Player",
 					["owner"] = "Tominda-Golemagg",
 					["response"] = "BiS",
-					["typeCode"] = "default",
+					["isAwardReason"] = false,
 					["difficultyID"] = 4,
 					["lootWon"] = "|cffa335ee|Hitem:40591::::::::80:::::::::|h[Melancholy Sabatons]|h|r",
+					["votes"] = 0,
+					["date"] = "18/01/23",
+					["responseID"] = 1,
 					["id"] = "1674064843-10",
-					["date"] = "18/01/23",
-					["responseID"] = 1,
-					["votes"] = 0,
-					["isAwardReason"] = false,
-				}, -- [1]
-			},
-			["Scallian-Golemagg"] = {
-				{
-					["mapID"] = 615,
-					["color"] = {
-						0.77, -- [1]
-						0.74, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["class"] = "WARRIOR",
-					["iSubClass"] = 0,
-					["groupSize"] = 25,
-					["boss"] = "Sartharion",
-					["time"] = "19:58:41",
-					["iClass"] = 4,
-					["itemReplaced1"] = "|cffa335ee|Hitem:42645::40037::::::80:::::::::|h[Titanium Impact Choker]|h|r",
-					["instance"] = "The Obsidian Sanctum-25 Player",
-					["owner"] = "Tominda-Golemagg",
-					["response"] = "Off Spec",
 					["typeCode"] = "default",
-					["difficultyID"] = 4,
-					["lootWon"] = "|cffa335ee|Hitem:40387::::::::80:::::::::|h[Boundless Ambition]|h|r",
-					["id"] = "1674064721-6",
-					["date"] = "18/01/23",
-					["responseID"] = 5,
-					["votes"] = 0,
-					["isAwardReason"] = false,
-				}, -- [1]
-			},
-			["Archeplague-Golemagg"] = {
-				{
-					["mapID"] = 533,
-					["date"] = "18/01/23",
-					["class"] = "DEATHKNIGHT",
-					["iSubClass"] = 0,
-					["groupSize"] = 25,
-					["boss"] = "Kel'Thuzad",
-					["time"] = "19:23:12",
-					["iClass"] = 2,
-					["itemReplaced1"] = "|cffa335ee|Hitem:39730:3370:::::::80:::::::::|h[Widow's Fury]|h|r",
-					["typeCode"] = "default",
-					["owner"] = "Tominda-Golemagg",
-					["instance"] = "Naxxramas-25 Player",
-					["response"] = "BiS",
-					["id"] = "1674062592-1",
-					["difficultyID"] = 4,
-					["lootWon"] = "|cffa335ee|Hitem:40402::::::::80:::::::::|h[Last Laugh]|h|r",
-					["isAwardReason"] = false,
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["responseID"] = 1,
-					["itemReplaced2"] = "|cffa335ee|Hitem:40491:3368:::::::80:::::::::|h[Hailstorm]|h|r",
-					["votes"] = 3,
-				}, -- [1]
-				{
-					["mapID"] = 615,
-					["color"] = {
-						0, -- [1]
-						0.84, -- [2]
-						0.68, -- [3]
-						1, -- [4]
-					},
-					["class"] = "DEATHKNIGHT",
-					["iSubClass"] = 0,
-					["groupSize"] = 25,
-					["boss"] = "Sartharion",
-					["time"] = "19:54:31",
-					["iClass"] = 15,
-					["itemReplaced1"] = "|cffa335ee|Hitem:41386::41400:42702:::::80:::::::::|h[Spiked Titansteel Helm]|h|r",
-					["instance"] = "The Obsidian Sanctum-25 Player",
-					["owner"] = "Tominda-Golemagg",
-					["response"] = "2nd BiS",
-					["typeCode"] = "default",
-					["difficultyID"] = 4,
-					["lootWon"] = "|cffa335ee|Hitem:40633::::::::80:::::::::|h[Crown of the Lost Vanquisher]|h|r",
-					["id"] = "1674064471-3",
-					["date"] = "18/01/23",
-					["responseID"] = 2,
-					["votes"] = 2,
-					["isAwardReason"] = false,
-				}, -- [2]
-			},
-			["Misshealin-Golemagg"] = {
-				{
-					["mapID"] = 603,
-					["date"] = "29/01/23",
-					["class"] = "PRIEST",
-					["iSubClass"] = 0,
-					["groupSize"] = 25,
-					["votes"] = 5,
-					["time"] = "18:21:40",
-					["iClass"] = 15,
-					["itemReplaced1"] = "|cffa335ee|Hitem:40398:3719:39998:40026:::::80:::::::::|h[Leggings of Mortal Arrogance]|h|r",
-					["instance"] = "Ulduar-25 Player",
-					["owner"] = "Ugarra-Golemagg",
-					["typeCode"] = "default",
-					["response"] = "BiS",
-					["id"] = "1675009300-28",
-					["difficultyID"] = 176,
-					["lootWon"] = "|cffa335ee|Hitem:45653::::::::80:::::::::|h[Legplates of the Wayward Conqueror]|h|r",
-					["note"] = "4set, budu bomby",
-					["isAwardReason"] = false,
-					["responseID"] = 1,
-					["boss"] = "Freya",
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-				}, -- [1]
-				{
-					["mapID"] = 603,
-					["color"] = {
-						0, -- [1]
-						0.7, -- [2]
-						0.7, -- [3]
-						1, -- [4]
-					},
-					["class"] = "PRIEST",
-					["iSubClass"] = 1,
-					["groupSize"] = 25,
-					["boss"] = "Freya",
-					["time"] = "18:22:58",
-					["iClass"] = 4,
-					["itemReplaced1"] = "|cffa335ee|Hitem:40750:3606:::::::80:::::::::|h[Xintor's Expeditionary Boots]|h|r",
-					["instance"] = "Ulduar-25 Player",
-					["owner"] = "Ugarra-Golemagg",
-					["response"] = "Upgrade",
-					["typeCode"] = "default",
-					["difficultyID"] = 176,
-					["lootWon"] = "|cffa335ee|Hitem:45483::::::::80:::::::::|h[Boots of the Servant]|h|r",
-					["id"] = "1675009378-29",
-					["date"] = "29/01/23",
-					["responseID"] = 3,
-					["votes"] = 4,
-					["isAwardReason"] = false,
-				}, -- [2]
-			},
-			["Zowl-Golemagg"] = {
-				{
-					["mapID"] = 615,
-					["color"] = {
-						0, -- [1]
-						0.51, -- [2]
-						0.7, -- [3]
-						1, -- [4]
-					},
-					["class"] = "DRUID",
-					["iSubClass"] = 2,
-					["groupSize"] = 25,
-					["boss"] = "Sartharion",
-					["time"] = "19:56:18",
-					["iClass"] = 4,
-					["itemReplaced1"] = "|cffa335ee|Hitem:34181:2748:40049:40049:40014::::80:::::::::|h[Leggings of Calamity]|h|r",
-					["instance"] = "The Obsidian Sanctum-25 Player",
-					["owner"] = "Tominda-Golemagg",
-					["response"] = "Upgrade",
-					["typeCode"] = "default",
-					["difficultyID"] = 4,
-					["lootWon"] = "|cffa335ee|Hitem:40379::::::::80:::::::::|h[Legguards of the Boneyard]|h|r",
-					["id"] = "1674064578-4",
-					["date"] = "18/01/23",
-					["responseID"] = 3,
-					["votes"] = 2,
-					["isAwardReason"] = false,
-				}, -- [1]
-				{
-					["mapID"] = 615,
-					["color"] = {
-						0, -- [1]
-						0.84, -- [2]
-						0.68, -- [3]
-						1, -- [4]
-					},
-					["class"] = "DRUID",
-					["iSubClass"] = 1,
-					["groupSize"] = 25,
-					["boss"] = "Sartharion",
-					["time"] = "19:59:03",
-					["iClass"] = 4,
-					["itemReplaced1"] = "|cffa335ee|Hitem:34181:2748:40049:40049:40014::::80:::::::::|h[Leggings of Calamity]|h|r",
-					["instance"] = "The Obsidian Sanctum-25 Player",
-					["owner"] = "Tominda-Golemagg",
-					["response"] = "2nd BiS",
-					["typeCode"] = "default",
-					["difficultyID"] = 4,
-					["lootWon"] = "|cffa335ee|Hitem:40398::::::::80:::::::::|h[Leggings of Mortal Arrogance]|h|r",
-					["id"] = "1674064743-7",
-					["date"] = "18/01/23",
-					["responseID"] = 2,
-					["votes"] = 3,
-					["isAwardReason"] = false,
-				}, -- [2]
-			},
-			["Tominda-Golemagg"] = {
-				{
-					["mapID"] = 603,
-					["date"] = "12/02/23",
-					["class"] = "PRIEST",
-					["iSubClass"] = 4,
-					["groupSize"] = 25,
-					["isAwardReason"] = true,
-					["time"] = "18:20:52",
-					["iClass"] = 4,
-					["id"] = "1676218852-19",
-					["owner"] = "Tominda-Golemagg",
-					["response"] = "Disenchant",
-					["difficultyID"] = 176,
-					["lootWon"] = "|cff1eff00|Hitem:36387::::::-43:328204366:80:::::::::|h[Revenant Belt of the Soldier]|h|r",
-					["color"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-					["responseID"] = 1,
-					["instance"] = "Ulduar-25 Player",
-					["boss"] = "Thorim",
-				}, -- [1]
-				{
-					["mapID"] = 603,
-					["date"] = "12/02/23",
-					["class"] = "PRIEST",
-					["iSubClass"] = 3,
-					["groupSize"] = 25,
-					["isAwardReason"] = true,
-					["time"] = "18:21:28",
-					["iClass"] = 4,
-					["id"] = "1676218888-20",
-					["owner"] = "Tominda-Golemagg",
-					["response"] = "Disenchant",
-					["difficultyID"] = 176,
-					["lootWon"] = "|cff0070dd|Hitem:37781::::::::80:::::::::|h[Grips of the Warming Heart]|h|r",
-					["color"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-					["responseID"] = 1,
-					["instance"] = "Ulduar-25 Player",
-					["boss"] = "Thorim",
-				}, -- [2]
-				{
-					["mapID"] = 603,
-					["date"] = "12/02/23",
-					["class"] = "PRIEST",
-					["iSubClass"] = 15,
-					["groupSize"] = 25,
-					["isAwardReason"] = true,
-					["time"] = "18:21:30",
-					["iClass"] = 2,
-					["id"] = "1676218890-21",
-					["owner"] = "Tominda-Golemagg",
-					["response"] = "Disenchant",
-					["difficultyID"] = 176,
-					["lootWon"] = "|cff1eff00|Hitem:36485::::::-40:207421485:80:::::::::|h[Sinuous Keris of the Bandit]|h|r",
-					["color"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-					["responseID"] = 1,
-					["instance"] = "Ulduar-25 Player",
-					["boss"] = "Thorim",
-				}, -- [3]
-				{
-					["mapID"] = 603,
-					["date"] = "12/02/23",
-					["class"] = "PRIEST",
-					["iSubClass"] = 3,
-					["groupSize"] = 25,
-					["isAwardReason"] = true,
-					["time"] = "18:21:36",
-					["iClass"] = 4,
-					["id"] = "1676218896-22",
-					["owner"] = "Tominda-Golemagg",
-					["response"] = "Disenchant",
-					["difficultyID"] = 176,
-					["lootWon"] = "|cff1eff00|Hitem:36272::::::-12:703070309:80:::::::::|h[Ulduar Legguards of the Boar]|h|r",
-					["color"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-					["responseID"] = 1,
-					["instance"] = "Ulduar-25 Player",
-					["boss"] = "Thorim",
-				}, -- [4]
-			},
-			["Jehmambah-Golemagg"] = {
-				{
-					["mapID"] = 615,
-					["color"] = {
-						0.77, -- [1]
-						0.74, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["class"] = "HUNTER",
-					["iSubClass"] = 13,
-					["groupSize"] = 25,
-					["boss"] = "Sartharion",
-					["time"] = "19:59:38",
-					["iClass"] = 2,
-					["itemReplaced1"] = "|cffa335ee|Hitem:40388:3828:::::::80:::::::::|h[Journey's End]|h|r",
-					["instance"] = "The Obsidian Sanctum-25 Player",
-					["owner"] = "Tominda-Golemagg",
-					["response"] = "Off Spec",
-					["typeCode"] = "default",
-					["difficultyID"] = 4,
-					["lootWon"] = "|cffa335ee|Hitem:40383::::::::80:::::::::|h[Calamity's Grasp]|h|r",
-					["id"] = "1674064778-9",
-					["date"] = "18/01/23",
-					["responseID"] = 5,
-					["votes"] = 0,
-					["isAwardReason"] = false,
-				}, -- [1]
-			},
-			["Chmllda-Golemagg"] = {
-				{
-					["mapID"] = 603,
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["class"] = "SHAMAN",
-					["iSubClass"] = 0,
-					["groupSize"] = 25,
-					["boss"] = "Freya",
-					["time"] = "18:21:21",
-					["iClass"] = 15,
-					["itemReplaced1"] = "|cffa335ee|Hitem:40517:3721:40049:40049:::::80:::::::::|h[Valorous Earthshatter Kilt]|h|r",
-					["instance"] = "Ulduar-25 Player",
-					["owner"] = "Ugarra-Golemagg",
-					["response"] = "BiS",
-					["typeCode"] = "default",
-					["difficultyID"] = 176,
-					["lootWon"] = "|cffa335ee|Hitem:45654::::::::80:::::::::|h[Legplates of the Wayward Protector]|h|r",
-					["id"] = "1675009281-26",
-					["date"] = "29/01/23",
-					["responseID"] = 1,
-					["votes"] = 1,
-					["isAwardReason"] = false,
 				}, -- [1]
 			},
 			["Confiknez-Golemagg"] = {
@@ -5030,14 +4328,369 @@ RCLootCouncilLootDB = {
 					["instance"] = "The Obsidian Sanctum-25 Player",
 					["owner"] = "Tominda-Golemagg",
 					["response"] = "BiS",
-					["typeCode"] = "default",
+					["isAwardReason"] = false,
 					["difficultyID"] = 4,
 					["lootWon"] = "|cffa335ee|Hitem:40558::::::::80:::::::::|h[Arcanic Tramplers]|h|r",
-					["id"] = "1674064768-8",
+					["votes"] = 3,
 					["date"] = "18/01/23",
 					["responseID"] = 1,
+					["id"] = "1674064768-8",
+					["typeCode"] = "default",
+				}, -- [1]
+			},
+			["Archeplague-Golemagg"] = {
+				{
+					["mapID"] = 533,
+					["date"] = "18/01/23",
+					["class"] = "DEATHKNIGHT",
+					["iSubClass"] = 0,
+					["groupSize"] = 25,
+					["boss"] = "Kel'Thuzad",
+					["time"] = "19:23:12",
+					["iClass"] = 2,
+					["itemReplaced1"] = "|cffa335ee|Hitem:39730:3370:::::::80:::::::::|h[Widow's Fury]|h|r",
+					["typeCode"] = "default",
+					["owner"] = "Tominda-Golemagg",
 					["votes"] = 3,
+					["response"] = "BiS",
+					["id"] = "1674062592-1",
+					["difficultyID"] = 4,
+					["lootWon"] = "|cffa335ee|Hitem:40402::::::::80:::::::::|h[Last Laugh]|h|r",
 					["isAwardReason"] = false,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 1,
+					["itemReplaced2"] = "|cffa335ee|Hitem:40491:3368:::::::80:::::::::|h[Hailstorm]|h|r",
+					["instance"] = "Naxxramas-25 Player",
+				}, -- [1]
+				{
+					["mapID"] = 615,
+					["color"] = {
+						0, -- [1]
+						0.84, -- [2]
+						0.68, -- [3]
+						1, -- [4]
+					},
+					["class"] = "DEATHKNIGHT",
+					["iSubClass"] = 0,
+					["groupSize"] = 25,
+					["boss"] = "Sartharion",
+					["time"] = "19:54:31",
+					["iClass"] = 15,
+					["itemReplaced1"] = "|cffa335ee|Hitem:41386::41400:42702:::::80:::::::::|h[Spiked Titansteel Helm]|h|r",
+					["instance"] = "The Obsidian Sanctum-25 Player",
+					["owner"] = "Tominda-Golemagg",
+					["response"] = "2nd BiS",
+					["isAwardReason"] = false,
+					["difficultyID"] = 4,
+					["lootWon"] = "|cffa335ee|Hitem:40633::::::::80:::::::::|h[Crown of the Lost Vanquisher]|h|r",
+					["votes"] = 2,
+					["date"] = "18/01/23",
+					["responseID"] = 2,
+					["id"] = "1674064471-3",
+					["typeCode"] = "default",
+				}, -- [2]
+			},
+			["Misshealin-Golemagg"] = {
+				{
+					["mapID"] = 603,
+					["date"] = "29/01/23",
+					["class"] = "PRIEST",
+					["iSubClass"] = 0,
+					["groupSize"] = 25,
+					["votes"] = 5,
+					["time"] = "18:21:40",
+					["iClass"] = 15,
+					["itemReplaced1"] = "|cffa335ee|Hitem:40398:3719:39998:40026:::::80:::::::::|h[Leggings of Mortal Arrogance]|h|r",
+					["instance"] = "Ulduar-25 Player",
+					["owner"] = "Ugarra-Golemagg",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["response"] = "BiS",
+					["boss"] = "Freya",
+					["difficultyID"] = 176,
+					["lootWon"] = "|cffa335ee|Hitem:45653::::::::80:::::::::|h[Legplates of the Wayward Conqueror]|h|r",
+					["note"] = "4set, budu bomby",
+					["isAwardReason"] = false,
+					["responseID"] = 1,
+					["id"] = "1675009300-28",
+					["typeCode"] = "default",
+				}, -- [1]
+				{
+					["mapID"] = 603,
+					["color"] = {
+						0, -- [1]
+						0.7, -- [2]
+						0.7, -- [3]
+						1, -- [4]
+					},
+					["class"] = "PRIEST",
+					["iSubClass"] = 1,
+					["groupSize"] = 25,
+					["boss"] = "Freya",
+					["time"] = "18:22:58",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:40750:3606:::::::80:::::::::|h[Xintor's Expeditionary Boots]|h|r",
+					["instance"] = "Ulduar-25 Player",
+					["owner"] = "Ugarra-Golemagg",
+					["response"] = "Upgrade",
+					["isAwardReason"] = false,
+					["difficultyID"] = 176,
+					["lootWon"] = "|cffa335ee|Hitem:45483::::::::80:::::::::|h[Boots of the Servant]|h|r",
+					["votes"] = 4,
+					["date"] = "29/01/23",
+					["responseID"] = 3,
+					["id"] = "1675009378-29",
+					["typeCode"] = "default",
+				}, -- [2]
+			},
+			["Chmllda-Golemagg"] = {
+				{
+					["mapID"] = 603,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "SHAMAN",
+					["iSubClass"] = 0,
+					["groupSize"] = 25,
+					["boss"] = "Freya",
+					["time"] = "18:21:21",
+					["iClass"] = 15,
+					["itemReplaced1"] = "|cffa335ee|Hitem:40517:3721:40049:40049:::::80:::::::::|h[Valorous Earthshatter Kilt]|h|r",
+					["instance"] = "Ulduar-25 Player",
+					["owner"] = "Ugarra-Golemagg",
+					["response"] = "BiS",
+					["isAwardReason"] = false,
+					["difficultyID"] = 176,
+					["lootWon"] = "|cffa335ee|Hitem:45654::::::::80:::::::::|h[Legplates of the Wayward Protector]|h|r",
+					["votes"] = 1,
+					["date"] = "29/01/23",
+					["responseID"] = 1,
+					["id"] = "1675009281-26",
+					["typeCode"] = "default",
+				}, -- [1]
+			},
+			["Jehmambah-Golemagg"] = {
+				{
+					["mapID"] = 615,
+					["color"] = {
+						0.77, -- [1]
+						0.74, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "HUNTER",
+					["iSubClass"] = 13,
+					["groupSize"] = 25,
+					["boss"] = "Sartharion",
+					["time"] = "19:59:38",
+					["iClass"] = 2,
+					["itemReplaced1"] = "|cffa335ee|Hitem:40388:3828:::::::80:::::::::|h[Journey's End]|h|r",
+					["instance"] = "The Obsidian Sanctum-25 Player",
+					["owner"] = "Tominda-Golemagg",
+					["response"] = "Off Spec",
+					["isAwardReason"] = false,
+					["difficultyID"] = 4,
+					["lootWon"] = "|cffa335ee|Hitem:40383::::::::80:::::::::|h[Calamity's Grasp]|h|r",
+					["votes"] = 0,
+					["date"] = "18/01/23",
+					["responseID"] = 5,
+					["id"] = "1674064778-9",
+					["typeCode"] = "default",
+				}, -- [1]
+			},
+			["Tominda-Golemagg"] = {
+				{
+					["mapID"] = 603,
+					["date"] = "12/02/23",
+					["class"] = "PRIEST",
+					["iSubClass"] = 4,
+					["groupSize"] = 25,
+					["isAwardReason"] = true,
+					["time"] = "18:20:52",
+					["iClass"] = 4,
+					["id"] = "1676218852-19",
+					["owner"] = "Tominda-Golemagg",
+					["response"] = "Disenchant",
+					["difficultyID"] = 176,
+					["lootWon"] = "|cff1eff00|Hitem:36387::::::-43:328204366:80:::::::::|h[Revenant Belt of the Soldier]|h|r",
+					["boss"] = "Thorim",
+					["responseID"] = 1,
+					["instance"] = "Ulduar-25 Player",
+					["color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+				}, -- [1]
+				{
+					["mapID"] = 603,
+					["date"] = "12/02/23",
+					["class"] = "PRIEST",
+					["iSubClass"] = 3,
+					["groupSize"] = 25,
+					["isAwardReason"] = true,
+					["time"] = "18:21:28",
+					["iClass"] = 4,
+					["id"] = "1676218888-20",
+					["owner"] = "Tominda-Golemagg",
+					["response"] = "Disenchant",
+					["difficultyID"] = 176,
+					["lootWon"] = "|cff0070dd|Hitem:37781::::::::80:::::::::|h[Grips of the Warming Heart]|h|r",
+					["boss"] = "Thorim",
+					["responseID"] = 1,
+					["instance"] = "Ulduar-25 Player",
+					["color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+				}, -- [2]
+				{
+					["mapID"] = 603,
+					["date"] = "12/02/23",
+					["class"] = "PRIEST",
+					["iSubClass"] = 15,
+					["groupSize"] = 25,
+					["isAwardReason"] = true,
+					["time"] = "18:21:30",
+					["iClass"] = 2,
+					["id"] = "1676218890-21",
+					["owner"] = "Tominda-Golemagg",
+					["response"] = "Disenchant",
+					["difficultyID"] = 176,
+					["lootWon"] = "|cff1eff00|Hitem:36485::::::-40:207421485:80:::::::::|h[Sinuous Keris of the Bandit]|h|r",
+					["boss"] = "Thorim",
+					["responseID"] = 1,
+					["instance"] = "Ulduar-25 Player",
+					["color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+				}, -- [3]
+				{
+					["mapID"] = 603,
+					["date"] = "12/02/23",
+					["class"] = "PRIEST",
+					["iSubClass"] = 3,
+					["groupSize"] = 25,
+					["isAwardReason"] = true,
+					["time"] = "18:21:36",
+					["iClass"] = 4,
+					["id"] = "1676218896-22",
+					["owner"] = "Tominda-Golemagg",
+					["response"] = "Disenchant",
+					["difficultyID"] = 176,
+					["lootWon"] = "|cff1eff00|Hitem:36272::::::-12:703070309:80:::::::::|h[Ulduar Legguards of the Boar]|h|r",
+					["boss"] = "Thorim",
+					["responseID"] = 1,
+					["instance"] = "Ulduar-25 Player",
+					["color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+				}, -- [4]
+			},
+			["Zowl-Golemagg"] = {
+				{
+					["mapID"] = 615,
+					["color"] = {
+						0, -- [1]
+						0.51, -- [2]
+						0.7, -- [3]
+						1, -- [4]
+					},
+					["class"] = "DRUID",
+					["iSubClass"] = 2,
+					["groupSize"] = 25,
+					["boss"] = "Sartharion",
+					["time"] = "19:56:18",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:34181:2748:40049:40049:40014::::80:::::::::|h[Leggings of Calamity]|h|r",
+					["instance"] = "The Obsidian Sanctum-25 Player",
+					["owner"] = "Tominda-Golemagg",
+					["response"] = "Upgrade",
+					["isAwardReason"] = false,
+					["difficultyID"] = 4,
+					["lootWon"] = "|cffa335ee|Hitem:40379::::::::80:::::::::|h[Legguards of the Boneyard]|h|r",
+					["votes"] = 2,
+					["date"] = "18/01/23",
+					["responseID"] = 3,
+					["id"] = "1674064578-4",
+					["typeCode"] = "default",
+				}, -- [1]
+				{
+					["mapID"] = 615,
+					["color"] = {
+						0, -- [1]
+						0.84, -- [2]
+						0.68, -- [3]
+						1, -- [4]
+					},
+					["class"] = "DRUID",
+					["iSubClass"] = 1,
+					["groupSize"] = 25,
+					["boss"] = "Sartharion",
+					["time"] = "19:59:03",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:34181:2748:40049:40049:40014::::80:::::::::|h[Leggings of Calamity]|h|r",
+					["instance"] = "The Obsidian Sanctum-25 Player",
+					["owner"] = "Tominda-Golemagg",
+					["response"] = "2nd BiS",
+					["isAwardReason"] = false,
+					["difficultyID"] = 4,
+					["lootWon"] = "|cffa335ee|Hitem:40398::::::::80:::::::::|h[Leggings of Mortal Arrogance]|h|r",
+					["votes"] = 3,
+					["date"] = "18/01/23",
+					["responseID"] = 2,
+					["id"] = "1674064743-7",
+					["typeCode"] = "default",
+				}, -- [2]
+			},
+			["Scallian-Golemagg"] = {
+				{
+					["mapID"] = 615,
+					["color"] = {
+						0.77, -- [1]
+						0.74, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "WARRIOR",
+					["iSubClass"] = 0,
+					["groupSize"] = 25,
+					["boss"] = "Sartharion",
+					["time"] = "19:58:41",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:42645::40037::::::80:::::::::|h[Titanium Impact Choker]|h|r",
+					["instance"] = "The Obsidian Sanctum-25 Player",
+					["owner"] = "Tominda-Golemagg",
+					["response"] = "Off Spec",
+					["isAwardReason"] = false,
+					["difficultyID"] = 4,
+					["lootWon"] = "|cffa335ee|Hitem:40387::::::::80:::::::::|h[Boundless Ambition]|h|r",
+					["votes"] = 0,
+					["date"] = "18/01/23",
+					["responseID"] = 5,
+					["id"] = "1674064721-6",
+					["typeCode"] = "default",
 				}, -- [1]
 			},
 		},

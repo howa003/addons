@@ -1,14 +1,3 @@
-VER 3 0000000000000018 " " "136085"
-#showtooltip
-/cancelform
-/cast Regrowth
-/targetlastenemy
-END
-VER 3 0000000000000406 " " "INV_MISC_QUESTIONMARK"
-/tar Darkspine Myr
-/script SetRaidTarget("target", 8);
-/cast Moonfire
-END
 VER 3 000000000000001B " " "136081"
 #showtooltip
 /cancelform
@@ -30,6 +19,17 @@ END
 VER 3 0000000000000410 " " "INV_MISC_QUESTIONMARK"
 /tar garhal
 /cast moonfire
+END
+VER 3 0000000000000018 " " "136085"
+#showtooltip
+/cancelform
+/cast Regrowth
+/targetlastenemy
+END
+VER 3 0000000000000406 " " "INV_MISC_QUESTIONMARK"
+/tar Darkspine Myr
+/script SetRaidTarget("target", 8);
+/cast Moonfire
 END
 VER 3 0000000000000002 "  " "136026"
 #showtooltip
@@ -216,13 +216,6 @@ VER 3 00000000000003D1 "LFM" "INV_MISC_QUESTIONMARK"
 /3 {circle} LFM Zul'Drak arena (Amphitheater of Anguish) quests {circle} (1 spot)
 /6 {circle} LFM Zul'Drak arena (Amphitheater of Anguish) quests {circle} (1 spot)
 END
-VER 3 000000000000001C "MAFO" "136081"
-#showtooltip
-/cancelform
-/tar Maffo
-/cast Rejuvenation
-/targetlastenemy
-END
 VER 3 0000000000000019 "MAFO" "136085"
 #showtooltip
 /cancelform
@@ -236,6 +229,13 @@ VER 3 0000000000000014 "MAFO" "136048"
 /tar Maffo
 /w Maffo YOUR ANUS HAS BEEN INNERVATED!!!
 /cast Innervate
+/targetlastenemy
+END
+VER 3 000000000000001C "MAFO" "136081"
+#showtooltip
+/cancelform
+/tar Maffo
+/cast Rejuvenation
 /targetlastenemy
 END
 VER 3 000000000000040D "mf" "INV_MISC_QUESTIONMARK"

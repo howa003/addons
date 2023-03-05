@@ -1,5 +1,19 @@
 
 AtlasLootClassicDB = {
+	["profileKeys"] = {
+		["Zowl - Golemagg"] = "Zowl - Golemagg",
+		["Tailcow - Golemagg"] = "Tailcow - Golemagg",
+		["Zandalar - Zandalar Tribe"] = "Zandalar - Zandalar Tribe",
+		["Meatcow - Golemagg"] = "Meatcow - Golemagg",
+		["Zandalara - Golemagg"] = "Zandalara - Golemagg",
+		["Leathercow - Golemagg"] = "Leathercow - Golemagg",
+		["Herbcow - Golemagg"] = "Herbcow - Golemagg",
+		["Zandalar - Golemagg"] = "Zandalar - Golemagg",
+		["Zandalar - Gandling"] = "Zandalar - Gandling",
+		["Banger - Golemagg"] = "Banger - Golemagg",
+		["Zandalar - Mograine"] = "Zandalar - Mograine",
+		["Azerot - Golemagg"] = "Azerot - Golemagg",
+	},
 	["global"] = {
 		["__addonrevision"] = 3010000,
 		["VendorPrice"] = {
@@ -203,135 +217,118 @@ AtlasLootClassicDB = {
 			[46081] = "cpvpWintergrasp:25",
 			[43031] = "epicurean:3",
 			[48716] = "EmblemOfHeroism:40",
-			[41230] = "honor:43400",
-			[41051] = "honor:43400",
-			[41235] = "honor:43400",
+			[40711] = "EmblemOfHeroism:15",
+			[40703] = "EmblemOfHeroism:50",
+			[41290] = "EmblemOfHeroism:30",
 			[41658] = "EmblemOfHeroism:45",
-			[41048] = "honor:21700",
+			[33862] = "Brewfest:200",
 			[41634] = "honor:21700",
 			[40684] = "EmblemOfHeroism:40",
 			[40700] = "EmblemOfHeroism:35",
 			[40716] = "EmblemOfHeroism:15",
-			[41234] = "honor:21700",
 			[41770] = "EmblemOfHeroism:30",
-			[41224] = "honor:13790",
+			[40748] = "EmblemOfValor:40",
+			[33864] = "Brewfest:50",
 			[41291] = "EmblemOfValor:30",
-			[33868] = "Brewfest:100",
-			[41836] = "honor:43400",
-			[42132] = "honor:21700",
-			[42128] = "honor:21700",
-			[42131] = "honor:21700",
-			[39728] = "EmblemOfValor:25",
+			[46088] = "cpvpWintergrasp:25",
+			[41325] = "EmblemOfValor:45",
+			[43020] = "epicurean:3",
+			[15200] = "honor:100",
+			[16549] = "honor:2500",
+			[40750] = "EmblemOfValor:40",
 			[18434] = "honor:400",
 			[42952] = "EmblemOfHeroism:40",
 			[44115] = "cpvpWintergrasp:9",
 			[42984] = "EmblemOfHeroism:40",
-			[41229] = "honor:21700",
+			[40207] = "EmblemOfValor:25",
 			[46082] = "cpvpWintergrasp:25",
 			[43032] = "epicurean:3",
-			[40702] = "EmblemOfHeroism:50",
+			[40191] = "EmblemOfValor:25",
 			[48685] = "EmblemOfHeroism:40",
-			[42115] = "honor:16590",
+			[46085] = "cpvpWintergrasp:25",
 			[42074] = "honor:33180",
-			[46084] = "cpvpWintergrasp:25",
-			[41676] = "EmblemOfValor:45",
+			[46087] = "cpvpWintergrasp:25",
+			[44231] = "EmblemOfHeroism:200",
 			[42122] = "honor:10850",
-			[18853] = "honor:400",
-			[39477] = "Brewfest:5",
+			[33863] = "Brewfest:200",
+			[42034] = "honor:33180",
 			[41659] = "EmblemOfValor:45",
 			[41675] = "EmblemOfHeroism:45",
-			[40718] = "EmblemOfValor:25",
+			[40636] = "EmblemOfValor:75",
 			[40685] = "EmblemOfHeroism:40",
 			[40701] = "EmblemOfHeroism:35",
 			[40717] = "EmblemOfValor:25",
 			[40733] = "EmblemOfValor:60",
 			[41771] = "EmblemOfValor:30",
-			[44891] = "cpvpWintergrasp:15",
-			[41324] = "EmblemOfHeroism:45",
+			[40612] = "EmblemOfHeroism:80",
+			[16335] = "honor:400",
 			[41308] = "EmblemOfValor:45",
 			[41835] = "honor:21700",
 			[16550] = "honor:2500",
-			[42075] = "honor:33180",
-			[39757] = "EmblemOfValor:25",
-			[48683] = "EmblemOfHeroism:40",
+			[48718] = "EmblemOfHeroism:65",
+			[40749] = "EmblemOfValor:40",
+			[40691] = "EmblemOfHeroism:40",
 			[22852] = "honor:1000",
 			[44906] = "cpvpWintergrasp:40",
-			[46083] = "cpvpWintergrasp:25",
+			[43017] = "epicurean:5",
 			[42985] = "EmblemOfHeroism:40",
 			[42073] = "honor:33180",
-			[43017] = "epicurean:5",
+			[46083] = "cpvpWintergrasp:25",
 			[43033] = "epicurean:3",
 			[42027] = "honor:16590",
-			[40691] = "EmblemOfHeroism:40",
-			[40749] = "EmblemOfValor:40",
-			[48718] = "EmblemOfHeroism:65",
+			[48683] = "EmblemOfHeroism:40",
+			[39757] = "EmblemOfValor:25",
+			[42075] = "honor:33180",
 			[41069] = "honor:21700",
-			[16335] = "honor:400",
-			[40612] = "EmblemOfHeroism:80",
-			[40636] = "EmblemOfValor:75",
-			[42034] = "honor:33180",
-			[33863] = "Brewfest:200",
-			[44231] = "EmblemOfHeroism:200",
-			[46087] = "cpvpWintergrasp:25",
-			[46085] = "cpvpWintergrasp:25",
-			[40191] = "EmblemOfValor:25",
-			[40207] = "EmblemOfValor:25",
+			[41324] = "EmblemOfHeroism:45",
+			[44891] = "cpvpWintergrasp:15",
+			[40718] = "EmblemOfValor:25",
+			[39477] = "Brewfest:5",
+			[18853] = "honor:400",
+			[41676] = "EmblemOfValor:45",
+			[46084] = "cpvpWintergrasp:25",
+			[42115] = "honor:16590",
+			[40702] = "EmblemOfHeroism:50",
+			[41229] = "honor:21700",
 			[40734] = "EmblemOfValor:60",
-			[40750] = "EmblemOfValor:40",
-			[16549] = "honor:2500",
-			[15200] = "honor:100",
-			[43020] = "epicurean:3",
-			[41325] = "EmblemOfValor:45",
-			[46088] = "cpvpWintergrasp:25",
-			[33864] = "Brewfest:50",
-			[40748] = "EmblemOfValor:40",
+			[39728] = "EmblemOfValor:25",
+			[42131] = "honor:21700",
+			[42128] = "honor:21700",
+			[42132] = "honor:21700",
+			[41836] = "honor:43400",
+			[33868] = "Brewfest:100",
+			[41224] = "honor:13790",
+			[41234] = "honor:21700",
 			[18427] = "honor:100",
-			[33862] = "Brewfest:200",
-			[41290] = "EmblemOfHeroism:30",
-			[40703] = "EmblemOfHeroism:50",
-			[40711] = "EmblemOfHeroism:15",
+			[41048] = "honor:21700",
+			[41235] = "honor:43400",
+			[41051] = "honor:43400",
+			[41230] = "honor:43400",
 		},
-	},
-	["profileKeys"] = {
-		["Zowl - Golemagg"] = "Zowl - Golemagg",
-		["Tailcow - Golemagg"] = "Tailcow - Golemagg",
-		["Zandalar - Zandalar Tribe"] = "Zandalar - Zandalar Tribe",
-		["Meatcow - Golemagg"] = "Meatcow - Golemagg",
-		["Zandalara - Golemagg"] = "Zandalara - Golemagg",
-		["Leathercow - Golemagg"] = "Leathercow - Golemagg",
-		["Azerot - Golemagg"] = "Azerot - Golemagg",
-		["Zandalar - Golemagg"] = "Zandalar - Golemagg",
-		["Zandalar - Gandling"] = "Zandalar - Gandling",
-		["Banger - Golemagg"] = "Banger - Golemagg",
-		["Zandalar - Mograine"] = "Zandalar - Mograine",
-		["Herbcow - Golemagg"] = "Herbcow - Golemagg",
 	},
 	["profiles"] = {
 		["Zowl - Golemagg"] = {
+			["minimap"] = {
+				["minimapPos"] = 186.0075215673785,
+			},
 			["GUI"] = {
 				["point"] = {
-					"TOP", -- [1]
+					"TOPRIGHT", -- [1]
 					nil, -- [2]
-					"TOP", -- [3]
-					111.0768966674805, -- [4]
-					-119.0000991821289, -- [5]
+					"TOPRIGHT", -- [3]
+					-219.9704132080078, -- [4]
+					-38.00738143920898, -- [5]
 				},
 				["selected"] = {
-					"AtlasLootClassic_Collections", -- [1]
-					"TierSets", -- [2]
-					8, -- [3]
+					"AtlasLootClassic_Crafting", -- [1]
+					"TailoringWrath", -- [2]
+					11, -- [3]
 					1, -- [4]
 					0, -- [5]
 				},
 			},
-			["minimap"] = {
-				["minimapPos"] = 186.0075215673785,
-			},
 		},
 		["Tailcow - Golemagg"] = {
-			["minimap"] = {
-				["minimapPos"] = 204.9489173503208,
-			},
 			["GUI"] = {
 				["selectedGameVersion"] = 1,
 				["selected"] = {
@@ -349,12 +346,18 @@ AtlasLootClassicDB = {
 					-84.8462905883789, -- [5]
 				},
 			},
+			["minimap"] = {
+				["minimapPos"] = 204.9489173503208,
+			},
 		},
 		["Zandalar - Zandalar Tribe"] = {
 		},
 		["Meatcow - Golemagg"] = {
 		},
 		["Zandalara - Golemagg"] = {
+			["minimap"] = {
+				["minimapPos"] = 241.477475615498,
+			},
 			["GUI"] = {
 				["point"] = {
 					nil, -- [1]
@@ -371,16 +374,70 @@ AtlasLootClassicDB = {
 					0, -- [5]
 				},
 			},
-			["minimap"] = {
-				["minimapPos"] = 241.477475615498,
-			},
 		},
 		["Leathercow - Golemagg"] = {
 		},
-		["Azerot - Golemagg"] = {
+		["Herbcow - Golemagg"] = {
 			["minimap"] = {
-				["minimapPos"] = 244.0804206460578,
+				["minimapPos"] = 206.2590296752837,
 			},
+			["GUI"] = {
+				["selected"] = {
+					"AtlasLootClassic_Crafting", -- [1]
+					"AlchemyBC", -- [2]
+					3, -- [3]
+					1, -- [4]
+					0, -- [5]
+				},
+			},
+		},
+		["Zandalar - Golemagg"] = {
+			["GUI"] = {
+				["point"] = {
+					"RIGHT", -- [1]
+					nil, -- [2]
+					"RIGHT", -- [3]
+					0, -- [4]
+					34.23077392578125, -- [5]
+				},
+				["selected"] = {
+					"AtlasLootClassic_Crafting", -- [1]
+					"JewelcraftingWrath", -- [2]
+					6, -- [3]
+					1, -- [4]
+					0, -- [5]
+				},
+			},
+			["minimap"] = {
+				["minimapPos"] = 112.2474278947333,
+			},
+		},
+		["Zandalar - Gandling"] = {
+		},
+		["Banger - Golemagg"] = {
+			["GUI"] = {
+				["point"] = {
+					"RIGHT", -- [1]
+					nil, -- [2]
+					"RIGHT", -- [3]
+					-20.5128288269043, -- [4]
+					-62.66681289672852, -- [5]
+				},
+				["selected"] = {
+					"AtlasLootClassic_Crafting", -- [1]
+					"JewelcraftingWrath", -- [2]
+					nil, -- [3]
+					1, -- [4]
+					0, -- [5]
+				},
+			},
+			["minimap"] = {
+				["minimapPos"] = 198.8055084917137,
+			},
+		},
+		["Zandalar - Mograine"] = {
+		},
+		["Azerot - Golemagg"] = {
 			["GUI"] = {
 				["selectedGameVersion"] = 1,
 				["selected"] = {
@@ -398,65 +455,8 @@ AtlasLootClassicDB = {
 					124.8205490112305, -- [5]
 				},
 			},
-		},
-		["Zandalar - Golemagg"] = {
 			["minimap"] = {
-				["minimapPos"] = 112.2474278947333,
-			},
-			["GUI"] = {
-				["point"] = {
-					"RIGHT", -- [1]
-					nil, -- [2]
-					"RIGHT", -- [3]
-					0, -- [4]
-					34.23077392578125, -- [5]
-				},
-				["selected"] = {
-					"AtlasLootClassic_Crafting", -- [1]
-					"JewelcraftingWrath", -- [2]
-					6, -- [3]
-					1, -- [4]
-					0, -- [5]
-				},
-			},
-		},
-		["Zandalar - Gandling"] = {
-		},
-		["Banger - Golemagg"] = {
-			["minimap"] = {
-				["minimapPos"] = 198.8055084917137,
-			},
-			["GUI"] = {
-				["point"] = {
-					"RIGHT", -- [1]
-					nil, -- [2]
-					"RIGHT", -- [3]
-					-20.5128288269043, -- [4]
-					-62.66681289672852, -- [5]
-				},
-				["selected"] = {
-					"AtlasLootClassic_Crafting", -- [1]
-					"JewelcraftingWrath", -- [2]
-					nil, -- [3]
-					1, -- [4]
-					0, -- [5]
-				},
-			},
-		},
-		["Zandalar - Mograine"] = {
-		},
-		["Herbcow - Golemagg"] = {
-			["GUI"] = {
-				["selected"] = {
-					"AtlasLootClassic_Crafting", -- [1]
-					"AlchemyBC", -- [2]
-					3, -- [3]
-					1, -- [4]
-					0, -- [5]
-				},
-			},
-			["minimap"] = {
-				["minimapPos"] = 206.2590296752837,
+				["minimapPos"] = 244.0804206460578,
 			},
 		},
 	},

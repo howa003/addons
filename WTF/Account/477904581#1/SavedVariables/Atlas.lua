@@ -7,19 +7,19 @@ AtlasDB = {
 		["Meatcow - Golemagg"] = "Default",
 		["Zandalara - Golemagg"] = "Default",
 		["Herbcow - Golemagg"] = "Default",
-		["Azerot - Golemagg"] = "Default",
+		["Leathercow - Golemagg"] = "Default",
 		["Zandalar - Golemagg"] = "Default",
 		["Zandalar - Gandling"] = "Default",
 		["Banger - Golemagg"] = "Default",
 		["Zandalar - Mograine"] = "Default",
-		["Leathercow - Golemagg"] = "Default",
+		["Azerot - Golemagg"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
 			["dropdowns"] = {
-				["Kalimdor Instances"] = 11,
-				["Eastern Kingdoms Instances"] = 21,
 				["Northrend Instances 1/2"] = 15,
+				["Eastern Kingdoms Instances"] = 21,
+				["Kalimdor Instances"] = 11,
 				["Outland Instances"] = 22,
 			},
 			["options"] = {

@@ -1,4 +1,4 @@
-SET cameraDistanceMaxZoomFactor "2"
+SET cameraDistanceMaxZoomFactor "3.4"
 SET showTimestamps "%H:%M "
 SET UnitNameEnemyPlayerName "0"
 SET floatingCombatTextAuraFade "1"
