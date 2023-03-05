@@ -1,0 +1,20 @@
+
+BejeweledData = {
+	["played"] = {
+		["Zandalar"] = 17,
+		["Tailcow"] = 0,
+		["Azerot"] = 0,
+		["Herbcow"] = 0,
+		["Leathercow"] = 0,
+		["Banger"] = 0,
+		["Zowl"] = 51,
+		["Meatcow"] = 0,
+	},
+	["firstSkillShow"] = true,
+	["flightTimes"] = {
+	},
+	["firstHyperCube"] = true,
+	["legalDisplayed"] = true,
+	["firstGame"] = true,
+	["firstPowerGem"] = true,
+}

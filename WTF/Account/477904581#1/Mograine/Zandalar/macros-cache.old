@@ -1,0 +1,137 @@
+VER 3 0000000001000002 " " "136052"
+#showtooltip
+/cast Healing Wave
+END
+VER 3 0000000001000003 " " "135813"
+#showtooltip
+/startattack
+/cast Flame Shock
+END
+VER 3 0000000001000004 " " "136026"
+#showtooltip
+/startattack
+/cast Earth Shock
+END
+VER 3 0000000001000005 " " "136086"
+#showtooltip
+/cast Rockbiter Weapon
+END
+VER 3 0000000001000001 " " "135814"
+#showtooltip
+/cast Flametongue Weapon
+END
+VER 3 0000000001000006 "1" "136220"
+/hi
+/s a
+/s b
+/s c
+/s d
+/s e
+/s f
+/s g
+END
+VER 3 0000000001000007 "2" "136220"
+/spit
+/s h
+/s i
+/s j
+/s k
+/s l
+/s m
+/s n
+END
+VER 3 0000000001000008 "3" "136220"
+/kiss
+/s o
+/s p
+/s q
+/s r
+/s s
+/s t
+/s u
+END
+VER 3 0000000001000009 "4" "136220"
+/wave
+/s v
+/s w
+/s x
+/s y
+/s z
+END
+VER 3 000000000100000A "5" "136232"
+/smile
+/s A
+/s B
+/s C
+/s D
+/s E
+/s F
+/s G
+END
+VER 3 000000000100000B "6" "136232"
+/clap
+/s H
+/s I
+/s J
+/s K
+/s L
+/s M
+/s N
+END
+VER 3 000000000100000C "7" "136232"
+/roar
+/s O
+/s P
+/s Q
+/s R
+/s S
+/s T
+/s U
+END
+VER 3 000000000100000D "8" "136232"
+/flex
+/s V
+/s W
+/s X
+/s Y
+/s Z
+END
+VER 3 000000000100000E "9" "136168"
+11 d d c
+f j f d 108 d
+j c 108 d
+j o a a f
+c d c
+27 11 11
+END
+VER 3 000000000100000F "91" "136200"
+/rude
+1
+2
+3
+4
+5
+6
+7
+END
+VER 3 0000000001000010 "92" "136200"
+/laugh
+8
+9
+10
+11
+12
+13
+14
+END
+VER 3 0000000001000011 "93" "136221"
+/flex
+15
+16
+17
+18
+19
+20
+21
+88
+END

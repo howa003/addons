@@ -1,0 +1,5 @@
+1.3.2 Release Notes
+Contributions made by Crieve:
+* Blizzard's UI modifications no longer break ATT and show a ghoul.
+* Fixed a parser bug.
+

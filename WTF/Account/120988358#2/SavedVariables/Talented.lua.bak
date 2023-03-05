@@ -1,0 +1,40 @@
+
+TalentedDB = {
+	["global"] = {
+		["templates"] = {
+			["HUNTER"] = {
+			},
+			["WARRIOR"] = {
+			},
+			["ROGUE"] = {
+			},
+			["MAGE"] = {
+			},
+			["PRIEST"] = {
+			},
+			["WARLOCK"] = {
+			},
+			["DRUID"] = {
+			},
+			["SHAMAN"] = {
+			},
+			["PALADIN"] = {
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Slimi - Golemagg"] = "Slimi - Golemagg",
+	},
+	["profiles"] = {
+		["Slimi - Golemagg"] = {
+			["framepos"] = {
+				["TalentedFrame"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["anchor"] = "CENTER",
+					["anchorTo"] = "CENTER",
+				},
+			},
+		},
+	},
+}

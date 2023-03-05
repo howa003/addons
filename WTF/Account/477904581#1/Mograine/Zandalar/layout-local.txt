@@ -1,0 +1,15 @@
+Version: 1
+Frame: WeaponSwingTimerPlayerFrame
+FrameLevel: 1
+Anchor: RIGHT
+X: -417
+Y: -235
+W: 200
+H: 10
+Frame: ThreatClassic2BarFrame
+FrameLevel: 1
+Anchor: BOTTOMRIGHT
+X: -93
+Y: 42
+W: 219
+H: 161

@@ -1,0 +1,2 @@
+
+GatherLiteConfigCharacter = nil

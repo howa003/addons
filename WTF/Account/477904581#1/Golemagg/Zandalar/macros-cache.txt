@@ -1,0 +1,81 @@
+VER 3 000000000100000C "CH" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,nodead] [exists,help,nodead] [] Chain Heal
+END
+VER 3 000000000100001F "ChL" "INV_MISC_QUESTIONMARK"
+#showtooltip Chain Lightning
+/use 14
+/cast Chain Lightning
+END
+VER 3 0000000001000004 "CoE" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/cast Call of the Elements
+END
+VER 3 0000000001000002 "EE" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Earth Elemental Totem
+/focus Earth Elemental
+END
+VER 3 0000000001000011 "ES" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,nodead] [exists,help,nodead] [] Earth Shield
+END
+VER 3 0000000001000014 "FS" "INV_MISC_QUESTIONMARK"
+#showtooltip Flame Shock
+/cast Flame Shock
+/cast Elemental mastery
+END
+VER 3 0000000001000020 "LaB" "INV_MISC_QUESTIONMARK"
+#showtooltip Lava Burst
+/use 14
+/cast Lava Burst
+END
+VER 3 000000000100001E "LB" "INV_MISC_QUESTIONMARK"
+#showtooltip Lightning Bolt
+/use 13
+/cast Lightning Bolt
+END
+VER 3 000000000100001A "LB" "INV_MISC_QUESTIONMARK"
+/cast Elemental Mastery
+/cast Lightning Bolt
+END
+VER 3 000000000100000E "LHW" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,nodead] [exists,help,nodead] [] Lesser Healing Wave
+END
+VER 3 000000000100000A "NS" "INV_MISC_QUESTIONMARK"
+#showtooltip Nature's Swiftness 
+/cast Nature's Swiftness
+/cast Berserking
+/use 14
+/use 13
+/cast [@mouseover,help,nodead] [exists,help,nodead] [] Healing Wave(Rank 12)
+END
+VER 3 0000000001000012 "RESS" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Ancestral Spirit
+/s %t VSTÁVEJ!
+END
+VER 3 0000000001000021 "RT" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,nodead] [exists,help,nodead] [] Riptide
+END
+VER 3 000000000100001C "SEQ" "INV_MISC_QUESTIONMARK"
+/castsequence reset=4 Chain Lightning, Lightning Bolt, Lightning Bolt, Lightning Bolt
+END
+VER 3 000000000100000B "Tide" "INV_MISC_QUESTIONMARK"
+#showtooltip Mana Tide Totem
+/cast Mana Tide Totem
+/p MANA TIDE DROPPED. GET IT WHILE YOU CAN!
+END
+VER 3 000000000100001D "TRN" "INV_MISC_QUESTIONMARK"
+/use 13
+/cast Berserking
+/cast Elemental Mastery
+END
+VER 3 0000000001000017 "VuhDoDCShieldData" "Ability_Repair"
+R1SR1HR1PH1IR1SR2MR2DT2WM2SR3WM3PT3PT3DR3MR4RM4SH4DT4IR4IH5SR5MR5LR5WT[x]6WM6IR6ST7PH7PH7SR7HR7HR8RM8HR8DT8PM8IR[x][x][x]6SR[x]0__0__[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]0__[x][x][x][x][x][x][x][x]0__[x][x]0__[x][x][x][x][x][x][x]
+END
+VER 3 0000000001000018 "VuhDoDCShieldNames" "Ability_Repair"
+NÁdaPelKimFurLarGreMetKhaAraIceFexOtoSicShoKibMdsYomLioSynLówMukRayRat[x]SkaXadShoLolIgnThuGidNatAncTrøNepDívPré[x][x][x]Zan[x]LobDém[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Rhu[x][x][x][x][x][x][x][x]Win[x][x]Tur[x][x][x][x][x][x][x]
+END

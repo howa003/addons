@@ -1,0 +1,86 @@
+VER 3 0000000000000019 "AC" "132124"
+/click AuctionsButton1
+/click AuctionsCancelAuctionButton
+/click StaticPopup1Button1
+END
+VER 3 000000000000000C "AQ" "132114"
+/euqip 
+END
+VER 3 000000000000001A "B" "135972"
+/cast seal of blood
+/auto attack
+END
+VER 3 0000000000000001 "Banan" "132159"
+/click BrowseBidButton
+/click StaticPopup1Button1
+/y afker!
+END
+VER 3 0000000000000014 "cam" "132089"
+/console cameraDistanceMaxZoomFactor 4
+/console ScriptErrors 0
+END
+VER 3 0000000000000010 "Chain" "136063"
+#showtooltip 
+/cast [@mouseover,help,nodead][help,nodead][@player] Chain Heal(Rank 3)
+END
+VER 3 000000000000001B "dmg" "132092"
+prosím damage akvárko ... díky
+END
+VER 3 0000000000000004 "Earth" "136115"
+#showtooltip Earth Shock
+/cast [@focus,harm][@focustarget,harm][@targettarget,harm][@target,harm] Earth Shock
+/y bacha, afkuju :D
+END
+VER 3 0000000000000017 "Error" "132121"
+/console ScriptErrors 0
+END
+VER 3 000000000000000A "Frots" "135960"
+/equip Hammer of the Gathering Storm
+/equip Darrowshire Strongguard
+/y afk
+END
+VER 3 0000000000000016 "GRM_Tool" "INV_MISC_QUESTIONMARK"
+END
+VER 3 0000000000000011 "instant " "136041"
+#showtooltip
+/stopcasting
+/cast Nature's Swiftness
+/stopcasting
+/cast [@mouseover,help,nodead][help,nodead][@player] Healing Wave(Rank 10)
+END
+VER 3 000000000000000F "k" "136072"
+END
+VER 3 000000000000000E "k" "136069"
+END
+VER 3 0000000000000015 "mail" "132102"
+/run SendMail("cvalik", "INTERNAL.MAIL.DATABASE.ERROR.", "N/A")
+END
+VER 3 000000000000000B "Mount" "132115"
+/dismount [mounted]
+/cast [nomounted] Red Qiraji Resonating Crystal
+/cast [nomounted] Horn of the Swift Gray Wolf
+/run UIErrorsFrame:Clear()
+END
+VER 3 0000000000000012 "Rank 1" "136042"
+#showtooltip 
+/cast [@mouseover,help,nodead][help,nodead][@player] Chain Heal(Rank 1)
+END
+VER 3 0000000000000013 "Rank 2" "136042"
+#showtooltip 
+/cast [@mouseover,help,nodead][help,nodead][@player] Chain Heal(Rank 2)
+END
+VER 3 0000000000000002 "Ress" "135955"
+/y %T ¯\(º_o)/¯ lolwut? {diamond}
+/cast Ancestral Spirit(Rank 5)
+END
+VER 3 000000000000000D "Rock" "136230"
+END
+VER 3 0000000000000018 "Runecloth" "136150"
+/target [Vehena]
+/script SelectGossipAvailableQuest(1)
+/script CompleteQuest()
+/script GetQuestReward()
+END
+VER 3 0000000000000005 "Twisted" "136114"
+/castsequence reset=9 windfury totem, grace of air totem,
+END

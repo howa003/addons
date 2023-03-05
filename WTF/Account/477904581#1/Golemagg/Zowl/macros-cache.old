@@ -1,0 +1,83 @@
+VER 3 000000000100001E " " "INV_MISC_QUESTIONMARK"
+#showtooltip Starfall
+/cast Barkskin
+/cast Starfall
+END
+VER 3 0000000001000007 "0SAVE" "132089"
+/cast [mod:shift,@player] [@mouseover,exists,help,nodead] [exists,help,nodead] [@targettarget,exists,help,nodead] [] Healing Touch(Rank 4)
+END
+VER 3 000000000100000D "CUR" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists,help,nodead] [exists,help,nodead] [] Remove Curse
+END
+VER 3 0000000001000004 "HT11" "136041"
+#showtooltip
+/cast [@mouseover,help,nodead] [exists,help,nodead] [] Healing Touch(Rank 11)
+END
+VER 3 000000000100001C "IMP" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/tar volatile fiend
+/cast Entangling Roots(Rank 7)
+END
+VER 3 0000000001000005 "INS" "136076"
+#showtooltip Nature's Swiftness
+/use Essence of the Martyr
+/cast Nature's Swiftness
+/cast [@mouseover,help,nodead] [help,nodead] [] Healing Touch(Rank 12)
+END
+VER 3 0000000001000014 "LB" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,nodead] [exists,help,nodead] [] Lifebloom
+END
+VER 3 000000000100000E "POI" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists,help,nodead] [exists,help,nodead] [] Abolish Poison
+END
+VER 3 000000000100000B "RG10" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,nodead] [exists,help,nodead] [] Regrowth
+END
+VER 3 000000000100000C "RJW12" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,nodead] [exists,help,nodead] [] Rejuvenation
+END
+VER 3 0000000001000015 "RUN" "INV_MISC_QUESTIONMARK"
+#showtooltip Dash
+/cancelform [noform:3] 
+/cast [noform:3] Cat Form 
+/cast Dash 
+END
+VER 3 000000000100001D "SF" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Starfire
+/tar Shield Orb
+/focus
+/targetlasttarget
+END
+VER 3 0000000001000010 "SLP" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cancelform
+/cast Hibernate
+/s Sleeping %t
+END
+VER 3 0000000001000006 "SWF" "INV_MISC_QUESTIONMARK"
+#showtooltip Swiftmend
+/use Lower City Prayerbook
+/cast [@mouseover,help,nodead] [help,nodead] [] Swiftmend
+END
+VER 3 0000000001000018 "TRN" "INV_MISC_QUESTIONMARK"
+/use 14
+END
+VER 3 000000000100001A "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1DR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 000000000100001B "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Zow[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0000000001000019 "Wr" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Wrath
+/tar Shield Orb
+/focus
+/targetlasttarget
+END

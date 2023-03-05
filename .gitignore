@@ -1,0 +1,14 @@
+blob_storage/
+Cache/
+Errors/
+Fonts/
+Logs/
+Screenshots/
+Utils/
+.curseclient
+.flavor.info
+BlizzardError.exe
+d3d12.dll
+dxilconv7.dll
+WoW.mfil
+WowClassic.exe

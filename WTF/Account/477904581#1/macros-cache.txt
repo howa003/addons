@@ -1,0 +1,371 @@
+VER 3 0000000000000018 " " "136085"
+#showtooltip
+/cancelform
+/cast Regrowth
+/targetlastenemy
+END
+VER 3 0000000000000406 " " "INV_MISC_QUESTIONMARK"
+/tar Darkspine Myr
+/script SetRaidTarget("target", 8);
+/cast Moonfire
+END
+VER 3 000000000000001B " " "136081"
+#showtooltip
+/cancelform
+/cast Rejuvenation
+/targetlastenemy
+END
+VER 3 000000000000001D " " "132116"
+/startattack
+END
+VER 3 0000000000000020 " " "132115"
+/cast Cat Form
+/startattack
+END
+VER 3 0000000000000007 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/startattack
+/cast Flame Shock(Rank 6)
+END
+VER 3 0000000000000410 " " "INV_MISC_QUESTIONMARK"
+/tar garhal
+/cast moonfire
+END
+VER 3 0000000000000002 "  " "136026"
+#showtooltip
+/startattack
+/cast Earth Shock(Rank 7)
+END
+VER 3 0000000000000411 "  " "INV_MISC_QUESTIONMARK"
+/tar nexus drake hatch
+END
+VER 3 00000000000003D5 "  " "INV_MISC_QUESTIONMARK"
+/script MacroFrameText:Insert("")
+END
+VER 3 00000000000003E1 "  " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Starfire
+END
+VER 3 00000000000003FC "   " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/train
+END
+VER 3 0000000000000024 "   " "132151"
+/script SelectGossipAvailableQuest(1)
+/script CompleteQuest()
+/script GetQuestReward()
+END
+VER 3 000000000000001A " ALL" "INV_MISC_QUESTIONMARK"
+/cast Innervate
+/y Innervating %t!
+END
+VER 3 0000000000000016 " STUN" "132368"
+#showtooltip
+/cast War Stomp(Racial)
+END
+VER 3 0000000000000008 " TAR" "136072"
+/tar storm
+/script SetRaidTarget("target", 8);
+END
+VER 3 00000000000003DD "0TAIL" "135828"
+SPELLFIRE:
+-Shanig
+-Tominda
+-Ciknak
+%
+Potion:
+Archaon
+Funeralka
+Thaxim
+%
+Elixir mastery:
+Xisal
+%
+Elixir:
+Puky
+Spoly
+Oslica
+%
+Boars speed:
+Biscuit
+Zavy
+Svorter
+Tomi
+END
+VER 3 00000000000003FF "123" "132093"
+/raid 123 pls
+END
+VER 3 0000000000000407 "200" "INV_MISC_QUESTIONMARK"
+/roll 300
+END
+VER 3 00000000000003F1 "3-shock" "135849"
+/click petactionbutton3
+END
+VER 3 00000000000003F0 "4-nova" "135840"
+/click petactionbutton4
+END
+VER 3 00000000000003EF "5-AoE" "136116"
+/click petactionbutton5
+END
+VER 3 00000000000003F6 "A-Ench" "INV_MISC_QUESTIONMARK"
+wrist SP - Quexxa
+END
+VER 3 0000000000000415 "aa" "INV_MISC_QUESTIONMARK"
+/use Lafoo's Bug Bag
+END
+VER 3 0000000000000011 "anal kill" "136224"
+/s f j f d 108 d
+END
+VER 3 0000000000000021 "BACK" "132090"
+#showtooltip
+/startattack
+/cast Shred
+END
+VER 3 0000000000000416 "BOOM" "135827"
+#showtooltip Potion of Speed
+/use 13
+/use 14
+/use Potion of Speed
+END
+VER 3 00000000000003FE "BOW" "132305"
+/w Stokilla BOW PLS
+END
+VER 3 00000000000003DB "BTHL" "132322"
+/e lick's %t's butthole as a sign of gratitude.
+END
+VER 3 0000000000000005 "buff" "135993"
+/s hey mate, can I get a buff please? :)
+END
+VER 3 0000000000000027 "CAM" "132092"
+/console cameraDistanceMaxZoomFactor 4
+/console ScriptErrors 0
+END
+VER 3 00000000000003D2 "CASH" "INV_MISC_QUESTIONMARK"
+/tar Cashie
+/cast Innervate
+/y Innervating %t!
+END
+VER 3 0000000000000017 "CC" "136100"
+#showtooltip
+/cancelform
+/cast Nature's Swiftness
+/cast Entangling Roots
+END
+VER 3 00000000000003DE "CORE" "132104"
+/use Tainted Core
+/y <------- TAINTED KÁRE TO: %t ! ! !
+/s <------- TAINTED KÁRE TO: %t ! ! !
+/script SendChatMessage("!!! YOU HAVE THE CORE !!!", "WHISPER", nil, UnitName("target"));
+END
+VER 3 00000000000003F2 "cosInf" "INV_MISC_QUESTIONMARK"
+/tar Cosm
+END
+VER 3 00000000000003F7 "CRAFT" "132154"
+Tailoring Scryers:
+- Tominqua 30.1.
+- Thaxim 31.1.
+- Edko 3.2.
+- Shaniqq
+- Zld?
+- Archie?
+JWC spell necky:
+- Quexxa 27.1.
+- Brooss 30.1.
+- Thaxim 4.2.
+- Archie
+END
+VER 3 00000000000003EC "CSMC" "135875"
+/tar cosmic
+END
+VER 3 00000000000003C9 "dance" "INV_MISC_QUESTIONMARK"
+/dance
+END
+VER 3 00000000000003F9 "dddddd" "132090"
+/hb tpt hbtarget
+END
+VER 3 00000000000003CD "DISENCH" "136136"
+/tsm destroy
+END
+VER 3 00000000000003E3 "FCSheal" "INV_MISC_QUESTIONMARK"
+/cast [@focustarget,exists] [@targettarget] Regrowth
+END
+VER 3 0000000000000403 "FLW" "136047"
+/follow Ugara
+END
+VER 3 0000000000000414 "FN" "INV_MISC_QUESTIONMARK"
+#showtooltip Fire Nova
+/use 14
+/cast Fire Nova
+END
+VER 3 0000000000000408 "GHETTO" "136047"
+/run InviteUnit("a");C_Timer.After(1,function() LeaveParty() end)
+END
+VER 3 000000000000040E "INV" "INV_MISC_QUESTIONMARK"
+/tar mouseover
+/invite
+/cleartarget
+END
+VER 3 000000000000040F "LFM" "135727"
+/2 {star} LFM  dps MECHA  (only 1st boss) {star}
+/2 {star} LFM  dps MECHA (only 1st boss) {star}
+/5 {star} LFM  dps MECHA (only 1st boss) {star}
+/6 {star} LFM  dps MECHA  (only 1st boss) {star}
+END
+VER 3 00000000000003D1 "LFM" "INV_MISC_QUESTIONMARK"
+/1 {circle} LFM Zul'Drak arena (Amphitheater of Anguish) quests {circle} (1 spot)
+/3 {circle} LFM Zul'Drak arena (Amphitheater of Anguish) quests {circle} (1 spot)
+/6 {circle} LFM Zul'Drak arena (Amphitheater of Anguish) quests {circle} (1 spot)
+END
+VER 3 000000000000001C "MAFO" "136081"
+#showtooltip
+/cancelform
+/tar Maffo
+/cast Rejuvenation
+/targetlastenemy
+END
+VER 3 0000000000000019 "MAFO" "136085"
+#showtooltip
+/cancelform
+/tar Maffo
+/cast Regrowth
+/targetlastenemy
+END
+VER 3 0000000000000014 "MAFO" "136048"
+#showtooltip
+/cancelform
+/tar Maffo
+/w Maffo YOUR ANUS HAS BEEN INNERVATED!!!
+/cast Innervate
+/targetlastenemy
+END
+VER 3 000000000000040D "mf" "INV_MISC_QUESTIONMARK"
+/targetenemy
+/cast Moonfire(Rank 2)
+/script SetRaidTarget("target", 8);
+END
+VER 3 00000000000003FA "MFR" "INV_MISC_QUESTIONMARK"
+/targetenemy
+/cast Wrath
+END
+VER 3 00000000000003F8 "MHS" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use item:22105
+/use item:22104
+/use item:22103
+/use Major Healthstone
+END
+VER 3 000000000000040C "Mocus" "INV_MISC_QUESTIONMARK"
+/target mouseover
+/focus
+END
+VER 3 0000000000000402 "NCK" "INV_MISC_QUESTIONMARK"
+/use 2
+END
+VER 3 00000000000003FB "NECK" "INV_MISC_QUESTIONMARK"
+/use 2
+END
+VER 3 0000000000000012 "nokill" "136173"
+/s j c 108 d
+END
+VER 3 0000000000000409 "oom" "135863"
+/oom
+/oom
+/y OOM
+END
+VER 3 000000000000040B "ORB" "135782"
+/tar Shield Orb
+/cast Moonfire
+END
+VER 3 0000000000000405 "ORB" "132094"
+/tar Shield orb
+/cast Moonfire
+END
+VER 3 0000000000000022 "POT" "135943"
+#showtooltip
+/cancelform
+/use Major Healing Potion
+END
+VER 3 00000000000003C8 "QUEST" "INV_MISC_QUESTIONMARK"
+/script print(C_QuestLog.IsQuestFlaggedCompleted(2681))
+END
+VER 3 0000000000000023 "QUEST" "INV_MISC_QUESTIONMARK"
+/run for k, v in pairs({ QuestCompleted = 2622}) do print(format("%s: %s", k, IsQuestFlaggedCompleted(v) and "\124cff00ff00Yes\124r" or "\124cffff0000No\124r")) end
+END
+VER 3 00000000000003EB "RCPT" "132149"
+Chmeldaa: Healing ruce vanilla
+END
+VER 3 00000000000003CF "RES" "INV_MISC_QUESTIONMARK"
+/y RESSURECTING %t
+/cast Rebirth
+END
+VER 3 0000000000000401 "RST" "133232"
+/hb ri
+END
+VER 3 00000000000003F3 "Shaniq" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/tar Shaniqq
+/cast Innervate
+/y Innervating %t!
+/targetlastenemy
+END
+VER 3 000000000000000C "skull" "132094"
+/script SetRaidTarget("target", 8);
+END
+VER 3 0000000000000404 "skull" "136047"
+/focus
+END
+VER 3 00000000000003EE "Spine" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use Naj'entus Spine
+END
+VER 3 0000000000000412 "TAR" "132089"
+/tar exh
+/script SetRaidTarget("target", 8);
+END
+VER 3 00000000000003EA "TAR" "132123"
+/targetenemy
+END
+VER 3 00000000000003F4 "Tomi" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/tar Tomi
+/cast Innervate
+/y Innervating %t z oblázkového města!
+END
+VER 3 00000000000003E7 "totem" "132093"
+/tar spit
+END
+VER 3 000000000000040A "TRNKT" "INV_MISC_QUESTIONMARK"
+/use 13
+/use 14
+END
+VER 3 0000000000000413 "TS" "INV_MISC_QUESTIONMARK"
+#showtooltip Thunderstorm
+/use 13
+/cast Thunderstorm
+END
+VER 3 00000000000003E0 "USE" "INV_MISC_QUESTIONMARK"
+#showtooltip Staff of Disintegration
+/use Staff of Disintegration
+END
+VER 3 00000000000003FD "VERAS" "INV_MISC_QUESTIONMARK"
+/assist Ugara
+/cast Faerie Fire
+/targetlasttarget
+END
+VER 3 0000000000000025 "xxx" "132122"
+/script SetCVar("cameraDistanceMax",50)
+END
+VER 3 00000000000003F5 "Zld" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/tar Zld
+/cast Innervate
+/y Innervating %t!
+/targetlastenemy
+END
+VER 3 0000000000000400 "ZOWL" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/tar Zowl
+/cast Innervate
+/s Innervating %t!
+/targetlasttarget
+END

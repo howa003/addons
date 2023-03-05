@@ -1,0 +1,2272 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Zandalar"] = {
+			["GUID"] = "Player-4701-00BFACEC",
+			["LastEventHealth"] = {
+				626, -- [1]
+				625, -- [2]
+				622, -- [3]
+				618, -- [4]
+				615, -- [5]
+				613, -- [6]
+				628, -- [7]
+				636, -- [8]
+				636, -- [9]
+				649, -- [10]
+				116, -- [11]
+				113, -- [12]
+				111, -- [13]
+				108, -- [14]
+				99, -- [15]
+				91, -- [16]
+				83, -- [17]
+				75, -- [18]
+				66, -- [19]
+				58, -- [20]
+				56, -- [21]
+				56, -- [22]
+				127, -- [23]
+				125, -- [24]
+				122, -- [25]
+				121, -- [26]
+				118, -- [27]
+				114, -- [28]
+				112, -- [29]
+				111, -- [30]
+				109, -- [31]
+				107, -- [32]
+				105, -- [33]
+				103, -- [34]
+				104, -- [35]
+				102, -- [36]
+				100, -- [37]
+				102, -- [38]
+				99, -- [39]
+				96, -- [40]
+				97, -- [41]
+				96, -- [42]
+				116, -- [43]
+				135, -- [44]
+				167, -- [45]
+				186, -- [46]
+				210, -- [47]
+				227, -- [48]
+				631, -- [49]
+				629, -- [50]
+			},
+			["LastAttackedBy"] = "Thanialol",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"DAMAGE", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+				"DAMAGE", -- [18]
+				"DAMAGE", -- [19]
+				"DAMAGE", -- [20]
+				"HEAL", -- [21]
+				"DAMAGE", -- [22]
+				"DAMAGE", -- [23]
+				"DAMAGE", -- [24]
+				"DAMAGE", -- [25]
+				"DAMAGE", -- [26]
+				"DAMAGE", -- [27]
+				"DAMAGE", -- [28]
+				"DAMAGE", -- [29]
+				"DAMAGE", -- [30]
+				"DAMAGE", -- [31]
+				"DAMAGE", -- [32]
+				"DAMAGE", -- [33]
+				"DAMAGE", -- [34]
+				"DAMAGE", -- [35]
+				"DAMAGE", -- [36]
+				"DAMAGE", -- [37]
+				"DAMAGE", -- [38]
+				"DAMAGE", -- [39]
+				"DAMAGE", -- [40]
+				"DAMAGE", -- [41]
+				"HEAL", -- [42]
+				"HEAL", -- [43]
+				"HEAL", -- [44]
+				"HEAL", -- [45]
+				"DAMAGE", -- [46]
+				"DAMAGE", -- [47]
+				"DAMAGE", -- [48]
+				"DAMAGE", -- [49]
+				"DAMAGE", -- [50]
+			},
+			["TimeWindows"] = {
+				["TimeHeal"] = {
+					7.47, -- [1]
+				},
+				["Healing"] = {
+					354, -- [1]
+				},
+				["DamageTaken"] = {
+					1258, -- [1]
+				},
+				["HealingTaken"] = {
+					354, -- [1]
+				},
+				["Overhealing"] = {
+					108, -- [1]
+				},
+				["TimeDamage"] = {
+					6, -- [1]
+				},
+				["HOT_Time"] = {
+					12, -- [1]
+				},
+				["ActiveTime"] = {
+					13.47, -- [1]
+				},
+				["Damage"] = {
+					246, -- [1]
+				},
+			},
+			["enClass"] = "SHAMAN",
+			["unit"] = "Zandalar",
+			["level"] = 19,
+			["LastDamageAbility"] = "Melee",
+			["LastFightIn"] = 10,
+			["LastHealTime"] = 52229.576,
+			["type"] = "Self",
+			["FightsSaved"] = 5,
+			["LastEventHealthMax"] = {
+				649, -- [1]
+				649, -- [2]
+				649, -- [3]
+				649, -- [4]
+				649, -- [5]
+				649, -- [6]
+				649, -- [7]
+				649, -- [8]
+				649, -- [9]
+				649, -- [10]
+				649, -- [11]
+				649, -- [12]
+				649, -- [13]
+				649, -- [14]
+				649, -- [15]
+				649, -- [16]
+				649, -- [17]
+				649, -- [18]
+				649, -- [19]
+				649, -- [20]
+				649, -- [21]
+				649, -- [22]
+				649, -- [23]
+				649, -- [24]
+				649, -- [25]
+				649, -- [26]
+				649, -- [27]
+				649, -- [28]
+				649, -- [29]
+				649, -- [30]
+				649, -- [31]
+				649, -- [32]
+				649, -- [33]
+				649, -- [34]
+				649, -- [35]
+				649, -- [36]
+				649, -- [37]
+				649, -- [38]
+				649, -- [39]
+				649, -- [40]
+				649, -- [41]
+				649, -- [42]
+				649, -- [43]
+				649, -- [44]
+				649, -- [45]
+				649, -- [46]
+				649, -- [47]
+				649, -- [48]
+				649, -- [49]
+				649, -- [50]
+			},
+			["LastDamageTaken"] = 3,
+			["Owner"] = false,
+			["TimeLast"] = {
+				["TimeHeal"] = 52228.896,
+				["OVERALL"] = 52537.913,
+				["DamageTaken"] = 52537.913,
+				["HealingTaken"] = 52228.896,
+				["Overhealing"] = 51823.896,
+				["TimeDamage"] = 52336.893,
+				["HOT_Time"] = 52228.896,
+				["Healing"] = 52228.896,
+				["ActiveTime"] = 52336.893,
+				["Damage"] = 52336.893,
+			},
+			["NextEventNum"] = 11,
+			["LastDamageTime"] = 52337.173,
+			["LastEvents"] = {
+				"Thanialol Melee Zandalar Hit -4 (Physical)", -- [1]
+				"Thanialol Melee Zandalar Hit -4 (Physical)", -- [2]
+				"Thanialol Melee Zandalar Hit -4 (Physical)", -- [3]
+				"Thanialol Melee Zandalar Hit -4 (Physical)", -- [4]
+				"Thanialol Melee Zandalar Hit -4 (Physical)", -- [5]
+				"Zandalar Lightning Shield Thanialol Hit -29 (Nature)", -- [6]
+				"Thanialol Melee Zandalar Hit -4 (Physical)", -- [7]
+				"Zandalar Lightning Shield Thanialol Hit -29 (Nature)", -- [8]
+				"Thanialol Melee Zandalar Hit -4 (Physical)", -- [9]
+				"Thanialol Melee Zandalar Hit -3 (Physical)", -- [10]
+				"Thanialol Melee Zandalar Hit -4 (Physical)", -- [11]
+				"Thanialol Melee Zandalar Hit -4 (Physical)", -- [12]
+				"Thanialol Melee Zandalar Hit -4 (Physical)", -- [13]
+				"Thanialol Heroic Strike Zandalar Hit -10 (Physical)", -- [14]
+				"Thanialol Heroic Strike Zandalar Hit -9 (Physical)", -- [15]
+				"Thanialol Heroic Strike Zandalar Hit -10 (Physical)", -- [16]
+				"Thanialol Heroic Strike Zandalar Hit -9 (Physical)", -- [17]
+				"Thanialol Heroic Strike Zandalar Hit -10 (Physical)", -- [18]
+				"Thanialol Heroic Strike Zandalar Hit -9 (Physical)", -- [19]
+				"Thanialol Melee Zandalar Hit -4 (Physical)", -- [20]
+				"Zandalar Healing Potion Zandalar Hit +73", -- [21]
+				"Thanialol Melee Zandalar Hit -3 (Physical)", -- [22]
+				"Thanialol Melee Zandalar Hit -3 (Physical)", -- [23]
+				"Thanialol Melee Zandalar Hit -4 (Physical)", -- [24]
+				"Thanialol Melee Zandalar Hit -3 (Physical)", -- [25]
+				"Thanialol Melee Zandalar Hit -4 (Physical)", -- [26]
+				"Thanialol Melee Zandalar Hit -4 (Physical)", -- [27]
+				"Thanialol Melee Zandalar Hit -3 (Physical)", -- [28]
+				"Thanialol Melee Zandalar Hit -3 (Physical)", -- [29]
+				"Thanialol Melee Zandalar Hit -3 (Physical)", -- [30]
+				"Thanialol Melee Zandalar Hit -3 (Physical)", -- [31]
+				"Thanialol Melee Zandalar Hit -3 (Physical)", -- [32]
+				"Thanialol Melee Zandalar Hit -4 (Physical)", -- [33]
+				"Thanialol Melee Zandalar Miss (1)", -- [34]
+				"Thanialol Melee Zandalar Hit -3 (Physical)", -- [35]
+				"Thanialol Melee Zandalar Hit -3 (Physical)", -- [36]
+				"Thanialol Melee Zandalar Miss (1)", -- [37]
+				"Thanialol Melee Zandalar Hit -4 (Physical)", -- [38]
+				"Thanialol Melee Zandalar Hit -4 (Physical)", -- [39]
+				"Thanialol Melee Zandalar Miss (1)", -- [40]
+				"Thanialol Melee Zandalar Hit -3 (Physical)", -- [41]
+				"Zandalar First Aid Zandalar Tick +19", -- [42]
+				"Zandalar First Aid Zandalar Tick +19", -- [43]
+				"Zandalar First Aid Zandalar Tick +19", -- [44]
+				"Zandalar First Aid Zandalar Tick +19", -- [45]
+				"Thanialol Melee Zandalar Hit -3 (Physical)", -- [46]
+				"Thanialol Melee Zandalar Miss (1)", -- [47]
+				"Thanialol Melee Zandalar Hit -3 (Physical)", -- [48]
+				"Thanialol Melee Zandalar Hit -3 (Physical)", -- [49]
+				"Thanialol Melee Zandalar Hit -4 (Physical)", -- [50]
+			},
+			["Name"] = "Zandalar",
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+				true, -- [5]
+				false, -- [6]
+				true, -- [7]
+				false, -- [8]
+				true, -- [9]
+				true, -- [10]
+				true, -- [11]
+				true, -- [12]
+				true, -- [13]
+				true, -- [14]
+				true, -- [15]
+				true, -- [16]
+				true, -- [17]
+				true, -- [18]
+				true, -- [19]
+				true, -- [20]
+				true, -- [21]
+				true, -- [22]
+				true, -- [23]
+				true, -- [24]
+				true, -- [25]
+				true, -- [26]
+				true, -- [27]
+				true, -- [28]
+				true, -- [29]
+				true, -- [30]
+				true, -- [31]
+				true, -- [32]
+				true, -- [33]
+				true, -- [34]
+				true, -- [35]
+				true, -- [36]
+				true, -- [37]
+				true, -- [38]
+				true, -- [39]
+				true, -- [40]
+				true, -- [41]
+				true, -- [42]
+				true, -- [43]
+				true, -- [44]
+				true, -- [45]
+				true, -- [46]
+				true, -- [47]
+				true, -- [48]
+				true, -- [49]
+				true, -- [50]
+			},
+			["LastEventTimes"] = {
+				52319.524, -- [1]
+				52322.449, -- [2]
+				52324.339, -- [3]
+				52326.249, -- [4]
+				52328.154, -- [5]
+				52329.094, -- [6]
+				52336.228, -- [7]
+				52337.173, -- [8]
+				52338.143, -- [9]
+				52537.946, -- [10]
+				52168.391, -- [11]
+				52170.424, -- [12]
+				52172.258, -- [13]
+				52174.091, -- [14]
+				52176.158, -- [15]
+				52178.158, -- [16]
+				52179.824, -- [17]
+				52181.824, -- [18]
+				52183.865, -- [19]
+				52185.505, -- [20]
+				52187.12, -- [21]
+				52187.42, -- [22]
+				52189.33, -- [23]
+				52191.23, -- [24]
+				52193.136, -- [25]
+				52195.046, -- [26]
+				52196.948, -- [27]
+				52198.848, -- [28]
+				52200.763, -- [29]
+				52202.666, -- [30]
+				52204.566, -- [31]
+				52206.499, -- [32]
+				52208.399, -- [33]
+				52210.299, -- [34]
+				52212.332, -- [35]
+				52214.099, -- [36]
+				52215.999, -- [37]
+				52217.899, -- [38]
+				52219.795, -- [39]
+				52221.705, -- [40]
+				52223.605, -- [41]
+				52226.606, -- [42]
+				52227.576, -- [43]
+				52228.576, -- [44]
+				52229.576, -- [45]
+				52231.056, -- [46]
+				52238.201, -- [47]
+				52247.135, -- [48]
+				52315.708, -- [49]
+				52317.614, -- [50]
+			},
+			["Fights"] = {
+				["Fight5"] = {
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Thanialol"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 0,
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["DamageTaken"] = 0,
+					["TimeSpent"] = {
+						["Thanialol"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+					},
+					["TimeDamaging"] = {
+						["Thanialol"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 0,
+					["WhoDamaged"] = {
+						["Thanialol"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTaken"] = {
+						["Melee"] = 0,
+					},
+					["TimeDamage"] = 0,
+					["Damage"] = 0,
+				},
+				["Fight2"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 8,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 8,
+						["Physical"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 29,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Nature"] = 29,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Heroic Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Thanialol"] = {
+							["Details"] = {
+								["Lightning Shield"] = {
+									["count"] = 29,
+								},
+							},
+							["amount"] = 29,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Thanialol"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 8,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 8,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 2,
+						},
+						["Heroic Strike"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Zandalar"] = {
+							["Details"] = {
+								["Healing Wave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+						["Healing Wave"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+						["Zandalar"] = {
+							["Details"] = {
+								["Healing Wave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Thanialol"] = {
+							["Details"] = {
+								["Lightning Shield"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+						["Zandalar"] = {
+							["Details"] = {
+								["Healing Wave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+						["Healing Wave"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["WhoHealed"] = {
+						["Zandalar"] = {
+							["Details"] = {
+								["Healing Wave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 1.5,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Lightning Shield"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 29,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 29,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 29,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 1.5,
+					["TimeDamaging"] = {
+						["Thanialol"] = {
+							["Details"] = {
+								["Lightning Shield"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Thanialol"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight3"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 24,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 24,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 29,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Nature"] = 29,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Thanialol"] = {
+							["Details"] = {
+								["Lightning Shield"] = {
+									["count"] = 29,
+								},
+							},
+							["amount"] = 29,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Thanialol"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 24,
+								},
+							},
+							["amount"] = 24,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 6,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Thanialol"] = {
+							["Details"] = {
+								["Lightning Shield"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 1.5,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Lightning Shield"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 29,
+									["min"] = 29,
+									["count"] = 1,
+									["amount"] = 29,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 29,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 1.5,
+					["TimeDamaging"] = {
+						["Thanialol"] = {
+							["Details"] = {
+								["Lightning Shield"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 1.5,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight4"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 3,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 3,
+						["Physical"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Falling"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Thanialol"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Environment"] = {
+							["Details"] = {
+								["Falling"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Falling"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 3,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 3,
+						["Physical"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Heroic Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Thanialol"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Heroic Strike"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Zandalar"] = {
+							["Details"] = {
+								["Healing Potion"] = {
+									["count"] = 0,
+								},
+								["First Aid"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+						["Zandalar"] = {
+							["Details"] = {
+								["Healing Potion"] = {
+									["count"] = 0,
+								},
+								["First Aid"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Zandalar"] = {
+							["Details"] = {
+								["Healing Potion"] = {
+									["count"] = 0,
+								},
+								["First Aid"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+						["Healing Potion"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["First Aid"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["WhoHealed"] = {
+						["Zandalar"] = {
+							["Details"] = {
+								["Healing Potion"] = {
+									["count"] = 0,
+								},
+								["First Aid"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+						["First Aid"] = {
+							["Details"] = {
+								["Zandalar"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 3,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 3,
+						["Physical"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Heroic Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Thanialol"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3,
+								},
+								["Heroic Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Heroic Strike"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Zandalar"] = {
+							["Details"] = {
+								["Healing Potion"] = {
+									["count"] = 0,
+								},
+								["First Aid"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+						["Zandalar"] = {
+							["Details"] = {
+								["Healing Potion"] = {
+									["count"] = 0,
+								},
+								["First Aid"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Zandalar"] = {
+							["Details"] = {
+								["Healing Potion"] = {
+									["count"] = 0,
+								},
+								["First Aid"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+						["Healing Potion"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["First Aid"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["WhoHealed"] = {
+						["Zandalar"] = {
+							["Details"] = {
+								["Healing Potion"] = {
+									["count"] = 0,
+								},
+								["First Aid"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+						["First Aid"] = {
+							["Details"] = {
+								["Zandalar"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["TimeHealing"] = {
+						["Zandalar"] = {
+							["Details"] = {
+								["Healing Potion"] = {
+									["count"] = 1.5,
+								},
+								["First Aid"] = {
+									["count"] = 4.47,
+								},
+								["Healing Wave"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 7.47,
+						},
+					},
+					["OverHeals"] = {
+						["Healing Wave"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 108,
+									["min"] = 108,
+									["count"] = 1,
+									["amount"] = 108,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 108,
+						},
+					},
+					["TimeSpent"] = {
+						["Zandalar"] = {
+							["Details"] = {
+								["Healing Potion"] = {
+									["count"] = 1.5,
+								},
+								["First Aid"] = {
+									["count"] = 4.47,
+								},
+								["Healing Wave"] = {
+									["count"] = 1.5,
+								},
+							},
+							["amount"] = 7.47,
+						},
+						["Thanialol"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1.5,
+								},
+								["Lightning Shield"] = {
+									["count"] = 4.5,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["DamageTaken"] = 1258,
+					["PartialResist"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 249,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 249,
+						},
+						["Heroic Strike"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 50,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 50,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 249,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 249,
+							["amount"] = 0,
+						},
+						["Heroic Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 50,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 50,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 13.47,
+					["ElementTaken"] = {
+						["Melee"] = 794,
+						["Physical"] = 464,
+					},
+					["HOTs"] = {
+						["First Aid"] = {
+							["Details"] = {
+								["Zandalar"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 12,
+						},
+					},
+					["Damage"] = 246,
+					["HOT_Time"] = 12,
+					["TimeHeal"] = 7.47,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["Overhealing"] = 108,
+					["WhoHealed"] = {
+						["Zandalar"] = {
+							["Details"] = {
+								["Healing Potion"] = {
+									["count"] = 73,
+								},
+								["First Aid"] = {
+									["count"] = 76,
+								},
+								["Healing Wave"] = {
+									["count"] = 205,
+								},
+							},
+							["amount"] = 354,
+						},
+					},
+					["Healing"] = 354,
+					["HealedWho"] = {
+						["Zandalar"] = {
+							["Details"] = {
+								["Healing Potion"] = {
+									["count"] = 73,
+								},
+								["First Aid"] = {
+									["count"] = 76,
+								},
+								["Healing Wave"] = {
+									["count"] = 205,
+								},
+							},
+							["amount"] = 354,
+						},
+					},
+					["Heals"] = {
+						["Healing Potion"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 73,
+									["min"] = 73,
+									["count"] = 1,
+									["amount"] = 73,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 73,
+						},
+						["First Aid"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 19,
+									["min"] = 19,
+									["count"] = 4,
+									["amount"] = 76,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 76,
+						},
+						["Healing Wave"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 205,
+									["min"] = 205,
+									["count"] = 1,
+									["amount"] = 205,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 205,
+						},
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 159,
+									["min"] = 159,
+									["count"] = 1,
+									["amount"] = 159,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 159,
+						},
+						["Lightning Shield"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 29,
+									["min"] = 29,
+									["count"] = 3,
+									["amount"] = 87,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 87,
+						},
+					},
+					["HealingTaken"] = 354,
+					["DamagedWho"] = {
+						["Thanialol"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 159,
+								},
+								["Lightning Shield"] = {
+									["count"] = 87,
+								},
+							},
+							["amount"] = 246,
+						},
+					},
+					["TimeDamage"] = 6,
+					["WhoDamaged"] = {
+						["Environment"] = {
+							["Details"] = {
+								["Falling"] = {
+									["count"] = 13,
+								},
+							},
+							["amount"] = 13,
+						},
+						["Thanialol"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 794,
+								},
+								["Heroic Strike"] = {
+									["count"] = 451,
+								},
+							},
+							["amount"] = 1245,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 159,
+						["Nature"] = 87,
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 23,
+								},
+								["Dodge"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 5,
+								},
+								["Hit"] = {
+									["count"] = 219,
+								},
+							},
+							["amount"] = 249,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 49,
+								},
+							},
+							["amount"] = 51,
+						},
+					},
+					["TimeDamaging"] = {
+						["Thanialol"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1.5,
+								},
+								["Lightning Shield"] = {
+									["count"] = 4.5,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+				},
+			},
+			["UnitLockout"] = 51236.89,
+			["LastActive"] = 52537.913,
+		},
+	},
+	["FightNum"] = 11,
+	["CombatTimes"] = {
+		{
+			51236.89, -- [1]
+			51245.89, -- [2]
+			"01:29:04", -- [3]
+			"01:29:13", -- [4]
+			"Thanialol", -- [5]
+		}, -- [1]
+		{
+			51564.89, -- [1]
+			51569.897, -- [2]
+			"01:34:33", -- [3]
+			"01:34:37", -- [4]
+			"Environment", -- [5]
+		}, -- [2]
+		{
+			51601.892, -- [1]
+			51617.889, -- [2]
+			"01:35:09", -- [3]
+			"01:35:25", -- [4]
+			"Thanialol", -- [5]
+		}, -- [3]
+		{
+			51695.892, -- [1]
+			52101.919, -- [2]
+			"01:36:43", -- [3]
+			"01:43:29", -- [4]
+			"Thanialol", -- [5]
+		}, -- [4]
+		{
+			52102.919, -- [1]
+			52229.896, -- [2]
+			"01:43:30", -- [3]
+			"01:45:37", -- [4]
+			"Thanialol", -- [5]
+		}, -- [5]
+		{
+			52230.896, -- [1]
+			52237.901, -- [2]
+			"01:45:38", -- [3]
+			"01:45:45", -- [4]
+			"Thanialol", -- [5]
+		}, -- [6]
+		{
+			52237.901, -- [1]
+			52245.901, -- [2]
+			"01:45:45", -- [3]
+			"01:45:53", -- [4]
+			"Thanialol", -- [5]
+		}, -- [7]
+		{
+			52246.901, -- [1]
+			52253.894, -- [2]
+			"01:45:54", -- [3]
+			"01:46:01", -- [4]
+			"Thanialol", -- [5]
+		}, -- [8]
+		{
+			52316.894, -- [1]
+			52334.888, -- [2]
+			"01:47:04", -- [3]
+			"01:47:22", -- [4]
+			"Thanialol", -- [5]
+		}, -- [9]
+		{
+			52335.888, -- [1]
+			52344.888, -- [2]
+			"01:47:23", -- [3]
+			"01:47:32", -- [4]
+			"Thanialol", -- [5]
+		}, -- [10]
+		{
+			52537.913, -- [1]
+			52544.914, -- [2]
+			"01:50:45", -- [3]
+			"01:50:52", -- [4]
+			"Thanialol", -- [5]
+		}, -- [11]
+	},
+	["FoughtWho"] = {
+		"Thanialol 01:50:45-01:50:52", -- [1]
+		"Thanialol 01:47:23-01:47:32", -- [2]
+		"Thanialol 01:47:04-01:47:22", -- [3]
+		"Thanialol 01:45:54-01:46:01", -- [4]
+		"Thanialol 01:45:45-01:45:53", -- [5]
+	},
+}

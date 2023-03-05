@@ -1,0 +1,10 @@
+## Interface: 20503
+## Title: HealBot French Localization
+## Author: Kubik
+## Notes: HealBot localization for frFR
+## RequiredDeps: HealBot
+## LoadOnDemand: 1
+## Version: 2.5.3.0
+
+HealBot_Localization.fr.lua
+HealBot_Tips_Localization.fr.lua

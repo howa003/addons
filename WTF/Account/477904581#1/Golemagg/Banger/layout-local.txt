@@ -1,0 +1,15 @@
+Version: 1
+Frame: AtlasLoot_GUI-Frame
+FrameLevel: 1
+Anchor: RIGHT
+X: -21
+Y: -63
+W: 920
+H: 600
+Frame: GroupBulletinBoardFrame
+FrameLevel: 1
+Anchor: RIGHT
+X: -109
+Y: 134
+W: 1581
+H: 422

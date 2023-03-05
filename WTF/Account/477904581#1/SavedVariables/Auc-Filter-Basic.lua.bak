@@ -1,0 +1,15 @@
+
+AucAdvancedFilterBasic_IgnoreList = {
+	["Zandalar Tribe"] = {
+		["List"] = {
+		},
+	},
+	["Mograine"] = {
+		["List"] = {
+		},
+	},
+	["Golemagg"] = {
+		["List"] = {
+		},
+	},
+}

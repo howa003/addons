@@ -1,0 +1,13 @@
+
+AtlasLootClassicDB = {
+	["global"] = {
+		["__addonrevision"] = 2020001,
+	},
+	["profileKeys"] = {
+		["Slimi - Golemagg"] = "Slimi - Golemagg",
+	},
+	["profiles"] = {
+		["Slimi - Golemagg"] = {
+		},
+	},
+}

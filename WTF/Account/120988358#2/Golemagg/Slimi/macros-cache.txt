@@ -1,0 +1,14 @@
+VER 3 0000000001000002 "Cleanse" "135886"
+/cast [target=mouseover] Cleanse; Cleanse
+END
+VER 3 0000000001000001 "Ress" "135981"
+#showtooltip Redemption
+/cast Redemption
+/y %T ¯\(º_o)/¯ lolwut?
+END
+VER 3 0000000001000003 "Runecloth" "132124"
+/target [Vehena]
+/script SelectGossipAvailableQuest(1)
+/script CompleteQuest()
+/script GetQuestReward()
+END
