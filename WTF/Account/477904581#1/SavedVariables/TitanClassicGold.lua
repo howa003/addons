@@ -13,7 +13,7 @@ GoldSave = {
 	["Zowl_Golemagg::Horde"] = {
 		["show"] = true,
 		["name"] = "Zowl",
-		["gold"] = 193564881,
+		["gold"] = 160789049,
 	},
 	["Zandalar_Zandalar Tribe::Horde"] = {
 		["show"] = true,
@@ -25,10 +25,10 @@ GoldSave = {
 		["name"] = "Herbcow",
 		["gold"] = 84710,
 	},
-	["Banger_Golemagg::Horde"] = {
+	["Tailcow_Golemagg::Horde"] = {
 		["show"] = true,
-		["name"] = "Banger",
-		["gold"] = 4716644,
+		["name"] = "Tailcow",
+		["gold"] = 28214,
 	},
 	["Leathercow_Golemagg::Horde"] = {
 		["show"] = true,
@@ -50,9 +50,9 @@ GoldSave = {
 		["name"] = "Zandalar",
 		["gold"] = 5500117,
 	},
-	["Tailcow_Golemagg::Horde"] = {
+	["Banger_Golemagg::Horde"] = {
 		["show"] = true,
-		["name"] = "Tailcow",
-		["gold"] = 28214,
+		["name"] = "Banger",
+		["gold"] = 4716644,
 	},
 }

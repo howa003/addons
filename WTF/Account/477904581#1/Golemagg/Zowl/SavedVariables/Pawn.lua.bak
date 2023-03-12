@@ -1,8 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0717,
-	["LastPlayerFullName"] = "Zowl-Golemagg",
-	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 45439,
@@ -15,9 +13,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:42036::::::::80:::::::::|h[Furious Gladiator's Pendant of Dominance]|h|r",
 		}, -- [2]
 		{
-			["ID"] = 40439,
-			["Level"] = 213,
-			["Link"] = "|cffa335ee|Hitem:40439:2982:::::::80:::::::::|h[Mantle of the Eternal Sentinel]|h|r",
+			["ID"] = 45186,
+			["Level"] = 232,
+			["Link"] = "|cffa335ee|Hitem:45186::::::::80:::::::::|h[Soot-Covered Mantle]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
@@ -46,9 +44,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:41640:2326:::::::80:::::::::|h[Furious Gladiator's Armwraps of Dominance]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 40466,
-			["Level"] = 213,
-			["Link"] = "|cffa335ee|Hitem:40466::41438::::::80:::::::::|h[Valorous Dreamwalker Gloves]|h|r",
+			["ID"] = 46189,
+			["Level"] = 232,
+			["Link"] = "|cffa335ee|Hitem:46189::::::::80:::::::::|h[Conqueror's Nightsong Gloves]|h|r",
 		}, -- [10]
 		{
 			["ID"] = 42116,
@@ -90,6 +88,8 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:30872::::::::80:::::::::|h[Chronicle of Dark Secrets]|h|r",
 		}, -- [17]
 	},
+	["AutoSelectScales"] = false,
+	["LastPlayerFullName"] = "Zowl-Golemagg",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

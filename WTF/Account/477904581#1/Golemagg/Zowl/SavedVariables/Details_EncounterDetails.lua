@@ -1,5 +1,628 @@
 
 EncounterDetailsDB = {
+	["emotes"] = {
+		{
+			{
+				31.66100000000006, -- [1]
+				"Let hatred and rage guide your blows!", -- [2]
+				"Sara", -- [3]
+				7, -- [4]
+			}, -- [1]
+			{
+				44.5679999999993, -- [1]
+				"Yes! YES! Show them no mercy! Give no pause to your attacks!", -- [2]
+				"Sara", -- [3]
+				7, -- [4]
+			}, -- [2]
+			{
+				55.28900000000067, -- [1]
+				"%s begins to boil upon touching Ithid!", -- [2]
+				"Ominous Cloud", -- [3]
+				3, -- [4]
+			}, -- [3]
+			{
+				73.72699999999895, -- [1]
+				"Let hatred and rage guide your blows!", -- [2]
+				"Sara", -- [3]
+				7, -- [4]
+			}, -- [4]
+			{
+				80.19700000000012, -- [1]
+				"Yes! YES! Show them no mercy! Give no pause to your attacks!", -- [2]
+				"Sara", -- [3]
+				7, -- [4]
+			}, -- [5]
+			{
+				112.5750000000007, -- [1]
+				"Yes! YES! Show them no mercy! Give no pause to your attacks!", -- [2]
+				"Sara", -- [3]
+				7, -- [4]
+			}, -- [6]
+			{
+				127.1539999999986, -- [1]
+				"Let hatred and rage guide your blows!", -- [2]
+				"Sara", -- [3]
+				7, -- [4]
+			}, -- [7]
+			{
+				134.4840000000004, -- [1]
+				"I am the lucid dream.", -- [2]
+				"Sara", -- [3]
+				7, -- [4]
+			}, -- [8]
+			{
+				139.380000000001, -- [1]
+				"The monster in your nightmares.", -- [2]
+				"Sara", -- [3]
+				7, -- [4]
+			}, -- [9]
+			{
+				144.1670000000013, -- [1]
+				"The fiend of a thousand faces.", -- [2]
+				"Sara", -- [3]
+				7, -- [4]
+			}, -- [10]
+			{
+				149.0380000000005, -- [1]
+				"Cower before my true form.", -- [2]
+				"Sara", -- [3]
+				7, -- [4]
+			}, -- [11]
+			{
+				152.2409999999982, -- [1]
+				"BOW DOWN BEFORE THE GOD OF DEATH!", -- [2]
+				"Yogg-Saron", -- [3]
+				7, -- [4]
+			}, -- [12]
+			{
+				171.5740000000005, -- [1]
+				"Tremble, mortals, before the coming of the end!", -- [2]
+				"Sara", -- [3]
+				7, -- [4]
+			}, -- [13]
+			{
+				177.5190000000002, -- [1]
+				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 12%% Sanity Lost|r", -- [2]
+				"Zowl", -- [3]
+				2, -- [4]
+			}, -- [14]
+			{
+				180.7089999999989, -- [1]
+				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 12%% Sanity Lost|r", -- [2]
+				"Zowl", -- [3]
+				2, -- [4]
+			}, -- [15]
+			{
+				210.5390000000007, -- [1]
+				"Portals open into %s's mind!", -- [2]
+				"Yogg-Saron", -- [3]
+				1, -- [4]
+			}, -- [16]
+			{
+				210.5390000000007, -- [1]
+				"MADNESS WILL CONSUME YOU!", -- [2]
+				"Yogg-Saron", -- [3]
+				7, -- [4]
+			}, -- [17]
+			{
+				217.2180000000008, -- [1]
+				"Tremble, mortals, before the coming of the end!", -- [2]
+				"Sara", -- [3]
+				7, -- [4]
+			}, -- [18]
+			{
+				225.4520000000011, -- [1]
+				"The illusion shatters and a path to the central chamber opens!", -- [2]
+				"Brain of Yogg-Saron", -- [3]
+				1, -- [4]
+			}, -- [19]
+			{
+				282.0760000000009, -- [1]
+				"Tremble, mortals, before the coming of the end!", -- [2]
+				"Sara", -- [3]
+				7, -- [4]
+			}, -- [20]
+			{
+				301.6650000000009, -- [1]
+				"Portals open into %s's mind!", -- [2]
+				"Yogg-Saron", -- [3]
+				1, -- [4]
+			}, -- [21]
+			{
+				301.6650000000009, -- [1]
+				"MADNESS WILL CONSUME YOU!", -- [2]
+				"Yogg-Saron", -- [3]
+				7, -- [4]
+			}, -- [22]
+			{
+				309.1490000000013, -- [1]
+				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 12%% Sanity Lost|r", -- [2]
+				"Zowl", -- [3]
+				2, -- [4]
+			}, -- [23]
+			{
+				313.8950000000004, -- [1]
+				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 12%% Sanity Lost|r", -- [2]
+				"Zowl", -- [3]
+				2, -- [4]
+			}, -- [24]
+			{
+				319.7469999999994, -- [1]
+				"The illusion shatters and a path to the central chamber opens!", -- [2]
+				"Brain of Yogg-Saron", -- [3]
+				1, -- [4]
+			}, -- [25]
+			{
+				346.9700000000012, -- [1]
+				"Look upon the true face of death, and know that your end comes soon!", -- [2]
+				"Yogg-Saron", -- [3]
+				7, -- [4]
+			}, -- [26]
+			{
+				368.0839999999989, -- [1]
+				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 4%% Sanity Lost|r", -- [2]
+				"Zowl", -- [3]
+				2, -- [4]
+			}, -- [27]
+			{
+				369.0360000000001, -- [1]
+				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 4%% Sanity Lost|r", -- [2]
+				"Zowl", -- [3]
+				2, -- [4]
+			}, -- [28]
+			{
+				371.9680000000008, -- [1]
+				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 4%% Sanity Lost|r", -- [2]
+				"Zowl", -- [3]
+				2, -- [4]
+			}, -- [29]
+			{
+				385.7409999999982, -- [1]
+				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 4%% Sanity Lost|r", -- [2]
+				"Zowl", -- [3]
+				2, -- [4]
+			}, -- [30]
+			{
+				388.5970000000016, -- [1]
+				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 Sanity Low!|r", -- [2]
+				"Zowl", -- [3]
+				2, -- [4]
+			}, -- [31]
+			{
+				398.7890000000007, -- [1]
+				"%s prepares to unleash Empowering Shadows!", -- [2]
+				"Yogg-Saron", -- [3]
+				1, -- [4]
+			}, -- [32]
+			{
+				405.2900000000009, -- [1]
+				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 4%% Sanity Lost|r", -- [2]
+				"Zowl", -- [3]
+				2, -- [4]
+			}, -- [33]
+			{
+				426.3889999999992, -- [1]
+				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 4%% Sanity Lost|r", -- [2]
+				"Zowl", -- [3]
+				2, -- [4]
+			}, -- [34]
+			{
+				444.0900000000002, -- [1]
+				"%s prepares to unleash Empowering Shadows!", -- [2]
+				"Yogg-Saron", -- [3]
+				1, -- [4]
+			}, -- [35]
+			{
+				447.3400000000002, -- [1]
+				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 4%% Sanity Lost|r", -- [2]
+				"Zowl", -- [3]
+				2, -- [4]
+			}, -- [36]
+			{
+				468.405999999999, -- [1]
+				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 4%% Sanity Lost|r", -- [2]
+				"Zowl", -- [3]
+				2, -- [4]
+			}, -- [37]
+			["boss"] = "Yogg-Saron",
+		}, -- [1]
+		{
+			{
+				0.6080000000001746, -- [1]
+				"Let hatred and rage guide your blows!", -- [2]
+				"Sara", -- [3]
+				7, -- [4]
+			}, -- [1]
+			{
+				3.952999999997701, -- [1]
+				"%s begins to boil upon touching Ithid!", -- [2]
+				"Ominous Cloud", -- [3]
+				3, -- [4]
+			}, -- [2]
+			{
+				4.936999999998079, -- [1]
+				"%s begins to boil upon touching Ithid!", -- [2]
+				"Ominous Cloud", -- [3]
+				3, -- [4]
+			}, -- [3]
+			{
+				6.840000000000146, -- [1]
+				"Yes! YES! Show them no mercy! Give no pause to your attacks!", -- [2]
+				"Sara", -- [3]
+				7, -- [4]
+			}, -- [4]
+			{
+				35.96099999999933, -- [1]
+				"%s begins to boil upon touching Ithid!", -- [2]
+				"Ominous Cloud", -- [3]
+				3, -- [4]
+			}, -- [5]
+			{
+				36.94499999999971, -- [1]
+				"%s begins to boil upon touching Ithid!", -- [2]
+				"Ominous Cloud", -- [3]
+				3, -- [4]
+			}, -- [6]
+			{
+				39.60599999999977, -- [1]
+				"Yes! YES! Show them no mercy! Give no pause to your attacks!", -- [2]
+				"Sara", -- [3]
+				7, -- [4]
+			}, -- [7]
+			{
+				40.91500000000087, -- [1]
+				"%s begins to boil upon touching Saigodk!", -- [2]
+				"Ominous Cloud", -- [3]
+				3, -- [4]
+			}, -- [8]
+			{
+				45.95000000000073, -- [1]
+				"%s begins to boil upon touching Zowl!", -- [2]
+				"Ominous Cloud", -- [3]
+				3, -- [4]
+			}, -- [9]
+			{
+				45.95000000000073, -- [1]
+				"%s begins to boil upon touching Zowl!", -- [2]
+				"Ominous Cloud", -- [3]
+				3, -- [4]
+			}, -- [10]
+			{
+				46.93899999999849, -- [1]
+				"%s begins to boil upon touching Zowl!", -- [2]
+				"Ominous Cloud", -- [3]
+				3, -- [4]
+			}, -- [11]
+			{
+				66.92199999999866, -- [1]
+				"%s begins to boil upon touching Revognaah!", -- [2]
+				"Ominous Cloud", -- [3]
+				3, -- [4]
+			}, -- [12]
+			{
+				70.85900000000038, -- [1]
+				"%s begins to boil upon touching Toxis!", -- [2]
+				"Ominous Cloud", -- [3]
+				3, -- [4]
+			}, -- [13]
+			{
+				71.68999999999869, -- [1]
+				"%s begins to boil upon touching Toxis!", -- [2]
+				"Ominous Cloud", -- [3]
+				3, -- [4]
+			}, -- [14]
+			{
+				71.95999999999913, -- [1]
+				"%s begins to boil upon touching Toxis!", -- [2]
+				"Ominous Cloud", -- [3]
+				3, -- [4]
+			}, -- [15]
+			{
+				72.9419999999991, -- [1]
+				"%s begins to boil upon touching Toxis!", -- [2]
+				"Ominous Cloud", -- [3]
+				3, -- [4]
+			}, -- [16]
+			{
+				78.03099999999904, -- [1]
+				"Yes! YES! Show them no mercy! Give no pause to your attacks!", -- [2]
+				"Sara", -- [3]
+				7, -- [4]
+			}, -- [17]
+			{
+				90.96099999999933, -- [1]
+				"%s begins to boil upon touching Revognaah!", -- [2]
+				"Ominous Cloud", -- [3]
+				3, -- [4]
+			}, -- [18]
+			{
+				91.94700000000012, -- [1]
+				"%s begins to boil upon touching Revognaah!", -- [2]
+				"Ominous Cloud", -- [3]
+				3, -- [4]
+			}, -- [19]
+			{
+				93.86799999999857, -- [1]
+				"%s begins to boil upon touching Indolence!", -- [2]
+				"Ominous Cloud", -- [3]
+				3, -- [4]
+			}, -- [20]
+			{
+				94.94900000000052, -- [1]
+				"%s begins to boil upon touching Zowl!", -- [2]
+				"Ominous Cloud", -- [3]
+				3, -- [4]
+			}, -- [21]
+			{
+				94.94900000000052, -- [1]
+				"%s begins to boil upon touching Finalboss!", -- [2]
+				"Ominous Cloud", -- [3]
+				3, -- [4]
+			}, -- [22]
+			{
+				95.84599999999773, -- [1]
+				"%s begins to boil upon touching Finalboss!", -- [2]
+				"Ominous Cloud", -- [3]
+				3, -- [4]
+			}, -- [23]
+			{
+				95.84599999999773, -- [1]
+				"%s begins to boil upon touching Zowl!", -- [2]
+				"Ominous Cloud", -- [3]
+				3, -- [4]
+			}, -- [24]
+			{
+				96.93799999999828, -- [1]
+				"%s begins to boil upon touching Finalboss!", -- [2]
+				"Ominous Cloud", -- [3]
+				3, -- [4]
+			}, -- [25]
+			{
+				96.93799999999828, -- [1]
+				"%s begins to boil upon touching Zowl!", -- [2]
+				"Ominous Cloud", -- [3]
+				3, -- [4]
+			}, -- [26]
+			{
+				97.41100000000006, -- [1]
+				"Let hatred and rage guide your blows!", -- [2]
+				"Sara", -- [3]
+				7, -- [4]
+			}, -- [27]
+			{
+				97.93599999999788, -- [1]
+				"%s begins to boil upon touching Finalboss!", -- [2]
+				"Ominous Cloud", -- [3]
+				3, -- [4]
+			}, -- [28]
+			{
+				97.93599999999788, -- [1]
+				"%s begins to boil upon touching Zowl!", -- [2]
+				"Ominous Cloud", -- [3]
+				3, -- [4]
+			}, -- [29]
+			{
+				98.83199999999852, -- [1]
+				"%s begins to boil upon touching Finalboss!", -- [2]
+				"Ominous Cloud", -- [3]
+				3, -- [4]
+			}, -- [30]
+			{
+				98.83199999999852, -- [1]
+				"%s begins to boil upon touching Kurde!", -- [2]
+				"Ominous Cloud", -- [3]
+				3, -- [4]
+			}, -- [31]
+			{
+				99.9419999999991, -- [1]
+				"%s begins to boil upon touching Freakcal!", -- [2]
+				"Ominous Cloud", -- [3]
+				3, -- [4]
+			}, -- [32]
+			{
+				99.9419999999991, -- [1]
+				"%s begins to boil upon touching Finalboss!", -- [2]
+				"Ominous Cloud", -- [3]
+				3, -- [4]
+			}, -- [33]
+			{
+				100.9549999999981, -- [1]
+				"%s begins to boil upon touching Arwyy!", -- [2]
+				"Ominous Cloud", -- [3]
+				3, -- [4]
+			}, -- [34]
+			{
+				100.9549999999981, -- [1]
+				"%s begins to boil upon touching Zowl!", -- [2]
+				"Ominous Cloud", -- [3]
+				3, -- [4]
+			}, -- [35]
+			{
+				101.8709999999992, -- [1]
+				"%s begins to boil upon touching Mikorrior!", -- [2]
+				"Ominous Cloud", -- [3]
+				3, -- [4]
+			}, -- [36]
+			{
+				101.8709999999992, -- [1]
+				"%s begins to boil upon touching Arwyy!", -- [2]
+				"Ominous Cloud", -- [3]
+				3, -- [4]
+			}, -- [37]
+			{
+				102.9500000000007, -- [1]
+				"%s begins to boil upon touching Arwyy!", -- [2]
+				"Ominous Cloud", -- [3]
+				3, -- [4]
+			}, -- [38]
+			{
+				102.9500000000007, -- [1]
+				"%s begins to boil upon touching Mikorrior!", -- [2]
+				"Ominous Cloud", -- [3]
+				3, -- [4]
+			}, -- [39]
+			{
+				103.9470000000001, -- [1]
+				"%s begins to boil upon touching Arwyy!", -- [2]
+				"Ominous Cloud", -- [3]
+				3, -- [4]
+			}, -- [40]
+			{
+				104.9959999999992, -- [1]
+				"%s begins to boil upon touching Arwyy!", -- [2]
+				"Ominous Cloud", -- [3]
+				3, -- [4]
+			}, -- [41]
+			{
+				105.6820000000007, -- [1]
+				"%s begins to boil upon touching Dedal!", -- [2]
+				"Ominous Cloud", -- [3]
+				3, -- [4]
+			}, -- [42]
+			{
+				106.6879999999983, -- [1]
+				"%s begins to boil upon touching Dedal!", -- [2]
+				"Ominous Cloud", -- [3]
+				3, -- [4]
+			}, -- [43]
+			{
+				106.9470000000001, -- [1]
+				"%s begins to boil upon touching Arwyy!", -- [2]
+				"Ominous Cloud", -- [3]
+				3, -- [4]
+			}, -- [44]
+			{
+				107.6729999999989, -- [1]
+				"%s begins to boil upon touching Dedal!", -- [2]
+				"Ominous Cloud", -- [3]
+				3, -- [4]
+			}, -- [45]
+			{
+				107.9569999999985, -- [1]
+				"%s begins to boil upon touching Toxis!", -- [2]
+				"Ominous Cloud", -- [3]
+				3, -- [4]
+			}, -- [46]
+			{
+				108.9409999999989, -- [1]
+				"%s begins to boil upon touching Toxis!", -- [2]
+				"Ominous Cloud", -- [3]
+				3, -- [4]
+			}, -- [47]
+			{
+				109.757999999998, -- [1]
+				"%s begins to boil upon touching Toxis!", -- [2]
+				"Ominous Cloud", -- [3]
+				3, -- [4]
+			}, -- [48]
+			{
+				110.0089999999982, -- [1]
+				"%s begins to boil upon touching Arwyy!", -- [2]
+				"Ominous Cloud", -- [3]
+				3, -- [4]
+			}, -- [49]
+			{
+				113.4279999999999, -- [1]
+				"Could they have been saved?", -- [2]
+				"Sara", -- [3]
+				7, -- [4]
+			}, -- [50]
+			{
+				117.8909999999996, -- [1]
+				"Weak-minded fool!", -- [2]
+				"Voice of Yogg-Saron", -- [3]
+				5, -- [4]
+			}, -- [51]
+			["boss"] = "Yogg-Saron",
+		}, -- [2]
+		{
+			{
+				30.60400000000118, -- [1]
+				"A cloud of saronite vapors coalesces nearby!", -- [2]
+				"General Vezax", -- [3]
+				1, -- [4]
+			}, -- [1]
+			{
+				60.94499999999971, -- [1]
+				"A cloud of saronite vapors coalesces nearby!", -- [2]
+				"General Vezax", -- [3]
+				1, -- [4]
+			}, -- [2]
+			{
+				62.9320000000007, -- [1]
+				"The black blood of Yogg-Saron courses through me! I. AM. UNSTOPPABLE!", -- [2]
+				"General Vezax", -- [3]
+				7, -- [4]
+			}, -- [3]
+			{
+				92.0630000000001, -- [1]
+				"A cloud of saronite vapors coalesces nearby!", -- [2]
+				"General Vezax", -- [3]
+				1, -- [4]
+			}, -- [4]
+			{
+				122.8360000000012, -- [1]
+				"A cloud of saronite vapors coalesces nearby!", -- [2]
+				"General Vezax", -- [3]
+				1, -- [4]
+			}, -- [5]
+			{
+				125.5510000000013, -- [1]
+				"The black blood of Yogg-Saron courses through me! I. AM. UNSTOPPABLE!", -- [2]
+				"General Vezax", -- [3]
+				7, -- [4]
+			}, -- [6]
+			{
+				153.1450000000004, -- [1]
+				"A cloud of saronite vapors coalesces nearby!", -- [2]
+				"General Vezax", -- [3]
+				1, -- [4]
+			}, -- [7]
+			{
+				183.844000000001, -- [1]
+				"A cloud of saronite vapors coalesces nearby!", -- [2]
+				"General Vezax", -- [3]
+				1, -- [4]
+			}, -- [8]
+			{
+				187.1270000000004, -- [1]
+				"The black blood of Yogg-Saron courses through me! I. AM. UNSTOPPABLE!", -- [2]
+				"General Vezax", -- [3]
+				7, -- [4]
+			}, -- [9]
+			{
+				214.6810000000005, -- [1]
+				"A cloud of saronite vapors coalesces nearby!", -- [2]
+				"General Vezax", -- [3]
+				1, -- [4]
+			}, -- [10]
+			{
+				245.4260000000013, -- [1]
+				"A cloud of saronite vapors coalesces nearby!", -- [2]
+				"General Vezax", -- [3]
+				1, -- [4]
+			}, -- [11]
+			{
+				246.607, -- [1]
+				"You thought to stand before the legions of death and survive?", -- [2]
+				"General Vezax", -- [3]
+				7, -- [4]
+			}, -- [12]
+			{
+				248.6599999999999, -- [1]
+				"The black blood of Yogg-Saron courses through me! I. AM. UNSTOPPABLE!", -- [2]
+				"General Vezax", -- [3]
+				7, -- [4]
+			}, -- [13]
+			{
+				311.7970000000005, -- [1]
+				"The black blood of Yogg-Saron courses through me! I. AM. UNSTOPPABLE!", -- [2]
+				"General Vezax", -- [3]
+				7, -- [4]
+			}, -- [14]
+			["boss"] = "General Vezax",
+		}, -- [3]
+	},
 	["encounter_spells"] = {
 		[62931] = {
 			["school"] = 8,
@@ -1275,14 +1898,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Misguided Nymph",
 		},
-		[64465] = {
-			["school"] = 32,
-			["type"] = "BUFF",
+		[55699] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Yogg-Saron",
+			["source"] = "Blizzard",
 		},
 		[63085] = {
 			["school"] = 8,
@@ -1291,21 +1914,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Misguided Nymph",
 		},
-		[64164] = {
+		[63548] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+		},
+		[64039] = {
 			["school"] = 32,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Yogg-Saron",
-		},
-		[64163] = {
-			["school"] = 32,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Yogg-Saron",
+			["source"] = "Influence Tentacle",
 		},
 		[64666] = {
 			["school"] = 1,
@@ -1343,13 +1966,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Saigodk",
 		},
-		[64059] = {
-			["school"] = 32,
+		[56105] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Brain of Yogg-Saron",
+			["source"] = "Malygos",
 		},
 		[58957] = {
 			["school"] = 1,
@@ -1361,25 +1983,32 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Sartharion",
 		},
-		[64168] = {
+		[64536] = {
+			["school"] = 68,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "VX-001",
+		},
+		[55665] = {
 			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Laughing Skull",
+			["source"] = "Sapphiron",
 		},
-		[65723] = {
-			["school"] = 4,
+		[57430] = {
+			["school"] = 64,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-		},
-		[64147] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Crusher Tentacle",
+			["source"] = "Malygos",
 		},
 		[63277] = {
 			["school"] = 32,
@@ -1403,14 +2032,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Pool of Tar",
 		},
-		[62276] = {
+		[61254] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Thorim",
+			["source"] = "Sartharion",
 		},
 		[63341] = {
 			["school"] = 1,
@@ -1419,15 +2048,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Mimiron",
 		},
-		[64152] = {
-			["school"] = 8,
+		[1604] = {
+			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Corruptor Tentacle",
+			["source"] = "Sartharion Twilight Whelp",
 		},
 		[63884] = {
 			["school"] = 8,
@@ -1435,14 +2062,15 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 		},
-		[57688] = {
+		[63978] = {
 			["school"] = 1,
-			["type"] = "BUFF",
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Crusher Tentacle",
+			["source"] = "Rubble",
 		},
 		[63554] = {
 			["school"] = 8,
@@ -1453,14 +2081,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Mangrove Ent",
 		},
-		[63894] = {
-			["school"] = 32,
+		[63044] = {
+			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Yogg-Saron",
+			["source"] = "Guardian Lasher",
 		},
 		[62415] = {
 			["school"] = 8,
@@ -1483,12 +2111,11 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ancient Rune Giant",
 		},
-		[47632] = {
+		[63338] = {
 			["school"] = 32,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Saigodk",
 		},
 		[63485] = {
 			["school"] = 8,
@@ -1513,15 +2140,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "XM-024 Pummeller",
 		},
-		[64667] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[51411] = {
+			["school"] = 16,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Sanctum Sentry",
+			["source"] = "Saigodk",
 		},
 		[62016] = {
 			["school"] = 8,
@@ -1533,37 +2158,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Thorim",
 		},
-		[49909] = {
-			["school"] = 16,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Saigodk",
-		},
-		[63474] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Ignis the Furnace Master",
-		},
-		[63976] = {
-			["school"] = 64,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-		},
-		[64160] = {
+		[48707] = {
 			["school"] = 32,
-			["type"] = "DEBUFF",
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Immortal Guardian",
+			["source"] = "Saigodk",
 		},
 		[55095] = {
 			["school"] = 16,
@@ -1584,6 +2186,17 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Corruptor Tentacle",
 		},
+		[60072] = {
+			["school"] = 80,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Malygos",
+		},
 		[64535] = {
 			["school"] = 68,
 			["token"] = {
@@ -1593,23 +2206,33 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Aerial Command Unit",
 		},
-		[51714] = {
-			["school"] = 16,
+		[64667] = {
+			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Saigodk",
-		},
-		[63549] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Corrupted Servitor",
+			["source"] = "Sanctum Sentry",
+		},
+		[60936] = {
+			["school"] = 64,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Malygos",
+		},
+		[63801] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Boomer XP-500",
 		},
 		[64021] = {
 			["school"] = 4,
@@ -1620,6 +2243,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Razorscale",
 		},
+		[642] = {
+			["school"] = 2,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Dedal",
+		},
 		[59126] = {
 			["school"] = 32,
 			["token"] = {
@@ -1628,44 +2260,46 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Shadron",
 		},
-		[63042] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[63553] = {
+			["school"] = 8,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Guardian of Yogg-Saron",
+			["source"] = "Ironroot Lasher",
 		},
-		[20252] = {
-			["school"] = 1,
+		[56397] = {
+			["school"] = 64,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Gubianger",
+			["source"] = "Scion of Eternity",
 		},
-		[20511] = {
-			["school"] = 1,
+		[57491] = {
+			["school"] = 4,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Gubianger",
+			["source"] = "Flame Tsunami",
 		},
 		[63278] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_HEAL"] = true,
 				["SPELL_DAMAGE"] = true,
+				["SPELL_HEAL"] = true,
 			},
 			["source"] = "General Vezax",
 		},
-		[61969] = {
-			["school"] = 16,
-			["type"] = "DEBUFF",
+		[15290] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
 			},
+			["source"] = "Toxis",
 		},
 		[57689] = {
 			["school"] = 1,
@@ -1691,14 +2325,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dark Rune Warbringer",
 		},
-		[62467] = {
-			["school"] = 1,
+		[63489] = {
+			["school"] = 64,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Elder Ironbranch",
+			["source"] = "Runemaster Molgeim",
 		},
 		[64396] = {
 			["school"] = 1,
@@ -1710,24 +2345,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Auriaya",
 		},
-		[64495] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[63473] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Nox",
+			["source"] = "Ignis the Furnace Master",
 		},
-		[64157] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[20267] = {
+			["school"] = 2,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
 			},
-			["source"] = "Corruptor Tentacle",
+			["source"] = "Dedal",
 		},
 		[62400] = {
 			["school"] = 1,
@@ -1737,19 +2367,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Flame Leviathan",
 		},
-		[60530] = {
-			["school"] = 8,
+		[48300] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_PERIODIC_HEAL"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Dedal",
+			["source"] = "Toxis",
 		},
-		[20267] = {
-			["school"] = 2,
+		[55799] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_PERIODIC_HEAL"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Dedal",
+			["source"] = "Sapphiron",
 		},
 		[63981] = {
 			["school"] = 1,
@@ -1767,13 +2400,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Stormcaller Brundir",
 		},
-		[64013] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[61969] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Suit of Armor",
 		},
 		[63007] = {
 			["school"] = 1,
@@ -1783,14 +2415,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Guardian Lasher",
 		},
-		[58105] = {
+		[63050] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Shadron",
 		},
 		[63550] = {
 			["school"] = 8,
@@ -1803,19 +2433,18 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Guardian Lasher",
 		},
-		[48160] = {
-			["school"] = 32,
+		[56548] = {
+			["school"] = 64,
 			["token"] = {
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Toxis",
 		},
-		[63050] = {
+		[61632] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
+			["source"] = "Sartharion",
 		},
 		[63598] = {
 			["school"] = 1,
@@ -1824,14 +2453,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Iron Roots",
 		},
-		[62339] = {
+		[55696] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Runic Colossus",
+			["source"] = "Sapphiron",
 		},
 		[62608] = {
 			["school"] = 4,
@@ -1841,14 +2469,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Detonating Lasher",
 		},
-		[64668] = {
-			["school"] = 64,
+		[64157] = {
+			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Assault Bot",
+			["source"] = "Corruptor Tentacle",
 		},
 		[64173] = {
 			["school"] = 8,
@@ -1867,30 +2497,29 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Jhuuthun",
 		},
-		[61920] = {
-			["school"] = 8,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Steelbreaker",
-		},
-		[61251] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Vesperon",
-		},
 		[59638] = {
 			["school"] = 16,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Mirror Image",
+		},
+		[65209] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Guardian of Yogg-Saron",
+		},
+		[58105] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Shadron",
 		},
 		[62209] = {
 			["school"] = 1,
@@ -1902,14 +2531,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Unstable Sun Beam",
 		},
-		[20253] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[59127] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Gubianger",
+			["source"] = "Shadron",
 		},
 		[60708] = {
 			["school"] = 32,
@@ -1920,33 +2547,31 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Sartharion Twilight Whelp",
 		},
-		[63038] = {
+		[62660] = {
 			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "General Vezax",
+		},
+		[61251] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Vesperon",
+		},
+		[62928] = {
+			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Guardian of Yogg-Saron",
-		},
-		[60229] = {
-			["school"] = 2,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Saigodk",
-		},
-		[65648] = {
-			["school"] = 68,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Aerial Command Unit",
+			["source"] = "Elder Ironbranch",
 		},
 		[65121] = {
 			["school"] = 66,
@@ -1971,14 +2596,17 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Sanctum Sentry",
 		},
-		[64167] = {
-			["school"] = 32,
-			["type"] = "BUFF",
+		[63551] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Laughing Skull",
+			["source"] = "Guardian of Life",
 		},
 		[62038] = {
 			["school"] = 1,
@@ -2065,29 +2693,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dark Rune Evoker",
 		},
-		[62445] = {
+		[65026] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Leviathan Mk II",
+		},
+		[62017] = {
 			["school"] = 8,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Dark Rune Evoker",
-		},
-		[57428] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Static Field",
-		},
-		[57579] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Tenebron",
 		},
 		[62666] = {
 			["school"] = 1,
@@ -2096,6 +2718,14 @@ EncounterDetailsDB = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Razorscale",
+		},
+		[61990] = {
+			["school"] = 16,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Flash Freeze",
 		},
 		[63631] = {
 			["school"] = 8,
@@ -2134,19 +2764,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Snaplasher",
 		},
-		[62937] = {
-			["school"] = 4,
+		[63512] = {
+			["school"] = 16,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Hodir",
+		},
+		[57579] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Detonating Lasher",
-		},
-		[64733] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
+			["source"] = "Tenebron",
 		},
 		[59128] = {
 			["school"] = 32,
@@ -2156,33 +2788,30 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Twilight Fissure",
 		},
-		[5246] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[64532] = {
+			["school"] = 68,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Gubianger",
+			["source"] = "VX-001",
 		},
-		[62420] = {
-			["school"] = 1,
+		[64533] = {
+			["school"] = 4,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Iron Honor Guard",
+			["source"] = "VX-001",
 		},
-		[63479] = {
-			["school"] = 8,
+		[19983] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Stormcaller Brundir",
+			["source"] = "Sapphiron",
 		},
 		[48461] = {
 			["school"] = 8,
@@ -2191,26 +2820,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Suudu",
 		},
-		[62865] = {
+		[64972] = {
 			["school"] = 8,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Sun Beam",
-		},
-		[63472] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Ignis the Furnace Master",
+		},
+		[55807] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Kel'Thuzad",
 		},
 		[65719] = {
 			["school"] = 32,
@@ -2237,14 +2861,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Runic Colossus",
 		},
-		[56222] = {
-			["school"] = 1,
+		[62865] = {
+			["school"] = 8,
 			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Saigodk",
+			["source"] = "Sun Beam",
 		},
 		[58793] = {
 			["school"] = 32,
@@ -2262,13 +2886,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Elder Stonebark",
 		},
-		[56909] = {
-			["school"] = 1,
+		[63552] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Sartharion",
+			["source"] = "Ironroot Lasher",
 		},
 		[62418] = {
 			["school"] = 1,
@@ -2289,15 +2912,17 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Runemaster Molgeim",
 		},
-		[55807] = {
-			["school"] = 16,
+		[63472] = {
+			["school"] = 4,
 			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Kel'Thuzad",
+			["source"] = "Ignis the Furnace Master",
 		},
 		[62466] = {
 			["school"] = 8,
@@ -2307,13 +2932,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Thorim",
 		},
-		[62922] = {
-			["school"] = 8,
+		[57591] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Unstable Sun Beam",
+			["source"] = "Fire Cyclone",
 		},
 		[63009] = {
 			["school"] = 4,
@@ -2323,19 +2947,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Proximity Mine",
 		},
-		[57591] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Fire Cyclone",
-		},
-		[63552] = {
+		[62922] = {
 			["school"] = 8,
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ironroot Lasher",
+			["source"] = "Unstable Sun Beam",
+		},
+		[56909] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Sartharion",
 		},
 		[63568] = {
 			["school"] = 8,
@@ -2349,53 +2975,56 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Nature's Blade",
 		},
-		[64972] = {
+		[56222] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Saigodk",
+		},
+		[63479] = {
 			["school"] = 8,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-		},
-		[19983] = {
-			["school"] = 1,
-			["token"] = {
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Sapphiron",
+			["source"] = "Stormcaller Brundir",
 		},
-		[64533] = {
-			["school"] = 4,
+		[62420] = {
+			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "VX-001",
+			["source"] = "Iron Honor Guard",
 		},
-		[64532] = {
-			["school"] = 68,
+		[5246] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Gubianger",
+		},
+		[64733] = {
+			["school"] = 4,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "VX-001",
 		},
-		[63512] = {
-			["school"] = 16,
-			["type"] = "BUFF",
+		[62937] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Hodir",
-		},
-		[61990] = {
-			["school"] = 16,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Flash Freeze",
+			["source"] = "Detonating Lasher",
 		},
 		[64191] = {
 			["school"] = 1,
@@ -2406,23 +3035,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Snaplasher",
 		},
-		[62017] = {
+		[57428] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Static Field",
+		},
+		[62445] = {
 			["school"] = 8,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
-			},
-		},
-		[65026] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Leviathan Mk II",
+			["source"] = "Dark Rune Evoker",
 		},
 		[27808] = {
 			["school"] = 1,
@@ -2442,17 +3070,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Unstable Sun Beam",
 		},
-		[63551] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
+		[64167] = {
+			["school"] = 32,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Guardian of Life",
+			["source"] = "Laughing Skull",
 		},
 		[62243] = {
 			["school"] = 1,
@@ -2462,37 +3087,42 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Unstable Sun Beam",
 		},
-		[62928] = {
-			["school"] = 1,
+		[65648] = {
+			["school"] = 68,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Aerial Command Unit",
+		},
+		[60229] = {
+			["school"] = 2,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Saigodk",
+		},
+		[63038] = {
+			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Elder Ironbranch",
-		},
-		[62660] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "General Vezax",
-		},
-		[59127] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Shadron",
-		},
-		[65209] = {
-			["school"] = 32,
-			["token"] = {
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Guardian of Yogg-Saron",
+		},
+		[20253] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Gubianger",
 		},
 		[62834] = {
 			["school"] = 4,
@@ -2502,26 +3132,32 @@ EncounterDetailsDB = {
 			},
 			["source"] = "XE-321 Boombot",
 		},
-		[55696] = {
+		[62339] = {
 			["school"] = 1,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Sapphiron",
+			["source"] = "Runic Colossus",
 		},
-		[61632] = {
-			["school"] = 1,
+		[61920] = {
+			["school"] = 8,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Sartharion",
+			["source"] = "Steelbreaker",
 		},
-		[56548] = {
+		[64668] = {
 			["school"] = 64,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
+			["source"] = "Assault Bot",
 		},
 		[45524] = {
 			["school"] = 16,
@@ -2531,22 +3167,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Saigodk",
 		},
-		[55799] = {
-			["school"] = 16,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Sapphiron",
-		},
-		[48300] = {
+		[48160] = {
 			["school"] = 32,
 			["token"] = {
-				["SPELL_HEAL"] = true,
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "Toxis",
+		},
+		[64013] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Suit of Armor",
 		},
 		[48127] = {
 			["school"] = 32,
@@ -2555,64 +3189,60 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Toxis",
 		},
-		[63473] = {
-			["school"] = 4,
+		[47632] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Ignis the Furnace Master",
+			["source"] = "Saigodk",
 		},
-		[63489] = {
-			["school"] = 64,
+		[62467] = {
+			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Runemaster Molgeim",
+			["source"] = "Elder Ironbranch",
 		},
-		[15290] = {
-			["school"] = 32,
+		[60530] = {
+			["school"] = 8,
 			["token"] = {
 				["SPELL_PERIODIC_HEAL"] = true,
 			},
-			["source"] = "Toxis",
+			["source"] = "Dedal",
 		},
-		[57491] = {
-			["school"] = 4,
+		[64495] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Nox",
+		},
+		[20511] = {
+			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Flame Tsunami",
+			["source"] = "Gubianger",
 		},
-		[56397] = {
-			["school"] = 64,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Scion of Eternity",
-		},
-		[63553] = {
-			["school"] = 8,
-			["type"] = "BUFF",
+		[63042] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Ironroot Lasher",
+			["source"] = "Guardian of Yogg-Saron",
 		},
-		[642] = {
-			["school"] = 2,
-			["type"] = "BUFF",
+		[20252] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Dedal",
+			["source"] = "Gubianger",
 		},
 		[56431] = {
 			["school"] = 64,
@@ -2620,23 +3250,23 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 		},
-		[63801] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Boomer XP-500",
-		},
-		[60936] = {
-			["school"] = 64,
+		[63549] = {
+			["school"] = 8,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Malygos",
+			["source"] = "Corrupted Servitor",
+		},
+		[51714] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Saigodk",
 		},
 		[64144] = {
 			["school"] = 1,
@@ -2646,16 +3276,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Corruptor Tentacle",
 		},
-		[60072] = {
-			["school"] = 80,
+		[64160] = {
+			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Malygos",
+			["source"] = "Immortal Guardian",
 		},
 		[10966] = {
 			["school"] = 1,
@@ -2672,16 +3302,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "General Vezax",
 		},
-		[48707] = {
-			["school"] = 32,
-			["type"] = "BUFF",
+		[63976] = {
+			["school"] = 64,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+		},
+		[63474] = {
+			["school"] = 4,
+			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Saigodk",
+			["source"] = "Ignis the Furnace Master",
 		},
-		[51411] = {
+		[49909] = {
 			["school"] = 16,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
@@ -2689,20 +3323,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Saigodk",
 		},
-		[63338] = {
+		[63894] = {
 			["school"] = 32,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-		},
-		[63044] = {
-			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Guardian Lasher",
+			["source"] = "Yogg-Saron",
 		},
 		[50475] = {
 			["school"] = 1,
@@ -2711,59 +3339,53 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Saigodk",
 		},
-		[63978] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Rubble",
-		},
-		[1604] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Sartharion Twilight Whelp",
-		},
-		[61254] = {
+		[57688] = {
 			["school"] = 1,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Sartharion",
+			["source"] = "Crusher Tentacle",
 		},
-		[57430] = {
-			["school"] = 64,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Malygos",
-		},
-		[55665] = {
-			["school"] = 32,
+		[64152] = {
+			["school"] = 8,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_HEAL"] = true,
-			},
-			["source"] = "Sapphiron",
-		},
-		[64536] = {
-			["school"] = 68,
-			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Corruptor Tentacle",
+		},
+		[62276] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Thorim",
+		},
+		[64147] = {
+			["school"] = 1,
+			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "VX-001",
+			["source"] = "Crusher Tentacle",
+		},
+		[65723] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+		},
+		[64168] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Laughing Skull",
 		},
 		[24048] = {
 			["school"] = 1,
@@ -2775,660 +3397,38 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Iron Ring Guard",
 		},
-		[56105] = {
-			["school"] = 1,
+		[64059] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Malygos",
+			["source"] = "Brain of Yogg-Saron",
 		},
-		[64039] = {
+		[64163] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Yogg-Saron",
+		},
+		[64164] = {
 			["school"] = 32,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Influence Tentacle",
+			["source"] = "Yogg-Saron",
 		},
-		[63548] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
+		[64465] = {
+			["school"] = 32,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
+			["source"] = "Yogg-Saron",
 		},
-		[55699] = {
-			["school"] = 16,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Blizzard",
-		},
-	},
-	["emotes"] = {
-		{
-			{
-				31.66100000000006, -- [1]
-				"Let hatred and rage guide your blows!", -- [2]
-				"Sara", -- [3]
-				7, -- [4]
-			}, -- [1]
-			{
-				44.5679999999993, -- [1]
-				"Yes! YES! Show them no mercy! Give no pause to your attacks!", -- [2]
-				"Sara", -- [3]
-				7, -- [4]
-			}, -- [2]
-			{
-				55.28900000000067, -- [1]
-				"%s begins to boil upon touching Ithid!", -- [2]
-				"Ominous Cloud", -- [3]
-				3, -- [4]
-			}, -- [3]
-			{
-				73.72699999999895, -- [1]
-				"Let hatred and rage guide your blows!", -- [2]
-				"Sara", -- [3]
-				7, -- [4]
-			}, -- [4]
-			{
-				80.19700000000012, -- [1]
-				"Yes! YES! Show them no mercy! Give no pause to your attacks!", -- [2]
-				"Sara", -- [3]
-				7, -- [4]
-			}, -- [5]
-			{
-				112.5750000000007, -- [1]
-				"Yes! YES! Show them no mercy! Give no pause to your attacks!", -- [2]
-				"Sara", -- [3]
-				7, -- [4]
-			}, -- [6]
-			{
-				127.1539999999986, -- [1]
-				"Let hatred and rage guide your blows!", -- [2]
-				"Sara", -- [3]
-				7, -- [4]
-			}, -- [7]
-			{
-				134.4840000000004, -- [1]
-				"I am the lucid dream.", -- [2]
-				"Sara", -- [3]
-				7, -- [4]
-			}, -- [8]
-			{
-				139.380000000001, -- [1]
-				"The monster in your nightmares.", -- [2]
-				"Sara", -- [3]
-				7, -- [4]
-			}, -- [9]
-			{
-				144.1670000000013, -- [1]
-				"The fiend of a thousand faces.", -- [2]
-				"Sara", -- [3]
-				7, -- [4]
-			}, -- [10]
-			{
-				149.0380000000005, -- [1]
-				"Cower before my true form.", -- [2]
-				"Sara", -- [3]
-				7, -- [4]
-			}, -- [11]
-			{
-				152.2409999999982, -- [1]
-				"BOW DOWN BEFORE THE GOD OF DEATH!", -- [2]
-				"Yogg-Saron", -- [3]
-				7, -- [4]
-			}, -- [12]
-			{
-				171.5740000000005, -- [1]
-				"Tremble, mortals, before the coming of the end!", -- [2]
-				"Sara", -- [3]
-				7, -- [4]
-			}, -- [13]
-			{
-				177.5190000000002, -- [1]
-				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 12%% Sanity Lost|r", -- [2]
-				"Zowl", -- [3]
-				2, -- [4]
-			}, -- [14]
-			{
-				180.7089999999989, -- [1]
-				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 12%% Sanity Lost|r", -- [2]
-				"Zowl", -- [3]
-				2, -- [4]
-			}, -- [15]
-			{
-				210.5390000000007, -- [1]
-				"Portals open into %s's mind!", -- [2]
-				"Yogg-Saron", -- [3]
-				1, -- [4]
-			}, -- [16]
-			{
-				210.5390000000007, -- [1]
-				"MADNESS WILL CONSUME YOU!", -- [2]
-				"Yogg-Saron", -- [3]
-				7, -- [4]
-			}, -- [17]
-			{
-				217.2180000000008, -- [1]
-				"Tremble, mortals, before the coming of the end!", -- [2]
-				"Sara", -- [3]
-				7, -- [4]
-			}, -- [18]
-			{
-				225.4520000000011, -- [1]
-				"The illusion shatters and a path to the central chamber opens!", -- [2]
-				"Brain of Yogg-Saron", -- [3]
-				1, -- [4]
-			}, -- [19]
-			{
-				282.0760000000009, -- [1]
-				"Tremble, mortals, before the coming of the end!", -- [2]
-				"Sara", -- [3]
-				7, -- [4]
-			}, -- [20]
-			{
-				301.6650000000009, -- [1]
-				"Portals open into %s's mind!", -- [2]
-				"Yogg-Saron", -- [3]
-				1, -- [4]
-			}, -- [21]
-			{
-				301.6650000000009, -- [1]
-				"MADNESS WILL CONSUME YOU!", -- [2]
-				"Yogg-Saron", -- [3]
-				7, -- [4]
-			}, -- [22]
-			{
-				309.1490000000013, -- [1]
-				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 12%% Sanity Lost|r", -- [2]
-				"Zowl", -- [3]
-				2, -- [4]
-			}, -- [23]
-			{
-				313.8950000000004, -- [1]
-				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 12%% Sanity Lost|r", -- [2]
-				"Zowl", -- [3]
-				2, -- [4]
-			}, -- [24]
-			{
-				319.7469999999994, -- [1]
-				"The illusion shatters and a path to the central chamber opens!", -- [2]
-				"Brain of Yogg-Saron", -- [3]
-				1, -- [4]
-			}, -- [25]
-			{
-				346.9700000000012, -- [1]
-				"Look upon the true face of death, and know that your end comes soon!", -- [2]
-				"Yogg-Saron", -- [3]
-				7, -- [4]
-			}, -- [26]
-			{
-				368.0839999999989, -- [1]
-				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 4%% Sanity Lost|r", -- [2]
-				"Zowl", -- [3]
-				2, -- [4]
-			}, -- [27]
-			{
-				369.0360000000001, -- [1]
-				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 4%% Sanity Lost|r", -- [2]
-				"Zowl", -- [3]
-				2, -- [4]
-			}, -- [28]
-			{
-				371.9680000000008, -- [1]
-				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 4%% Sanity Lost|r", -- [2]
-				"Zowl", -- [3]
-				2, -- [4]
-			}, -- [29]
-			{
-				385.7409999999982, -- [1]
-				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 4%% Sanity Lost|r", -- [2]
-				"Zowl", -- [3]
-				2, -- [4]
-			}, -- [30]
-			{
-				388.5970000000016, -- [1]
-				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 Sanity Low!|r", -- [2]
-				"Zowl", -- [3]
-				2, -- [4]
-			}, -- [31]
-			{
-				398.7890000000007, -- [1]
-				"%s prepares to unleash Empowering Shadows!", -- [2]
-				"Yogg-Saron", -- [3]
-				1, -- [4]
-			}, -- [32]
-			{
-				405.2900000000009, -- [1]
-				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 4%% Sanity Lost|r", -- [2]
-				"Zowl", -- [3]
-				2, -- [4]
-			}, -- [33]
-			{
-				426.3889999999992, -- [1]
-				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 4%% Sanity Lost|r", -- [2]
-				"Zowl", -- [3]
-				2, -- [4]
-			}, -- [34]
-			{
-				444.0900000000002, -- [1]
-				"%s prepares to unleash Empowering Shadows!", -- [2]
-				"Yogg-Saron", -- [3]
-				1, -- [4]
-			}, -- [35]
-			{
-				447.3400000000002, -- [1]
-				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 4%% Sanity Lost|r", -- [2]
-				"Zowl", -- [3]
-				2, -- [4]
-			}, -- [36]
-			{
-				468.405999999999, -- [1]
-				"|TInterface\\Icons\\Spell_Arcane_MindMastery.blp:24|t|cFFFF8900 4%% Sanity Lost|r", -- [2]
-				"Zowl", -- [3]
-				2, -- [4]
-			}, -- [37]
-			["boss"] = "Yogg-Saron",
-		}, -- [1]
-		{
-			{
-				0.6080000000001746, -- [1]
-				"Let hatred and rage guide your blows!", -- [2]
-				"Sara", -- [3]
-				7, -- [4]
-			}, -- [1]
-			{
-				3.952999999997701, -- [1]
-				"%s begins to boil upon touching Ithid!", -- [2]
-				"Ominous Cloud", -- [3]
-				3, -- [4]
-			}, -- [2]
-			{
-				4.936999999998079, -- [1]
-				"%s begins to boil upon touching Ithid!", -- [2]
-				"Ominous Cloud", -- [3]
-				3, -- [4]
-			}, -- [3]
-			{
-				6.840000000000146, -- [1]
-				"Yes! YES! Show them no mercy! Give no pause to your attacks!", -- [2]
-				"Sara", -- [3]
-				7, -- [4]
-			}, -- [4]
-			{
-				35.96099999999933, -- [1]
-				"%s begins to boil upon touching Ithid!", -- [2]
-				"Ominous Cloud", -- [3]
-				3, -- [4]
-			}, -- [5]
-			{
-				36.94499999999971, -- [1]
-				"%s begins to boil upon touching Ithid!", -- [2]
-				"Ominous Cloud", -- [3]
-				3, -- [4]
-			}, -- [6]
-			{
-				39.60599999999977, -- [1]
-				"Yes! YES! Show them no mercy! Give no pause to your attacks!", -- [2]
-				"Sara", -- [3]
-				7, -- [4]
-			}, -- [7]
-			{
-				40.91500000000087, -- [1]
-				"%s begins to boil upon touching Saigodk!", -- [2]
-				"Ominous Cloud", -- [3]
-				3, -- [4]
-			}, -- [8]
-			{
-				45.95000000000073, -- [1]
-				"%s begins to boil upon touching Zowl!", -- [2]
-				"Ominous Cloud", -- [3]
-				3, -- [4]
-			}, -- [9]
-			{
-				45.95000000000073, -- [1]
-				"%s begins to boil upon touching Zowl!", -- [2]
-				"Ominous Cloud", -- [3]
-				3, -- [4]
-			}, -- [10]
-			{
-				46.93899999999849, -- [1]
-				"%s begins to boil upon touching Zowl!", -- [2]
-				"Ominous Cloud", -- [3]
-				3, -- [4]
-			}, -- [11]
-			{
-				66.92199999999866, -- [1]
-				"%s begins to boil upon touching Revognaah!", -- [2]
-				"Ominous Cloud", -- [3]
-				3, -- [4]
-			}, -- [12]
-			{
-				70.85900000000038, -- [1]
-				"%s begins to boil upon touching Toxis!", -- [2]
-				"Ominous Cloud", -- [3]
-				3, -- [4]
-			}, -- [13]
-			{
-				71.68999999999869, -- [1]
-				"%s begins to boil upon touching Toxis!", -- [2]
-				"Ominous Cloud", -- [3]
-				3, -- [4]
-			}, -- [14]
-			{
-				71.95999999999913, -- [1]
-				"%s begins to boil upon touching Toxis!", -- [2]
-				"Ominous Cloud", -- [3]
-				3, -- [4]
-			}, -- [15]
-			{
-				72.9419999999991, -- [1]
-				"%s begins to boil upon touching Toxis!", -- [2]
-				"Ominous Cloud", -- [3]
-				3, -- [4]
-			}, -- [16]
-			{
-				78.03099999999904, -- [1]
-				"Yes! YES! Show them no mercy! Give no pause to your attacks!", -- [2]
-				"Sara", -- [3]
-				7, -- [4]
-			}, -- [17]
-			{
-				90.96099999999933, -- [1]
-				"%s begins to boil upon touching Revognaah!", -- [2]
-				"Ominous Cloud", -- [3]
-				3, -- [4]
-			}, -- [18]
-			{
-				91.94700000000012, -- [1]
-				"%s begins to boil upon touching Revognaah!", -- [2]
-				"Ominous Cloud", -- [3]
-				3, -- [4]
-			}, -- [19]
-			{
-				93.86799999999857, -- [1]
-				"%s begins to boil upon touching Indolence!", -- [2]
-				"Ominous Cloud", -- [3]
-				3, -- [4]
-			}, -- [20]
-			{
-				94.94900000000052, -- [1]
-				"%s begins to boil upon touching Zowl!", -- [2]
-				"Ominous Cloud", -- [3]
-				3, -- [4]
-			}, -- [21]
-			{
-				94.94900000000052, -- [1]
-				"%s begins to boil upon touching Finalboss!", -- [2]
-				"Ominous Cloud", -- [3]
-				3, -- [4]
-			}, -- [22]
-			{
-				95.84599999999773, -- [1]
-				"%s begins to boil upon touching Finalboss!", -- [2]
-				"Ominous Cloud", -- [3]
-				3, -- [4]
-			}, -- [23]
-			{
-				95.84599999999773, -- [1]
-				"%s begins to boil upon touching Zowl!", -- [2]
-				"Ominous Cloud", -- [3]
-				3, -- [4]
-			}, -- [24]
-			{
-				96.93799999999828, -- [1]
-				"%s begins to boil upon touching Finalboss!", -- [2]
-				"Ominous Cloud", -- [3]
-				3, -- [4]
-			}, -- [25]
-			{
-				96.93799999999828, -- [1]
-				"%s begins to boil upon touching Zowl!", -- [2]
-				"Ominous Cloud", -- [3]
-				3, -- [4]
-			}, -- [26]
-			{
-				97.41100000000006, -- [1]
-				"Let hatred and rage guide your blows!", -- [2]
-				"Sara", -- [3]
-				7, -- [4]
-			}, -- [27]
-			{
-				97.93599999999788, -- [1]
-				"%s begins to boil upon touching Finalboss!", -- [2]
-				"Ominous Cloud", -- [3]
-				3, -- [4]
-			}, -- [28]
-			{
-				97.93599999999788, -- [1]
-				"%s begins to boil upon touching Zowl!", -- [2]
-				"Ominous Cloud", -- [3]
-				3, -- [4]
-			}, -- [29]
-			{
-				98.83199999999852, -- [1]
-				"%s begins to boil upon touching Finalboss!", -- [2]
-				"Ominous Cloud", -- [3]
-				3, -- [4]
-			}, -- [30]
-			{
-				98.83199999999852, -- [1]
-				"%s begins to boil upon touching Kurde!", -- [2]
-				"Ominous Cloud", -- [3]
-				3, -- [4]
-			}, -- [31]
-			{
-				99.9419999999991, -- [1]
-				"%s begins to boil upon touching Freakcal!", -- [2]
-				"Ominous Cloud", -- [3]
-				3, -- [4]
-			}, -- [32]
-			{
-				99.9419999999991, -- [1]
-				"%s begins to boil upon touching Finalboss!", -- [2]
-				"Ominous Cloud", -- [3]
-				3, -- [4]
-			}, -- [33]
-			{
-				100.9549999999981, -- [1]
-				"%s begins to boil upon touching Arwyy!", -- [2]
-				"Ominous Cloud", -- [3]
-				3, -- [4]
-			}, -- [34]
-			{
-				100.9549999999981, -- [1]
-				"%s begins to boil upon touching Zowl!", -- [2]
-				"Ominous Cloud", -- [3]
-				3, -- [4]
-			}, -- [35]
-			{
-				101.8709999999992, -- [1]
-				"%s begins to boil upon touching Mikorrior!", -- [2]
-				"Ominous Cloud", -- [3]
-				3, -- [4]
-			}, -- [36]
-			{
-				101.8709999999992, -- [1]
-				"%s begins to boil upon touching Arwyy!", -- [2]
-				"Ominous Cloud", -- [3]
-				3, -- [4]
-			}, -- [37]
-			{
-				102.9500000000007, -- [1]
-				"%s begins to boil upon touching Arwyy!", -- [2]
-				"Ominous Cloud", -- [3]
-				3, -- [4]
-			}, -- [38]
-			{
-				102.9500000000007, -- [1]
-				"%s begins to boil upon touching Mikorrior!", -- [2]
-				"Ominous Cloud", -- [3]
-				3, -- [4]
-			}, -- [39]
-			{
-				103.9470000000001, -- [1]
-				"%s begins to boil upon touching Arwyy!", -- [2]
-				"Ominous Cloud", -- [3]
-				3, -- [4]
-			}, -- [40]
-			{
-				104.9959999999992, -- [1]
-				"%s begins to boil upon touching Arwyy!", -- [2]
-				"Ominous Cloud", -- [3]
-				3, -- [4]
-			}, -- [41]
-			{
-				105.6820000000007, -- [1]
-				"%s begins to boil upon touching Dedal!", -- [2]
-				"Ominous Cloud", -- [3]
-				3, -- [4]
-			}, -- [42]
-			{
-				106.6879999999983, -- [1]
-				"%s begins to boil upon touching Dedal!", -- [2]
-				"Ominous Cloud", -- [3]
-				3, -- [4]
-			}, -- [43]
-			{
-				106.9470000000001, -- [1]
-				"%s begins to boil upon touching Arwyy!", -- [2]
-				"Ominous Cloud", -- [3]
-				3, -- [4]
-			}, -- [44]
-			{
-				107.6729999999989, -- [1]
-				"%s begins to boil upon touching Dedal!", -- [2]
-				"Ominous Cloud", -- [3]
-				3, -- [4]
-			}, -- [45]
-			{
-				107.9569999999985, -- [1]
-				"%s begins to boil upon touching Toxis!", -- [2]
-				"Ominous Cloud", -- [3]
-				3, -- [4]
-			}, -- [46]
-			{
-				108.9409999999989, -- [1]
-				"%s begins to boil upon touching Toxis!", -- [2]
-				"Ominous Cloud", -- [3]
-				3, -- [4]
-			}, -- [47]
-			{
-				109.757999999998, -- [1]
-				"%s begins to boil upon touching Toxis!", -- [2]
-				"Ominous Cloud", -- [3]
-				3, -- [4]
-			}, -- [48]
-			{
-				110.0089999999982, -- [1]
-				"%s begins to boil upon touching Arwyy!", -- [2]
-				"Ominous Cloud", -- [3]
-				3, -- [4]
-			}, -- [49]
-			{
-				113.4279999999999, -- [1]
-				"Could they have been saved?", -- [2]
-				"Sara", -- [3]
-				7, -- [4]
-			}, -- [50]
-			{
-				117.8909999999996, -- [1]
-				"Weak-minded fool!", -- [2]
-				"Voice of Yogg-Saron", -- [3]
-				5, -- [4]
-			}, -- [51]
-			["boss"] = "Yogg-Saron",
-		}, -- [2]
-		{
-			{
-				30.60400000000118, -- [1]
-				"A cloud of saronite vapors coalesces nearby!", -- [2]
-				"General Vezax", -- [3]
-				1, -- [4]
-			}, -- [1]
-			{
-				60.94499999999971, -- [1]
-				"A cloud of saronite vapors coalesces nearby!", -- [2]
-				"General Vezax", -- [3]
-				1, -- [4]
-			}, -- [2]
-			{
-				62.9320000000007, -- [1]
-				"The black blood of Yogg-Saron courses through me! I. AM. UNSTOPPABLE!", -- [2]
-				"General Vezax", -- [3]
-				7, -- [4]
-			}, -- [3]
-			{
-				92.0630000000001, -- [1]
-				"A cloud of saronite vapors coalesces nearby!", -- [2]
-				"General Vezax", -- [3]
-				1, -- [4]
-			}, -- [4]
-			{
-				122.8360000000012, -- [1]
-				"A cloud of saronite vapors coalesces nearby!", -- [2]
-				"General Vezax", -- [3]
-				1, -- [4]
-			}, -- [5]
-			{
-				125.5510000000013, -- [1]
-				"The black blood of Yogg-Saron courses through me! I. AM. UNSTOPPABLE!", -- [2]
-				"General Vezax", -- [3]
-				7, -- [4]
-			}, -- [6]
-			{
-				153.1450000000004, -- [1]
-				"A cloud of saronite vapors coalesces nearby!", -- [2]
-				"General Vezax", -- [3]
-				1, -- [4]
-			}, -- [7]
-			{
-				183.844000000001, -- [1]
-				"A cloud of saronite vapors coalesces nearby!", -- [2]
-				"General Vezax", -- [3]
-				1, -- [4]
-			}, -- [8]
-			{
-				187.1270000000004, -- [1]
-				"The black blood of Yogg-Saron courses through me! I. AM. UNSTOPPABLE!", -- [2]
-				"General Vezax", -- [3]
-				7, -- [4]
-			}, -- [9]
-			{
-				214.6810000000005, -- [1]
-				"A cloud of saronite vapors coalesces nearby!", -- [2]
-				"General Vezax", -- [3]
-				1, -- [4]
-			}, -- [10]
-			{
-				245.4260000000013, -- [1]
-				"A cloud of saronite vapors coalesces nearby!", -- [2]
-				"General Vezax", -- [3]
-				1, -- [4]
-			}, -- [11]
-			{
-				246.607, -- [1]
-				"You thought to stand before the legions of death and survive?", -- [2]
-				"General Vezax", -- [3]
-				7, -- [4]
-			}, -- [12]
-			{
-				248.6599999999999, -- [1]
-				"The black blood of Yogg-Saron courses through me! I. AM. UNSTOPPABLE!", -- [2]
-				"General Vezax", -- [3]
-				7, -- [4]
-			}, -- [13]
-			{
-				311.7970000000005, -- [1]
-				"The black blood of Yogg-Saron courses through me! I. AM. UNSTOPPABLE!", -- [2]
-				"General Vezax", -- [3]
-				7, -- [4]
-			}, -- [14]
-			["boss"] = "General Vezax",
-		}, -- [3]
 	},
 }

@@ -10,8 +10,8 @@ HandyNotes_NetherwingEggsDB = {
 		["Zandalar - Golemagg"] = "Default",
 		["Zandalar - Gandling"] = "Default",
 		["Banger - Golemagg"] = "Default",
-		["Leathercow - Golemagg"] = "Default",
 		["Zandalar - Zandalar Tribe"] = "Default",
+		["Leathercow - Golemagg"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

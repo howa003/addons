@@ -1,11 +1,5 @@
 
 RCLootCouncilDB = {
-	["profileKeys"] = {
-		["Zowl - Golemagg"] = "Default",
-		["Banger - Golemagg"] = "Default",
-		["Azerot - Golemagg"] = "Default",
-		["Zandalar - Golemagg"] = "Default",
-	},
 	["global"] = {
 		["logMaxEntries"] = 4000,
 		["log"] = {
@@ -65,30 +59,30 @@ RCLootCouncilDB = {
 			"22:53:39 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [54]
 			"22:53:39 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [55]
 			"22:53:39 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [56]
-			"22:53:39 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [57]
-			"22:53:39 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [58]
-			"22:53:39 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [59]
-			"22:53:39 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [60]
-			"22:53:39 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [61]
-			"22:53:39 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [62]
-			"22:53:39 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [63]
-			"22:53:39 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [64]
-			"22:53:39 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [65]
-			"22:53:39 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [66]
-			"22:53:39 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [67]
-			"22:53:39 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [68]
-			"22:53:39 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [69]
-			"22:53:39 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [70]
-			"22:53:39 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [71]
-			"22:53:39 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [72]
-			"22:53:39 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [73]
-			"22:53:39 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [74]
-			"22:53:39 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [75]
-			"22:53:39 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [76]
-			"22:53:39 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [77]
-			"22:53:39 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [78]
-			"22:53:39 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [79]
-			"22:53:39 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [80]
+			"22:53:40 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [57]
+			"22:53:40 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [58]
+			"22:53:40 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [59]
+			"22:53:40 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [60]
+			"22:53:40 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [61]
+			"22:53:40 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [62]
+			"22:53:40 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [63]
+			"22:53:40 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [64]
+			"22:53:40 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [65]
+			"22:53:40 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [66]
+			"22:53:40 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [67]
+			"22:53:40 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [68]
+			"22:53:40 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [69]
+			"22:53:40 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [70]
+			"22:53:40 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [71]
+			"22:53:40 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [72]
+			"22:53:40 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [73]
+			"22:53:40 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [74]
+			"22:53:40 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [75]
+			"22:53:40 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [76]
+			"22:53:40 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [77]
+			"22:53:40 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [78]
+			"22:53:40 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [79]
+			"22:53:40 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [80]
 			"22:53:40 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [81]
 			"22:53:40 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [82]
 			"22:53:40 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [83]
@@ -229,30 +223,30 @@ RCLootCouncilDB = {
 			"22:53:40 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [218]
 			"22:53:40 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [219]
 			"22:53:40 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [220]
-			"22:53:40 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [221]
-			"22:53:40 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [222]
-			"22:53:40 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [223]
-			"22:53:40 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [224]
-			"22:53:40 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [225]
-			"22:53:40 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [226]
-			"22:53:40 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [227]
-			"22:53:40 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [228]
-			"22:53:40 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [229]
-			"22:53:40 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [230]
-			"22:53:40 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [231]
-			"22:53:40 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [232]
-			"22:53:40 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [233]
-			"22:53:40 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [234]
-			"22:53:40 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [235]
-			"22:53:40 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [236]
-			"22:53:40 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [237]
-			"22:53:40 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [238]
-			"22:53:40 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [239]
-			"22:53:40 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [240]
-			"22:53:40 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [241]
-			"22:53:40 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [242]
-			"22:53:40 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [243]
-			"22:53:40 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [244]
+			"22:53:41 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [221]
+			"22:53:41 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [222]
+			"22:53:41 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [223]
+			"22:53:41 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [224]
+			"22:53:41 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [225]
+			"22:53:41 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [226]
+			"22:53:41 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [227]
+			"22:53:41 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [228]
+			"22:53:41 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [229]
+			"22:53:41 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [230]
+			"22:53:41 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [231]
+			"22:53:41 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [232]
+			"22:53:41 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [233]
+			"22:53:41 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [234]
+			"22:53:41 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [235]
+			"22:53:41 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [236]
+			"22:53:41 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [237]
+			"22:53:41 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [238]
+			"22:53:41 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [239]
+			"22:53:41 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [240]
+			"22:53:41 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [241]
+			"22:53:41 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [242]
+			"22:53:41 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [243]
+			"22:53:41 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [244]
 			"22:53:41 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [245]
 			"22:53:41 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [246]
 			"22:53:41 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [247]
@@ -441,30 +435,30 @@ RCLootCouncilDB = {
 			"22:53:41 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [430]
 			"22:53:41 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [431]
 			"22:53:41 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [432]
-			"22:53:41 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [433]
-			"22:53:41 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [434]
-			"22:53:41 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [435]
-			"22:53:41 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [436]
-			"22:53:41 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [437]
-			"22:53:41 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [438]
-			"22:53:41 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [439]
-			"22:53:41 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [440]
-			"22:53:41 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [441]
-			"22:53:41 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [442]
-			"22:53:41 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [443]
-			"22:53:41 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [444]
-			"22:53:41 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [445]
-			"22:53:41 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [446]
-			"22:53:41 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [447]
-			"22:53:41 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [448]
-			"22:53:41 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [449]
-			"22:53:41 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [450]
-			"22:53:41 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [451]
-			"22:53:41 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [452]
-			"22:53:41 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [453]
-			"22:53:41 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [454]
-			"22:53:41 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [455]
-			"22:53:41 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [456]
+			"22:53:42 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [433]
+			"22:53:42 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [434]
+			"22:53:42 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [435]
+			"22:53:42 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [436]
+			"22:53:42 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [437]
+			"22:53:42 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [438]
+			"22:53:42 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [439]
+			"22:53:42 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [440]
+			"22:53:42 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [441]
+			"22:53:42 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [442]
+			"22:53:42 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [443]
+			"22:53:42 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [444]
+			"22:53:42 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [445]
+			"22:53:42 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [446]
+			"22:53:42 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [447]
+			"22:53:42 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [448]
+			"22:53:42 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [449]
+			"22:53:42 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [450]
+			"22:53:42 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [451]
+			"22:53:42 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [452]
+			"22:53:42 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [453]
+			"22:53:42 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [454]
+			"22:53:42 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [455]
+			"22:53:42 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [456]
 			"22:53:42 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [457]
 			"22:53:42 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [458]
 			"22:53:42 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [459]
@@ -681,30 +675,30 @@ RCLootCouncilDB = {
 			"22:53:42 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [670]
 			"22:53:42 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [671]
 			"22:53:42 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [672]
-			"22:53:42 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [673]
-			"22:53:42 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [674]
-			"22:53:42 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [675]
-			"22:53:42 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [676]
-			"22:53:42 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [677]
-			"22:53:42 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [678]
-			"22:53:42 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [679]
-			"22:53:42 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [680]
-			"22:53:42 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [681]
-			"22:53:42 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [682]
-			"22:53:42 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [683]
-			"22:53:42 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [684]
-			"22:53:42 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [685]
-			"22:53:42 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [686]
-			"22:53:42 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [687]
-			"22:53:42 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [688]
-			"22:53:42 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [689]
-			"22:53:42 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [690]
-			"22:53:42 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [691]
-			"22:53:42 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [692]
-			"22:53:42 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [693]
-			"22:53:42 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [694]
-			"22:53:42 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [695]
-			"22:53:42 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [696]
+			"22:53:43 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [673]
+			"22:53:43 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [674]
+			"22:53:43 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [675]
+			"22:53:43 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [676]
+			"22:53:43 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [677]
+			"22:53:43 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [678]
+			"22:53:43 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [679]
+			"22:53:43 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [680]
+			"22:53:43 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [681]
+			"22:53:43 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [682]
+			"22:53:43 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [683]
+			"22:53:43 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [684]
+			"22:53:43 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [685]
+			"22:53:43 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [686]
+			"22:53:43 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [687]
+			"22:53:43 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [688]
+			"22:53:43 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [689]
+			"22:53:43 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [690]
+			"22:53:43 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [691]
+			"22:53:43 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [692]
+			"22:53:43 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [693]
+			"22:53:43 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [694]
+			"22:53:43 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [695]
+			"22:53:43 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [696]
 			"22:53:43 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [697]
 			"22:53:43 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [698]
 			"22:53:43 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [699]
@@ -817,30 +811,30 @@ RCLootCouncilDB = {
 			"22:53:43 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [806]
 			"22:53:43 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [807]
 			"22:53:43 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [808]
-			"22:53:43 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [809]
-			"22:53:43 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [810]
-			"22:53:43 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [811]
-			"22:53:43 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [812]
-			"22:53:43 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [813]
-			"22:53:43 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [814]
-			"22:53:43 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [815]
-			"22:53:43 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [816]
-			"22:53:43 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [817]
-			"22:53:43 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [818]
-			"22:53:43 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [819]
-			"22:53:43 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [820]
-			"22:53:43 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [821]
-			"22:53:43 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [822]
-			"22:53:43 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [823]
-			"22:53:43 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [824]
-			"22:53:43 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [825]
-			"22:53:43 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [826]
-			"22:53:43 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [827]
-			"22:53:43 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [828]
-			"22:53:43 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [829]
-			"22:53:43 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [830]
-			"22:53:43 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [831]
-			"22:53:43 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [832]
+			"22:53:44 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [809]
+			"22:53:44 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [810]
+			"22:53:44 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [811]
+			"22:53:44 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [812]
+			"22:53:44 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [813]
+			"22:53:44 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [814]
+			"22:53:44 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [815]
+			"22:53:44 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [816]
+			"22:53:44 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [817]
+			"22:53:44 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [818]
+			"22:53:44 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [819]
+			"22:53:44 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [820]
+			"22:53:44 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [821]
+			"22:53:44 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [822]
+			"22:53:44 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [823]
+			"22:53:44 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [824]
+			"22:53:44 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [825]
+			"22:53:44 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [826]
+			"22:53:44 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [827]
+			"22:53:44 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [828]
+			"22:53:44 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [829]
+			"22:53:44 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [830]
+			"22:53:44 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [831]
+			"22:53:44 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [832]
 			"22:53:44 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [833]
 			"22:53:44 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [834]
 			"22:53:44 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [835]
@@ -1017,30 +1011,30 @@ RCLootCouncilDB = {
 			"22:53:44 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1006]
 			"22:53:44 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [1007]
 			"22:53:44 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1008]
-			"22:53:44 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1009]
-			"22:53:44 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1010]
-			"22:53:44 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [1011]
-			"22:53:44 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1012]
-			"22:53:44 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1013]
-			"22:53:44 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1014]
-			"22:53:44 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [1015]
-			"22:53:44 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1016]
-			"22:53:44 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1017]
-			"22:53:44 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1018]
-			"22:53:44 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [1019]
-			"22:53:44 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1020]
-			"22:53:44 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1021]
-			"22:53:44 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1022]
-			"22:53:44 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [1023]
-			"22:53:44 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1024]
-			"22:53:44 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1025]
-			"22:53:44 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1026]
-			"22:53:44 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [1027]
-			"22:53:44 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1028]
-			"22:53:44 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1029]
-			"22:53:44 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1030]
-			"22:53:44 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [1031]
-			"22:53:44 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1032]
+			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1009]
+			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1010]
+			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [1011]
+			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1012]
+			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1013]
+			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1014]
+			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [1015]
+			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1016]
+			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1017]
+			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1018]
+			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [1019]
+			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1020]
+			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1021]
+			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1022]
+			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [1023]
+			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1024]
+			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1025]
+			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1026]
+			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [1027]
+			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1028]
+			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1029]
+			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1030]
+			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [1031]
+			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1032]
 			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1033]
 			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1034]
 			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [1035]
@@ -1203,27 +1197,27 @@ RCLootCouncilDB = {
 			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1192]
 			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1193]
 			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1194]
-			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [1195]
+			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1195]
 			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1196]
 			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1197]
 			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1198]
-			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [1199]
+			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1199]
 			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1200]
 			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1201]
 			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1202]
-			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [1203]
+			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1203]
 			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1204]
 			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1205]
 			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1206]
-			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [1207]
+			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1207]
 			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1208]
 			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1209]
 			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1210]
-			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [1211]
+			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1211]
 			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1212]
 			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1213]
 			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1214]
-			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [1215]
+			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1215]
 			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1216]
 			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1217]
 			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1218]
@@ -1241,30 +1235,30 @@ RCLootCouncilDB = {
 			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1230]
 			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1231]
 			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1232]
-			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1233]
-			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1234]
-			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1235]
-			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1236]
-			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1237]
-			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1238]
-			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1239]
-			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1240]
-			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1241]
-			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1242]
-			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1243]
-			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1244]
-			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1245]
-			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1246]
-			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1247]
-			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1248]
-			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1249]
-			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1250]
-			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1251]
-			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1252]
-			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1253]
-			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1254]
-			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1255]
-			"22:53:45 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1256]
+			"22:53:46 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1233]
+			"22:53:46 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1234]
+			"22:53:46 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1235]
+			"22:53:46 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1236]
+			"22:53:46 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1237]
+			"22:53:46 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1238]
+			"22:53:46 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1239]
+			"22:53:46 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1240]
+			"22:53:46 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1241]
+			"22:53:46 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1242]
+			"22:53:46 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1243]
+			"22:53:46 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1244]
+			"22:53:46 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1245]
+			"22:53:46 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1246]
+			"22:53:46 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1247]
+			"22:53:46 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1248]
+			"22:53:46 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1249]
+			"22:53:46 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1250]
+			"22:53:46 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1251]
+			"22:53:46 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1252]
+			"22:53:46 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1253]
+			"22:53:46 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1254]
+			"22:53:46 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1255]
+			"22:53:46 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1256]
 			"22:53:46 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1257]
 			"22:53:46 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1258]
 			"22:53:46 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1259]
@@ -1461,30 +1455,30 @@ RCLootCouncilDB = {
 			"22:53:46 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1450]
 			"22:53:46 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1451]
 			"22:53:46 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1452]
-			"22:53:46 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1453]
-			"22:53:46 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1454]
-			"22:53:46 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1455]
-			"22:53:46 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1456]
-			"22:53:46 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1457]
-			"22:53:46 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1458]
-			"22:53:46 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1459]
-			"22:53:46 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1460]
-			"22:53:46 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1461]
-			"22:53:46 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1462]
-			"22:53:46 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1463]
-			"22:53:46 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1464]
-			"22:53:46 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1465]
-			"22:53:46 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1466]
-			"22:53:46 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1467]
-			"22:53:46 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1468]
-			"22:53:46 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1469]
-			"22:53:46 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1470]
-			"22:53:46 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1471]
-			"22:53:46 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1472]
-			"22:53:46 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1473]
-			"22:53:46 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1474]
-			"22:53:46 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1475]
-			"22:53:46 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1476]
+			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1453]
+			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1454]
+			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1455]
+			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1456]
+			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1457]
+			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1458]
+			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1459]
+			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1460]
+			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1461]
+			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1462]
+			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1463]
+			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1464]
+			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1465]
+			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1466]
+			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1467]
+			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1468]
+			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1469]
+			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1470]
+			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1471]
+			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1472]
+			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1473]
+			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1474]
+			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1475]
+			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1476]
 			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1477]
 			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1478]
 			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1479]
@@ -1565,32 +1559,32 @@ RCLootCouncilDB = {
 			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1554]
 			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1555]
 			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1556]
-			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1557]
-			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1558]
-			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1559]
-			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1560]
-			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1561]
-			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1562]
-			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1563]
-			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1564]
-			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1565]
-			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1566]
-			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1567]
-			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1568]
-			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1569]
-			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1570]
-			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1571]
-			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1572]
-			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1573]
-			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1574]
-			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1575]
-			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1576]
-			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1577]
-			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1578]
-			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1579]
-			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1580]
-			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame24:Show())", -- [1581]
-			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame24:Show())", -- [1582]
+			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame24:Show())", -- [1557]
+			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame24:Show())", -- [1558]
+			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1559]
+			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1560]
+			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1561]
+			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1562]
+			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1563]
+			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1564]
+			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1565]
+			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1566]
+			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1567]
+			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1568]
+			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1569]
+			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1570]
+			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1571]
+			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1572]
+			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1573]
+			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1574]
+			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1575]
+			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1576]
+			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1577]
+			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1578]
+			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1579]
+			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1580]
+			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1581]
+			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1582]
 			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1583]
 			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1584]
 			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1585]
@@ -1615,27 +1609,27 @@ RCLootCouncilDB = {
 			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1604]
 			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1605]
 			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1606]
-			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1607]
+			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Hide())", -- [1607]
 			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1608]
 			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1609]
 			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1610]
-			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1611]
+			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Hide())", -- [1611]
 			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1612]
 			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1613]
 			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1614]
-			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1615]
+			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Hide())", -- [1615]
 			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1616]
 			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1617]
 			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1618]
-			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1619]
+			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Hide())", -- [1619]
 			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1620]
 			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1621]
 			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1622]
-			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1623]
+			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Hide())", -- [1623]
 			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1624]
 			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1625]
 			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1626]
-			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [1627]
+			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Hide())", -- [1627]
 			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1628]
 			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1629]
 			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1630]
@@ -1678,30 +1672,30 @@ RCLootCouncilDB = {
 			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Hide())", -- [1667]
 			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1668]
 			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1669]
-			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1670]
-			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Hide())", -- [1671]
-			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1672]
-			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1673]
-			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1674]
-			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Hide())", -- [1675]
-			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1676]
-			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1677]
-			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1678]
-			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Hide())", -- [1679]
-			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1680]
-			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1681]
-			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1682]
-			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Hide())", -- [1683]
-			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1684]
-			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1685]
-			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1686]
-			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Hide())", -- [1687]
-			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1688]
-			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1689]
-			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1690]
-			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Hide())", -- [1691]
-			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1692]
-			"22:53:47 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1693]
+			"22:53:48 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1670]
+			"22:53:48 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Hide())", -- [1671]
+			"22:53:48 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1672]
+			"22:53:48 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1673]
+			"22:53:48 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1674]
+			"22:53:48 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Hide())", -- [1675]
+			"22:53:48 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1676]
+			"22:53:48 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1677]
+			"22:53:48 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1678]
+			"22:53:48 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Hide())", -- [1679]
+			"22:53:48 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1680]
+			"22:53:48 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1681]
+			"22:53:48 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1682]
+			"22:53:48 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Hide())", -- [1683]
+			"22:53:48 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1684]
+			"22:53:48 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1685]
+			"22:53:48 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1686]
+			"22:53:48 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Hide())", -- [1687]
+			"22:53:48 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1688]
+			"22:53:48 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1689]
+			"22:53:48 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1690]
+			"22:53:48 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Hide())", -- [1691]
+			"22:53:48 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1692]
+			"22:53:48 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1693]
 			"22:53:48 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1694]
 			"22:53:48 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Hide())", -- [1695]
 			"22:53:48 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1696]
@@ -1902,31 +1896,31 @@ RCLootCouncilDB = {
 			"22:53:48 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Hide())", -- [1891]
 			"22:53:48 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1892]
 			"22:53:48 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1893]
-			"22:53:48 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1894]
-			"22:53:48 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Hide())", -- [1895]
-			"22:53:48 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1896]
-			"22:53:48 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1897]
-			"22:53:48 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1898]
-			"22:53:48 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Hide())", -- [1899]
-			"22:53:48 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1900]
-			"22:53:48 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1901]
-			"22:53:48 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1902]
-			"22:53:48 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Hide())", -- [1903]
-			"22:53:48 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1904]
-			"22:53:48 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1905]
-			"22:53:48 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1906]
-			"22:53:48 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Hide())", -- [1907]
-			"22:53:48 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1908]
-			"22:53:48 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1909]
-			"22:53:48 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1910]
-			"22:53:48 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Hide())", -- [1911]
-			"22:53:48 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1912]
-			"22:53:48 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1913]
-			"22:53:48 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [1914]
-			"22:53:48 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Hide())", -- [1915]
-			"22:53:48 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1916]
-			"22:53:48 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1917]
-			"22:53:48 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Hide())", -- [1918]
+			"22:53:48 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Hide())", -- [1894]
+			"22:53:49 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Hide())", -- [1895]
+			"22:53:49 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1896]
+			"22:53:49 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1897]
+			"22:53:49 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Hide())", -- [1898]
+			"22:53:49 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Hide())", -- [1899]
+			"22:53:49 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1900]
+			"22:53:49 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1901]
+			"22:53:49 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Hide())", -- [1902]
+			"22:53:49 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Hide())", -- [1903]
+			"22:53:49 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1904]
+			"22:53:49 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1905]
+			"22:53:49 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Hide())", -- [1906]
+			"22:53:49 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Hide())", -- [1907]
+			"22:53:49 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1908]
+			"22:53:49 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1909]
+			"22:53:49 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Hide())", -- [1910]
+			"22:53:49 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Hide())", -- [1911]
+			"22:53:49 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1912]
+			"22:53:49 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1913]
+			"22:53:49 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Hide())", -- [1914]
+			"22:53:49 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Hide())", -- [1915]
+			"22:53:49 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1916]
+			"22:53:49 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1917]
+			"22:53:49 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Hide())", -- [1918]
 			"22:53:49 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Hide())", -- [1919]
 			"22:53:49 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [1920]
 			"22:53:49 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [1921]
@@ -2107,35 +2101,35 @@ RCLootCouncilDB = {
 			"22:53:49 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2096]
 			"22:53:49 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [2097]
 			"22:53:49 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Hide())", -- [2098]
-			"22:53:49 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Hide())", -- [2099]
-			"22:53:49 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2100]
-			"22:53:49 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [2101]
-			"22:53:49 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Hide())", -- [2102]
-			"22:53:49 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Hide())", -- [2103]
-			"22:53:49 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2104]
-			"22:53:49 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [2105]
-			"22:53:49 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Hide())", -- [2106]
-			"22:53:49 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Hide())", -- [2107]
-			"22:53:49 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2108]
-			"22:53:49 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [2109]
-			"22:53:49 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Hide())", -- [2110]
-			"22:53:49 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Hide())", -- [2111]
-			"22:53:49 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2112]
-			"22:53:49 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [2113]
-			"22:53:49 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Hide())", -- [2114]
-			"22:53:49 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Hide())", -- [2115]
-			"22:53:49 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2116]
-			"22:53:49 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [2117]
-			"22:53:49 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Hide())", -- [2118]
-			"22:53:49 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Hide())", -- [2119]
-			"22:53:49 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2120]
-			"22:53:49 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [2121]
-			"22:53:49 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Hide())", -- [2122]
-			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Hide())", -- [2123]
+			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Hide())", -- [2099]
+			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2100]
+			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [2101]
+			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Hide())", -- [2102]
+			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Hide())", -- [2103]
+			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2104]
+			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [2105]
+			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Hide())", -- [2106]
+			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2107]
+			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2108]
+			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [2109]
+			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Hide())", -- [2110]
+			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2111]
+			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2112]
+			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [2113]
+			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Hide())", -- [2114]
+			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2115]
+			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2116]
+			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [2117]
+			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Hide())", -- [2118]
+			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2119]
+			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2120]
+			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [2121]
+			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Hide())", -- [2122]
+			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2123]
 			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2124]
 			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [2125]
 			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Hide())", -- [2126]
-			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Hide())", -- [2127]
+			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2127]
 			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2128]
 			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [2129]
 			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Hide())", -- [2130]
@@ -2153,28 +2147,28 @@ RCLootCouncilDB = {
 			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Hide())", -- [2142]
 			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2143]
 			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2144]
-			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [2145]
-			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Hide())", -- [2146]
+			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2145]
+			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [2146]
 			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2147]
 			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2148]
-			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [2149]
-			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Hide())", -- [2150]
+			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2149]
+			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [2150]
 			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2151]
 			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2152]
-			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [2153]
-			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Hide())", -- [2154]
+			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2153]
+			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [2154]
 			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2155]
 			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2156]
-			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [2157]
-			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Hide())", -- [2158]
+			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2157]
+			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [2158]
 			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2159]
 			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2160]
-			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [2161]
-			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Hide())", -- [2162]
+			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2161]
+			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [2162]
 			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2163]
 			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2164]
-			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Hide())", -- [2165]
-			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Hide())", -- [2166]
+			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2165]
+			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [2166]
 			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2167]
 			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2168]
 			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2169]
@@ -2343,30 +2337,30 @@ RCLootCouncilDB = {
 			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2332]
 			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2333]
 			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [2334]
-			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2335]
-			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2336]
-			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2337]
-			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [2338]
-			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2339]
-			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2340]
-			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2341]
-			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [2342]
-			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2343]
-			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2344]
-			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2345]
-			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [2346]
-			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2347]
-			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2348]
-			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2349]
-			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [2350]
-			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2351]
-			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2352]
-			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2353]
-			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [2354]
-			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2355]
-			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2356]
-			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2357]
-			"22:53:50 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [2358]
+			"22:53:51 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2335]
+			"22:53:51 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2336]
+			"22:53:51 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2337]
+			"22:53:51 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [2338]
+			"22:53:51 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2339]
+			"22:53:51 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2340]
+			"22:53:51 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2341]
+			"22:53:51 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [2342]
+			"22:53:51 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2343]
+			"22:53:51 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2344]
+			"22:53:51 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2345]
+			"22:53:51 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [2346]
+			"22:53:51 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2347]
+			"22:53:51 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2348]
+			"22:53:51 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2349]
+			"22:53:51 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [2350]
+			"22:53:51 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2351]
+			"22:53:51 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2352]
+			"22:53:51 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2353]
+			"22:53:51 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [2354]
+			"22:53:51 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2355]
+			"22:53:51 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2356]
+			"22:53:51 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2357]
+			"22:53:51 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [2358]
 			"22:53:51 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2359]
 			"22:53:51 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2360]
 			"22:53:51 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2361]
@@ -2571,30 +2565,30 @@ RCLootCouncilDB = {
 			"22:53:51 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2560]
 			"22:53:51 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2561]
 			"22:53:51 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [2562]
-			"22:53:51 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2563]
-			"22:53:51 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2564]
-			"22:53:51 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2565]
-			"22:53:51 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [2566]
-			"22:53:51 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2567]
-			"22:53:51 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2568]
-			"22:53:51 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2569]
-			"22:53:51 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [2570]
-			"22:53:51 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2571]
-			"22:53:51 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2572]
-			"22:53:51 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2573]
-			"22:53:51 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [2574]
-			"22:53:51 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2575]
-			"22:53:51 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2576]
-			"22:53:51 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2577]
-			"22:53:51 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [2578]
-			"22:53:51 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2579]
-			"22:53:51 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2580]
-			"22:53:51 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2581]
-			"22:53:51 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [2582]
-			"22:53:51 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2583]
-			"22:53:51 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2584]
-			"22:53:51 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2585]
-			"22:53:51 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [2586]
+			"22:53:52 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2563]
+			"22:53:52 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2564]
+			"22:53:52 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2565]
+			"22:53:52 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [2566]
+			"22:53:52 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2567]
+			"22:53:52 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2568]
+			"22:53:52 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2569]
+			"22:53:52 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [2570]
+			"22:53:52 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2571]
+			"22:53:52 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2572]
+			"22:53:52 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2573]
+			"22:53:52 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [2574]
+			"22:53:52 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2575]
+			"22:53:52 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2576]
+			"22:53:52 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2577]
+			"22:53:52 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [2578]
+			"22:53:52 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2579]
+			"22:53:52 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2580]
+			"22:53:52 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2581]
+			"22:53:52 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [2582]
+			"22:53:52 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2583]
+			"22:53:52 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2584]
+			"22:53:52 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2585]
+			"22:53:52 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [2586]
 			"22:53:52 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2587]
 			"22:53:52 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2588]
 			"22:53:52 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2589]
@@ -2787,30 +2781,30 @@ RCLootCouncilDB = {
 			"22:53:52 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2776]
 			"22:53:52 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2777]
 			"22:53:52 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [2778]
-			"22:53:52 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2779]
-			"22:53:52 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2780]
-			"22:53:52 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2781]
-			"22:53:52 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [2782]
-			"22:53:52 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2783]
-			"22:53:52 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2784]
-			"22:53:52 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2785]
-			"22:53:52 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [2786]
-			"22:53:52 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2787]
-			"22:53:52 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2788]
-			"22:53:52 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2789]
-			"22:53:52 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [2790]
-			"22:53:52 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2791]
-			"22:53:52 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2792]
-			"22:53:52 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2793]
-			"22:53:52 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [2794]
-			"22:53:52 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2795]
-			"22:53:52 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2796]
-			"22:53:52 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2797]
-			"22:53:52 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [2798]
-			"22:53:52 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2799]
-			"22:53:52 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2800]
-			"22:53:52 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2801]
-			"22:53:52 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [2802]
+			"22:53:53 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2779]
+			"22:53:53 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2780]
+			"22:53:53 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2781]
+			"22:53:53 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [2782]
+			"22:53:53 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2783]
+			"22:53:53 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2784]
+			"22:53:53 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2785]
+			"22:53:53 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [2786]
+			"22:53:53 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2787]
+			"22:53:53 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2788]
+			"22:53:53 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2789]
+			"22:53:53 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [2790]
+			"22:53:53 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2791]
+			"22:53:53 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2792]
+			"22:53:53 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2793]
+			"22:53:53 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [2794]
+			"22:53:53 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2795]
+			"22:53:53 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2796]
+			"22:53:53 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2797]
+			"22:53:53 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [2798]
+			"22:53:53 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2799]
+			"22:53:53 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2800]
+			"22:53:53 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2801]
+			"22:53:53 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [2802]
 			"22:53:53 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2803]
 			"22:53:53 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2804]
 			"22:53:53 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2805]
@@ -2967,30 +2961,30 @@ RCLootCouncilDB = {
 			"22:53:53 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2956]
 			"22:53:53 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2957]
 			"22:53:53 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [2958]
-			"22:53:53 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2959]
-			"22:53:53 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2960]
-			"22:53:53 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2961]
-			"22:53:53 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [2962]
-			"22:53:53 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2963]
-			"22:53:53 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2964]
-			"22:53:53 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2965]
-			"22:53:53 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [2966]
-			"22:53:53 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2967]
-			"22:53:53 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2968]
-			"22:53:53 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2969]
-			"22:53:53 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [2970]
-			"22:53:53 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2971]
-			"22:53:53 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2972]
-			"22:53:53 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2973]
-			"22:53:53 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [2974]
-			"22:53:53 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2975]
-			"22:53:53 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2976]
-			"22:53:53 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2977]
-			"22:53:53 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [2978]
-			"22:53:53 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2979]
-			"22:53:53 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2980]
-			"22:53:53 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2981]
-			"22:53:53 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [2982]
+			"22:53:54 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2959]
+			"22:53:54 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2960]
+			"22:53:54 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2961]
+			"22:53:54 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [2962]
+			"22:53:54 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2963]
+			"22:53:54 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2964]
+			"22:53:54 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2965]
+			"22:53:54 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [2966]
+			"22:53:54 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2967]
+			"22:53:54 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2968]
+			"22:53:54 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2969]
+			"22:53:54 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [2970]
+			"22:53:54 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2971]
+			"22:53:54 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2972]
+			"22:53:54 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2973]
+			"22:53:54 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [2974]
+			"22:53:54 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2975]
+			"22:53:54 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2976]
+			"22:53:54 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2977]
+			"22:53:54 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [2978]
+			"22:53:54 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2979]
+			"22:53:54 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2980]
+			"22:53:54 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2981]
+			"22:53:54 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [2982]
 			"22:53:54 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [2983]
 			"22:53:54 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [2984]
 			"22:53:54 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [2985]
@@ -3163,30 +3157,30 @@ RCLootCouncilDB = {
 			"22:53:54 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [3152]
 			"22:53:54 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [3153]
 			"22:53:54 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [3154]
-			"22:53:54 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [3155]
-			"22:53:54 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [3156]
-			"22:53:54 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [3157]
-			"22:53:54 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [3158]
-			"22:53:54 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [3159]
-			"22:53:54 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [3160]
-			"22:53:54 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [3161]
-			"22:53:54 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [3162]
-			"22:53:54 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [3163]
-			"22:53:54 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [3164]
-			"22:53:54 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [3165]
-			"22:53:54 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [3166]
-			"22:53:54 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [3167]
-			"22:53:54 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [3168]
-			"22:53:54 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [3169]
-			"22:53:54 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [3170]
-			"22:53:54 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [3171]
-			"22:53:54 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [3172]
-			"22:53:54 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [3173]
-			"22:53:54 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [3174]
-			"22:53:54 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [3175]
-			"22:53:54 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [3176]
-			"22:53:54 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [3177]
-			"22:53:54 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [3178]
+			"22:53:55 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [3155]
+			"22:53:55 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [3156]
+			"22:53:55 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [3157]
+			"22:53:55 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [3158]
+			"22:53:55 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [3159]
+			"22:53:55 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [3160]
+			"22:53:55 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [3161]
+			"22:53:55 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [3162]
+			"22:53:55 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [3163]
+			"22:53:55 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [3164]
+			"22:53:55 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [3165]
+			"22:53:55 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [3166]
+			"22:53:55 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [3167]
+			"22:53:55 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [3168]
+			"22:53:55 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [3169]
+			"22:53:55 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [3170]
+			"22:53:55 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [3171]
+			"22:53:55 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [3172]
+			"22:53:55 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [3173]
+			"22:53:55 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [3174]
+			"22:53:55 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [3175]
+			"22:53:55 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [3176]
+			"22:53:55 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [3177]
+			"22:53:55 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [3178]
 			"22:53:55 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [3179]
 			"22:53:55 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [3180]
 			"22:53:55 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [3181]
@@ -3403,30 +3397,30 @@ RCLootCouncilDB = {
 			"22:53:55 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [3392]
 			"22:53:55 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [3393]
 			"22:53:55 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [3394]
-			"22:53:55 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [3395]
-			"22:53:55 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [3396]
-			"22:53:55 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [3397]
-			"22:53:55 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [3398]
-			"22:53:55 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [3399]
-			"22:53:55 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [3400]
-			"22:53:55 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [3401]
-			"22:53:55 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [3402]
-			"22:53:55 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [3403]
-			"22:53:55 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [3404]
-			"22:53:55 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [3405]
-			"22:53:55 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [3406]
-			"22:53:55 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [3407]
-			"22:53:55 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [3408]
-			"22:53:55 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [3409]
-			"22:53:55 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [3410]
-			"22:53:55 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [3411]
-			"22:53:55 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [3412]
-			"22:53:55 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [3413]
-			"22:53:55 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [3414]
-			"22:53:55 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [3415]
-			"22:53:55 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [3416]
-			"22:53:55 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [3417]
-			"22:53:55 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [3418]
+			"22:53:56 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [3395]
+			"22:53:56 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [3396]
+			"22:53:56 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [3397]
+			"22:53:56 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [3398]
+			"22:53:56 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [3399]
+			"22:53:56 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [3400]
+			"22:53:56 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [3401]
+			"22:53:56 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [3402]
+			"22:53:56 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [3403]
+			"22:53:56 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [3404]
+			"22:53:56 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [3405]
+			"22:53:56 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [3406]
+			"22:53:56 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [3407]
+			"22:53:56 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [3408]
+			"22:53:56 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [3409]
+			"22:53:56 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [3410]
+			"22:53:56 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [3411]
+			"22:53:56 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [3412]
+			"22:53:56 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [3413]
+			"22:53:56 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [3414]
+			"22:53:56 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [3415]
+			"22:53:56 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [3416]
+			"22:53:56 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [3417]
+			"22:53:56 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [3418]
 			"22:53:56 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [3419]
 			"22:53:56 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [3420]
 			"22:53:56 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [3421]
@@ -3619,30 +3613,30 @@ RCLootCouncilDB = {
 			"22:53:56 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [3608]
 			"22:53:56 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [3609]
 			"22:53:56 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [3610]
-			"22:53:56 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [3611]
-			"22:53:56 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [3612]
-			"22:53:56 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [3613]
-			"22:53:56 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [3614]
-			"22:53:56 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [3615]
-			"22:53:56 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [3616]
-			"22:53:56 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [3617]
-			"22:53:56 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [3618]
-			"22:53:56 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [3619]
-			"22:53:56 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [3620]
-			"22:53:56 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [3621]
-			"22:53:56 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [3622]
-			"22:53:56 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [3623]
-			"22:53:56 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [3624]
-			"22:53:56 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [3625]
-			"22:53:56 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [3626]
-			"22:53:56 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [3627]
-			"22:53:56 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [3628]
-			"22:53:56 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [3629]
-			"22:53:56 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [3630]
-			"22:53:56 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [3631]
-			"22:53:56 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [3632]
-			"22:53:56 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [3633]
-			"22:53:56 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [3634]
+			"22:53:57 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [3611]
+			"22:53:57 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [3612]
+			"22:53:57 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [3613]
+			"22:53:57 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [3614]
+			"22:53:57 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [3615]
+			"22:53:57 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [3616]
+			"22:53:57 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [3617]
+			"22:53:57 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [3618]
+			"22:53:57 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [3619]
+			"22:53:57 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [3620]
+			"22:53:57 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [3621]
+			"22:53:57 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [3622]
+			"22:53:57 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [3623]
+			"22:53:57 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [3624]
+			"22:53:57 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [3625]
+			"22:53:57 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [3626]
+			"22:53:57 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [3627]
+			"22:53:57 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [3628]
+			"22:53:57 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [3629]
+			"22:53:57 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [3630]
+			"22:53:57 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [3631]
+			"22:53:57 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [3632]
+			"22:53:57 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [3633]
+			"22:53:57 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [3634]
 			"22:53:57 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [3635]
 			"22:53:57 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [3636]
 			"22:53:57 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [3637]
@@ -3855,239 +3849,240 @@ RCLootCouncilDB = {
 			"22:53:57 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [3844]
 			"22:53:57 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [3845]
 			"22:53:57 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [3846]
-			"22:53:57 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [3847]
-			"22:53:57 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [3848]
-			"22:53:57 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [3849]
-			"22:53:57 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [3850]
-			"22:53:57 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [3851]
-			"22:53:57 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [3852]
-			"22:53:57 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [3853]
-			"22:53:57 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [3854]
-			"22:53:57 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [3855]
-			"22:53:57 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [3856]
-			"22:53:57 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [3857]
-			"22:53:57 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [3858]
-			"22:53:57 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [3859]
-			"22:53:57 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [3860]
-			"22:53:57 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [3861]
-			"22:53:57 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [3862]
-			"22:53:57 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [3863]
-			"22:53:57 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [3864]
-			"22:53:57 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [3865]
-			"22:53:57 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [3866]
-			"22:53:57 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [3867]
-			"22:53:57 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [3868]
-			"22:53:57 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [3869]
-			"22:53:57 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [3870]
-			"22:53:58 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [3871]
-			"22:53:58 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [3872]
-			"22:53:58 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [3873]
-			"22:53:58 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [3874]
-			"22:53:58 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [3875]
-			"22:53:58 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [3876]
-			"22:53:58 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [3877]
-			"22:53:58 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [3878]
-			"22:54:09 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [3879]
-			"22:54:09 - GetML()", -- [3880]
-			"22:54:09 - LootMethod =  (master)", -- [3881]
-			"22:54:09 - MasterLooter =  (Revognaah-Golemagg)", -- [3882]
-			"22:54:09 - NewMLCheck (No ML Change)", -- [3883]
-			"22:54:30 - Event: (RAID_INSTANCE_WELCOME) (Ulduar (25 Player)) (3) (6) (5) (1)", -- [3884]
-			"22:54:31 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [3885]
-			"22:54:31 - GetML()", -- [3886]
-			"22:54:31 - LootMethod =  (master)", -- [3887]
-			"22:54:31 - MasterLooter =  (Revognaah-Golemagg)", -- [3888]
-			"22:54:31 - NewMLCheck (No ML Change)", -- [3889]
-			"22:55:37 - Event: (ENCOUNTER_START) (754) (Mimiron) (176) (25)", -- [3890]
-			"22:55:37 - UpdatePlayersData()", -- [3891]
-			"22:55:48 - Event: (ENCOUNTER_END) (754) (Mimiron) (176) (25) (0)", -- [3892]
-			"03/11/23", -- [3893]
-			"22:57:49 - Logged In", -- [3894]
-			"22:57:49 - ML initialized!", -- [3895]
-			"22:57:49 - TradeUI enabled", -- [3896]
-			"22:57:53 - Banger-Golemagg (2.19.3) (nil)", -- [3897]
-			"22:57:53 - ActivateSkin (bfa)", -- [3898]
-			"22:57:55 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [3899]
-			"22:57:55 - GetML()", -- [3900]
-			"22:57:55 - LootMethod =  (group)", -- [3901]
-			"22:57:55 - UpdatePlayersData()", -- [3902]
-			"22:57:55 - LUA_WARNING (0) (Interface/AddOns/ClassicLFG/src/gui/create-group.lua:1 (null))", -- [3903]
-			"22:57:55 - LUA_WARNING (0) (Interface/AddOns/ClassicLFG/src/gui/find-group/find-group.lua:1 (null))", -- [3904]
-			"22:57:55 - LUA_WARNING (0) (Interface/AddOns/ClassicLFG/src/gui/version-alert.lua:1 (null))", -- [3905]
-			"22:57:55 - LUA_WARNING (0) (Interface/AddOns/ClassicLFG/src/gui/queue-window.lua:1 (null))", -- [3906]
-			"22:57:55 - LUA_WARNING (0) (Interface_Wrath\\FrameXML\\Bindings.xml:1 Interface/AddOns/ClassicLFG/src/gui/create-group.lua:1 (null))", -- [3907]
-			"22:57:55 - LUA_WARNING (0) (Interface_Wrath\\FrameXML\\Bindings.xml:1 Interface/AddOns/ClassicLFG/src/gui/find-group/find-group.lua:1 (null))", -- [3908]
-			"22:57:55 - LUA_WARNING (0) (Interface_Wrath\\FrameXML\\Bindings.xml:1 Interface/AddOns/ClassicLFG/src/gui/version-alert.lua:1 (null))", -- [3909]
-			"22:57:55 - LUA_WARNING (0) (Interface_Wrath\\FrameXML\\Bindings.xml:1 Interface/AddOns/ClassicLFG/src/gui/queue-window.lua:1 (null))", -- [3910]
-			"22:57:55 - ClassicModule enabled (0.17.1) (nil)", -- [3911]
-			"22:57:55 - DoCommsCompressFix", -- [3912]
-			"22:57:55 - Removing Column (role)", -- [3913]
-			"22:57:55 - Removing Column (corruption)", -- [3914]
-			"22:57:55 - GetPlayersGuildRank()", -- [3915]
-			"22:57:55 - Found Guild Rank: Guild Master", -- [3916]
-			"22:57:58 - Comm received:^1^SverTest^T^N1^S0.17.1^t^^ (from:) (Banger) (distri:) (GUILD)", -- [3917]
-			"03/11/23", -- [3918]
-			"22:58:24 - Logged In", -- [3919]
-			"22:58:24 - ML initialized!", -- [3920]
-			"22:58:24 - TradeUI enabled", -- [3921]
-			"22:58:27 - Zowl-Golemagg (2.19.3) (nil)", -- [3922]
-			"22:58:27 - ActivateSkin (bfa)", -- [3923]
-			"22:58:29 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [3924]
-			"22:58:29 - GetML()", -- [3925]
-			"22:58:29 - LootMethod =  (group)", -- [3926]
-			"22:58:29 - UpdatePlayersData()", -- [3927]
-			"22:58:29 - Event: (PARTY_LEADER_CHANGED)", -- [3928]
-			"22:58:29 - GetML()", -- [3929]
-			"22:58:29 - LootMethod =  (master)", -- [3930]
-			"22:58:29 - MasterLooter =  (Revognaah-Golemagg)", -- [3931]
-			"22:58:29 - NewMLCheck (Resetting council as we have a new ML!)", -- [3932]
-			"22:58:29 - Some else is ML", -- [3933]
-			"22:58:29 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [3934]
-			"22:58:29 - GetML()", -- [3935]
-			"22:58:29 - LootMethod =  (master)", -- [3936]
-			"22:58:29 - MasterLooter =  (Revognaah-Golemagg)", -- [3937]
-			"22:58:29 - NewMLCheck (No ML Change)", -- [3938]
-			"22:58:29 - LUA_WARNING (0) (Interface/AddOns/ClassicLFG/src/gui/create-group.lua:1 (null))", -- [3939]
-			"22:58:29 - LUA_WARNING (0) (Interface/AddOns/ClassicLFG/src/gui/find-group/find-group.lua:1 (null))", -- [3940]
-			"22:58:29 - LUA_WARNING (0) (Interface/AddOns/ClassicLFG/src/gui/version-alert.lua:1 (null))", -- [3941]
-			"22:58:29 - LUA_WARNING (0) (Interface/AddOns/ClassicLFG/src/gui/queue-window.lua:1 (null))", -- [3942]
-			"22:58:29 - LUA_WARNING (0) (Interface/AddOns/MikScrollingBattleText/MSBTCooldowns.lua:1 (null))", -- [3943]
-			"22:58:29 - LUA_WARNING (0) (Interface_Wrath\\FrameXML\\Bindings.xml:1 Interface/AddOns/ClassicLFG/src/gui/create-group.lua:1 (null))", -- [3944]
-			"22:58:29 - LUA_WARNING (0) (Interface_Wrath\\FrameXML\\Bindings.xml:1 Interface/AddOns/ClassicLFG/src/gui/find-group/find-group.lua:1 (null))", -- [3945]
-			"22:58:29 - LUA_WARNING (0) (Interface_Wrath\\FrameXML\\Bindings.xml:1 Interface/AddOns/ClassicLFG/src/gui/version-alert.lua:1 (null))", -- [3946]
-			"22:58:29 - LUA_WARNING (0) (Interface_Wrath\\FrameXML\\Bindings.xml:1 Interface/AddOns/ClassicLFG/src/gui/queue-window.lua:1 (null))", -- [3947]
-			"22:58:29 - LUA_WARNING (0) (Interface_Wrath\\FrameXML\\Bindings.xml:1 Interface/AddOns/MikScrollingBattleText/MSBTCooldowns.lua:1 (null))", -- [3948]
-			"22:58:29 - ClassicModule enabled (0.17.1) (nil)", -- [3949]
-			"22:58:29 - DoCommsCompressFix", -- [3950]
-			"22:58:29 - Removing Column (role)", -- [3951]
-			"22:58:29 - Removing Column (corruption)", -- [3952]
-			"22:58:30 - GetPlayersGuildRank()", -- [3953]
-			"22:58:30 - Found Guild Rank: Member", -- [3954]
-			"22:58:35 - Comm received:^1^SverTest^T^N1^S0.17.1^t^^ (from:) (Zowl) (distri:) (GUILD)", -- [3955]
-			"22:58:42 - Timer MLdb_check passed", -- [3956]
-			"23:02:37 - Event: (ENCOUNTER_START) (754) (Mimiron) (176) (25)", -- [3957]
-			"23:02:37 - UpdatePlayersData()", -- [3958]
-			"23:04:20 - Comm received:^1^SverTest^T^N1^S0.18.1^t^^ (from:) (Oslík) (distri:) (GUILD)", -- [3959]
-			"23:09:13 - Event: (ENCOUNTER_END) (754) (Mimiron) (176) (25) (1)", -- [3960]
-			"23:18:50 - Comm received:^1^SverTest^T^N1^S0.18.1^t^^ (from:) (Fireburns) (distri:) (GUILD)", -- [3961]
-			"23:20:42 - Comm received:^1^SverTest^T^N1^S0.18.1^t^^ (from:) (Aggai) (distri:) (GUILD)", -- [3962]
-			"23:22:37 - TradeUI: Traded item(s) to (Revognaah-Golemagg)", -- [3963]
-			"23:22:37 - TradeUI:Show() (nil)", -- [3964]
-			"23:22:37 - TradeUI:Hide()", -- [3965]
-			"23:23:13 - Event: (ENCOUNTER_START) (755) (General Vezax) (176) (25)", -- [3966]
-			"23:23:13 - UpdatePlayersData()", -- [3967]
-			"23:29:22 - Event: (ENCOUNTER_END) (755) (General Vezax) (176) (25) (1)", -- [3968]
-			"23:38:09 - Event: (ENCOUNTER_START) (756) (Yogg-Saron) (176) (25)", -- [3969]
-			"23:38:09 - UpdatePlayersData()", -- [3970]
-			"23:38:22 - Comm received:^1^SverTest^T^N1^S0.18.1^t^^ (from:) (Dewastator) (distri:) (GUILD)", -- [3971]
-			"23:40:20 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [3972]
-			"23:40:20 - GetML()", -- [3973]
-			"23:40:20 - LootMethod =  (master)", -- [3974]
-			"23:40:20 - MasterLooter =  (Revognaah-Golemagg)", -- [3975]
-			"23:40:20 - NewMLCheck (No ML Change)", -- [3976]
-			"23:40:42 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [3977]
-			"23:40:42 - GetML()", -- [3978]
-			"23:40:42 - LootMethod =  (master)", -- [3979]
-			"23:40:42 - MasterLooter =  (Revognaah-Golemagg)", -- [3980]
-			"23:40:42 - NewMLCheck (No ML Change)", -- [3981]
-			"23:40:42 - Event: (RAID_INSTANCE_WELCOME) (Ulduar (25 Player)) (3) (5) (19) (1)", -- [3982]
-			"23:42:19 - Comm received:^1^SverTest^T^N1^S0.18.1^t^^ (from:) (Miosham) (distri:) (GUILD)", -- [3983]
-			"23:42:32 - Event: (ENCOUNTER_START) (756) (Yogg-Saron) (176) (25)", -- [3984]
-			"23:42:32 - UpdatePlayersData()", -- [3985]
-			"23:50:45 - Event: (ENCOUNTER_END) (756) (Yogg-Saron) (176) (25) (1)", -- [3986]
-			"23:55:16 - TradeUI: Traded item(s) to (Revognaah-Golemagg)", -- [3987]
-			"23:55:16 - TradeUI:Hide()", -- [3988]
-			"23:57:27 - Comm received:^1^SverTest^T^N1^S0.18.1^t^^ (from:) (Jaytyy) (distri:) (GUILD)", -- [3989]
-			"00:00:04 - Comm received:^1^SverTest^T^N1^S0.18.0^t^^ (from:) (Chmellda) (distri:) (GUILD)", -- [3990]
-			"00:00:32 - Comm received:^1^SverTest^T^N1^S0.18.0^t^^ (from:) (Chmllda) (distri:) (GUILD)", -- [3991]
-			"00:00:33 - New CPS: (0)", -- [3992]
-			"00:00:33 - Sent 1 messages - new CPS is 1 - Queue:Size(): 0", -- [3993]
-			"00:00:34 - Queue and CPS is 0", -- [3994]
-			"00:08:50 - Comm received:^1^SverTest^T^N1^S0.18.1^t^^ (from:) (Tomigege) (distri:) (GUILD)", -- [3995]
-			"00:11:45 - TradeUI: Traded item(s) to (Revognaah-Golemagg)", -- [3996]
-			"00:11:45 - TradeUI:Hide()", -- [3997]
-			"00:13:04 - Comm received:^1^SverTest^T^N1^S0.18.1^t^^ (from:) (Tominda) (distri:) (GUILD)", -- [3998]
-			"00:16:05 - Comm received:^1^SverTest^T^N1^S0.18.1^t^^ (from:) (Tominfa) (distri:) (GUILD)", -- [3999]
-			"00:16:21 - TradeUI: Traded item(s) to (Revognaah-Golemagg)", -- [4000]
-			"00:16:21 - TradeUI:Hide()", -- [4001]
-			"00:17:10 - TradeUI: Traded item(s) to (Revognaah-Golemagg)", -- [4002]
-			"00:17:10 - TradeUI:Hide()", -- [4003]
-			"00:18:29 - Comm received:^1^SverTest^T^N1^S0.18.1^t^^ (from:) (Tominda) (distri:) (GUILD)", -- [4004]
-			"00:21:17 - TradeUI: Traded item(s) to (Revognaah-Golemagg)", -- [4005]
-			"00:21:17 - TradeUI:Hide()", -- [4006]
-			"00:21:26 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [4007]
-			"00:21:26 - GetML()", -- [4008]
-			"00:21:26 - LootMethod =  (master)", -- [4009]
-			"00:21:26 - MasterLooter =  (Revognaah-Golemagg)", -- [4010]
-			"00:21:26 - NewMLCheck (No ML Change)", -- [4011]
-			"00:21:57 - Comm received:^1^SverTest^T^N1^S0.18.1^t^^ (from:) (Tomindos) (distri:) (GUILD)", -- [4012]
-			"03/12/23", -- [4013]
-			"19:57:40 - Logged In", -- [4014]
-			"19:57:40 - ML initialized!", -- [4015]
-			"19:57:40 - TradeUI enabled", -- [4016]
-			"19:57:50 - Zowl-Golemagg (2.19.3) (nil)", -- [4017]
-			"19:57:50 - ActivateSkin (bfa)", -- [4018]
-			"19:57:55 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [4019]
-			"19:57:55 - GetML()", -- [4020]
-			"19:57:55 - LootMethod =  (group)", -- [4021]
-			"19:57:55 - UpdatePlayersData()", -- [4022]
-			"19:57:56 - LUA_WARNING (0) (Interface/AddOns/ClassicLFG/src/gui/create-group.lua:1 (null))", -- [4023]
-			"19:57:56 - LUA_WARNING (0) (Interface/AddOns/ClassicLFG/src/gui/find-group/find-group.lua:1 (null))", -- [4024]
-			"19:57:56 - LUA_WARNING (0) (Interface/AddOns/ClassicLFG/src/gui/version-alert.lua:1 (null))", -- [4025]
-			"19:57:56 - LUA_WARNING (0) (Interface/AddOns/ClassicLFG/src/gui/queue-window.lua:1 (null))", -- [4026]
-			"19:57:56 - LUA_WARNING (0) (Interface/AddOns/MikScrollingBattleText/MSBTCooldowns.lua:1 (null))", -- [4027]
-			"19:57:56 - LUA_WARNING (0) (Interface_Wrath\\FrameXML\\Bindings.xml:1 Interface/AddOns/ClassicLFG/src/gui/create-group.lua:1 (null))", -- [4028]
-			"19:57:56 - LUA_WARNING (0) (Interface_Wrath\\FrameXML\\Bindings.xml:1 Interface/AddOns/ClassicLFG/src/gui/find-group/find-group.lua:1 (null))", -- [4029]
-			"19:57:56 - LUA_WARNING (0) (Interface_Wrath\\FrameXML\\Bindings.xml:1 Interface/AddOns/ClassicLFG/src/gui/version-alert.lua:1 (null))", -- [4030]
-			"19:57:56 - LUA_WARNING (0) (Interface_Wrath\\FrameXML\\Bindings.xml:1 Interface/AddOns/ClassicLFG/src/gui/queue-window.lua:1 (null))", -- [4031]
-			"19:57:56 - LUA_WARNING (0) (Interface_Wrath\\FrameXML\\Bindings.xml:1 Interface/AddOns/MikScrollingBattleText/MSBTCooldowns.lua:1 (null))", -- [4032]
-			"19:57:56 - ClassicModule enabled (0.17.1) (nil)", -- [4033]
-			"19:57:56 - DoCommsCompressFix", -- [4034]
-			"19:57:56 - Removing Column (role)", -- [4035]
-			"19:57:56 - Removing Column (corruption)", -- [4036]
-			"19:57:57 - GetPlayersGuildRank()", -- [4037]
-			"19:57:57 - Found Guild Rank: Member", -- [4038]
-			"19:57:59 - Comm received:^1^Shistory^T^N1^SConfiknez-Golemagg^N2^T^SmapID^N603^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Sclass^SPRIEST^SgroupSize^N25^Sboss^SFreya^Stime^S19:57:43^Sinstance^SUlduar-25~`Player^Sowner^SUgarra-Golemagg^Sresponse^SBiS^StypeCode^Sdefault^SdifficultyID^N176^SlootWon^S|cffa335ee|Hitem:46053::::::::80:::::::::|h[Reply-Code~`Alpha]|h|r^Sid^S1678643863-45^Sdate^S12/03/23^SresponseID^N1^Svotes^N6^SisAwardReason^b^t^t^^ (from:) (Ugarra) (distri:) (GUILD)", -- [4039]
-			"19:57:59 - Comm received:^1^SverTest^T^N1^S0.17.1^t^^ (from:) (Zowl) (distri:) (GUILD)", -- [4040]
-			"20:06:13 - Comm received:^1^SverTest^T^N1^S0.18.1^t^^ (from:) (Pukasefka) (distri:) (GUILD)", -- [4041]
-			"20:11:18 - Comm received:^1^Shistory^T^N1^STominda-Golemagg^N2^T^SmapID^N603^Sowner^STominda-Golemagg^Sid^S1678644671-46^Sinstance^SUlduar-25~`Player^Sclass^SPRIEST^Sdate^S12/03/23^Sresponse^SDisenchant^SgroupSize^N25^SisAwardReason^B^SlootWon^S|cff1eff00|Hitem:36059::::::-39:1490223185:80:::::::::|h[Coldwraith~`Sash~`of~`the~`Invoker]|h|r^SdifficultyID^N176^Sboss^SMimiron^SresponseID^N1^Stime^S20:11:11^Scolor^T^N1^N1^N2^N1^N3^N1^N4^N1^t^t^t^^ (from:) (Ugarra) (distri:) (GUILD)", -- [4042]
-			"20:13:46 - Comm received:^1^SverTest^T^N1^S0.18.1^t^^ (from:) (Alcony) (distri:) (GUILD)", -- [4043]
-			"20:16:09 - Comm received:^1^Shistory^T^N1^STominda-Golemagg^N2^T^SmapID^N603^Sowner^STominda-Golemagg^Sid^S1678644961-47^Sinstance^SUlduar-25~`Player^Sclass^SPRIEST^Sdate^S12/03/23^Sresponse^SDisenchant^SgroupSize^N25^SisAwardReason^B^SlootWon^S|cff1eff00|Hitem:36695::::::-6:1534001197:80:::::::::|h[Dogmatic~`Scepter~`of~`the~`Eagle]|h|r^SdifficultyID^N176^Sboss^SMimiron^SresponseID^N1^Stime^S20:16:01^Scolor^T^N1^N1^N2^N1^N3^N1^N4^N1^t^t^t^^ (from:) (Ugarra) (distri:) (GUILD)", -- [4044]
-			"20:16:49 - Comm received:^1^SverTest^T^N1^S0.18.1^t^^ (from:) (Jaytyy) (distri:) (GUILD)", -- [4045]
-			"20:17:14 - Comm received:^1^Shistory^T^N1^STominda-Golemagg^N2^T^SmapID^N603^Sowner^STominda-Golemagg^Sid^S1678645026-48^Sinstance^SUlduar-25~`Player^Sclass^SPRIEST^Sdate^S12/03/23^Sresponse^SDisenchant^SgroupSize^N25^SisAwardReason^B^SlootWon^S|cff1eff00|Hitem:36695::::::-44:1831993389:80:::::::::|h[Dogmatic~`Scepter~`of~`the~`Elder]|h|r^SdifficultyID^N176^Sboss^SMimiron^SresponseID^N1^Stime^S20:17:06^Scolor^T^N1^N1^N2^N1^N3^N1^N4^N1^t^t^t^^ (from:) (Ugarra) (distri:) (GUILD)", -- [4046]
-			"20:17:39 - Comm received:^1^SverTest^T^N1^S0.18.1^t^^ (from:) (Rentoan) (distri:) (GUILD)", -- [4047]
-			"20:18:42 - Comm received:^1^Shistory^T^N1^STominda-Golemagg^N2^T^SmapID^N603^Sowner^STominda-Golemagg^Sid^S1678645115-49^Sinstance^SUlduar-25~`Player^Sclass^SPRIEST^Sdate^S12/03/23^Sresponse^SDisenchant^SgroupSize^N25^SisAwardReason^B^SlootWon^S|cff1eff00|Hitem:36287::::::-19:632029292:80:::::::::|h[Spectral~`Helmet~`of~`Intellect]|h|r^SdifficultyID^N176^Sboss^SMimiron^SresponseID^N1^Stime^S20:18:35^Scolor^T^N1^N1^N2^N1^N3^N1^N4^N1^t^t^t^^ (from:) (Ugarra) (distri:) (GUILD)", -- [4048]
-			"03/12/23", -- [4049]
-			"20:20:48 - Logged In", -- [4050]
-			"20:20:48 - ML initialized!", -- [4051]
-			"20:20:48 - TradeUI enabled", -- [4052]
-			"20:20:53 - Zowl-Golemagg (2.19.3) (nil)", -- [4053]
-			"20:20:53 - ActivateSkin (bfa)", -- [4054]
-			"20:20:54 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [4055]
-			"20:20:54 - GetML()", -- [4056]
-			"20:20:54 - LootMethod =  (group)", -- [4057]
-			"20:20:54 - UpdatePlayersData()", -- [4058]
-			"20:20:54 - LUA_WARNING (0) (Interface/AddOns/ClassicLFG/src/gui/create-group.lua:1 (null))", -- [4059]
-			"20:20:54 - LUA_WARNING (0) (Interface/AddOns/ClassicLFG/src/gui/find-group/find-group.lua:1 (null))", -- [4060]
-			"20:20:54 - LUA_WARNING (0) (Interface/AddOns/ClassicLFG/src/gui/version-alert.lua:1 (null))", -- [4061]
-			"20:20:54 - LUA_WARNING (0) (Interface/AddOns/ClassicLFG/src/gui/queue-window.lua:1 (null))", -- [4062]
-			"20:20:54 - LUA_WARNING (0) (Interface/AddOns/MikScrollingBattleText/MSBTCooldowns.lua:1 (null))", -- [4063]
-			"20:20:54 - LUA_WARNING (0) (Interface_Wrath\\FrameXML\\Bindings.xml:1 Interface/AddOns/ClassicLFG/src/gui/create-group.lua:1 (null))", -- [4064]
-			"20:20:54 - LUA_WARNING (0) (Interface_Wrath\\FrameXML\\Bindings.xml:1 Interface/AddOns/ClassicLFG/src/gui/find-group/find-group.lua:1 (null))", -- [4065]
-			"20:20:54 - LUA_WARNING (0) (Interface_Wrath\\FrameXML\\Bindings.xml:1 Interface/AddOns/ClassicLFG/src/gui/version-alert.lua:1 (null))", -- [4066]
-			"20:20:54 - LUA_WARNING (0) (Interface_Wrath\\FrameXML\\Bindings.xml:1 Interface/AddOns/ClassicLFG/src/gui/queue-window.lua:1 (null))", -- [4067]
-			"20:20:54 - LUA_WARNING (0) (Interface_Wrath\\FrameXML\\Bindings.xml:1 Interface/AddOns/MikScrollingBattleText/MSBTCooldowns.lua:1 (null))", -- [4068]
-			"20:20:54 - ClassicModule enabled (0.17.1) (nil)", -- [4069]
-			"20:20:54 - DoCommsCompressFix", -- [4070]
-			"20:20:54 - Removing Column (role)", -- [4071]
-			"20:20:54 - Removing Column (corruption)", -- [4072]
-			"20:20:55 - GetPlayersGuildRank()", -- [4073]
-			"20:20:55 - Found Guild Rank: Member", -- [4074]
-			"20:20:58 - Comm received:^1^SverTest^T^N1^S0.17.1^t^^ (from:) (Zowl) (distri:) (GUILD)", -- [4075]
-			"20:22:05 - Comm received:^1^SverTest^T^N1^S0.18.0^t^^ (from:) (Ugarra) (distri:) (GUILD)", -- [4076]
-			"20:22:46 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [4077]
-			"20:22:46 - GetML()", -- [4078]
-			"20:22:46 - LootMethod =  (group)", -- [4079]
+			"22:53:58 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [3847]
+			"22:53:58 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [3848]
+			"22:53:58 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [3849]
+			"22:53:58 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [3850]
+			"22:53:58 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame6:Show())", -- [3851]
+			"22:53:58 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame5:Show())", -- [3852]
+			"22:53:58 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame3:Show())", -- [3853]
+			"22:53:58 - ADDON_ACTION_BLOCKED (Groupie) (CompactRaidFrame2:Show())", -- [3854]
+			"22:54:09 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [3855]
+			"22:54:09 - GetML()", -- [3856]
+			"22:54:09 - LootMethod =  (master)", -- [3857]
+			"22:54:09 - MasterLooter =  (Revognaah-Golemagg)", -- [3858]
+			"22:54:09 - NewMLCheck (No ML Change)", -- [3859]
+			"22:54:30 - Event: (RAID_INSTANCE_WELCOME) (Ulduar (25 Player)) (3) (6) (5) (1)", -- [3860]
+			"22:54:31 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [3861]
+			"22:54:31 - GetML()", -- [3862]
+			"22:54:31 - LootMethod =  (master)", -- [3863]
+			"22:54:31 - MasterLooter =  (Revognaah-Golemagg)", -- [3864]
+			"22:54:31 - NewMLCheck (No ML Change)", -- [3865]
+			"22:55:37 - Event: (ENCOUNTER_START) (754) (Mimiron) (176) (25)", -- [3866]
+			"22:55:37 - UpdatePlayersData()", -- [3867]
+			"22:55:48 - Event: (ENCOUNTER_END) (754) (Mimiron) (176) (25) (0)", -- [3868]
+			"03/11/23", -- [3869]
+			"22:57:49 - Logged In", -- [3870]
+			"22:57:49 - ML initialized!", -- [3871]
+			"22:57:49 - TradeUI enabled", -- [3872]
+			"22:57:53 - Banger-Golemagg (2.19.3) (nil)", -- [3873]
+			"22:57:53 - ActivateSkin (bfa)", -- [3874]
+			"22:57:55 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [3875]
+			"22:57:55 - GetML()", -- [3876]
+			"22:57:55 - LootMethod =  (group)", -- [3877]
+			"22:57:55 - UpdatePlayersData()", -- [3878]
+			"22:57:55 - LUA_WARNING (0) (Interface/AddOns/ClassicLFG/src/gui/create-group.lua:1 (null))", -- [3879]
+			"22:57:55 - LUA_WARNING (0) (Interface/AddOns/ClassicLFG/src/gui/find-group/find-group.lua:1 (null))", -- [3880]
+			"22:57:55 - LUA_WARNING (0) (Interface/AddOns/ClassicLFG/src/gui/version-alert.lua:1 (null))", -- [3881]
+			"22:57:55 - LUA_WARNING (0) (Interface/AddOns/ClassicLFG/src/gui/queue-window.lua:1 (null))", -- [3882]
+			"22:57:55 - LUA_WARNING (0) (Interface_Wrath\\FrameXML\\Bindings.xml:1 Interface/AddOns/ClassicLFG/src/gui/create-group.lua:1 (null))", -- [3883]
+			"22:57:55 - LUA_WARNING (0) (Interface_Wrath\\FrameXML\\Bindings.xml:1 Interface/AddOns/ClassicLFG/src/gui/find-group/find-group.lua:1 (null))", -- [3884]
+			"22:57:55 - LUA_WARNING (0) (Interface_Wrath\\FrameXML\\Bindings.xml:1 Interface/AddOns/ClassicLFG/src/gui/version-alert.lua:1 (null))", -- [3885]
+			"22:57:55 - LUA_WARNING (0) (Interface_Wrath\\FrameXML\\Bindings.xml:1 Interface/AddOns/ClassicLFG/src/gui/queue-window.lua:1 (null))", -- [3886]
+			"22:57:55 - ClassicModule enabled (0.17.1) (nil)", -- [3887]
+			"22:57:55 - DoCommsCompressFix", -- [3888]
+			"22:57:55 - Removing Column (role)", -- [3889]
+			"22:57:55 - Removing Column (corruption)", -- [3890]
+			"22:57:55 - GetPlayersGuildRank()", -- [3891]
+			"22:57:55 - Found Guild Rank: Guild Master", -- [3892]
+			"22:57:58 - Comm received:^1^SverTest^T^N1^S0.17.1^t^^ (from:) (Banger) (distri:) (GUILD)", -- [3893]
+			"03/11/23", -- [3894]
+			"22:58:24 - Logged In", -- [3895]
+			"22:58:24 - ML initialized!", -- [3896]
+			"22:58:24 - TradeUI enabled", -- [3897]
+			"22:58:27 - Zowl-Golemagg (2.19.3) (nil)", -- [3898]
+			"22:58:27 - ActivateSkin (bfa)", -- [3899]
+			"22:58:29 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [3900]
+			"22:58:29 - GetML()", -- [3901]
+			"22:58:29 - LootMethod =  (group)", -- [3902]
+			"22:58:29 - UpdatePlayersData()", -- [3903]
+			"22:58:29 - Event: (PARTY_LEADER_CHANGED)", -- [3904]
+			"22:58:29 - GetML()", -- [3905]
+			"22:58:29 - LootMethod =  (master)", -- [3906]
+			"22:58:29 - MasterLooter =  (Revognaah-Golemagg)", -- [3907]
+			"22:58:29 - NewMLCheck (Resetting council as we have a new ML!)", -- [3908]
+			"22:58:29 - Some else is ML", -- [3909]
+			"22:58:29 - Event: (PARTY_LOOT_METHOD_CHANGED)", -- [3910]
+			"22:58:29 - GetML()", -- [3911]
+			"22:58:29 - LootMethod =  (master)", -- [3912]
+			"22:58:29 - MasterLooter =  (Revognaah-Golemagg)", -- [3913]
+			"22:58:29 - NewMLCheck (No ML Change)", -- [3914]
+			"22:58:29 - LUA_WARNING (0) (Interface/AddOns/ClassicLFG/src/gui/create-group.lua:1 (null))", -- [3915]
+			"22:58:29 - LUA_WARNING (0) (Interface/AddOns/ClassicLFG/src/gui/find-group/find-group.lua:1 (null))", -- [3916]
+			"22:58:29 - LUA_WARNING (0) (Interface/AddOns/ClassicLFG/src/gui/version-alert.lua:1 (null))", -- [3917]
+			"22:58:29 - LUA_WARNING (0) (Interface/AddOns/ClassicLFG/src/gui/queue-window.lua:1 (null))", -- [3918]
+			"22:58:29 - LUA_WARNING (0) (Interface/AddOns/MikScrollingBattleText/MSBTCooldowns.lua:1 (null))", -- [3919]
+			"22:58:29 - LUA_WARNING (0) (Interface_Wrath\\FrameXML\\Bindings.xml:1 Interface/AddOns/ClassicLFG/src/gui/create-group.lua:1 (null))", -- [3920]
+			"22:58:29 - LUA_WARNING (0) (Interface_Wrath\\FrameXML\\Bindings.xml:1 Interface/AddOns/ClassicLFG/src/gui/find-group/find-group.lua:1 (null))", -- [3921]
+			"22:58:29 - LUA_WARNING (0) (Interface_Wrath\\FrameXML\\Bindings.xml:1 Interface/AddOns/ClassicLFG/src/gui/version-alert.lua:1 (null))", -- [3922]
+			"22:58:29 - LUA_WARNING (0) (Interface_Wrath\\FrameXML\\Bindings.xml:1 Interface/AddOns/ClassicLFG/src/gui/queue-window.lua:1 (null))", -- [3923]
+			"22:58:29 - LUA_WARNING (0) (Interface_Wrath\\FrameXML\\Bindings.xml:1 Interface/AddOns/MikScrollingBattleText/MSBTCooldowns.lua:1 (null))", -- [3924]
+			"22:58:29 - ClassicModule enabled (0.17.1) (nil)", -- [3925]
+			"22:58:29 - DoCommsCompressFix", -- [3926]
+			"22:58:29 - Removing Column (role)", -- [3927]
+			"22:58:29 - Removing Column (corruption)", -- [3928]
+			"22:58:30 - GetPlayersGuildRank()", -- [3929]
+			"22:58:30 - Found Guild Rank: Member", -- [3930]
+			"22:58:35 - Comm received:^1^SverTest^T^N1^S0.17.1^t^^ (from:) (Zowl) (distri:) (GUILD)", -- [3931]
+			"22:58:42 - Timer MLdb_check passed", -- [3932]
+			"23:02:37 - Event: (ENCOUNTER_START) (754) (Mimiron) (176) (25)", -- [3933]
+			"23:02:37 - UpdatePlayersData()", -- [3934]
+			"23:04:20 - Comm received:^1^SverTest^T^N1^S0.18.1^t^^ (from:) (Oslík) (distri:) (GUILD)", -- [3935]
+			"23:09:13 - Event: (ENCOUNTER_END) (754) (Mimiron) (176) (25) (1)", -- [3936]
+			"23:18:50 - Comm received:^1^SverTest^T^N1^S0.18.1^t^^ (from:) (Fireburns) (distri:) (GUILD)", -- [3937]
+			"23:20:42 - Comm received:^1^SverTest^T^N1^S0.18.1^t^^ (from:) (Aggai) (distri:) (GUILD)", -- [3938]
+			"23:22:37 - TradeUI: Traded item(s) to (Revognaah-Golemagg)", -- [3939]
+			"23:22:37 - TradeUI:Show() (nil)", -- [3940]
+			"23:22:37 - TradeUI:Hide()", -- [3941]
+			"23:23:13 - Event: (ENCOUNTER_START) (755) (General Vezax) (176) (25)", -- [3942]
+			"23:23:13 - UpdatePlayersData()", -- [3943]
+			"23:29:22 - Event: (ENCOUNTER_END) (755) (General Vezax) (176) (25) (1)", -- [3944]
+			"23:38:09 - Event: (ENCOUNTER_START) (756) (Yogg-Saron) (176) (25)", -- [3945]
+			"23:38:09 - UpdatePlayersData()", -- [3946]
+			"23:38:22 - Comm received:^1^SverTest^T^N1^S0.18.1^t^^ (from:) (Dewastator) (distri:) (GUILD)", -- [3947]
+			"23:40:20 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [3948]
+			"23:40:20 - GetML()", -- [3949]
+			"23:40:20 - LootMethod =  (master)", -- [3950]
+			"23:40:20 - MasterLooter =  (Revognaah-Golemagg)", -- [3951]
+			"23:40:20 - NewMLCheck (No ML Change)", -- [3952]
+			"23:40:42 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [3953]
+			"23:40:42 - GetML()", -- [3954]
+			"23:40:42 - LootMethod =  (master)", -- [3955]
+			"23:40:42 - MasterLooter =  (Revognaah-Golemagg)", -- [3956]
+			"23:40:42 - NewMLCheck (No ML Change)", -- [3957]
+			"23:40:42 - Event: (RAID_INSTANCE_WELCOME) (Ulduar (25 Player)) (3) (5) (19) (1)", -- [3958]
+			"23:42:19 - Comm received:^1^SverTest^T^N1^S0.18.1^t^^ (from:) (Miosham) (distri:) (GUILD)", -- [3959]
+			"23:42:32 - Event: (ENCOUNTER_START) (756) (Yogg-Saron) (176) (25)", -- [3960]
+			"23:42:32 - UpdatePlayersData()", -- [3961]
+			"23:50:45 - Event: (ENCOUNTER_END) (756) (Yogg-Saron) (176) (25) (1)", -- [3962]
+			"23:55:16 - TradeUI: Traded item(s) to (Revognaah-Golemagg)", -- [3963]
+			"23:55:16 - TradeUI:Hide()", -- [3964]
+			"23:57:27 - Comm received:^1^SverTest^T^N1^S0.18.1^t^^ (from:) (Jaytyy) (distri:) (GUILD)", -- [3965]
+			"00:00:04 - Comm received:^1^SverTest^T^N1^S0.18.0^t^^ (from:) (Chmellda) (distri:) (GUILD)", -- [3966]
+			"00:00:32 - Comm received:^1^SverTest^T^N1^S0.18.0^t^^ (from:) (Chmllda) (distri:) (GUILD)", -- [3967]
+			"00:00:33 - New CPS: (0)", -- [3968]
+			"00:00:33 - Sent 1 messages - new CPS is 1 - Queue:Size(): 0", -- [3969]
+			"00:00:34 - Queue and CPS is 0", -- [3970]
+			"00:08:50 - Comm received:^1^SverTest^T^N1^S0.18.1^t^^ (from:) (Tomigege) (distri:) (GUILD)", -- [3971]
+			"00:11:45 - TradeUI: Traded item(s) to (Revognaah-Golemagg)", -- [3972]
+			"00:11:45 - TradeUI:Hide()", -- [3973]
+			"00:13:04 - Comm received:^1^SverTest^T^N1^S0.18.1^t^^ (from:) (Tominda) (distri:) (GUILD)", -- [3974]
+			"00:16:05 - Comm received:^1^SverTest^T^N1^S0.18.1^t^^ (from:) (Tominfa) (distri:) (GUILD)", -- [3975]
+			"00:16:21 - TradeUI: Traded item(s) to (Revognaah-Golemagg)", -- [3976]
+			"00:16:21 - TradeUI:Hide()", -- [3977]
+			"00:17:10 - TradeUI: Traded item(s) to (Revognaah-Golemagg)", -- [3978]
+			"00:17:10 - TradeUI:Hide()", -- [3979]
+			"00:18:29 - Comm received:^1^SverTest^T^N1^S0.18.1^t^^ (from:) (Tominda) (distri:) (GUILD)", -- [3980]
+			"00:21:17 - TradeUI: Traded item(s) to (Revognaah-Golemagg)", -- [3981]
+			"00:21:17 - TradeUI:Hide()", -- [3982]
+			"00:21:26 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [3983]
+			"00:21:26 - GetML()", -- [3984]
+			"00:21:26 - LootMethod =  (master)", -- [3985]
+			"00:21:26 - MasterLooter =  (Revognaah-Golemagg)", -- [3986]
+			"00:21:26 - NewMLCheck (No ML Change)", -- [3987]
+			"00:21:57 - Comm received:^1^SverTest^T^N1^S0.18.1^t^^ (from:) (Tomindos) (distri:) (GUILD)", -- [3988]
+			"03/12/23", -- [3989]
+			"19:57:40 - Logged In", -- [3990]
+			"19:57:40 - ML initialized!", -- [3991]
+			"19:57:40 - TradeUI enabled", -- [3992]
+			"19:57:50 - Zowl-Golemagg (2.19.3) (nil)", -- [3993]
+			"19:57:50 - ActivateSkin (bfa)", -- [3994]
+			"19:57:55 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [3995]
+			"19:57:55 - GetML()", -- [3996]
+			"19:57:55 - LootMethod =  (group)", -- [3997]
+			"19:57:55 - UpdatePlayersData()", -- [3998]
+			"19:57:56 - LUA_WARNING (0) (Interface/AddOns/ClassicLFG/src/gui/create-group.lua:1 (null))", -- [3999]
+			"19:57:56 - LUA_WARNING (0) (Interface/AddOns/ClassicLFG/src/gui/find-group/find-group.lua:1 (null))", -- [4000]
+			"19:57:56 - LUA_WARNING (0) (Interface/AddOns/ClassicLFG/src/gui/version-alert.lua:1 (null))", -- [4001]
+			"19:57:56 - LUA_WARNING (0) (Interface/AddOns/ClassicLFG/src/gui/queue-window.lua:1 (null))", -- [4002]
+			"19:57:56 - LUA_WARNING (0) (Interface/AddOns/MikScrollingBattleText/MSBTCooldowns.lua:1 (null))", -- [4003]
+			"19:57:56 - LUA_WARNING (0) (Interface_Wrath\\FrameXML\\Bindings.xml:1 Interface/AddOns/ClassicLFG/src/gui/create-group.lua:1 (null))", -- [4004]
+			"19:57:56 - LUA_WARNING (0) (Interface_Wrath\\FrameXML\\Bindings.xml:1 Interface/AddOns/ClassicLFG/src/gui/find-group/find-group.lua:1 (null))", -- [4005]
+			"19:57:56 - LUA_WARNING (0) (Interface_Wrath\\FrameXML\\Bindings.xml:1 Interface/AddOns/ClassicLFG/src/gui/version-alert.lua:1 (null))", -- [4006]
+			"19:57:56 - LUA_WARNING (0) (Interface_Wrath\\FrameXML\\Bindings.xml:1 Interface/AddOns/ClassicLFG/src/gui/queue-window.lua:1 (null))", -- [4007]
+			"19:57:56 - LUA_WARNING (0) (Interface_Wrath\\FrameXML\\Bindings.xml:1 Interface/AddOns/MikScrollingBattleText/MSBTCooldowns.lua:1 (null))", -- [4008]
+			"19:57:56 - ClassicModule enabled (0.17.1) (nil)", -- [4009]
+			"19:57:56 - DoCommsCompressFix", -- [4010]
+			"19:57:56 - Removing Column (role)", -- [4011]
+			"19:57:56 - Removing Column (corruption)", -- [4012]
+			"19:57:57 - GetPlayersGuildRank()", -- [4013]
+			"19:57:57 - Found Guild Rank: Member", -- [4014]
+			"19:57:59 - Comm received:^1^Shistory^T^N1^SConfiknez-Golemagg^N2^T^SmapID^N603^Scolor^T^N1^N0^N2^N1^N3^N0^N4^N1^t^Sclass^SPRIEST^SgroupSize^N25^Sboss^SFreya^Stime^S19:57:43^Sinstance^SUlduar-25~`Player^Sowner^SUgarra-Golemagg^Sresponse^SBiS^StypeCode^Sdefault^SdifficultyID^N176^SlootWon^S|cffa335ee|Hitem:46053::::::::80:::::::::|h[Reply-Code~`Alpha]|h|r^Sid^S1678643863-45^Sdate^S12/03/23^SresponseID^N1^Svotes^N6^SisAwardReason^b^t^t^^ (from:) (Ugarra) (distri:) (GUILD)", -- [4015]
+			"19:57:59 - Comm received:^1^SverTest^T^N1^S0.17.1^t^^ (from:) (Zowl) (distri:) (GUILD)", -- [4016]
+			"20:06:13 - Comm received:^1^SverTest^T^N1^S0.18.1^t^^ (from:) (Pukasefka) (distri:) (GUILD)", -- [4017]
+			"20:11:18 - Comm received:^1^Shistory^T^N1^STominda-Golemagg^N2^T^SmapID^N603^Sowner^STominda-Golemagg^Sid^S1678644671-46^Sinstance^SUlduar-25~`Player^Sclass^SPRIEST^Sdate^S12/03/23^Sresponse^SDisenchant^SgroupSize^N25^SisAwardReason^B^SlootWon^S|cff1eff00|Hitem:36059::::::-39:1490223185:80:::::::::|h[Coldwraith~`Sash~`of~`the~`Invoker]|h|r^SdifficultyID^N176^Sboss^SMimiron^SresponseID^N1^Stime^S20:11:11^Scolor^T^N1^N1^N2^N1^N3^N1^N4^N1^t^t^t^^ (from:) (Ugarra) (distri:) (GUILD)", -- [4018]
+			"20:13:46 - Comm received:^1^SverTest^T^N1^S0.18.1^t^^ (from:) (Alcony) (distri:) (GUILD)", -- [4019]
+			"20:16:09 - Comm received:^1^Shistory^T^N1^STominda-Golemagg^N2^T^SmapID^N603^Sowner^STominda-Golemagg^Sid^S1678644961-47^Sinstance^SUlduar-25~`Player^Sclass^SPRIEST^Sdate^S12/03/23^Sresponse^SDisenchant^SgroupSize^N25^SisAwardReason^B^SlootWon^S|cff1eff00|Hitem:36695::::::-6:1534001197:80:::::::::|h[Dogmatic~`Scepter~`of~`the~`Eagle]|h|r^SdifficultyID^N176^Sboss^SMimiron^SresponseID^N1^Stime^S20:16:01^Scolor^T^N1^N1^N2^N1^N3^N1^N4^N1^t^t^t^^ (from:) (Ugarra) (distri:) (GUILD)", -- [4020]
+			"20:16:49 - Comm received:^1^SverTest^T^N1^S0.18.1^t^^ (from:) (Jaytyy) (distri:) (GUILD)", -- [4021]
+			"20:17:14 - Comm received:^1^Shistory^T^N1^STominda-Golemagg^N2^T^SmapID^N603^Sowner^STominda-Golemagg^Sid^S1678645026-48^Sinstance^SUlduar-25~`Player^Sclass^SPRIEST^Sdate^S12/03/23^Sresponse^SDisenchant^SgroupSize^N25^SisAwardReason^B^SlootWon^S|cff1eff00|Hitem:36695::::::-44:1831993389:80:::::::::|h[Dogmatic~`Scepter~`of~`the~`Elder]|h|r^SdifficultyID^N176^Sboss^SMimiron^SresponseID^N1^Stime^S20:17:06^Scolor^T^N1^N1^N2^N1^N3^N1^N4^N1^t^t^t^^ (from:) (Ugarra) (distri:) (GUILD)", -- [4022]
+			"20:17:39 - Comm received:^1^SverTest^T^N1^S0.18.1^t^^ (from:) (Rentoan) (distri:) (GUILD)", -- [4023]
+			"20:18:42 - Comm received:^1^Shistory^T^N1^STominda-Golemagg^N2^T^SmapID^N603^Sowner^STominda-Golemagg^Sid^S1678645115-49^Sinstance^SUlduar-25~`Player^Sclass^SPRIEST^Sdate^S12/03/23^Sresponse^SDisenchant^SgroupSize^N25^SisAwardReason^B^SlootWon^S|cff1eff00|Hitem:36287::::::-19:632029292:80:::::::::|h[Spectral~`Helmet~`of~`Intellect]|h|r^SdifficultyID^N176^Sboss^SMimiron^SresponseID^N1^Stime^S20:18:35^Scolor^T^N1^N1^N2^N1^N3^N1^N4^N1^t^t^t^^ (from:) (Ugarra) (distri:) (GUILD)", -- [4024]
+			"03/12/23", -- [4025]
+			"20:20:48 - Logged In", -- [4026]
+			"20:20:48 - ML initialized!", -- [4027]
+			"20:20:48 - TradeUI enabled", -- [4028]
+			"20:20:53 - Zowl-Golemagg (2.19.3) (nil)", -- [4029]
+			"20:20:53 - ActivateSkin (bfa)", -- [4030]
+			"20:20:54 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [4031]
+			"20:20:54 - GetML()", -- [4032]
+			"20:20:54 - LootMethod =  (group)", -- [4033]
+			"20:20:54 - UpdatePlayersData()", -- [4034]
+			"20:20:54 - LUA_WARNING (0) (Interface/AddOns/ClassicLFG/src/gui/create-group.lua:1 (null))", -- [4035]
+			"20:20:54 - LUA_WARNING (0) (Interface/AddOns/ClassicLFG/src/gui/find-group/find-group.lua:1 (null))", -- [4036]
+			"20:20:54 - LUA_WARNING (0) (Interface/AddOns/ClassicLFG/src/gui/version-alert.lua:1 (null))", -- [4037]
+			"20:20:54 - LUA_WARNING (0) (Interface/AddOns/ClassicLFG/src/gui/queue-window.lua:1 (null))", -- [4038]
+			"20:20:54 - LUA_WARNING (0) (Interface/AddOns/MikScrollingBattleText/MSBTCooldowns.lua:1 (null))", -- [4039]
+			"20:20:54 - LUA_WARNING (0) (Interface_Wrath\\FrameXML\\Bindings.xml:1 Interface/AddOns/ClassicLFG/src/gui/create-group.lua:1 (null))", -- [4040]
+			"20:20:54 - LUA_WARNING (0) (Interface_Wrath\\FrameXML\\Bindings.xml:1 Interface/AddOns/ClassicLFG/src/gui/find-group/find-group.lua:1 (null))", -- [4041]
+			"20:20:54 - LUA_WARNING (0) (Interface_Wrath\\FrameXML\\Bindings.xml:1 Interface/AddOns/ClassicLFG/src/gui/version-alert.lua:1 (null))", -- [4042]
+			"20:20:54 - LUA_WARNING (0) (Interface_Wrath\\FrameXML\\Bindings.xml:1 Interface/AddOns/ClassicLFG/src/gui/queue-window.lua:1 (null))", -- [4043]
+			"20:20:54 - LUA_WARNING (0) (Interface_Wrath\\FrameXML\\Bindings.xml:1 Interface/AddOns/MikScrollingBattleText/MSBTCooldowns.lua:1 (null))", -- [4044]
+			"20:20:54 - ClassicModule enabled (0.17.1) (nil)", -- [4045]
+			"20:20:54 - DoCommsCompressFix", -- [4046]
+			"20:20:54 - Removing Column (role)", -- [4047]
+			"20:20:54 - Removing Column (corruption)", -- [4048]
+			"20:20:55 - GetPlayersGuildRank()", -- [4049]
+			"20:20:55 - Found Guild Rank: Member", -- [4050]
+			"20:20:58 - Comm received:^1^SverTest^T^N1^S0.17.1^t^^ (from:) (Zowl) (distri:) (GUILD)", -- [4051]
+			"20:22:05 - Comm received:^1^SverTest^T^N1^S0.18.0^t^^ (from:) (Ugarra) (distri:) (GUILD)", -- [4052]
+			"20:22:46 - Event: (PLAYER_ENTERING_WORLD) (false) (false)", -- [4053]
+			"20:22:46 - GetML()", -- [4054]
+			"20:22:46 - LootMethod =  (group)", -- [4055]
+			"03/12/23", -- [4056]
+			"20:24:57 - Logged In", -- [4057]
+			"20:24:57 - ML initialized!", -- [4058]
+			"20:24:57 - TradeUI enabled", -- [4059]
+			"20:25:00 - Banger-Golemagg (2.19.3) (nil)", -- [4060]
+			"20:25:00 - ActivateSkin (bfa)", -- [4061]
+			"20:25:01 - Event: (PLAYER_ENTERING_WORLD) (true) (false)", -- [4062]
+			"20:25:01 - GetML()", -- [4063]
+			"20:25:01 - LootMethod =  (group)", -- [4064]
+			"20:25:01 - UpdatePlayersData()", -- [4065]
+			"20:25:02 - LUA_WARNING (0) (Interface/AddOns/ClassicLFG/src/gui/create-group.lua:1 (null))", -- [4066]
+			"20:25:02 - LUA_WARNING (0) (Interface/AddOns/ClassicLFG/src/gui/find-group/find-group.lua:1 (null))", -- [4067]
+			"20:25:02 - LUA_WARNING (0) (Interface/AddOns/ClassicLFG/src/gui/version-alert.lua:1 (null))", -- [4068]
+			"20:25:02 - LUA_WARNING (0) (Interface/AddOns/ClassicLFG/src/gui/queue-window.lua:1 (null))", -- [4069]
+			"20:25:02 - LUA_WARNING (0) (Interface_Wrath\\FrameXML\\Bindings.xml:1 Interface/AddOns/ClassicLFG/src/gui/create-group.lua:1 (null))", -- [4070]
+			"20:25:02 - LUA_WARNING (0) (Interface_Wrath\\FrameXML\\Bindings.xml:1 Interface/AddOns/ClassicLFG/src/gui/find-group/find-group.lua:1 (null))", -- [4071]
+			"20:25:02 - LUA_WARNING (0) (Interface_Wrath\\FrameXML\\Bindings.xml:1 Interface/AddOns/ClassicLFG/src/gui/version-alert.lua:1 (null))", -- [4072]
+			"20:25:02 - LUA_WARNING (0) (Interface_Wrath\\FrameXML\\Bindings.xml:1 Interface/AddOns/ClassicLFG/src/gui/queue-window.lua:1 (null))", -- [4073]
+			"20:25:02 - ClassicModule enabled (0.17.1) (nil)", -- [4074]
+			"20:25:02 - DoCommsCompressFix", -- [4075]
+			"20:25:02 - Removing Column (role)", -- [4076]
+			"20:25:02 - Removing Column (corruption)", -- [4077]
+			"20:25:02 - GetPlayersGuildRank()", -- [4078]
+			"20:25:02 - Found Guild Rank: Guild Master", -- [4079]
+			"20:25:05 - Comm received:^1^SverTest^T^N1^S0.17.1^t^^ (from:) (Banger) (distri:) (GUILD)", -- [4080]
 		},
 		["Classic_game"] = 11,
 		["Classic_oldVersion"] = "0.17.1",
@@ -4358,77 +4353,77 @@ RCLootCouncilDB = {
 				nil, -- [2]
 				1678521841, -- [3]
 			},
-			["Fireburns-Golemagg"] = {
+			["Zukkzug-Golemagg"] = {
 				"0.18.1", -- [1]
 				nil, -- [2]
-				1678576917, -- [3]
+				1678648925, -- [3]
 			},
-			["Kybell-Golemagg"] = {
+			["Teajay-Golemagg"] = {
 				"0.18.1", -- [1]
 				nil, -- [2]
-				1678563315, -- [3]
+				1678647479, -- [3]
 			},
 			["Aggai-Golemagg"] = {
 				"0.18.1", -- [1]
 				nil, -- [2]
 				1678576917, -- [3]
 			},
-			["Thaximé-Golemagg"] = {
-				"0.17.1", -- [1]
-				nil, -- [2]
-				1678526309, -- [3]
-			},
-			["Houbícka-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1678489647, -- [3]
-			},
-			["Prdzriti-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678559832, -- [3]
-			},
-			["Kimby-Golemagg"] = {
+			["Rogalo-Golemagg"] = {
 				"0.18.1", -- [1]
 				nil, -- [2]
 				1678648925, -- [3]
+			},
+			["Vernitka-Golemagg"] = {
+				"0.18.1", -- [1]
+				nil, -- [2]
+				1678648925, -- [3]
+			},
+			["Ugarra-Golemagg"] = {
+				"0.18.0", -- [1]
+				nil, -- [2]
+				1678648925, -- [3]
+			},
+			["Jaytyy-Golemagg"] = {
+				"0.18.1", -- [1]
+				nil, -- [2]
+				1678648609, -- [3]
 			},
 			["Rentoan-Golemagg"] = {
 				"0.18.1", -- [1]
 				nil, -- [2]
 				1678648925, -- [3]
 			},
-			["Tomigege-Golemagg"] = {
-				"0.18.1", -- [1]
+			["Vypol-Golemagg"] = {
+				"0.18.0", -- [1]
 				nil, -- [2]
-				1678576130, -- [3]
+				1678648925, -- [3]
 			},
-			["Tomitunak-Golemagg"] = {
+			["Kybell-Golemagg"] = {
 				"0.18.1", -- [1]
 				nil, -- [2]
-				1678544928, -- [3]
+				1678563315, -- [3]
 			},
-			["Karrx-Golemagg"] = {
-				"0.18.1", -- [1]
+			["Chmeldaa-Golemagg"] = {
+				"0.18.0", -- [1]
 				nil, -- [2]
-				1678559202, -- [3]
+				1678575447, -- [3]
 			},
 			["Zowl-Golemagg"] = {
 				"0.17.1", -- [1]
 				nil, -- [2]
 				1678648925, -- [3]
 			},
-			["Geeners-Golemagg"] = {
+			["Saktak-Golemagg"] = {
+				"0.18.0", -- [1]
+				nil, -- [2]
+				1678563315, -- [3]
+			},
+			["Tominak-Golemagg"] = {
 				"0.18.1", -- [1]
 				nil, -- [2]
-				1678648925, -- [3]
+				1678526309, -- [3]
 			},
-			["Miosham-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678574539, -- [3]
-			},
-			["Tyralyon-Golemagg"] = {
+			["Theolin-Golemagg"] = {
 				"0.18.1", -- [1]
 				nil, -- [2]
 				1678648925, -- [3]
@@ -4448,65 +4443,71 @@ RCLootCouncilDB = {
 				nil, -- [2]
 				1678648926, -- [3]
 			},
-			["Theolin-Golemagg"] = {
+			["Tomigege-Golemagg"] = {
+				"0.18.1", -- [1]
+				nil, -- [2]
+				1678576130, -- [3]
+			},
+			["Tyralyon-Golemagg"] = {
 				"0.18.1", -- [1]
 				nil, -- [2]
 				1678648925, -- [3]
 			},
-			["Tominak-Golemagg"] = {
+			["Karrx-Golemagg"] = {
 				"0.18.1", -- [1]
+				nil, -- [2]
+				1678559202, -- [3]
+			},
+			["Miosham-Golemagg"] = {
+				"0.18.1", -- [1]
+				nil, -- [2]
+				1678574539, -- [3]
+			},
+			["Geeners-Golemagg"] = {
+				"0.18.1", -- [1]
+				nil, -- [2]
+				1678648925, -- [3]
+			},
+			["Tomitunak-Golemagg"] = {
+				"0.18.1", -- [1]
+				nil, -- [2]
+				1678544928, -- [3]
+			},
+			["Kimby-Golemagg"] = {
+				"0.18.1", -- [1]
+				nil, -- [2]
+				1678648925, -- [3]
+			},
+			["Prdzriti-Golemagg"] = {
+				"0.18.1", -- [1]
+				nil, -- [2]
+				1678559832, -- [3]
+			},
+			["Thaximé-Golemagg"] = {
+				"0.17.1", -- [1]
 				nil, -- [2]
 				1678526309, -- [3]
 			},
-			["Saktak-Golemagg"] = {
+			["Houbícka-Golemagg"] = {
 				"0.18.0", -- [1]
 				nil, -- [2]
-				1678563315, -- [3]
+				1678489647, -- [3]
 			},
-			["Chmeldaa-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1678575447, -- [3]
-			},
-			["Vypol-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1678648925, -- [3]
-			},
-			["Jaytyy-Golemagg"] = {
+			["Fireburns-Golemagg"] = {
 				"0.18.1", -- [1]
 				nil, -- [2]
-				1678648609, -- [3]
-			},
-			["Ugarra-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1678648925, -- [3]
-			},
-			["Vernitka-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678648925, -- [3]
-			},
-			["Rogalo-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678648925, -- [3]
-			},
-			["Teajay-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678647479, -- [3]
-			},
-			["Zukkzug-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678648925, -- [3]
+				1678576917, -- [3]
 			},
 		},
 		["version"] = "2.19.3",
-		["Classic_version"] = "0.17.1",
 		["regionID"] = 3,
+		["Classic_version"] = "0.17.1",
+	},
+	["profileKeys"] = {
+		["Zowl - Golemagg"] = "Default",
+		["Banger - Golemagg"] = "Default",
+		["Azerot - Golemagg"] = "Default",
+		["Zandalar - Golemagg"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -4611,14 +4612,14 @@ RCLootCouncilLootDB = {
 					["instance"] = "The Obsidian Sanctum-25 Player",
 					["owner"] = "Tominda-Golemagg",
 					["response"] = "Upgrade",
-					["isAwardReason"] = false,
+					["typeCode"] = "default",
 					["difficultyID"] = 4,
 					["lootWon"] = "|cffa335ee|Hitem:40632::::::::80:::::::::|h[Crown of the Lost Protector]|h|r",
-					["votes"] = 2,
+					["id"] = "1674064451-2",
 					["date"] = "18/01/23",
 					["responseID"] = 3,
-					["id"] = "1674064451-2",
-					["typeCode"] = "default",
+					["votes"] = 2,
+					["isAwardReason"] = false,
 				}, -- [1]
 			},
 			["Mastarpone-Golemagg"] = {
@@ -4639,14 +4640,14 @@ RCLootCouncilLootDB = {
 					["instance"] = "Naxxramas-25 Player",
 					["owner"] = "Tominda-Golemagg",
 					["response"] = "BiS",
-					["isAwardReason"] = false,
+					["typeCode"] = "default",
 					["difficultyID"] = 4,
 					["lootWon"] = "|cffa335ee|Hitem:44577::::::::80:::::::::|h[Heroic Key to the Focusing Iris]|h|r",
-					["votes"] = 2,
+					["id"] = "1674062525-0",
 					["date"] = "18/01/23",
 					["responseID"] = 1,
-					["id"] = "1674062525-0",
-					["typeCode"] = "default",
+					["votes"] = 2,
+					["isAwardReason"] = false,
 				}, -- [1]
 			},
 			["Zdrc-Golemagg"] = {
@@ -4662,7 +4663,7 @@ RCLootCouncilLootDB = {
 					["itemReplaced1"] = "|cffa335ee|Hitem:39714:3789:::::::80:::::::::|h[Webbed Death]|h|r",
 					["typeCode"] = "default",
 					["owner"] = "Tominda-Golemagg",
-					["votes"] = 1,
+					["instance"] = "The Obsidian Sanctum-25 Player",
 					["response"] = "BiS",
 					["id"] = "1674064627-5",
 					["difficultyID"] = 4,
@@ -4676,7 +4677,7 @@ RCLootCouncilLootDB = {
 					},
 					["responseID"] = 1,
 					["itemReplaced2"] = "|cffa335ee|Hitem:37667:1606:::::::80:::::::::|h[The Fleshshaper]|h|r",
-					["instance"] = "The Obsidian Sanctum-25 Player",
+					["votes"] = 1,
 				}, -- [1]
 			},
 			["Mystögan-Golemagg"] = {
@@ -4692,21 +4693,21 @@ RCLootCouncilLootDB = {
 					["itemReplaced1"] = "|cffa335ee|Hitem:40388:3827:::::::80:::::::::|h[Journey's End]|h|r",
 					["instance"] = "Ulduar-25 Player",
 					["owner"] = "Ugarra-Golemagg",
+					["typeCode"] = "default",
+					["response"] = "BiS",
+					["id"] = "1675009290-27",
+					["difficultyID"] = 176,
+					["lootWon"] = "|cffa335ee|Hitem:45613::::::::80:::::::::|h[Dreambinder]|h|r",
+					["note"] = "asi kyssko kek ? :D",
+					["isAwardReason"] = false,
+					["responseID"] = 1,
+					["boss"] = "Freya",
 					["color"] = {
 						0, -- [1]
 						1, -- [2]
 						0, -- [3]
 						1, -- [4]
 					},
-					["response"] = "BiS",
-					["boss"] = "Freya",
-					["difficultyID"] = 176,
-					["lootWon"] = "|cffa335ee|Hitem:45613::::::::80:::::::::|h[Dreambinder]|h|r",
-					["note"] = "asi kyssko kek ? :D",
-					["isAwardReason"] = false,
-					["responseID"] = 1,
-					["id"] = "1675009290-27",
-					["typeCode"] = "default",
 				}, -- [1]
 			},
 			["Totterr-Golemagg"] = {
@@ -4728,14 +4729,465 @@ RCLootCouncilLootDB = {
 					["instance"] = "The Obsidian Sanctum-25 Player",
 					["owner"] = "Tominda-Golemagg",
 					["response"] = "BiS",
-					["isAwardReason"] = false,
+					["typeCode"] = "default",
 					["difficultyID"] = 4,
 					["lootWon"] = "|cffa335ee|Hitem:40591::::::::80:::::::::|h[Melancholy Sabatons]|h|r",
-					["votes"] = 0,
+					["id"] = "1674064843-10",
 					["date"] = "18/01/23",
 					["responseID"] = 1,
-					["id"] = "1674064843-10",
+					["votes"] = 0,
+					["isAwardReason"] = false,
+				}, -- [1]
+			},
+			["Scallian-Golemagg"] = {
+				{
+					["mapID"] = 615,
+					["color"] = {
+						0.77, -- [1]
+						0.74, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "WARRIOR",
+					["iSubClass"] = 0,
+					["groupSize"] = 25,
+					["boss"] = "Sartharion",
+					["time"] = "19:58:41",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:42645::40037::::::80:::::::::|h[Titanium Impact Choker]|h|r",
+					["instance"] = "The Obsidian Sanctum-25 Player",
+					["owner"] = "Tominda-Golemagg",
+					["response"] = "Off Spec",
 					["typeCode"] = "default",
+					["difficultyID"] = 4,
+					["lootWon"] = "|cffa335ee|Hitem:40387::::::::80:::::::::|h[Boundless Ambition]|h|r",
+					["id"] = "1674064721-6",
+					["date"] = "18/01/23",
+					["responseID"] = 5,
+					["votes"] = 0,
+					["isAwardReason"] = false,
+				}, -- [1]
+			},
+			["Archeplague-Golemagg"] = {
+				{
+					["mapID"] = 533,
+					["date"] = "18/01/23",
+					["class"] = "DEATHKNIGHT",
+					["iSubClass"] = 0,
+					["groupSize"] = 25,
+					["boss"] = "Kel'Thuzad",
+					["time"] = "19:23:12",
+					["iClass"] = 2,
+					["itemReplaced1"] = "|cffa335ee|Hitem:39730:3370:::::::80:::::::::|h[Widow's Fury]|h|r",
+					["typeCode"] = "default",
+					["owner"] = "Tominda-Golemagg",
+					["instance"] = "Naxxramas-25 Player",
+					["response"] = "BiS",
+					["id"] = "1674062592-1",
+					["difficultyID"] = 4,
+					["lootWon"] = "|cffa335ee|Hitem:40402::::::::80:::::::::|h[Last Laugh]|h|r",
+					["isAwardReason"] = false,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 1,
+					["itemReplaced2"] = "|cffa335ee|Hitem:40491:3368:::::::80:::::::::|h[Hailstorm]|h|r",
+					["votes"] = 3,
+				}, -- [1]
+				{
+					["mapID"] = 615,
+					["color"] = {
+						0, -- [1]
+						0.84, -- [2]
+						0.68, -- [3]
+						1, -- [4]
+					},
+					["class"] = "DEATHKNIGHT",
+					["iSubClass"] = 0,
+					["groupSize"] = 25,
+					["boss"] = "Sartharion",
+					["time"] = "19:54:31",
+					["iClass"] = 15,
+					["itemReplaced1"] = "|cffa335ee|Hitem:41386::41400:42702:::::80:::::::::|h[Spiked Titansteel Helm]|h|r",
+					["instance"] = "The Obsidian Sanctum-25 Player",
+					["owner"] = "Tominda-Golemagg",
+					["response"] = "2nd BiS",
+					["typeCode"] = "default",
+					["difficultyID"] = 4,
+					["lootWon"] = "|cffa335ee|Hitem:40633::::::::80:::::::::|h[Crown of the Lost Vanquisher]|h|r",
+					["id"] = "1674064471-3",
+					["date"] = "18/01/23",
+					["responseID"] = 2,
+					["votes"] = 2,
+					["isAwardReason"] = false,
+				}, -- [2]
+			},
+			["Misshealin-Golemagg"] = {
+				{
+					["mapID"] = 603,
+					["date"] = "29/01/23",
+					["class"] = "PRIEST",
+					["iSubClass"] = 0,
+					["groupSize"] = 25,
+					["votes"] = 5,
+					["time"] = "18:21:40",
+					["iClass"] = 15,
+					["itemReplaced1"] = "|cffa335ee|Hitem:40398:3719:39998:40026:::::80:::::::::|h[Leggings of Mortal Arrogance]|h|r",
+					["instance"] = "Ulduar-25 Player",
+					["owner"] = "Ugarra-Golemagg",
+					["typeCode"] = "default",
+					["response"] = "BiS",
+					["id"] = "1675009300-28",
+					["difficultyID"] = 176,
+					["lootWon"] = "|cffa335ee|Hitem:45653::::::::80:::::::::|h[Legplates of the Wayward Conqueror]|h|r",
+					["note"] = "4set, budu bomby",
+					["isAwardReason"] = false,
+					["responseID"] = 1,
+					["boss"] = "Freya",
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+				}, -- [1]
+				{
+					["mapID"] = 603,
+					["color"] = {
+						0, -- [1]
+						0.7, -- [2]
+						0.7, -- [3]
+						1, -- [4]
+					},
+					["class"] = "PRIEST",
+					["iSubClass"] = 1,
+					["groupSize"] = 25,
+					["boss"] = "Freya",
+					["time"] = "18:22:58",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:40750:3606:::::::80:::::::::|h[Xintor's Expeditionary Boots]|h|r",
+					["instance"] = "Ulduar-25 Player",
+					["owner"] = "Ugarra-Golemagg",
+					["response"] = "Upgrade",
+					["typeCode"] = "default",
+					["difficultyID"] = 176,
+					["lootWon"] = "|cffa335ee|Hitem:45483::::::::80:::::::::|h[Boots of the Servant]|h|r",
+					["id"] = "1675009378-29",
+					["date"] = "29/01/23",
+					["responseID"] = 3,
+					["votes"] = 4,
+					["isAwardReason"] = false,
+				}, -- [2]
+			},
+			["Zowl-Golemagg"] = {
+				{
+					["mapID"] = 615,
+					["color"] = {
+						0, -- [1]
+						0.51, -- [2]
+						0.7, -- [3]
+						1, -- [4]
+					},
+					["class"] = "DRUID",
+					["iSubClass"] = 2,
+					["groupSize"] = 25,
+					["boss"] = "Sartharion",
+					["time"] = "19:56:18",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:34181:2748:40049:40049:40014::::80:::::::::|h[Leggings of Calamity]|h|r",
+					["instance"] = "The Obsidian Sanctum-25 Player",
+					["owner"] = "Tominda-Golemagg",
+					["response"] = "Upgrade",
+					["typeCode"] = "default",
+					["difficultyID"] = 4,
+					["lootWon"] = "|cffa335ee|Hitem:40379::::::::80:::::::::|h[Legguards of the Boneyard]|h|r",
+					["id"] = "1674064578-4",
+					["date"] = "18/01/23",
+					["responseID"] = 3,
+					["votes"] = 2,
+					["isAwardReason"] = false,
+				}, -- [1]
+				{
+					["mapID"] = 615,
+					["color"] = {
+						0, -- [1]
+						0.84, -- [2]
+						0.68, -- [3]
+						1, -- [4]
+					},
+					["class"] = "DRUID",
+					["iSubClass"] = 1,
+					["groupSize"] = 25,
+					["boss"] = "Sartharion",
+					["time"] = "19:59:03",
+					["iClass"] = 4,
+					["itemReplaced1"] = "|cffa335ee|Hitem:34181:2748:40049:40049:40014::::80:::::::::|h[Leggings of Calamity]|h|r",
+					["instance"] = "The Obsidian Sanctum-25 Player",
+					["owner"] = "Tominda-Golemagg",
+					["response"] = "2nd BiS",
+					["typeCode"] = "default",
+					["difficultyID"] = 4,
+					["lootWon"] = "|cffa335ee|Hitem:40398::::::::80:::::::::|h[Leggings of Mortal Arrogance]|h|r",
+					["id"] = "1674064743-7",
+					["date"] = "18/01/23",
+					["responseID"] = 2,
+					["votes"] = 3,
+					["isAwardReason"] = false,
+				}, -- [2]
+			},
+			["Tominda-Golemagg"] = {
+				{
+					["mapID"] = 603,
+					["date"] = "12/02/23",
+					["class"] = "PRIEST",
+					["iSubClass"] = 4,
+					["groupSize"] = 25,
+					["isAwardReason"] = true,
+					["time"] = "18:20:52",
+					["iClass"] = 4,
+					["id"] = "1676218852-19",
+					["owner"] = "Tominda-Golemagg",
+					["response"] = "Disenchant",
+					["difficultyID"] = 176,
+					["lootWon"] = "|cff1eff00|Hitem:36387::::::-43:328204366:80:::::::::|h[Revenant Belt of the Soldier]|h|r",
+					["color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 1,
+					["instance"] = "Ulduar-25 Player",
+					["boss"] = "Thorim",
+				}, -- [1]
+				{
+					["mapID"] = 603,
+					["date"] = "12/02/23",
+					["class"] = "PRIEST",
+					["iSubClass"] = 3,
+					["groupSize"] = 25,
+					["isAwardReason"] = true,
+					["time"] = "18:21:28",
+					["iClass"] = 4,
+					["id"] = "1676218888-20",
+					["owner"] = "Tominda-Golemagg",
+					["response"] = "Disenchant",
+					["difficultyID"] = 176,
+					["lootWon"] = "|cff0070dd|Hitem:37781::::::::80:::::::::|h[Grips of the Warming Heart]|h|r",
+					["color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 1,
+					["instance"] = "Ulduar-25 Player",
+					["boss"] = "Thorim",
+				}, -- [2]
+				{
+					["mapID"] = 603,
+					["date"] = "12/02/23",
+					["class"] = "PRIEST",
+					["iSubClass"] = 15,
+					["groupSize"] = 25,
+					["isAwardReason"] = true,
+					["time"] = "18:21:30",
+					["iClass"] = 2,
+					["id"] = "1676218890-21",
+					["owner"] = "Tominda-Golemagg",
+					["response"] = "Disenchant",
+					["difficultyID"] = 176,
+					["lootWon"] = "|cff1eff00|Hitem:36485::::::-40:207421485:80:::::::::|h[Sinuous Keris of the Bandit]|h|r",
+					["color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 1,
+					["instance"] = "Ulduar-25 Player",
+					["boss"] = "Thorim",
+				}, -- [3]
+				{
+					["mapID"] = 603,
+					["date"] = "12/02/23",
+					["class"] = "PRIEST",
+					["iSubClass"] = 3,
+					["groupSize"] = 25,
+					["isAwardReason"] = true,
+					["time"] = "18:21:36",
+					["iClass"] = 4,
+					["id"] = "1676218896-22",
+					["owner"] = "Tominda-Golemagg",
+					["response"] = "Disenchant",
+					["difficultyID"] = 176,
+					["lootWon"] = "|cff1eff00|Hitem:36272::::::-12:703070309:80:::::::::|h[Ulduar Legguards of the Boar]|h|r",
+					["color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 1,
+					["instance"] = "Ulduar-25 Player",
+					["boss"] = "Thorim",
+				}, -- [4]
+				{
+					["mapID"] = 603,
+					["date"] = "12/03/23",
+					["class"] = "PRIEST",
+					["iSubClass"] = 1,
+					["groupSize"] = 25,
+					["isAwardReason"] = true,
+					["time"] = "20:11:11",
+					["iClass"] = 4,
+					["id"] = "1678644671-46",
+					["owner"] = "Tominda-Golemagg",
+					["response"] = "Disenchant",
+					["difficultyID"] = 176,
+					["lootWon"] = "|cff1eff00|Hitem:36059::::::-39:1490223185:80:::::::::|h[Coldwraith Sash of the Invoker]|h|r",
+					["color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 1,
+					["instance"] = "Ulduar-25 Player",
+					["boss"] = "Mimiron",
+				}, -- [5]
+				{
+					["mapID"] = 603,
+					["date"] = "12/03/23",
+					["class"] = "PRIEST",
+					["iSubClass"] = 4,
+					["groupSize"] = 25,
+					["isAwardReason"] = true,
+					["time"] = "20:16:01",
+					["iClass"] = 2,
+					["id"] = "1678644961-47",
+					["owner"] = "Tominda-Golemagg",
+					["response"] = "Disenchant",
+					["difficultyID"] = 176,
+					["lootWon"] = "|cff1eff00|Hitem:36695::::::-6:1534001197:80:::::::::|h[Dogmatic Scepter of the Eagle]|h|r",
+					["color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 1,
+					["instance"] = "Ulduar-25 Player",
+					["boss"] = "Mimiron",
+				}, -- [6]
+				{
+					["mapID"] = 603,
+					["date"] = "12/03/23",
+					["class"] = "PRIEST",
+					["iSubClass"] = 4,
+					["groupSize"] = 25,
+					["isAwardReason"] = true,
+					["time"] = "20:17:06",
+					["iClass"] = 2,
+					["id"] = "1678645026-48",
+					["owner"] = "Tominda-Golemagg",
+					["response"] = "Disenchant",
+					["difficultyID"] = 176,
+					["lootWon"] = "|cff1eff00|Hitem:36695::::::-44:1831993389:80:::::::::|h[Dogmatic Scepter of the Elder]|h|r",
+					["color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 1,
+					["instance"] = "Ulduar-25 Player",
+					["boss"] = "Mimiron",
+				}, -- [7]
+				{
+					["mapID"] = 603,
+					["date"] = "12/03/23",
+					["class"] = "PRIEST",
+					["iSubClass"] = 3,
+					["groupSize"] = 25,
+					["isAwardReason"] = true,
+					["time"] = "20:18:35",
+					["iClass"] = 4,
+					["id"] = "1678645115-49",
+					["owner"] = "Tominda-Golemagg",
+					["response"] = "Disenchant",
+					["difficultyID"] = 176,
+					["lootWon"] = "|cff1eff00|Hitem:36287::::::-19:632029292:80:::::::::|h[Spectral Helmet of Intellect]|h|r",
+					["color"] = {
+						1, -- [1]
+						1, -- [2]
+						1, -- [3]
+						1, -- [4]
+					},
+					["responseID"] = 1,
+					["instance"] = "Ulduar-25 Player",
+					["boss"] = "Mimiron",
+				}, -- [8]
+			},
+			["Jehmambah-Golemagg"] = {
+				{
+					["mapID"] = 615,
+					["color"] = {
+						0.77, -- [1]
+						0.74, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "HUNTER",
+					["iSubClass"] = 13,
+					["groupSize"] = 25,
+					["boss"] = "Sartharion",
+					["time"] = "19:59:38",
+					["iClass"] = 2,
+					["itemReplaced1"] = "|cffa335ee|Hitem:40388:3828:::::::80:::::::::|h[Journey's End]|h|r",
+					["instance"] = "The Obsidian Sanctum-25 Player",
+					["owner"] = "Tominda-Golemagg",
+					["response"] = "Off Spec",
+					["typeCode"] = "default",
+					["difficultyID"] = 4,
+					["lootWon"] = "|cffa335ee|Hitem:40383::::::::80:::::::::|h[Calamity's Grasp]|h|r",
+					["id"] = "1674064778-9",
+					["date"] = "18/01/23",
+					["responseID"] = 5,
+					["votes"] = 0,
+					["isAwardReason"] = false,
+				}, -- [1]
+			},
+			["Chmllda-Golemagg"] = {
+				{
+					["mapID"] = 603,
+					["color"] = {
+						0, -- [1]
+						1, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["class"] = "SHAMAN",
+					["iSubClass"] = 0,
+					["groupSize"] = 25,
+					["boss"] = "Freya",
+					["time"] = "18:21:21",
+					["iClass"] = 15,
+					["itemReplaced1"] = "|cffa335ee|Hitem:40517:3721:40049:40049:::::80:::::::::|h[Valorous Earthshatter Kilt]|h|r",
+					["instance"] = "Ulduar-25 Player",
+					["owner"] = "Ugarra-Golemagg",
+					["response"] = "BiS",
+					["typeCode"] = "default",
+					["difficultyID"] = 176,
+					["lootWon"] = "|cffa335ee|Hitem:45654::::::::80:::::::::|h[Legplates of the Wayward Protector]|h|r",
+					["id"] = "1675009281-26",
+					["date"] = "29/01/23",
+					["responseID"] = 1,
+					["votes"] = 1,
+					["isAwardReason"] = false,
 				}, -- [1]
 			},
 			["Confiknez-Golemagg"] = {
@@ -4757,14 +5209,14 @@ RCLootCouncilLootDB = {
 					["instance"] = "The Obsidian Sanctum-25 Player",
 					["owner"] = "Tominda-Golemagg",
 					["response"] = "BiS",
-					["isAwardReason"] = false,
+					["typeCode"] = "default",
 					["difficultyID"] = 4,
 					["lootWon"] = "|cffa335ee|Hitem:40558::::::::80:::::::::|h[Arcanic Tramplers]|h|r",
-					["votes"] = 3,
+					["id"] = "1674064768-8",
 					["date"] = "18/01/23",
 					["responseID"] = 1,
-					["id"] = "1674064768-8",
-					["typeCode"] = "default",
+					["votes"] = 3,
+					["isAwardReason"] = false,
 				}, -- [1]
 				{
 					["mapID"] = 603,
@@ -4783,466 +5235,15 @@ RCLootCouncilLootDB = {
 					["instance"] = "Ulduar-25 Player",
 					["owner"] = "Ugarra-Golemagg",
 					["response"] = "BiS",
-					["typeCode"] = "default",
+					["isAwardReason"] = false,
 					["difficultyID"] = 176,
 					["lootWon"] = "|cffa335ee|Hitem:46053::::::::80:::::::::|h[Reply-Code Alpha]|h|r",
-					["id"] = "1678643863-45",
-					["date"] = "12/03/23",
-					["responseID"] = 1,
 					["votes"] = 6,
-					["isAwardReason"] = false,
-				}, -- [2]
-			},
-			["Archeplague-Golemagg"] = {
-				{
-					["mapID"] = 533,
-					["date"] = "18/01/23",
-					["class"] = "DEATHKNIGHT",
-					["iSubClass"] = 0,
-					["groupSize"] = 25,
-					["boss"] = "Kel'Thuzad",
-					["time"] = "19:23:12",
-					["iClass"] = 2,
-					["itemReplaced1"] = "|cffa335ee|Hitem:39730:3370:::::::80:::::::::|h[Widow's Fury]|h|r",
-					["typeCode"] = "default",
-					["owner"] = "Tominda-Golemagg",
-					["votes"] = 3,
-					["response"] = "BiS",
-					["id"] = "1674062592-1",
-					["difficultyID"] = 4,
-					["lootWon"] = "|cffa335ee|Hitem:40402::::::::80:::::::::|h[Last Laugh]|h|r",
-					["isAwardReason"] = false,
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["responseID"] = 1,
-					["itemReplaced2"] = "|cffa335ee|Hitem:40491:3368:::::::80:::::::::|h[Hailstorm]|h|r",
-					["instance"] = "Naxxramas-25 Player",
-				}, -- [1]
-				{
-					["mapID"] = 615,
-					["color"] = {
-						0, -- [1]
-						0.84, -- [2]
-						0.68, -- [3]
-						1, -- [4]
-					},
-					["class"] = "DEATHKNIGHT",
-					["iSubClass"] = 0,
-					["groupSize"] = 25,
-					["boss"] = "Sartharion",
-					["time"] = "19:54:31",
-					["iClass"] = 15,
-					["itemReplaced1"] = "|cffa335ee|Hitem:41386::41400:42702:::::80:::::::::|h[Spiked Titansteel Helm]|h|r",
-					["instance"] = "The Obsidian Sanctum-25 Player",
-					["owner"] = "Tominda-Golemagg",
-					["response"] = "2nd BiS",
-					["isAwardReason"] = false,
-					["difficultyID"] = 4,
-					["lootWon"] = "|cffa335ee|Hitem:40633::::::::80:::::::::|h[Crown of the Lost Vanquisher]|h|r",
-					["votes"] = 2,
-					["date"] = "18/01/23",
-					["responseID"] = 2,
-					["id"] = "1674064471-3",
-					["typeCode"] = "default",
-				}, -- [2]
-			},
-			["Misshealin-Golemagg"] = {
-				{
-					["mapID"] = 603,
-					["date"] = "29/01/23",
-					["class"] = "PRIEST",
-					["iSubClass"] = 0,
-					["groupSize"] = 25,
-					["votes"] = 5,
-					["time"] = "18:21:40",
-					["iClass"] = 15,
-					["itemReplaced1"] = "|cffa335ee|Hitem:40398:3719:39998:40026:::::80:::::::::|h[Leggings of Mortal Arrogance]|h|r",
-					["instance"] = "Ulduar-25 Player",
-					["owner"] = "Ugarra-Golemagg",
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["response"] = "BiS",
-					["boss"] = "Freya",
-					["difficultyID"] = 176,
-					["lootWon"] = "|cffa335ee|Hitem:45653::::::::80:::::::::|h[Legplates of the Wayward Conqueror]|h|r",
-					["note"] = "4set, budu bomby",
-					["isAwardReason"] = false,
-					["responseID"] = 1,
-					["id"] = "1675009300-28",
-					["typeCode"] = "default",
-				}, -- [1]
-				{
-					["mapID"] = 603,
-					["color"] = {
-						0, -- [1]
-						0.7, -- [2]
-						0.7, -- [3]
-						1, -- [4]
-					},
-					["class"] = "PRIEST",
-					["iSubClass"] = 1,
-					["groupSize"] = 25,
-					["boss"] = "Freya",
-					["time"] = "18:22:58",
-					["iClass"] = 4,
-					["itemReplaced1"] = "|cffa335ee|Hitem:40750:3606:::::::80:::::::::|h[Xintor's Expeditionary Boots]|h|r",
-					["instance"] = "Ulduar-25 Player",
-					["owner"] = "Ugarra-Golemagg",
-					["response"] = "Upgrade",
-					["isAwardReason"] = false,
-					["difficultyID"] = 176,
-					["lootWon"] = "|cffa335ee|Hitem:45483::::::::80:::::::::|h[Boots of the Servant]|h|r",
-					["votes"] = 4,
-					["date"] = "29/01/23",
-					["responseID"] = 3,
-					["id"] = "1675009378-29",
-					["typeCode"] = "default",
-				}, -- [2]
-			},
-			["Chmllda-Golemagg"] = {
-				{
-					["mapID"] = 603,
-					["color"] = {
-						0, -- [1]
-						1, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["class"] = "SHAMAN",
-					["iSubClass"] = 0,
-					["groupSize"] = 25,
-					["boss"] = "Freya",
-					["time"] = "18:21:21",
-					["iClass"] = 15,
-					["itemReplaced1"] = "|cffa335ee|Hitem:40517:3721:40049:40049:::::80:::::::::|h[Valorous Earthshatter Kilt]|h|r",
-					["instance"] = "Ulduar-25 Player",
-					["owner"] = "Ugarra-Golemagg",
-					["response"] = "BiS",
-					["isAwardReason"] = false,
-					["difficultyID"] = 176,
-					["lootWon"] = "|cffa335ee|Hitem:45654::::::::80:::::::::|h[Legplates of the Wayward Protector]|h|r",
-					["votes"] = 1,
-					["date"] = "29/01/23",
-					["responseID"] = 1,
-					["id"] = "1675009281-26",
-					["typeCode"] = "default",
-				}, -- [1]
-			},
-			["Jehmambah-Golemagg"] = {
-				{
-					["mapID"] = 615,
-					["color"] = {
-						0.77, -- [1]
-						0.74, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["class"] = "HUNTER",
-					["iSubClass"] = 13,
-					["groupSize"] = 25,
-					["boss"] = "Sartharion",
-					["time"] = "19:59:38",
-					["iClass"] = 2,
-					["itemReplaced1"] = "|cffa335ee|Hitem:40388:3828:::::::80:::::::::|h[Journey's End]|h|r",
-					["instance"] = "The Obsidian Sanctum-25 Player",
-					["owner"] = "Tominda-Golemagg",
-					["response"] = "Off Spec",
-					["isAwardReason"] = false,
-					["difficultyID"] = 4,
-					["lootWon"] = "|cffa335ee|Hitem:40383::::::::80:::::::::|h[Calamity's Grasp]|h|r",
-					["votes"] = 0,
-					["date"] = "18/01/23",
-					["responseID"] = 5,
-					["id"] = "1674064778-9",
-					["typeCode"] = "default",
-				}, -- [1]
-			},
-			["Tominda-Golemagg"] = {
-				{
-					["mapID"] = 603,
-					["date"] = "12/02/23",
-					["class"] = "PRIEST",
-					["iSubClass"] = 4,
-					["groupSize"] = 25,
-					["isAwardReason"] = true,
-					["time"] = "18:20:52",
-					["iClass"] = 4,
-					["id"] = "1676218852-19",
-					["owner"] = "Tominda-Golemagg",
-					["response"] = "Disenchant",
-					["difficultyID"] = 176,
-					["lootWon"] = "|cff1eff00|Hitem:36387::::::-43:328204366:80:::::::::|h[Revenant Belt of the Soldier]|h|r",
-					["boss"] = "Thorim",
-					["responseID"] = 1,
-					["instance"] = "Ulduar-25 Player",
-					["color"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-				}, -- [1]
-				{
-					["mapID"] = 603,
-					["date"] = "12/02/23",
-					["class"] = "PRIEST",
-					["iSubClass"] = 3,
-					["groupSize"] = 25,
-					["isAwardReason"] = true,
-					["time"] = "18:21:28",
-					["iClass"] = 4,
-					["id"] = "1676218888-20",
-					["owner"] = "Tominda-Golemagg",
-					["response"] = "Disenchant",
-					["difficultyID"] = 176,
-					["lootWon"] = "|cff0070dd|Hitem:37781::::::::80:::::::::|h[Grips of the Warming Heart]|h|r",
-					["boss"] = "Thorim",
-					["responseID"] = 1,
-					["instance"] = "Ulduar-25 Player",
-					["color"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-				}, -- [2]
-				{
-					["mapID"] = 603,
-					["date"] = "12/02/23",
-					["class"] = "PRIEST",
-					["iSubClass"] = 15,
-					["groupSize"] = 25,
-					["isAwardReason"] = true,
-					["time"] = "18:21:30",
-					["iClass"] = 2,
-					["id"] = "1676218890-21",
-					["owner"] = "Tominda-Golemagg",
-					["response"] = "Disenchant",
-					["difficultyID"] = 176,
-					["lootWon"] = "|cff1eff00|Hitem:36485::::::-40:207421485:80:::::::::|h[Sinuous Keris of the Bandit]|h|r",
-					["boss"] = "Thorim",
-					["responseID"] = 1,
-					["instance"] = "Ulduar-25 Player",
-					["color"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-				}, -- [3]
-				{
-					["mapID"] = 603,
-					["date"] = "12/02/23",
-					["class"] = "PRIEST",
-					["iSubClass"] = 3,
-					["groupSize"] = 25,
-					["isAwardReason"] = true,
-					["time"] = "18:21:36",
-					["iClass"] = 4,
-					["id"] = "1676218896-22",
-					["owner"] = "Tominda-Golemagg",
-					["response"] = "Disenchant",
-					["difficultyID"] = 176,
-					["lootWon"] = "|cff1eff00|Hitem:36272::::::-12:703070309:80:::::::::|h[Ulduar Legguards of the Boar]|h|r",
-					["boss"] = "Thorim",
-					["responseID"] = 1,
-					["instance"] = "Ulduar-25 Player",
-					["color"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-				}, -- [4]
-				{
-					["mapID"] = 603,
 					["date"] = "12/03/23",
-					["class"] = "PRIEST",
-					["iSubClass"] = 1,
-					["groupSize"] = 25,
-					["isAwardReason"] = true,
-					["time"] = "20:11:11",
-					["iClass"] = 4,
-					["id"] = "1678644671-46",
-					["owner"] = "Tominda-Golemagg",
-					["response"] = "Disenchant",
-					["difficultyID"] = 176,
-					["lootWon"] = "|cff1eff00|Hitem:36059::::::-39:1490223185:80:::::::::|h[Coldwraith Sash of the Invoker]|h|r",
-					["boss"] = "Mimiron",
 					["responseID"] = 1,
-					["instance"] = "Ulduar-25 Player",
-					["color"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-				}, -- [5]
-				{
-					["mapID"] = 603,
-					["date"] = "12/03/23",
-					["class"] = "PRIEST",
-					["iSubClass"] = 4,
-					["groupSize"] = 25,
-					["isAwardReason"] = true,
-					["time"] = "20:16:01",
-					["iClass"] = 2,
-					["id"] = "1678644961-47",
-					["owner"] = "Tominda-Golemagg",
-					["response"] = "Disenchant",
-					["difficultyID"] = 176,
-					["lootWon"] = "|cff1eff00|Hitem:36695::::::-6:1534001197:80:::::::::|h[Dogmatic Scepter of the Eagle]|h|r",
-					["boss"] = "Mimiron",
-					["responseID"] = 1,
-					["instance"] = "Ulduar-25 Player",
-					["color"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-				}, -- [6]
-				{
-					["mapID"] = 603,
-					["date"] = "12/03/23",
-					["class"] = "PRIEST",
-					["iSubClass"] = 4,
-					["groupSize"] = 25,
-					["isAwardReason"] = true,
-					["time"] = "20:17:06",
-					["iClass"] = 2,
-					["id"] = "1678645026-48",
-					["owner"] = "Tominda-Golemagg",
-					["response"] = "Disenchant",
-					["difficultyID"] = 176,
-					["lootWon"] = "|cff1eff00|Hitem:36695::::::-44:1831993389:80:::::::::|h[Dogmatic Scepter of the Elder]|h|r",
-					["boss"] = "Mimiron",
-					["responseID"] = 1,
-					["instance"] = "Ulduar-25 Player",
-					["color"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-				}, -- [7]
-				{
-					["mapID"] = 603,
-					["date"] = "12/03/23",
-					["class"] = "PRIEST",
-					["iSubClass"] = 3,
-					["groupSize"] = 25,
-					["isAwardReason"] = true,
-					["time"] = "20:18:35",
-					["iClass"] = 4,
-					["id"] = "1678645115-49",
-					["owner"] = "Tominda-Golemagg",
-					["response"] = "Disenchant",
-					["difficultyID"] = 176,
-					["lootWon"] = "|cff1eff00|Hitem:36287::::::-19:632029292:80:::::::::|h[Spectral Helmet of Intellect]|h|r",
-					["boss"] = "Mimiron",
-					["responseID"] = 1,
-					["instance"] = "Ulduar-25 Player",
-					["color"] = {
-						1, -- [1]
-						1, -- [2]
-						1, -- [3]
-						1, -- [4]
-					},
-				}, -- [8]
-			},
-			["Zowl-Golemagg"] = {
-				{
-					["mapID"] = 615,
-					["color"] = {
-						0, -- [1]
-						0.51, -- [2]
-						0.7, -- [3]
-						1, -- [4]
-					},
-					["class"] = "DRUID",
-					["iSubClass"] = 2,
-					["groupSize"] = 25,
-					["boss"] = "Sartharion",
-					["time"] = "19:56:18",
-					["iClass"] = 4,
-					["itemReplaced1"] = "|cffa335ee|Hitem:34181:2748:40049:40049:40014::::80:::::::::|h[Leggings of Calamity]|h|r",
-					["instance"] = "The Obsidian Sanctum-25 Player",
-					["owner"] = "Tominda-Golemagg",
-					["response"] = "Upgrade",
-					["isAwardReason"] = false,
-					["difficultyID"] = 4,
-					["lootWon"] = "|cffa335ee|Hitem:40379::::::::80:::::::::|h[Legguards of the Boneyard]|h|r",
-					["votes"] = 2,
-					["date"] = "18/01/23",
-					["responseID"] = 3,
-					["id"] = "1674064578-4",
-					["typeCode"] = "default",
-				}, -- [1]
-				{
-					["mapID"] = 615,
-					["color"] = {
-						0, -- [1]
-						0.84, -- [2]
-						0.68, -- [3]
-						1, -- [4]
-					},
-					["class"] = "DRUID",
-					["iSubClass"] = 1,
-					["groupSize"] = 25,
-					["boss"] = "Sartharion",
-					["time"] = "19:59:03",
-					["iClass"] = 4,
-					["itemReplaced1"] = "|cffa335ee|Hitem:34181:2748:40049:40049:40014::::80:::::::::|h[Leggings of Calamity]|h|r",
-					["instance"] = "The Obsidian Sanctum-25 Player",
-					["owner"] = "Tominda-Golemagg",
-					["response"] = "2nd BiS",
-					["isAwardReason"] = false,
-					["difficultyID"] = 4,
-					["lootWon"] = "|cffa335ee|Hitem:40398::::::::80:::::::::|h[Leggings of Mortal Arrogance]|h|r",
-					["votes"] = 3,
-					["date"] = "18/01/23",
-					["responseID"] = 2,
-					["id"] = "1674064743-7",
+					["id"] = "1678643863-45",
 					["typeCode"] = "default",
 				}, -- [2]
-			},
-			["Scallian-Golemagg"] = {
-				{
-					["mapID"] = 615,
-					["color"] = {
-						0.77, -- [1]
-						0.74, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["class"] = "WARRIOR",
-					["iSubClass"] = 0,
-					["groupSize"] = 25,
-					["boss"] = "Sartharion",
-					["time"] = "19:58:41",
-					["iClass"] = 4,
-					["itemReplaced1"] = "|cffa335ee|Hitem:42645::40037::::::80:::::::::|h[Titanium Impact Choker]|h|r",
-					["instance"] = "The Obsidian Sanctum-25 Player",
-					["owner"] = "Tominda-Golemagg",
-					["response"] = "Off Spec",
-					["isAwardReason"] = false,
-					["difficultyID"] = 4,
-					["lootWon"] = "|cffa335ee|Hitem:40387::::::::80:::::::::|h[Boundless Ambition]|h|r",
-					["votes"] = 0,
-					["date"] = "18/01/23",
-					["responseID"] = 5,
-					["id"] = "1674064721-6",
-					["typeCode"] = "default",
-				}, -- [1]
 			},
 		},
 	},
