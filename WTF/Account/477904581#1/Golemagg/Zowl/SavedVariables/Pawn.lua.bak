@@ -1,6 +1,8 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0717,
+	["LastPlayerFullName"] = "Zowl-Golemagg",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 45439,
@@ -34,9 +36,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:45238:3872:::::::80:::::::::|h[Overload Legwraps]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 41634,
-			["Level"] = 213,
-			["Link"] = "|cffa335ee|Hitem:41634::::::::80:::::::::|h[Deadly Gladiator's Boots of Dominance]|h|r",
+			["ID"] = 45566,
+			["Level"] = 232,
+			["Link"] = "|cffa335ee|Hitem:45566::::::::80:::::::::|h[Spellslinger's Slippers]|h|r",
 		}, -- [8]
 		{
 			["ID"] = 41640,
@@ -88,8 +90,6 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:30872::::::::80:::::::::|h[Chronicle of Dark Secrets]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "Zowl-Golemagg",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

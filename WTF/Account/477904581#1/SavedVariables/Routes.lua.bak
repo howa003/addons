@@ -10,8 +10,8 @@ RoutesDB = {
 		["Zandalar - Golemagg"] = "Default",
 		["Zandalar - Gandling"] = "Default",
 		["Banger - Golemagg"] = "Default",
-		["Zandalar - Zandalar Tribe"] = "Default",
 		["Leathercow - Golemagg"] = "Default",
+		["Zandalar - Zandalar Tribe"] = "Default",
 	},
 	["global"] = {
 		["routes"] = {

@@ -1,5 +1,9 @@
 
 OmniCCDB = {
+	["global"] = {
+		["dbVersion"] = 6,
+		["addonVersion"] = "10.0.4",
+	},
 	["profileKeys"] = {
 		["Zowl - Golemagg"] = "Default",
 		["Tailcow - Golemagg"] = "Default",
@@ -7,16 +11,12 @@ OmniCCDB = {
 		["Meatcow - Golemagg"] = "Default",
 		["Zandalara - Golemagg"] = "Default",
 		["Herbcow - Golemagg"] = "Default",
-		["Azerot - Golemagg"] = "Default",
+		["Leathercow - Golemagg"] = "Default",
 		["Zandalar - Golemagg"] = "Default",
 		["Zandalar - Gandling"] = "Default",
 		["Zandalar - Mograine"] = "Default",
 		["Banger - Golemagg"] = "Default",
-		["Leathercow - Golemagg"] = "Default",
-	},
-	["global"] = {
-		["dbVersion"] = 6,
-		["addonVersion"] = "10.0.4",
+		["Azerot - Golemagg"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -51,9 +51,9 @@ OmniCCDB = {
 			["themes"] = {
 				["Default"] = {
 					["textStyles"] = {
-						["minutes"] = {
-						},
 						["soon"] = {
+						},
+						["minutes"] = {
 						},
 						["seconds"] = {
 						},

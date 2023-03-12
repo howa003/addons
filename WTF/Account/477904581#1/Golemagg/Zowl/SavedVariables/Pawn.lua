@@ -1,8 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0717,
-	["LastPlayerFullName"] = "Zowl-Golemagg",
-	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 45439,
@@ -90,6 +88,8 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:30872::::::::80:::::::::|h[Chronicle of Dark Secrets]|h|r",
 		}, -- [17]
 	},
+	["AutoSelectScales"] = false,
+	["LastPlayerFullName"] = "Zowl-Golemagg",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {
