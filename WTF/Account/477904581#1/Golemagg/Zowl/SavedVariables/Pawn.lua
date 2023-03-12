@@ -78,14 +78,14 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:42069:3722:::::::80:::::::::|h[Furious Gladiator's Cloak of Dominance]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 34336,
-			["Level"] = 164,
-			["Link"] = "|cffa335ee|Hitem:34336:2669:::::::80:::::::::|h[Sunflare]|h|r",
+			["ID"] = 45085,
+			["Level"] = 200,
+			["Link"] = "|cffa335ee|Hitem:45085::::::::80:::::::::|h[Titansteel Spellblade]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 30872,
-			["Level"] = 141,
-			["Link"] = "|cffa335ee|Hitem:30872::::::::80:::::::::|h[Chronicle of Dark Secrets]|h|r",
+			["ID"] = 44210,
+			["Level"] = 200,
+			["Link"] = "|cffa335ee|Hitem:44210::::::::80:::::::::|h[Faces of Doom]|h|r",
 		}, -- [17]
 	},
 	["AutoSelectScales"] = false,

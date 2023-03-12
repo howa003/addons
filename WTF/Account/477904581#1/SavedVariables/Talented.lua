@@ -58,14 +58,14 @@ TalentedDB = {
 				["TalentedFrame"] = {
 					["y"] = -4.923436641693115,
 					["x"] = 9.845006942749023,
-					["anchorTo"] = "CENTER",
 					["anchor"] = "CENTER",
+					["anchorTo"] = "CENTER",
 				},
 				["TalentedGlyphs"] = {
 					["y"] = -4.102559089660645,
 					["x"] = -342.1536560058594,
-					["anchorTo"] = "RIGHT",
 					["anchor"] = "RIGHT",
+					["anchorTo"] = "RIGHT",
 				},
 			},
 		},

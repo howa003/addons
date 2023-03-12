@@ -1645,13 +1645,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Gubianger",
 		},
-		[64495] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[60530] = {
+			["school"] = 8,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_HEAL"] = true,
 			},
-			["source"] = "Nox",
+			["source"] = "Dedal",
 		},
 		[63278] = {
 			["school"] = 1,
@@ -1661,12 +1660,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "General Vezax",
 		},
-		[60530] = {
-			["school"] = 8,
+		[47632] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_PERIODIC_HEAL"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Dedal",
+			["source"] = "Saigodk",
 		},
 		[57689] = {
 			["school"] = 1,
@@ -1711,12 +1710,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Auriaya",
 		},
-		[47632] = {
-			["school"] = 32,
+		[64495] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Saigodk",
+			["source"] = "Nox",
 		},
 		[55799] = {
 			["school"] = 16,
@@ -1735,20 +1735,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Flame Leviathan",
 		},
-		[64013] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Suit of Armor",
-		},
 		[48160] = {
 			["school"] = 32,
 			["token"] = {
 				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "Toxis",
+		},
+		[61969] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
 		},
 		[63981] = {
 			["school"] = 1,
@@ -1766,12 +1765,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Stormcaller Brundir",
 		},
-		[61969] = {
-			["school"] = 16,
-			["type"] = "DEBUFF",
+		[64013] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
+			["source"] = "Suit of Armor",
 		},
 		[63007] = {
 			["school"] = 1,
@@ -1799,15 +1799,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Guardian Lasher",
 		},
-		[64668] = {
-			["school"] = 64,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Assault Bot",
-		},
 		[61920] = {
 			["school"] = 8,
 			["type"] = "BUFF",
@@ -1816,6 +1807,17 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Steelbreaker",
+		},
+		[64157] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Corruptor Tentacle",
 		},
 		[63598] = {
 			["school"] = 1,
@@ -1833,24 +1835,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Runic Colossus",
 		},
-		[48300] = {
-			["school"] = 32,
+		[62608] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_HEAL"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Toxis",
+			["source"] = "Detonating Lasher",
 		},
-		[64157] = {
-			["school"] = 32,
+		[64668] = {
+			["school"] = 64,
 			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Corruptor Tentacle",
+			["source"] = "Assault Bot",
 		},
 		[64173] = {
 			["school"] = 8,
@@ -1869,15 +1869,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Jhuuthun",
 		},
-		[58105] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Shadron",
-		},
 		[20253] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -1893,6 +1884,13 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Mirror Image",
+		},
+		[59127] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Shadron",
 		},
 		[62209] = {
 			["school"] = 1,
@@ -1924,14 +1922,6 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Sartharion Twilight Whelp",
 		},
-		[60229] = {
-			["school"] = 2,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Saigodk",
-		},
 		[61251] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
@@ -1940,6 +1930,14 @@ EncounterDetailsDB = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Vesperon",
+		},
+		[60229] = {
+			["school"] = 2,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Saigodk",
 		},
 		[65648] = {
 			["school"] = 68,
@@ -1950,13 +1948,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Aerial Command Unit",
 		},
-		[62038] = {
+		[64006] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Hodir",
+			["source"] = "Kologarn",
 		},
 		[62832] = {
 			["school"] = 1,
@@ -1982,13 +1980,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Laughing Skull",
 		},
-		[64006] = {
-			["school"] = 1,
+		[56397] = {
+			["school"] = 64,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Kologarn",
+			["source"] = "Scion of Eternity",
 		},
 		[62385] = {
 			["school"] = 1,
@@ -2005,15 +2002,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Scion of Eternity",
 		},
-		[62928] = {
+		[62417] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Elder Ironbranch",
+			["source"] = "Jormungar Behemoth",
 		},
 		[48125] = {
 			["school"] = 32,
@@ -2062,12 +2056,17 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Dark Rune Evoker",
 		},
-		[56397] = {
-			["school"] = 64,
+		[63551] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Scion of Eternity",
+			["source"] = "Guardian of Life",
 		},
 		[62445] = {
 			["school"] = 8,
@@ -2139,18 +2138,18 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Snaplasher",
 		},
-		[64733] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-		},
 		[57579] = {
 			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Tenebron",
+		},
+		[64733] = {
+			["school"] = 4,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
 		},
 		[59128] = {
 			["school"] = 32,
@@ -2195,14 +2194,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Suudu",
 		},
-		[56222] = {
-			["school"] = 1,
+		[62865] = {
+			["school"] = 8,
 			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Saigodk",
+			["source"] = "Sun Beam",
 		},
 		[63472] = {
 			["school"] = 4,
@@ -2241,14 +2240,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Runic Colossus",
 		},
-		[62865] = {
-			["school"] = 8,
+		[56222] = {
+			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Sun Beam",
+			["source"] = "Saigodk",
 		},
 		[58793] = {
 			["school"] = 32,
@@ -2258,13 +2257,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tenebron",
 		},
-		[19983] = {
+		[62386] = {
 			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Sapphiron",
+			["source"] = "Elder Stonebark",
 		},
 		[56909] = {
 			["school"] = 1,
@@ -2353,13 +2352,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Nature's Blade",
 		},
-		[62386] = {
+		[19983] = {
 			["school"] = 1,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Elder Stonebark",
+			["source"] = "Sapphiron",
 		},
 		[64972] = {
 			["school"] = 8,
@@ -2446,12 +2445,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Unstable Sun Beam",
 		},
-		[62417] = {
+		[62928] = {
 			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Jormungar Behemoth",
+			["source"] = "Elder Ironbranch",
 		},
 		[62243] = {
 			["school"] = 1,
@@ -2461,17 +2463,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Unstable Sun Beam",
 		},
-		[63551] = {
-			["school"] = 8,
+		[62038] = {
+			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Guardian of Life",
+			["source"] = "Hodir",
 		},
 		[65121] = {
 			["school"] = 66,
@@ -2488,10 +2486,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "General Vezax",
 		},
-		[59127] = {
-			["school"] = 32,
+		[58105] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Shadron",
 		},
@@ -2511,6 +2511,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Sapphiron",
 		},
+		[48300] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_HEAL"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Toxis",
+		},
 		[65209] = {
 			["school"] = 32,
 			["token"] = {
@@ -2518,14 +2526,6 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Guardian of Yogg-Saron",
-		},
-		[62608] = {
-			["school"] = 4,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Detonating Lasher",
 		},
 		[45524] = {
 			["school"] = 16,

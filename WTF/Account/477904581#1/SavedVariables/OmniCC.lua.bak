@@ -1,9 +1,5 @@
 
 OmniCCDB = {
-	["global"] = {
-		["dbVersion"] = 6,
-		["addonVersion"] = "10.0.4",
-	},
 	["profileKeys"] = {
 		["Zowl - Golemagg"] = "Default",
 		["Tailcow - Golemagg"] = "Default",
@@ -11,27 +7,19 @@ OmniCCDB = {
 		["Meatcow - Golemagg"] = "Default",
 		["Zandalara - Golemagg"] = "Default",
 		["Herbcow - Golemagg"] = "Default",
-		["Leathercow - Golemagg"] = "Default",
+		["Azerot - Golemagg"] = "Default",
 		["Zandalar - Golemagg"] = "Default",
 		["Zandalar - Gandling"] = "Default",
 		["Zandalar - Mograine"] = "Default",
 		["Banger - Golemagg"] = "Default",
-		["Azerot - Golemagg"] = "Default",
+		["Leathercow - Golemagg"] = "Default",
+	},
+	["global"] = {
+		["dbVersion"] = 6,
+		["addonVersion"] = "10.0.4",
 	},
 	["profiles"] = {
 		["Default"] = {
-			["themes"] = {
-				["Default"] = {
-					["textStyles"] = {
-						["soon"] = {
-						},
-						["minutes"] = {
-						},
-						["seconds"] = {
-						},
-					},
-				},
-			},
 			["rules"] = {
 				{
 					["enabled"] = false,
@@ -59,6 +47,18 @@ OmniCCDB = {
 					["name"] = "ActionBars",
 					["id"] = "actions",
 				}, -- [3]
+			},
+			["themes"] = {
+				["Default"] = {
+					["textStyles"] = {
+						["minutes"] = {
+						},
+						["soon"] = {
+						},
+						["seconds"] = {
+						},
+					},
+				},
 			},
 		},
 	},

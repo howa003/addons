@@ -62,8 +62,8 @@ FarmHudDB = {
 	["coords_show"] = true,
 	["buttons_radius"] = 0.56,
 	["showDummy"] = true,
-	["showDummyBg"] = true,
 	["gathercircle_show"] = true,
+	["showDummyBg"] = true,
 	["tracking^136455"] = "client",
 	["tracking^136453"] = "client",
 	["healcircle_color"] = {
@@ -85,15 +85,15 @@ FarmHudDB = {
 		["hide"] = false,
 	},
 	["tracking^136454"] = "client",
-	["tracking^133939"] = "client",
-	["time_show"] = true,
 	["text_scale"] = 1.4,
+	["time_show"] = true,
 	["time_color"] = {
 		1, -- [1]
 		0.82, -- [2]
 		0, -- [3]
 		0.7, -- [4]
 	},
+	["tracking^133939"] = "client",
 	["coords_bottom"] = false,
 	["healcircle_show"] = true,
 	["time_radius"] = 0.48,

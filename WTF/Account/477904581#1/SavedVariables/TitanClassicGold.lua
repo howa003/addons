@@ -13,7 +13,7 @@ GoldSave = {
 	["Zowl_Golemagg::Horde"] = {
 		["show"] = true,
 		["name"] = "Zowl",
-		["gold"] = 160630503,
+		["gold"] = 147729902,
 	},
 	["Zandalar_Zandalar Tribe::Horde"] = {
 		["show"] = true,

@@ -56,10 +56,10 @@ TalentedDB = {
 			["last_template"] = "BalancePvE",
 			["framepos"] = {
 				["TalentedGlyphs"] = {
-					["y"] = 0,
-					["x"] = 0,
-					["anchor"] = "CENTER",
-					["anchorTo"] = "CENTER",
+					["y"] = -4.102559089660645,
+					["x"] = -342.1536560058594,
+					["anchor"] = "RIGHT",
+					["anchorTo"] = "RIGHT",
 				},
 				["TalentedFrame"] = {
 					["y"] = -4.923436641693115,

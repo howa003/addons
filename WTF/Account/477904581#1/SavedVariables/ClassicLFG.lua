@@ -22,7 +22,7 @@ ClassicLFG_DB = {
 				["Y"] = -475.076904296875,
 				["X"] = 838.2051391601562,
 			},
-			["BroadcastDungeonGroupChannel"] = 1,
+			["BroadcastDungeonGroupChannel"] = 0,
 		},
 		["Tailcow - Golemagg"] = {
 		},
