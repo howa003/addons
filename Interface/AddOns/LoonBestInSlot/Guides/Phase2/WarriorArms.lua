@@ -1,29 +1,23 @@
 local spec = LBIS:RegisterSpec(LBIS.L["Warrior"], LBIS.L["Arms"], "2")
 
 LBIS:AddItem(spec, "46151", LBIS.L["Head"], "BIS") --Conqueror's Siegebreaker Helmet
-LBIS:AddItem(spec, "45639", LBIS.L["Head"], "BIS") --Crown of the Wayward Protector
 LBIS:AddItem(spec, "45472", LBIS.L["Head"], "Alt") --Warhelm of the Champion
 LBIS:AddItem(spec, "45431", LBIS.L["Head"], "Alt") --Valorous Siegebreaker Helmet
-LBIS:AddItem(spec, "45648", LBIS.L["Head"], "Alt") --Helm of the Wayward Protector
 LBIS:AddItem(spec, "45993", LBIS.L["Head"], "Alt") --Mimiron's Flight Goggles
 
 LBIS:AddItem(spec, "46149", LBIS.L["Shoulder"], "BIS") --Conqueror's Siegebreaker Shoulderplates
-LBIS:AddItem(spec, "45657", LBIS.L["Shoulder"], "BIS") --Mantle of the Wayward Protector
 LBIS:AddItem(spec, "46037", LBIS.L["Shoulder"], "BIS") --Shoulderplates of the Celestial Watch
 LBIS:AddItem(spec, "45245", LBIS.L["Shoulder"], "Alt") --Shoulderpads of the Intruder
 LBIS:AddItem(spec, "45433", LBIS.L["Shoulder"], "Alt") --Valorous Siegebreaker Shoulderplates
-LBIS:AddItem(spec, "45660", LBIS.L["Shoulder"], "Alt") --Spaulders of the Wayward Protector
 
 LBIS:AddItem(spec, "46032", LBIS.L["Back"], "BIS") --Drape of the Faceless General
 LBIS:AddItem(spec, "45138", LBIS.L["Back"], "Alt") --Drape of the Drakerider
 LBIS:AddItem(spec, "45973", LBIS.L["Back"], "Alt") --Stylish Power Cape
 
 LBIS:AddItem(spec, "46146", LBIS.L["Chest"], "BIS") --Conqueror's Siegebreaker Battleplate
-LBIS:AddItem(spec, "45633", LBIS.L["Chest"], "BIS") --Breastplate of the Wayward Protector
 LBIS:AddItem(spec, "45473", LBIS.L["Chest"], "Alt") --Embrace of the Gladiator
 LBIS:AddItem(spec, "45453", LBIS.L["Chest"], "Alt") --Winter's Icy Embrace
 LBIS:AddItem(spec, "45429", LBIS.L["Chest"], "Alt") --Valorous Siegebreaker Battleplate
-LBIS:AddItem(spec, "45636", LBIS.L["Chest"], "Alt") --Chestguard of the Wayward Protector
 
 LBIS:AddItem(spec, "45611", LBIS.L["Wrist"], "BIS") --Solar Bindings
 LBIS:AddItem(spec, "45663", LBIS.L["Wrist"], "BIS") --Armbands of Bedlam
@@ -31,12 +25,11 @@ LBIS:AddItem(spec, "45888", LBIS.L["Wrist"], "Alt") --Bitter Cold Armguards
 
 LBIS:AddItem(spec, "45444", LBIS.L["Hands"], "BIS") --Gloves of the Steady Hand
 LBIS:AddItem(spec, "46148", LBIS.L["Hands"], "BIS") --Conqueror's Siegebreaker Gauntlets
-LBIS:AddItem(spec, "45642", LBIS.L["Hands"], "BIS") --Gauntlets of the Wayward Protector
 LBIS:AddItem(spec, "45481", LBIS.L["Hands"], "Alt") --Gauntlets of Ruthless Reprisal
 LBIS:AddItem(spec, "45833", LBIS.L["Hands"], "Alt") --Bladebreaker Gauntlets
 
-LBIS:AddItem(spec, "46095", LBIS.L["Waist"], "BIS") --Soul-Devouring Cinch
 LBIS:AddItem(spec, "45241", LBIS.L["Waist"], "BIS") --Belt of Colossal Rage
+LBIS:AddItem(spec, "46095", LBIS.L["Waist"], "BIS") --Soul-Devouring Cinch
 LBIS:AddItem(spec, "46041", LBIS.L["Waist"], "Alt") --Starfall Girdle
 LBIS:AddItem(spec, "45550", LBIS.L["Waist"], "Alt") --Belt of the Titans
 
@@ -55,7 +48,7 @@ LBIS:AddItem(spec, "44664", LBIS.L["Neck"], "Alt") --Favor of the Dragon Queen
 
 LBIS:AddItem(spec, "45608", LBIS.L["Ring"], "BIS") --Brann's Signet Ring
 LBIS:AddItem(spec, "46322", LBIS.L["Ring"], "BIS") --Brann's Sealing Ring
-
+LBIS:AddItem(spec, "45534", LBIS.L["Ring"], "Alt") --Seal of the Betrayed King
 LBIS:AddItem(spec, "45469", LBIS.L["Ring"], "Alt") --Sif's Promise
 LBIS:AddItem(spec, "46048", LBIS.L["Ring"], "Alt") --Band of Lights
 

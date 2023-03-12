@@ -7,12 +7,18 @@ local L       = LibStub('AceLocale-3.0'):GetLocale('Groupie')
 local LGS     = LibStub:GetLibrary("LibGearScore.1000", true)
 local myname  = UnitName("player")
 local myclass = UnitClass("player")
-local mylevel = UnitLevel("player")
+
 
 -------------------------------
 -- Right Click Functionality --
 -------------------------------
-function addon.SendPlayerInfo(targetName, dropdownMenu, which, fullName, resultID, isAutoResponse)
+local msgCache = {}
+function addon.GetPlayerInfoMsg(fullName, isAutoResponse, isTooltip)
+	local msgKey = format("%s:%s",tostring(fullName),tostring(isAutoResponse))
+	if msgCache[msgKey] and isTooltip then
+		return msgCache[msgKey]
+	end
+	local mylevel = UnitLevel("player")
 	addon.UpdateSpecOptions()
 
 	if addon.playerILVL == nil or addon.playerGearScore == nil or addon.playerILVL < 1 or addon.playerGearScore < 1 then
@@ -115,6 +121,14 @@ function addon.SendPlayerInfo(targetName, dropdownMenu, which, fullName, resultI
 		myclass,
 		achieveLinkStr
 	)
+	msgCache[msgKey] = groupieMsg:gsub("%b{}%s*","")
+	if isTooltip then return msgCache[msgKey] end
+	return groupieMsg
+end
+
+function addon.SendPlayerInfo(targetName, dropdownMenu, which, fullName, resultID, isAutoResponse)
+
+	local groupieMsg = addon.GetPlayerInfoMsg(fullName, isAutoResponse)
 
 	--Hash the message and attach the suffix of the hash
 	------------

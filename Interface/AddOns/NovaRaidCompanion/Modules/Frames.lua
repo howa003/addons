@@ -194,12 +194,17 @@ function NRC:createListFrame(name, width, height, x, y, desc, isSubFrame, label)
 		lineFrame.borderFrame:SetPoint("TOP", 0, borderSpacing);
 		lineFrame.borderFrame:SetPoint("BOTTOM", 0, -borderSpacing);
 		lineFrame.borderFrame:SetPoint("LEFT", -borderSpacing, 0);
-		lineFrame.borderFrame:SetPoint("RIGHT", borderSpacing, 0);
+		if (frame.isSubFrame) then
+			--If this is a tooltip subframe then the border will be different and not fit quite right, push it to the right a little more.
+			lineFrame.borderFrame:SetPoint("RIGHT", borderSpacing + 2, 0);
+		else
+			lineFrame.borderFrame:SetPoint("RIGHT", borderSpacing, 0);
+		end
 		lineFrame.borderFrame:SetBackdrop({
 			edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
 			tileEdge = true,
 			edgeSize = 16,
-			insets = {top = 2, left = 2, bottom = 2, right = 2},
+			insets = {top = 2, left = 2, bottom = 2, right = 0},
 		});
 		--lineFrame.borderFrame:Hide();
 		lineFrame.count = count;
@@ -220,7 +225,7 @@ function NRC:createListFrame(name, width, height, x, y, desc, isSubFrame, label)
 		lineFrame.fs:SetPoint("LEFT", parent.lineFrameHeight + 2, 0);
 		--lineFrame.fs:SetFont(NRC.regionFont, parent.lineFrameHeight - 8);
 		lineFrame.fs:SetJustifyH("LEFT");
-		lineFrame.fs2 = lineFrame:CreateFontString(parent:GetName().. "LineFrameFS2", "ARTWORK");
+		lineFrame.fs2 = lineFrame:CreateFontString(parent:GetName().. "LineFrameFS2", "OVERLAY"); --Overlay so it overlaps the left text.
 		lineFrame.fs2:SetPoint("RIGHT", -2, 0);
 		--lineFrame.fs2:SetFont(NRC.regionFont, parent.lineFrameHeight - 9);
 		--lineFrame.fs2:SetFont("Fonts\\FRIZQT__.TTF", parent.lineFrameHeight - 7);
@@ -347,9 +352,9 @@ function NRC:createListFrame(name, width, height, x, y, desc, isSubFrame, label)
 			v:ClearAllPoints();
 		end
 	end
+	frame.padding = 0;
 	frame.sortLineFrames = function(parent)
-		local heightOffset = 0;
-		local spacing = 0;
+		local padding = frame.padding;
 		local growDown = (frame.growthDirection == 1);
 		local lastFrame;
 		for k, v in ipairs(frame.lineFrames) do
@@ -359,13 +364,13 @@ function NRC:createListFrame(name, width, height, x, y, desc, isSubFrame, label)
 					if (k == 1) then
 						v:SetPoint("TOPLEFT");
 					else
-						v:SetPoint("TOPLEFT", lastFrame, "BOTTOMLEFT");
+						v:SetPoint("TOPLEFT", lastFrame, "BOTTOMLEFT", 0, -padding);
 					end
 				else
 					if (k == 1) then
 						v:SetPoint("BOTTOMLEFT");
 					else
-						v:SetPoint("BOTTOMLEFT", lastFrame, "TOPLEFT");
+						v:SetPoint("BOTTOMLEFT", lastFrame, "TOPLEFT", 0, padding);
 					end
 				end
 				v:SetPoint("RIGHT");
@@ -439,8 +444,11 @@ function NRC:createListFrame(name, width, height, x, y, desc, isSubFrame, label)
 	frame.displayTab.top:SetBackdropBorderColor(1, 1, 1, 0.8);
 	frame.displayTab.top:SetFrameStrata("HIGH");
 	frame.displayTab.top.fs = frame.displayTab.top:CreateFontString("$parentFS", "ARTWORK");
-	frame.displayTab.top.fs:SetPoint("CENTER", 0, 1);
+	frame.displayTab.top.fs:SetPoint("TOP", frame.displayTab.top, "TOP", 0, -2);
 	frame.displayTab.top.fs:SetFont(NRC.regionFont, 12);
+	frame.displayTab.top.fs2 = frame.displayTab.top:CreateFontString("$parentFS", "ARTWORK");
+	frame.displayTab.top.fs2:SetPoint("BOTTOMLEFT", frame.displayTab.top, "BOTTOMLEFT", 8, 4);
+	frame.displayTab.top.fs2:SetFont(NRC.regionFont, 12);
 	frame.displayTab.top:SetMovable(true);
 	frame.displayTab.top:EnableMouse(true);
 	frame.displayTab.top:SetUserPlaced(false);
@@ -453,6 +461,17 @@ function NRC:createListFrame(name, width, height, x, y, desc, isSubFrame, label)
 	frame.displayTab.top:SetScript("OnHide", function(self)
 		frame.OnHideFunc(frame);
 	end)
+	frame.displayTab.top.button = CreateFrame("Button", "$parentButton", frame.displayTab.top, "UIPanelButtonTemplate");
+	frame.displayTab.top.button:SetFrameLevel(15);
+	frame.displayTab.top.button:SetPoint("BOTTOMRIGHT", frame.displayTab.top, "BOTTOMRIGHT", -4, 4);
+	frame.displayTab.top.button:SetWidth(50);
+	frame.displayTab.top.button:SetHeight(14);
+	frame.displayTab.top.button:SetText(L["Lock"]);
+	frame.displayTab.top.button:SetScript("OnClick", function(self, arg)
+		NRC.config.lockAllFrames = true;
+		NRC:updateFrameLocks(true);
+	end)
+	frame.displayTab.top.button:SetScale(0.84);
 	frame.displayTab:Hide();
 	frame.displayTab.top:Hide();
 	--frame.displayTab.fs:SetJustifyH("LEFT");
@@ -821,9 +840,12 @@ function NRC:createGridFrame(name, width, height, x, y, borderSpacing)
 	frame.descFrame.fs:SetPoint("CENTER", 0, 0);
 	frame.descFrame:Hide();
 	--Click button to be used for whatever, set onclick in the frame data func.
-	frame.button = CreateFrame("Button", name .. "Button", frame, "NRC_EJButtonTemplate");
+	frame.button = CreateFrame("Button", name .. "Button", frame, "NRC_EJButtonTemplate2");
 	frame.button:SetFrameLevel(15);
 	frame.button:Hide();
+	frame.button2 = CreateFrame("Button", name .. "Button2", frame, "NRC_EJButtonTemplate2");
+	frame.button2:SetFrameLevel(15);
+	frame.button2:Hide();
 	--Top right X close button.
 	frame.closeButton = CreateFrame("Button", name .. "Close", frame, "UIPanelCloseButton");
 	frame.closeButton:SetPoint("TOPRIGHT", 3.45, 3.2);
@@ -2513,7 +2535,7 @@ function NRC:createTalentFrame(name, width, height, x, y, borderSpacing)
 		insets = {top = 2, left = 2, bottom = 2, right = 2},
 	});
 	frame.adjustBackground = function(frame, width, height)
-		--Most of this function was taken from Talented to fit the background art to the frrame.
+		--Most of this function was taken from Talented to fit the background art to the frame.
 		local width = frame:GetWidth();
 		local height = frame:GetHeight();
 		local texture_height = height / (256+75);
@@ -2532,11 +2554,12 @@ function NRC:createTalentFrame(name, width, height, x, y, borderSpacing)
 		frame.trees[i] = CreateFrame("Frame", "$parentTree" .. i, frame, "BackdropTemplate");
 		frame.trees[i]:SetBackdrop({
 			edgeFile = "Interface\\Addons\\NovaRaidCompanion\\Media\\UI-Tooltip-Border-FullTopRight",
+			--edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
 			tileEdge = true,
 			edgeSize = 16,
 			insets = {top = 2, left = 2, bottom = 2, right = 2},
 		});
-		frame.trees[i].topLeft = frame.trees[i]:CreateTexture(nil, "OVERLAY");
+		frame.trees[i].topLeft = frame.trees[i]:CreateTexture(nil, "BACKGROUND");
 		frame.trees[i].topLeft:SetPoint("TOPLEFT");
 		frame.trees[i].topLeft:SetSize(300, 600);
 		frame.trees[i].topRight = frame.trees[i]:CreateTexture(nil, "BACKGROUND");
@@ -2545,10 +2568,10 @@ function NRC:createTalentFrame(name, width, height, x, y, borderSpacing)
 		frame.trees[i].bottomLeft:SetPoint("TOPLEFT", frame.trees[i].topLeft, "BOTTOMLEFT");
 		frame.trees[i].bottomRight = frame.trees[i]:CreateTexture(nil, "BACKGROUND");
 		frame.trees[i].bottomRight:SetPoint("TOPLEFT", frame.trees[i].topLeft, "BOTTOMRIGHT");
-		frame.trees[i].fs = frame.trees[i]:CreateFontString("$parentFS", "ARTWORK");
+		frame.trees[i].fs = frame.trees[i]:CreateFontString("$parentFS", "OVERLAY");
 		frame.trees[i].fs:SetPoint("TOP", 0, -20);
 		frame.trees[i].fs:SetFontObject(Game11Font);
-		frame.trees[i].titleTexture = frame.trees[i]:CreateTexture(nil, nil);
+		frame.trees[i].titleTexture = frame.trees[i]:CreateTexture(nil, "OVERLAY");
 		frame.trees[i].titleTexture:SetSize(16, 16);
 		frame.trees[i].titleTexture:SetPoint("RIGHT", frame.trees[i].fs, "LEFT", -5, -1.5);
 	end
@@ -2700,7 +2723,7 @@ function NRC:createTalentFrame(name, width, height, x, y, borderSpacing)
 			talentFrame.highlightTexture:SetTexture("Interface\\Buttons\\ButtonHilight-Square");
 			talentFrame.highlightTexture:SetBlendMode("ADD");
 			talentFrame.highlightTexture:SetAllPoints();
-			talentFrame:SetHighlightTexture(frame.highlightTexture);
+			talentFrame:SetHighlightTexture(talentFrame.highlightTexture);
 			
 			talentFrame.outerTexture = talentFrame:CreateTexture(nil, "BACKGROUND");
 			talentFrame.outerTexture:SetTexture("Interface\\Buttons\\UI-EmptySlot-White");
@@ -3388,8 +3411,11 @@ function NRC:createAutoScrollingFrame(name, width, height, x, y, lineFrameHeight
 	frame.displayTab.top:SetBackdropBorderColor(1, 1, 1, 0.8);
 	frame.displayTab.top:SetFrameStrata("HIGH");
 	frame.displayTab.top.fs = frame.displayTab.top:CreateFontString("$parentFS", "ARTWORK");
-	frame.displayTab.top.fs:SetPoint("CENTER", 0, 1);
+	frame.displayTab.top.fs:SetPoint("TOP", frame.displayTab.top, "TOP", 0, -2);
 	frame.displayTab.top.fs:SetFont(NRC.regionFont, 12);
+	frame.displayTab.top.fs2 = frame.displayTab.top:CreateFontString("$parentFS", "ARTWORK");
+	frame.displayTab.top.fs2:SetPoint("BOTTOMLEFT", frame.displayTab.top, "BOTTOMLEFT", 8, 4);
+	frame.displayTab.top.fs2:SetFont(NRC.regionFont, 12);
 	frame.displayTab.top:SetMovable(true);
 	frame.displayTab.top:EnableMouse(true);
 	frame.displayTab.top:SetUserPlaced(false);
@@ -3402,6 +3428,17 @@ function NRC:createAutoScrollingFrame(name, width, height, x, y, lineFrameHeight
 	frame.displayTab.top:SetScript("OnHide", function(self)
 		frame.OnHideFunc(frame);
 	end)
+	frame.displayTab.top.button = CreateFrame("Button", "$parentButton", frame.displayTab.top, "UIPanelButtonTemplate");
+	frame.displayTab.top.button:SetFrameLevel(15);
+	frame.displayTab.top.button:SetPoint("BOTTOMRIGHT", frame.displayTab.top, "BOTTOMRIGHT", -4, 4);
+	frame.displayTab.top.button:SetWidth(50);
+	frame.displayTab.top.button:SetHeight(14);
+	frame.displayTab.top.button:SetText(L["Lock"]);
+	frame.displayTab.top.button:SetScript("OnClick", function(self, arg)
+		NRC.config.lockAllFrames = true;
+		NRC:updateFrameLocks(true);
+	end)
+	frame.displayTab.top.button:SetScale(0.84);
 	frame.displayTab:Hide();
 	frame.displayTab.top:Hide();
 	NRC.framePool[name] = frame;
@@ -3781,9 +3818,9 @@ function NRC:createRaidDataFrame(name, width, height, x, y)
 			v:ClearAllPoints();
 		end
 	end
+	frame.padding = 0;
 	frame.sortLineFrames = function(parent)
-		local heightOffset = 0;
-		local spacing = 0;
+		local padding = frame.padding;
 		local growDown = (frame.growthDirection == 1);
 		local lastFrame;
 		for k, v in ipairs(frame.lineFrames) do
@@ -3795,7 +3832,7 @@ function NRC:createRaidDataFrame(name, width, height, x, y)
 						frame.background:SetPoint("TOPLEFT", v, "TOPLEFT", -1, 1);
 						frame.background:SetPoint("BOTTOMRIGHT", v, "BOTTOMRIGHT", 1, -1);
 					else
-						v:SetPoint("TOPLEFT", lastFrame, "BOTTOMLEFT", 0, -3);
+						v:SetPoint("TOPLEFT", lastFrame, "BOTTOMLEFT", 0, -padding);
 						frame.background:SetPoint("BOTTOMRIGHT", v, "BOTTOMRIGHT", 1, -1);
 					end
 				else
@@ -3804,7 +3841,7 @@ function NRC:createRaidDataFrame(name, width, height, x, y)
 						frame.background:SetPoint("BOTTOMRIGHT", v, "BOTTOMRIGHT", 0, 0);
 						frame.background:SetPoint("TOPLEFT", v, "TOPLEFT", 0, 0);
 					else
-						v:SetPoint("BOTTOMLEFT", lastFrame, "TOPLEFT", 0, 3);
+						v:SetPoint("BOTTOMLEFT", lastFrame, "TOPLEFT", 0, padding);
 						frame.background:SetPoint("TOPLEFT", v, "TOPLEFT", 0, 0);
 					end
 				end
@@ -3884,8 +3921,11 @@ function NRC:createRaidDataFrame(name, width, height, x, y)
 	frame.displayTab.top:SetBackdropBorderColor(1, 1, 1, 0.8);
 	frame.displayTab.top:SetFrameStrata("HIGH");
 	frame.displayTab.top.fs = frame.displayTab.top:CreateFontString("$parentFS", "ARTWORK");
-	frame.displayTab.top.fs:SetPoint("CENTER", 0, 1);
+	frame.displayTab.top.fs:SetPoint("TOP", frame.displayTab.top, "TOP", 0, -2);
 	frame.displayTab.top.fs:SetFont(NRC.regionFont, 12);
+	frame.displayTab.top.fs2 = frame.displayTab.top:CreateFontString("$parentFS", "ARTWORK");
+	frame.displayTab.top.fs2:SetPoint("BOTTOMLEFT", frame.displayTab.top, "BOTTOMLEFT", 8, 4);
+	frame.displayTab.top.fs2:SetFont(NRC.regionFont, 12);
 	frame.displayTab.top:SetMovable(true);
 	frame.displayTab.top:EnableMouse(true);
 	frame.displayTab.top:SetUserPlaced(false);
@@ -3898,6 +3938,17 @@ function NRC:createRaidDataFrame(name, width, height, x, y)
 	frame.displayTab.top:SetScript("OnHide", function(self)
 		frame.OnHideFunc(frame);
 	end)
+	frame.displayTab.top.button = CreateFrame("Button", "$parentButton", frame.displayTab.top, "UIPanelButtonTemplate");
+	frame.displayTab.top.button:SetFrameLevel(15);
+	frame.displayTab.top.button:SetPoint("BOTTOMRIGHT", frame.displayTab.top, "BOTTOMRIGHT", -4, 4);
+	frame.displayTab.top.button:SetWidth(50);
+	frame.displayTab.top.button:SetHeight(14);
+	frame.displayTab.top.button:SetText(L["Lock"]);
+	frame.displayTab.top.button:SetScript("OnClick", function(self, arg)
+		NRC.config.lockAllFrames = true;
+		NRC:updateFrameLocks(true);
+	end)
+	frame.displayTab.top.button:SetScale(0.84);
 	frame.displayTab:Hide();
 	frame.displayTab.top:Hide();
 	--frame.displayTab.fs:SetJustifyH("LEFT");

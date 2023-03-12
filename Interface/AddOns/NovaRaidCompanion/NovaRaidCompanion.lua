@@ -91,6 +91,7 @@ local function init()
 	--NRC:raidCooldownsTicker();
 	NRC:loadTargetSpawnTimeFrames();
 	NRC:loadRaidManaFrame();
+	NRC:updateRaidCooldownsShowDead();
 	NRC:checkNewVersion();
 	NRC:resetOldLockouts();
 end
@@ -181,11 +182,10 @@ function SlashCmdList.NRCCMD(msg, editBox)
 	elseif (msg == "lock") then
 		if (NRC.config.lockAllFrames) then
 			NRC:print("Frames are already locked.");
-		else
-			NRC:print("Locking all frames.");
+			return;
 		end
 		NRC.config.lockAllFrames = true;
-		NRC:updateFrameLocks();
+		NRC:updateFrameLocks(true);
 	elseif (msg == "unlock") then
 		if (not NRC.config.lockAllFrames) then
 			NRC:print("Frames are already unlocked.");

@@ -26,8 +26,9 @@ GL.Interface.Award = {
 local Award = GL.Interface.Award;
 
 ---@param itemLink string
+---@param callback function
 ---@return void
-function Award:draw(itemLink)
+function Award:draw(itemLink, callback)
     GL:debug("Award:draw");
 
     local itemID = GL:getItemIDFromLink(itemLink);
@@ -40,6 +41,7 @@ function Award:draw(itemLink)
     ) then
         local PlayerNameBox = GL.Interface:get(self, "EditBox.PlayerName");
         local Window = GL.Interface:get(self, "Window");
+        Window.callback = callback or function () end;
 
         if (itemLink) then
             Award:passItemLink(itemLink);
@@ -74,6 +76,7 @@ function Award:draw(itemLink)
     Window:SetCallback("OnClose", function()
         self:close();
     end);
+    Window._callback = callback or function () end;
     GL.Interface:restorePosition(Window, "Award");
     GL.Interface:set(self, "Window", Window);
 
@@ -81,8 +84,8 @@ function Award:draw(itemLink)
         SETTINGS BUTTON
     ]]
     local SettingsButton = GL.UI:createSettingsButton(
-            Window.frame,
-            "AwardingLoot"
+        Window.frame,
+        "AwardingLoot"
     );
     self.SettingsButton = SettingsButton;
 
@@ -181,7 +184,7 @@ function Award:draw(itemLink)
                 addPlusOne = GL:toboolean(addPlusOneCheckBox:GetValue());
 
                 if (addPlusOne) then
-                    GL.PlusOnes:add(winner);
+                    GL.PlusOnes:addPlusOnes(winner);
                 end
             end
 
@@ -217,6 +220,8 @@ function Award:draw(itemLink)
             if (Settings:get("UI.Award.closeOnAward", true)) then
                 self:close();
             end
+
+            Window._callback();
         end
 
         -- No player was selected, check if the ML wants to award this item to a random player
@@ -549,7 +554,11 @@ function Award:topPrioForItem(itemID)
 
         -- Sort the PrioListEntries based on prio (lowest to highest)
         table.sort(PrioListEntries, function (a, b)
-            return a.prio < b.prio;
+            if (a.prio and b.prio) then
+                return a.prio < b.prio;
+            end
+
+            return false;
         end);
 
         -- There's more than 1 person with top prio
@@ -574,7 +583,11 @@ function Award:topPrioForItem(itemID)
 
         -- Sort the WishListEntries based on prio (lowest to highest)
         table.sort(WishListEntries, function (a, b)
-            return a.prio < b.prio;
+            if (a.prio and b.prio) then
+                return a.prio < b.prio;
+            end
+
+            return false;
         end);
 
         -- There's more than 1 person with top prio

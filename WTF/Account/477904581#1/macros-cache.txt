@@ -1,14 +1,3 @@
-VER 3 0000000000000018 " " "136085"
-#showtooltip
-/cancelform
-/cast Regrowth
-/targetlastenemy
-END
-VER 3 0000000000000406 " " "INV_MISC_QUESTIONMARK"
-/tar Darkspine Myr
-/script SetRaidTarget("target", 8);
-/cast Moonfire
-END
 VER 3 000000000000001B " " "136081"
 #showtooltip
 /cancelform
@@ -31,6 +20,17 @@ VER 3 0000000000000410 " " "INV_MISC_QUESTIONMARK"
 /tar garhal
 /cast moonfire
 END
+VER 3 0000000000000018 " " "136085"
+#showtooltip
+/cancelform
+/cast Regrowth
+/targetlastenemy
+END
+VER 3 0000000000000406 " " "INV_MISC_QUESTIONMARK"
+/tar Darkspine Myr
+/script SetRaidTarget("target", 8);
+/cast Moonfire
+END
 VER 3 0000000000000002 "  " "136026"
 #showtooltip
 /startattack
@@ -46,14 +46,14 @@ VER 3 00000000000003E1 "  " "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast Starfire
 END
-VER 3 00000000000003FC "   " "INV_MISC_QUESTIONMARK"
-#showtooltip
-/train
-END
 VER 3 0000000000000024 "   " "132151"
 /script SelectGossipAvailableQuest(1)
 /script CompleteQuest()
 /script GetQuestReward()
+END
+VER 3 00000000000003FC "   " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/train
 END
 VER 3 000000000000001A " ALL" "INV_MISC_QUESTIONMARK"
 /cast Innervate
@@ -197,6 +197,9 @@ VER 3 0000000000000414 "FN" "INV_MISC_QUESTIONMARK"
 /use 14
 /cast Fire Nova
 END
+VER 3 0000000000000417 "FOCUS" "132092"
+/focus
+END
 VER 3 0000000000000408 "GHETTO" "136047"
 /run InviteUnit("a");C_Timer.After(1,function() LeaveParty() end)
 END
@@ -223,19 +226,19 @@ VER 3 000000000000001C "MAFO" "136081"
 /cast Rejuvenation
 /targetlastenemy
 END
-VER 3 0000000000000019 "MAFO" "136085"
-#showtooltip
-/cancelform
-/tar Maffo
-/cast Regrowth
-/targetlastenemy
-END
 VER 3 0000000000000014 "MAFO" "136048"
 #showtooltip
 /cancelform
 /tar Maffo
 /w Maffo YOUR ANUS HAS BEEN INNERVATED!!!
 /cast Innervate
+/targetlastenemy
+END
+VER 3 0000000000000019 "MAFO" "136085"
+#showtooltip
+/cancelform
+/tar Maffo
+/cast Regrowth
 /targetlastenemy
 END
 VER 3 000000000000040D "mf" "INV_MISC_QUESTIONMARK"
@@ -272,12 +275,12 @@ VER 3 0000000000000409 "oom" "135863"
 /oom
 /y OOM
 END
-VER 3 000000000000040B "ORB" "135782"
-/tar Shield Orb
-/cast Moonfire
-END
 VER 3 0000000000000405 "ORB" "132094"
 /tar Shield orb
+/cast Moonfire
+END
+VER 3 000000000000040B "ORB" "135782"
+/tar Shield Orb
 /cast Moonfire
 END
 VER 3 0000000000000022 "POT" "135943"
@@ -294,6 +297,11 @@ END
 VER 3 00000000000003EB "RCPT" "132149"
 Chmeldaa: Healing ruce vanilla
 END
+VER 3 0000000000000418 "RES" "134400"
+#showtooltip
+/Y RESSURECTING %T
+/cast Rebirth
+END
 VER 3 00000000000003CF "RES" "INV_MISC_QUESTIONMARK"
 /y RESSURECTING %t
 /cast Rebirth
@@ -308,11 +316,11 @@ VER 3 00000000000003F3 "Shaniq" "INV_MISC_QUESTIONMARK"
 /y Innervating %t!
 /targetlastenemy
 END
-VER 3 000000000000000C "skull" "132094"
-/script SetRaidTarget("target", 8);
-END
 VER 3 0000000000000404 "skull" "136047"
 /focus
+END
+VER 3 000000000000000C "skull" "132094"
+/script SetRaidTarget("target", 8);
 END
 VER 3 00000000000003EE "Spine" "INV_MISC_QUESTIONMARK"
 #showtooltip

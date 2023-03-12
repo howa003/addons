@@ -1,8 +1,8 @@
 # Copyright (C) 2006-2022 JoanasWorld, All rights reserved.  See license.txt for license and copyright information
 ## Interface: 30401
 ## Title: Joana's Speed Leveling Guide
-## Version: 2.1.02
-## Notes: Version: 2.1.02
+## Version: 2.1.04
+## Notes: Version: 2.1.04
 ## DefaultState: enabled
 ## SavedVariables: JoanasGuides_Account
 ## SavedVariablesPerCharacter: JoanasGuides_Character

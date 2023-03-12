@@ -1,7 +1,7 @@
 VER 3 000000000100001E " " "INV_MISC_QUESTIONMARK"
-#showtooltip Starfall
+#showtooltip
 /cast Barkskin
-/cast Starfall
+/use 14
 END
 VER 3 0000000001000007 "0SAVE" "132089"
 /cast [mod:shift,@player] [@mouseover,exists,help,nodead] [exists,help,nodead] [@targettarget,exists,help,nodead] [] Healing Touch(Rank 4)
@@ -69,10 +69,10 @@ VER 3 0000000001000018 "TRN" "INV_MISC_QUESTIONMARK"
 /use 14
 END
 VER 3 000000000100001A "VuhDoDCShieldData" "Ability_Repair"
-R1LR1IR1RM1PT1PT2EM2PT2EM2LR2WM3MR3MR3SR3DR3PH4LR4DR[x]4IR4WM5LR5HR5WM5WM6LR6LR6MR6RM6IH7HR7LR7IR7PT7IR8WM8MR8WM8SR8PM[x]4DR0__[x][x][x]0__[x][x]0__[x][x][x][x][x][x][x]0__[x][x][x][x][x]0__[x][x]0__[x][x][x][x]0__0__[x][x][x][x]0__[x][x][x][x]0__
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1DR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 000000000100001B "VuhDoDCShieldNames" "Ability_Repair"
-NAleRezDeaIntLusJefTomHasGilNicElsSalVerBeePurRenXaf[x]MolßetSatJärPanMurAlbAdaTwaMøøStuCbjLilWaySdrLynCapSizZunTooLyn[x]ZowKhi[x][x][x]Win[x][x]Win[x][x][x][x][x][x][x]Wra[x][x][x][x][x]Wol[x][x]Phu[x][x][x][x]BasKra[x][x][x][x]Wat[x][x][x][x]Win
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Zow[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 0000000001000019 "Wr" "INV_MISC_QUESTIONMARK"
 #showtooltip

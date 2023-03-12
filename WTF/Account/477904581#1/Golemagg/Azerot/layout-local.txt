@@ -6,13 +6,6 @@ X: 4
 Y: 125
 W: 920
 H: 600
-Frame: Five Second Rule Statusbar
-FrameLevel: 1
-Anchor: TOPLEFT
-X: 92
-Y: -98
-W: 117
-H: 11
 Frame: GroupBulletinBoardFrame
 FrameLevel: 1
 Anchor: CENTER

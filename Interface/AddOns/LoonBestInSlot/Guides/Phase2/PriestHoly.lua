@@ -2,15 +2,11 @@ local spec = LBIS:RegisterSpec(LBIS.L["Priest"], LBIS.L["Holy"], "2")
 
 LBIS:AddItem(spec, "45497", LBIS.L["Head"], "BIS") --Crown of Luminescence
 LBIS:AddItem(spec, "46197", LBIS.L["Head"], "BIS") --Conqueror's Cowl of Sanctification
-LBIS:AddItem(spec, "45638", LBIS.L["Head"], "BIS") --Crown of the Wayward Conqueror
 LBIS:AddItem(spec, "45386", LBIS.L["Head"], "Alt") --Valorous Cowl of Sanctification
-LBIS:AddItem(spec, "45647", LBIS.L["Head"], "Alt") --Helm of the Wayward Conqueror
 
 LBIS:AddItem(spec, "46068", LBIS.L["Shoulder"], "BIS") --Amice of Inconceivable Horror
 LBIS:AddItem(spec, "46190", LBIS.L["Shoulder"], "BIS") --Conqueror's Shoulderpads of Sanctification
-LBIS:AddItem(spec, "45656", LBIS.L["Shoulder"], "BIS") --Mantle of the Wayward Conqueror
 LBIS:AddItem(spec, "45390", LBIS.L["Shoulder"], "Alt") --Valorous Shoulderpads of Sanctification
-LBIS:AddItem(spec, "45659", LBIS.L["Shoulder"], "Alt") --Spaulders of the Wayward Conqueror
 LBIS:AddItem(spec, "46013", LBIS.L["Shoulder"], "Alt") --Underworld Mantle
 
 LBIS:AddItem(spec, "45618", LBIS.L["Back"], "BIS") --Sunglimmer Cloak
@@ -20,11 +16,9 @@ LBIS:AddItem(spec, "45541", LBIS.L["Back"], "Alt") --Shroud of Alteration
 LBIS:AddItem(spec, "44005", LBIS.L["Back"], "Alt") --Pennant Cloak
 
 LBIS:AddItem(spec, "46193", LBIS.L["Chest"], "BIS") --Conqueror's Robe of Sanctification
-LBIS:AddItem(spec, "45632", LBIS.L["Chest"], "BIS") --Breastplate of the Wayward Conqueror
 LBIS:AddItem(spec, "45240", LBIS.L["Chest"], "BIS") --Raiments of the Iron Council
 LBIS:AddItem(spec, "45272", LBIS.L["Chest"], "Alt") --Robes of the Umbral Brute
 LBIS:AddItem(spec, "45389", LBIS.L["Chest"], "Alt") --Valorous Robe of Sanctification
-LBIS:AddItem(spec, "45635", LBIS.L["Chest"], "Alt") --Chestguard of the Wayward Conqueror
 
 LBIS:AddItem(spec, "45446", LBIS.L["Wrist"], "BIS") --Grasps of Reason
 LBIS:AddItem(spec, "44008", LBIS.L["Wrist"], "Alt") --Unsullied Cuffs
@@ -33,26 +27,23 @@ LBIS:AddItem(spec, "45146", LBIS.L["Wrist"], "Alt") --Shackles of the Odalisque
 LBIS:AddItem(spec, "45665", LBIS.L["Hands"], "BIS") --Pharos Gloves
 LBIS:AddItem(spec, "45520", LBIS.L["Hands"], "BIS") --Handwraps of the Vigilant
 LBIS:AddItem(spec, "46188", LBIS.L["Hands"], "Alt") --Conqueror's Gloves of Sanctification
-LBIS:AddItem(spec, "45641", LBIS.L["Hands"], "Alt") --Gauntlets of the Wayward Conqueror
 LBIS:AddItem(spec, "45273", LBIS.L["Hands"], "Alt") --Handwraps of Plentiful Recovery
 LBIS:AddItem(spec, "45387", LBIS.L["Hands"], "Alt") --Valorous Gloves of Sanctification
-LBIS:AddItem(spec, "45644", LBIS.L["Hands"], "Alt") --Gloves of the Wayward Conqueror
 LBIS:AddItem(spec, "45840", LBIS.L["Hands"], "Alt") --Touch of the Occult
 
 LBIS:AddItem(spec, "45619", LBIS.L["Waist"], "BIS") --Starwatcher's Binding
 LBIS:AddItem(spec, "45558", LBIS.L["Waist"], "Alt") --Cord of the White Dawn
+LBIS:AddItem(spec, "45557", LBIS.L["Waist"], "Alt") --Sash of Ancient Power
 LBIS:AddItem(spec, "45119", LBIS.L["Waist"], "Alt") --Embrace of the Leviathan
 LBIS:AddItem(spec, "40561", LBIS.L["Waist"], "Alt") --Leash of Heedless Magic
 LBIS:AddItem(spec, "45831", LBIS.L["Waist"], "Alt") --Sash of Potent Incantations
 
 LBIS:AddItem(spec, "46195", LBIS.L["Legs"], "BIS") --Conqueror's Leggings of Sanctification
-LBIS:AddItem(spec, "45653", LBIS.L["Legs"], "BIS") --Legplates of the Wayward Conqueror
 LBIS:AddItem(spec, "46034", LBIS.L["Legs"], "Alt") --Leggings of Profound Darkness
 LBIS:AddItem(spec, "45488", LBIS.L["Legs"], "Alt") --Leggings of the Enslaved Idol
 LBIS:AddItem(spec, "45468", LBIS.L["Legs"], "Alt") --Leggings of Lost Love
 LBIS:AddItem(spec, "45848", LBIS.L["Legs"], "Alt") --Legwraps of the Master Conjurer
 LBIS:AddItem(spec, "45388", LBIS.L["Legs"], "Alt") --Valorous Leggings of Sanctification
-LBIS:AddItem(spec, "45650", LBIS.L["Legs"], "Alt") --Leggings of the Wayward Conqueror
 
 LBIS:AddItem(spec, "45135", LBIS.L["Feet"], "BIS") --Boots of Fiery Resolution
 LBIS:AddItem(spec, "45537", LBIS.L["Feet"], "BIS") --Treads of the False Oracle
@@ -86,6 +77,7 @@ LBIS:AddItem(spec, "45929", LBIS.L["Trinket"], "Alt") --Sif's Remembrance
 
 LBIS:AddItem(spec, "46017", LBIS.L["Main Hand"], "BIS") --Val'anyr, Hammer of Ancient Kings
 LBIS:AddItem(spec, "45457", LBIS.L["Main Hand"], "BIS") --Staff of Endless Winter
+LBIS:AddItem(spec, "45886", LBIS.L["Main Hand"], "BIS") --Icecore Staff
 LBIS:AddItem(spec, "45612", LBIS.L["Main Hand"], "Alt") --Constellus
 LBIS:AddItem(spec, "46035", LBIS.L["Main Hand"], "Alt") --Aesuga, Hand of the Ardent Champion
 LBIS:AddItem(spec, "45147", LBIS.L["Main Hand"], "Alt") --Guiding Star

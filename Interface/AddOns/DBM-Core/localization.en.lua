@@ -186,7 +186,8 @@ L.BIG_WIGS								= "BigWigs"
 L.UPDATEREMINDER_HEADER					= "Your version of " .. L.DEADLY_BOSS_MODS.. " is out-of-date.\n Version %s (%s) is available for download through Curse, Wago, WoWI, or from GitHub Releases page"
 L.UPDATEREMINDER_FOOTER					= "Press " .. (IsMacClient() and "Cmd-C" or "Ctrl-C")  ..  " to copy the download link to your clipboard."
 L.UPDATEREMINDER_FOOTER_GENERIC			= "Press " .. (IsMacClient() and "Cmd-C" or "Ctrl-C")  ..  " to copy the link to your clipboard."
-L.UPDATEREMINDER_DISABLE				= "WARNING: Due to your " .. L.DEADLY_BOSS_MODS.. " being too out of date, it has been force disabled and cannot be used until updated. This is to ensure outdated or incompatible mods do not cause poor play experience for yourself or fellow group members."
+L.UPDATEREMINDER_DISABLE				= "WARNING: Due to your " .. L.DEADLY_BOSS_MODS.. " being out of date and incompatible with newer versions of DBM, it has been force disabled and cannot be used until updated. This is to ensure incompatible mods do not cause poor play experience for yourself or fellow group members."
+L.UPDATEREMINDER_DISABLETEST			= "WARNING: Due to your " .. L.DEADLY_BOSS_MODS.. " being out of date and this being a test/beta realm, it has been force disabled and cannot be used until updated. This is to ensure out of date mods aren't being used to generate test feedback"
 L.UPDATEREMINDER_HOTFIX					= L.DBM .. " version you are on has known issues during this boss encounter that are corrected if you update to latest release"
 L.UPDATEREMINDER_HOTFIX_ALPHA			= L.DBM .. " version you are on has known issues during this boss encounter that are corrected in an upcoming release (or latest alpha version)"
 L.UPDATEREMINDER_MAJORPATCH				= "WARNING: Due to your " .. L.DEADLY_BOSS_MODS.. " being out of date, " .. L.DBM .. " has been disabled until updated, since this is a major game patch. This is to ensure old and incompatible code doesn't cause poor play experience for yourself or fellow group members. Make sure you download a newer version from Curse, Wago, WoWI, or from GitHub Releases page as soon as possible."
@@ -539,7 +540,8 @@ L.AUTO_YELL_CUSTOM_POSITION2			= "{rt%d}%s{rt%d}"--Doesn't need translating. Has
 L.AUTO_YELL_CUSTOM_FADE					= "%s faded"
 L.AUTO_HUD_OPTION_TEXT					= "Show HudMap for $spell:%s (Retired)"
 L.AUTO_HUD_OPTION_TEXT_MULTI			= "Show HudMap for various mechanics (Retired)"
-L.AUTO_NAMEPLATE_OPTION_TEXT			= "Show Nameplate Auras for $spell:%s"
+L.AUTO_NAMEPLATE_OPTION_TEXT			= "Show Nameplate Auras for $spell:%s using compatible nameplate addon or DBM"
+L.AUTO_NAMEPLATE_OPTION_TEXT_FORCED		= "Show Nameplate Auras for $spell:%s using only DBM"
 L.AUTO_RANGE_OPTION_TEXT				= "Show range frame (%s) for $spell:%s"--string used for range so we can use things like "5/2" as a value for that field
 L.AUTO_RANGE_OPTION_TEXT_SHORT			= "Show range frame (%s)"--For when a range frame is just used for more than one thing
 L.AUTO_RRANGE_OPTION_TEXT				= "Show reverse range frame (%s) for $spell:%s"--Reverse range frame (green when players in range, red when not)
@@ -598,6 +600,8 @@ L.DUR_CHECKING							= "Checking raid Durability... "
 L.DUR_HEADER							= L.DEADLY_BOSS_MODS.. " - Durability Results"
 L.DUR_ENTRY								= "%s: Durability [%d percent] / Gear broken [%s]"
 L.LAG_FOOTER							= "No Response: %s"
+
+L.OVERRIDE_ACTIVATED					= "Configuration overrides have been activated for this encounter by RL"
 
 --LDB
 L.LDB_TOOLTIP_HELP1						= "Click to open " .. L.DBM

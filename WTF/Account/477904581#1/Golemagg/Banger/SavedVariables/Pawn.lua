@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0715,
+	["LastVersion"] = 2.0717,
 	["LastPlayerFullName"] = "Banger-Golemagg",
 	["AutoSelectScales"] = false,
 	["ItemLevels"] = {

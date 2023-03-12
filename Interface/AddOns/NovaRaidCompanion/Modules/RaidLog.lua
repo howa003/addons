@@ -552,6 +552,7 @@ local function combatLogEventUnfiltered(...)
 						local _, destClass  = GetPlayerInfoByGUID(destGUID);
 						NRC:sreDeathEvent(destName, destClass)
 					end
+					--NRC:pushDeath(destGUID);
 				end
 				deathCache[destGUID] = GetTime();
 				--NRC:addToGroupData(nil, destGUID, true);

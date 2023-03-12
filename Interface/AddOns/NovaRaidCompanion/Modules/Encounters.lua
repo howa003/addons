@@ -13,7 +13,9 @@ local checkWeapons;
 local CombatLogGetCurrentEventInfo = CombatLogGetCurrentEventInfo;
 local Unitname = UnitName;
 local UnitGUID = UnitGUID;
-local staticPupupFrame = NRC:createStaticPopupAttachment("NRCStaticPopupFrame", 320, 38, 0, 0);
+local staticPopupFrame = NRC:createStaticPopupAttachment("NRCStaticPopupFrame", 320, 38, 0, 0);
+--staticPopupFrame:SetFrameStrata("DIALOG");
+--staticPopupFrame:SetFrameLevel(999);
 
 function NRC:encounterStart(...)
 	local encounterID, encounterName, difficultyID, groupSize = ...;
@@ -242,6 +244,9 @@ end]]
 
 local checkWeaponsCD, lastWeaponWarning = 0, 0;
 function NRC:checkWeaponsEquipped()
+	if (NRC.isRetail) then
+		return;
+	end
 	if (not NRC.config.ktNoWeaponsWarning or UnitLevel("player") ~= 70) then
 		return;
 	end
@@ -758,16 +763,16 @@ hooksecurefunc("StaticPopup_Show", function(...)
 					--Some other addons or weakauras may hide the button, if it's hidden then we don't need this feature.
 					isShown = frame.button1:IsShown();
 					if (isShown) then
-						staticPupupFrame:ClearAllPoints();
-						staticPupupFrame:SetPoint("TOPLEFT", frame, "BOTTOMLEFT", 8, 20);
-						staticPupupFrame:SetPoint("TOPRIGHT", frame, "BOTTOMRIGHT", -8, 20);
-						staticPupupFrame:Show();
+						staticPopupFrame:ClearAllPoints();
+						staticPopupFrame:SetPoint("TOPLEFT", frame, "BOTTOMLEFT", 8, 20);
+						staticPopupFrame:SetPoint("TOPRIGHT", frame, "BOTTOMRIGHT", -8, 20);
+						staticPopupFrame:Show();
 						if (next(NRC.encounter)) then
-							staticPupupFrame.fs2:SetText("|cFFFF0A0AEncounter in progress don't release.");
-							staticPupupFrame.fs:SetText("");
+							staticPopupFrame.fs2:SetText("|cFFFF0A0AEncounter in progress don't release.");
+							staticPopupFrame.fs:SetText("");
 						else
-							staticPupupFrame.fs2:SetText("|cFF00C800Encounter has ended.");
-							staticPupupFrame.fs:SetText("|cFFFF6900NRC|r");
+							staticPopupFrame.fs2:SetText("|cFF00C800Encounter has ended.");
+							staticPopupFrame.fs:SetText("|cFFFF6900NRC|r");
 						end
 					end
 				end
@@ -785,10 +790,10 @@ hooksecurefunc("StaticPopup_Hide", function(...)
 		end
 	end
 	if (not shown) then
-		staticPupupFrame:Hide();
-		staticPupupFrame:ClearAllPoints();
-		staticPupupFrame.fs:SetText("");
-		staticPupupFrame.fs2:SetText("");
+		staticPopupFrame:Hide();
+		staticPopupFrame:ClearAllPoints();
+		staticPopupFrame.fs:SetText("");
+		staticPopupFrame.fs2:SetText("");
 	end
 end)
 
@@ -808,11 +813,23 @@ hooksecurefunc("StaticPopup_OnUpdate", function(self, event)
 		if (NRC.config.releaseWarning and NRC.raid and isShown) then
 			if (isShown) then
 				if (next(NRC.encounter)) then
-					staticPupupFrame.fs2:SetText("|cFFFF0A0AEncounter in progress don't release.");
-					staticPupupFrame.fs:SetText("");
+					if (IsShiftKeyDown()) then
+						self.button1:Enable();
+						staticPopupFrame.fs2:SetText("|cFFFF0A0AEncounter in progress |cFF00C800(Shift held down)|r.");
+					else
+						self.button1:Disable();
+						staticPopupFrame.fs2:SetText("|cFFFF0A0AEncounter in progress (Hold shift to release).");
+						if (not _G[self:GetName() .. "Text"]:GetText() or _G[self:GetName() .. "Text"]:GetText() == "") then
+							--If for some reason this fires outside an instance the text will be blank.
+							--Something on Blizzards end wipes the text if the button is disabled, doesn't happen inside raids when there's no timer.
+							_G[self:GetName() .. "Text"]:SetText(DEATH_RELEASE_NOTIMER);
+						end
+					end
+					staticPopupFrame.fs:SetText("");
 				else
-					staticPupupFrame.fs2:SetText("|cFF00C800Encounter has ended.");
-					staticPupupFrame.fs:SetText("|cFFFF6900NRC|r");
+					staticPopupFrame.fs2:SetText("|cFF00C800Encounter has ended.");
+					staticPopupFrame.fs:SetText("|cFFFF6900NRC|r");
+					self.button1:Enable();
 				end
 			end
 		end

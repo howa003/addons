@@ -27,10 +27,10 @@ ClassicLFG_DB = {
 		["Tailcow - Golemagg"] = {
 		},
 		["Azerot - Golemagg"] = {
-			["BroadcastDungeonGroupChannel"] = 0,
 			["minimap"] = {
 				["minimapPos"] = 104.761587412634,
 			},
+			["BroadcastDungeonGroupChannel"] = 0,
 		},
 		["Meatcow - Golemagg"] = {
 		},
@@ -39,12 +39,12 @@ ClassicLFG_DB = {
 		["Leathercow - Golemagg"] = {
 		},
 		["Zandalar - Golemagg"] = {
-			["DungeonSelection"] = "All TBC Dungeons",
-			["BroadcastDungeonGroupChannel"] = 1,
-			["ShowAllDungeons"] = true,
 			["minimap"] = {
 				["minimapPos"] = 343.7443341314811,
 			},
+			["DungeonSelection"] = "All TBC Dungeons",
+			["ShowAllDungeons"] = true,
+			["BroadcastDungeonGroupChannel"] = 0,
 		},
 		["Zandalar - Gandling"] = {
 		},

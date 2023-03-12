@@ -1,3 +1,5 @@
-# 11.1.9 (2023-01-10)
+# 11.1.15 (2023-02-26)
 
-* Fixed a Lua error in Combo Points widget for Deathknights that occured because of a typo [GH-379].
+* Healer Tracker no longer is disabled in arenas and open-world [Issue #622].
+* Enabled spec-based profiles for Wrath Classic [Comment #6903].
+* Upgrade integrated libraries (LibDualSpec v1.22.0).

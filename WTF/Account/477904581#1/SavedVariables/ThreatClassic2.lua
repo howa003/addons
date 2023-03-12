@@ -7,28 +7,28 @@ ThreatClassic2DB = {
 		["Meatcow - Golemagg"] = "Meatcow - Golemagg",
 		["Zandalara - Golemagg"] = "Zandalara - Golemagg",
 		["Herbcow - Golemagg"] = "Herbcow - Golemagg",
-		["Azerot - Golemagg"] = "Azerot - Golemagg",
+		["Leathercow - Golemagg"] = "Leathercow - Golemagg",
 		["Zandalar - Golemagg"] = "Zandalar - Golemagg",
 		["Zandalar - Gandling"] = "Default",
 		["Zandalar - Mograine"] = "Zandalar - Mograine",
 		["Banger - Golemagg"] = "Banger - Golemagg",
-		["Leathercow - Golemagg"] = "Leathercow - Golemagg",
+		["Azerot - Golemagg"] = "Azerot - Golemagg",
 	},
 	["profiles"] = {
 		["Zowl - Golemagg"] = {
+			["bar"] = {
+				["count"] = 3,
+			},
 			["frame"] = {
-				["width"] = 201.4102020263672,
-				["height"] = 102.7434310913086,
+				["height"] = 64.17932891845703,
 				["position"] = {
 					nil, -- [1]
 					nil, -- [2]
 					nil, -- [3]
-					472.5657043457031, -- [4]
-					-877.7442016601562, -- [5]
+					9.796426773071289, -- [4]
+					-490.4619140625, -- [5]
 				},
-			},
-			["bar"] = {
-				["count"] = 5,
+				["width"] = 157.9229888916016,
 			},
 		},
 		["Tailcow - Golemagg"] = {
@@ -47,11 +47,9 @@ ThreatClassic2DB = {
 			},
 		},
 		["Zandalara - Golemagg"] = {
-			["bar"] = {
-				["count"] = 3,
-			},
 			["frame"] = {
 				["height"] = 69.9231033325195,
+				["width"] = 210.43586730957,
 				["position"] = {
 					nil, -- [1]
 					nil, -- [2]
@@ -59,13 +57,12 @@ ThreatClassic2DB = {
 					1872.35949707031, -- [4]
 					-1086.97485351563, -- [5]
 				},
-				["width"] = 210.43586730957,
+			},
+			["bar"] = {
+				["count"] = 3,
 			},
 		},
 		["Herbcow - Golemagg"] = {
-			["bar"] = {
-				["count"] = 8,
-			},
 			["frame"] = {
 				["position"] = {
 					nil, -- [1]
@@ -75,6 +72,9 @@ ThreatClassic2DB = {
 					-1004.10284423828, -- [5]
 				},
 			},
+			["bar"] = {
+				["count"] = 8,
+			},
 		},
 		["Default"] = {
 			["bar"] = {
@@ -82,11 +82,9 @@ ThreatClassic2DB = {
 			},
 		},
 		["Zandalar - Golemagg"] = {
-			["bar"] = {
-				["count"] = 5,
-			},
 			["frame"] = {
 				["height"] = 106.025581359863,
+				["width"] = 233.410232543945,
 				["position"] = {
 					nil, -- [1]
 					nil, -- [2]
@@ -94,26 +92,31 @@ ThreatClassic2DB = {
 					23.79487228393555, -- [4]
 					-677.5384521484375, -- [5]
 				},
-				["width"] = 233.410232543945,
+			},
+			["bar"] = {
+				["count"] = 5,
 			},
 		},
-		["Azerot - Golemagg"] = {
+		["Leathercow - Golemagg"] = {
 			["bar"] = {
 				["count"] = 3,
 			},
 			["frame"] = {
-				["height"] = 65.00003051757812,
+				["height"] = 55.1537551879883,
 				["position"] = {
 					nil, -- [1]
 					nil, -- [2]
 					nil, -- [3]
-					124.6666717529297, -- [4]
-					-1079.589965820313, -- [5]
+					23.7435913085938, -- [4]
+					-126.974349975586, -- [5]
 				},
-				["width"] = 235.8718414306641,
+				["width"] = 180.897308349609,
 			},
 		},
 		["Zandalar - Mograine"] = {
+			["bar"] = {
+				["count"] = 8,
+			},
 			["frame"] = {
 				["position"] = {
 					nil, -- [1]
@@ -123,14 +126,11 @@ ThreatClassic2DB = {
 					-978.666870117188, -- [5]
 				},
 			},
-			["bar"] = {
-				["count"] = 8,
-			},
 		},
 		["Banger - Golemagg"] = {
 			["frame"] = {
-				["height"] = 63.358943939209,
 				["width"] = 189.923049926758,
+				["height"] = 63.358943939209,
 				["position"] = {
 					nil, -- [1]
 					nil, -- [2]
@@ -143,16 +143,16 @@ ThreatClassic2DB = {
 				["count"] = 3,
 			},
 		},
-		["Leathercow - Golemagg"] = {
+		["Azerot - Golemagg"] = {
 			["frame"] = {
-				["height"] = 55.1537551879883,
-				["width"] = 180.897308349609,
+				["height"] = 65.00003051757812,
+				["width"] = 235.8718414306641,
 				["position"] = {
 					nil, -- [1]
 					nil, -- [2]
 					nil, -- [3]
-					23.7435913085938, -- [4]
-					-126.974349975586, -- [5]
+					124.6666717529297, -- [4]
+					-1079.589965820313, -- [5]
 				},
 			},
 			["bar"] = {

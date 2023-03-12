@@ -79,56 +79,60 @@ local function IsAmmo(loc)
 	end
 	return res
 end
-local function GetWeaponInfo()
-	local loc = "";
+
+local function GetAmmoCount()
+	local ammo = "";
 	local w = "--";
 	local wt = "--";
 
 	local weap = GetInventoryItemID("player", rangedSlotID)
 	if weap == nil then
+--[[
+print("GetWeaponInfo"
+.." Not Found"
+)
+--]]
 	else
 		local itemName, itemLink, itemQuality, itemLevel, itemMinLevel, itemType, itemSubType, itemStackCount,
 		itemEquipLoc, itemTexture, sellPrice, classID, subclassID, bindType, expacID, setID, isCraftingReagent
-		   = GetItemInfo(GetInventoryItemID("player", rangedSlotID)) 
+		   = GetItemInfo(weap)
 		w = itemName
 		wt = itemSubType
-		loc = itemEquipLoc
-	end
-
+		ammo = itemEquipLoc
+		
+		-- set ammo name and count
+		if IsThrown(ammo) then -- throwing knives, etc
+			ammo_name = itemName or _G["UNKNOWN"]
+			if ammo_name == _G["UNKNOWN"] then
+				ammo_count = 0
+			else
+				ammo_count = GetInventoryItemCount("player", rangedSlotID) or ammo_count
+			end
+		else -- bullets or arrows
+			ammo_name = select(1, GetItemInfo(GetInventoryItemID("player", ammoSlotID))) or _G["UNKNOWN"]
+			if ammo_name == _G["UNKNOWN"] then
+				ammo_count = 0
+			else
+				ammo_count = GetInventoryItemCount("player", ammoSlotID) or ammo_count
+			end
+		end
 --[[
 print("GetWeaponInfo"
-.." '"..tostring(weap).."'"
+--.." '"..tostring(weap).."'"
 .." '"..tostring(w).."'"
-.." '"..tostring(wt).."'"
-.." '"..tostring(loc).."'"
+--.." '"..tostring(wt).."'"
+--.." '"..tostring(ammo).."'"
+.." '"..tostring(ammo_name).."'"
+.." '"..tostring(ammo_count).."'"
 )
 --]]
-	return w, wt, loc
-end
-
-local function GetAmmoCount()
-	weapon, weapon_type, ammo_type = GetWeaponInfo(rangedSlotID)
---[[
-print("GetAmmoCount"
-.." '"..tostring(weapon).."'"
-)
---]]
-
-	if IsThrown(ammo_type) then
-		ammo_name = select(1, GetItemInfo(GetInventoryItemID("player", rangedSlotID))) or _G["UNKNOWN"]
-		if ammo_name == _G["UNKNOWN"] then
-			ammo_count = 0
-		else
-			ammo_count = GetInventoryItemCount("player", rangedSlotID) or ammo_count
-		end
-	else 
-		ammo_name = select(1, GetItemInfo(GetInventoryItemID("player", ammoSlotID))) or _G["UNKNOWN"]
-		if ammo_name == _G["UNKNOWN"] then
-			ammo_count = 0
-		else
-			ammo_count = GetInventoryItemCount("player", ammoSlotID) or ammo_count
-		end
 	end
+	
+	-- Set display variables
+	weapon = w
+	weapon_type = wt
+	ammo_type = ammo
+
 end
 
 
@@ -164,31 +168,44 @@ function TitanPanelAmmoButton_OnLoad(self)
 		}
 	};     
 
-	self:SetScript("OnEvent",  function(_, event, arg1, ...)
-		if event == "PLAYER_LOGIN" then
-			TitanPanelAmmoButton_PLAYER_LOGIN()
-		elseif event == "UNIT_INVENTORY_CHANGED" then
-			TitanPanelAmmoButton_UNIT_INVENTORY_CHANGED(arg1, ...)
-		elseif event == "UPDATE_INVENTORY_DURABILITY" then
-			TitanPanelAmmoButton_UPDATE_INVENTORY_DURABILITY()
-		elseif event == "MERCHANT_CLOSED" or event == "PLAYER_ENTERING_WORLD" then
-			TitanPanelAmmoButton_MERCHANT_CLOSED()
-		elseif event == "ACTIONBAR_HIDEGRID" then -- in case ammo is dropped into char slot
-			TitanPanelAmmoButton_ACTIONBAR_HIDEGRID()
-		end
-	end)
+	if class == "ROGUE" 
+	or class == "WARRIOR" 
+	or class == "HUNTER" 
+	then
+		self:SetScript("OnEvent",  function(_, event, arg1, arg2, ...)
+--[[
+print("OnEvent"
+.." '"..tostring(event).."'"
+.." '"..tostring(arg1).."'"
+.." '"..tostring(arg2).."'"
+)
+--]]
+			if event == "PLAYER_ENTERING_WORLD" then
+				if arg1 == true then -- login
+					TitanPanelAmmoButton_PLAYER_LOGIN()
+				end
+				if arg2 == true then -- reload / zoning
+					TitanPanelAmmoButton_MERCHANT_CLOSED()
+				end
+			elseif event == "UNIT_INVENTORY_CHANGED" then
+				TitanPanelAmmoButton_UNIT_INVENTORY_CHANGED(arg1, ...)
+			elseif event == "UPDATE_INVENTORY_DURABILITY" then
+				TitanPanelAmmoButton_UPDATE_INVENTORY_DURABILITY()
+			elseif event == "MERCHANT_CLOSED" then
+				TitanPanelAmmoButton_MERCHANT_CLOSED()
+			elseif event == "ACTIONBAR_HIDEGRID" then -- in case ammo is dropped into char slot
+				TitanPanelAmmoButton_ACTIONBAR_HIDEGRID()
+			end
+		end)
 
-	TitanPanelAmmoButton:RegisterEvent("PLAYER_LOGIN")
+		TitanPanelAmmoButton:RegisterEvent("PLAYER_ENTERING_WORLD")
+	
+	else
+		ClrAmmoInfo()
+	end
 end
 
 function TitanPanelAmmoButton_PLAYER_LOGIN()
-	-- Class check
-	if class ~= "ROGUE" and class ~= "WARRIOR" and class ~= "HUNTER" then
-		TitanPanelAmmoButton_PLAYER_LOGIN = nil
-		ClrAmmoInfo()
-		return
-	end
-
 	ammo_show = true
 	GetAmmoCount()
 
@@ -200,7 +217,8 @@ function TitanPanelAmmoButton_PLAYER_LOGIN()
 	TitanPanelAmmoButton:RegisterEvent("UNIT_INVENTORY_CHANGED")
 	TitanPanelAmmoButton:RegisterEvent("MERCHANT_CLOSED")
 	TitanPanelAmmoButton:RegisterEvent("PLAYER_ENTERING_WORLD") 
-	TitanPanelAmmoButton_PLAYER_LOGIN = nil	
+
+	TitanPanelButton_UpdateButton(TITAN_AMMO_ID);
 end
 
 function TitanPanelAmmoButton_UNIT_INVENTORY_CHANGED(arg1, ...)
@@ -303,6 +321,8 @@ end
 -- DESC : Display rightclick menu options
 -- **************************************************************************
 function TitanPanelRightClickMenu_PrepareAmmoMenu()
+	local info = {};
+
 	TitanPanelRightClickMenu_AddTitle(TitanPlugins[TITAN_AMMO_ID].menuText);
 
 	info.text = L["TITAN_AMMO_BULLET_NAME"];
@@ -313,7 +333,7 @@ function TitanPanelRightClickMenu_PrepareAmmoMenu()
 	L_UIDropDownMenu_AddButton(info);
 	TitanPanelRightClickMenu_AddSpacer();
 
-	local info = {};
+	info = {};
 	TitanPanelRightClickMenu_AddToggleIcon(TITAN_AMMO_ID);
 	TitanPanelRightClickMenu_AddToggleLabelText(TITAN_AMMO_ID);
 	TitanPanelRightClickMenu_AddToggleColoredText(TITAN_AMMO_ID);

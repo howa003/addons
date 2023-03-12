@@ -45,6 +45,9 @@ local screenHeight          = floor(GetScreenHeight())
 local lastCheckStatusTime   = 0
 local callCheckStatus       = false
 
+local lastUpdateSizeTime    = 0
+local scheduleUpdateSize    = nil
+
 local announcedOutdated     = false
 local announcedIncompatible = false
 
@@ -516,10 +519,10 @@ function TC2:FlashScreen()
             elapsed = self.elapsed + elapsed
             if elapsed < 2.6 then
                 local alpha = elapsed % 1.3
-                if alpha < 0.15 then
-                    self:SetAlpha(alpha / 0.15)
-                elseif alpha < 0.9 then
-                    self:SetAlpha(1 - (alpha - 0.15) / 0.6)
+                if alpha < 0.2 then
+                    self:SetAlpha(alpha / 0.2)
+                elseif alpha < 0.79 then
+                    self:SetAlpha(1 - (alpha - 0.2) / 0.6)
                 else
                     self:SetAlpha(0)
                 end
@@ -561,27 +564,46 @@ local function OnDragStop(f)
 end
 
 local function UpdateSize(f)
-    C.frame.width = f:GetWidth() - 2
-    C.frame.height = f:GetHeight()
-
-    TC2:SetBarCount()
-
-    for i = 1, 40 do
-        if i <= C.bar.count and TC2.threatData[i] then
-            TC2.bars[i]:Show()
-        else
-            TC2.bars[i]:Hide()
+    -- rate limit update size so resizing doesn't lag
+    if(GetTime() < lastUpdateSizeTime + 0.01) then
+        if not scheduleUpdateSize then
+            scheduleUpdateSize = C_Timer.NewTimer(0.02, function() UpdateSize(f) end)
         end
-    end
+    else
+        -- reset rate limiter
+        lastUpdateSizeTime = GetTime()
+        if scheduleUpdateSize then
+            scheduleUpdateSize:Cancel()
+            scheduleUpdateSize = nil
+        end
 
-    TC2:UpdateFrame()
+        -- start updating size
+        C.frame.width = f:GetWidth() - 2
+        C.frame.height = f:GetHeight()
+
+        TC2:SetBarCount()
+
+        for i = 1, 40 do
+            if i <= C.bar.count and TC2.threatData[i] then
+                TC2.bars[i]:Show()
+            else
+                TC2.bars[i]:Hide()
+            end
+        end
+
+        TC2:UpdateFrame()
+    end
 end
 
 local function OnResizeStart(f)
     TC2.frame.header:SetMovable(false)
     f = f:GetParent()
-    f:SetMinResize(64, C.bar.height)
-    f:SetMaxResize(512, 1024)
+    if f.SetResizeBounds then -- WoW 10.0
+        f:SetResizeBounds(64, C.bar.height, 512, 1024)
+    else
+        f:SetMinResize(64, C.bar.height)
+        f:SetMaxResize(512, 1024)
+    end
     TC2.sizing = true
     f:SetScript("OnSizeChanged", UpdateSize)
     f:StartSizing()

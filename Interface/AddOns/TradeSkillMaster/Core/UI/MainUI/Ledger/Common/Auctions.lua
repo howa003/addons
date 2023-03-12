@@ -4,7 +4,7 @@
 --    All Rights Reserved - Detailed license information included with addon.     --
 -- ------------------------------------------------------------------------------ --
 
-local _, TSM = ...
+local TSM = select(2, ...) ---@type TSM
 local Auctions = TSM.MainUI.Ledger.Common:NewPackage("Auctions")
 local L = TSM.Include("Locale").GetTable()
 local Table = TSM.Include("Util.Table")
@@ -28,7 +28,7 @@ local private = {
 	type = nil
 }
 do
-	for i = 1, 4 do
+	for i = 0, 5 do
 		tinsert(private.rarityList, _G[format("ITEM_QUALITY%d_DESC", i)])
 		private.rarityFilter[i] = true
 	end
@@ -140,7 +140,7 @@ function private.DrawAuctionsPage()
 					:SetTitle(L["Item"])
 					:SetFont("ITEM_BODY3")
 					:SetJustifyH("LEFT")
-					:SetTextInfo("itemString", UIUtils.GetColoredItemName)
+					:SetTextInfo("itemString", UIUtils.GetDisplayItemName)
 					:SetTooltipInfo("itemString")
 					:SetSortInfo("name")
 					:DisableHiding()

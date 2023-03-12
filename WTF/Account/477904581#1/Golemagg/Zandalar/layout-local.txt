@@ -1,11 +1,4 @@
 Version: 1
-Frame: Vd5
-FrameLevel: 2
-Anchor: CENTER
-X: -525
-Y: -17
-W: 119
-H: 97
 Frame: FocusFrame
 FrameLevel: 1
 Anchor: TOP
@@ -132,6 +125,13 @@ X: -94
 Y: 96
 W: 800
 H: 525
+Frame: VuhDoNewOptionsTabbedFrame
+FrameLevel: 1
+Anchor: CENTER
+X: 0
+Y: 0
+W: 648
+H: 455
 Frame: ATT-Classic-Window-AuctionData
 FrameLevel: 2
 Anchor: TOP
@@ -146,10 +146,3 @@ X: -156
 Y: -214
 W: 547
 H: 266
-Frame: VuhDoNewOptionsTabbedFrame
-FrameLevel: 1
-Anchor: RIGHT
-X: -253
-Y: 126
-W: 648
-H: 455

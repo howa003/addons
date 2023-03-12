@@ -591,7 +591,7 @@ function NRC:receivedString(cmd, dataReceived, sender, distribution)
 	local found;
 	if (cmd == "spell") then
 		local guid = NRC:getGuidFromGroup(sender);
-		NRC:debug("received string", sender, dataReceived);
+		--NRC:debug("received string", sender, dataReceived);
 		if (guid) then
 			local spellID, cooldownTime, destName, destClass = strsplit("_", dataReceived, 4);
 			local destGUID = NRC:getGroupGuidFromName(destName, destClass);
@@ -634,10 +634,11 @@ function NRC:receivedString(cmd, dataReceived, sender, distribution)
 											NRC.data.raidCooldowns[guid][cooldownName].spellID = spellID;
 											NRC.data.raidCooldowns[guid][cooldownName].destName = destName;
 											NRC.data.raidCooldowns[guid][cooldownName].destClass = destClass;
+											NRC:pushCastCache(guid, cooldownName, destName, destClass)
 											local realName = NRC:getCooldownFromSpellID(spellID);
 											if (destGUID and realName == "Soulstone" and NRC:inOurGroup(destGUID)) then
 												NRC.data.hasSoulstone[destGUID] = GetServerTime() + 1800;
-												NRC:debug("remote soulstone added", destGUID);
+												--NRC:debug("remote soulstone added", destGUID);
 											end
 											NRC:updateRaidCooldowns();
 											found = true;
@@ -1180,7 +1181,7 @@ function NRC:receivedGlyphs(data, sender, distribution, isWhisper)
 	end
 	NRC.glyphs[sender] = raidData;
 	if (isWhisper) then
-		local data = NRC:createGlyphDataFromString(NRC.glyphs[name]);
+		local data = NRC:createGlyphDataFromString(NRC.glyphs[sender]);
 		--This is only used for inspect, if that ever changes then always supplying NRCInspectTalentFrame will error.
 		NRC:updateGlyphFrame(data, NRCInspectTalentFrame, sender);
 	end

@@ -29,7 +29,7 @@ local GDKPAuction = GL.GDKP.Auction;
 
 --[[ CONSTANTS ]]
 local SESSION_ROWS = 22;
-local HEIGHT_PER_SESSION_ROW = 16;
+local HEIGHT_PER_SESSION_ROW = 18;
 
 GL:tableSet(GL, "Interface.GDKP.Overview", {
     _initialized = false,
@@ -61,10 +61,11 @@ function Overview:_init()
         {"GDKPOverviewGDKPAuctionChangedListener", "GL.GDKP_AUCTION_CHANGED"},
         {"GDKPOverviewGDKPSessionLockedListener", "GL.GDKP_SESSION_LOCKED"},
         {"GDKPOverviewGDKPSessionUnlockedListener", "GL.GDKP_SESSION_UNLOCKED"},
-    }, function(e)
-        if (not self.isVisible) then return; end
+    }, function()
         GL.Ace:ScheduleTimer(function()
             self:updatePot();
+
+            if (not self.isVisible) then return; end
             self:refreshLedger();
             self.styleWindowAfterResize();
         end, .1);
@@ -89,6 +90,7 @@ function Overview:_init()
     end);
 end
 
+---@return void
 function Overview:sessionChanged()
     GL:debug("Overview:sessionChanged");
 
@@ -162,6 +164,7 @@ function Overview:open()
         Window = self:build();
     end
 
+    self:updatePot();
     self:refreshLedger();
 
     if (self.isVisible) then
@@ -369,9 +372,10 @@ function Overview:build()
     ----[[ LIST VIEW BUTTON ]]
     local ListViewButton = Interface:createButton(ScrollFrameHolder, {
         onClick = function()
-            GL.Interface.GDKP.LedgerList:toggle(self.selectedSession);
+            Window:Hide();
+            GL.Interface.GDKP.LedgerList:open(self.selectedSession);
         end,
-        tooltip = "Show a condensed view of the ledger,\nideal for screenshotting purposes!",
+        tooltip = "Show a full overview of the ledger,\nideal for screenshotting purposes!",
         normalTexture = "Interface/AddOns/Gargul/Assets/Buttons/eye",
         disabledTexture = "Interface/AddOns/Gargul/Assets/Buttons/eye-disabled",
         updateOn = { "GL.GDKP_OVERVIEW_SESSION_CHANGED", "GL.GDKP_OVERVIEW_SESSION_CHANGED", "GL.GDKP_OVERVIEW_SESSIONS_REFRESHED", "GL.GDKP_AUCTION_CHANGED" },
@@ -615,7 +619,14 @@ function Overview:refreshLedger()
 
         -- Sort the auctions based on date/time (highest to lowest)
         table.sort(Auctions, function (a, b)
-            return a.createdAt > b.createdAt;
+            local aCreatedAt = tonumber(a.createdAt);
+            local bCreatedAt = tonumber(b.createdAt);
+
+            if (aCreatedAt and bCreatedAt) then
+                return aCreatedAt > bCreatedAt;
+            end
+
+            return false;
         end);
 
         -- Add placeholders for all the item icons and labels
@@ -839,7 +850,11 @@ function Overview:showTutorial()
     };
 
     table.sort(Steps, function (a, b)
-        return a[1] < b[1];
+        if (a[1] and b[1]) then
+            return a[1] < b[1];
+        end
+
+        return false;
     end);
 
     -- Add placeholders for all the item icons and labels

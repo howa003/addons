@@ -35,7 +35,7 @@ GL.Interface.Settings.Overview = {
         {"Rolling", "Rolling"},
         {"Loot Highlighting", "LootHighlighting"},
         {"Boosted Rolls", "BoostedRolls"},
-        {"", ""},
+        {"Plus Ones", "PlusOnes"},
         {"", ""},
         {"Slash Commands", "SlashCommands"},
     },
@@ -452,6 +452,9 @@ function Overview:drawHeader(text, Parent)
     HeaderText:SetHeight(20);
     HeaderText:SetText(text);
     Header:AddChild(HeaderText);
+    Header.Label = HeaderText;
+
+    return Header;
 end
 
 --- This is a helper method that draws a spacer

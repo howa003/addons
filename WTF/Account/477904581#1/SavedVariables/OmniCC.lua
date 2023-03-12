@@ -2,7 +2,7 @@
 OmniCCDB = {
 	["global"] = {
 		["dbVersion"] = 6,
-		["addonVersion"] = "10.0.2",
+		["addonVersion"] = "10.0.4",
 	},
 	["profileKeys"] = {
 		["Zowl - Golemagg"] = "Default",
@@ -20,6 +20,18 @@ OmniCCDB = {
 	},
 	["profiles"] = {
 		["Default"] = {
+			["themes"] = {
+				["Default"] = {
+					["textStyles"] = {
+						["soon"] = {
+						},
+						["minutes"] = {
+						},
+						["seconds"] = {
+						},
+					},
+				},
+			},
 			["rules"] = {
 				{
 					["enabled"] = false,
@@ -47,18 +59,6 @@ OmniCCDB = {
 					["name"] = "ActionBars",
 					["id"] = "actions",
 				}, -- [3]
-			},
-			["themes"] = {
-				["Default"] = {
-					["textStyles"] = {
-						["seconds"] = {
-						},
-						["soon"] = {
-						},
-						["minutes"] = {
-						},
-					},
-				},
 			},
 		},
 	},

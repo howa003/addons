@@ -212,6 +212,14 @@ L:SetGeneralLocalization{
 	name = "Hodir"
 }
 
+L:SetTimerLocalization{
+	TimerHardmode	= "Shatter Cache"
+}
+
+L:SetOptionLocalization{
+	TimerHardmode	= "Show timer for hard mode"
+}
+
 L:SetMiscLocalization{
 	Pull		= "You will suffer for this trespass!",
 	YellKill	= "I... I am released from his grasp... at last."
@@ -364,7 +372,7 @@ L:SetWarningLocalization{
 	WarningSanity 					= "%d Sanity remaining",
 	SpecWarnSanity 					= "%d Sanity remaining",
 	SpecWarnMadnessOutNow			= "Induce Madness ending - Move out",
-	WarnBrainPortalSoon				= "Brain Portal in 3 seconds",
+	WarnBrainPortalSoon				= "Brain Portal in 10 seconds",
 	specWarnBrainPortalSoon			= "Brain Portal soon"
 }
 

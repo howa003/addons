@@ -270,9 +270,12 @@ function AwardedLoot:editWinner(checksum, winner, announce)
     -- Broadcast the awarded loot details to everyone in the group
     GL.CommMessage.new(CommActions.editAwardedItem, AwardEntry, "GROUP"):send();
 
-    -- The loot window is still active and the auto assign setting is enabled
+    -- The loot window is not active and the auto assign setting is enabled
     if (not GL.DroppedLoot.lootWindowIsOpened
         and GL.Settings:get("AwardingLoot.autoTradeAfterAwardingAnItem")
+        and (GL.Settings:get("AwardingLoot.autoTradeInCombat") or
+            not UnitAffectingCombat("player")
+        )
         and GL.User.name ~= winner
     ) then
         self:initiateTrade(AwardEntry);
@@ -362,6 +365,18 @@ function AwardedLoot:addWinner(winner, itemLink, announce, date, isOS, BRCost, G
         announce = true;
     end
 
+    local normalizedPlayerName = string.lower(GL:stripRealm(winner));
+    local isReserved = GL.SoftRes:itemIDIsReservedByPlayer(itemID, normalizedPlayerName);
+    local isPrioritized, isWishlisted = false, false;
+
+    for _, Entry in pairs(GL.TMB:byItemIDAndPlayer(itemID, normalizedPlayerName) or {}) do
+        if (Entry.type == GL.Data.Constants.tmbTypePrio) then
+            isPrioritized = true;
+        elseif (Entry.type == GL.Data.Constants.tmbTypeWish) then
+            isWishlisted = true;
+        end
+    end
+
     local checksum = GL:strPadRight(GL:strLimit(GL:stringHash(timestamp .. itemID) .. GL:stringHash(winner .. GL.DB:get("SoftRes.MetaData.id", "")), 20, ""), "0", 20);
     local AwardEntry = {
         checksum = checksum,
@@ -375,6 +390,10 @@ function AwardedLoot:addWinner(winner, itemLink, announce, date, isOS, BRCost, G
         BRCost = tonumber(BRCost),
         GDKPCost = tonumber(GDKPCost),
         OS = isOS,
+        SR = isReserved,
+        WL = isWishlisted,
+        PL = isPrioritized,
+        TMB = isWishlisted or isPrioritized,
         Rolls = Rolls or {},
     };
 
@@ -453,10 +472,23 @@ function AwardedLoot:addWinner(winner, itemLink, announce, date, isOS, BRCost, G
         GL.PackMule:assignLootToPlayer(AwardEntry.itemID, winner);
 
     -- The loot window is closed and the auto trade setting is enabled
-    -- Also skip this part if you yourself won the item
     elseif (not GL.DroppedLoot.lootWindowIsOpened
-        and GL.Settings:get("AwardingLoot.autoTradeAfterAwardingAnItem")
+
+        -- No need to trade with ourselves
         and GL.User.name ~= winner
+
+        -- Auto trading is disabled
+        and GL.Settings:get("AwardingLoot.autoTradeAfterAwardingAnItem")
+
+        -- The player doesn't want to auto trade disenchanted items
+        and (GL.Settings:get("AwardingLoot.autoTradeDisenchanter") or
+            winner ~= GL.Exporter.disenchantedItemIdentifier
+        )
+
+        -- The player doesn't want to trade whilst ink combat
+        and (GL.Settings:get("AwardingLoot.autoTradeInCombat") or
+            not UnitAffectingCombat("player")
+        )
     ) then
         AwardedLoot:initiateTrade(AwardEntry);
     end
@@ -466,21 +498,12 @@ function AwardedLoot:addWinner(winner, itemLink, announce, date, isOS, BRCost, G
 
     -- Send the award data along to CLM if the player has it installed
     pcall(function ()
-        local CLMEventDispatcher = LibStub("EventDispatcher");
+        local CLMEventDispatcher = LibStub("EventDispatcher", true);
 
-        if (not CLMEventDispatcher) then
+        if (not CLMEventDispatcher
+            or not CLMEventDispatcher.dispatchEvent
+        ) then
             return;
-        end
-
-        local normalizedPlayerName = string.lower(GL:stripRealm(winner));
-        local isPrioritized, isWishlisted = false, false;
-
-        for _, Entry in pairs(GL.TMB:byItemIDAndPlayer(itemID, normalizedPlayerName) or {}) do
-            if (Entry.type == GL.Data.Constants.tmbTypePrio) then
-                isPrioritized = true;
-            elseif (Entry.type == GL.Data.Constants.tmbTypeWish) then
-                isWishlisted = true;
-            end
         end
 
         CLMEventDispatcher.dispatchEvent("CLM_EXTERNAL_EVENT_ITEM_AWARDED", {
@@ -490,7 +513,7 @@ function AwardedLoot:addWinner(winner, itemLink, announce, date, isOS, BRCost, G
             isOffSpec = isOS,
             isWishlisted = isWishlisted,
             isPrioritized = isPrioritized,
-            isReserved = GL.SoftRes:itemIDIsReservedByPlayer(itemID, normalizedPlayerName),
+            isReserved = isReserved,
         });
     end);
 
@@ -708,7 +731,7 @@ function AwardedLoot:processAwardedLoot(CommMessage)
     end
 
     -- No need to add awarded loot if we broadcasted it ourselves
-    if (CommMessage.Sender.name == GL.User.name) then
+    if (CommMessage.Sender.isSelf) then
         GL:debug("AwardedLoot:processAwardedLoot received by self, skip");
         return;
     end
@@ -729,7 +752,11 @@ function AwardedLoot:processAwardedLoot(CommMessage)
         received = AwardEntry.received,
         BRCost = AwardEntry.BRCost,
         GDKPCost = AwardEntry.GDKPCost,
-        OS = AwardEntry.OS,
+        OS = GL:toboolean(AwardEntry.OS),
+        SR = GL:toboolean(AwardEntry.SR),
+        WL = GL:toboolean(AwardEntry.WL),
+        PL = GL:toboolean(AwardEntry.PL),
+        TMB = GL:toboolean(AwardEntry.TMB),
         Rolls = AwardEntry.Rolls,
     };
 
@@ -744,7 +771,7 @@ function AwardedLoot:processEditedLoot(CommMessage)
     GL:debug("AwardedLoot:processEditedLoot");
 
     -- No need to do anything if we broadcasted it ourselves
-    if (CommMessage.Sender.name == GL.User.name) then
+    if (CommMessage.Sender.isSelf) then
         GL:debug("AwardedLoot:processEditedLoot received by self, skip");
         return;
     end

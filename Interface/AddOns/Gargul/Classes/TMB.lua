@@ -3,6 +3,16 @@ local _, GL = ...;
 
 GL.AceGUI = GL.AceGUI or LibStub("AceGUI-3.0");
 
+---@type Data
+local Constants = GL.Data.Constants;
+local CommActions = Constants.Comm.Actions;
+
+---@type Settings
+local Settings = GL.Settings;
+
+---@type Events
+local Events = GL.Events;
+
 ---@class TMB
 GL.TMB = {
     _initialized = false,
@@ -14,10 +24,6 @@ GL.TMB = {
 };
 local TMB = GL.TMB; ---@type TMB
 
-local Constants = GL.Data.Constants; ---@type Data
-local CommActions = Constants.Comm.Actions;
-local Settings = GL.Settings; ---@type Settings
-
 ---@return boolean
 function TMB:_init()
     GL:debug("TMB:_init");
@@ -26,8 +32,33 @@ function TMB:_init()
         return false;
     end
 
-    GL.Events:register("TMBUserJoinedGroupListener", "GL.USER_JOINED_GROUP", function () self:requestData(); end);
+    Events:register("TMBUserJoinedGroupListener", "GL.USER_JOINED_GROUP", function () self:requestData(); end);
 
+    Events:register("TMBItemReceived", "GL.ITEM_RECEIVED", function (_, Details)
+        -- We don't want to automatically award loot
+        if (not Settings:get("AwardingLoot.awardOnReceive")) then
+            return;
+        end
+
+        -- This item is of too low quality, we don't care
+        local quality = tonumber(Details.quality);
+        if (not quality
+            or quality < Settings:get("AwardingLoot.awardOnReceiveMinimumQuality")
+        ) then
+            return;
+        end
+
+        -- This isn't an item we should award
+        if (GL:inTable(Constants.ItemsThatShouldntBeAnnounced, Details.itemID)) then
+            return;
+        end
+
+        local autoAward = Settings:get("AwardingLoot.autoTradeAfterAwardingAnItem");
+        Settings:set("AwardingLoot.autoTradeAfterAwardingAnItem", false, true);
+        GL.AwardedLoot:addWinner(Details.playerName, Details.itemLink, false);
+        Settings:set("AwardingLoot.autoTradeAfterAwardingAnItem", autoAward, true);
+    end);
+    
     self._initialized = true;
     return true;
 end
@@ -55,6 +86,13 @@ function TMB:byItemID(itemID, inRaidOnly)
 
     if (type(inRaidOnly) ~= "boolean") then
         inRaidOnly = Settings:get("TMB.hideInfoOfPeopleNotInGroup");
+
+        if (inRaidOnly
+            and Settings:get("TMB.showEntriesWhenUsingPrio3")
+            and self:wasImportedFromCPR()
+        ) then
+            inRaidOnly = false;
+        end
 
         -- User is not in group and showEntriesWhenSolo is true
         if (inRaidOnly
@@ -226,6 +264,27 @@ function TMB:noteByItemID(itemID)
     return GL.DB:get("TMB.Notes." .. itemID, "");
 end
 
+--- Fetch a player's group id and name
+---
+---@param player string
+---@return number, string|boolean | boolean, boolean
+function TMB:groupByPlayerName(player)
+    GL:debug("TMB:groupByPlayerName");
+
+    if (not GL.DB:get("TMB.RaidGroups")) then
+        return false, false;
+    end
+
+    player = string.lower(player);
+    local groupID = GL.DB:get("TMB.PlayerGroup." .. player);
+
+    if (groupID) then
+        return groupID, GL.DB:get("TMB.RaidGroups", {})[groupID] or false;
+    end
+
+    return false, false;
+end
+
 --- Append the TMB info as defined in GL.DB.TMB.Items to an item's tooltip
 ---
 ---@param itemLink string
@@ -296,6 +355,9 @@ function TMB:tooltipLines(itemLink)
         return Lines;
     end
 
+    local showPlayerGroups = GL:count(GL.DB:get("TMB.RaidGroups", {})) > 1
+        and Settings:get("TMB.showRaidGroup");
+
     local WishListEntries = {};
     local PrioListEntries = {};
     local itemIsOnSomeonesWishlist = false;
@@ -303,6 +365,12 @@ function TMB:tooltipLines(itemLink)
     local entriesAdded = 0;
     for _, Entry in pairs(TMBInfo) do
         local playerName = string.lower(Entry.character);
+        local playerGroup = false;
+
+        if (showPlayerGroups) then
+            _, playerGroup = self:groupByPlayerName(playerName);
+        end
+
         local prio = Entry.prio;
         local entryType = Entry.type or Constants.tmbTypeWish;
         local isOffSpec = string.find(Entry.character, "%(OS%)");
@@ -324,13 +392,18 @@ function TMB:tooltipLines(itemLink)
             sortingOrder = 1000;
         end
 
+        local groupString = "";
+        if (playerGroup) then
+            groupString = " - " .. playerGroup;
+        end
+
         -- TMB is not case-sensitive so people get creative with capital letters sometimes
         playerName = GL:capitalize(playerName);
         if (entryType == Constants.tmbTypePrio) then
-            tinsert(PrioListEntries, {sortingOrder, string.format("|cFF%s    %s[%s]|r", color, playerName, prio)});
+            tinsert(PrioListEntries, {sortingOrder, string.format("|cFF%s    %s[%s]%s|r", color, playerName, prio, groupString)});
             itemIsOnSomeonesPriolist = true;
         else
-            tinsert(WishListEntries, {sortingOrder, string.format("|cFF%s    %s[%s]|r", color, playerName, prio)});
+            tinsert(WishListEntries, {sortingOrder, string.format("|cFF%s    %s[%s]%s|r", color, playerName, prio, groupString)});
             itemIsOnSomeonesWishlist = true;
         end
     end
@@ -342,19 +415,16 @@ function TMB:tooltipLines(itemLink)
         )
     ) then
         -- Add the header
-        local source = "TMB";
-        if (self:wasImportedFromDFT()) then
-            source = "DFT";
-        elseif (self:wasImportedFromCPR()) then
-            source = "CPR";
-        elseif (self:wasImportedFromCSV()) then
-            source = "Item";
-        end
+        local source = GL.TMB:source();
         tinsert(Lines, string.format("\n|cFFff7a0a%s|r", source .. " Prio List"));
 
         -- Sort the PrioListEntries based on prio (lowest to highest)
         table.sort(PrioListEntries, function (a, b)
-            return a[1] < b[1];
+            if (a[1] and b[1]) then
+                return a[1] < b[1];
+            end
+
+            return false;
         end);
 
         -- Add the entries to the tooltip
@@ -393,7 +463,11 @@ function TMB:tooltipLines(itemLink)
 
         -- Sort the WishListEntries based on prio (lowest to highest)
         table.sort(WishListEntries, function (a, b)
-            return a[1] < b[1];
+            if (a[1] and b[1]) then
+                return a[1] < b[1];
+            end
+
+            return false;
         end);
 
         -- Add the entries to the tooltip
@@ -439,7 +513,7 @@ end
 function TMB:clear()
     GL.DB.TMB = {};
 
-    GL.Events:fire("GL.TMB_CLEARED");
+    Events:fire("GL.TMB_CLEARED");
 end
 
 --- Check whether the current TMB data was imported from DFT
@@ -484,7 +558,7 @@ function TMB:import(data, triedToDecompress, source)
         return false;
     end
 
-    -- Make sure to get rid of any leadin/trailing whitespaces
+    -- Make sure to get rid of any leading/trailing whitespaces
     data = strtrim(data);
 
     -- Fetch the first line
@@ -540,9 +614,11 @@ function TMB:import(data, triedToDecompress, source)
 
     -- Import the actual TMB data
     local wishlistItemsWereImported = false;
+    local RaidGroups, PlayerGroup = {}, {};
     if (type(WebsiteData.wishlists) == "table"
         and not GL:empty(WebsiteData.wishlists)
     ) then
+        local hasGroups = not not WebsiteData.groups;
         local processedEntryCheckums = {};
         local formatDecided = false;
         local TMBData = {};
@@ -567,7 +643,7 @@ function TMB:import(data, triedToDecompress, source)
                             name = 1,
                             order = 3,
                             type = 5,
-                            groupID = nil, -- The old format doesn't support the groupID
+                            groupID = 7,
                         };
                     end
 
@@ -580,7 +656,7 @@ function TMB:import(data, triedToDecompress, source)
                 local type = Constants.tmbTypeWish;
 
                 if (stringParts[Keys.name] and stringParts[Keys.order]) then
-                    characterName = stringParts[Keys.name];
+                    characterName = string.lower(stringParts[Keys.name]);
                     order = tonumber(stringParts[Keys.order]) or order;
                 end
 
@@ -592,8 +668,16 @@ function TMB:import(data, triedToDecompress, source)
                     end
                 end
 
-                if (Keys.groupID and stringParts[Keys.groupID]) then
-                    raidGroupID = tonumber(stringParts[Keys.groupID]);
+                -- Raid "group" provided, process
+                if (hasGroups and Keys.groupID) then
+                    local groupID = stringParts[Keys.groupID] or 0;
+                    local group = WebsiteData.groups[groupID];
+
+                    if (group) then
+                        groupID = tonumber(groupID);
+                        RaidGroups[groupID] = group;
+                        PlayerGroup[characterName] = groupID;
+                    end
                 end
 
                 if (characterName and order) then
@@ -605,7 +689,6 @@ function TMB:import(data, triedToDecompress, source)
                             ["character"] = characterName,
                             ["prio"] = order,
                             ["type"] = type,
-                            ['group'] = raidGroupID,
                         });
 
                         wishlistItemsWereImported = true;
@@ -615,7 +698,7 @@ function TMB:import(data, triedToDecompress, source)
             end
         end
 
-        GL.DB.TMB.Items = TMBData;
+        GL.DB:set("TMB.Items", TMBData);
     end
 
     -- There are item notes available, store them
@@ -623,6 +706,12 @@ function TMB:import(data, triedToDecompress, source)
         for itemID, note in pairs(WebsiteData.notes) do
             GL.DB:set("TMB.Notes." .. itemID, note);
         end
+    end
+
+    -- There is group data available, store!
+    if (not GL:empty(RaidGroups) and not GL:empty(PlayerGroup)) then
+        GL.DB:set("TMB.RaidGroups", RaidGroups);
+        GL.DB:set("TMB.PlayerGroup", PlayerGroup);
     end
 
     -- There are item tiers available, store them
@@ -652,7 +741,7 @@ function TMB:import(data, triedToDecompress, source)
         hash = GL:uuid() .. GetServerTime(),
     };
 
-    GL.Events:fire("GL.TMB_IMPORTED");
+    Events:fire("GL.TMB_IMPORTED");
     GL.Interface.TMB.Importer:close();
     self:draw();
 
@@ -668,7 +757,64 @@ function TMB:import(data, triedToDecompress, source)
         self:broadcast();
     end
 
+    -- Report players without any TMB entries
+    local PlayersWithoutTMBDetails = self:playersWithoutTMBDetails();
+    if (not GL:empty(PlayersWithoutTMBDetails)) then
+        local MissingPlayers = {};
+        for _, name in pairs(PlayersWithoutTMBDetails) do
+            tinsert(MissingPlayers, {GL:capitalize(name), GL:classHexColor(GL.Player:classByName(name))});
+        end
+
+        GL:warning(string.format("The following players have no %s entries:", self:source()));
+        GL:multiColoredMessage(MissingPlayers, ", ");
+    end
+
     return true;
+end
+
+--- Where did our current TMB data come from?
+---@return string
+function TMB:source()
+    if (GL.TMB:wasImportedFromDFT()) then
+        return "DFT";
+    end
+
+    if (GL.TMB:wasImportedFromCPR()) then
+        return "CPR";
+    end
+
+    if (GL.TMB:wasImportedFromCSV()) then
+        return "Item";
+    end
+
+    return "TMB";
+end
+
+--- Return the names of all players that don't have any TMB details
+---
+---@return table
+function TMB:playersWithoutTMBDetails()
+    GL:debug("TMB:playersWithoutTMBDetails");
+
+    local PlayersWithDetails = {};
+    for _, Item in pairs(GL.DB:get("TMB.Items", {})) do
+        for _, Entry in pairs(Item or {}) do
+            if (Entry.character) then
+                PlayersWithDetails[Entry.character] = true;
+            end
+        end
+    end
+
+    local PlayersWithoutTMBDetails = {};
+    for _, name in pairs(GL.User:groupMemberNames() or {}) do
+        name = string.lower(GL:stripRealm(name));
+
+        if (not PlayersWithDetails[name]) then
+            tinsert(PlayersWithoutTMBDetails, name);
+        end
+    end
+
+    return PlayersWithoutTMBDetails;
 end
 
 --- Attempt to transform the DFT format to a TMB format
@@ -774,7 +920,11 @@ function TMB:DFTFormatToTMB(data)
 
         -- Sort the priorities (highest to lowest)
         table.sort(Priorities, function (a, b)
-            return a.priority > b.priority;
+            if (a.priority and b.priority) then
+                return a.priority > b.priority;
+            end
+
+            return false;
         end);
 
         for key, Priority in pairs(Priorities) do
@@ -944,10 +1094,110 @@ function TMB:broadcast()
         return false;
     end
 
-    self.broadcastInProgress = true;
-    GL.Events:fire("GL.TMB_BROADCAST_STARTED");
+    if (not GL:empty(GL.Settings:get("TMB.shareWhitelist", ""))) then
+        self:broadcastToWhitelist();
+    else
+        self:broadcastToGroup();
+    end
 
-    local Broadcast = function ()
+    return true;
+end
+
+---@return void
+function TMB:broadcastToWhitelist()
+    GL:debug("TMB.broadcastToGroup");
+
+    if (self.broadcastInProgress) then
+        GL:error("Broadcast still in progress");
+        return false;
+    end
+
+    self.broadcastInProgress = true;
+
+    local Whitelist = GL.Settings:get("TMB.shareWhitelist", "");
+    if (type(Whitelist) ~= "string") then
+        self.broadcastInProgress = false;
+        return;
+    end
+    Whitelist = GL:strSplit(Whitelist, ",");
+
+    local WhitelistedPlayersInGroup = {};
+    local GroupMemberNames = GL.User:groupMemberNames();
+    for _, name in pairs(Whitelist) do
+        name = string.lower(name);
+
+        if (not GL:iEquals(GL.User.name, name)
+            and GL:inTable(GroupMemberNames, name)
+        ) then
+            tinsert(WhitelistedPlayersInGroup, name);
+        end
+    end
+
+    local numberOfPlayers = #WhitelistedPlayersInGroup;
+    if (numberOfPlayers < 1) then
+        GL:warning("There's no one in your group to broadcast to");
+        self.broadcastInProgress = false;
+        return;
+    end
+
+    local broadcastsFinished = 0;
+    local broadcast = function ()
+        GL.Ace:ScheduleTimer(function ()
+            self.broadcastInProgress = false;
+        end, 10);
+
+        Events:fire("GL.TMB_BROADCAST_STARTED");
+
+        for _, player in pairs(WhitelistedPlayersInGroup) do
+            GL.CommMessage.new(
+                CommActions.broadcastTMBData,
+                GL.DB.TMB,
+                "WHISPER",
+                player
+            ):send(function ()
+                broadcastsFinished = broadcastsFinished + 1;
+
+                if (broadcastsFinished >= numberOfPlayers) then
+                    GL:success("TMB broadcast finished");
+                    self.broadcastInProgress = false;
+                    Events:fire("GL.TMB_BROADCAST_ENDED");
+                end
+            end);
+        end
+    end;
+
+    -- We're about to send a lot of data which will put strain on CTL
+    -- Make sure we're out of combat before doing so!
+    if (UnitAffectingCombat("player")) then
+        GL:message("You are currently in combat, delaying TMB broadcast");
+
+        Events:register("TMBOutOfCombatListener", "PLAYER_REGEN_ENABLED", function ()
+            Events:unregister("TMBOutOfCombatListener");
+            broadcast();
+        end);
+    else
+        broadcast();
+    end
+end
+
+---@return void
+function TMB:broadcastToGroup()
+    GL:debug("TMB.broadcastToGroup");
+
+    if (self.broadcastInProgress) then
+        GL:error("Broadcast still in progress");
+        return false;
+    end
+
+    self.broadcastInProgress = true;
+
+    local broadcast = function ()
+        GL.Ace:ScheduleTimer(function ()
+            self.broadcastInProgress = false;
+        end, 10);
+
+        Events:fire("GL.TMB_BROADCAST_STARTED");
+
         GL:message("Broadcasting TMB data...");
 
         local Label = GL.Interface:get(GL.TMB, "Label.BroadcastProgress");
@@ -962,8 +1212,8 @@ function TMB:broadcast()
             "GROUP"
         ):send(function ()
             GL:success("TMB broadcast finished");
+            Events:fire("GL.TMB_BROADCAST_ENDED");
             self.broadcastInProgress = false;
-            GL.Events:fire("GL.TMB_BROADCAST_ENDED");
 
             Label = GL.Interface:get(GL.TMB, "Label.BroadcastProgress");
             if (Label) then
@@ -985,15 +1235,13 @@ function TMB:broadcast()
     if (UnitAffectingCombat("player")) then
         GL:message("You are currently in combat, delaying TMB broadcast");
 
-        GL.Events:register("TMBOutOfCombatListener", "PLAYER_REGEN_ENABLED", function ()
-            GL.Events:unregister("TMBOutOfCombatListener");
-            Broadcast();
+        Events:register("TMBOutOfCombatListener", "PLAYER_REGEN_ENABLED", function ()
+            Events:unregister("TMBOutOfCombatListener");
+            broadcast();
         end);
     else
-        Broadcast();
+        broadcast();
     end
-
-    return true;
 end
 
 --- Process an incoming TMB broadcast
@@ -1003,7 +1251,7 @@ function TMB:receiveBroadcast(CommMessage)
     GL:debug("TMB:receiveBroadcast");
 
     -- No need to update our tables if we broadcasted them ourselves
-    if (CommMessage.Sender.id == GL.User.id) then
+    if (CommMessage.Sender.isSelf) then
         GL:debug("TMB:receiveBroadcast received by self, skip");
         return true;
     end

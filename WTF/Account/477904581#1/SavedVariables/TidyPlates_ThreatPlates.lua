@@ -33,7 +33,7 @@ ThreatPlatesDB = {
 		["Zandalar - Zandalar Tribe"] = "Default",
 	},
 	["global"] = {
-		["version"] = "11.1.9",
+		["version"] = "11.1.15",
 	},
 	["profiles"] = {
 		["Default"] = {

@@ -415,11 +415,24 @@ NRC.options = {
 					softMax = 50,
 					step = 1,
 				},
+				raidCooldownsPadding = {
+					type = "range",
+					name = L["raidCooldownsPaddingTitle"],
+					desc = L["raidCooldownsPaddingDesc"],
+					order = 26,
+					get = "getRaidCooldownsPadding",
+					set = "setRaidCooldownsPadding",
+					min = -10,
+					max = 20,
+					softMin = -10,
+					softMax = 20,
+					step = 1,
+				},
 				raidCooldownsBackdropAlpha = {
 					type = "range",
 					name = L["raidCooldownsBackdropAlphaTitle"],
 					desc = L["raidCooldownsBackdropAlphaDesc"],
-					order = 26,
+					order = 27,
 					get = "getRaidCooldownsBackdropAlpha",
 					set = "setRaidCooldownsBackdropAlpha",
 					min = 0,
@@ -432,7 +445,7 @@ NRC.options = {
 					type = "range",
 					name = L["raidCooldownsBorderAlphaTitle"],
 					desc = L["raidCooldownsBorderAlphaDesc"],
-					order = 27,
+					order = 28,
 					get = "getRaidCooldownsBorderAlpha",
 					set = "setRaidCooldownsBorderAlpha",
 					min = 0,
@@ -557,6 +570,14 @@ NRC.options = {
 					order = 38,
 					get = "getRaidCooldownsFontOutline",
 					set = "setRaidCooldownsFontOutline",
+				},
+				raidCooldownsShowDead = {
+					type = "toggle",
+					name = L["raidCooldownsShowDeadTitle"],
+					desc = L["raidCooldownsShowDeadDesc"],
+					order = 39,
+					get = "getRaidCooldownsShowDead",
+					set = "setRaidCooldownsShowDead",
 				},
 				--[[raidCooldownsDisableMouse = {
 					type = "toggle",
@@ -2252,6 +2273,19 @@ NRC.options = {
 					max = 50,
 					softMin = 10,
 					softMax = 50,
+					step = 1,
+				},
+				raidManaPadding = {
+					type = "range",
+					name = L["raidManaPaddingTitle"],
+					desc = L["raidManaPaddingDesc"],
+					order = 26,
+					get = "getRaidManaPadding",
+					set = "setRaidManaPadding",
+					min = -10,
+					max = 20,
+					softMin = -10,
+					softMax = 20,
 					step = 1,
 				},
 				raidManaBackdropAlpha = {
@@ -4005,6 +4039,35 @@ function NRC:loadExtraOptions()
 			get = function(info) return NRC.config.raidCooldownVampiricBloodFrame; end,
 			set = function(info, value) NRC.config.raidCooldownVampiricBloodFrame = value; NRC:reloadRaidCooldowns(); end,
 		};
+		NRC.options.args.raidCooldowns.args.raidCooldownAntiMagicShell = {
+			type = "toggle",
+			name = "|cFFC41E3A" .. L["raidCooldownAntiMagicShellTitle"],
+			desc = L["raidCooldownAntiMagicShellDesc"],
+			order = 116,
+			width = spellWidth,
+			get = "getRaidCooldownAntiMagicShell",
+			set = "setRaidCooldownAntiMagicShell",
+		};
+		NRC.options.args.raidCooldowns.args.raidCooldownAntiMagicShellMerged = {
+			type = "toggle",
+			name = "|cFFC41E3A" .. L["Merged"],
+			desc = string.format(L["mergedDesc"], L["Anti-Magic Shell"]),
+			order = 117,
+			width = mergedWidth,
+			get = function(info) return NRC.config.raidCooldownAntiMagicShellMerged; end,
+			set = function(info, value) NRC.config.raidCooldownAntiMagicShellMerged = value; NRC:reloadRaidCooldowns(); end,
+		};
+		NRC.options.args.raidCooldowns.args.raidCooldownAntiMagicShellFrame = {
+			type = "select",
+			name = "",
+			desc = string.format(L["frameDesc"], L["Anti-Magic Shell"]),
+			values = setCooldownFrameOption(true),
+			sorting = setCooldownFrameOption(),
+			order = 118,
+			width = frameWidth,
+			get = function(info) return NRC.config.raidCooldownAntiMagicShellFrame; end,
+			set = function(info, value) NRC.config.raidCooldownAntiMagicShellFrame = value; NRC:reloadRaidCooldowns(); end,
+		};
 		--Paladin.
 		--Replace Blessing of Protection with Hand of Protection.
 		NRC.options.args.raidCooldowns.args.raidCooldownBlessingofProtection = {
@@ -4413,7 +4476,7 @@ NRC.optionDefaults = {
 		middleColorR = 1, middleColorG = 0.96, middleColorB = 0.41,
 		mmColorR = 1, mmColorG = 1, mmColorB = 1,
 		detectSameInstance = true,
-		raidCooldownsBackdropAlpha = 0.3,
+		raidCooldownsBackdropAlpha = 0.4,
 		raidCooldownsBorderAlpha = 0.2,
 		raidCooldownsGrowthDirection = 1,
 		raidCooldownsNumType = 1,
@@ -4428,6 +4491,7 @@ NRC.optionDefaults = {
 		raidCooldownsWidth = 150,
 		raidCooldownsHeight = 20,
 		raidCooldownsFontOutline = "NONE",
+		raidCooldownsPadding = 0,
 		
 		raidManaBackdropAlpha = 0.3,
 		raidManaBorderAlpha = 0,
@@ -4442,6 +4506,7 @@ NRC.optionDefaults = {
 		raidManaWidth = 130,
 		raidManaHeight = 15,
 		raidManaFontOutline = "NONE",
+		raidManaPadding = 3,
 		
 		sreFont = "NRC Default",
 		sreFontOutline = "NONE",
@@ -4573,6 +4638,7 @@ NRC.optionDefaults = {
 		raidStatusFadeReadyCheck = false,
 		raidStatusHideCombat = false,
 		raidCooldownsNecksRaidOnly = true,
+		raidCooldownsShowDead = true,
 		logDungeons = false,
 		logRaids = true,
 		summonStoneMsg = true,
@@ -4702,15 +4768,15 @@ NRC.optionDefaults = {
 		raidCooldownAntiMagicZone = false,
 		raidCooldownAntiMagicZoneMerged = true,
 		raidCooldownAntiMagicZoneFrame = 1,
+		raidCooldownAntiMagicShell = false,
+		raidCooldownAntiMagicShellMerged = true,
+		raidCooldownAntiMagicShellFrame = 1,
 		raidCooldownUnholyFrenzy = false,
 		raidCooldownUnholyFrenzyMerged = true,
 		raidCooldownUnholyFrenzyFrame = 1,
 		raidCooldownVampiricBlood = false,
 		raidCooldownVampiricBloodMerged = true,
 		raidCooldownVampiricBloodFrame = 1,
-		raidCooldownAntiMagicZone = false,
-		raidCooldownAntiMagicZoneMerged = true,
-		raidCooldownAntiMagicZoneFrame = 1,
 		--Druid.
 		raidCooldownRebirth = true,
 		raidCooldownRebirthMerged = true,
@@ -4957,6 +5023,8 @@ NRC.optionDefaults = {
 		--Debug.
 		--raidCooldownArcaneIntellect = true,
 		--raidCooldownFelArmor = true,
+		--raidCooldownFelArmorMerged = true,
+		--raidCooldownFelArmorFrame = 1,
 	},
 };
 
@@ -5074,12 +5142,11 @@ local function loadNewVersionFrame()
 	frame.scrollChild.fs:SetText("|cFFFFFF00Nova Raid Companion");
 	frame.scrollChild.fs2:SetText("|cFFFFFF00New in version|r |cFFFF6900" .. string.format("%.2f", NRC.version));
 	frame:Hide();
-	linesVersion = 1.24;
+	linesVersion = 1.29;
 	local lines = {
-		"New feature: Glyph inspecting.\n-Inspecting a player with NRC or the weakaura helper will also show their glyphs.\n-Clicking the talents icon of a player in the raid status window when expanding with the \"More\" button will show their glyphs if they have NRC.",
-		"New feature: Dispels tracking\n-Offensive Dispel options added to send your offensive dispels/purges/tranq shot to group or /say or just print to your own window.\n-Seperate options for your own dispels and other players dispels.\n-This was mainly added for hunter tranq shot removing enrage but works for all classes with a dispel.\n-All dispel options are turned off by default, you need to enable if you want them.\n-New dispels options have also been added to scrolling raid events if you want see them scroll by there.",
-		"New feature: Trades exporting to spreadsheet.\n-An export button has been added to the \"All Trades\" window and Trades tab for a specific raid in the log.\n-For \"All Trades\" chose with the sliders the start and end trade to export all between those numbers.\n-For the Trades tab in a specific raid only trades during that raid will be included.",
-		"Added autoinvite to group via whisper option with keyword.\nAdded a dropdown box on the loot export window to change date format.\nAdded shortcut to open current raid loot log, control left click minimap button or type /nrc loot.\nAdded raid type (10m/25m) info to minimap button tooltip lockouts and raid log entries.\nAdded Dalaran Intellect and Brilliance buffs to raid status.\nAdded Fort/Int/Motw/Kings runescrolls and drums to raid status.\nAdded Starfall to raid cooldowns.\nAdded Challenging Road aoe taunt to raid cooldowns.\nAdded Fire Elemental Totem to raid cooldowns.\nAdded hunter distracting shot options to announce your cast to group or yell/say.\nItems in the loot log shows tooltip on mouseover instead of clicking, you can still right click an itemlink or anywhere on the entry to change looter.\nFixed Malygos and Sarth data so loot can be assigned correctly and models show up in raid log.\nFixed config option for dk Unholy Frenzy raid cooldown, it can now be enabled.\nFixed config option for druid Tranquility raid cooldown., it can now be enabled.\nFixed priest guardian spirit cooldown not showing up (it had wrong talent data).\nThe NRC helper weakaura has been updated for wrath on wago https://wago.io/sof4ehBA6 (for people without the addon to share shares talents/glyphs data etc).",
+		"The \"don't release\" feature will now also disable the release button, hold shift to release to override if you really want to release during an encounter.",
+		"Added a padding config option to raid cooldowns and raid mana so you can adjust the spacing between each one.",
+		"Various other small fixes and tweaks.",
 	};
 	local text = "";
 	--Seperator lines couldn't be used because the wow client won't render 1 pixel frames if they are in certain posotions.
@@ -5361,6 +5428,17 @@ function NRC:getRaidCooldownsNecksRaidOnly(info)
 	return self.config.raidCooldownsNecksRaidOnly;
 end
 
+--Show raid cooldowns dead players.
+function NRC:setRaidCooldownsShowDead(info, value)
+	self.config.raidCooldownsShowDead = value;
+	NRC:updateRaidCooldownsShowDead();
+	NRC:updateRaidCooldowns();
+end
+
+function NRC:getRaidCooldownsShowDead(info)
+	return self.config.raidCooldownsShowDead;
+end
+
 --Raid cooldowns font.
 function NRC:setRaidCooldownsFont(info, value)
 	self.db.global.raidCooldownsFont = value;
@@ -5419,6 +5497,16 @@ end
 
 function NRC:getRaidCooldownsHeight(info)
 	return self.db.global.raidCooldownsHeight;
+end
+
+--Raid cooldowns padding.
+function NRC:setRaidCooldownsPadding(info, value)
+	self.db.global.raidCooldownsPadding = value;
+	NRC:updateRaidCooldownFramesLayout();
+end
+
+function NRC:getRaidCooldownsPadding(info)
+	return self.db.global.raidCooldownsPadding;
 end
 
 --Disable mouseover when inactive.
@@ -5629,13 +5717,13 @@ function NRC:getRaidCooldownAntiMagicZone(info)
 	return self.config.raidCooldownAntiMagicZone;
 end
 
-function NRC:setRaidCooldownAntiMagicShield(info, value)
-	self.config.raidCooldownAntiMagicShield = value;
+function NRC:setRaidCooldownAntiMagicShell(info, value)
+	self.config.raidCooldownAntiMagicShell = value;
 	NRC:reloadRaidCooldowns();
 end
 
-function NRC:getRaidCooldownAntiMagicShield(info)
-	return self.config.raidCooldownAntiMagicShield;
+function NRC:getRaidCooldownAntiMagicShell(info)
+	return self.config.raidCooldownAntiMagicShell;
 end
 
 function NRC:setRaidCooldownUnholyFrenzy(info, value)
@@ -7253,6 +7341,16 @@ function NRC:getRaidManaHeight(info)
 	return self.db.global.raidManaHeight;
 end
 
+--Raid mana padding.
+function NRC:setRaidManaPadding(info, value)
+	self.db.global.raidManaPadding = value;
+	NRC:updateRaidManaFramesLayout();
+end
+
+function NRC:getRaidManaPadding(info)
+	return self.db.global.raidManaPadding;
+end
+
 --Raid mana resurrection.
 function NRC:setRaidManaResurrection(info, value)
 	self.config.raidManaResurrection = value;
@@ -7447,14 +7545,17 @@ end
 --Lock all frames.
 function NRC:setLockAllFrames(info, value)
 	self.config.lockAllFrames = value;
-	NRC:updateFrameLocks();
+	NRC:updateFrameLocks(value);
 end
 
 function NRC:getLockAllFrames(info)
 	return self.config.lockAllFrames;
 end
 
-function NRC:updateFrameLocks()
+function NRC:updateFrameLocks(locked)
+	if (locked) then
+		NRC:print("|cFF00C800[Locking All Frames]|r To unlock them again type /nrc and untick the lock option at the top.")
+	end
 	NRC:raidCooldownsUpdateFrameLocks();
 	NRC:sreUpdateFrameLocks();
 	NRC:raidManaUpdateFrameLocks();

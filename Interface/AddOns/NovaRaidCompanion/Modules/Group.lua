@@ -19,6 +19,7 @@ local pairs = pairs;
 local GetNormalizedRealmName = GetNormalizedRealmName;
 local tinsert = tinsert;
 local cachedGetNormalizedRealmName;
+local lastGroupJoin = 0;
 
 function NRC:updateGroupCache()
 	local group = {};
@@ -223,6 +224,9 @@ function NRC:groupMemberLeft(name, data)
 end
 
 function NRC:groupMemberOnline(name, data)
+	if (GetTime() - lastGroupJoin < 1) then
+		return;
+	end
 	--print(name, "came online")
 	NRC:updateSoulstoneDurations();
 	if (NRC.config.sreOnlineStatus) then
@@ -231,6 +235,9 @@ function NRC:groupMemberOnline(name, data)
 end
 
 function NRC:groupMemberOffline(name, data)
+	if (GetTime() - lastGroupJoin < 1) then
+		return;
+	end
 	--print(name, "went offline")
 	if (NRC.config.sreOnlineStatus) then
 		NRC:sreOnlineStatusEvent(name, data.class);
@@ -954,6 +961,7 @@ f:SetScript('OnEvent', function(self, event, ...)
 			--Sometimes we get both these events so have a cooldown to not send data twice.
 			if (GetTime() - lastSendData > 2 and GetNumGroupMembers() > 1) then
 				lastSendData = GetTime();
+				lastGroupJoin = GetTime();
 				--NRC:throddleEventByFunc(event, 5, "requestData", ...);
 				NRC:throddleEventByFunc(event, 1, "loadGroupMana", ...);
 				NRC:throddleEventByFunc(event, 2, "updateHealerCache", "GROUP_JOINED");

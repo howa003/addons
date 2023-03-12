@@ -3,6 +3,7 @@ local GetTalentTabInfo = GetTalentTabInfo
 local time             = time
 local gmatch           = gmatch
 local L                = LibStub('AceLocale-3.0'):GetLocale('Groupie')
+local LGS              = LibStub("LibGearScore.1000", true)
 local CI               = LibStub("LibClassicInspector")
 local myname           = UnitName("player")
 
@@ -280,18 +281,20 @@ function addon.GenerateGuildToggles(order, myserver, configGroup)
 
     for guild, list in pairs(addon.db.global.guilds[myserver]) do
         local nameStr = list["__NAME__"]
-        addon.options.args[configGroup].args[nameStr .. "toggle"] = {
-            type = "toggle",
-            name = "<" .. nameStr .. "> of " .. myserver,
-            order = initorder,
-            width = "full",
-            get = function(info) return not addon.db.global.hiddenGuilds[myserver][nameStr] end,
-            set = function(info, val)
-                addon.db.global.hiddenGuilds[myserver][nameStr] = not val
-                addon.UpdateFriends()
-            end,
-        }
-        initorder = initorder + 1
+        if nameStr ~= nil then
+            addon.options.args[configGroup].args[nameStr .. "toggle"] = {
+                type = "toggle",
+                name = "<" .. nameStr .. "> of " .. myserver,
+                order = initorder,
+                width = "full",
+                get = function(info) return not addon.db.global.hiddenGuilds[myserver][nameStr] end,
+                set = function(info, val)
+                    addon.db.global.hiddenGuilds[myserver][nameStr] = not val
+                    addon.UpdateFriends()
+                end,
+            }
+            initorder = initorder + 1
+        end
     end
 end
 
@@ -714,6 +717,13 @@ end
 
 --Calculate the player's own ilvl average
 function addon.MyILVL()
+    if LGS then
+        local _, gsData = LGS:GetScore("player")
+        if gsData and gsData.GearScore and gsData.GearScore > 0 then
+            return gsData.AvgItemLevel
+        end
+    end
+
     local iLevelSum = 0
     for slotNum = 1, 19 do
         --Exclude shirt and tabard slots from itemlevel calculation
@@ -742,6 +752,12 @@ end
 
 --Calculate the average ilvl for a given GUID
 function addon.GetILVLByGUID(guid)
+    if LGS then
+        local _, gsData = LGS:GetScore(guid)
+        if gsData and gsData.GearScore and gsData.GearScore > 0 then
+            return gsData.AvgItemLevel
+        end
+    end
 
     if addon.ILVLCache[guid] then
         return addon.ILVLCache[guid]

@@ -1,8 +1,6 @@
 
 PawnOptions = {
 	["LastVersion"] = 2.0715,
-	["LastPlayerFullName"] = "Azerot-Golemagg",
-	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		nil, -- [1]
 		{
@@ -78,6 +76,8 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:11288::::::::18:::::::::|h[Greater Magic Wand]|h|r",
 		}, -- [18]
 	},
+	["AutoSelectScales"] = false,
+	["LastPlayerFullName"] = "Azerot-Golemagg",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

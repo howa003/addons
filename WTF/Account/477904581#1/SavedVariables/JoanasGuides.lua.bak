@@ -10,9 +10,9 @@ JoanasGuides_Account = {
 		-92.12792205810547, -- [5]
 	},
 	["scale"] = 1,
-	["enableStepID"] = true,
-	["objectiveCompletionSound"] = true,
 	["JoanasGuides-MinimapButton"] = {
-		["position"] = -2.559624636041118,
+		["position"] = -2.351656612067641,
 	},
+	["objectiveCompletionSound"] = true,
+	["enableStepID"] = true,
 }

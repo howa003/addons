@@ -36,6 +36,32 @@ function SoftRes:_init()
         return false;
     end
 
+    --- Connect to LootReserve
+    GL.Ace:ScheduleTimer(function()
+        if (type(_G.LootReserve) ~= "table"
+            or type(_G.LootReserve.RegisterListener) ~= "function"
+        ) then
+            return;
+        end
+
+        local success, result = pcall(function()
+            return _G.LootReserve:RegisterListener(
+                "RESERVES",
+                GL.name,
+                function(Reserves)
+                    self:importLootReserveData(Reserves);
+                end
+            );
+        end);
+
+        if (success and result) then
+            _G.LootReserve:PromptListener("RESERVES", GL.name)
+        else
+            GL:error("Failed to connect to LootReserve, contact support (include message below)");
+            DevTools_Dump({ success, result });
+        end
+    end, 5);
+
     --- Register listener for whisper command.
     GL.Events:register("SoftResWhisperListener", "CHAT_MSG_WHISPER", function (event, message, sender)
         if (self:available()
@@ -284,10 +310,9 @@ end
 --- Materialize the SoftRes data to make it more accessible during runtime
 ---
 ---@return void
-function SoftRes:materializeData(reportStatus)
+function SoftRes:materializeData()
     GL:debug("SoftRes:materializeData");
 
-    reportStatus = GL:toboolean(reportStatus);
     local ReservedItemIDs = {}; -- All reserved item ids (both soft- and hard)
     local SoftReservedItemIDs = {}; -- Soft-reserved item ids
     local DetailsByPlayerName = {}; -- Item ids per player name
@@ -408,6 +433,24 @@ function SoftRes:draw()
     );
 end
 
+---@param itemID number|string
+---@return nil|string, nil|string
+function SoftRes:getHardReserveDetailsByID(itemID)
+    local Details = GL:tableGet(SoftRes, "MaterializedData.HardReserveDetailsByID." .. tostring(itemID));
+
+    if (not Details) then
+        return;
+    end
+
+    return Details.reservedFor, Details.note;
+end
+
+---@param itemLink string
+---@return nil|string, nil|string
+function SoftRes:getHardReserveDetailsByItemLink(itemLink)
+    return self:getHardReserveDetailsByID(GL:getItemIDFromLink(itemLink));
+end
+
 --- Get soft-reserve details for a given player
 ---
 ---@param name string The name of the player
@@ -507,7 +550,7 @@ end
 ---
 ---@return void
 function SoftRes:clear()
-    DB.SoftRes = {};
+    DB:set("SoftRes", {});
     self.MaterializedData = {
         ClassByPlayerName = {},
         DetailsByPlayerName = {},
@@ -518,6 +561,8 @@ function SoftRes:clear()
     };
 
     GL.Interface.SoftRes.Overview:close();
+
+    GL.Events:fire("GL.SOFTRES_CLEARED");
 end
 
 --- Check whether the given player reserved the given item id
@@ -600,9 +645,30 @@ function SoftRes:tooltipLines(itemLink)
         return {};
     end
 
+    local Lines = {};
+
     -- Check if the item is hard-reserved
-    if (self:linkIsHardReserved(itemLink)) then
-        return { string.format("|cFFcc2743%s|r", "\nThis item is hard-reserved!") };
+    local hardReservedFor, hardReservedNote = self:getHardReserveDetailsByItemLink(itemLink);
+    if (hardReservedFor or hardReservedNote) then
+        tinsert(Lines, string.format("\n|cFFcc2743%s|r", "This item is hard-reserved."));
+        if (hardReservedFor) then
+            local forString = string.format("|cFFcc2743 For:|r |cFF%s%s|r",
+                GL:classHexColor(self:getPlayerClass(hardReservedFor, false)),
+                hardReservedFor
+            );
+
+            tinsert(Lines, forString);
+        end
+
+        if (hardReservedNote) then
+            local noteString = string.format("|cFFcc2743 Note:|r %s",
+                hardReservedNote
+            );
+
+            tinsert(Lines, noteString);
+        end
+
+        return Lines;
     end
 
     local Reservations = self:byItemLink(itemLink);
@@ -624,8 +690,6 @@ function SoftRes:tooltipLines(itemLink)
         return {};
     end
 
-    local Lines = {};
-
     -- Add the header
     tinsert(Lines, string.format("\n|cFFEFB8CD%s|r", "Reserved by"));
 
@@ -641,7 +705,11 @@ function SoftRes:tooltipLines(itemLink)
 
     -- Sort the reservations based on whoever reserved it more often (highest to lowest)
     table.sort(ActiveReservations, function (a, b)
-        return a.reservations > b.reservations;
+        if (a.reservations and b.reservations) then
+            return a.reservations > b.reservations;
+        end
+
+        return false;
     end);
 
     -- Add the reservation details to ActiveReservations (add 2x / 3x etc when same item was reserved multiple times)
@@ -718,16 +786,6 @@ function SoftRes:import(data, openOverview)
         return false;
     end
 
-    -- Reset the materialized data
-    self.MaterializedData = {
-        ClassByPlayerName = {},
-        DetailsByPlayerName = {},
-        HardReserveDetailsByID = {},
-        PlayerNamesByItemID = {},
-        ReservedItemIDs = {},
-        SoftReservedItemIDs = {},
-    };
-
     -- Attempt to "fix" player names (e.g. people misspelling their names)
     if (Settings:get("SoftRes.fixPlayerNames", true)) then
         local RewiredNames = self:fixPlayerNames();
@@ -743,10 +801,20 @@ function SoftRes:import(data, openOverview)
         end
     end
 
-    GL.Events:fire("GL.SOFTRES_IMPORTED");
+    -- Reset the materialized data
+    self.MaterializedData = {
+        ClassByPlayerName = {},
+        DetailsByPlayerName = {},
+        HardReserveDetailsByID = {},
+        PlayerNamesByItemID = {},
+        ReservedItemIDs = {},
+        SoftReservedItemIDs = {},
+    };
 
     -- Materialize the data for ease of use
-    self:materializeData(reportStatus);
+    self:materializeData();
+
+    GL.Events:fire("GL.SOFTRES_IMPORTED");
 
     if (reportStatus) then
         -- Display missing soft-reserves
@@ -798,6 +866,60 @@ function SoftRes:import(data, openOverview)
     end
 
     return true;
+end
+
+--- Import data from LootReserve. This happens automatically via an event listener
+---
+---@param Reserves table
+---@return void
+function SoftRes:importLootReserveData(Reserves)
+    GL:debug("SoftRes:importLootReserveData");
+
+    if (GL:empty(Reserves)) then
+        return;
+    end
+
+    local SoftReserveData = {};
+    for player, Reserved in pairs(Reserves or {}) do
+        if (not GL:empty(Reserved)) then
+            SoftReserveData[player] = {
+                Items = Reserved,
+                name = string.lower(player),
+            };
+        end
+    end
+
+    if (GL:empty(SoftReserveData)) then
+        return;
+    end
+
+    -- Reset the materialized data
+    self.MaterializedData = {
+        ClassByPlayerName = {},
+        DetailsByPlayerName = {},
+        HardReserveDetailsByID = {},
+        PlayerNamesByItemID = {},
+        ReservedItemIDs = {},
+        SoftReservedItemIDs = {},
+    };
+
+    DB:set("SoftRes", {
+        SoftReserves = {},
+        HardReserves = {}, -- The weakaura format (CSV) doesn't include hard-reserves
+        MetaData = {
+            source = Constants.SoftReserveSources.lootReserve,
+            importedAt = GetServerTime(),
+            importString = "",
+        },
+    });
+
+    -- We don't care for the playerName key in our database
+    for _, Entry in pairs(SoftReserveData) do
+        DB:add("SoftRes.SoftReserves", Entry);
+    end
+
+    -- Materialize the data for ease of use
+    self:materializeData();
 end
 
 --- Import a Gargul data string
@@ -940,7 +1062,7 @@ function SoftRes:importGargulData(data)
                 end
             end
 
-            local currentPlusOneValue = GL.PlusOnes:get(name);
+            local currentPlusOneValue = GL.PlusOnes:getPlusOnes(name);
 
             -- We don't simply overwrite the PlusOnes if plusone data is already present
             -- If the player doesn't have any plusones yet then we set it to whatever is provided by softres
@@ -951,7 +1073,7 @@ function SoftRes:importGargulData(data)
             ) then
                 differentPlusOnes = true;
             else
-                GL.PlusOnes:set(name, plusOnes);
+                GL.PlusOnes:setPlusOnes(name, plusOnes);
             end
 
             PlusOnes[name] = plusOnes;
@@ -985,7 +1107,7 @@ function SoftRes:importGargulData(data)
             GL.Interface.Dialogs.PopupDialog:open({
                 question = "Do you want to clear all previous PlusOne values?",
                 OnYes = function ()
-                    GL.PlusOnes:clear();
+                    GL.PlusOnes:clearPlusOnes();
                 end,
             });
         end
@@ -994,8 +1116,8 @@ function SoftRes:importGargulData(data)
         GL.Interface.Dialogs.PopupDialog:open({
             question = "The PlusOne values provided collide with the ones already present. Do you want to replace your old PlusOne values?",
             OnYes = function ()
-                GL.PlusOnes:clear();
-                GL.PlusOnes:set(PlusOnes);
+                GL.PlusOnes:clearPlusOnes();
+                GL.PlusOnes:setPlusOnes(PlusOnes);
                 GL.Interface.SoftRes.Overview:close();
                 self:draw();
             end,
@@ -1057,7 +1179,7 @@ function SoftRes:importCSVData(data, reportStatus)
                     };
                 end
 
-                local currentPlusOneValue = GL.PlusOnes:get(playerName);
+                local currentPlusOneValue = GL.PlusOnes:getPlusOnes(playerName);
 
                 -- We don't simply overwrite the PlusOnes if plusone data is already present
                 -- If the player doesn't have any plusones yet then we set it to whatever is provided by softres
@@ -1068,7 +1190,7 @@ function SoftRes:importCSVData(data, reportStatus)
                 ) then
                     differentPlusOnes = true;
                 else
-                    GL.PlusOnes:set(playerName, plusOnes);
+                    GL.PlusOnes:setPlusOnes(playerName, plusOnes);
                 end
 
                 PlusOnes[playerName] = plusOnes;
@@ -1086,7 +1208,7 @@ function SoftRes:importCSVData(data, reportStatus)
         return false;
     end
 
-    DB.SoftRes = {
+    DB:set("SoftRes", {
         SoftReserves = {},
         HardReserves = {}, -- The weakaura format (CSV) doesn't include hard-reserves
         MetaData = {
@@ -1094,11 +1216,11 @@ function SoftRes:importCSVData(data, reportStatus)
             importedAt = GetServerTime(),
             importString = data,
         },
-    };
+    });
 
     -- We don't care for the playerName key in our database
     for _, Entry in pairs(SoftReserveData) do
-        tinsert(DB.SoftRes.SoftReserves, Entry);
+        DB:add("SoftRes.SoftReserves", Entry);
     end
 
     -- At this point we don't really know anyone's plus one because SoftRes doesn't support realm tags (yet)
@@ -1107,7 +1229,7 @@ function SoftRes:importCSVData(data, reportStatus)
             GL.Interface.Dialogs.PopupDialog:open({
                 question = "Do you want to clear all previous PlusOne values?",
                 OnYes = function ()
-                    GL.PlusOnes:clear();
+                    GL.PlusOnes:clearPlusOnes();
                 end,
             });
         end
@@ -1116,8 +1238,8 @@ function SoftRes:importCSVData(data, reportStatus)
         GL.Interface.Dialogs.PopupDialog:open({
             question = "The PlusOne values provided collide with the ones already present. Do you want to replace your old PlusOne values?",
             OnYes = function ()
-                GL.PlusOnes:clear();
-                GL.PlusOnes:set(PlusOnes);
+                GL.PlusOnes:clearPlusOnes();
+                GL.PlusOnes:setPlusOnes(PlusOnes);
                 GL.Interface.SoftRes.Overview:close();
                 self:draw();
             end,
@@ -1260,7 +1382,7 @@ function SoftRes:receiveSoftRes(CommMessage)
     GL:debug("SoftRes:receiveSoftRes");
 
     -- No need to update our tables if we broadcasted them ourselves
-    if (CommMessage.Sender.name == GL.User.name) then
+    if (CommMessage.Sender.isSelf) then
         GL:debug("Sync:receiveSoftRes received by self, skip");
         return true;
     end

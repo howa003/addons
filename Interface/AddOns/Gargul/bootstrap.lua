@@ -16,11 +16,11 @@ GL.clientIsDragonFlightOrLater = false;
 GL.version = GetAddOnMetadata(GL.name, "Version");
 GL.DebugLines = {};
 GL.EventFrame = nil;
-GL.auctionHouseIsShown = false
-GL.bankIsShown = false
-GL.guildBankIsShown = false
-GL.mailIsShown = false
-GL.merchantIsShown = false
+GL.auctionHouseIsShown = false;
+GL.bankIsShown = false;
+GL.guildBankIsShown = false;
+GL.mailIsShown = false;
+GL.merchantIsShown = false;
 GL.loadedOn = 32503680000; -- Year 3000
 
 -- Register our addon with the Ace framework
@@ -129,20 +129,24 @@ function GL:_init()
     self.TMB:_init();
     self.GDKP.Session:_init();
     self.BoostedRolls:_init();
+    self.PlusOnes:_init();
     self.DroppedLoot:_init();
     self.GroupLoot:_init();
     self.PackMule:_init();
+    self.DroppedLootLedger:_init();
     self.TradeWindow:_init();
+    self.GDKP.Auctioneer:_init();
     self.Interface.MasterLooterDialog:_init();
     self.Interface.TradeWindow.TimeLeft:_init();
     self.Interface.GDKP.BidderQueue:_init();
+    self.Interface.GDKP.Distribute.MailCuts:_init();
 
     -- Hook native window events
     self:hookNativeWindowEvents();
 
     -- Hook item click events
     hooksecurefunc("HandleModifiedItemClick", function(itemLink)
-        self:handleItemClick(itemLink, "ModifiedButton");
+        self:handleItemClick(itemLink, GetMouseButtonClicked());
     end);
 
     -- Hook item tooltip events
@@ -163,7 +167,6 @@ function GL:_init()
 
     -- Show the changelog window
     GL.Interface.Changelog:reportChanges();
-
 end
 
 -- Register the gl slash command
@@ -207,6 +210,48 @@ end
 ---
 ---@return void
 function GL:hookNativeWindowEvents()
+    -- Make sure to reset window states when zoning
+    GL.Events:register("BootstrapPlayerEnteringWorld", "PLAYER_ENTERING_WORLD", function ()
+        GL.auctionHouseIsShown = false;
+        GL.bankIsShown = false;
+        GL.guildBankIsShown = false;
+        GL.mailIsShown = false;
+        GL.merchantIsShown = false;
+    end);
+
+    -- See https://wowpedia.fandom.com/wiki/PLAYER_INTERACTION_MANAGER_FRAME_HIDE for types
+    if (not GL.isEra) then
+        GL.Events:register("BootstrapPlayerInteractionShow", "PLAYER_INTERACTION_MANAGER_FRAME_SHOW", function(_, type)
+            if (type == 5) then
+                self.merchantIsShown = true;
+            elseif (type == 8) then
+                self.bankIsShown = true;
+            elseif (type == 10) then
+                self.guildBankIsShown = true;
+            elseif (type == 17) then
+                self.mailIsShown = true;
+            elseif (type == 21) then
+                self.auctionHouseIsShown = true;
+            end
+        end);
+
+        GL.Events:register("BootstrapPlayerInteractionHide", "PLAYER_INTERACTION_MANAGER_FRAME_HIDE", function(_, type)
+            if (type == 5) then
+                self.merchantIsShown = false;
+            elseif (type == 8) then
+                self.bankIsShown = false;
+            elseif (type == 10) then
+                self.guildBankIsShown = false;
+            elseif (type == 17) then
+                self.mailIsShown = false;
+            elseif (type == 21) then
+                self.auctionHouseIsShown = false;
+            end
+        end);
+
+        return;
+    end
+
     GL.Events:register("BootstrapAuctionHouseShowListener", "AUCTION_HOUSE_SHOW", function()
         self.auctionHouseIsShown = true;
     end);

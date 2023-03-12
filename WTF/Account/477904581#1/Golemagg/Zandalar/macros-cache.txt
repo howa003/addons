@@ -74,8 +74,8 @@ VER 3 000000000100001D "TRN" "INV_MISC_QUESTIONMARK"
 /cast Elemental Mastery
 END
 VER 3 0000000001000017 "VuhDoDCShieldData" "Ability_Repair"
-R1SR1HR1PH1IR1SR2MR2DT2WM2SR3WM3PT3PT3DR3MR4RM4SH4DT4IR4IH5SR5MR5LR5WT[x]6WM6IR6ST7PH7PH7SR7HR7HR8RM8HR8DT8PM8IR[x][x][x]6SR[x]0__0__[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]0__[x][x][x][x][x][x][x][x]0__[x][x]0__[x][x][x][x][x][x][x]
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1SR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 0000000001000018 "VuhDoDCShieldNames" "Ability_Repair"
-NÁdaPelKimFurLarGreMetKhaAraIceFexOtoSicShoKibMdsYomLioSynLówMukRayRat[x]SkaXadShoLolIgnThuGidNatAncTrøNepDívPré[x][x][x]Zan[x]LobDém[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Rhu[x][x][x][x][x][x][x][x]Win[x][x]Tur[x][x][x][x][x][x][x]
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Zan[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END

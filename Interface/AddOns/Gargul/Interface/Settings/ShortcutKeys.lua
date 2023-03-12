@@ -36,7 +36,7 @@ function ShortcutKeys:draw(Parent)
         "CTRL_ALT_SHIFT_CLICK",
     }
 
-    local Checkboxes = {
+    Overview:drawCheckboxes({
         {
             label = "Shortcut Keys reminder",
             description = "Show a reminder when looting an enemy that shows your current shortcut key values",
@@ -46,9 +46,23 @@ function ShortcutKeys:draw(Parent)
             label = "Hotkeys should only work when I'm in a group",
             setting = "ShortcutKeys.onlyInGroup",
         },
-    }
+        {
+            label = "Double click to trade",
+            description = "When double clicking loot trade timers for example, attempt to trade with your current target or add the item to an active trade window (will not work from bags)",
+            setting = "ShortcutKeys.doubleClickToTrade",
+        },
+    }, Parent);
 
-    Overview:drawCheckboxes(Checkboxes, Parent);
+    pcall(function ()
+        if (LibStub("ClassicLootManager", true)) then
+            Overview:drawCheckboxes({
+                {
+                    label = "Disable when CLM raid is active",
+                    setting = "ShortcutKeys.disableWhenCLMIsActive",
+                },
+            }, Parent);
+        end
+    end);
 
     HorizontalSpacer = AceGUI:Create("SimpleGroup");
     HorizontalSpacer:SetLayout("FILL");

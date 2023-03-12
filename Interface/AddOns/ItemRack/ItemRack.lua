@@ -1,12 +1,13 @@
-ItemRack = {}
+local addonName, addon = ...
+_G[addonName] = addon
 
 local _
 
-ItemRack.Version = "3.73"
+ItemRack.Version = GetAddOnMetadata(addonName, "Version")
 
 function ItemRack.IsClassic()
 	return WOW_PROJECT_ID == WOW_PROJECT_CLASSIC
-  end
+end
 
 function ItemRack.IsBCC()
 	return WOW_PROJECT_ID == WOW_PROJECT_BURNING_CRUSADE_CLASSIC
@@ -14,6 +15,27 @@ end
 
 function ItemRack.IsWrath()
 	return WOW_PROJECT_ID == WOW_PROJECT_WRATH_CLASSIC
+end
+
+local GetContainerNumSlots, GetContainerItemLink, GetContainerItemCooldown, GetContainerItemInfo, GetItemCooldown, PickupContainerItem, ContainerIDToInventoryID
+if C_Container then
+	GetContainerNumSlots = C_Container.GetContainerNumSlots
+	GetContainerItemLink = C_Container.GetContainerItemLink
+	GetContainerItemCooldown = C_Container.GetContainerItemCooldown
+	GetItemCooldown = C_Container.GetItemCooldown
+	PickupContainerItem = C_Container.PickupContainerItem
+	ContainerIDToInventoryID = C_Container.ContainerIDToInventoryID
+	GetContainerItemInfo = function(bag, slot)
+		local info = C_Container.GetContainerItemInfo(bag, slot)
+		if info then
+			return info.iconFileID, info.stackCount, info.isLocked, info.quality, info.isReadable, info.hasLoot, info.hyperlink, info.isFiltered, info.hasNoValue, info.itemID, info.isBound
+		else
+			return
+		end
+	end
+else
+	GetContainerNumSlots, GetContainerItemLink, GetContainerItemCooldown, GetContainerItemInfo, GetItemCooldown, PickupContainerItem, ContainerIDToInventoryID =
+	_G.GetContainerNumSlots, _G.GetContainerItemLink, _G.GetContainerItemCooldown, _G.GetContainerItemInfo, _G.GetItemCooldown, _G.PickupContainerItem, _G.ContainerIDToInventoryID
 end
 
 local LDB = LibStub("LibDataBroker-1.1")
@@ -53,7 +75,7 @@ ItemRackSettings = {
 	AllowEmpty = "ON", -- allow empty slot as a choice in menus
 	HideTradables = "OFF", -- allow non-soulbound gear to appear in menu
 	AllowHidden = "ON", -- allow the ability to hide items/sets in the menu with alt+click
-	ShowMinimap = true, -- whether to show the minimap button
+	ShowMinimap = "ON", -- whether to show the minimap button
 	TrinketMenuMode = "OFF", -- whether to merge top/bottom trinkets to one menu (leftclick=top,rightclick=bottom)
 	AnotherOther = "OFF", -- whether to dock the merged trinket menu to bottom trinket
 	EquipToggle = "OFF", -- whether to toggle equipping a set when choosing to equip it
@@ -78,7 +100,7 @@ ItemRackItems = {
 }
 
 ItemRack.NoTitansGrip = {
-	["Polearms"] = 1,
+	["Polearms"] = 1, -- reverted in 3.4.1 to block Polearms from Titan's Grip again
 	["Fishing Poles"] = 1,
 	["Staves"] = 1
 }
@@ -539,8 +561,16 @@ function ItemRack.Print(msg)
 end
 
 function ItemRack.UpdateCurrentSet()
-	local texture = ItemRack.GetTextureBySlot(20)
-	local setname = ItemRackUser.CurrentSet or ""
+	local texture = "Interface\\AddOns\\ItemRack\\ItemRackIcon"
+	local setname = ItemRackUser.CurrentSet or _G.CUSTOM
+	if setname and setname ~= _G.CUSTOM then
+		local equipped = ItemRack.IsSetEquipped(setname)
+		if equipped then
+			texture = ItemRack.GetTextureBySlot(20)
+		else
+			setname = _G.CUSTOM
+		end
+	end
 	if ItemRackButton20 and ItemRackUser.Buttons[20] then
 		ItemRackButton20Icon:SetTexture(texture)
 		ItemRackButton20Name:SetText(setname)
@@ -577,6 +607,7 @@ end
 ItemRack.iSPatternRegularToIR = "item:(.-)\124h" --example: "62384:0:4041:4041:0:0:0:0:85:146:0:0", where 85 is the player's level when the itemLink/itemString was captured, in other words it's a regular itemString with the "item:" part removed
 ItemRack.iSPatternBaseIDFromIR = "^(%-?%d+)" --this must *only* be used on ItemRack-style IDs, and will return the first field (the itemID), allowing us to do loose item matching
 ItemRack.iSPatternBaseIDFromRegular = "item:(%-?%d+)" --this must *only* be used regular itemLinks/itemStrings, and will return the first field (the itemID), allowing us to do loose item matching
+ItemRack.iSPatternEnhancementsFromIR = "^(%-?%d+):(%-?%d*):(%-?%d*):(%-?%d*):(%-?%d*)" --this must *only* be used on ItemRack-style IDs, and will return itemID, enchantID, gem1, gem2, gem3
 function ItemRack.GetIRString(inputString,baseid,regular)
 	return string.match(inputString or "", (baseid and (regular and ItemRack.iSPatternBaseIDFromRegular or ItemRack.iSPatternBaseIDFromIR) or ItemRack.iSPatternRegularToIR)) or 0
 end
@@ -596,11 +627,15 @@ end
 -- returns an ItemRack-style ID (62384:0:4041:4041:0:0:0:0:85:146) if an item exists in that slot, or 0 for none
 -- bag,nil = inventory slot; bag,slot = container slot
 function ItemRack.GetID(bag,slot)
-	local itemLink
+	local _, itemLink
 	if slot then
 		itemLink = GetContainerItemLink(bag,slot)
 	else
-		itemLink = GetInventoryItemLink("player",bag)
+		if bag == INVSLOT_AMMO then -- classic workaround for ammo slot API bugs
+			_, itemLink = GetItemInfo(GetInventoryItemID("player",bag))
+		else
+			itemLink = GetInventoryItemLink("player",bag)
+		end
 	end
 	return ItemRack.GetIRString(itemLink)
 end
@@ -619,6 +654,15 @@ function ItemRack.GetInfoByID(id)
 		name,texture,quality = "(empty)","Interface\\Icons\\INV_Misc_QuestionMark",0 --default response on invalid ID
 	end
 	return name,texture,equip,quality
+end
+
+-- takes an iItemRack-style ID and parses out enchant and gem ids
+function ItemRack.GetEnhancements(itemRackID)
+	local itemID, enchantID, gem1, gem2, gem3 = 0,0,0,0,0
+	if itemRackID and itemRackID ~= "" then
+		itemID, enchantID, gem1, gem2, gem3 = itemRackID:match(ItemRack.iSPatternEnhancementsFromIR)
+	end
+	return tonumber(itemID), tonumber(enchantID), tonumber(gem1), tonumber(gem2), tonumber(gem3)
 end
 
 -- takes an ItemRack-style ID and returns how many items you own with that particular baseID (will not differentiate between enchanted/unenchanted versions, etc)
@@ -640,13 +684,13 @@ function ItemRack.FindItem(id,lock)
 	local knownID = ItemRack.KnownItems[id]
 	if knownID then
 		local bag,slot = math.floor(knownID/100),mod(knownID,100)
-		if bag<0 and not slot then
+		if bag < 0 and not slot then
 			bag = bag*-1
 			if id==getid(bag) and (not lock or not locklist[-2][bag]) then
 				if lock then locklist[-2][bag]=1 end
 				return bag
 			end
-		else
+		elseif slot and slot > 0 then
 			if id==getid(bag,slot) and (not lock or not locklist[bag][slot]) then
 				if lock then locklist[bag][slot]=1 end
 				return nil,bag,slot

@@ -14,6 +14,7 @@ local testData, testSoulstoneData, testRunning, testRunningTimer;
 local trackedSpellsCache, resSpellsCache = {}, {};
 local soulstoneSpellIDs = {};
 local recycledFrames = {};
+local castCache = {};
 local encounterStart;
 local units = NRC.units;
 local UnitGUID = UnitGUID;
@@ -29,10 +30,15 @@ local GetNormalizedRealmName = GetNormalizedRealmName;
 local GetPlayerInfoByGUID = GetPlayerInfoByGUID;
 local GetTalentInfo = GetTalentInfo;
 local soulstoneDuration = 1800;
+local showDead;
 if (not NRC.isTBc and not NRC.isClassic) then
 	soulstoneDuration = 900;
 end
 NRC.cooldownList = {};
+
+function NRC:updateRaidCooldownsShowDead()
+	showDead = NRC.config.raidCooldownsShowDead;
+end
 
 local resSpellsCache = {};
 local function loadResSpellsCache()
@@ -254,7 +260,7 @@ function NRC:updateRaidCooldownFramesLayout()
 					v.borderFrame:Show();
 					v:SetBackdrop({
 						bgFile = "Interface\\Buttons\\WHITE8x8",
-						insets = {top = 0, left = 0, bottom = 0, right = 0},
+						insets = {top = 1, left = 1, bottom = 1, right = 1},
 					});
 				end
 			else
@@ -262,7 +268,7 @@ function NRC:updateRaidCooldownFramesLayout()
 					v.borderFrame:Hide();
 					v:SetBackdrop({
 						bgFile = "Interface\\Buttons\\WHITE8x8",
-						insets = {top = 0, left = 0, bottom = 0, right = 0},
+						insets = {top = 1, left = 1, bottom = 1, right = 1},
 						edgeFile = [[Interface/Buttons/WHITE8X8]], 
 						edgeSize = 1,
 					});
@@ -305,14 +311,14 @@ function NRC:updateRaidCooldownFramesLayout()
 				});
 				frame.displayTab.top:SetBackdropColor(0, 0, 0, 0.8);
 			end
-			local text = "|cFFDEDE42Cooldown List " .. i .. "|r\n"
-						.. "|cFF9CD6DE" .. L["Drag Me"] .. "|r";
-			frame.displayTab:SetAlpha(0.3);
-			frame.displayTab.top.fs:SetText(text);
+			frame.displayTab:SetAlpha(0.4);
+			frame.displayTab.top.fs:SetText("|cFFDEDE42Cooldown List " .. i .. "|r");
+			frame.displayTab.top.fs2:SetText("|cFF9CD6DE" .. L["Drag Me"] .. "|r");
 			frame.displayTab.top:SetSize(100, 30);
 			
 			frame.lineFrameWidth = db.raidCooldownsWidth;
 			frame.lineFrameHeight = db.raidCooldownsHeight;
+			frame.padding = db.raidCooldownsPadding;
 			frame.updateDimensions();
 			
 			frame.lineFrameFont = db.raidCooldownsFont;
@@ -878,6 +884,21 @@ function NRC:adjustCooldownFromTalents(spell, name, timestamp)
 	return timestamp;
 end
 
+local function pushCastCache(guid, cooldownName, destName, destClass)
+	if (not castCache[guid]) then
+		castCache[guid] = {};
+		castCache[guid][cooldownName] = {};
+	elseif (not castCache[guid][cooldownName]) then
+		castCache[guid][cooldownName] = {};
+	end
+	castCache[guid][cooldownName].name = destName;
+	castCache[guid][cooldownName].class = destClass;
+end
+
+function NRC:pushCastCache(guid, cooldownName, destName, destClass)
+	pushCastCache(guid, cooldownName, destName, destClass)
+end
+
 --If a cooldown is used then update our data.
 --This should probably use some kind of neater cache later on.
 --cooldownTime arg is only used by spells that have talents effecting cooldown time (like reincarnation).
@@ -911,6 +932,7 @@ function NRC:updateCooldownList(sourceGUID, sourceName, destGUID, destName, dest
 								NRC.data.raidCooldowns[sourceGUID][cooldownName].spellID = spellID;
 								NRC.data.raidCooldowns[sourceGUID][cooldownName].destName = destName;
 								NRC.data.raidCooldowns[sourceGUID][cooldownName].destClass = destClass;
+								pushCastCache(sourceGUID, cooldownName, destName, destClass)
 							end
 							update = true;
 							break;
@@ -1038,6 +1060,7 @@ local function sendClick(button, name, class, timeLeft, spell)
 		end
 	end
 end
+
 --Refresh the cooldown frames.
 --This can be made much more efficient with the way it handles updating frames later.
 local soulstoneBars = {};
@@ -1088,6 +1111,7 @@ function NRC:updateRaidCooldowns()
 		count[i] = 0;
 	end
 	local lastLineFrame = {};
+	local db = NRC.db.global;
 	--raidCooldowns.fs:SetText("");
 	for spell, spellData in NRC:pairsByKeys(cooldownList) do
 	--for spell, spellData in ipairs(cooldownList) do
@@ -1147,23 +1171,27 @@ function NRC:updateRaidCooldowns()
 						lowestCD = endTime;
 					end
 					local timeLeft = endTime - GetServerTime();
-					if (timeLeft > 0) then
-						local minutes = string.format("%02.f", math.floor(timeLeft / 60));
-						local seconds = string.format("%02.f", math.floor(timeLeft - minutes * 60));
-						lineSubFrame.fs2:SetText(minutes .. ":" .. seconds);
-					else
-						if (not isDead[guid]) then
-							readyCount = readyCount + 1;
+					if (isDead[guid] and showDead) then
+						if (timeLeft > 0) then
+							local minutes = string.format("%02.f", math.floor(timeLeft / 60));
+							local seconds = string.format("%02.f", math.floor(timeLeft - minutes * 60));
+							lineSubFrame.fs2:SetText("|T137008:13:13|t |cFF9CD6DE" ..minutes .. ":" .. seconds);
+						else
+							lineSubFrame.fs2:SetText("|T137008:13:13|t |cFF9CD6DE" .. L["Ready"]);
 						end
-						lineSubFrame.fs2:SetText("|cFF00C800" .. L["Ready"]);
-					end
-					if (isDead[guid]) then
-						lineSubFrame.texture:SetTexture(137008);
-						lineSubFrame:SetBackdropColor(0, 0, 0, 1);
+						lineSubFrame:SetBackdropColor(0.45, 0, 0, 0.65);
 					else
-						lineSubFrame.texture:SetTexture(spellData.icon);
-						lineSubFrame:SetBackdropColor(0, 0, 0, 1);
+						lineSubFrame:SetBackdropColor(0, 0, 0, 0.9);
+						if (timeLeft > 0) then
+							local minutes = string.format("%02.f", math.floor(timeLeft / 60));
+							local seconds = string.format("%02.f", math.floor(timeLeft - minutes * 60));
+							lineSubFrame.fs2:SetText(minutes .. ":" .. seconds);
+						else
+							readyCount = readyCount + 1;
+							lineSubFrame.fs2:SetText("|cFF00C800" .. L["Ready"]);
+						end
 					end
+					lineSubFrame.texture:SetTexture(spellData.icon);
 					local text = name;
 					--if (NRC.groupCache[rawName] and NRC.groupCache[rawName].level and NRC.groupCache[rawName].level > 0) then
 					--	text = text .. " " .. NRC.groupCache[rawName].level .. "|r"
@@ -1178,20 +1206,32 @@ function NRC:updateRaidCooldowns()
 							text = text .. "\n" .. NRC.groupCache[rawName].zone .. "|r"
 						end
 					end
+					local destName;
 					if (timeLeft > 0) then
-						local destName;
 						if (charData.destName) then
 							destName = charData.destName;
 							local _, _, _, classHex = GetClassColor(charData.destClass);
 							destName = "|c" .. classHex .. destName .. "|r";
-						elseif (NRC.data.raidCooldowns[guid] and NRC.data.raidCooldowns[guid][spell]
-								and NRC.data.raidCooldowns[guid][spell].destName) then
-							destName = NRC.data.raidCooldowns[guid][spell].destName;
-							local _, _, _, classHex = GetClassColor(NRC.data.raidCooldowns[guid][spell].destClass);
+						elseif (NRC.data.raidCooldowns[guid] and NRC.data.raidCooldowns[guid][spellData.spellName]
+								and NRC.data.raidCooldowns[guid][spellData.spellName].destName) then
+							destName = NRC.data.raidCooldowns[guid][spellData.spellName].destName;
+							local _, _, _, classHex = GetClassColor(NRC.data.raidCooldowns[guid][spellData.spellName].destClass);
 							destName = "|c" .. classHex .. destName .. "|r";
 						end
 						if (destName) then
 							text = text .. "\n|cFFDEDE42" .. L["Cast on"] .. " ->|r " .. destName .. "|r";
+						end
+					else
+						--Look up last cast on cache if no cooldown timer is stored with the data (it's off cooldown).
+						if (castCache[guid] and castCache[guid][spellData.spellName] and castCache[guid][spellData.spellName].name) then
+							local class = castCache[guid][spellData.spellName].class;
+							if (class) then
+								local _, _, _, classHex = GetClassColor(class);
+								destName = "|c" .. classHex .. castCache[guid][spellData.spellName].name .. "|r";
+							else
+								destName = castCache[guid][spellData.spellName].name;
+							end
+							text = text .. "\n|cFFDEDE42Last " .. L["Cast on"] .. " ->|r " .. destName .. "|r";
 						end
 					end
 					if (charData.class == "WARLOCK" and next(NRC.data.hasSoulstone)) then
@@ -1354,24 +1394,32 @@ function NRC:updateRaidCooldowns()
 					lineFrame.fs:SetText(name);
 					local endTime = charData.endTime or 0;
 					local timeLeft = endTime - GetServerTime();
-					if (timeLeft > 0) then
-						local minutes = string.format("%02.f", math.floor(timeLeft / 60));
-						local seconds = string.format("%02.f", math.floor(timeLeft - minutes * 60));
-						lineFrame.fs2:SetText(minutes .. ":" .. seconds);
-					else
-						lineFrame.fs2:SetText("|cFF00C800" .. L["Ready"]);
-					end
 					lineFrame:SetScript("OnEnter", function(self)
 						lineFrame.tooltip:Show();
 					end)
 					lineFrame:SetScript("OnLeave", function(self)
 						lineFrame.tooltip:Hide();
 					end)
-					if (isDead[guid]) then
-						lineFrame.texture:SetTexture(137008);
+					if (isDead[guid] and showDead) then
+						if (timeLeft > 0) then
+							local minutes = string.format("%02.f", math.floor(timeLeft / 60));
+							local seconds = string.format("%02.f", math.floor(timeLeft - minutes * 60));
+							lineFrame.fs2:SetText("|T137008:13:13|t |cFF9CD6DE" .. minutes .. ":" .. seconds);
+						else
+							lineFrame.fs2:SetText("|T137008:13:13|t |cFF9CD6DE" .. L["Ready"]);
+						end
+						lineFrame:SetBackdropColor(0.45, 0, 0, 0.65);
 					else
-						lineFrame.texture:SetTexture(spellData.icon);
+						lineFrame:SetBackdropColor(0, 0, 0, db.raidCooldownsBackdropAlpha);
+						if (timeLeft > 0) then
+							local minutes = string.format("%02.f", math.floor(timeLeft / 60));
+							local seconds = string.format("%02.f", math.floor(timeLeft - minutes * 60));
+							lineFrame.fs2:SetText(minutes .. ":" .. seconds);
+						else
+							lineFrame.fs2:SetText("|cFF00C800" .. L["Ready"]);
+						end
 					end
+					lineFrame.texture:SetTexture(spellData.icon);
 					lineFrame.fs4:SetText("");
 					--local spellName = strsub(spell, 1, 15);
 					local spellName = strsub(spellData.spellName, 1, 15);
@@ -1399,8 +1447,8 @@ function NRC:updateRaidCooldowns()
 							text = text .. "\n" .. NRC.groupCache[rawName].zone .. "|r"
 						end
 					end
+					local destName;
 					if (timeLeft > 0) then
-						local destName;
 						if (charData.destName) then
 							destName = charData.destName;
 							local _, _, _, classHex = GetClassColor(charData.destClass);
@@ -1413,6 +1461,18 @@ function NRC:updateRaidCooldowns()
 						end
 						if (destName) then
 							text = text .. "\n|cFFDEDE42" .. L["Cast on"] .. " ->|r " .. destName .. "|r";
+						end
+					else
+						--Look up last cast on cache if no cooldown timer is stored with the data (it's off cooldown).
+						if (castCache[guid] and castCache[guid][spellData.spellName] and castCache[guid][spellData.spellName].name) then
+							local class = castCache[guid][spellData.spellName].class;
+							if (class) then
+								local _, _, _, classHex = GetClassColor(class);
+								destName = "|c" .. classHex .. castCache[guid][spellData.spellName].name .. "|r";
+							else
+								destName = castCache[guid][spellData.spellName].name;
+							end
+							text = text .. "\n|cFFDEDE42Last " .. L["Cast on"] .. " ->|r " .. destName .. "|r";
 						end
 					end
 					if (charData.class == "WARLOCK" and next(NRC.data.hasSoulstone)) then
@@ -1754,6 +1814,10 @@ local function combatLogEventUnfiltered(...)
 		end
 	end
 end
+
+--function NRC:pushDeath(guid)
+	--isDead[guid] = true;
+--end
 
 local function raidCooldownsUnitAura(...)
 	local unit = ...;

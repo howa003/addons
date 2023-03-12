@@ -60,7 +60,7 @@ NITdatabase = {
 			},
 		},
 		["minimapIcon"] = {
-			["minimapPos"] = 252.4832302500817,
+			["minimapPos"] = 239.7354224993699,
 		},
 		["lastVersionMsg"] = 1673810262,
 		["resetCharData"] = false,
@@ -115,77 +115,125 @@ NITdatabase = {
 		["Golemagg"] = {
 			["trades"] = {
 				{
+					["targetMoney"] = 80330000,
+					["playerMoney"] = 0,
+					["time"] = 1678576876,
+					["tradeWhoClass"] = "DRUID",
+					["where"] = "Ulduar",
+					["tradeWho"] = "Revognaah",
+				}, -- [1]
+				{
+					["targetMoney"] = 0,
+					["playerMoney"] = 10000000,
+					["time"] = 1678576629,
+					["tradeWhoClass"] = "DRUID",
+					["where"] = "Ulduar",
+					["tradeWho"] = "Revognaah",
+				}, -- [2]
+				{
+					["targetMoney"] = 0,
+					["playerMoney"] = 60000000,
+					["time"] = 1678576580,
+					["tradeWhoClass"] = "DRUID",
+					["where"] = "Ulduar",
+					["tradeWho"] = "Revognaah",
+				}, -- [3]
+				{
+					["targetMoney"] = 0,
+					["playerMoney"] = 90000000,
+					["time"] = 1678576304,
+					["tradeWhoClass"] = "DRUID",
+					["where"] = "Ulduar",
+					["tradeWho"] = "Revognaah",
+				}, -- [4]
+				{
+					["targetMoney"] = 0,
+					["playerMoney"] = 90000000,
+					["time"] = 1678575315,
+					["tradeWhoClass"] = "DRUID",
+					["where"] = "Ulduar",
+					["tradeWho"] = "Revognaah",
+				}, -- [5]
+				{
+					["targetMoney"] = 0,
+					["playerMoney"] = 10000000,
+					["time"] = 1678573356,
+					["tradeWhoClass"] = "DRUID",
+					["where"] = "Ulduar",
+					["tradeWho"] = "Revognaah",
+				}, -- [6]
+				{
 					["targetMoney"] = 0,
 					["playerMoney"] = 20000,
 					["time"] = 1673032631,
-					["tradeWho"] = "Moraba",
-					["where"] = "Orgrimmar",
 					["tradeWhoClass"] = "MAGE",
-				}, -- [1]
+					["where"] = "Orgrimmar",
+					["tradeWho"] = "Moraba",
+				}, -- [7]
 				{
 					["targetMoney"] = 0,
 					["playerMoney"] = 10000,
 					["time"] = 1650395008,
-					["tradeWhoClass"] = "PALADIN",
-					["where"] = "Black Temple",
 					["tradeWho"] = "Zuukk",
-				}, -- [2]
+					["where"] = "Black Temple",
+					["tradeWhoClass"] = "PALADIN",
+				}, -- [8]
 				{
 					["targetMoney"] = 90000,
 					["playerMoney"] = 0,
 					["time"] = 1649008649,
-					["tradeWho"] = "Prdzriti",
-					["where"] = "Black Temple",
 					["tradeWhoClass"] = "DRUID",
-				}, -- [3]
+					["where"] = "Black Temple",
+					["tradeWho"] = "Prdzriti",
+				}, -- [9]
 				{
 					["targetMoney"] = 0,
 					["playerMoney"] = 100000,
 					["time"] = 1647197667,
-					["tradeWho"] = "Kredenc",
-					["where"] = "Shadowmoon Valley",
 					["tradeWhoClass"] = "SHAMAN",
-				}, -- [4]
+					["where"] = "Shadowmoon Valley",
+					["tradeWho"] = "Kredenc",
+				}, -- [10]
 				{
 					["targetMoney"] = 50000000,
 					["playerMoney"] = 0,
-					["tradeWhoClass"] = "HUNTER",
 					["tradeWho"] = "Skapp",
+					["tradeWhoClass"] = "HUNTER",
 					["where"] = "Shattrath City",
 					["time"] = 1646161842,
-				}, -- [5]
+				}, -- [11]
 				{
 					["targetMoney"] = 0,
 					["playerMoney"] = 20010000,
-					["tradeWhoClass"] = "PRIEST",
 					["tradeWho"] = "Quexaa",
+					["tradeWhoClass"] = "PRIEST",
 					["where"] = "Shattrath City",
 					["time"] = 1644008512,
-				}, -- [6]
+				}, -- [12]
 				{
 					["targetMoney"] = 0,
 					["playerMoney"] = 100000,
 					["time"] = 1643987501,
-					["tradeWho"] = "Thaxim",
-					["where"] = "Shattrath City",
 					["tradeWhoClass"] = "WARLOCK",
-				}, -- [7]
+					["where"] = "Shattrath City",
+					["tradeWho"] = "Thaxim",
+				}, -- [13]
 				{
 					["targetMoney"] = 0,
 					["playerMoney"] = 50000,
 					["time"] = 1643402335,
-					["tradeWhoClass"] = "SHAMAN",
-					["where"] = "Shattrath City",
 					["tradeWho"] = "Spoly",
-				}, -- [8]
+					["where"] = "Shattrath City",
+					["tradeWhoClass"] = "SHAMAN",
+				}, -- [14]
 				{
 					["targetMoney"] = 0,
 					["playerMoney"] = 10000,
 					["time"] = 1643148845,
-					["tradeWho"] = "Onlyfury",
-					["where"] = "Orgrimmar",
 					["tradeWhoClass"] = "WARRIOR",
-				}, -- [9]
+					["where"] = "Orgrimmar",
+					["tradeWho"] = "Onlyfury",
+				}, -- [15]
 			},
 			["myChars"] = {
 				["Tailcow"] = {
@@ -317,20 +365,20 @@ NITdatabase = {
 						[230] = 2,
 						[556] = 2,
 						[532] = 6,
-						[564] = 8,
+						[534] = 10,
 						[389] = 1,
 						[553] = 2,
 						[585] = 2,
 						[568] = 6,
 						[565] = 3,
-						[534] = 10,
-						[2118] = 5,
+						[564] = 8,
+						[2118] = 6,
 					},
 					["firstaidSkillMax"] = 375,
 					["prof2"] = "Skinning",
 					["savedInstances"] = {
 					},
-					["honor"] = 19724,
+					["honor"] = 29236,
 					["maxXP"] = 1691700,
 					["gender"] = "Male",
 					["prof1"] = "Herbalism",
@@ -350,16 +398,18 @@ NITdatabase = {
 					["coilfangAttune"] = true,
 					["hyjalAttune"] = true,
 					[17057] = 20,
-					["guild"] = "The Awakened Path",
+					["guild"] = "No guild",
 					["profSkillMax2"] = 450,
 					["raceEnglish"] = "Troll",
 					["profSkillMax1"] = 450,
 					[17030] = 5,
+					["race"] = "Troll",
+					["blackMorassAttune"] = true,
 					["currency"] = {
 						[133408] = {
 							["max"] = 0,
 							["name"] = "Wintergrasp Mark of Honor",
-							["count"] = 20,
+							["count"] = 23,
 						},
 						[134375] = {
 							["max"] = 0,
@@ -369,7 +419,7 @@ NITdatabase = {
 						[134411] = {
 							["max"] = 0,
 							["name"] = "Epicurean's Award",
-							["count"] = 5,
+							["count"] = 6,
 						},
 						[135947] = {
 							["max"] = 0,
@@ -382,26 +432,24 @@ NITdatabase = {
 							["count"] = 72,
 						},
 					},
-					["blackMorassAttune"] = true,
-					["race"] = "Troll",
-					["time"] = 1676222824,
-					["gold"] = 70503458,
+					["time"] = 1678530545,
+					["gold"] = 5500117,
 					[17058] = 0,
 					["blackTempleAttune"] = true,
 					["currentXP"] = 0,
 					["realm"] = "Golemagg",
-					["guildRankName"] = "Alt",
-					["cookingSkillMax"] = 450,
-					["raceLocalized"] = "Troll",
+					["guildRankName"] = "No guild rank",
 					["fishingSkillMax"] = 150,
+					["raceLocalized"] = "Troll",
+					["cookingSkillMax"] = 450,
 					["firstaidSkill"] = 375,
 					["classEnglish"] = "SHAMAN",
 					["hellfireCitadelAttune"] = true,
-					["durabilityAverage"] = 100,
+					["durabilityAverage"] = 99.86486486486487,
 					["resting"] = true,
 					["karaAttune"] = true,
 					["level"] = 80,
-					["freeBagSlots"] = 38,
+					["freeBagSlots"] = 22,
 					["cooldowns"] = {
 					},
 					["profSkill2"] = 446,
@@ -423,15 +471,15 @@ NITdatabase = {
 					["prof1"] = "Herbalism",
 					["restedXP"] = 26700,
 					["totalBagSlots"] = 84,
-					["freeBagSlots"] = 49,
+					["freeBagSlots"] = 27,
 					["arenaPoints"] = 0,
 					[17056] = 0,
 					["guildRankName"] = "Mini Boss",
 					["raceEnglish"] = "Troll",
 					["profSkillMax1"] = 75,
 					["resting"] = true,
-					["time"] = 1674155783,
-					["gold"] = 259182,
+					["time"] = 1678530624,
+					["gold"] = 257562,
 					["currency"] = {
 					},
 					["guild"] = "Revolution of Twinstar",
@@ -514,14 +562,14 @@ NITdatabase = {
 					["prof1"] = "Blacksmithing",
 					["restedXP"] = 16500,
 					["totalBagSlots"] = 84,
-					["freeBagSlots"] = 0,
+					["freeBagSlots"] = 37,
 					["arenaPoints"] = 0,
 					["guild"] = "Revolution of Twinstar",
 					["raceEnglish"] = "Orc",
 					["profSkillMax1"] = 75,
 					["resting"] = true,
-					["time"] = 1674986669,
-					["gold"] = 19093746,
+					["time"] = 1678571877,
+					["gold"] = 3983022,
 					["realm"] = "Golemagg",
 					["currency"] = {
 					},
@@ -554,27 +602,33 @@ NITdatabase = {
 					["cookingSkill"] = 450,
 					["onyAttune"] = true,
 					["shatteredHallsAttune"] = true,
-					["profSkill1"] = 375,
+					["profSkill1"] = 413,
 					["hyjalAttune"] = true,
 					["firstaidSkillMax"] = 375,
 					["profSkill2"] = 423,
 					[17038] = 0,
 					["savedInstances"] = {
+						[234753735] = {
+							["locked"] = true,
+							["resetTime"] = 1678852918,
+							["name"] = "Ulduar",
+							["difficultyName"] = "25 Player",
+						},
 					},
-					["durabilityAverage"] = 97.6068376068376,
+					["durabilityAverage"] = 100,
 					[17026] = 0,
-					["freeBagSlots"] = 50,
-					["honor"] = 37251,
+					["arcatrazAttune"] = true,
+					["honor"] = 15409,
 					["maxXP"] = 1691700,
 					["gender"] = "Male",
-					[44605] = 29,
+					[44605] = 28,
 					["prof1"] = "Enchanting",
 					["mcAttune"] = true,
 					["restedXP"] = 0,
 					["totalBagSlots"] = 102,
-					["arcatrazAttune"] = true,
+					["freeBagSlots"] = 43,
 					["serpentshrineAttune"] = true,
-					["arenaPoints"] = 0,
+					["arenaPoints"] = 25,
 					["profSkillMax2"] = 450,
 					["coilfangAttune"] = true,
 					["shadowLabAttune"] = true,
@@ -582,14 +636,14 @@ NITdatabase = {
 					["currentXP"] = 0,
 					["karaAttune"] = true,
 					["raceEnglish"] = "Tauren",
-					["profSkillMax1"] = 375,
+					["profSkillMax1"] = 450,
 					["blackMorassAttune"] = true,
 					["race"] = "Tauren",
 					["cavernsAttune"] = true,
 					["resting"] = true,
-					["time"] = 1676276510,
-					["gold"] = 2409976,
-					["guildRankName"] = "Social",
+					["time"] = 1678649084,
+					["gold"] = 193564881,
+					["guildRankName"] = "Member",
 					["blackTempleAttune"] = true,
 					["guild"] = "The Awakened Path",
 					["realm"] = "Golemagg",
@@ -609,27 +663,32 @@ NITdatabase = {
 						[134375] = {
 							["max"] = 0,
 							["name"] = "Stone Keeper's Shard",
-							["count"] = 50,
+							["count"] = 130,
 						},
 						[134411] = {
 							["max"] = 0,
 							["name"] = "Epicurean's Award",
 							["count"] = 4,
 						},
+						[135947] = {
+							["max"] = 0,
+							["name"] = "Emblem of Heroism",
+							["count"] = 8,
+						},
 						[135884] = {
 							["max"] = 0,
 							["name"] = "Badge of Justice",
 							["count"] = 15,
 						},
-						[135947] = {
+						[135885] = {
 							["max"] = 0,
-							["name"] = "Emblem of Heroism",
-							["count"] = 23,
+							["name"] = "Emblem of Conquest",
+							["count"] = 32,
 						},
 						[133408] = {
 							["max"] = 0,
 							["name"] = "Wintergrasp Mark of Honor",
-							["count"] = 40,
+							["count"] = 57,
 						},
 					},
 					["bwlAttune"] = true,
@@ -655,11 +714,11 @@ NITdatabase = {
 						["Red Woolen Bag"] = {
 							["time"] = 1643893452.015625,
 						},
-						["Spellweave"] = {
-							["time"] = 1674392955.035156,
-						},
 						["Heavy Linen Gloves"] = {
 							["time"] = 1643220389.593002,
+						},
+						["Spellweave"] = {
+							["time"] = 1674392955.035156,
 						},
 						["Prismatic Sphere"] = {
 							["time"] = 1643893452.171875,
@@ -669,22 +728,23 @@ NITdatabase = {
 						},
 					},
 					["instances"] = {
-						[548] = 5,
-						[550] = 3,
 						[30] = 1,
-						[547] = 2,
-						[2118] = 18,
-						[534] = 34,
-						[545] = 3,
-						[607] = 6,
-						[564] = 28,
-						[269] = 1,
-						[568] = 1,
+						[603] = 3,
 						[389] = 3,
-						[532] = 3,
-						[329] = 2,
 						[546] = 2,
+						[547] = 2,
 						[429] = 3,
+						[548] = 5,
+						[564] = 28,
+						[329] = 2,
+						[534] = 34,
+						[550] = 3,
+						[2118] = 20,
+						[545] = 3,
+						[568] = 1,
+						[269] = 1,
+						[607] = 6,
+						[532] = 3,
 					},
 					["classLocalized"] = "Druid",
 					["marks"] = {
@@ -725,7 +785,7 @@ NITdatabase = {
 					["level"] = 1,
 					["ammo"] = 0,
 					["raceLocalized"] = "Tauren",
-					["fishingSkillMax"] = 0,
+					["cookingSkillMax"] = 0,
 					["firstaidSkill"] = 0,
 					["classEnglish"] = "HUNTER",
 					["guild"] = "Revolution of Twinstar",
@@ -733,7 +793,7 @@ NITdatabase = {
 					["isPetDead"] = false,
 					["durabilityAverage"] = 64.61538461538461,
 					["resting"] = true,
-					["cookingSkillMax"] = 0,
+					["fishingSkillMax"] = 0,
 					["cooldowns"] = {
 					},
 					["guildRankName"] = "Mini Boss",
@@ -742,6 +802,989 @@ NITdatabase = {
 				},
 			},
 			["instances"] = {
+				{
+					["GUID"] = "Creature-0-4468-603-4845-31185-00000D0C9B",
+					["leftMoney"] = 193652200,
+					["group"] = {
+						["Suudu"] = {
+							["level"] = 80,
+							["classEnglish"] = "DRUID",
+							["class"] = "Druid",
+						},
+						["Freakcal"] = {
+							["level"] = 80,
+							["classEnglish"] = "DRUID",
+							["class"] = "Druid",
+						},
+						["Ithid"] = {
+							["class"] = "Paladin",
+							["level"] = 80,
+							["classEnglish"] = "PALADIN",
+							["guildName"] = "Sewage Skunks",
+						},
+						["Stortjuren"] = {
+							["class"] = "Druid",
+							["level"] = 80,
+							["classEnglish"] = "DRUID",
+							["guildName"] = "Inexorable",
+						},
+						["Johnnydogs"] = {
+							["class"] = "Rogue",
+							["level"] = 80,
+							["classEnglish"] = "ROGUE",
+							["guildName"] = "Pogwarts",
+						},
+						["Prohanced"] = {
+							["class"] = "Shaman",
+							["level"] = 80,
+							["classEnglish"] = "SHAMAN",
+							["guildName"] = "GrimSoul Legion",
+						},
+						["Mikorrior"] = {
+							["class"] = "Warrior",
+							["level"] = 80,
+							["classEnglish"] = "WARRIOR",
+							["guildName"] = "Keyboard Warriors",
+						},
+						["Shuffta"] = {
+							["class"] = "Mage",
+							["level"] = 80,
+							["classEnglish"] = "MAGE",
+							["guildName"] = "Laden",
+						},
+						["Kurde"] = {
+							["class"] = "Mage",
+							["level"] = 80,
+							["classEnglish"] = "MAGE",
+							["guildName"] = "LOOT AND PARSES",
+						},
+						["Cruxxqt"] = {
+							["class"] = "Rogue",
+							["level"] = 80,
+							["classEnglish"] = "ROGUE",
+							["guildName"] = "Sewage Skunks",
+						},
+						["Saigodk"] = {
+							["class"] = "Death Knight",
+							["level"] = 80,
+							["classEnglish"] = "DEATHKNIGHT",
+							["guildName"] = "Pogwarts",
+						},
+						["Snoopdkk"] = {
+							["class"] = "Death Knight",
+							["level"] = 80,
+							["classEnglish"] = "DEATHKNIGHT",
+							["guildName"] = "Wandering Legion",
+						},
+						["Gubianger"] = {
+							["class"] = "Warrior",
+							["level"] = 80,
+							["classEnglish"] = "WARRIOR",
+							["guildName"] = "Rapacious",
+						},
+						["Fishie"] = {
+							["class"] = "Hunter",
+							["level"] = 80,
+							["classEnglish"] = "HUNTER",
+							["guildName"] = "Sewage Skunks",
+						},
+						["Catpussyo"] = {
+							["class"] = "Druid",
+							["level"] = 80,
+							["classEnglish"] = "DRUID",
+							["guildName"] = "Clan Destine",
+						},
+						["Finalboss"] = {
+							["class"] = "Paladin",
+							["level"] = 80,
+							["classEnglish"] = "PALADIN",
+							["guildName"] = "Pogwarts",
+						},
+						["Drazex"] = {
+							["level"] = 80,
+							["class"] = "Mage",
+							["classEnglish"] = "MAGE",
+							["guildName"] = "Pogwarts",
+						},
+						["Clairdelune"] = {
+							["class"] = "Paladin",
+							["level"] = 80,
+							["classEnglish"] = "PALADIN",
+							["guildName"] = "Sewage Skunks",
+						},
+						["Toxis"] = {
+							["class"] = "Priest",
+							["level"] = 80,
+							["classEnglish"] = "PRIEST",
+							["guildName"] = "Monsters Inc",
+						},
+						["Indolence"] = {
+							["class"] = "Warlock",
+							["level"] = 80,
+							["classEnglish"] = "WARLOCK",
+							["guildName"] = "Mannequin",
+						},
+						["Revognaah"] = {
+							["class"] = "Druid",
+							["level"] = 80,
+							["classEnglish"] = "DRUID",
+							["guildName"] = "Sewage Skunks",
+						},
+						["Zerzess"] = {
+							["level"] = 80,
+							["classEnglish"] = "HUNTER",
+							["class"] = "Hunter",
+						},
+						["Arwyy"] = {
+							["class"] = "Shaman",
+							["level"] = 80,
+							["classEnglish"] = "SHAMAN",
+							["guildName"] = "Forbidden",
+						},
+						["Dedal"] = {
+							["class"] = "Paladin",
+							["level"] = 80,
+							["classEnglish"] = "PALADIN",
+							["guildName"] = "Perfect Dark x",
+						},
+						["Tankadinka"] = {
+							["class"] = "Paladin",
+							["level"] = 80,
+							["classEnglish"] = "PALADIN",
+							["guildName"] = "Fellowship of the Horde",
+						},
+						["Caiomhe"] = {
+							["class"] = "Priest",
+							["level"] = 80,
+							["classEnglish"] = "PRIEST",
+							["guildName"] = "Sewage Skunks",
+						},
+						["Zowl"] = {
+							["class"] = "Druid",
+							["level"] = 80,
+							["classEnglish"] = "DRUID",
+							["guildName"] = "The Awakened Path",
+						},
+						["Springzz"] = {
+							["class"] = "Priest",
+							["level"] = 80,
+							["classEnglish"] = "PRIEST",
+							["guildName"] = "HONK",
+						},
+					},
+					["class"] = "Druid",
+					["leftTime"] = 1678576885,
+					["groupAverage"] = 80,
+					["enteredXP"] = 0,
+					["xpFromChat"] = 0,
+					["zoneID"] = 4845,
+					["mergeSource"] = "nameplate",
+					["mobCountFromKill"] = 787,
+					["GUIDSource"] = "mouseover",
+					["enteredMoney"] = 361223734,
+					["leftXP"] = 0,
+					["playerName"] = "Zowl",
+					["classEnglish"] = "DRUID",
+					["rep"] = {
+					},
+					["enteredTime"] = 1678564798,
+					["instanceID"] = 603,
+					["difficultyID"] = 176,
+					["leftLevel"] = 80,
+					["rawMoneyCount"] = 1307156,
+					["instanceName"] = "Ulduar",
+					["mergeGUID"] = "Creature-0-4468-603-4845-33136-00000D03E1",
+					["mobCount"] = 0,
+					["enteredLevel"] = 80,
+				}, -- [1]
+				{
+					["isPvp"] = true,
+					["leftMoney"] = 0,
+					["group"] = {
+						["Beldor"] = {
+							["level"] = 80,
+							["class"] = "Death Knight",
+							["classEnglish"] = "DEATHKNIGHT",
+							["guildName"] = "Icecrown Invaders",
+						},
+						["Mogulos"] = {
+							["level"] = 80,
+							["class"] = "Death Knight",
+							["classEnglish"] = "DEATHKNIGHT",
+						},
+						["Ruttrun-NethergardeKeep"] = {
+							["level"] = 80,
+							["class"] = "Warrior",
+							["classEnglish"] = "WARRIOR",
+							["guildName"] = "PlebStars",
+						},
+						["Nvze-Mograine"] = {
+							["level"] = 80,
+							["class"] = "Priest",
+							["classEnglish"] = "PRIEST",
+							["guildName"] = "Kaamos",
+						},
+						["Dyngavsbenga"] = {
+							["level"] = 80,
+							["class"] = "Priest",
+							["classEnglish"] = "PRIEST",
+							["guildName"] = "wtb btc",
+						},
+						["Svenake-Mograine"] = {
+							["level"] = 80,
+							["class"] = "Death Knight",
+							["classEnglish"] = "DEATHKNIGHT",
+						},
+						["Douchekin-Mograine"] = {
+							["level"] = 80,
+							["class"] = "Druid",
+							["classEnglish"] = "DRUID",
+							["guildName"] = "N O R D",
+						},
+						["Gerenon"] = {
+							["level"] = 80,
+							["class"] = "Druid",
+							["classEnglish"] = "DRUID",
+							["guildName"] = "Plán B",
+						},
+						["Siepie"] = {
+							["level"] = 80,
+							["class"] = "Paladin",
+							["classEnglish"] = "PALADIN",
+							["guildName"] = "Endgame",
+						},
+						["Valimaki-Mograine"] = {
+							["level"] = 80,
+							["class"] = "Shaman",
+							["classEnglish"] = "SHAMAN",
+						},
+						["Shamonz"] = {
+							["level"] = 80,
+							["class"] = "Shaman",
+							["classEnglish"] = "SHAMAN",
+						},
+						["Bockhorn-Lakeshire"] = {
+							["level"] = 80,
+							["class"] = "Hunter",
+							["classEnglish"] = "HUNTER",
+						},
+						["Altan-Venoxis"] = {
+							["level"] = 80,
+							["class"] = "Mage",
+							["classEnglish"] = "MAGE",
+						},
+						["Nagur-Venoxis"] = {
+							["level"] = 74,
+							["class"] = "Rogue",
+							["classEnglish"] = "ROGUE",
+							["guildName"] = "TrueSaviors",
+						},
+						["Stbernardus-Gehennas"] = {
+							["level"] = 80,
+							["class"] = "Death Knight",
+							["classEnglish"] = "DEATHKNIGHT",
+							["guildName"] = "Cruore Regius",
+						},
+						["Gigapint-Venoxis"] = {
+							["level"] = 80,
+							["class"] = "Mage",
+							["classEnglish"] = "MAGE",
+						},
+						["Zowl"] = {
+							["level"] = 80,
+							["class"] = "Druid",
+							["classEnglish"] = "DRUID",
+							["guildName"] = "The Awakened Path",
+						},
+						["Mívas-Gehennas"] = {
+							["level"] = 77,
+							["class"] = "Death Knight",
+							["classEnglish"] = "DEATHKNIGHT",
+						},
+						["Pjer-Venoxis"] = {
+							["level"] = 80,
+							["class"] = "Rogue",
+							["classEnglish"] = "ROGUE",
+							["guildName"] = "not interested",
+						},
+						["Öküzoglan-Gehennas"] = {
+							["level"] = 80,
+							["class"] = "Druid",
+							["classEnglish"] = "DRUID",
+							["guildName"] = "Proffesional Idiots",
+						},
+						["Subic-Gehennas"] = {
+							["level"] = 80,
+							["class"] = "Paladin",
+							["classEnglish"] = "PALADIN",
+							["guildName"] = "Sadistic Minds",
+						},
+						["Shínku-Mograine"] = {
+							["level"] = 80,
+							["class"] = "Mage",
+							["classEnglish"] = "MAGE",
+							["guildName"] = "Propaganda",
+						},
+						["Abdested-Firemaw"] = {
+							["level"] = 80,
+							["class"] = "Priest",
+							["classEnglish"] = "PRIEST",
+							["guildName"] = "Crit Happens",
+						},
+						["Kinderman-Gehennas"] = {
+							["level"] = 80,
+							["class"] = "Warlock",
+							["classEnglish"] = "WARLOCK",
+							["guildName"] = "Huurre",
+						},
+						["Mikroby-Everlook"] = {
+							["level"] = 78,
+							["class"] = "Druid",
+							["classEnglish"] = "DRUID",
+						},
+						["Dawylol"] = {
+							["level"] = 80,
+							["class"] = "Paladin",
+							["classEnglish"] = "PALADIN",
+							["guildName"] = "Ragnarok",
+						},
+						["Thesparkcap-MirageRaceway"] = {
+							["level"] = 80,
+							["class"] = "Rogue",
+							["classEnglish"] = "ROGUE",
+							["guildName"] = "GubbaKlubben",
+						},
+						["Clea"] = {
+							["level"] = 72,
+							["class"] = "Rogue",
+							["classEnglish"] = "ROGUE",
+							["guildName"] = "Cursed Corpses",
+						},
+						["Metalspik"] = {
+							["level"] = 80,
+							["class"] = "Death Knight",
+							["classEnglish"] = "DEATHKNIGHT",
+							["guildName"] = "Drakdräparna",
+						},
+						["Lastofblood-Gehennas"] = {
+							["level"] = 80,
+							["class"] = "Death Knight",
+							["classEnglish"] = "DEATHKNIGHT",
+							["guildName"] = "KOFTO SE PINEI",
+						},
+						["Bokzeh-Gehennas"] = {
+							["level"] = 80,
+							["class"] = "Warlock",
+							["classEnglish"] = "WARLOCK",
+							["guildName"] = "Ghoul",
+						},
+						["Arkatha-Auberdine"] = {
+							["level"] = 80,
+							["class"] = "Priest",
+							["classEnglish"] = "PRIEST",
+							["guildName"] = "L agence Touriste",
+						},
+						["Mokz-Gehennas"] = {
+							["level"] = 80,
+							["class"] = "Druid",
+							["classEnglish"] = "DRUID",
+							["guildName"] = "Danskvand",
+						},
+						["Heislbaun-Venoxis"] = {
+							["level"] = 80,
+							["class"] = "Paladin",
+							["classEnglish"] = "PALADIN",
+						},
+						["Thespirits-Gehennas"] = {
+							["level"] = 80,
+							["class"] = "Priest",
+							["classEnglish"] = "PRIEST",
+						},
+						["Akmendon-Razorfen"] = {
+							["level"] = 71,
+							["class"] = "Warrior",
+							["classEnglish"] = "WARRIOR",
+							["guildName"] = "und Strumpf",
+						},
+						["Atalzuul-NethergardeKeep"] = {
+							["level"] = 80,
+							["class"] = "Priest",
+							["classEnglish"] = "PRIEST",
+							["guildName"] = "Eternal",
+						},
+						["Chaktla-Mandokir"] = {
+							["level"] = 80,
+							["class"] = "Shaman",
+							["classEnglish"] = "SHAMAN",
+							["guildName"] = "Sons of Anarchy",
+						},
+						["Blessers-NethergardeKeep"] = {
+							["level"] = 80,
+							["class"] = "Priest",
+							["classEnglish"] = "PRIEST",
+							["guildName"] = "PlebStars",
+						},
+						["Toxicmate"] = {
+							["level"] = 80,
+							["class"] = "Priest",
+							["classEnglish"] = "PRIEST",
+							["guildName"] = "ATM",
+						},
+					},
+					["class"] = "Druid",
+					["leftTime"] = 1678522976,
+					["groupAverage"] = 79.31707317073169,
+					["enteredXP"] = 0,
+					["xpFromChat"] = 0,
+					["damage"] = 219667,
+					["mobCountFromKill"] = 0,
+					["type"] = "bg",
+					["winningFaction"] = 0,
+					["honor"] = 8996,
+					["playerName"] = "Zowl",
+					["healing"] = 8895,
+					["rep"] = {
+					},
+					["enteredTime"] = 1678521667,
+					["instanceID"] = 2118,
+					["kb"] = 3,
+					["faction"] = 0,
+					["hk"] = 16,
+					["instanceName"] = "Wintergrasp",
+					["classEnglish"] = "DRUID",
+					["deaths"] = 4,
+					["enteredLevel"] = 80,
+				}, -- [2]
+				{
+					["isPvp"] = true,
+					["leftMoney"] = 0,
+					["group"] = {
+						["Tsumi-Venoxis"] = {
+							["class"] = "Mage",
+							["level"] = 80,
+							["classEnglish"] = "MAGE",
+							["guildName"] = "Tempest",
+						},
+						["Aoowin-Mograine"] = {
+							["level"] = 80,
+							["classEnglish"] = "MAGE",
+							["class"] = "Mage",
+						},
+						["Rumler-Venoxis"] = {
+							["class"] = "Druid",
+							["level"] = 80,
+							["classEnglish"] = "DRUID",
+							["guildName"] = "not interested",
+						},
+						["Ryxx"] = {
+							["class"] = "Paladin",
+							["level"] = 80,
+							["classEnglish"] = "PALADIN",
+							["guildName"] = "Trash Pandas",
+						},
+						["Xadaz-Venoxis"] = {
+							["level"] = 78,
+							["classEnglish"] = "WARRIOR",
+							["class"] = "Warrior",
+						},
+						["Tji-Sulfuron"] = {
+							["class"] = "Priest",
+							["level"] = 80,
+							["classEnglish"] = "PRIEST",
+							["guildName"] = "INSU",
+						},
+						["Vintertid-MirageRaceway"] = {
+							["class"] = "Death Knight",
+							["level"] = 80,
+							["classEnglish"] = "DEATHKNIGHT",
+							["guildName"] = "Bollklubben",
+						},
+						["Oseriös-Mograine"] = {
+							["class"] = "Paladin",
+							["level"] = 80,
+							["classEnglish"] = "PALADIN",
+							["guildName"] = "OwO",
+						},
+						["Rapidoxx-Mandokir"] = {
+							["class"] = "Priest",
+							["level"] = 80,
+							["classEnglish"] = "PRIEST",
+							["guildName"] = "INFAMES",
+						},
+						["Fren-Venoxis"] = {
+							["class"] = "Warrior",
+							["level"] = 80,
+							["classEnglish"] = "WARRIOR",
+							["guildName"] = "LostinTime",
+						},
+						["Dextâ-Venoxis"] = {
+							["class"] = "Paladin",
+							["level"] = 80,
+							["classEnglish"] = "PALADIN",
+							["guildName"] = "LEBT VOM PFAND",
+						},
+						["Zowl"] = {
+							["class"] = "Druid",
+							["level"] = 80,
+							["classEnglish"] = "DRUID",
+							["guildName"] = "The Awakened Path",
+						},
+						["Bearmommy"] = {
+							["class"] = "Druid",
+							["level"] = 80,
+							["classEnglish"] = "DRUID",
+							["guildName"] = "Pump Kin",
+						},
+						["Munik-Gehennas"] = {
+							["class"] = "Druid",
+							["level"] = 80,
+							["classEnglish"] = "DRUID",
+							["guildName"] = "Asylum",
+						},
+						["Wuttang-Venoxis"] = {
+							["level"] = 72,
+							["classEnglish"] = "MAGE",
+							["class"] = "Mage",
+						},
+						["Windfuked-Sulfuron"] = {
+							["class"] = "Shaman",
+							["level"] = 80,
+							["classEnglish"] = "SHAMAN",
+							["guildName"] = "ZUG ZUG",
+						},
+						["Pannafragola-Mograine"] = {
+							["class"] = "Mage",
+							["level"] = 80,
+							["classEnglish"] = "MAGE",
+							["guildName"] = "Prominent Assblasters",
+						},
+						["Cinera-Venoxis"] = {
+							["class"] = "Priest",
+							["level"] = 80,
+							["classEnglish"] = "PRIEST",
+							["guildName"] = "Backlash",
+						},
+						["Itrall-Auberdine"] = {
+							["class"] = "Paladin",
+							["level"] = 80,
+							["classEnglish"] = "PALADIN",
+							["guildName"] = "Atømium",
+						},
+						["Onlyruns-Mograine"] = {
+							["class"] = "Hunter",
+							["level"] = 75,
+							["classEnglish"] = "HUNTER",
+							["guildName"] = "Tide Of The Murlocs",
+						},
+						["Firster-Venoxis"] = {
+							["class"] = "Warrior",
+							["level"] = 80,
+							["classEnglish"] = "WARRIOR",
+							["guildName"] = "mortal reloaded",
+						},
+						["Perplexer-Gehennas"] = {
+							["class"] = "Warlock",
+							["level"] = 80,
+							["classEnglish"] = "WARLOCK",
+							["guildName"] = "Copyleft",
+						},
+						["Tjmanextdoor-Gehennas"] = {
+							["class"] = "Death Knight",
+							["level"] = 80,
+							["classEnglish"] = "DEATHKNIGHT",
+							["guildName"] = "ZOMßIES",
+						},
+						["Fraizor-Venoxis"] = {
+							["class"] = "Mage",
+							["level"] = 80,
+							["classEnglish"] = "MAGE",
+							["guildName"] = "Refractured",
+						},
+						["Drumba-Razorfen"] = {
+							["class"] = "Death Knight",
+							["level"] = 80,
+							["classEnglish"] = "DEATHKNIGHT",
+							["guildName"] = "MurlocsStoleMyGuildname",
+						},
+						["Silanei-Venoxis"] = {
+							["class"] = "Mage",
+							["level"] = 80,
+							["classEnglish"] = "MAGE",
+							["guildName"] = "RaiderZ",
+						},
+						["Axía-Gehennas"] = {
+							["class"] = "Rogue",
+							["level"] = 80,
+							["classEnglish"] = "ROGUE",
+							["guildName"] = "Panzer Panthers",
+						},
+						["Twofpsxy-Sulfuron"] = {
+							["level"] = 80,
+							["classEnglish"] = "PRIEST",
+							["class"] = "Priest",
+						},
+						["Holybech-Gehennas"] = {
+							["class"] = "Paladin",
+							["level"] = 80,
+							["classEnglish"] = "PALADIN",
+							["guildName"] = "Death ßringers",
+						},
+						["Legendisolat-Gehennas"] = {
+							["level"] = 80,
+							["classEnglish"] = "PALADIN",
+							["class"] = "Paladin",
+						},
+						["Paladinundsø-Venoxis"] = {
+							["class"] = "Paladin",
+							["level"] = 80,
+							["classEnglish"] = "PALADIN",
+							["guildName"] = "Autoattack for the win",
+						},
+						["Markuswarr-Razorfen"] = {
+							["class"] = "Warrior",
+							["level"] = 80,
+							["classEnglish"] = "WARRIOR",
+							["guildName"] = "Lithium",
+						},
+						["Meroth-Razorfen"] = {
+							["class"] = "Warrior",
+							["level"] = 80,
+							["classEnglish"] = "WARRIOR",
+							["guildName"] = "Lithium",
+						},
+						["Haloeller-Gehennas"] = {
+							["class"] = "Paladin",
+							["level"] = 80,
+							["classEnglish"] = "PALADIN",
+							["guildName"] = "Lagom",
+						},
+						["Palamario-Mograine"] = {
+							["class"] = "Paladin",
+							["level"] = 80,
+							["classEnglish"] = "PALADIN",
+							["guildName"] = "Lootgains",
+						},
+						["Furioon"] = {
+							["class"] = "Druid",
+							["level"] = 80,
+							["classEnglish"] = "DRUID",
+							["guildName"] = "Exiled",
+						},
+						["Aurilane-Mograine"] = {
+							["class"] = "Paladin",
+							["level"] = 80,
+							["classEnglish"] = "PALADIN",
+							["guildName"] = "Invincibles",
+						},
+						["Fuddn-Razorfen"] = {
+							["class"] = "Priest",
+							["level"] = 80,
+							["classEnglish"] = "PRIEST",
+							["guildName"] = "Lithium",
+						},
+						["Talijah-Razorfen"] = {
+							["class"] = "Paladin",
+							["level"] = 80,
+							["classEnglish"] = "PALADIN",
+							["guildName"] = "SechsRichtige",
+						},
+						["Flówzz-Gehennas"] = {
+							["class"] = "Paladin",
+							["level"] = 80,
+							["classEnglish"] = "PALADIN",
+							["guildName"] = "The Kingdom of Zygonia",
+						},
+						["Netherfant-Gehennas"] = {
+							["class"] = "Warlock",
+							["level"] = 80,
+							["classEnglish"] = "WARLOCK",
+							["guildName"] = "Mad Company",
+						},
+						["Glazza"] = {
+							["class"] = "Shaman",
+							["level"] = 80,
+							["classEnglish"] = "SHAMAN",
+							["guildName"] = "Familjen",
+						},
+					},
+					["class"] = "Druid",
+					["leftTime"] = 1678490130,
+					["groupAverage"] = 78.4,
+					["enteredXP"] = 0,
+					["xpFromChat"] = 0,
+					["damage"] = 54923,
+					["mobCountFromKill"] = 0,
+					["type"] = "bg",
+					["winningFaction"] = 1,
+					["honor"] = 10372,
+					["playerName"] = "Zowl",
+					["healing"] = 3940,
+					["rep"] = {
+					},
+					["enteredTime"] = 1678489693,
+					["instanceID"] = 2118,
+					["deaths"] = 5,
+					["classEnglish"] = "DRUID",
+					["faction"] = 0,
+					["instanceName"] = "Wintergrasp",
+					["hk"] = 17,
+					["kb"] = 1,
+					["enteredLevel"] = 80,
+				}, -- [3]
+				{
+					["isPvp"] = true,
+					["leftMoney"] = 0,
+					["group"] = {
+						["Ototheg-Mograine"] = {
+							["level"] = 80,
+							["class"] = "Paladin",
+							["classEnglish"] = "PALADIN",
+							["guildName"] = "Inte Ikväll",
+						},
+						["Rathlawlzxqt-Sulfuron"] = {
+							["level"] = 80,
+							["class"] = "Warrior",
+							["classEnglish"] = "WARRIOR",
+							["guildName"] = "Bad Batch",
+						},
+						["Synern-Mograine"] = {
+							["level"] = 80,
+							["class"] = "Priest",
+							["classEnglish"] = "PRIEST",
+							["guildName"] = "parselympics",
+						},
+						["Shoots-Gehennas"] = {
+							["level"] = 80,
+							["class"] = "Mage",
+							["classEnglish"] = "MAGE",
+							["guildName"] = "Melody",
+						},
+						["Larusso-Lakeshire"] = {
+							["level"] = 80,
+							["class"] = "Shaman",
+							["classEnglish"] = "SHAMAN",
+						},
+						["Thunðerherø-Gehennas"] = {
+							["level"] = 78,
+							["class"] = "Shaman",
+							["classEnglish"] = "SHAMAN",
+							["guildName"] = "DEDUCTED",
+						},
+						["Shocknroll-Sulfuron"] = {
+							["level"] = 80,
+							["class"] = "Shaman",
+							["classEnglish"] = "SHAMAN",
+						},
+						["Ignatick-Gehennas"] = {
+							["level"] = 80,
+							["class"] = "Paladin",
+							["classEnglish"] = "PALADIN",
+						},
+						["Sicape-Sulfuron"] = {
+							["level"] = 80,
+							["class"] = "Druid",
+							["classEnglish"] = "DRUID",
+						},
+						["Zandalar"] = {
+							["level"] = 80,
+							["class"] = "Shaman",
+							["classEnglish"] = "SHAMAN",
+							["guildName"] = "The Awakened Path",
+						},
+						["Xadnepah-Mograine"] = {
+							["level"] = 80,
+							["class"] = "Priest",
+							["classEnglish"] = "PRIEST",
+							["guildName"] = "Kombardo",
+						},
+						["Skaavar-Gehennas"] = {
+							["level"] = 80,
+							["class"] = "Warrior",
+							["classEnglish"] = "WARRIOR",
+						},
+						["Kimpachi-Sulfuron"] = {
+							["level"] = 80,
+							["class"] = "Paladin",
+							["classEnglish"] = "PALADIN",
+							["guildName"] = "Les vieux casus",
+						},
+						["Dívineovic-Venoxis"] = {
+							["level"] = 80,
+							["class"] = "Paladin",
+							["classEnglish"] = "PALADIN",
+						},
+						["Fexxp-Venoxis"] = {
+							["level"] = 80,
+							["class"] = "Paladin",
+							["classEnglish"] = "PALADIN",
+							["guildName"] = "Celembris",
+						},
+						["Metalpaw-Mograine"] = {
+							["level"] = 80,
+							["class"] = "Druid",
+							["classEnglish"] = "DRUID",
+						},
+						["Peligro-MirageRaceway"] = {
+							["level"] = 80,
+							["class"] = "Hunter",
+							["classEnglish"] = "HUNTER",
+							["guildName"] = "Karazhan Chess Team",
+						},
+						["Trøk-Razorfen"] = {
+							["level"] = 80,
+							["class"] = "Hunter",
+							["classEnglish"] = "HUNTER",
+						},
+						["Yomoo"] = {
+							["level"] = 80,
+							["class"] = "Druid",
+							["classEnglish"] = "DRUID",
+							["guildName"] = "Blood on Name",
+						},
+						["Prédat-Auberdine"] = {
+							["level"] = 80,
+							["class"] = "Priest",
+							["classEnglish"] = "PRIEST",
+							["guildName"] = "squirrels",
+						},
+						["Ryanmccarthy-Gehennas"] = {
+							["level"] = 80,
+							["class"] = "Warrior",
+							["classEnglish"] = "WARRIOR",
+						},
+						["Kibâ-Sulfuron"] = {
+							["level"] = 80,
+							["class"] = "Rogue",
+							["classEnglish"] = "ROGUE",
+						},
+						["Rayburst"] = {
+							["level"] = 80,
+							["class"] = "Warlock",
+							["classEnglish"] = "WARLOCK",
+						},
+						["Liombra"] = {
+							["level"] = 80,
+							["class"] = "Priest",
+							["classEnglish"] = "PRIEST",
+							["guildName"] = "Secerisul Mortii",
+						},
+						["Jerquu-Gehennas"] = {
+							["level"] = 80,
+							["class"] = "Paladin",
+							["classEnglish"] = "PALADIN",
+						},
+						["Mukavaa-Gehennas"] = {
+							["level"] = 79,
+							["class"] = "Mage",
+							["classEnglish"] = "MAGE",
+						},
+						["Gidderikke-Mograine"] = {
+							["level"] = 80,
+							["class"] = "Hunter",
+							["classEnglish"] = "HUNTER",
+							["guildName"] = "Gimp",
+						},
+						["Anchy"] = {
+							["level"] = 80,
+							["class"] = "Rogue",
+							["classEnglish"] = "ROGUE",
+							["guildName"] = "Powerhouse",
+						},
+						["Khal-Mandokir"] = {
+							["level"] = 80,
+							["class"] = "Warrior",
+							["classEnglish"] = "WARRIOR",
+							["guildName"] = "Ðamned",
+						},
+						["Hydrã-Gehennas"] = {
+							["level"] = 80,
+							["class"] = "Warlock",
+							["classEnglish"] = "WARLOCK",
+							["guildName"] = "Ukrainian Raiders",
+						},
+						["Mds-Venoxis"] = {
+							["level"] = 80,
+							["class"] = "Shaman",
+							["classEnglish"] = "SHAMAN",
+							["guildName"] = "WORST GDKP EUW",
+						},
+						["Nepplol-Sulfuron"] = {
+							["level"] = 80,
+							["class"] = "Druid",
+							["classEnglish"] = "DRUID",
+							["guildName"] = "Corpse Run",
+						},
+						["Greenthumbs-PyrewoodVillage"] = {
+							["level"] = 80,
+							["class"] = "Mage",
+							["classEnglish"] = "MAGE",
+							["guildName"] = "Lost Souls",
+						},
+						["Arashtwadla-Auberdine"] = {
+							["level"] = 80,
+							["class"] = "Shaman",
+							["classEnglish"] = "SHAMAN",
+							["guildName"] = "Parasites of paradise",
+						},
+						["Icecoldmilk"] = {
+							["level"] = 80,
+							["class"] = "Warrior",
+							["classEnglish"] = "WARRIOR",
+						},
+						["Lollipup"] = {
+							["level"] = 80,
+							["class"] = "Paladin",
+							["classEnglish"] = "PALADIN",
+							["guildName"] = "Teldrassil Fire Crew",
+						},
+						["Furri"] = {
+							["level"] = 80,
+							["class"] = "Priest",
+							["classEnglish"] = "PRIEST",
+							["guildName"] = "BlackDivision",
+						},
+						["Ádalay-Gehennas"] = {
+							["level"] = 80,
+							["class"] = "Shaman",
+							["classEnglish"] = "SHAMAN",
+							["guildName"] = "Darksun",
+						},
+						["Naturalbro"] = {
+							["level"] = 80,
+							["class"] = "Hunter",
+							["classEnglish"] = "HUNTER",
+							["guildName"] = "egoMarket",
+						},
+						["Lówbattery-Mograine"] = {
+							["level"] = 80,
+							["class"] = "Shaman",
+							["classEnglish"] = "SHAMAN",
+						},
+					},
+					["class"] = "Shaman",
+					["leftTime"] = 1676277784,
+					["groupAverage"] = 79.92105263157895,
+					["enteredXP"] = 0,
+					["xpFromChat"] = 0,
+					["damage"] = 266413,
+					["mobCountFromKill"] = 0,
+					["type"] = "bg",
+					["winningFaction"] = 0,
+					["honor"] = 9512,
+					["playerName"] = "Zandalar",
+					["healing"] = 23478,
+					["rep"] = {
+					},
+					["enteredTime"] = 1676276616,
+					["instanceID"] = 2118,
+					["kb"] = 4,
+					["hk"] = 97,
+					["faction"] = 0,
+					["instanceName"] = "Wintergrasp",
+					["classEnglish"] = "SHAMAN",
+					["deaths"] = 4,
+					["enteredLevel"] = 80,
+				}, -- [4]
 				{
 					["isPvp"] = true,
 					["leftMoney"] = 0,
@@ -917,11 +1960,11 @@ NITdatabase = {
 							["classEnglish"] = "HUNTER",
 							["guildName"] = "avokado",
 						},
-						["Sdryoyo-Mandokir"] = {
+						["Interventor-Gehennas"] = {
 							["class"] = "Paladin",
 							["level"] = 80,
 							["classEnglish"] = "PALADIN",
-							["guildName"] = "INFAMES",
+							["guildName"] = "SEPON KALASEURA",
 						},
 						["Lynlars-Gehennas"] = {
 							["class"] = "Priest",
@@ -935,11 +1978,11 @@ NITdatabase = {
 							["classEnglish"] = "HUNTER",
 							["guildName"] = "La Honradez",
 						},
-						["Gilberg"] = {
-							["class"] = "Warlock",
+						["Sdryoyo-Mandokir"] = {
+							["class"] = "Paladin",
 							["level"] = 80,
-							["classEnglish"] = "WARLOCK",
-							["guildName"] = "Brocode",
+							["classEnglish"] = "PALADIN",
+							["guildName"] = "INFAMES",
 						},
 						["Nicator-Razorfen"] = {
 							["class"] = "Warrior",
@@ -958,11 +2001,10 @@ NITdatabase = {
 							["classEnglish"] = "PALADIN",
 							["class"] = "Paladin",
 						},
-						["Interventor-Gehennas"] = {
-							["class"] = "Paladin",
+						["Xafi-Mograine"] = {
 							["level"] = 80,
-							["classEnglish"] = "PALADIN",
-							["guildName"] = "SEPON KALASEURA",
+							["classEnglish"] = "DRUID",
+							["class"] = "Druid",
 						},
 						["Pandza-Venoxis"] = {
 							["class"] = "Warrior",
@@ -976,10 +2018,11 @@ NITdatabase = {
 							["classEnglish"] = "WARRIOR",
 							["guildName"] = "Pirate Problems",
 						},
-						["Xafi-Mograine"] = {
+						["Gilberg"] = {
+							["class"] = "Warlock",
 							["level"] = 80,
-							["classEnglish"] = "DRUID",
-							["class"] = "Druid",
+							["classEnglish"] = "WARLOCK",
+							["guildName"] = "Brocode",
 						},
 						["Studiñ-Gehennas"] = {
 							["class"] = "Priest",
@@ -989,29 +2032,29 @@ NITdatabase = {
 						},
 					},
 					["class"] = "Druid",
-					["winningFaction"] = 1,
 					["leftTime"] = 1676276510,
 					["groupAverage"] = 79.64999999999998,
 					["enteredXP"] = 0,
 					["xpFromChat"] = 0,
-					["healing"] = 3677,
-					["faction"] = 0,
 					["damage"] = 93807,
 					["mobCountFromKill"] = 0,
 					["type"] = "bg",
-					["deaths"] = 4,
+					["winningFaction"] = 1,
 					["honor"] = 7571,
 					["playerName"] = "Zowl",
-					["classEnglish"] = "DRUID",
+					["healing"] = 3677,
 					["rep"] = {
 					},
 					["enteredTime"] = 1676275255,
 					["instanceID"] = 2118,
-					["kb"] = 0,
+					["deaths"] = 4,
+					["classEnglish"] = "DRUID",
 					["hk"] = 37,
 					["instanceName"] = "Wintergrasp",
+					["faction"] = 0,
+					["kb"] = 0,
 					["enteredLevel"] = 80,
-				}, -- [1]
+				}, -- [5]
 				{
 					["isPvp"] = true,
 					["leftMoney"] = 0,
@@ -1202,17 +2245,17 @@ NITdatabase = {
 							["class"] = "Hunter",
 							["classEnglish"] = "HUNTER",
 						},
-						["Chugeli-Venoxis"] = {
-							["level"] = 80,
-							["class"] = "Priest",
-							["classEnglish"] = "PRIEST",
-							["guildName"] = "Helvetic Epidemic",
-						},
 						["Aquiqt-Venoxis"] = {
 							["level"] = 80,
 							["class"] = "Warrior",
 							["classEnglish"] = "WARRIOR",
 							["guildName"] = "Cool Kids",
+						},
+						["Chugeli-Venoxis"] = {
+							["level"] = 80,
+							["class"] = "Priest",
+							["classEnglish"] = "PRIEST",
+							["guildName"] = "Helvetic Epidemic",
 						},
 						["Jobjin-Thekal"] = {
 							["level"] = 80,
@@ -1267,13 +2310,13 @@ NITdatabase = {
 					["enteredTime"] = 1676222191,
 					["instanceID"] = 2118,
 					["kb"] = 0,
-					["hk"] = 30,
 					["faction"] = 0,
+					["hk"] = 30,
 					["instanceName"] = "Wintergrasp",
 					["classEnglish"] = "SHAMAN",
 					["deaths"] = 0,
 					["enteredLevel"] = 80,
-				}, -- [2]
+				}, -- [6]
 				{
 					["isPvp"] = true,
 					["leftMoney"] = 0,
@@ -1452,10 +2495,10 @@ NITdatabase = {
 							["classEnglish"] = "ROGUE",
 							["guildName"] = "Durotar Mafia",
 						},
-						["Sprasiteel"] = {
-							["level"] = 71,
-							["classEnglish"] = "HUNTER",
-							["class"] = "Hunter",
+						["Rirolero-Sulfuron"] = {
+							["level"] = 80,
+							["classEnglish"] = "PALADIN",
+							["class"] = "Paladin",
 						},
 						["Franckzemage"] = {
 							["class"] = "Mage",
@@ -1501,10 +2544,10 @@ NITdatabase = {
 							["classEnglish"] = "PALADIN",
 							["guildName"] = "Innuendo",
 						},
-						["Rirolero-Sulfuron"] = {
-							["level"] = 80,
-							["classEnglish"] = "PALADIN",
-							["class"] = "Paladin",
+						["Sprasiteel"] = {
+							["level"] = 71,
+							["classEnglish"] = "HUNTER",
+							["class"] = "Hunter",
 						},
 						["Auramastery-Gehennas"] = {
 							["level"] = 80,
@@ -1530,12 +2573,12 @@ NITdatabase = {
 					["instanceID"] = 2118,
 					["deaths"] = 1,
 					["classEnglish"] = "DRUID",
-					["hk"] = 15,
-					["instanceName"] = "Wintergrasp",
 					["faction"] = 0,
+					["instanceName"] = "Wintergrasp",
+					["hk"] = 15,
 					["kb"] = 0,
 					["enteredLevel"] = 80,
-				}, -- [3]
+				}, -- [7]
 				{
 					["isPvp"] = true,
 					["leftMoney"] = 0,
@@ -1783,13 +2826,13 @@ NITdatabase = {
 					["enteredTime"] = 1676211944,
 					["instanceID"] = 2118,
 					["kb"] = 0,
-					["faction"] = 0,
 					["hk"] = 6,
+					["faction"] = 0,
 					["instanceName"] = "Wintergrasp",
 					["classEnglish"] = "SHAMAN",
 					["deaths"] = 2,
 					["enteredLevel"] = 80,
-				}, -- [4]
+				}, -- [8]
 				{
 					["isPvp"] = true,
 					["leftMoney"] = 0,
@@ -2075,12 +3118,12 @@ NITdatabase = {
 					["instanceID"] = 2118,
 					["deaths"] = 6,
 					["classEnglish"] = "DRUID",
-					["faction"] = 0,
-					["instanceName"] = "Wintergrasp",
 					["hk"] = 48,
+					["instanceName"] = "Wintergrasp",
+					["faction"] = 0,
 					["kb"] = 0,
 					["enteredLevel"] = 80,
-				}, -- [5]
+				}, -- [9]
 				{
 					["isPvp"] = true,
 					["leftMoney"] = 0,
@@ -2240,11 +3283,11 @@ NITdatabase = {
 							["classEnglish"] = "HUNTER",
 							["class"] = "Hunter",
 						},
-						["Holyjah-Sulfuron"] = {
-							["class"] = "Druid",
+						["Spaceballs-Venoxis"] = {
+							["class"] = "Shaman",
 							["level"] = 80,
-							["classEnglish"] = "DRUID",
-							["guildName"] = "On renverse ta poubelle",
+							["classEnglish"] = "SHAMAN",
+							["guildName"] = "Gentlemen",
 						},
 						["Gehtorian-Mograine"] = {
 							["class"] = "Paladin",
@@ -2263,28 +3306,22 @@ NITdatabase = {
 							["classEnglish"] = "DEATHKNIGHT",
 							["class"] = "Death Knight",
 						},
-						["Cloneslave-Gehennas"] = {
-							["class"] = "Priest",
-							["level"] = 80,
-							["classEnglish"] = "PRIEST",
-							["guildName"] = "none of the above",
-						},
 						["Gewürztot-Razorfen"] = {
 							["class"] = "Death Knight",
 							["level"] = 80,
 							["classEnglish"] = "DEATHKNIGHT",
 							["guildName"] = "Die Zuflucht",
 						},
+						["Cloneslave-Gehennas"] = {
+							["class"] = "Priest",
+							["level"] = 80,
+							["classEnglish"] = "PRIEST",
+							["guildName"] = "none of the above",
+						},
 						["Purplefoet-Sulfuron"] = {
 							["level"] = 75,
 							["classEnglish"] = "MAGE",
 							["class"] = "Mage",
-						},
-						["Naigan-Auberdine"] = {
-							["class"] = "Hunter",
-							["level"] = 80,
-							["classEnglish"] = "HUNTER",
-							["guildName"] = "Forsaken",
 						},
 						["Enrágé-Venoxis"] = {
 							["class"] = "Warrior",
@@ -2292,16 +3329,22 @@ NITdatabase = {
 							["classEnglish"] = "WARRIOR",
 							["guildName"] = "Blackhand",
 						},
+						["Naigan-Auberdine"] = {
+							["class"] = "Hunter",
+							["level"] = 80,
+							["classEnglish"] = "HUNTER",
+							["guildName"] = "Forsaken",
+						},
 						["Hugnax"] = {
 							["level"] = 80,
 							["classEnglish"] = "SHAMAN",
 							["class"] = "Shaman",
 						},
-						["Spaceballs-Venoxis"] = {
-							["class"] = "Shaman",
+						["Holyjah-Sulfuron"] = {
+							["class"] = "Druid",
 							["level"] = 80,
-							["classEnglish"] = "SHAMAN",
-							["guildName"] = "Gentlemen",
+							["classEnglish"] = "DRUID",
+							["guildName"] = "On renverse ta poubelle",
 						},
 						["Çhiko-Venoxis"] = {
 							["class"] = "Hunter",
@@ -2339,12 +3382,12 @@ NITdatabase = {
 					["instanceID"] = 2118,
 					["deaths"] = 5,
 					["classEnglish"] = "SHAMAN",
-					["faction"] = 0,
-					["instanceName"] = "Wintergrasp",
 					["hk"] = 38,
+					["instanceName"] = "Wintergrasp",
+					["faction"] = 0,
 					["kb"] = 1,
 					["enteredLevel"] = 80,
-				}, -- [6]
+				}, -- [10]
 				{
 					["isPvp"] = true,
 					["leftMoney"] = 0,
@@ -2615,13 +3658,13 @@ NITdatabase = {
 					["enteredTime"] = 1675012432,
 					["instanceID"] = 2118,
 					["healing"] = 1237,
-					["hk"] = 26,
 					["faction"] = 0,
+					["hk"] = 26,
 					["instanceName"] = "Wintergrasp",
 					["deaths"] = 2,
 					["kb"] = 0,
 					["enteredLevel"] = 80,
-				}, -- [7]
+				}, -- [11]
 				{
 					["isPvp"] = true,
 					["leftMoney"] = 0,
@@ -2749,10 +3792,11 @@ NITdatabase = {
 							["classEnglish"] = "ROGUE",
 							["guildName"] = "Monkey Factory",
 						},
-						["Docblock-Patchwerk"] = {
+						["Chosenlight-MirageRaceway"] = {
 							["level"] = 80,
-							["class"] = "Death Knight",
-							["classEnglish"] = "DEATHKNIGHT",
+							["class"] = "Paladin",
+							["classEnglish"] = "PALADIN",
+							["guildName"] = "Sempiternal",
 						},
 						["Tatonku-Ashbringer"] = {
 							["level"] = 80,
@@ -2827,11 +3871,10 @@ NITdatabase = {
 							["classEnglish"] = "DRUID",
 							["guildName"] = "From Hero to Zerø",
 						},
-						["Chosenlight-MirageRaceway"] = {
+						["Docblock-Patchwerk"] = {
 							["level"] = 80,
-							["class"] = "Paladin",
-							["classEnglish"] = "PALADIN",
-							["guildName"] = "Sempiternal",
+							["class"] = "Death Knight",
+							["classEnglish"] = "DEATHKNIGHT",
 						},
 						["Shadower-Mograine"] = {
 							["level"] = 80,
@@ -2875,13 +3918,13 @@ NITdatabase = {
 					["enteredTime"] = 1674483708,
 					["instanceID"] = 2118,
 					["kb"] = 0,
-					["faction"] = 0,
 					["hk"] = 34,
+					["faction"] = 0,
 					["instanceName"] = "Wintergrasp",
 					["classEnglish"] = "SHAMAN",
 					["deaths"] = 0,
 					["enteredLevel"] = 80,
-				}, -- [8]
+				}, -- [12]
 				{
 					["isPvp"] = true,
 					["leftMoney"] = 0,
@@ -3016,11 +4059,11 @@ NITdatabase = {
 							["classEnglish"] = "ROGUE",
 							["guildName"] = "Naked Survival",
 						},
-						["Allystan-MirageRaceway"] = {
-							["class"] = "Paladin",
+						["Thundér-Ashbringer"] = {
+							["class"] = "Warrior",
 							["level"] = 80,
-							["classEnglish"] = "PALADIN",
-							["guildName"] = "Saint Javelin",
+							["classEnglish"] = "WARRIOR",
+							["guildName"] = "Bravo Seven",
 						},
 						["Tofuku-Gehennas"] = {
 							["class"] = "Mage",
@@ -3046,11 +4089,11 @@ NITdatabase = {
 							["classEnglish"] = "PALADIN",
 							["guildName"] = "Flat Outland Society",
 						},
-						["Thundér-Ashbringer"] = {
-							["class"] = "Warrior",
+						["Allystan-MirageRaceway"] = {
+							["class"] = "Paladin",
 							["level"] = 80,
-							["classEnglish"] = "WARRIOR",
-							["guildName"] = "Bravo Seven",
+							["classEnglish"] = "PALADIN",
+							["guildName"] = "Saint Javelin",
 						},
 						["Toyosen-Mograine"] = {
 							["level"] = 80,
@@ -3145,12 +4188,12 @@ NITdatabase = {
 					["instanceID"] = 2118,
 					["deaths"] = 2,
 					["classEnglish"] = "DRUID",
-					["faction"] = 0,
-					["instanceName"] = "Wintergrasp",
 					["hk"] = 43,
+					["instanceName"] = "Wintergrasp",
+					["faction"] = 0,
 					["kb"] = 1,
 					["enteredLevel"] = 80,
-				}, -- [9]
+				}, -- [13]
 				{
 					["isPvp"] = true,
 					["leftMoney"] = 0,
@@ -3313,18 +4356,6 @@ NITdatabase = {
 							["classEnglish"] = "DEATHKNIGHT",
 							["guildName"] = "Full Blown Raids",
 						},
-						["Hañiwaa-Ashbringer"] = {
-							["level"] = 80,
-							["class"] = "Priest",
-							["classEnglish"] = "PRIEST",
-							["guildName"] = "A Laget",
-						},
-						["Creaszy-Mograine"] = {
-							["level"] = 80,
-							["class"] = "Warrior",
-							["classEnglish"] = "WARRIOR",
-							["guildName"] = "MyGuildLeft",
-						},
 						["Eixie-Gehennas"] = {
 							["level"] = 80,
 							["class"] = "Rogue",
@@ -3336,6 +4367,18 @@ NITdatabase = {
 							["class"] = "Shaman",
 							["classEnglish"] = "SHAMAN",
 							["guildName"] = "Team Råcket",
+						},
+						["Hañiwaa-Ashbringer"] = {
+							["level"] = 80,
+							["class"] = "Priest",
+							["classEnglish"] = "PRIEST",
+							["guildName"] = "A Laget",
+						},
+						["Creaszy-Mograine"] = {
+							["level"] = 80,
+							["class"] = "Warrior",
+							["classEnglish"] = "WARRIOR",
+							["guildName"] = "MyGuildLeft",
 						},
 						["Butx-Sulfuron"] = {
 							["level"] = 80,
@@ -3408,13 +4451,13 @@ NITdatabase = {
 					["enteredTime"] = 1674472557,
 					["instanceID"] = 2118,
 					["kb"] = 0,
-					["hk"] = 14,
 					["faction"] = 0,
+					["hk"] = 14,
 					["instanceName"] = "Wintergrasp",
 					["classEnglish"] = "SHAMAN",
 					["deaths"] = 1,
 					["enteredLevel"] = 80,
-				}, -- [10]
+				}, -- [14]
 				{
 					["isPvp"] = true,
 					["leftMoney"] = 0,
@@ -3615,16 +4658,16 @@ NITdatabase = {
 							["classEnglish"] = "DEATHKNIGHT",
 							["guildName"] = "Voodoo People",
 						},
-						["Seufzerl-Lakeshire"] = {
-							["level"] = 79,
-							["classEnglish"] = "SHAMAN",
-							["class"] = "Shaman",
-						},
 						["Poyoz-Mograine"] = {
 							["class"] = "Paladin",
 							["level"] = 80,
 							["classEnglish"] = "PALADIN",
 							["guildName"] = "CHANNEL FOUR NEWS TEAM",
+						},
+						["Seufzerl-Lakeshire"] = {
+							["level"] = 79,
+							["classEnglish"] = "SHAMAN",
+							["class"] = "Shaman",
 						},
 						["Exomage-Transcendence"] = {
 							["class"] = "Mage",
@@ -3669,12 +4712,12 @@ NITdatabase = {
 					["instanceID"] = 2118,
 					["deaths"] = 0,
 					["classEnglish"] = "DRUID",
-					["hk"] = 40,
-					["instanceName"] = "Wintergrasp",
 					["faction"] = 0,
+					["instanceName"] = "Wintergrasp",
+					["hk"] = 40,
 					["kb"] = 0,
 					["enteredLevel"] = 80,
-				}, -- [11]
+				}, -- [15]
 				{
 					["isPvp"] = true,
 					["leftMoney"] = 0,
@@ -3920,12 +4963,12 @@ NITdatabase = {
 					["instanceID"] = 2118,
 					["deaths"] = 4,
 					["classEnglish"] = "DRUID",
-					["faction"] = 0,
-					["instanceName"] = "Wintergrasp",
 					["hk"] = 78,
+					["instanceName"] = "Wintergrasp",
+					["faction"] = 0,
 					["kb"] = 1,
 					["enteredLevel"] = 80,
-				}, -- [12]
+				}, -- [16]
 				{
 					["isPvp"] = true,
 					["leftMoney"] = 0,
@@ -4181,7 +5224,7 @@ NITdatabase = {
 					["instanceID"] = 2118,
 					["instanceName"] = "Wintergrasp",
 					["enteredLevel"] = 80,
-				}, -- [13]
+				}, -- [17]
 				{
 					["isPvp"] = true,
 					["leftMoney"] = 0,
@@ -4355,16 +5398,16 @@ NITdatabase = {
 							["classEnglish"] = "SHAMAN",
 							["class"] = "Shaman",
 						},
-						["Masster-Gehennas"] = {
-							["level"] = 80,
-							["classEnglish"] = "PALADIN",
-							["class"] = "Paladin",
-						},
 						["Jubeithoz-Ashbringer"] = {
 							["class"] = "Warrior",
 							["level"] = 80,
 							["classEnglish"] = "WARRIOR",
 							["guildName"] = "The Empire",
+						},
+						["Masster-Gehennas"] = {
+							["level"] = 80,
+							["classEnglish"] = "PALADIN",
+							["class"] = "Paladin",
 						},
 						["Zenpa-Razorfen"] = {
 							["level"] = 80,
@@ -4382,17 +5425,17 @@ NITdatabase = {
 							["classEnglish"] = "MAGE",
 							["class"] = "Mage",
 						},
-						["Orczi-Ashbringer"] = {
-							["class"] = "Rogue",
-							["level"] = 80,
-							["classEnglish"] = "ROGUE",
-							["guildName"] = "Guards of Death",
-						},
 						["Mörningstar-Sulfuron"] = {
 							["class"] = "Death Knight",
 							["level"] = 80,
 							["classEnglish"] = "DEATHKNIGHT",
 							["guildName"] = "Esquisse",
+						},
+						["Orczi-Ashbringer"] = {
+							["class"] = "Rogue",
+							["level"] = 80,
+							["classEnglish"] = "ROGUE",
+							["guildName"] = "Guards of Death",
 						},
 						["Arabella-Transcendence"] = {
 							["class"] = "Priest",
@@ -4412,17 +5455,17 @@ NITdatabase = {
 							["classEnglish"] = "PRIEST",
 							["guildName"] = "N A G A N O",
 						},
-						["Stormbreakêr-Patchwerk"] = {
-							["class"] = "Shaman",
-							["level"] = 80,
-							["classEnglish"] = "SHAMAN",
-							["guildName"] = "REMORSELESS",
-						},
 						["Shmoedin"] = {
 							["class"] = "Paladin",
 							["level"] = 80,
 							["classEnglish"] = "PALADIN",
 							["guildName"] = "Meta",
+						},
+						["Stormbreakêr-Patchwerk"] = {
+							["class"] = "Shaman",
+							["level"] = 80,
+							["classEnglish"] = "SHAMAN",
+							["guildName"] = "REMORSELESS",
 						},
 						["Hexadin-Ashbringer"] = {
 							["class"] = "Paladin",
@@ -4459,12 +5502,12 @@ NITdatabase = {
 					["instanceID"] = 2118,
 					["deaths"] = 4,
 					["classEnglish"] = "DRUID",
-					["hk"] = 7,
-					["instanceName"] = "Wintergrasp",
 					["faction"] = 0,
+					["instanceName"] = "Wintergrasp",
+					["hk"] = 7,
 					["kb"] = 0,
 					["enteredLevel"] = 80,
-				}, -- [14]
+				}, -- [18]
 				{
 					["isPvp"] = true,
 					["leftMoney"] = 0,
@@ -4625,22 +5668,22 @@ NITdatabase = {
 							["classEnglish"] = "PALADIN",
 							["guildName"] = "NoSkillJustLuck",
 						},
-						["Thorlakh-Sulfuron"] = {
+						["Rawbert-Mograine"] = {
 							["level"] = 80,
 							["class"] = "Warrior",
 							["classEnglish"] = "WARRIOR",
-							["guildName"] = "WDMKR",
+							["guildName"] = "Valhalla Veterans",
+						},
+						["Shmoozin-Ashbringer"] = {
+							["level"] = 80,
+							["class"] = "Mage",
+							["classEnglish"] = "MAGE",
 						},
 						["Böwjób-Mograine"] = {
 							["level"] = 80,
 							["class"] = "Hunter",
 							["classEnglish"] = "HUNTER",
 							["guildName"] = "xyucac",
-						},
-						["Shmoozin-Ashbringer"] = {
-							["level"] = 80,
-							["class"] = "Mage",
-							["classEnglish"] = "MAGE",
 						},
 						["Sur-Venoxis"] = {
 							["level"] = 80,
@@ -4653,11 +5696,11 @@ NITdatabase = {
 							["class"] = "Death Knight",
 							["classEnglish"] = "DEATHKNIGHT",
 						},
-						["Vladx-Gehennas"] = {
+						["Iners-Venoxis"] = {
 							["level"] = 80,
 							["class"] = "Warrior",
 							["classEnglish"] = "WARRIOR",
-							["guildName"] = "Time Well Wasted",
+							["guildName"] = "ChilL",
 						},
 						["Killinh-Gehennas"] = {
 							["level"] = 80,
@@ -4676,17 +5719,17 @@ NITdatabase = {
 							["classEnglish"] = "PALADIN",
 							["guildName"] = "Glory to Ukraïne",
 						},
-						["Iners-Venoxis"] = {
+						["Vladx-Gehennas"] = {
 							["level"] = 80,
 							["class"] = "Warrior",
 							["classEnglish"] = "WARRIOR",
-							["guildName"] = "ChilL",
+							["guildName"] = "Time Well Wasted",
 						},
-						["Rawbert-Mograine"] = {
+						["Thorlakh-Sulfuron"] = {
 							["level"] = 80,
 							["class"] = "Warrior",
 							["classEnglish"] = "WARRIOR",
-							["guildName"] = "Valhalla Veterans",
+							["guildName"] = "WDMKR",
 						},
 						["Sjokkern-Gehennas"] = {
 							["level"] = 80,
@@ -4730,13 +5773,13 @@ NITdatabase = {
 					["enteredTime"] = 1674396598,
 					["instanceID"] = 2118,
 					["kb"] = 1,
-					["faction"] = 0,
 					["hk"] = 47,
+					["faction"] = 0,
 					["instanceName"] = "Wintergrasp",
 					["classEnglish"] = "DRUID",
 					["deaths"] = 3,
 					["enteredLevel"] = 80,
-				}, -- [15]
+				}, -- [19]
 				{
 					["isPvp"] = true,
 					["leftMoney"] = 0,
@@ -4886,10 +5929,11 @@ NITdatabase = {
 							["classEnglish"] = "PALADIN",
 							["guildName"] = "Cobra Kaì",
 						},
-						["Andokek-Venoxis"] = {
+						["Pinkbeard-Ashbringer"] = {
+							["class"] = "Death Knight",
 							["level"] = 80,
-							["classEnglish"] = "PRIEST",
-							["class"] = "Priest",
+							["classEnglish"] = "DEATHKNIGHT",
+							["guildName"] = "Laugh Tale",
 						},
 						["Dolki-Transcendence"] = {
 							["class"] = "Warlock",
@@ -4915,11 +5959,10 @@ NITdatabase = {
 							["classEnglish"] = "ROGUE",
 							["guildName"] = "Välhalla",
 						},
-						["Pinkbeard-Ashbringer"] = {
-							["class"] = "Death Knight",
+						["Andokek-Venoxis"] = {
 							["level"] = 80,
-							["classEnglish"] = "DEATHKNIGHT",
-							["guildName"] = "Laugh Tale",
+							["classEnglish"] = "PRIEST",
+							["class"] = "Priest",
 						},
 						["Reptur-Ashbringer"] = {
 							["level"] = 80,
@@ -5008,21 +6051,21 @@ NITdatabase = {
 					["instanceID"] = 2118,
 					["deaths"] = 1,
 					["classEnglish"] = "DRUID",
-					["faction"] = 0,
-					["instanceName"] = "Wintergrasp",
 					["hk"] = 26,
+					["instanceName"] = "Wintergrasp",
+					["faction"] = 0,
 					["kb"] = 3,
 					["enteredLevel"] = 80,
-				}, -- [16]
+				}, -- [20]
 				{
 					["isPvp"] = true,
 					["leftMoney"] = 0,
 					["group"] = {
-						["Undisputted-Gehennas"] = {
+						["Bøpsacit-Gehennas"] = {
 							["class"] = "Paladin",
 							["level"] = 80,
 							["classEnglish"] = "PALADIN",
-							["guildName"] = "Shroomz",
+							["guildName"] = "Copenhagen Carsuals",
 						},
 						["Valkiá-Gehennas"] = {
 							["class"] = "Paladin",
@@ -5048,11 +6091,10 @@ NITdatabase = {
 							["classEnglish"] = "HUNTER",
 							["guildName"] = "Copenhagen Carsuals",
 						},
-						["Hujlo-Venoxis"] = {
-							["class"] = "Death Knight",
+						["Xuiwo"] = {
 							["level"] = 80,
-							["classEnglish"] = "DEATHKNIGHT",
-							["guildName"] = "Dieter Gierig",
+							["classEnglish"] = "MAGE",
+							["class"] = "Mage",
 						},
 						["Sacredzombie-Ashbringer"] = {
 							["class"] = "Priest",
@@ -5066,11 +6108,11 @@ NITdatabase = {
 							["classEnglish"] = "PALADIN",
 							["guildName"] = "Pick Up Forever",
 						},
-						["Bøpsacit-Gehennas"] = {
+						["Undisputted-Gehennas"] = {
 							["class"] = "Paladin",
 							["level"] = 80,
 							["classEnglish"] = "PALADIN",
-							["guildName"] = "Copenhagen Carsuals",
+							["guildName"] = "Shroomz",
 						},
 						["Scyter-Venoxis"] = {
 							["class"] = "Priest",
@@ -5108,10 +6150,11 @@ NITdatabase = {
 							["classEnglish"] = "DRUID",
 							["guildName"] = "The Awakened Path",
 						},
-						["Xuiwo"] = {
+						["Hujlo-Venoxis"] = {
+							["class"] = "Death Knight",
 							["level"] = 80,
-							["classEnglish"] = "MAGE",
-							["class"] = "Mage",
+							["classEnglish"] = "DEATHKNIGHT",
+							["guildName"] = "Dieter Gierig",
 						},
 					},
 					["class"] = "Druid",
@@ -5132,7 +6175,7 @@ NITdatabase = {
 					["winningFaction"] = 0,
 					["honor"] = 1280,
 					["playerName"] = "Zowl",
-					["healing"] = 2873,
+					["classEnglish"] = "DRUID",
 					["rep"] = {
 					},
 					["enteredTime"] = 1674383625,
@@ -5142,9 +6185,9 @@ NITdatabase = {
 					["hk"] = 34,
 					["instanceName"] = "Strand of the Ancients",
 					["kb"] = 0,
-					["classEnglish"] = "DRUID",
+					["healing"] = 2873,
 					["enteredLevel"] = 80,
-				}, -- [17]
+				}, -- [21]
 				{
 					["isPvp"] = true,
 					["leftMoney"] = 0,
@@ -5254,7 +6297,7 @@ NITdatabase = {
 					["instanceID"] = 607,
 					["instanceName"] = "Strand of the Ancients",
 					["enteredLevel"] = 80,
-				}, -- [18]
+				}, -- [22]
 				{
 					["isPvp"] = true,
 					["leftMoney"] = 0,
@@ -5385,7 +6428,7 @@ NITdatabase = {
 					["winningFaction"] = 1,
 					["honor"] = 1460,
 					["playerName"] = "Zowl",
-					["classEnglish"] = "DRUID",
+					["healing"] = 1268,
 					["rep"] = {
 					},
 					["enteredTime"] = 1674344352,
@@ -5395,9 +6438,9 @@ NITdatabase = {
 					["hk"] = 11,
 					["instanceName"] = "Strand of the Ancients",
 					["kb"] = 0,
-					["healing"] = 1268,
+					["classEnglish"] = "DRUID",
 					["enteredLevel"] = 80,
-				}, -- [19]
+				}, -- [23]
 				{
 					["isPvp"] = true,
 					["leftMoney"] = 0,
@@ -5442,20 +6485,21 @@ NITdatabase = {
 							["classEnglish"] = "DEATHKNIGHT",
 							["guildName"] = "Get rich",
 						},
-						["Giouber-Ashbringer"] = {
-							["level"] = 80,
-							["classEnglish"] = "DEATHKNIGHT",
-							["class"] = "Death Knight",
-						},
-						["Raspopitu-Thekal"] = {
-							["level"] = 80,
-							["classEnglish"] = "PRIEST",
-							["class"] = "Priest",
-						},
 						["Corrodé"] = {
 							["level"] = 80,
 							["classEnglish"] = "ROGUE",
 							["class"] = "Rogue",
+						},
+						["Spylia-Gehennas"] = {
+							["class"] = "Druid",
+							["level"] = 80,
+							["classEnglish"] = "DRUID",
+							["guildName"] = "The Expendables",
+						},
+						["Giouber-Ashbringer"] = {
+							["level"] = 80,
+							["classEnglish"] = "DEATHKNIGHT",
+							["class"] = "Death Knight",
 						},
 						["Sipoy-Razorfen"] = {
 							["level"] = 80,
@@ -5468,23 +6512,22 @@ NITdatabase = {
 							["classEnglish"] = "WARLOCK",
 							["guildName"] = "Regiment of Ymir",
 						},
-						["Spylia-Gehennas"] = {
-							["class"] = "Druid",
+						["Raspopitu-Thekal"] = {
 							["level"] = 80,
-							["classEnglish"] = "DRUID",
-							["guildName"] = "The Expendables",
-						},
-						["Nfxdgyn-Venoxis"] = {
-							["class"] = "Death Knight",
-							["level"] = 80,
-							["classEnglish"] = "DEATHKNIGHT",
-							["guildName"] = "Get rich",
+							["classEnglish"] = "PRIEST",
+							["class"] = "Priest",
 						},
 						["Zowl"] = {
 							["class"] = "Druid",
 							["level"] = 80,
 							["classEnglish"] = "DRUID",
 							["guildName"] = "The Awakened Path",
+						},
+						["Nfxdgyn-Venoxis"] = {
+							["class"] = "Death Knight",
+							["level"] = 80,
+							["classEnglish"] = "DEATHKNIGHT",
+							["guildName"] = "Get rich",
 						},
 					},
 					["class"] = "Druid",
@@ -5505,7 +6548,7 @@ NITdatabase = {
 					["winningFaction"] = 0,
 					["honor"] = 1016,
 					["playerName"] = "Zowl",
-					["classEnglish"] = "DRUID",
+					["healing"] = 0,
 					["rep"] = {
 					},
 					["enteredTime"] = 1674344127,
@@ -5515,9 +6558,9 @@ NITdatabase = {
 					["hk"] = 11,
 					["instanceName"] = "Strand of the Ancients",
 					["kb"] = 0,
-					["healing"] = 0,
+					["classEnglish"] = "DRUID",
 					["enteredLevel"] = 80,
-				}, -- [20]
+				}, -- [24]
 				{
 					["isPvp"] = true,
 					["leftMoney"] = 0,
@@ -5528,11 +6571,11 @@ NITdatabase = {
 							["classEnglish"] = "DEATHKNIGHT",
 							["guildName"] = "Get rich",
 						},
-						["Zowl"] = {
+						["Mgdfh-Sulfuron"] = {
 							["level"] = 80,
-							["class"] = "Druid",
-							["classEnglish"] = "DRUID",
-							["guildName"] = "The Awakened Path",
+							["class"] = "Death Knight",
+							["classEnglish"] = "DEATHKNIGHT",
+							["guildName"] = "Get rich",
 						},
 						["Aggroganz-Gehennas"] = {
 							["level"] = 80,
@@ -5540,16 +6583,16 @@ NITdatabase = {
 							["classEnglish"] = "WARRIOR",
 							["guildName"] = "Omega",
 						},
-						["Reoubet-Razorfen"] = {
+						["Sbeuj-Amnennar"] = {
 							["level"] = 80,
-							["class"] = "Death Knight",
-							["classEnglish"] = "DEATHKNIGHT",
+							["class"] = "Priest",
+							["classEnglish"] = "PRIEST",
 						},
-						["Mgdfh-Sulfuron"] = {
+						["Zowl"] = {
 							["level"] = 80,
-							["class"] = "Death Knight",
-							["classEnglish"] = "DEATHKNIGHT",
-							["guildName"] = "Get rich",
+							["class"] = "Druid",
+							["classEnglish"] = "DRUID",
+							["guildName"] = "The Awakened Path",
 						},
 						["Lanssianssi-Gehennas"] = {
 							["level"] = 80,
@@ -5574,20 +6617,20 @@ NITdatabase = {
 							["class"] = "Priest",
 							["classEnglish"] = "PRIEST",
 						},
-						["Giouber-Ashbringer"] = {
+						["Corrodé"] = {
 							["level"] = 80,
-							["class"] = "Death Knight",
-							["classEnglish"] = "DEATHKNIGHT",
+							["class"] = "Rogue",
+							["classEnglish"] = "ROGUE",
 						},
 						["Sipoy-Razorfen"] = {
 							["level"] = 80,
 							["class"] = "Death Knight",
 							["classEnglish"] = "DEATHKNIGHT",
 						},
-						["Corrodé"] = {
+						["Giouber-Ashbringer"] = {
 							["level"] = 80,
-							["class"] = "Rogue",
-							["classEnglish"] = "ROGUE",
+							["class"] = "Death Knight",
+							["classEnglish"] = "DEATHKNIGHT",
 						},
 						["Superdom-NethergardeKeep"] = {
 							["level"] = 80,
@@ -5601,10 +6644,10 @@ NITdatabase = {
 							["classEnglish"] = "DEATHKNIGHT",
 							["guildName"] = "Get rich",
 						},
-						["Sbeuj-Amnennar"] = {
+						["Reoubet-Razorfen"] = {
 							["level"] = 80,
-							["class"] = "Priest",
-							["classEnglish"] = "PRIEST",
+							["class"] = "Death Knight",
+							["classEnglish"] = "DEATHKNIGHT",
 						},
 					},
 					["class"] = "Druid",
@@ -5623,13 +6666,13 @@ NITdatabase = {
 					["enteredTime"] = 1674343302,
 					["instanceID"] = 607,
 					["deaths"] = 0,
-					["faction"] = 1,
 					["hk"] = 0,
+					["faction"] = 1,
 					["instanceName"] = "Strand of the Ancients",
 					["kb"] = 0,
 					["classEnglish"] = "DRUID",
 					["enteredLevel"] = 80,
-				}, -- [21]
+				}, -- [25]
 				{
 					["isPvp"] = true,
 					["leftMoney"] = 0,
@@ -5744,13 +6787,13 @@ NITdatabase = {
 					["enteredTime"] = 1674342690,
 					["instanceID"] = 607,
 					["kb"] = 0,
-					["faction"] = 0,
 					["hk"] = 9,
+					["faction"] = 0,
 					["instanceName"] = "Strand of the Ancients",
 					["classEnglish"] = "DRUID",
 					["deaths"] = 3,
 					["enteredLevel"] = 80,
-				}, -- [22]
+				}, -- [26]
 				{
 					["isPvp"] = true,
 					["leftMoney"] = 0,
@@ -5874,17 +6917,17 @@ NITdatabase = {
 							["classEnglish"] = "WARRIOR",
 							["guildName"] = "The Salty Spitoon",
 						},
-						["Hotsonyou"] = {
-							["level"] = 80,
-							["class"] = "Druid",
-							["classEnglish"] = "DRUID",
-							["guildName"] = "Lorem Boys",
-						},
 						["Bloomgodx-Gehennas"] = {
 							["level"] = 80,
 							["class"] = "Druid",
 							["classEnglish"] = "DRUID",
 							["guildName"] = "Just too cool",
+						},
+						["Hotsonyou"] = {
+							["level"] = 80,
+							["class"] = "Druid",
+							["classEnglish"] = "DRUID",
+							["guildName"] = "Lorem Boys",
 						},
 						["Schattentód-Lakeshire"] = {
 							["level"] = 80,
@@ -5897,11 +6940,11 @@ NITdatabase = {
 							["class"] = "Hunter",
 							["classEnglish"] = "HUNTER",
 						},
-						["Karthein-Mandokir"] = {
-							["level"] = 71,
-							["class"] = "Paladin",
-							["classEnglish"] = "PALADIN",
-							["guildName"] = "Never End",
+						["Kugít-Venoxis"] = {
+							["level"] = 80,
+							["class"] = "Death Knight",
+							["classEnglish"] = "DEATHKNIGHT",
+							["guildName"] = "K A R T E L L",
 						},
 						["Sollothesa"] = {
 							["level"] = 80,
@@ -5926,11 +6969,11 @@ NITdatabase = {
 							["class"] = "Warlock",
 							["classEnglish"] = "WARLOCK",
 						},
-						["Femmto-Venoxis"] = {
+						["Norador-Venoxis"] = {
 							["level"] = 80,
-							["class"] = "Rogue",
-							["classEnglish"] = "ROGUE",
-							["guildName"] = "Finest",
+							["class"] = "Warlock",
+							["classEnglish"] = "WARLOCK",
+							["guildName"] = "K A R T E L L",
 						},
 						["Eytø-Amnennar"] = {
 							["level"] = 80,
@@ -5947,17 +6990,17 @@ NITdatabase = {
 							["class"] = "Death Knight",
 							["classEnglish"] = "DEATHKNIGHT",
 						},
-						["Norador-Venoxis"] = {
+						["Femmto-Venoxis"] = {
 							["level"] = 80,
-							["class"] = "Warlock",
-							["classEnglish"] = "WARLOCK",
-							["guildName"] = "K A R T E L L",
+							["class"] = "Rogue",
+							["classEnglish"] = "ROGUE",
+							["guildName"] = "Finest",
 						},
-						["Kugít-Venoxis"] = {
-							["level"] = 80,
-							["class"] = "Death Knight",
-							["classEnglish"] = "DEATHKNIGHT",
-							["guildName"] = "K A R T E L L",
+						["Karthein-Mandokir"] = {
+							["level"] = 71,
+							["class"] = "Paladin",
+							["classEnglish"] = "PALADIN",
+							["guildName"] = "Never End",
 						},
 						["Ulffy-Auberdine"] = {
 							["level"] = 80,
@@ -6005,13 +7048,13 @@ NITdatabase = {
 					["enteredTime"] = 1674342033,
 					["instanceID"] = 2118,
 					["kb"] = 0,
-					["faction"] = 0,
 					["hk"] = 1,
+					["faction"] = 0,
 					["instanceName"] = "Wintergrasp",
 					["classEnglish"] = "DRUID",
 					["deaths"] = 2,
 					["enteredLevel"] = 80,
-				}, -- [23]
+				}, -- [27]
 				{
 					["isPvp"] = true,
 					["leftMoney"] = 0,
@@ -6276,13 +7319,13 @@ NITdatabase = {
 					["enteredTime"] = 1674331233,
 					["instanceID"] = 2118,
 					["kb"] = 1,
-					["hk"] = 19,
 					["faction"] = 0,
+					["hk"] = 19,
 					["instanceName"] = "Wintergrasp",
 					["classEnglish"] = "DRUID",
 					["deaths"] = 10,
 					["enteredLevel"] = 80,
-				}, -- [24]
+				}, -- [28]
 				{
 					["isPvp"] = true,
 					["leftMoney"] = 0,
@@ -6538,13 +7581,13 @@ NITdatabase = {
 					["enteredTime"] = 1674212882,
 					["instanceID"] = 2118,
 					["kb"] = 1,
-					["faction"] = 0,
 					["hk"] = 31,
+					["faction"] = 0,
 					["instanceName"] = "Wintergrasp",
 					["classEnglish"] = "DRUID",
 					["deaths"] = 1,
 					["enteredLevel"] = 80,
-				}, -- [25]
+				}, -- [29]
 				{
 					["isPvp"] = true,
 					["leftMoney"] = 0,
@@ -6708,11 +7751,11 @@ NITdatabase = {
 							["classEnglish"] = "WARLOCK",
 							["guildName"] = "Handsome Club",
 						},
-						["Vladx-Gehennas"] = {
-							["class"] = "Warrior",
+						["Muaquineta-Mandokir"] = {
+							["class"] = "Shaman",
 							["level"] = 80,
-							["classEnglish"] = "WARRIOR",
-							["guildName"] = "Time Well Wasted",
+							["classEnglish"] = "SHAMAN",
+							["guildName"] = "GUILD NOSTOCAMOS",
 						},
 						["Holypunchman-Gehennas"] = {
 							["class"] = "Paladin",
@@ -6726,17 +7769,17 @@ NITdatabase = {
 							["classEnglish"] = "DRUID",
 							["guildName"] = "Leap Of Faith",
 						},
-						["Tshiksê-Lakeshire"] = {
-							["class"] = "Warlock",
+						["Harder-Sulfuron"] = {
+							["class"] = "Priest",
 							["level"] = 80,
-							["classEnglish"] = "WARLOCK",
-							["guildName"] = "Maira",
+							["classEnglish"] = "PRIEST",
+							["guildName"] = "Reset",
 						},
-						["Muaquineta-Mandokir"] = {
-							["class"] = "Shaman",
+						["Vladx-Gehennas"] = {
+							["class"] = "Warrior",
 							["level"] = 80,
-							["classEnglish"] = "SHAMAN",
-							["guildName"] = "GUILD NOSTOCAMOS",
+							["classEnglish"] = "WARRIOR",
+							["guildName"] = "Time Well Wasted",
 						},
 						["Emmoonuel-Mograine"] = {
 							["level"] = 80,
@@ -6767,11 +7810,11 @@ NITdatabase = {
 							["classEnglish"] = "SHAMAN",
 							["guildName"] = "WHYOS",
 						},
-						["Harder-Sulfuron"] = {
-							["class"] = "Priest",
+						["Tshiksê-Lakeshire"] = {
+							["class"] = "Warlock",
 							["level"] = 80,
-							["classEnglish"] = "PRIEST",
-							["guildName"] = "Reset",
+							["classEnglish"] = "WARLOCK",
+							["guildName"] = "Maira",
 						},
 						["Mélinias-Amnennar"] = {
 							["class"] = "Shaman",
@@ -6810,12 +7853,12 @@ NITdatabase = {
 					["instanceID"] = 2118,
 					["deaths"] = 4,
 					["classEnglish"] = "DRUID",
-					["faction"] = 0,
-					["instanceName"] = "Wintergrasp",
 					["hk"] = 64,
+					["instanceName"] = "Wintergrasp",
+					["faction"] = 0,
 					["kb"] = 2,
 					["enteredLevel"] = 80,
-				}, -- [26]
+				}, -- [30]
 				{
 					["isPvp"] = true,
 					["leftMoney"] = 0,
@@ -6971,11 +8014,11 @@ NITdatabase = {
 							["classEnglish"] = "PRIEST",
 							["guildName"] = "Midnight Madness",
 						},
-						["Sëlënë"] = {
+						["Ornytus-MirageRaceway"] = {
 							["level"] = 80,
-							["class"] = "Druid",
-							["classEnglish"] = "DRUID",
-							["guildName"] = "Exilium",
+							["class"] = "Warrior",
+							["classEnglish"] = "WARRIOR",
+							["guildName"] = "Team Valhalla",
 						},
 						["Dochunt-Patchwerk"] = {
 							["level"] = 71,
@@ -6988,11 +8031,11 @@ NITdatabase = {
 							["classEnglish"] = "DRUID",
 							["guildName"] = "Relentless",
 						},
-						["Ornytus-MirageRaceway"] = {
+						["Sëlënë"] = {
 							["level"] = 80,
-							["class"] = "Warrior",
-							["classEnglish"] = "WARRIOR",
-							["guildName"] = "Team Valhalla",
+							["class"] = "Druid",
+							["classEnglish"] = "DRUID",
+							["guildName"] = "Exilium",
 						},
 						["Sorgon-Ashbringer"] = {
 							["level"] = 80,
@@ -7091,13 +8134,13 @@ NITdatabase = {
 					["enteredTime"] = 1674158424,
 					["instanceID"] = 2118,
 					["kb"] = 2,
-					["hk"] = 37,
 					["faction"] = 0,
+					["hk"] = 37,
 					["instanceName"] = "Wintergrasp",
 					["classEnglish"] = "DRUID",
 					["deaths"] = 4,
 					["enteredLevel"] = 80,
-				}, -- [27]
+				}, -- [31]
 				{
 					["GUID"] = "Creature-0-4457-230-11986-9547-00032DA86E",
 					["leftMoney"] = 61412509,
@@ -7155,7 +8198,7 @@ NITdatabase = {
 					["enteredMoney"] = 61405857,
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [28]
+				}, -- [32]
 				{
 					["leftMoney"] = 61405857,
 					["group"] = {
@@ -7179,16 +8222,16 @@ NITdatabase = {
 					["enteredMoney"] = 61405857,
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [29]
+				}, -- [33]
 				{
 					["GUID"] = "Creature-0-4457-532-13996-16485-0000ACD9CA",
 					["leftMoney"] = 0,
 					["group"] = {
-						["Sthil"] = {
+						["Pedomágico"] = {
 							["level"] = 70,
-							["class"] = "Druid",
-							["classEnglish"] = "DRUID",
-							["guildName"] = "The Meddlers",
+							["class"] = "Mage",
+							["classEnglish"] = "MAGE",
+							["guildName"] = "Hispania",
 						},
 						["Greytusk"] = {
 							["level"] = 70,
@@ -7201,17 +8244,17 @@ NITdatabase = {
 							["classEnglish"] = "PRIEST",
 							["guildName"] = "Replay",
 						},
-						["Zandalar"] = {
+						["Kjacksparrow"] = {
 							["level"] = 70,
-							["class"] = "Shaman",
-							["classEnglish"] = "SHAMAN",
-							["guildName"] = "The Awakened Path",
+							["class"] = "Druid",
+							["classEnglish"] = "DRUID",
+							["guildName"] = "Nocturne",
 						},
-						["Pedomágico"] = {
+						["Sthil"] = {
 							["level"] = 70,
-							["class"] = "Mage",
-							["classEnglish"] = "MAGE",
-							["guildName"] = "Hispania",
+							["class"] = "Druid",
+							["classEnglish"] = "DRUID",
+							["guildName"] = "The Meddlers",
 						},
 						["Sylvesleatsz"] = {
 							["level"] = 70,
@@ -7235,11 +8278,11 @@ NITdatabase = {
 							["classEnglish"] = "DRUID",
 							["guildName"] = "Been Here Before",
 						},
-						["Kjacksparrow"] = {
+						["Zandalar"] = {
 							["level"] = 70,
-							["class"] = "Druid",
-							["classEnglish"] = "DRUID",
-							["guildName"] = "Nocturne",
+							["class"] = "Shaman",
+							["classEnglish"] = "SHAMAN",
+							["guildName"] = "The Awakened Path",
 						},
 					},
 					["class"] = "Shaman",
@@ -7264,7 +8307,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 238318,
 					["GUIDSource"] = "combatLog",
 					["enteredLevel"] = 70,
-				}, -- [30]
+				}, -- [34]
 				{
 					["GUID"] = "Creature-0-4479-564-20183-23239-0000F532F4",
 					["leftMoney"] = 83251892,
@@ -7463,7 +8506,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4479-564-20183-23411-00007532F4",
 					["GUIDSource"] = "combatLog",
 					["enteredLevel"] = 70,
-				}, -- [31]
+				}, -- [35]
 				{
 					["GUID"] = "Creature-0-4459-534-2436-23381-00007535B4",
 					["leftMoney"] = 82514208,
@@ -7528,7 +8571,7 @@ NITdatabase = {
 							["class"] = "Mage",
 							["classEnglish"] = "MAGE",
 						},
-						["Årchaon"] = {
+						["Galm"] = {
 							["level"] = 70,
 							["class"] = "Shaman",
 							["classEnglish"] = "SHAMAN",
@@ -7543,7 +8586,7 @@ NITdatabase = {
 							["class"] = "Druid",
 							["classEnglish"] = "DRUID",
 						},
-						["Galm"] = {
+						["Årchaon"] = {
 							["level"] = 70,
 							["class"] = "Shaman",
 							["classEnglish"] = "SHAMAN",
@@ -7602,7 +8645,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 0,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 70,
-				}, -- [32]
+				}, -- [36]
 				{
 					["GUID"] = "Creature-0-4479-564-20183-23411-00007532F4",
 					["leftMoney"] = 82393112,
@@ -7686,10 +8729,10 @@ NITdatabase = {
 							["class"] = "Druid",
 							["classEnglish"] = "DRUID",
 						},
-						["Harakikiriki"] = {
+						["Shaniqq"] = {
 							["level"] = 70,
-							["class"] = "Warlock",
-							["classEnglish"] = "WARLOCK",
+							["class"] = "Mage",
+							["classEnglish"] = "MAGE",
 							["guildName"] = "The Awakened Path",
 						},
 						["Kötarø"] = {
@@ -7698,16 +8741,17 @@ NITdatabase = {
 							["classEnglish"] = "ROGUE",
 							["guildName"] = "The Awakened Path",
 						},
-						["Shaniqq"] = {
+						["Harakikiriki"] = {
 							["level"] = 70,
-							["class"] = "Mage",
-							["classEnglish"] = "MAGE",
+							["class"] = "Warlock",
+							["classEnglish"] = "WARLOCK",
 							["guildName"] = "The Awakened Path",
 						},
-						["Årchaon"] = {
+						["Zandalar"] = {
 							["level"] = 70,
 							["class"] = "Shaman",
 							["classEnglish"] = "SHAMAN",
+							["guildName"] = "The Awakened Path",
 						},
 						["Vernitka"] = {
 							["level"] = 70,
@@ -7739,11 +8783,10 @@ NITdatabase = {
 							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
-						["Zandalar"] = {
+						["Årchaon"] = {
 							["level"] = 70,
 							["class"] = "Shaman",
 							["classEnglish"] = "SHAMAN",
-							["guildName"] = "The Awakened Path",
 						},
 					},
 					["class"] = "Shaman",
@@ -7768,7 +8811,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 0,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 70,
-				}, -- [33]
+				}, -- [37]
 				{
 					["GUID"] = "Creature-0-4459-534-2436-23381-00007535B4",
 					["leftMoney"] = 82393112,
@@ -7892,7 +8935,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 0,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 70,
-				}, -- [34]
+				}, -- [38]
 				{
 					["GUID"] = "Creature-0-4480-568-3857-24396-0000DEDAFC",
 					["leftMoney"] = 13028698,
@@ -7945,16 +8988,16 @@ NITdatabase = {
 							["classEnglish"] = "PALADIN",
 							["guildName"] = "The Awakened Path",
 						},
-						["Mashx"] = {
-							["level"] = 70,
-							["class"] = "Warlock",
-							["classEnglish"] = "WARLOCK",
-							["guildName"] = "The Awakened Path",
-						},
 						["Ratsäm"] = {
 							["level"] = 70,
 							["class"] = "Mage",
 							["classEnglish"] = "MAGE",
+							["guildName"] = "The Awakened Path",
+						},
+						["Mashx"] = {
+							["level"] = 70,
+							["class"] = "Warlock",
+							["classEnglish"] = "WARLOCK",
 							["guildName"] = "The Awakened Path",
 						},
 						["Mauraxa"] = {
@@ -7988,7 +9031,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4480-568-3857-24180-00005EDFF6",
 					["GUIDSource"] = "nameplate1",
 					["mergeSource"] = "nameplate",
-				}, -- [35]
+				}, -- [39]
 				{
 					["GUID"] = "Creature-0-4469-534-18676-23381-0000530155",
 					["leftMoney"] = 16725422,
@@ -8027,7 +9070,7 @@ NITdatabase = {
 					["enteredMoney"] = 16725422,
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [36]
+				}, -- [40]
 				{
 					["GUID"] = "Creature-0-4448-553-18663-15497-0000507AFF",
 					["leftMoney"] = 17238474,
@@ -8088,7 +9131,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4448-553-18663-19633-000050736B",
 					["GUIDSource"] = "mouseover",
 					["mergeSource"] = "combatlogSourceGUID",
-				}, -- [37]
+				}, -- [41]
 				{
 					["GUID"] = "Creature-0-4458-565-8902-19044-0000506729",
 					["leftMoney"] = 16264062,
@@ -8177,10 +9220,10 @@ NITdatabase = {
 							["classEnglish"] = "PALADIN",
 							["guildName"] = "The Awakened Path",
 						},
-						["Spinavylopez"] = {
-							["class"] = "Warlock",
+						["Shaniqq"] = {
+							["class"] = "Mage",
 							["level"] = 70,
-							["classEnglish"] = "WARLOCK",
+							["classEnglish"] = "MAGE",
 							["guildName"] = "The Awakened Path",
 						},
 						["Kötarø"] = {
@@ -8189,13 +9232,13 @@ NITdatabase = {
 							["classEnglish"] = "ROGUE",
 							["guildName"] = "The Awakened Path",
 						},
-						["Shaniqq"] = {
-							["class"] = "Mage",
+						["Spinavylopez"] = {
+							["class"] = "Warlock",
 							["level"] = 70,
-							["classEnglish"] = "MAGE",
+							["classEnglish"] = "WARLOCK",
 							["guildName"] = "The Awakened Path",
 						},
-						["Zandalar"] = {
+						["Galm"] = {
 							["class"] = "Shaman",
 							["level"] = 70,
 							["classEnglish"] = "SHAMAN",
@@ -8219,7 +9262,7 @@ NITdatabase = {
 							["classEnglish"] = "WARRIOR",
 							["guildName"] = "The Awakened Path",
 						},
-						["Galm"] = {
+						["Zandalar"] = {
 							["class"] = "Shaman",
 							["level"] = 70,
 							["classEnglish"] = "SHAMAN",
@@ -8260,7 +9303,7 @@ NITdatabase = {
 					["enteredMoney"] = 16053885,
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [38]
+				}, -- [42]
 				{
 					["GUID"] = "Creature-0-4469-564-15604-23239-000050488B",
 					["leftMoney"] = 16056435,
@@ -8349,10 +9392,10 @@ NITdatabase = {
 							["classEnglish"] = "PALADIN",
 							["guildName"] = "The Awakened Path",
 						},
-						["Spinavylopez"] = {
+						["Nakedbones"] = {
+							["class"] = "Priest",
 							["level"] = 70,
-							["class"] = "Warlock",
-							["classEnglish"] = "WARLOCK",
+							["classEnglish"] = "PRIEST",
 							["guildName"] = "The Awakened Path",
 						},
 						["Galm"] = {
@@ -8367,10 +9410,10 @@ NITdatabase = {
 							["classEnglish"] = "ROGUE",
 							["guildName"] = "The Awakened Path",
 						},
-						["Nakedbones"] = {
-							["class"] = "Priest",
+						["Spinavylopez"] = {
 							["level"] = 70,
-							["classEnglish"] = "PRIEST",
+							["class"] = "Warlock",
+							["classEnglish"] = "WARLOCK",
 							["guildName"] = "The Awakened Path",
 						},
 						["Zandalar"] = {
@@ -8439,7 +9482,7 @@ NITdatabase = {
 					["enteredMoney"] = 15663366,
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [39]
+				}, -- [43]
 				{
 					["GUID"] = "Creature-0-4469-532-16575-16481-000145D0E8",
 					["leftMoney"] = 12107765,
@@ -8536,7 +9579,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4469-532-16575-16481-000145D0E8",
 					["GUIDSource"] = "nameplate1",
 					["mergeSource"] = "nameplate",
-				}, -- [40]
+				}, -- [44]
 				{
 					["leftMoney"] = 11687337,
 					["group"] = {
@@ -8550,11 +9593,10 @@ NITdatabase = {
 							["class"] = "Priest",
 							["classEnglish"] = "PRIEST",
 						},
-						["Krutto"] = {
+						["Tominak"] = {
 							["level"] = 70,
-							["class"] = "Warlock",
-							["classEnglish"] = "WARLOCK",
-							["guildName"] = "The Awakened Path",
+							["class"] = "Druid",
+							["classEnglish"] = "DRUID",
 						},
 						["Zandalar"] = {
 							["level"] = 70,
@@ -8588,10 +9630,11 @@ NITdatabase = {
 							["class"] = "Paladin",
 							["classEnglish"] = "PALADIN",
 						},
-						["Tominak"] = {
+						["Krutto"] = {
 							["level"] = 70,
-							["class"] = "Druid",
-							["classEnglish"] = "DRUID",
+							["class"] = "Warlock",
+							["classEnglish"] = "WARLOCK",
+							["guildName"] = "The Awakened Path",
 						},
 					},
 					["class"] = "Shaman",
@@ -8614,7 +9657,7 @@ NITdatabase = {
 					["enteredMoney"] = 11687337,
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [41]
+				}, -- [45]
 				{
 					["GUID"] = "Creature-0-4469-532-16575-16169-000045D0E8",
 					["leftMoney"] = 11687337,
@@ -8631,10 +9674,10 @@ NITdatabase = {
 							["classEnglish"] = "PRIEST",
 							["guildName"] = "The Awakened Path",
 						},
-						["Tominak"] = {
+						["Krutto"] = {
 							["level"] = 70,
-							["class"] = "Druid",
-							["classEnglish"] = "DRUID",
+							["class"] = "Warlock",
+							["classEnglish"] = "WARLOCK",
 							["guildName"] = "The Awakened Path",
 						},
 						["Zandalar"] = {
@@ -8671,10 +9714,10 @@ NITdatabase = {
 							["class"] = "Paladin",
 							["classEnglish"] = "PALADIN",
 						},
-						["Krutto"] = {
+						["Tominak"] = {
 							["level"] = 70,
-							["class"] = "Warlock",
-							["classEnglish"] = "WARLOCK",
+							["class"] = "Druid",
+							["classEnglish"] = "DRUID",
 							["guildName"] = "The Awakened Path",
 						},
 					},
@@ -8700,7 +9743,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 0,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 70,
-				}, -- [42]
+				}, -- [46]
 				{
 					["GUID"] = "Creature-0-4446-568-15885-24396-0002C5BEC5",
 					["leftMoney"] = 11569821,
@@ -8740,7 +9783,7 @@ NITdatabase = {
 							["classEnglish"] = "PALADIN",
 							["guildName"] = "The Awakened Path",
 						},
-						["Flowerist"] = {
+						["Druidanator"] = {
 							["level"] = 70,
 							["class"] = "Druid",
 							["classEnglish"] = "DRUID",
@@ -8769,7 +9812,7 @@ NITdatabase = {
 							["classEnglish"] = "WARLOCK",
 							["guildName"] = "The Awakened Path",
 						},
-						["Druidanator"] = {
+						["Flowerist"] = {
 							["level"] = 70,
 							["class"] = "Druid",
 							["classEnglish"] = "DRUID",
@@ -8800,7 +9843,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4446-568-15885-24396-0000C5BEC6",
 					["GUIDSource"] = "nameplate1",
 					["mergeSource"] = "nameplate",
-				}, -- [43]
+				}, -- [47]
 				{
 					["GUID"] = "Creature-0-4447-585-21466-24664-00004341FA",
 					["leftMoney"] = 11018782,
@@ -8866,7 +9909,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4447-585-21466-24683-0000C341FA",
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [44]
+				}, -- [48]
 				{
 					["GUID"] = "Creature-0-4458-585-22667-15489-00004340F8",
 					["leftMoney"] = 10860818,
@@ -8927,7 +9970,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4458-585-22667-24686-0004C33BBB",
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [45]
+				}, -- [49]
 				{
 					["GUID"] = "Creature-0-4479-556-11472-15497-000042CB7D",
 					["leftMoney"] = 10532515,
@@ -8988,7 +10031,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4479-556-11472-21891-0002C2C68B",
 					["mobCount"] = 0,
 					["mergeSource"] = "mouseover",
-				}, -- [46]
+				}, -- [50]
 				{
 					["GUID"] = "Creature-0-4469-389-25871-11321-00014201F4",
 					["leftMoney"] = 10366451,
@@ -9008,20 +10051,20 @@ NITdatabase = {
 							["class"] = "Hunter",
 							["classEnglish"] = "HUNTER",
 						},
-						["Ugar"] = {
+						["Mstr"] = {
 							["level"] = 70,
-							["class"] = "Warrior",
-							["classEnglish"] = "WARRIOR",
+							["class"] = "Priest",
+							["classEnglish"] = "PRIEST",
 						},
 						["Ondrejkoo"] = {
 							["level"] = 70,
 							["class"] = "Druid",
 							["classEnglish"] = "DRUID",
 						},
-						["Mstr"] = {
+						["Ugar"] = {
 							["level"] = 70,
-							["class"] = "Priest",
-							["classEnglish"] = "PRIEST",
+							["class"] = "Warrior",
+							["classEnglish"] = "WARRIOR",
 						},
 						["Årchaon"] = {
 							["level"] = 70,
@@ -9033,10 +10076,11 @@ NITdatabase = {
 							["class"] = "Mage",
 							["classEnglish"] = "MAGE",
 						},
-						["Zavyxa"] = {
+						["Zandalar"] = {
 							["level"] = 70,
-							["class"] = "Warlock",
-							["classEnglish"] = "WARLOCK",
+							["class"] = "Shaman",
+							["classEnglish"] = "SHAMAN",
+							["guildName"] = "The Awakened Path",
 						},
 						["Brooss"] = {
 							["level"] = 70,
@@ -9058,11 +10102,10 @@ NITdatabase = {
 							["class"] = "Priest",
 							["classEnglish"] = "PRIEST",
 						},
-						["Zandalar"] = {
+						["Zavyxa"] = {
 							["level"] = 70,
-							["class"] = "Shaman",
-							["classEnglish"] = "SHAMAN",
-							["guildName"] = "The Awakened Path",
+							["class"] = "Warlock",
+							["classEnglish"] = "WARLOCK",
 						},
 						["Bellatrixx"] = {
 							["level"] = 70,
@@ -9092,7 +10135,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 0,
 					["GUIDSource"] = "nameplate1",
 					["enteredLevel"] = 70,
-				}, -- [47]
+				}, -- [51]
 				{
 					["GUID"] = "Creature-0-4446-534-18981-23381-000041E78E",
 					["leftMoney"] = 10366451,
@@ -9202,16 +10245,16 @@ NITdatabase = {
 							["classEnglish"] = "DRUID",
 							["guildName"] = "The Awakened Path",
 						},
-						["Tominfa"] = {
-							["class"] = "Shaman",
-							["level"] = 70,
-							["classEnglish"] = "SHAMAN",
-							["guildName"] = "The Awakened Path",
-						},
 						["Ondrejkoo"] = {
 							["class"] = "Druid",
 							["level"] = 70,
 							["classEnglish"] = "DRUID",
+							["guildName"] = "The Awakened Path",
+						},
+						["Tominfa"] = {
+							["class"] = "Shaman",
+							["level"] = 70,
+							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
 						["Årchaon"] = {
@@ -9232,16 +10275,16 @@ NITdatabase = {
 							["classEnglish"] = "PALADIN",
 							["guildName"] = "The Awakened Path",
 						},
-						["Zandalar"] = {
-							["class"] = "Shaman",
-							["level"] = 70,
-							["classEnglish"] = "SHAMAN",
-							["guildName"] = "The Awakened Path",
-						},
 						["Zavyxa"] = {
 							["class"] = "Warlock",
 							["level"] = 70,
 							["classEnglish"] = "WARLOCK",
+							["guildName"] = "The Awakened Path",
+						},
+						["Zandalar"] = {
+							["class"] = "Shaman",
+							["level"] = 70,
+							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
 						["Goodbyeyouth"] = {
@@ -9300,7 +10343,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4446-534-18981-23381-000041E78E",
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [48]
+				}, -- [52]
 				{
 					["GUID"] = "Creature-0-4479-534-25159-23381-00003CC072",
 					["leftMoney"] = 9779259,
@@ -9320,10 +10363,10 @@ NITdatabase = {
 							["class"] = "Druid",
 							["classEnglish"] = "DRUID",
 						},
-						["Kredenc"] = {
+						["Kötarø"] = {
 							["level"] = 70,
-							["class"] = "Shaman",
-							["classEnglish"] = "SHAMAN",
+							["class"] = "Rogue",
+							["classEnglish"] = "ROGUE",
 						},
 						["Zandalar"] = {
 							["level"] = 70,
@@ -9341,10 +10384,10 @@ NITdatabase = {
 							["class"] = "Rogue",
 							["classEnglish"] = "ROGUE",
 						},
-						["Kötarø"] = {
+						["Kredenc"] = {
 							["level"] = 70,
-							["class"] = "Rogue",
-							["classEnglish"] = "ROGUE",
+							["class"] = "Shaman",
+							["classEnglish"] = "SHAMAN",
 						},
 						["Krutto"] = {
 							["level"] = 70,
@@ -9409,7 +10452,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 0,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 70,
-				}, -- [49]
+				}, -- [53]
 				{
 					["GUID"] = "Creature-0-4480-564-18914-22917-00003CBC9C",
 					["leftMoney"] = 9863620,
@@ -9601,7 +10644,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4480-564-18914-23411-00003C916B",
 					["GUIDSource"] = "mouseover",
 					["mergeSource"] = "mouseover",
-				}, -- [50]
+				}, -- [54]
 				{
 					["GUID"] = "Creature-0-4445-564-23264-23222-0000320593",
 					["leftMoney"] = 8460872,
@@ -9696,10 +10739,10 @@ NITdatabase = {
 							["classEnglish"] = "PALADIN",
 							["guildName"] = "The Awakened Path",
 						},
-						["Kredenc"] = {
+						["Kötarø"] = {
 							["level"] = 70,
-							["class"] = "Shaman",
-							["classEnglish"] = "SHAMAN",
+							["class"] = "Rogue",
+							["classEnglish"] = "ROGUE",
 							["guildName"] = "The Awakened Path",
 						},
 						["Ondrejkoo"] = {
@@ -9714,10 +10757,10 @@ NITdatabase = {
 							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
-						["Kötarø"] = {
+						["Kredenc"] = {
 							["level"] = 70,
-							["class"] = "Rogue",
-							["classEnglish"] = "ROGUE",
+							["class"] = "Shaman",
+							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
 						["Galm"] = {
@@ -9794,7 +10837,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4445-564-23264-23411-0000320593",
 					["GUIDSource"] = "combatLog",
 					["enteredLevel"] = 70,
-				}, -- [51]
+				}, -- [55]
 				{
 					["GUID"] = "Creature-0-4480-534-29827-17895-0001781EF4",
 					["leftMoney"] = 10987861,
@@ -9888,10 +10931,10 @@ NITdatabase = {
 							["classEnglish"] = "DRUID",
 							["guildName"] = "The Awakened Path",
 						},
-						["Kötarø"] = {
-							["class"] = "Rogue",
+						["Primalex"] = {
+							["class"] = "Shaman",
 							["level"] = 70,
-							["classEnglish"] = "ROGUE",
+							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
 						["Spoly"] = {
@@ -9900,10 +10943,10 @@ NITdatabase = {
 							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
-						["Primalex"] = {
-							["class"] = "Shaman",
+						["Kötarø"] = {
+							["class"] = "Rogue",
 							["level"] = 70,
-							["classEnglish"] = "SHAMAN",
+							["classEnglish"] = "ROGUE",
 							["guildName"] = "The Awakened Path",
 						},
 						["Shaniqq"] = {
@@ -9979,7 +11022,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4480-534-29827-15489-0000781E8D",
 					["mobCount"] = 0,
 					["mergeSource"] = "mouseover",
-				}, -- [52]
+				}, -- [56]
 				{
 					["GUID"] = "Creature-0-5563-564-11395-15447-0000781481",
 					["leftMoney"] = 10679896,
@@ -10073,10 +11116,10 @@ NITdatabase = {
 							["classEnglish"] = "DRUID",
 							["guildName"] = "The Awakened Path",
 						},
-						["Kötarø"] = {
-							["class"] = "Rogue",
+						["Primalex"] = {
+							["class"] = "Shaman",
 							["level"] = 70,
-							["classEnglish"] = "ROGUE",
+							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
 						["Spoly"] = {
@@ -10085,10 +11128,10 @@ NITdatabase = {
 							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
-						["Primalex"] = {
-							["class"] = "Shaman",
+						["Kötarø"] = {
+							["class"] = "Rogue",
 							["level"] = 70,
-							["classEnglish"] = "SHAMAN",
+							["classEnglish"] = "ROGUE",
 							["guildName"] = "The Awakened Path",
 						},
 						["Shaniqq"] = {
@@ -10164,7 +11207,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-5563-564-11395-23411-000077F845",
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [53]
+				}, -- [57]
 				{
 					["GUID"] = "Creature-0-5563-534-9768-17895-0000F7F844",
 					["leftMoney"] = 9664809,
@@ -10280,25 +11323,13 @@ NITdatabase = {
 							["classEnglish"] = "ROGUE",
 							["guildName"] = "The Awakened Path",
 						},
-						["Primalex"] = {
-							["level"] = 70,
-							["class"] = "Shaman",
-							["classEnglish"] = "SHAMAN",
-							["guildName"] = "The Awakened Path",
-						},
 						["Kredenc"] = {
 							["level"] = 70,
 							["class"] = "Shaman",
 							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
-						["Shaniqq"] = {
-							["level"] = 70,
-							["class"] = "Mage",
-							["classEnglish"] = "MAGE",
-							["guildName"] = "The Awakened Path",
-						},
-						["Galm"] = {
+						["Primalex"] = {
 							["level"] = 70,
 							["class"] = "Shaman",
 							["classEnglish"] = "SHAMAN",
@@ -10308,6 +11339,18 @@ NITdatabase = {
 							["level"] = 70,
 							["class"] = "Shaman",
 							["classEnglish"] = "SHAMAN",
+							["guildName"] = "The Awakened Path",
+						},
+						["Galm"] = {
+							["level"] = 70,
+							["class"] = "Shaman",
+							["classEnglish"] = "SHAMAN",
+							["guildName"] = "The Awakened Path",
+						},
+						["Shaniqq"] = {
+							["level"] = 70,
+							["class"] = "Mage",
+							["classEnglish"] = "MAGE",
 							["guildName"] = "The Awakened Path",
 						},
 						["Lowecaq"] = {
@@ -10363,7 +11406,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 220026,
 					["GUIDSource"] = "combatLog",
 					["enteredLevel"] = 70,
-				}, -- [54]
+				}, -- [58]
 				{
 					["GUID"] = "Creature-0-4446-534-9038-23381-000077E66B",
 					["leftMoney"] = 9444783,
@@ -10402,7 +11445,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 0,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 70,
-				}, -- [55]
+				}, -- [59]
 				{
 					["leftMoney"] = 20316804,
 					["group"] = {
@@ -10438,7 +11481,7 @@ NITdatabase = {
 					["enteredMoney"] = 20316804,
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [56]
+				}, -- [60]
 				{
 					["GUID"] = "Creature-0-5563-534-32154-23437-00007794A3",
 					["leftMoney"] = 20466849,
@@ -10477,7 +11520,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 0,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 70,
-				}, -- [57]
+				}, -- [61]
 				{
 					["GUID"] = "Creature-0-4468-564-31345-22917-000065AD7F",
 					["leftMoney"] = 19695010,
@@ -10595,10 +11638,10 @@ NITdatabase = {
 							["classEnglish"] = "MAGE",
 							["guildName"] = "The Awakened Path",
 						},
-						["Zavyxa"] = {
-							["class"] = "Warlock",
+						["Galm"] = {
+							["class"] = "Shaman",
 							["level"] = 70,
-							["classEnglish"] = "WARLOCK",
+							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
 						["Primalex"] = {
@@ -10613,10 +11656,10 @@ NITdatabase = {
 							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
-						["Galm"] = {
-							["class"] = "Shaman",
+						["Zavyxa"] = {
+							["class"] = "Warlock",
 							["level"] = 70,
-							["classEnglish"] = "SHAMAN",
+							["classEnglish"] = "WARLOCK",
 							["guildName"] = "The Awakened Path",
 						},
 						["Puky"] = {
@@ -10662,7 +11705,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4468-564-31345-23411-0000658BC8",
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [58]
+				}, -- [62]
 				{
 					["GUID"] = "Creature-0-4448-534-8302-17968-0000658A99",
 					["leftMoney"] = 18946053,
@@ -10762,13 +11805,13 @@ NITdatabase = {
 							["classEnglish"] = "PRIEST",
 							["guildName"] = "The Awakened Path",
 						},
-						["Kredenc"] = {
+						["Primalex"] = {
 							["level"] = 70,
 							["class"] = "Shaman",
 							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
-						["Primalex"] = {
+						["Kredenc"] = {
 							["level"] = 70,
 							["class"] = "Shaman",
 							["classEnglish"] = "SHAMAN",
@@ -10847,7 +11890,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4448-534-8302-15489-0000658A11",
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 70,
-				}, -- [59]
+				}, -- [63]
 				{
 					["GUID"] = "Creature-0-4445-564-13148-22917-00005F220C",
 					["leftMoney"] = 18442267,
@@ -10964,10 +12007,10 @@ NITdatabase = {
 							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
-						["Kredenc"] = {
-							["class"] = "Shaman",
+						["Kötarø"] = {
+							["class"] = "Rogue",
 							["level"] = 70,
-							["classEnglish"] = "SHAMAN",
+							["classEnglish"] = "ROGUE",
 							["guildName"] = "The Awakened Path",
 						},
 						["Shaniqq"] = {
@@ -10982,10 +12025,10 @@ NITdatabase = {
 							["classEnglish"] = "WARLOCK",
 							["guildName"] = "The Awakened Path",
 						},
-						["Kötarø"] = {
-							["class"] = "Rogue",
+						["Kredenc"] = {
+							["class"] = "Shaman",
 							["level"] = 70,
-							["classEnglish"] = "ROGUE",
+							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
 						["Lowecaq"] = {
@@ -11042,7 +12085,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4445-564-13148-23411-00005EFD26",
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [60]
+				}, -- [64]
 				{
 					["GUID"] = "Creature-0-4480-534-9559-17968-00005EFC55",
 					["leftMoney"] = 17545669,
@@ -11134,10 +12177,10 @@ NITdatabase = {
 							["classEnglish"] = "WARLOCK",
 							["guildName"] = "The Awakened Path",
 						},
-						["Kredenc"] = {
-							["class"] = "Shaman",
+						["Kötarø"] = {
+							["class"] = "Rogue",
 							["level"] = 70,
-							["classEnglish"] = "SHAMAN",
+							["classEnglish"] = "ROGUE",
 							["guildName"] = "The Awakened Path",
 						},
 						["Prdzriti"] = {
@@ -11158,10 +12201,10 @@ NITdatabase = {
 							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
-						["Kötarø"] = {
-							["class"] = "Rogue",
+						["Kredenc"] = {
+							["class"] = "Shaman",
 							["level"] = 70,
-							["classEnglish"] = "ROGUE",
+							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
 						["Shaniqq"] = {
@@ -11237,7 +12280,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4480-534-9559-17968-00005EFC55",
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [61]
+				}, -- [65]
 				{
 					["GUID"] = "Creature-0-4480-564-27108-22917-0000530FCA",
 					["leftMoney"] = 39760284,
@@ -11347,10 +12390,10 @@ NITdatabase = {
 							["classEnglish"] = "WARRIOR",
 							["guildName"] = "The Awakened Path",
 						},
-						["Spoly"] = {
-							["class"] = "Shaman",
+						["Shaniqq"] = {
+							["class"] = "Mage",
 							["level"] = 70,
-							["classEnglish"] = "SHAMAN",
+							["classEnglish"] = "MAGE",
 							["guildName"] = "The Awakened Path",
 						},
 						["Kötarø"] = {
@@ -11359,16 +12402,16 @@ NITdatabase = {
 							["classEnglish"] = "ROGUE",
 							["guildName"] = "The Awakened Path",
 						},
-						["Shaniqq"] = {
-							["class"] = "Mage",
-							["level"] = 70,
-							["classEnglish"] = "MAGE",
-							["guildName"] = "The Awakened Path",
-						},
-						["Galm"] = {
+						["Spoly"] = {
 							["class"] = "Shaman",
 							["level"] = 70,
 							["classEnglish"] = "SHAMAN",
+							["guildName"] = "The Awakened Path",
+						},
+						["Zavyxa"] = {
+							["class"] = "Warlock",
+							["level"] = 70,
+							["classEnglish"] = "WARLOCK",
 							["guildName"] = "The Awakened Path",
 						},
 						["Kredenc"] = {
@@ -11383,10 +12426,10 @@ NITdatabase = {
 							["classEnglish"] = "MAGE",
 							["guildName"] = "The Awakened Path",
 						},
-						["Zavyxa"] = {
-							["class"] = "Warlock",
+						["Galm"] = {
+							["class"] = "Shaman",
 							["level"] = 70,
-							["classEnglish"] = "WARLOCK",
+							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
 						["Puky"] = {
@@ -11432,7 +12475,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4480-564-27108-23411-0000530FCA",
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [62]
+				}, -- [66]
 				{
 					["GUID"] = "Creature-0-4468-534-5797-17943-000052F9FF",
 					["leftMoney"] = 38750720,
@@ -11626,7 +12669,7 @@ NITdatabase = {
 					["enteredMoney"] = 38195388,
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [63]
+				}, -- [67]
 				{
 					["GUID"] = "Creature-0-4460-568-26394-24396-0005D19856",
 					["leftMoney"] = 5428270,
@@ -11714,7 +12757,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 371152,
 					["GUIDSource"] = "nameplate1",
 					["enteredLevel"] = 70,
-				}, -- [64]
+				}, -- [68]
 				{
 					["GUID"] = "Creature-0-4448-534-18016-23437-000049F61F",
 					["leftMoney"] = 53226165,
@@ -11803,7 +12846,7 @@ NITdatabase = {
 					["enteredMoney"] = 53226165,
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [65]
+				}, -- [69]
 				{
 					["GUID"] = "Creature-0-4459-564-174-22917-000049D604",
 					["leftMoney"] = 53226822,
@@ -11903,22 +12946,22 @@ NITdatabase = {
 							["classEnglish"] = "DRUID",
 							["guildName"] = "The Awakened Path",
 						},
-						["Kötarø"] = {
-							["class"] = "Rogue",
-							["level"] = 70,
-							["classEnglish"] = "ROGUE",
-							["guildName"] = "The Awakened Path",
-						},
-						["Zavyxa"] = {
-							["class"] = "Warlock",
-							["level"] = 70,
-							["classEnglish"] = "WARLOCK",
-							["guildName"] = "The Awakened Path",
-						},
 						["Kredenc"] = {
 							["class"] = "Shaman",
 							["level"] = 70,
 							["classEnglish"] = "SHAMAN",
+							["guildName"] = "The Awakened Path",
+						},
+						["Galm"] = {
+							["class"] = "Shaman",
+							["level"] = 70,
+							["classEnglish"] = "SHAMAN",
+							["guildName"] = "The Awakened Path",
+						},
+						["Kötarø"] = {
+							["class"] = "Rogue",
+							["level"] = 70,
+							["classEnglish"] = "ROGUE",
 							["guildName"] = "The Awakened Path",
 						},
 						["Shaniqq"] = {
@@ -11927,10 +12970,10 @@ NITdatabase = {
 							["classEnglish"] = "MAGE",
 							["guildName"] = "The Awakened Path",
 						},
-						["Galm"] = {
-							["class"] = "Shaman",
+						["Zavyxa"] = {
+							["class"] = "Warlock",
 							["level"] = 70,
-							["classEnglish"] = "SHAMAN",
+							["classEnglish"] = "WARLOCK",
 							["guildName"] = "The Awakened Path",
 						},
 						["Primalex"] = {
@@ -11992,7 +13035,7 @@ NITdatabase = {
 					["enteredMoney"] = 52133093,
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [66]
+				}, -- [70]
 				{
 					["GUID"] = "Creature-0-4447-534-13524-17898-000049D51B",
 					["leftMoney"] = 52221363,
@@ -12185,7 +13228,7 @@ NITdatabase = {
 					["enteredMoney"] = 51684493,
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [67]
+				}, -- [71]
 				{
 					["GUID"] = "Creature-0-4447-568-11040-23897-000049AFA3",
 					["leftMoney"] = 5057118,
@@ -12280,7 +13323,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4447-568-11040-24409-000049BC2A",
 					["GUIDSource"] = "mouseover",
 					["mergeSource"] = "mouseover",
-				}, -- [68]
+				}, -- [72]
 				{
 					["GUID"] = "Creature-0-5563-532-29351-15690-0000485DDE",
 					["leftMoney"] = 3773728,
@@ -12303,10 +13346,10 @@ NITdatabase = {
 							["classEnglish"] = "WARRIOR",
 							["guildName"] = "The Awakened Path",
 						},
-						["Azmoo"] = {
+						["Zandalar"] = {
 							["level"] = 70,
-							["class"] = "Paladin",
-							["classEnglish"] = "PALADIN",
+							["class"] = "Shaman",
+							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
 						["Cashie"] = {
@@ -12339,10 +13382,10 @@ NITdatabase = {
 							["classEnglish"] = "MAGE",
 							["guildName"] = "The Awakened Path",
 						},
-						["Zandalar"] = {
+						["Azmoo"] = {
 							["level"] = 70,
-							["class"] = "Shaman",
-							["classEnglish"] = "SHAMAN",
+							["class"] = "Paladin",
+							["classEnglish"] = "PALADIN",
 							["guildName"] = "The Awakened Path",
 						},
 					},
@@ -12369,7 +13412,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 539054,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 70,
-				}, -- [69]
+				}, -- [73]
 				{
 					["GUID"] = "Creature-0-4479-568-23062-24404-000040A202",
 					["leftMoney"] = 3941529,
@@ -12464,7 +13507,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4479-568-23062-23584-000040907E",
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [70]
+				}, -- [74]
 				{
 					["GUID"] = "Creature-0-4468-568-9256-24407-0000408918",
 					["leftMoney"] = 51471881,
@@ -12552,7 +13595,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 361270,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 70,
-				}, -- [71]
+				}, -- [75]
 				{
 					["GUID"] = "Creature-0-4457-564-12048-22917-00003239C7",
 					["leftMoney"] = 54813745,
@@ -12741,7 +13784,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 1028966,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 70,
-				}, -- [72]
+				}, -- [76]
 				{
 					["GUID"] = "Creature-0-4479-534-9396-17968-000032387E",
 					["leftMoney"] = 53801473,
@@ -12931,7 +13974,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4479-534-9396-23381-00003221E5",
 					["GUIDSource"] = "mouseover",
 					["mergeSource"] = "mouseover",
-				}, -- [73]
+				}, -- [77]
 				{
 					["GUID"] = "Creature-0-5571-548-11324-21212-00002E6DE3",
 					["leftMoney"] = 52368569,
@@ -13032,10 +14075,10 @@ NITdatabase = {
 							["classEnglish"] = "PRIEST",
 							["guildName"] = "The Awakened Path",
 						},
-						["Galm"] = {
+						["Zavyxa"] = {
 							["level"] = 70,
-							["class"] = "Shaman",
-							["classEnglish"] = "SHAMAN",
+							["class"] = "Warlock",
+							["classEnglish"] = "WARLOCK",
 							["guildName"] = "The Awakened Path",
 						},
 						["Kötarø"] = {
@@ -13050,10 +14093,10 @@ NITdatabase = {
 							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
-						["Zavyxa"] = {
+						["Galm"] = {
 							["level"] = 70,
-							["class"] = "Warlock",
-							["classEnglish"] = "WARLOCK",
+							["class"] = "Shaman",
+							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
 						["Shaniqq"] = {
@@ -13114,7 +14157,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 128200,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 70,
-				}, -- [74]
+				}, -- [78]
 				{
 					["GUID"] = "Creature-0-4459-550-11193-15489-00002E6CE2",
 					["leftMoney"] = 52240369,
@@ -13202,10 +14245,10 @@ NITdatabase = {
 							["classEnglish"] = "PRIEST",
 							["guildName"] = "The Awakened Path",
 						},
-						["Kötarø"] = {
+						["Kredenc"] = {
 							["level"] = 70,
-							["class"] = "Rogue",
-							["classEnglish"] = "ROGUE",
+							["class"] = "Shaman",
+							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
 						["Prdzriti"] = {
@@ -13220,28 +14263,28 @@ NITdatabase = {
 							["classEnglish"] = "PRIEST",
 							["guildName"] = "The Awakened Path",
 						},
-						["Galm"] = {
-							["level"] = 70,
-							["class"] = "Shaman",
-							["classEnglish"] = "SHAMAN",
-							["guildName"] = "The Awakened Path",
-						},
-						["Kredenc"] = {
-							["level"] = 70,
-							["class"] = "Shaman",
-							["classEnglish"] = "SHAMAN",
-							["guildName"] = "The Awakened Path",
-						},
-						["Shaniqq"] = {
-							["level"] = 70,
-							["class"] = "Mage",
-							["classEnglish"] = "MAGE",
-							["guildName"] = "The Awakened Path",
-						},
 						["Zavyxa"] = {
 							["level"] = 70,
 							["class"] = "Warlock",
 							["classEnglish"] = "WARLOCK",
+							["guildName"] = "The Awakened Path",
+						},
+						["Kötarø"] = {
+							["level"] = 70,
+							["class"] = "Rogue",
+							["classEnglish"] = "ROGUE",
+							["guildName"] = "The Awakened Path",
+						},
+						["Spoly"] = {
+							["level"] = 70,
+							["class"] = "Shaman",
+							["classEnglish"] = "SHAMAN",
+							["guildName"] = "The Awakened Path",
+						},
+						["Galm"] = {
+							["level"] = 70,
+							["class"] = "Shaman",
+							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
 						["Zld"] = {
@@ -13250,10 +14293,10 @@ NITdatabase = {
 							["classEnglish"] = "MAGE",
 							["guildName"] = "The Awakened Path",
 						},
-						["Spoly"] = {
+						["Shaniqq"] = {
 							["level"] = 70,
-							["class"] = "Shaman",
-							["classEnglish"] = "SHAMAN",
+							["class"] = "Mage",
+							["classEnglish"] = "MAGE",
 							["guildName"] = "The Awakened Path",
 						},
 						["Zuukk"] = {
@@ -13305,7 +14348,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4459-550-11193-20033-0001AE6316",
 					["GUIDSource"] = "mouseover",
 					["mergeSource"] = "mouseover",
-				}, -- [75]
+				}, -- [79]
 				{
 					["GUID"] = "Creature-0-4447-564-31860-22917-00002E5FE0",
 					["leftMoney"] = 52018480,
@@ -13490,7 +14533,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4447-564-31860-23411-00002E3C8C",
 					["GUIDSource"] = "mouseover",
 					["mergeSource"] = "mouseover",
-				}, -- [76]
+				}, -- [80]
 				{
 					["leftMoney"] = 0,
 					["group"] = {
@@ -13655,7 +14698,7 @@ NITdatabase = {
 					["enteredMoney"] = 51002296,
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [77]
+				}, -- [81]
 				{
 					["leftMoney"] = 51102296,
 					["group"] = {
@@ -13818,7 +14861,7 @@ NITdatabase = {
 					["enteredMoney"] = 51102296,
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [78]
+				}, -- [82]
 				{
 					["GUID"] = "Creature-0-4460-534-18609-17968-00002E3B3B",
 					["leftMoney"] = 51102296,
@@ -13925,10 +14968,10 @@ NITdatabase = {
 							["classEnglish"] = "ROGUE",
 							["guildName"] = "The Awakened Path",
 						},
-						["Shaniqq"] = {
+						["Spoly"] = {
 							["level"] = 70,
-							["class"] = "Mage",
-							["classEnglish"] = "MAGE",
+							["class"] = "Shaman",
+							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
 						["Kredenc"] = {
@@ -13937,16 +14980,16 @@ NITdatabase = {
 							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
-						["Spoly"] = {
+						["Shaniqq"] = {
+							["level"] = 70,
+							["class"] = "Mage",
+							["classEnglish"] = "MAGE",
+							["guildName"] = "The Awakened Path",
+						},
+						["Galm"] = {
 							["level"] = 70,
 							["class"] = "Shaman",
 							["classEnglish"] = "SHAMAN",
-							["guildName"] = "The Awakened Path",
-						},
-						["Zavyxa"] = {
-							["level"] = 70,
-							["class"] = "Warlock",
-							["classEnglish"] = "WARLOCK",
 							["guildName"] = "The Awakened Path",
 						},
 						["Zuukk"] = {
@@ -13961,10 +15004,10 @@ NITdatabase = {
 							["classEnglish"] = "HUNTER",
 							["guildName"] = "The Awakened Path",
 						},
-						["Galm"] = {
+						["Zavyxa"] = {
 							["level"] = 70,
-							["class"] = "Shaman",
-							["classEnglish"] = "SHAMAN",
+							["class"] = "Warlock",
+							["classEnglish"] = "WARLOCK",
 							["guildName"] = "The Awakened Path",
 						},
 						["Puky"] = {
@@ -14009,7 +15052,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4460-534-18609-23381-00002E1FBE",
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 70,
-				}, -- [79]
+				}, -- [83]
 				{
 					["leftMoney"] = 0,
 					["group"] = {
@@ -14089,10 +15132,11 @@ NITdatabase = {
 							["classEnglish"] = "DRUID",
 							["class"] = "Druid",
 						},
-						["Shaniqq"] = {
+						["Spoly"] = {
+							["class"] = "Shaman",
 							["level"] = 70,
-							["classEnglish"] = "MAGE",
-							["class"] = "Mage",
+							["classEnglish"] = "SHAMAN",
+							["guildName"] = "The Awakened Path",
 						},
 						["Zavyxa"] = {
 							["class"] = "Warlock",
@@ -14106,11 +15150,10 @@ NITdatabase = {
 							["classEnglish"] = "ROGUE",
 							["guildName"] = "The Awakened Path",
 						},
-						["Spoly"] = {
-							["class"] = "Shaman",
+						["Shaniqq"] = {
 							["level"] = 70,
-							["classEnglish"] = "SHAMAN",
-							["guildName"] = "The Awakened Path",
+							["classEnglish"] = "MAGE",
+							["class"] = "Mage",
 						},
 						["Galm"] = {
 							["level"] = 70,
@@ -14172,7 +15215,7 @@ NITdatabase = {
 					["enteredMoney"] = 50587575,
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [80]
+				}, -- [84]
 				{
 					["leftMoney"] = 0,
 					["group"] = {
@@ -14251,11 +15294,10 @@ NITdatabase = {
 							["class"] = "Druid",
 							["classEnglish"] = "DRUID",
 						},
-						["Spoly"] = {
+						["Shaniqq"] = {
 							["level"] = 70,
-							["class"] = "Shaman",
-							["classEnglish"] = "SHAMAN",
-							["guildName"] = "The Awakened Path",
+							["class"] = "Mage",
+							["classEnglish"] = "MAGE",
 						},
 						["Zavyxa"] = {
 							["level"] = 70,
@@ -14269,10 +15311,11 @@ NITdatabase = {
 							["classEnglish"] = "ROGUE",
 							["guildName"] = "The Awakened Path",
 						},
-						["Shaniqq"] = {
+						["Spoly"] = {
 							["level"] = 70,
-							["class"] = "Mage",
-							["classEnglish"] = "MAGE",
+							["class"] = "Shaman",
+							["classEnglish"] = "SHAMAN",
+							["guildName"] = "The Awakened Path",
 						},
 						["Galm"] = {
 							["level"] = 70,
@@ -14335,7 +15378,7 @@ NITdatabase = {
 					["enteredMoney"] = 50587575,
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [81]
+				}, -- [85]
 				{
 					["GUID"] = "Creature-0-4469-548-10007-21213-000027A11B",
 					["leftMoney"] = 3672771,
@@ -14436,10 +15479,10 @@ NITdatabase = {
 							["classEnglish"] = "DRUID",
 							["guildName"] = "The Awakened Path",
 						},
-						["Ciknak"] = {
-							["class"] = "Rogue",
+						["Tulla"] = {
+							["class"] = "Druid",
 							["level"] = 70,
-							["classEnglish"] = "ROGUE",
+							["classEnglish"] = "DRUID",
 							["guildName"] = "The Awakened Path",
 						},
 						["Kötarø"] = {
@@ -14478,10 +15521,10 @@ NITdatabase = {
 							["classEnglish"] = "HUNTER",
 							["guildName"] = "The Awakened Path",
 						},
-						["Tulla"] = {
-							["class"] = "Druid",
+						["Ciknak"] = {
+							["class"] = "Rogue",
 							["level"] = 70,
-							["classEnglish"] = "DRUID",
+							["classEnglish"] = "ROGUE",
 							["guildName"] = "The Awakened Path",
 						},
 						["Tyralyon"] = {
@@ -14519,7 +15562,7 @@ NITdatabase = {
 					["enteredMoney"] = 3102011,
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [82]
+				}, -- [86]
 				{
 					["GUID"] = "Creature-0-4469-550-6407-19622-0000279D01",
 					["leftMoney"] = 3102011,
@@ -14578,10 +15621,10 @@ NITdatabase = {
 							["classEnglish"] = "PRIEST",
 							["guildName"] = "The Awakened Path",
 						},
-						["Tulla"] = {
-							["class"] = "Druid",
+						["Ciknak"] = {
+							["class"] = "Rogue",
 							["level"] = 70,
-							["classEnglish"] = "DRUID",
+							["classEnglish"] = "ROGUE",
 							["guildName"] = "The Awakened Path",
 						},
 						["Craxxi"] = {
@@ -14614,10 +15657,10 @@ NITdatabase = {
 							["classEnglish"] = "DRUID",
 							["guildName"] = "The Awakened Path",
 						},
-						["Ciknak"] = {
-							["class"] = "Rogue",
+						["Tulla"] = {
+							["class"] = "Druid",
 							["level"] = 70,
-							["classEnglish"] = "ROGUE",
+							["classEnglish"] = "DRUID",
 							["guildName"] = "The Awakened Path",
 						},
 						["Kötarø"] = {
@@ -14699,7 +15742,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4469-550-6407-20049-00022789AF",
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [83]
+				}, -- [87]
 				{
 					["GUID"] = "Creature-0-4457-389-1615-11320-0005251F85",
 					["leftMoney"] = 55048350,
@@ -14738,7 +15781,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 0,
 					["GUIDSource"] = "nameplate1",
 					["enteredLevel"] = 70,
-				}, -- [84]
+				}, -- [88]
 				{
 					["GUID"] = "Creature-0-4479-269-16998-17918-0000251E5A",
 					["leftMoney"] = 55048350,
@@ -14812,7 +15855,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 0,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 70,
-				}, -- [85]
+				}, -- [89]
 				{
 					["GUID"] = "Creature-0-4480-534-4939-23437-000025098C",
 					["leftMoney"] = 55048350,
@@ -14935,22 +15978,10 @@ NITdatabase = {
 							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
-						["Spoly"] = {
+						["Shaniqq"] = {
 							["level"] = 70,
-							["class"] = "Shaman",
-							["classEnglish"] = "SHAMAN",
-							["guildName"] = "The Awakened Path",
-						},
-						["Zavyxa"] = {
-							["level"] = 70,
-							["class"] = "Warlock",
-							["classEnglish"] = "WARLOCK",
-							["guildName"] = "The Awakened Path",
-						},
-						["Zuukk"] = {
-							["level"] = 70,
-							["class"] = "Paladin",
-							["classEnglish"] = "PALADIN",
+							["class"] = "Mage",
+							["classEnglish"] = "MAGE",
 							["guildName"] = "The Awakened Path",
 						},
 						["Galm"] = {
@@ -14959,10 +15990,22 @@ NITdatabase = {
 							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
-						["Shaniqq"] = {
+						["Zuukk"] = {
 							["level"] = 70,
-							["class"] = "Mage",
-							["classEnglish"] = "MAGE",
+							["class"] = "Paladin",
+							["classEnglish"] = "PALADIN",
+							["guildName"] = "The Awakened Path",
+						},
+						["Zavyxa"] = {
+							["level"] = 70,
+							["class"] = "Warlock",
+							["classEnglish"] = "WARLOCK",
+							["guildName"] = "The Awakened Path",
+						},
+						["Spoly"] = {
+							["level"] = 70,
+							["class"] = "Shaman",
+							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
 						["Puky"] = {
@@ -15007,7 +16050,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4480-534-4939-23381-000025098C",
 					["GUIDSource"] = "mouseover",
 					["mergeSource"] = "mouseover",
-				}, -- [86]
+				}, -- [90]
 				{
 					["GUID"] = "Creature-0-4446-564-3018-15497-0000250868",
 					["leftMoney"] = 58178017,
@@ -15112,16 +16155,16 @@ NITdatabase = {
 							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
-						["Kredenc"] = {
-							["level"] = 70,
-							["class"] = "Shaman",
-							["classEnglish"] = "SHAMAN",
-							["guildName"] = "The Awakened Path",
-						},
 						["Kötarø"] = {
 							["level"] = 70,
 							["class"] = "Rogue",
 							["classEnglish"] = "ROGUE",
+							["guildName"] = "The Awakened Path",
+						},
+						["Kredenc"] = {
+							["level"] = 70,
+							["class"] = "Shaman",
+							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
 						["Shaniqq"] = {
@@ -15130,10 +16173,10 @@ NITdatabase = {
 							["classEnglish"] = "MAGE",
 							["guildName"] = "The Awakened Path",
 						},
-						["Zavyxa"] = {
+						["Galm"] = {
 							["level"] = 70,
-							["class"] = "Warlock",
-							["classEnglish"] = "WARLOCK",
+							["class"] = "Shaman",
+							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
 						["Zuukk"] = {
@@ -15148,10 +16191,10 @@ NITdatabase = {
 							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
-						["Galm"] = {
+						["Zavyxa"] = {
 							["level"] = 70,
-							["class"] = "Shaman",
-							["classEnglish"] = "SHAMAN",
+							["class"] = "Warlock",
+							["classEnglish"] = "WARLOCK",
 							["guildName"] = "The Awakened Path",
 						},
 						["Puky"] = {
@@ -15197,7 +16240,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4446-564-3018-23411-000024F1CD",
 					["GUIDSource"] = "mouseover",
 					["mergeSource"] = "mouseover",
-				}, -- [87]
+				}, -- [91]
 				{
 					["GUID"] = "Creature-0-4458-564-7980-22964-000224EF2E",
 					["leftMoney"] = 0,
@@ -15301,10 +16344,10 @@ NITdatabase = {
 							["classEnglish"] = "MAGE",
 							["guildName"] = "The Awakened Path",
 						},
-						["Galm"] = {
-							["class"] = "Shaman",
+						["Zavyxa"] = {
+							["class"] = "Warlock",
 							["level"] = 70,
-							["classEnglish"] = "SHAMAN",
+							["classEnglish"] = "WARLOCK",
 							["guildName"] = "The Awakened Path",
 						},
 						["Kredenc"] = {
@@ -15337,10 +16380,10 @@ NITdatabase = {
 							["classEnglish"] = "DRUID",
 							["guildName"] = "The Awakened Path",
 						},
-						["Zavyxa"] = {
-							["class"] = "Warlock",
+						["Galm"] = {
+							["class"] = "Shaman",
 							["level"] = 70,
-							["classEnglish"] = "WARLOCK",
+							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
 					},
@@ -15366,7 +16409,7 @@ NITdatabase = {
 					["enteredMoney"] = 57766869,
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [88]
+				}, -- [92]
 				{
 					["GUID"] = "Creature-0-4445-564-31637-15489-000024EED1",
 					["leftMoney"] = 0,
@@ -15454,10 +16497,10 @@ NITdatabase = {
 							["classEnglish"] = "DRUID",
 							["guildName"] = "The Awakened Path",
 						},
-						["Zavyxa"] = {
+						["Galm"] = {
 							["level"] = 70,
-							["class"] = "Warlock",
-							["classEnglish"] = "WARLOCK",
+							["class"] = "Shaman",
+							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
 						["Primalex"] = {
@@ -15472,10 +16515,10 @@ NITdatabase = {
 							["classEnglish"] = "MAGE",
 							["guildName"] = "The Awakened Path",
 						},
-						["Galm"] = {
+						["Zavyxa"] = {
 							["level"] = 70,
-							["class"] = "Shaman",
-							["classEnglish"] = "SHAMAN",
+							["class"] = "Warlock",
+							["classEnglish"] = "WARLOCK",
 							["guildName"] = "The Awakened Path",
 						},
 						["Kredenc"] = {
@@ -15536,7 +16579,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 40909,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 70,
-				}, -- [89]
+				}, -- [93]
 				{
 					["GUID"] = "Creature-0-4446-564-2098-22955-0012A4E937",
 					["leftMoney"] = 0,
@@ -15689,7 +16732,7 @@ NITdatabase = {
 					["enteredMoney"] = 57653737,
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [90]
+				}, -- [94]
 				{
 					["GUID"] = "Creature-0-4445-564-30705-22957-0000A4E5C9",
 					["leftMoney"] = 0,
@@ -15841,7 +16884,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 50696,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 70,
-				}, -- [91]
+				}, -- [95]
 				{
 					["GUID"] = "Creature-0-4469-564-29921-15479-000024E559",
 					["leftMoney"] = 0,
@@ -15987,7 +17030,7 @@ NITdatabase = {
 					["enteredMoney"] = 57552137,
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [92]
+				}, -- [96]
 				{
 					["GUID"] = "Creature-0-4469-564-28466-15479-000024E24D",
 					["leftMoney"] = 0,
@@ -16128,7 +17171,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 76101,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 70,
-				}, -- [93]
+				}, -- [97]
 				{
 					["GUID"] = "Creature-0-4459-564-3268-23157-00001BC06A",
 					["leftMoney"] = 7071523,
@@ -16314,7 +17357,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4459-564-3268-23411-00001BC06A",
 					["GUIDSource"] = "mouseover",
 					["mergeSource"] = "mouseover",
-				}, -- [94]
+				}, -- [98]
 				{
 					["GUID"] = "Creature-0-4480-534-6740-17895-00029BBF62",
 					["leftMoney"] = 6202291,
@@ -16438,10 +17481,10 @@ NITdatabase = {
 							["classEnglish"] = "MAGE",
 							["guildName"] = "The Awakened Path",
 						},
-						["Zavyxa"] = {
+						["Galm"] = {
 							["level"] = 70,
-							["class"] = "Warlock",
-							["classEnglish"] = "WARLOCK",
+							["class"] = "Shaman",
+							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
 						["Zld"] = {
@@ -16450,10 +17493,10 @@ NITdatabase = {
 							["classEnglish"] = "MAGE",
 							["guildName"] = "The Awakened Path",
 						},
-						["Galm"] = {
+						["Zavyxa"] = {
 							["level"] = 70,
-							["class"] = "Shaman",
-							["classEnglish"] = "SHAMAN",
+							["class"] = "Warlock",
+							["classEnglish"] = "WARLOCK",
 							["guildName"] = "The Awakened Path",
 						},
 						["Primalex"] = {
@@ -16502,7 +17545,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 550159,
 					["GUIDSource"] = "combatLog",
 					["enteredLevel"] = 70,
-				}, -- [95]
+				}, -- [99]
 				{
 					["GUID"] = "Creature-0-4460-564-17899-22917-000012B11D",
 					["leftMoney"] = 8674481,
@@ -16603,10 +17646,10 @@ NITdatabase = {
 							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
-						["Kötarø"] = {
-							["class"] = "Rogue",
+						["Primalex"] = {
+							["class"] = "Shaman",
 							["level"] = 70,
-							["classEnglish"] = "ROGUE",
+							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
 						["Shaniqq"] = {
@@ -16651,10 +17694,10 @@ NITdatabase = {
 							["classEnglish"] = "DRUID",
 							["guildName"] = "The Awakened Path",
 						},
-						["Primalex"] = {
-							["class"] = "Shaman",
+						["Kötarø"] = {
+							["class"] = "Rogue",
 							["level"] = 70,
-							["classEnglish"] = "SHAMAN",
+							["classEnglish"] = "ROGUE",
 							["guildName"] = "The Awakened Path",
 						},
 					},
@@ -16683,7 +17726,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4460-564-17899-23411-00001287A5",
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [96]
+				}, -- [100]
 				{
 					["GUID"] = "Creature-0-4458-534-15792-17895-0001128685",
 					["leftMoney"] = 7933277,
@@ -16784,10 +17827,10 @@ NITdatabase = {
 							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
-						["Kötarø"] = {
-							["class"] = "Rogue",
+						["Primalex"] = {
+							["class"] = "Shaman",
 							["level"] = 70,
-							["classEnglish"] = "ROGUE",
+							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
 						["Shaniqq"] = {
@@ -16832,10 +17875,10 @@ NITdatabase = {
 							["classEnglish"] = "DRUID",
 							["guildName"] = "The Awakened Path",
 						},
-						["Primalex"] = {
-							["class"] = "Shaman",
+						["Kötarø"] = {
+							["class"] = "Rogue",
 							["level"] = 70,
-							["classEnglish"] = "SHAMAN",
+							["classEnglish"] = "ROGUE",
 							["guildName"] = "The Awakened Path",
 						},
 					},
@@ -16861,7 +17904,7 @@ NITdatabase = {
 					["enteredMoney"] = 7813277,
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [97]
+				}, -- [101]
 				{
 					["leftMoney"] = 7718477,
 					["group"] = {
@@ -16949,10 +17992,10 @@ NITdatabase = {
 							["classEnglish"] = "SHAMAN",
 							["class"] = "Shaman",
 						},
-						["Kötarø"] = {
+						["Primalex"] = {
 							["level"] = 70,
-							["classEnglish"] = "ROGUE",
-							["class"] = "Rogue",
+							["classEnglish"] = "SHAMAN",
+							["class"] = "Shaman",
 						},
 						["Shaniqq"] = {
 							["level"] = 70,
@@ -16991,10 +18034,10 @@ NITdatabase = {
 							["classEnglish"] = "DRUID",
 							["guildName"] = "The Awakened Path",
 						},
-						["Primalex"] = {
+						["Kötarø"] = {
 							["level"] = 70,
-							["classEnglish"] = "SHAMAN",
-							["class"] = "Shaman",
+							["classEnglish"] = "ROGUE",
+							["class"] = "Rogue",
 						},
 					},
 					["class"] = "Druid",
@@ -17017,7 +18060,7 @@ NITdatabase = {
 					["enteredMoney"] = 7718477,
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [98]
+				}, -- [102]
 				{
 					["GUID"] = "Creature-0-4458-534-15792-17943-0001126E37",
 					["leftMoney"] = 7718477,
@@ -17118,7 +18161,7 @@ NITdatabase = {
 							["classEnglish"] = "WARLOCK",
 							["guildName"] = "The Awakened Path",
 						},
-						["Kredenc"] = {
+						["Primalex"] = {
 							["class"] = "Shaman",
 							["level"] = 70,
 							["classEnglish"] = "SHAMAN",
@@ -17166,7 +18209,7 @@ NITdatabase = {
 							["classEnglish"] = "DRUID",
 							["guildName"] = "The Awakened Path",
 						},
-						["Primalex"] = {
+						["Kredenc"] = {
 							["class"] = "Shaman",
 							["level"] = 70,
 							["classEnglish"] = "SHAMAN",
@@ -17196,7 +18239,7 @@ NITdatabase = {
 					["enteredMoney"] = 7317065,
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [99]
+				}, -- [103]
 				{
 					["GUID"] = "Creature-0-4458-564-17724-22917-00000C2488",
 					["leftMoney"] = 7342369,
@@ -17273,10 +18316,10 @@ NITdatabase = {
 							["classEnglish"] = "PRIEST",
 							["guildName"] = "The Awakened Path",
 						},
-						["Primalex"] = {
+						["Kötarø"] = {
 							["level"] = 70,
-							["class"] = "Shaman",
-							["classEnglish"] = "SHAMAN",
+							["class"] = "Rogue",
+							["classEnglish"] = "ROGUE",
 							["guildName"] = "The Awakened Path",
 						},
 						["Prdzriti"] = {
@@ -17297,10 +18340,10 @@ NITdatabase = {
 							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
-						["Kötarø"] = {
+						["Primalex"] = {
 							["level"] = 70,
-							["class"] = "Rogue",
-							["classEnglish"] = "ROGUE",
+							["class"] = "Shaman",
+							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
 						["Shaniqq"] = {
@@ -17377,7 +18420,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4458-564-17724-23411-00000BFB6D",
 					["GUIDSource"] = "mouseover",
 					["mergeSource"] = "mouseover",
-				}, -- [100]
+				}, -- [104]
 				{
 					["GUID"] = "Creature-0-4469-534-11787-17943-00020BF9D4",
 					["leftMoney"] = 6628881,
@@ -17454,10 +18497,10 @@ NITdatabase = {
 							["classEnglish"] = "PRIEST",
 							["guildName"] = "The Awakened Path",
 						},
-						["Kötarø"] = {
+						["Primalex"] = {
 							["level"] = 70,
-							["class"] = "Rogue",
-							["classEnglish"] = "ROGUE",
+							["class"] = "Shaman",
+							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
 						["Prdzriti"] = {
@@ -17478,10 +18521,10 @@ NITdatabase = {
 							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
-						["Primalex"] = {
+						["Kötarø"] = {
 							["level"] = 70,
-							["class"] = "Shaman",
-							["classEnglish"] = "SHAMAN",
+							["class"] = "Rogue",
+							["classEnglish"] = "ROGUE",
 							["guildName"] = "The Awakened Path",
 						},
 						["Shaniqq"] = {
@@ -17558,7 +18601,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4469-534-11787-17968-00000BF99A",
 					["GUIDSource"] = "combatLog",
 					["mergeSource"] = "mouseover",
-				}, -- [101]
+				}, -- [105]
 				{
 					["GUID"] = "Creature-0-5563-565-31742-19044-000002CCB8",
 					["leftMoney"] = 1919036,
@@ -17736,7 +18779,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 201466,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 70,
-				}, -- [102]
+				}, -- [106]
 				{
 					["GUID"] = "Creature-0-5563-548-27602-15497-000002CB90",
 					["leftMoney"] = 1720120,
@@ -17926,7 +18969,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 303960,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 70,
-				}, -- [103]
+				}, -- [107]
 				{
 					["GUID"] = "Creature-0-4448-564-26919-22917-0000003C4C",
 					["leftMoney"] = 4324553,
@@ -18021,16 +19064,16 @@ NITdatabase = {
 							["classEnglish"] = "DRUID",
 							["guildName"] = "The Awakened Path",
 						},
-						["Kötarø"] = {
-							["level"] = 70,
-							["class"] = "Rogue",
-							["classEnglish"] = "ROGUE",
-							["guildName"] = "The Awakened Path",
-						},
-						["Galm"] = {
+						["Primalex"] = {
 							["level"] = 70,
 							["class"] = "Shaman",
 							["classEnglish"] = "SHAMAN",
+							["guildName"] = "The Awakened Path",
+						},
+						["Zavyxa"] = {
+							["level"] = 70,
+							["class"] = "Warlock",
+							["classEnglish"] = "WARLOCK",
 							["guildName"] = "The Awakened Path",
 						},
 						["Blyatwiken"] = {
@@ -18044,10 +19087,10 @@ NITdatabase = {
 							["classEnglish"] = "MAGE",
 							["guildName"] = "The Awakened Path",
 						},
-						["Zavyxa"] = {
+						["Galm"] = {
 							["level"] = 70,
-							["class"] = "Warlock",
-							["classEnglish"] = "WARLOCK",
+							["class"] = "Shaman",
+							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
 						["Zld"] = {
@@ -18062,10 +19105,10 @@ NITdatabase = {
 							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
-						["Primalex"] = {
+						["Kötarø"] = {
 							["level"] = 70,
-							["class"] = "Shaman",
-							["classEnglish"] = "SHAMAN",
+							["class"] = "Rogue",
+							["classEnglish"] = "ROGUE",
 							["guildName"] = "The Awakened Path",
 						},
 						["Puky"] = {
@@ -18112,7 +19155,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4448-564-26919-23411-00000011C0",
 					["GUIDSource"] = "mouseover",
 					["mergeSource"] = "mouseover",
-				}, -- [104]
+				}, -- [108]
 				{
 					["leftMoney"] = 3409001,
 					["group"] = {
@@ -18195,15 +19238,15 @@ NITdatabase = {
 							["classEnglish"] = "DRUID",
 							["guildName"] = "The Awakened Path",
 						},
-						["Kötarø"] = {
-							["level"] = 70,
-							["class"] = "Rogue",
-							["classEnglish"] = "ROGUE",
-						},
-						["Galm"] = {
+						["Primalex"] = {
 							["level"] = 70,
 							["class"] = "Shaman",
 							["classEnglish"] = "SHAMAN",
+						},
+						["Zavyxa"] = {
+							["level"] = 70,
+							["class"] = "Warlock",
+							["classEnglish"] = "WARLOCK",
 						},
 						["Blyatwiken"] = {
 							["level"] = 20,
@@ -18215,10 +19258,10 @@ NITdatabase = {
 							["class"] = "Mage",
 							["classEnglish"] = "MAGE",
 						},
-						["Zavyxa"] = {
+						["Galm"] = {
 							["level"] = 70,
-							["class"] = "Warlock",
-							["classEnglish"] = "WARLOCK",
+							["class"] = "Shaman",
+							["classEnglish"] = "SHAMAN",
 						},
 						["Zld"] = {
 							["level"] = 70,
@@ -18231,10 +19274,10 @@ NITdatabase = {
 							["class"] = "Shaman",
 							["classEnglish"] = "SHAMAN",
 						},
-						["Primalex"] = {
+						["Kötarø"] = {
 							["level"] = 70,
-							["class"] = "Shaman",
-							["classEnglish"] = "SHAMAN",
+							["class"] = "Rogue",
+							["classEnglish"] = "ROGUE",
 						},
 						["Puky"] = {
 							["level"] = 70,
@@ -18274,7 +19317,7 @@ NITdatabase = {
 					["enteredMoney"] = 3409001,
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [105]
+				}, -- [109]
 				{
 					["GUID"] = "Creature-0-4458-534-3925-17895-00020010B7",
 					["leftMoney"] = 3412827,
@@ -18381,12 +19424,6 @@ NITdatabase = {
 							["classEnglish"] = "DRUID",
 							["guildName"] = "The Awakened Path",
 						},
-						["Kredenc"] = {
-							["level"] = 70,
-							["class"] = "Shaman",
-							["classEnglish"] = "SHAMAN",
-							["guildName"] = "The Awakened Path",
-						},
 						["Kötarø"] = {
 							["level"] = 70,
 							["class"] = "Rogue",
@@ -18398,6 +19435,11 @@ NITdatabase = {
 							["class"] = "Shaman",
 							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
+						},
+						["Blyatwiken"] = {
+							["level"] = 20,
+							["classEnglish"] = "WARLOCK",
+							["class"] = "Warlock",
 						},
 						["Shaniqq"] = {
 							["level"] = 70,
@@ -18417,10 +19459,11 @@ NITdatabase = {
 							["classEnglish"] = "WARLOCK",
 							["guildName"] = "The Awakened Path",
 						},
-						["Blyatwiken"] = {
-							["level"] = 20,
-							["classEnglish"] = "WARLOCK",
-							["class"] = "Warlock",
+						["Kredenc"] = {
+							["level"] = 70,
+							["class"] = "Shaman",
+							["classEnglish"] = "SHAMAN",
+							["guildName"] = "The Awakened Path",
 						},
 						["Galm"] = {
 							["level"] = 70,
@@ -18472,7 +19515,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4458-534-3925-17895-0007000FA1",
 					["GUIDSource"] = "combatLog",
 					["mergeSource"] = "combatlogSourceGUID",
-				}, -- [106]
+				}, -- [110]
 				{
 					["leftMoney"] = 0,
 					["group"] = {
@@ -18540,15 +19583,15 @@ NITdatabase = {
 							["class"] = "Druid",
 							["classEnglish"] = "DRUID",
 						},
-						["Primalex"] = {
-							["level"] = 70,
-							["class"] = "Shaman",
-							["classEnglish"] = "SHAMAN",
-						},
 						["Kötarø"] = {
 							["level"] = 70,
 							["class"] = "Rogue",
 							["classEnglish"] = "ROGUE",
+						},
+						["Primalex"] = {
+							["level"] = 70,
+							["class"] = "Shaman",
+							["classEnglish"] = "SHAMAN",
 						},
 						["Kredenc"] = {
 							["level"] = 70,
@@ -18561,11 +19604,10 @@ NITdatabase = {
 							["class"] = "Hunter",
 							["classEnglish"] = "HUNTER",
 						},
-						["Galm"] = {
+						["Zavyxa"] = {
 							["level"] = 70,
-							["class"] = "Shaman",
-							["classEnglish"] = "SHAMAN",
-							["guildName"] = "The Awakened Path",
+							["class"] = "Warlock",
+							["classEnglish"] = "WARLOCK",
 						},
 						["Zuukk"] = {
 							["level"] = 70,
@@ -18584,10 +19626,11 @@ NITdatabase = {
 							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
-						["Zavyxa"] = {
+						["Galm"] = {
 							["level"] = 70,
-							["class"] = "Warlock",
-							["classEnglish"] = "WARLOCK",
+							["class"] = "Shaman",
+							["classEnglish"] = "SHAMAN",
+							["guildName"] = "The Awakened Path",
 						},
 						["Zowl"] = {
 							["level"] = 70,
@@ -18620,7 +19663,7 @@ NITdatabase = {
 					["enteredMoney"] = 1058246,
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [107]
+				}, -- [111]
 				{
 					["GUID"] = "Creature-0-4479-564-5250-22878-00007D8EBD",
 					["leftMoney"] = 4208210,
@@ -18720,16 +19763,16 @@ NITdatabase = {
 							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
-						["Bimbix"] = {
-							["level"] = 70,
-							["class"] = "Shaman",
-							["classEnglish"] = "SHAMAN",
-							["guildName"] = "The Awakened Path",
-						},
 						["Lowecaq"] = {
 							["level"] = 70,
 							["class"] = "Warrior",
 							["classEnglish"] = "WARRIOR",
+							["guildName"] = "The Awakened Path",
+						},
+						["Bimbix"] = {
+							["level"] = 70,
+							["class"] = "Shaman",
+							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
 						["Wejco"] = {
@@ -18779,7 +19822,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 9279,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 70,
-				}, -- [108]
+				}, -- [112]
 				{
 					["GUID"] = "Creature-0-5571-564-31840-5913-00007D8E65",
 					["leftMoney"] = 4198931,
@@ -18879,16 +19922,16 @@ NITdatabase = {
 							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
-						["Bimbix"] = {
-							["level"] = 70,
-							["class"] = "Shaman",
-							["classEnglish"] = "SHAMAN",
-							["guildName"] = "The Awakened Path",
-						},
 						["Lowecaq"] = {
 							["level"] = 70,
 							["class"] = "Warrior",
 							["classEnglish"] = "WARRIOR",
+							["guildName"] = "The Awakened Path",
+						},
+						["Bimbix"] = {
+							["level"] = 70,
+							["class"] = "Shaman",
+							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
 						["Wejco"] = {
@@ -18939,7 +19982,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 9433,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 70,
-				}, -- [109]
+				}, -- [113]
 				{
 					["GUID"] = "Creature-0-4479-564-3616-23086-00017D82EE",
 					["leftMoney"] = 4189498,
@@ -19105,7 +20148,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4479-564-3616-22881-0000FD82EE",
 					["GUIDSource"] = "combatLog",
 					["mergeSource"] = "mouseover",
-				}, -- [110]
+				}, -- [114]
 				{
 					["GUID"] = "Creature-0-4460-534-8714-17767-00007D827B",
 					["leftMoney"] = 4170393,
@@ -19179,22 +20222,22 @@ NITdatabase = {
 							["classEnglish"] = "DRUID",
 							["guildName"] = "The Awakened Path",
 						},
-						["Dilinak"] = {
-							["class"] = "Warlock",
-							["level"] = 70,
-							["classEnglish"] = "WARLOCK",
-							["guildName"] = "The Awakened Path",
-						},
 						["Slimi"] = {
 							["class"] = "Paladin",
 							["level"] = 70,
 							["classEnglish"] = "PALADIN",
 							["guildName"] = "The Awakened Path",
 						},
-						["Zld"] = {
-							["class"] = "Mage",
+						["Dilinak"] = {
+							["class"] = "Warlock",
 							["level"] = 70,
-							["classEnglish"] = "MAGE",
+							["classEnglish"] = "WARLOCK",
+							["guildName"] = "The Awakened Path",
+						},
+						["Quexaa"] = {
+							["class"] = "Priest",
+							["level"] = 70,
+							["classEnglish"] = "PRIEST",
 							["guildName"] = "The Awakened Path",
 						},
 						["Craxxi"] = {
@@ -19239,10 +20282,10 @@ NITdatabase = {
 							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
-						["Quexaa"] = {
-							["class"] = "Priest",
+						["Zld"] = {
+							["class"] = "Mage",
 							["level"] = 70,
-							["classEnglish"] = "PRIEST",
+							["classEnglish"] = "MAGE",
 							["guildName"] = "The Awakened Path",
 						},
 						["Bimbix"] = {
@@ -19301,7 +20344,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4460-534-8714-17895-0000FD8053",
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [111]
+				}, -- [115]
 				{
 					["GUID"] = "Creature-0-4447-534-27882-17895-00027D7BDB",
 					["leftMoney"] = 0,
@@ -19375,22 +20418,22 @@ NITdatabase = {
 							["classEnglish"] = "DRUID",
 							["guildName"] = "The Awakened Path",
 						},
-						["Slimi"] = {
-							["class"] = "Paladin",
-							["level"] = 70,
-							["classEnglish"] = "PALADIN",
-							["guildName"] = "The Awakened Path",
-						},
 						["Dilinak"] = {
 							["class"] = "Warlock",
 							["level"] = 70,
 							["classEnglish"] = "WARLOCK",
 							["guildName"] = "The Awakened Path",
 						},
-						["Quexaa"] = {
-							["class"] = "Priest",
+						["Slimi"] = {
+							["class"] = "Paladin",
 							["level"] = 70,
-							["classEnglish"] = "PRIEST",
+							["classEnglish"] = "PALADIN",
+							["guildName"] = "The Awakened Path",
+						},
+						["Zld"] = {
+							["class"] = "Mage",
+							["level"] = 70,
+							["classEnglish"] = "MAGE",
 							["guildName"] = "The Awakened Path",
 						},
 						["Craxxi"] = {
@@ -19435,10 +20478,10 @@ NITdatabase = {
 							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
-						["Zld"] = {
-							["class"] = "Mage",
+						["Quexaa"] = {
+							["class"] = "Priest",
 							["level"] = 70,
-							["classEnglish"] = "MAGE",
+							["classEnglish"] = "PRIEST",
 							["guildName"] = "The Awakened Path",
 						},
 						["Bimbix"] = {
@@ -19495,7 +20538,7 @@ NITdatabase = {
 					["enteredMoney"] = 4145372,
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [112]
+				}, -- [116]
 				{
 					["GUID"] = "Creature-0-5571-534-29448-17919-0002FD767D",
 					["leftMoney"] = 0,
@@ -19569,22 +20612,22 @@ NITdatabase = {
 							["classEnglish"] = "DRUID",
 							["guildName"] = "The Awakened Path",
 						},
-						["Dilinak"] = {
-							["class"] = "Warlock",
-							["level"] = 70,
-							["classEnglish"] = "WARLOCK",
-							["guildName"] = "The Awakened Path",
-						},
 						["Slimi"] = {
 							["class"] = "Paladin",
 							["level"] = 70,
 							["classEnglish"] = "PALADIN",
 							["guildName"] = "The Awakened Path",
 						},
-						["Zld"] = {
-							["class"] = "Mage",
+						["Dilinak"] = {
+							["class"] = "Warlock",
 							["level"] = 70,
-							["classEnglish"] = "MAGE",
+							["classEnglish"] = "WARLOCK",
+							["guildName"] = "The Awakened Path",
+						},
+						["Quexaa"] = {
+							["class"] = "Priest",
+							["level"] = 70,
+							["classEnglish"] = "PRIEST",
 							["guildName"] = "The Awakened Path",
 						},
 						["Craxxi"] = {
@@ -19629,10 +20672,10 @@ NITdatabase = {
 							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
-						["Quexaa"] = {
-							["class"] = "Priest",
+						["Zld"] = {
+							["class"] = "Mage",
 							["level"] = 70,
-							["classEnglish"] = "PRIEST",
+							["classEnglish"] = "MAGE",
 							["guildName"] = "The Awakened Path",
 						},
 						["Bimbix"] = {
@@ -19689,7 +20732,7 @@ NITdatabase = {
 					["enteredMoney"] = 4138081,
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [113]
+				}, -- [117]
 				{
 					["leftMoney"] = 4295973,
 					["group"] = {
@@ -19760,22 +20803,22 @@ NITdatabase = {
 							["classEnglish"] = "DRUID",
 							["guildName"] = "The Awakened Path",
 						},
-						["Slimi"] = {
-							["class"] = "Paladin",
-							["level"] = 70,
-							["classEnglish"] = "PALADIN",
-							["guildName"] = "The Awakened Path",
-						},
 						["Dilinak"] = {
 							["class"] = "Warlock",
 							["level"] = 70,
 							["classEnglish"] = "WARLOCK",
 							["guildName"] = "The Awakened Path",
 						},
-						["Quexaa"] = {
-							["class"] = "Priest",
+						["Slimi"] = {
+							["class"] = "Paladin",
 							["level"] = 70,
-							["classEnglish"] = "PRIEST",
+							["classEnglish"] = "PALADIN",
+							["guildName"] = "The Awakened Path",
+						},
+						["Zld"] = {
+							["class"] = "Mage",
+							["level"] = 70,
+							["classEnglish"] = "MAGE",
 							["guildName"] = "The Awakened Path",
 						},
 						["Craxxi"] = {
@@ -19818,10 +20861,10 @@ NITdatabase = {
 							["classEnglish"] = "SHAMAN",
 							["class"] = "Shaman",
 						},
-						["Zld"] = {
-							["class"] = "Mage",
+						["Quexaa"] = {
+							["class"] = "Priest",
 							["level"] = 70,
-							["classEnglish"] = "MAGE",
+							["classEnglish"] = "PRIEST",
 							["guildName"] = "The Awakened Path",
 						},
 						["Bimbix"] = {
@@ -19875,7 +20918,7 @@ NITdatabase = {
 					["enteredMoney"] = 4295973,
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [114]
+				}, -- [118]
 				{
 					["GUID"] = "Creature-0-5571-534-29448-17920-00017D729C",
 					["leftMoney"] = 0,
@@ -19967,10 +21010,10 @@ NITdatabase = {
 							["classEnglish"] = "MAGE",
 							["guildName"] = "The Awakened Path",
 						},
-						["Wejco"] = {
-							["class"] = "Druid",
+						["Stroj"] = {
+							["class"] = "Hunter",
 							["level"] = 70,
-							["classEnglish"] = "DRUID",
+							["classEnglish"] = "HUNTER",
 							["guildName"] = "The Awakened Path",
 						},
 						["Galm"] = {
@@ -19979,10 +21022,10 @@ NITdatabase = {
 							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
-						["Stroj"] = {
-							["class"] = "Hunter",
+						["Wejco"] = {
+							["class"] = "Druid",
 							["level"] = 70,
-							["classEnglish"] = "HUNTER",
+							["classEnglish"] = "DRUID",
 							["guildName"] = "The Awakened Path",
 						},
 						["Kredenc"] = {
@@ -20068,7 +21111,7 @@ NITdatabase = {
 					["enteredMoney"] = 4288575,
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [115]
+				}, -- [119]
 				{
 					["GUID"] = "Creature-0-4459-534-14242-17920-0000FD6FD5",
 					["leftMoney"] = 0,
@@ -20172,10 +21215,10 @@ NITdatabase = {
 							["classEnglish"] = "WARRIOR",
 							["guildName"] = "The Awakened Path",
 						},
-						["Wejco"] = {
+						["Stroj"] = {
 							["level"] = 70,
-							["class"] = "Druid",
-							["classEnglish"] = "DRUID",
+							["class"] = "Hunter",
+							["classEnglish"] = "HUNTER",
 							["guildName"] = "The Awakened Path",
 						},
 						["Kötarø"] = {
@@ -20202,10 +21245,10 @@ NITdatabase = {
 							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
-						["Stroj"] = {
+						["Wejco"] = {
 							["level"] = 70,
-							["class"] = "Hunter",
-							["classEnglish"] = "HUNTER",
+							["class"] = "Druid",
+							["classEnglish"] = "DRUID",
 							["guildName"] = "The Awakened Path",
 						},
 						["Kyssko"] = {
@@ -20261,7 +21304,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 7978,
 					["GUIDSource"] = "combatLog",
 					["enteredLevel"] = 70,
-				}, -- [116]
+				}, -- [120]
 				{
 					["GUID"] = "Creature-0-4459-534-14109-17767-00007D6EC4",
 					["leftMoney"] = 0,
@@ -20366,10 +21409,10 @@ NITdatabase = {
 							["classEnglish"] = "WARRIOR",
 							["guildName"] = "The Awakened Path",
 						},
-						["Stroj"] = {
+						["Wejco"] = {
 							["level"] = 70,
-							["class"] = "Hunter",
-							["classEnglish"] = "HUNTER",
+							["class"] = "Druid",
+							["classEnglish"] = "DRUID",
 							["guildName"] = "The Awakened Path",
 						},
 						["Kötarø"] = {
@@ -20396,10 +21439,10 @@ NITdatabase = {
 							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
-						["Wejco"] = {
+						["Stroj"] = {
 							["level"] = 70,
-							["class"] = "Druid",
-							["classEnglish"] = "DRUID",
+							["class"] = "Hunter",
+							["classEnglish"] = "HUNTER",
 							["guildName"] = "The Awakened Path",
 						},
 						["Kyssko"] = {
@@ -20457,7 +21500,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4459-534-14109-17767-00007D6EC4",
 					["GUIDSource"] = "combatLog",
 					["enteredLevel"] = 70,
-				}, -- [117]
+				}, -- [121]
 				{
 					["GUID"] = "Creature-0-4458-534-2615-17895-0000FD6BDC",
 					["leftMoney"] = 0,
@@ -20562,10 +21605,10 @@ NITdatabase = {
 							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
-						["Wejco"] = {
+						["Stroj"] = {
 							["level"] = 70,
-							["class"] = "Druid",
-							["classEnglish"] = "DRUID",
+							["class"] = "Hunter",
+							["classEnglish"] = "HUNTER",
 							["guildName"] = "The Awakened Path",
 						},
 						["Kötarø"] = {
@@ -20592,10 +21635,10 @@ NITdatabase = {
 							["classEnglish"] = "WARRIOR",
 							["guildName"] = "The Awakened Path",
 						},
-						["Stroj"] = {
+						["Wejco"] = {
 							["level"] = 70,
-							["class"] = "Hunter",
-							["classEnglish"] = "HUNTER",
+							["class"] = "Druid",
+							["classEnglish"] = "DRUID",
 							["guildName"] = "The Awakened Path",
 						},
 						["Kyssko"] = {
@@ -20651,7 +21694,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 8297,
 					["GUIDSource"] = "combatLog",
 					["enteredLevel"] = 70,
-				}, -- [118]
+				}, -- [122]
 				{
 					["leftMoney"] = 0,
 					["group"] = {
@@ -20748,16 +21791,16 @@ NITdatabase = {
 							["classEnglish"] = "DRUID",
 							["guildName"] = "The Awakened Path",
 						},
-						["Kredenc"] = {
-							["level"] = 70,
-							["class"] = "Shaman",
-							["classEnglish"] = "SHAMAN",
-							["guildName"] = "The Awakened Path",
-						},
 						["Kötarø"] = {
 							["level"] = 70,
 							["class"] = "Rogue",
 							["classEnglish"] = "ROGUE",
+							["guildName"] = "The Awakened Path",
+						},
+						["Kredenc"] = {
+							["level"] = 70,
+							["class"] = "Shaman",
+							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
 						["Spinavylopez"] = {
@@ -20766,16 +21809,16 @@ NITdatabase = {
 							["classEnglish"] = "WARLOCK",
 							["guildName"] = "The Awakened Path",
 						},
-						["Galm"] = {
-							["level"] = 70,
-							["class"] = "Shaman",
-							["classEnglish"] = "SHAMAN",
-						},
 						["Craxxi"] = {
 							["level"] = 70,
 							["class"] = "Warrior",
 							["classEnglish"] = "WARRIOR",
 							["guildName"] = "The Awakened Path",
+						},
+						["Galm"] = {
+							["level"] = 70,
+							["class"] = "Shaman",
+							["classEnglish"] = "SHAMAN",
 						},
 						["Kyssko"] = {
 							["level"] = 70,
@@ -20826,7 +21869,7 @@ NITdatabase = {
 					["enteredMoney"] = 4263353,
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [119]
+				}, -- [123]
 				{
 					["GUID"] = "Creature-0-4458-534-2615-17967-00017D681C",
 					["leftMoney"] = 0,
@@ -20923,24 +21966,6 @@ NITdatabase = {
 							["classEnglish"] = "HUNTER",
 							["guildName"] = "The Awakened Path",
 						},
-						["Craxxi"] = {
-							["class"] = "Warrior",
-							["level"] = 70,
-							["classEnglish"] = "WARRIOR",
-							["guildName"] = "The Awakened Path",
-						},
-						["Kredenc"] = {
-							["class"] = "Shaman",
-							["level"] = 70,
-							["classEnglish"] = "SHAMAN",
-							["guildName"] = "The Awakened Path",
-						},
-						["Spinavylopez"] = {
-							["class"] = "Warlock",
-							["level"] = 70,
-							["classEnglish"] = "WARLOCK",
-							["guildName"] = "The Awakened Path",
-						},
 						["Galm"] = {
 							["class"] = "Shaman",
 							["level"] = 70,
@@ -20951,6 +21976,24 @@ NITdatabase = {
 							["class"] = "Rogue",
 							["level"] = 70,
 							["classEnglish"] = "ROGUE",
+							["guildName"] = "The Awakened Path",
+						},
+						["Spinavylopez"] = {
+							["class"] = "Warlock",
+							["level"] = 70,
+							["classEnglish"] = "WARLOCK",
+							["guildName"] = "The Awakened Path",
+						},
+						["Craxxi"] = {
+							["class"] = "Warrior",
+							["level"] = 70,
+							["classEnglish"] = "WARRIOR",
+							["guildName"] = "The Awakened Path",
+						},
+						["Kredenc"] = {
+							["class"] = "Shaman",
+							["level"] = 70,
+							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
 						["Bimbix"] = {
@@ -21007,7 +22050,7 @@ NITdatabase = {
 					["enteredMoney"] = 4252553,
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [120]
+				}, -- [124]
 				{
 					["GUID"] = "Creature-0-4445-534-13535-17895-00027D649D",
 					["leftMoney"] = 0,
@@ -21098,10 +22141,10 @@ NITdatabase = {
 							["classEnglish"] = "MAGE",
 							["guildName"] = "The Awakened Path",
 						},
-						["Stroj"] = {
-							["class"] = "Hunter",
+						["Wejco"] = {
+							["class"] = "Druid",
 							["level"] = 70,
-							["classEnglish"] = "HUNTER",
+							["classEnglish"] = "DRUID",
 							["guildName"] = "The Awakened Path",
 						},
 						["Galm"] = {
@@ -21110,10 +22153,10 @@ NITdatabase = {
 							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
-						["Wejco"] = {
-							["class"] = "Druid",
+						["Stroj"] = {
+							["class"] = "Hunter",
 							["level"] = 70,
-							["classEnglish"] = "DRUID",
+							["classEnglish"] = "HUNTER",
 							["guildName"] = "The Awakened Path",
 						},
 						["Ciknak"] = {
@@ -21122,10 +22165,10 @@ NITdatabase = {
 							["classEnglish"] = "ROGUE",
 							["guildName"] = "The Awakened Path",
 						},
-						["Kredenc"] = {
-							["class"] = "Shaman",
+						["Kötarø"] = {
+							["class"] = "Rogue",
 							["level"] = 70,
-							["classEnglish"] = "SHAMAN",
+							["classEnglish"] = "ROGUE",
 							["guildName"] = "The Awakened Path",
 						},
 						["Spinavylopez"] = {
@@ -21140,10 +22183,10 @@ NITdatabase = {
 							["classEnglish"] = "WARRIOR",
 							["guildName"] = "The Awakened Path",
 						},
-						["Kötarø"] = {
-							["class"] = "Rogue",
+						["Kredenc"] = {
+							["class"] = "Shaman",
 							["level"] = 70,
-							["classEnglish"] = "ROGUE",
+							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
 						["Bimbix"] = {
@@ -21200,7 +22243,7 @@ NITdatabase = {
 					["enteredMoney"] = 4244229,
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [121]
+				}, -- [125]
 				{
 					["GUID"] = "Creature-0-5571-534-26373-17895-0001FD6051",
 					["leftMoney"] = 0,
@@ -21269,10 +22312,10 @@ NITdatabase = {
 							["classEnglish"] = "HUNTER",
 							["guildName"] = "The Awakened Path",
 						},
-						["Slimi"] = {
-							["class"] = "Paladin",
+						["Dilinak"] = {
+							["class"] = "Warlock",
 							["level"] = 70,
-							["classEnglish"] = "PALADIN",
+							["classEnglish"] = "WARLOCK",
 							["guildName"] = "The Awakened Path",
 						},
 						["Zld"] = {
@@ -21286,10 +22329,10 @@ NITdatabase = {
 							["classEnglish"] = "WARLOCK",
 							["class"] = "Warlock",
 						},
-						["Kredenc"] = {
-							["class"] = "Shaman",
+						["Kötarø"] = {
+							["class"] = "Rogue",
 							["level"] = 70,
-							["classEnglish"] = "SHAMAN",
+							["classEnglish"] = "ROGUE",
 							["guildName"] = "The Awakened Path",
 						},
 						["Wejco"] = {
@@ -21304,10 +22347,10 @@ NITdatabase = {
 							["classEnglish"] = "ROGUE",
 							["guildName"] = "The Awakened Path",
 						},
-						["Kötarø"] = {
-							["class"] = "Rogue",
+						["Kredenc"] = {
+							["class"] = "Shaman",
 							["level"] = 70,
-							["classEnglish"] = "ROGUE",
+							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
 						["Spinavylopez"] = {
@@ -21316,16 +22359,16 @@ NITdatabase = {
 							["classEnglish"] = "WARLOCK",
 							["guildName"] = "The Awakened Path",
 						},
-						["Galm"] = {
-							["class"] = "Shaman",
-							["level"] = 70,
-							["classEnglish"] = "SHAMAN",
-							["guildName"] = "The Awakened Path",
-						},
 						["Craxxi"] = {
 							["class"] = "Warrior",
 							["level"] = 70,
 							["classEnglish"] = "WARRIOR",
+							["guildName"] = "The Awakened Path",
+						},
+						["Galm"] = {
+							["class"] = "Shaman",
+							["level"] = 70,
+							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
 						["Bimbix"] = {
@@ -21352,10 +22395,10 @@ NITdatabase = {
 							["classEnglish"] = "DRUID",
 							["guildName"] = "The Awakened Path",
 						},
-						["Dilinak"] = {
-							["class"] = "Warlock",
+						["Slimi"] = {
+							["class"] = "Paladin",
 							["level"] = 70,
-							["classEnglish"] = "WARLOCK",
+							["classEnglish"] = "PALADIN",
 							["guildName"] = "The Awakened Path",
 						},
 					},
@@ -21382,7 +22425,7 @@ NITdatabase = {
 					["enteredMoney"] = 4239555,
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [122]
+				}, -- [126]
 				{
 					["GUID"] = "Creature-0-4446-550-32232-19622-0000783DE1",
 					["leftMoney"] = 2732475,
@@ -21567,7 +22610,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4446-550-32232-19516-0000783DE0",
 					["GUIDSource"] = "mouseover",
 					["mergeSource"] = "mouseover",
-				}, -- [123]
+				}, -- [127]
 				{
 					["GUID"] = "Creature-0-4446-548-28356-21213-000078200A",
 					["leftMoney"] = 2312047,
@@ -21643,10 +22686,10 @@ NITdatabase = {
 							["classEnglish"] = "DRUID",
 							["guildName"] = "The Awakened Path",
 						},
-						["Quexaa"] = {
-							["class"] = "Priest",
+						["Tominqua"] = {
+							["class"] = "Warlock",
 							["level"] = 70,
-							["classEnglish"] = "PRIEST",
+							["classEnglish"] = "WARLOCK",
 							["guildName"] = "The Awakened Path",
 						},
 						["Norjin"] = {
@@ -21655,10 +22698,10 @@ NITdatabase = {
 							["classEnglish"] = "HUNTER",
 							["guildName"] = "The Awakened Path",
 						},
-						["Tominqua"] = {
-							["class"] = "Warlock",
+						["Quexaa"] = {
+							["class"] = "Priest",
 							["level"] = 70,
-							["classEnglish"] = "WARLOCK",
+							["classEnglish"] = "PRIEST",
 							["guildName"] = "The Awakened Path",
 						},
 						["Akaz"] = {
@@ -21667,10 +22710,10 @@ NITdatabase = {
 							["classEnglish"] = "WARRIOR",
 							["guildName"] = "The Awakened Path",
 						},
-						["Daamnson"] = {
-							["class"] = "Warrior",
+						["Prdzriti"] = {
+							["class"] = "Druid",
 							["level"] = 70,
-							["classEnglish"] = "WARRIOR",
+							["classEnglish"] = "DRUID",
 							["guildName"] = "The Awakened Path",
 						},
 						["Füne"] = {
@@ -21703,10 +22746,10 @@ NITdatabase = {
 							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
-						["Prdzriti"] = {
-							["class"] = "Druid",
+						["Daamnson"] = {
+							["class"] = "Warrior",
 							["level"] = 70,
-							["classEnglish"] = "DRUID",
+							["classEnglish"] = "WARRIOR",
 							["guildName"] = "The Awakened Path",
 						},
 						["Maternis"] = {
@@ -21762,7 +22805,7 @@ NITdatabase = {
 					["enteredMoney"] = 1634070,
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [124]
+				}, -- [128]
 				{
 					["leftMoney"] = 0,
 					["group"] = {
@@ -21899,7 +22942,7 @@ NITdatabase = {
 					["enteredMoney"] = 1634070,
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [125]
+				}, -- [129]
 				{
 					["GUID"] = "Creature-0-4448-552-17079-20912-000077C87A",
 					["leftMoney"] = 1305409,
@@ -21959,7 +23002,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 44314,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 70,
-				}, -- [126]
+				}, -- [130]
 				{
 					["GUID"] = "Creature-0-4445-534-19729-23437-00007594EE",
 					["leftMoney"] = 737772,
@@ -22060,18 +23103,6 @@ NITdatabase = {
 							["classEnglish"] = "DRUID",
 							["guildName"] = "The Awakened Path",
 						},
-						["Zandalar"] = {
-							["level"] = 70,
-							["class"] = "Shaman",
-							["classEnglish"] = "SHAMAN",
-							["guildName"] = "The Awakened Path",
-						},
-						["Spinavylopez"] = {
-							["level"] = 70,
-							["class"] = "Warlock",
-							["classEnglish"] = "WARLOCK",
-							["guildName"] = "The Awakened Path",
-						},
 						["Craxxi"] = {
 							["level"] = 70,
 							["class"] = "Warrior",
@@ -22082,6 +23113,18 @@ NITdatabase = {
 							["level"] = 70,
 							["class"] = "Mage",
 							["classEnglish"] = "MAGE",
+							["guildName"] = "The Awakened Path",
+						},
+						["Zandalar"] = {
+							["level"] = 70,
+							["class"] = "Shaman",
+							["classEnglish"] = "SHAMAN",
+							["guildName"] = "The Awakened Path",
+						},
+						["Spinavylopez"] = {
+							["level"] = 70,
+							["class"] = "Warlock",
+							["classEnglish"] = "WARLOCK",
 							["guildName"] = "The Awakened Path",
 						},
 						["Svatá"] = {
@@ -22140,7 +23183,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4445-534-19729-23437-00007594EE",
 					["GUIDSource"] = "mouseover",
 					["mergeSource"] = "mouseover",
-				}, -- [127]
+				}, -- [131]
 				{
 					["leftMoney"] = 730627,
 					["group"] = {
@@ -22291,7 +23334,7 @@ NITdatabase = {
 					["enteredMoney"] = 730627,
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [128]
+				}, -- [132]
 				{
 					["GUID"] = "Creature-0-4445-534-19729-17772-00007594EE",
 					["leftMoney"] = 730627,
@@ -22385,10 +23428,10 @@ NITdatabase = {
 							["classEnglish"] = "HUNTER",
 							["guildName"] = "The Awakened Path",
 						},
-						["Spinavylopez"] = {
+						["Matërnis"] = {
 							["level"] = 70,
-							["class"] = "Warlock",
-							["classEnglish"] = "WARLOCK",
+							["class"] = "Mage",
+							["classEnglish"] = "MAGE",
 							["guildName"] = "The Awakened Path",
 						},
 						["Zandalar"] = {
@@ -22397,10 +23440,10 @@ NITdatabase = {
 							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
-						["Matërnis"] = {
+						["Spinavylopez"] = {
 							["level"] = 70,
-							["class"] = "Mage",
-							["classEnglish"] = "MAGE",
+							["class"] = "Warlock",
+							["classEnglish"] = "WARLOCK",
 							["guildName"] = "The Awakened Path",
 						},
 						["Craxxi"] = {
@@ -22469,7 +23512,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 120725,
 					["GUIDSource"] = "combatLog",
 					["enteredLevel"] = 70,
-				}, -- [129]
+				}, -- [133]
 				{
 					["GUID"] = "Creature-0-5563-545-18049-17798-0000756314",
 					["leftMoney"] = 10708953,
@@ -22529,7 +23572,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-5563-545-18049-17721-0000756313",
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [130]
+				}, -- [134]
 				{
 					["GUID"] = "Creature-0-4446-565-19237-18834-0000755B2D",
 					["leftMoney"] = 687285,
@@ -22723,7 +23766,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4446-565-19237-18832-0000755488",
 					["GUIDSource"] = "combatLog",
 					["mergeSource"] = "mouseover",
-				}, -- [131]
+				}, -- [135]
 				{
 					["GUID"] = "Creature-0-4448-545-25787-17721-0000754F60",
 					["leftMoney"] = 10383003,
@@ -22781,7 +23824,7 @@ NITdatabase = {
 					["enteredMoney"] = 10378810,
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [132]
+				}, -- [136]
 				{
 					["GUID"] = "Creature-0-4445-545-29273-17798-000074665E",
 					["leftMoney"] = 8408465,
@@ -22840,7 +23883,7 @@ NITdatabase = {
 					["enteredMoney"] = 8350782,
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [133]
+				}, -- [137]
 				{
 					["GUID"] = "Creature-0-5563-389-23437-11320-0003F453B3",
 					["leftMoney"] = 8065149,
@@ -22879,7 +23922,7 @@ NITdatabase = {
 					["enteredMoney"] = 8065149,
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [134]
+				}, -- [138]
 				{
 					["GUID"] = "Creature-0-4446-564-4177-23158-0000737E3E",
 					["leftMoney"] = 5672040,
@@ -22918,7 +23961,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 0,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 70,
-				}, -- [135]
+				}, -- [139]
 				{
 					["GUID"] = "Creature-0-5563-564-30487-23159-00007337E1",
 					["leftMoney"] = 5950997,
@@ -23013,16 +24056,16 @@ NITdatabase = {
 							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
-						["Kötarø"] = {
-							["class"] = "Rogue",
-							["level"] = 70,
-							["classEnglish"] = "ROGUE",
-							["guildName"] = "The Awakened Path",
-						},
 						["Kredenc"] = {
 							["class"] = "Shaman",
 							["level"] = 70,
 							["classEnglish"] = "SHAMAN",
+							["guildName"] = "The Awakened Path",
+						},
+						["Kötarø"] = {
+							["class"] = "Rogue",
+							["level"] = 70,
+							["classEnglish"] = "ROGUE",
 							["guildName"] = "The Awakened Path",
 						},
 						["Shaniqq"] = {
@@ -23031,10 +24074,10 @@ NITdatabase = {
 							["classEnglish"] = "MAGE",
 							["guildName"] = "The Awakened Path",
 						},
-						["Zavyxa"] = {
-							["class"] = "Warlock",
+						["Galm"] = {
+							["class"] = "Shaman",
 							["level"] = 70,
-							["classEnglish"] = "WARLOCK",
+							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
 						["Zld"] = {
@@ -23049,10 +24092,10 @@ NITdatabase = {
 							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
-						["Galm"] = {
-							["class"] = "Shaman",
+						["Zavyxa"] = {
+							["class"] = "Warlock",
 							["level"] = 70,
-							["classEnglish"] = "SHAMAN",
+							["classEnglish"] = "WARLOCK",
 							["guildName"] = "The Awakened Path",
 						},
 						["Vojtechuj"] = {
@@ -23099,7 +24142,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-5563-564-30487-23411-00007337E1",
 					["mobCount"] = 0,
 					["mergeSource"] = "mouseover",
-				}, -- [136]
+				}, -- [140]
 				{
 					["GUID"] = "Creature-0-4445-534-8667-17968-00007333E9",
 					["leftMoney"] = 4491328,
@@ -23194,16 +24237,16 @@ NITdatabase = {
 							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
-						["Kredenc"] = {
-							["class"] = "Shaman",
-							["level"] = 70,
-							["classEnglish"] = "SHAMAN",
-							["guildName"] = "The Awakened Path",
-						},
 						["Kötarø"] = {
 							["class"] = "Rogue",
 							["level"] = 70,
 							["classEnglish"] = "ROGUE",
+							["guildName"] = "The Awakened Path",
+						},
+						["Kredenc"] = {
+							["class"] = "Shaman",
+							["level"] = 70,
+							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
 						["Shaniqq"] = {
@@ -23212,10 +24255,10 @@ NITdatabase = {
 							["classEnglish"] = "MAGE",
 							["guildName"] = "The Awakened Path",
 						},
-						["Galm"] = {
-							["class"] = "Shaman",
+						["Zavyxa"] = {
+							["class"] = "Warlock",
 							["level"] = 70,
-							["classEnglish"] = "SHAMAN",
+							["classEnglish"] = "WARLOCK",
 							["guildName"] = "The Awakened Path",
 						},
 						["Zld"] = {
@@ -23230,10 +24273,10 @@ NITdatabase = {
 							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
-						["Zavyxa"] = {
-							["class"] = "Warlock",
+						["Galm"] = {
+							["class"] = "Shaman",
 							["level"] = 70,
-							["classEnglish"] = "WARLOCK",
+							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
 						["Vojtechuj"] = {
@@ -23280,7 +24323,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4445-534-8667-23381-0000732402",
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [137]
+				}, -- [141]
 				{
 					["GUID"] = "Creature-0-4448-548-25055-21213-000071901C",
 					["leftMoney"] = 7116195,
@@ -23458,7 +24501,7 @@ NITdatabase = {
 					["enteredMoney"] = 6517247,
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [138]
+				}, -- [142]
 				{
 					["GUID"] = "Creature-0-4480-550-14377-19622-0000717A3C",
 					["leftMoney"] = 6517277,
@@ -23643,7 +24686,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4480-550-14377-20034-0000F17A3C",
 					["GUIDSource"] = "mouseover",
 					["mergeSource"] = "mouseover",
-				}, -- [139]
+				}, -- [143]
 				{
 					["GUID"] = "Creature-0-5571-548-11055-24780-0000706A9F",
 					["leftMoney"] = 1781192,
@@ -23827,7 +24870,7 @@ NITdatabase = {
 					["enteredMoney"] = 1337209,
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [140]
+				}, -- [144]
 				{
 					["GUID"] = "Creature-0-4457-550-19418-19622-0000704E61",
 					["leftMoney"] = 1337209,
@@ -24007,7 +25050,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4457-550-19418-20031-0000F03630",
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [141]
+				}, -- [145]
 				{
 					["GUID"] = "Creature-0-5563-429-19462-11441-00026F223F",
 					["leftMoney"] = 6035741,
@@ -24055,7 +25098,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-5563-429-19462-11441-0001EF223F",
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 70,
-				}, -- [142]
+				}, -- [146]
 				{
 					["GUID"] = "Creature-0-5563-547-6486-15479-00006EE48A",
 					["leftMoney"] = 6146104,
@@ -24072,16 +25115,16 @@ NITdatabase = {
 							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
-						["Tominda"] = {
-							["class"] = "Priest",
-							["level"] = 70,
-							["classEnglish"] = "PRIEST",
-							["guildName"] = "The Awakened Path",
-						},
 						["Zowl"] = {
 							["class"] = "Druid",
 							["level"] = 70,
 							["classEnglish"] = "DRUID",
+							["guildName"] = "The Awakened Path",
+						},
+						["Tominda"] = {
+							["class"] = "Priest",
+							["level"] = 70,
+							["classEnglish"] = "PRIEST",
 							["guildName"] = "The Awakened Path",
 						},
 						["Slimi"] = {
@@ -24114,7 +25157,7 @@ NITdatabase = {
 					["enteredMoney"] = 6122289,
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [143]
+				}, -- [147]
 				{
 					["GUID"] = "Creature-0-4446-546-15251-17882-00006ED8CC",
 					["leftMoney"] = 6122289,
@@ -24131,16 +25174,16 @@ NITdatabase = {
 							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
-						["Zowl"] = {
-							["class"] = "Druid",
-							["level"] = 70,
-							["classEnglish"] = "DRUID",
-							["guildName"] = "The Awakened Path",
-						},
 						["Tominda"] = {
 							["class"] = "Priest",
 							["level"] = 70,
 							["classEnglish"] = "PRIEST",
+							["guildName"] = "The Awakened Path",
+						},
+						["Zowl"] = {
+							["class"] = "Druid",
+							["level"] = 70,
+							["classEnglish"] = "DRUID",
 							["guildName"] = "The Awakened Path",
 						},
 						["Slimi"] = {
@@ -24175,7 +25218,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4446-546-15251-1420-0002EED8CB",
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [144]
+				}, -- [148]
 				{
 					["leftMoney"] = 6071814,
 					["group"] = {
@@ -24216,7 +25259,7 @@ NITdatabase = {
 					["enteredMoney"] = 6071814,
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [145]
+				}, -- [149]
 				{
 					["GUID"] = "Creature-0-4480-429-9491-14324-00006DD090",
 					["leftMoney"] = 6262189,
@@ -24245,7 +25288,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4480-429-9491-11441-0001EDD091",
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [146]
+				}, -- [150]
 				{
 					["GUID"] = "Creature-0-5571-547-21025-17942-00006DBFA9",
 					["leftMoney"] = 6228032,
@@ -24303,7 +25346,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 26366,
 					["GUIDSource"] = "mouseover",
 					["enteredLevel"] = 70,
-				}, -- [147]
+				}, -- [151]
 				{
 					["GUID"] = "Creature-0-4480-550-6460-19622-00006DA03D",
 					["leftMoney"] = 6202146,
@@ -24434,22 +25477,10 @@ NITdatabase = {
 							["classEnglish"] = "ROGUE",
 							["guildName"] = "The Awakened Path",
 						},
-						["Spinavylopez"] = {
+						["Shaniqq"] = {
 							["level"] = 70,
-							["class"] = "Warlock",
-							["classEnglish"] = "WARLOCK",
-							["guildName"] = "The Awakened Path",
-						},
-						["Galm"] = {
-							["level"] = 70,
-							["class"] = "Shaman",
-							["classEnglish"] = "SHAMAN",
-							["guildName"] = "The Awakened Path",
-						},
-						["Zuukk"] = {
-							["level"] = 70,
-							["class"] = "Paladin",
-							["classEnglish"] = "PALADIN",
+							["class"] = "Mage",
+							["classEnglish"] = "MAGE",
 							["guildName"] = "The Awakened Path",
 						},
 						["Zavyxa"] = {
@@ -24458,10 +25489,22 @@ NITdatabase = {
 							["classEnglish"] = "WARLOCK",
 							["guildName"] = "The Awakened Path",
 						},
-						["Shaniqq"] = {
+						["Zuukk"] = {
 							["level"] = 70,
-							["class"] = "Mage",
-							["classEnglish"] = "MAGE",
+							["class"] = "Paladin",
+							["classEnglish"] = "PALADIN",
+							["guildName"] = "The Awakened Path",
+						},
+						["Galm"] = {
+							["level"] = 70,
+							["class"] = "Shaman",
+							["classEnglish"] = "SHAMAN",
+							["guildName"] = "The Awakened Path",
+						},
+						["Spinavylopez"] = {
+							["level"] = 70,
+							["class"] = "Warlock",
+							["classEnglish"] = "WARLOCK",
 							["guildName"] = "The Awakened Path",
 						},
 						["Puky"] = {
@@ -24505,7 +25548,7 @@ NITdatabase = {
 					["rawMoneyCount"] = 461943,
 					["GUIDSource"] = "target",
 					["enteredLevel"] = 70,
-				}, -- [148]
+				}, -- [152]
 				{
 					["GUID"] = "Creature-0-4457-548-31115-15479-00006D9F63",
 					["leftMoney"] = 5826241,
@@ -24600,28 +25643,10 @@ NITdatabase = {
 							["classEnglish"] = "DRUID",
 							["guildName"] = "The Awakened Path",
 						},
-						["Primalex"] = {
-							["class"] = "Shaman",
-							["level"] = 70,
-							["classEnglish"] = "SHAMAN",
-							["guildName"] = "The Awakened Path",
-						},
-						["Zavyxa"] = {
-							["class"] = "Warlock",
-							["level"] = 70,
-							["classEnglish"] = "WARLOCK",
-							["guildName"] = "The Awakened Path",
-						},
 						["Kötarø"] = {
 							["class"] = "Rogue",
 							["level"] = 70,
 							["classEnglish"] = "ROGUE",
-							["guildName"] = "The Awakened Path",
-						},
-						["Spinavylopez"] = {
-							["class"] = "Warlock",
-							["level"] = 70,
-							["classEnglish"] = "WARLOCK",
 							["guildName"] = "The Awakened Path",
 						},
 						["Galm"] = {
@@ -24630,7 +25655,7 @@ NITdatabase = {
 							["classEnglish"] = "SHAMAN",
 							["guildName"] = "The Awakened Path",
 						},
-						["Kredenc"] = {
+						["Primalex"] = {
 							["class"] = "Shaman",
 							["level"] = 70,
 							["classEnglish"] = "SHAMAN",
@@ -24640,6 +25665,24 @@ NITdatabase = {
 							["class"] = "Mage",
 							["level"] = 70,
 							["classEnglish"] = "MAGE",
+							["guildName"] = "The Awakened Path",
+						},
+						["Zavyxa"] = {
+							["class"] = "Warlock",
+							["level"] = 70,
+							["classEnglish"] = "WARLOCK",
+							["guildName"] = "The Awakened Path",
+						},
+						["Kredenc"] = {
+							["class"] = "Shaman",
+							["level"] = 70,
+							["classEnglish"] = "SHAMAN",
+							["guildName"] = "The Awakened Path",
+						},
+						["Spinavylopez"] = {
+							["class"] = "Warlock",
+							["level"] = 70,
+							["classEnglish"] = "WARLOCK",
 							["guildName"] = "The Awakened Path",
 						},
 						["Zuukk"] = {
@@ -24689,7 +25732,7 @@ NITdatabase = {
 					["enteredMoney"] = 5169552,
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [149]
+				}, -- [153]
 				{
 					["isPvp"] = true,
 					["leftMoney"] = 0,
@@ -24835,11 +25878,11 @@ NITdatabase = {
 							["classEnglish"] = "WARRIOR",
 							["guildName"] = "Hellfire Goonsquad",
 						},
-						["Tlowsham-Venoxis"] = {
+						["Nickenyfiken-Ashbringer"] = {
 							["level"] = 70,
-							["class"] = "Shaman",
-							["classEnglish"] = "SHAMAN",
-							["guildName"] = "Statement",
+							["class"] = "Warlock",
+							["classEnglish"] = "WARLOCK",
+							["guildName"] = "Hellfire Goonsquad",
 						},
 						["Slimi"] = {
 							["level"] = 70,
@@ -24912,11 +25955,11 @@ NITdatabase = {
 							["classEnglish"] = "PRIEST",
 							["guildName"] = "Livets Horde Skole",
 						},
-						["Nickenyfiken-Ashbringer"] = {
+						["Tlowsham-Venoxis"] = {
 							["level"] = 70,
-							["class"] = "Warlock",
-							["classEnglish"] = "WARLOCK",
-							["guildName"] = "Hellfire Goonsquad",
+							["class"] = "Shaman",
+							["classEnglish"] = "SHAMAN",
+							["guildName"] = "Statement",
 						},
 						["Dopeboy"] = {
 							["level"] = 70,
@@ -24947,13 +25990,13 @@ NITdatabase = {
 					["enteredTime"] = 1642711407,
 					["instanceID"] = 30,
 					["kb"] = 3,
-					["hk"] = 5,
 					["faction"] = 0,
+					["hk"] = 5,
 					["instanceName"] = "Alterac Valley",
 					["classEnglish"] = "DRUID",
 					["mobCount"] = 0,
 					["winningFaction"] = 0,
-				}, -- [150]
+				}, -- [154]
 				{
 					["GUID"] = "Creature-0-4445-532-6009-15690-000069AE25",
 					["leftMoney"] = 4580816,
@@ -25049,7 +26092,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4445-532-6009-16491-000169AE25",
 					["GUIDSource"] = "mouseover",
 					["mergeSource"] = "mouseover",
-				}, -- [151]
+				}, -- [155]
 				{
 					["leftMoney"] = 4380515,
 					["group"] = {
@@ -25139,7 +26182,7 @@ NITdatabase = {
 					["enteredMoney"] = 4380515,
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [152]
+				}, -- [156]
 				{
 					["leftMoney"] = 4380515,
 					["group"] = {
@@ -25220,7 +26263,7 @@ NITdatabase = {
 					["enteredMoney"] = 4380515,
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [153]
+				}, -- [157]
 				{
 					["GUID"] = "Creature-0-4458-553-25229-17977-0000698CC5",
 					["leftMoney"] = 1453145,
@@ -25279,7 +26322,7 @@ NITdatabase = {
 					["enteredMoney"] = 1380979,
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [154]
+				}, -- [158]
 				{
 					["GUID"] = "Creature-0-4457-554-2328-15438-00006983D5",
 					["leftMoney"] = 1372566,
@@ -25338,7 +26381,7 @@ NITdatabase = {
 					["enteredMoney"] = 1325234,
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [155]
+				}, -- [159]
 				{
 					["GUID"] = "Creature-0-5563-554-11600-19220-0000698084",
 					["leftMoney"] = 1325234,
@@ -25397,7 +26440,7 @@ NITdatabase = {
 					["enteredMoney"] = 1278865,
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [156]
+				}, -- [160]
 				{
 					["GUID"] = "Creature-0-4459-554-6554-15480-0000697D34",
 					["leftMoney"] = 1278865,
@@ -25458,7 +26501,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4459-554-6554-19166-0001697995",
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [157]
+				}, -- [161]
 				{
 					["GUID"] = "Creature-0-4446-554-29534-19220-0000697817",
 					["leftMoney"] = 1236470,
@@ -25517,7 +26560,7 @@ NITdatabase = {
 					["enteredMoney"] = 1192306,
 					["mobCount"] = 0,
 					["enteredLevel"] = 70,
-				}, -- [158]
+				}, -- [162]
 				{
 					["GUID"] = "Creature-0-4446-329-24170-10418-0001E73A00",
 					["leftMoney"] = 3515637,
@@ -25559,7 +26602,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4446-329-24170-10382-0000673A00",
 					["GUIDSource"] = "mouseover",
 					["mergeSource"] = "nameplate",
-				}, -- [159]
+				}, -- [163]
 				{
 					["GUID"] = "Creature-0-4446-329-23825-10390-0000673982",
 					["leftMoney"] = 0,
@@ -25601,7 +26644,7 @@ NITdatabase = {
 					["mergeGUID"] = "Creature-0-4446-329-23825-10390-0000673982",
 					["GUIDSource"] = "mouseover",
 					["mergeSource"] = "nameplate",
-				}, -- [160]
+				}, -- [164]
 			},
 		},
 	},

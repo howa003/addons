@@ -2,6 +2,7 @@
 LBISSettings = {
 	["SelectedZoneNumber"] = "All",
 	["SelectedZone"] = "All",
+	["OpenTab"] = "ItemList",
 	["Tooltip"] = {
 		["BloodDeath Knight"] = true,
 		["FuryWarrior"] = true,

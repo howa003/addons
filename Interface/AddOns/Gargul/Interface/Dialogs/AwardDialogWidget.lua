@@ -235,7 +235,7 @@ local function constructor()
 
     OptionsFrame:AddChild(PlusOneLabel);
 
-    -- Plus one checkbox
+    -- Off Spec checkbox
     local OffSpecCheckBox = AceGUI:Create("CheckBox");
     OffSpecCheckBox:SetLabel("");
     OffSpecCheckBox:SetDescription("");
@@ -244,7 +244,7 @@ local function constructor()
     OptionsFrame:AddChild(OffSpecCheckBox);
     GL.Interface:set(GL.Interface.Dialogs.AwardDialog, "OffSpec", OffSpecCheckBox);
 
-    -- Plus one label
+    -- Off Spec label
     local OffSpecLabel = AceGUI:Create("InteractiveLabel");
     OffSpecLabel:SetFontObject(_G["GameFontNormal"]);
     OffSpecLabel:SetWidth(30);

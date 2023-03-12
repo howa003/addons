@@ -1,5 +1,41 @@
-1.3.2 Release Notes
+1.3.9 Release Notes
 Contributions made by Crieve:
-* Blizzard's UI modifications no longer break ATT and show a ghoul.
-* Fixed a parser bug.
+* Exile of the High Elves had the wrong coordinate for Wrath Classic.
+* Apothecary Hummel now shows a checkmark when you've completed the daily in Wrath Classic.
+* Heart-Shaped Box doesn't exist this year in Wrath Classic.
+* Ironspine's Ribcage becomes a Plate transmog later on.
+* Added the "Hide PvP Activities" filter.
+* Fixed an issue involving faction specific achievements.
+* Arena Treasure Chest is now marked as a PVP Activity.
+* Arena Grandmaster is now marked as a PVP Activity.
+* Added the contents of Bag of Heart Candies.
+* The Hammer May Fall now marks partial completion when you have completed Call to Arms (1/3).
+* TOC Version 11403 for Classic Era.
+* Ribbly Screwspigot could also be done by Horde Players.
+* Senir's Observations (both of them) can't be completed if you've completed Frostmane Hold.
+* ATT no longer shows active quests if you aren't tracking Quests.
+* Trek to Ashenvale no longer appears in the list if you've completed Raene's Cleansing (1/11).
+* Slightly updated the format of the Scepter of the Shifting Sands quest chain.
+* Jimmied Handcuffs becomes a plate item after it gets removed. (originally a mail item)
+* Cavedweller Bracers becomes a plate item after it gets removed. (originally a mail item)
+* Fixed a display issue involving Lunar Festival quests.
+* Heroes of the Storm no longer shows up before 6.0.1. Updated Midsummer Fire Festival achievements to use a symlink instead of explicitly listing each coordinate.
+* Added the Defense Protocol Alpha achievements for Wrath Classic.
+* Added the Rusted Prisoner's Footlocker and Rusty Prison Key to Dalaran.
+* ATT Classic's addon code now supports Illusions. (preparation for the Legion version)
+* Not Tracking Deaths no longer count against you towards Insane Mode.
+* Things now show the total number of things related to that category in the tooltip. (including hidden things and unsorted)
+* Classic now supports Automatic Headers.
+* Automatic Headers no longer use "headerID", they now use "autoID" so they don't collide.
+* Added a constant for Timewalking Dungeon Difficulty.
+* Added a couple constants for headers.
+* Added a helpful base description to the Exploration object class.
+* Difficulty objects that get popped out into their own groups now show the name of the instance they're linked to in their names.
+* Updated The Barrens for Wrath Classic!
+* The Barrens now resides on the Retail Database.
+* ...
+* Added some missing object details and objectives.
+* Added the missing Dwarf version of the The Tome of Divinity.
+* Added a bunch of missing Wrath Classic achievements.
+* Reparsed for TBC, Classic, and Cataclysm Databases.
 

@@ -54,7 +54,6 @@ NWBdatabase = {
 						["localizedClass"] = "Shaman",
 						["englishClass"] = "SHAMAN",
 						["race"] = "Troll",
-						["level"] = 19,
 						["buffs"] = {
 							["Spirit of Zandalar"] = {
 								["track"] = true,
@@ -64,6 +63,7 @@ NWBdatabase = {
 								["timeLeft"] = 3772,
 							},
 						},
+						["level"] = 19,
 						["rendCount"] = 0,
 						["zanCount"] = 1,
 					},
@@ -72,11 +72,11 @@ NWBdatabase = {
 				["flower8"] = 1608487016,
 				["onyTimerWho"] = "Greezo",
 				["dragon2"] = 0,
-				["nefNpcDied"] = 0,
+				["onyYell2"] = 1602090399,
 				["onyYell"] = 1609366184,
 				["nefYell2"] = 1601402260,
 				["nefTimerWho"] = "Yoobama",
-				["onyYell2"] = 1602090399,
+				["nefNpcDied"] = 0,
 				["flower5"] = 1609373190,
 				["layers"] = {
 				},
@@ -99,12 +99,14 @@ NWBdatabase = {
 		},
 		["Golemagg"] = {
 			["Horde"] = {
+				["flower2"] = 1612556591,
+				["rendYell"] = 1624821775,
 				["Tyralyon-Golemagg"] = {
 					["guildCommand"] = 1,
 					["guildBuffDropped"] = 1,
 					["guild10"] = 1,
-					["updated"] = 1676222622,
 					["guildNpcWalking"] = 1,
+					["updated"] = 1678648924,
 					["guildNpcKilled"] = 1,
 					["guildSongflower"] = 0,
 					["guildTerok10"] = 1,
@@ -117,7 +119,7 @@ NWBdatabase = {
 					["guildCommand"] = 1,
 					["guildBuffDropped"] = 1,
 					["guild10"] = 1,
-					["updated"] = 1675013697,
+					["updated"] = 1678559195,
 					["guildNpcWalking"] = 1,
 					["guildNpcKilled"] = 1,
 					["guildSongflower"] = 0,
@@ -141,12 +143,12 @@ NWBdatabase = {
 					["guildNpcDialogue"] = 1,
 					["guild1"] = 1,
 				},
-				["Hustoflash-Golemagg"] = {
+				["Flowerist-Golemagg"] = {
 					["guildCommand"] = 1,
 					["guildBuffDropped"] = 1,
 					["guild10"] = 1,
+					["updated"] = 1676201540,
 					["guildNpcWalking"] = 1,
-					["updated"] = 1673810530,
 					["guildNpcKilled"] = 1,
 					["guildSongflower"] = 0,
 					["guildTerok10"] = 1,
@@ -158,12 +160,12 @@ NWBdatabase = {
 				["flower6"] = 1618782057,
 				["tuber4"] = 1612564640,
 				["nefTimer"] = 1621365756,
-				["Thaxiré-Golemagg"] = {
+				["Gryfel-Golemagg"] = {
 					["guildCommand"] = 1,
 					["guildBuffDropped"] = 1,
 					["guild10"] = 1,
-					["updated"] = 1674159902,
 					["guildNpcWalking"] = 1,
+					["updated"] = 1678648924,
 					["guildNpcKilled"] = 1,
 					["guildSongflower"] = 0,
 					["guildTerok10"] = 1,
@@ -172,7 +174,22 @@ NWBdatabase = {
 					["guildNpcDialogue"] = 1,
 					["guild1"] = 1,
 				},
-				["Angrön-Golemagg"] = {
+				["Oslica-Golemagg"] = {
+					["guildCommand"] = 1,
+					["guildBuffDropped"] = 1,
+					["guild10"] = 1,
+					["guildNpcWalking"] = 1,
+					["updated"] = 1678648924,
+					["guildNpcKilled"] = 1,
+					["guildSongflower"] = 0,
+					["guildTerok10"] = 1,
+					["disableAllGuildMsgs"] = 0,
+					["guildZanDialogue"] = 1,
+					["guildNpcDialogue"] = 1,
+					["guild1"] = 1,
+				},
+				["tuber2"] = 1614450694,
+				["Neverender-Golemagg"] = {
 					["guildCommand"] = 1,
 					["guildBuffDropped"] = 1,
 					["guild10"] = 1,
@@ -186,11 +203,11 @@ NWBdatabase = {
 					["guildNpcDialogue"] = 1,
 					["guild1"] = 1,
 				},
-				["Azmoo-Golemagg"] = {
+				["Jaytyy-Golemagg"] = {
 					["guildCommand"] = 1,
 					["guildBuffDropped"] = 1,
 					["guild10"] = 1,
-					["updated"] = 1674472248,
+					["updated"] = 1678648604,
 					["guildNpcWalking"] = 1,
 					["guildNpcKilled"] = 1,
 					["guildSongflower"] = 0,
@@ -200,12 +217,12 @@ NWBdatabase = {
 					["guildNpcDialogue"] = 1,
 					["guild1"] = 1,
 				},
-				["Vernitka-Golemagg"] = {
+				["Angrön-Golemagg"] = {
 					["guildCommand"] = 1,
 					["guildBuffDropped"] = 1,
 					["guild10"] = 1,
-					["updated"] = 1675013697,
 					["guildNpcWalking"] = 1,
+					["updated"] = 1678648924,
 					["guildNpcKilled"] = 1,
 					["guildSongflower"] = 0,
 					["guildTerok10"] = 1,
@@ -214,13 +231,15 @@ NWBdatabase = {
 					["guildNpcDialogue"] = 1,
 					["guild1"] = 1,
 				},
-				["tbcHDT"] = 1676277568,
-				["Agrresivna-Golemagg"] = {
+				["tbcPDT"] = 1678648466,
+				["tbcHDT"] = 1678648921,
+				["onyYell"] = 1641491827,
+				["Shaniqq-Golemagg"] = {
 					["guildCommand"] = 1,
 					["guildBuffDropped"] = 1,
 					["guild10"] = 1,
 					["guildNpcWalking"] = 1,
-					["updated"] = 1675012595,
+					["updated"] = 1678648924,
 					["guildNpcKilled"] = 1,
 					["guildSongflower"] = 0,
 					["guildTerok10"] = 1,
@@ -230,6 +249,37 @@ NWBdatabase = {
 					["guild1"] = 1,
 				},
 				["Cizosaurus-Golemagg"] = {
+					["guildCommand"] = 1,
+					["guildBuffDropped"] = 1,
+					["guild10"] = 1,
+					["guildNpcWalking"] = 1,
+					["updated"] = 1678565026,
+					["guildNpcKilled"] = 1,
+					["guildSongflower"] = 0,
+					["guildTerok10"] = 1,
+					["disableAllGuildMsgs"] = 0,
+					["guildZanDialogue"] = 1,
+					["guildNpcDialogue"] = 1,
+					["guild1"] = 1,
+				},
+				["tuber5"] = 1617627915,
+				["onyTimer"] = 1622483475,
+				["Mastarpone-Golemagg"] = {
+					["guildCommand"] = 1,
+					["guildBuffDropped"] = 1,
+					["guild10"] = 1,
+					["guildNpcWalking"] = 1,
+					["updated"] = 1678648924,
+					["guildNpcKilled"] = 1,
+					["guildSongflower"] = 0,
+					["guildTerok10"] = 1,
+					["disableAllGuildMsgs"] = 0,
+					["guildZanDialogue"] = 1,
+					["guildNpcDialogue"] = 1,
+					["guild1"] = 1,
+				},
+				["dragon4"] = 1612549513,
+				["Zdrc-Golemagg"] = {
 					["guildCommand"] = 1,
 					["guildBuffDropped"] = 1,
 					["guild10"] = 1,
@@ -243,13 +293,13 @@ NWBdatabase = {
 					["guildNpcDialogue"] = 1,
 					["guild1"] = 1,
 				},
-				["onyTimer"] = 1622483475,
-				["Craxi-Golemagg"] = {
+				["rendSource"] = "self",
+				["Tankkys-Golemagg"] = {
 					["guildCommand"] = 1,
 					["guildBuffDropped"] = 1,
 					["guild10"] = 1,
-					["updated"] = 1674074765,
 					["guildNpcWalking"] = 1,
+					["updated"] = 1678544905,
 					["guildNpcKilled"] = 1,
 					["guildSongflower"] = 0,
 					["guildTerok10"] = 1,
@@ -258,21 +308,7 @@ NWBdatabase = {
 					["guildNpcDialogue"] = 1,
 					["guild1"] = 1,
 				},
-				["dragon4"] = 1612549513,
-				["Prdzriti-Golemagg"] = {
-					["guildCommand"] = 1,
-					["guildBuffDropped"] = 1,
-					["guild10"] = 1,
-					["updated"] = 1674396952,
-					["guildNpcWalking"] = 1,
-					["guildNpcKilled"] = 1,
-					["guildSongflower"] = 0,
-					["guildTerok10"] = 1,
-					["disableAllGuildMsgs"] = 0,
-					["guildZanDialogue"] = 1,
-					["guildNpcDialogue"] = 1,
-					["guild1"] = 1,
-				},
+				["tbcDD"] = 1,
 				["myChars"] = {
 					["Herbcow"] = {
 						["pvpFlag"] = false,
@@ -639,7 +675,7 @@ NWBdatabase = {
 						["17057"] = 20,
 						["ribbonDanceCount"] = 1,
 						["totalBagSlots"] = 100,
-						["freeBagSlots"] = 38,
+						["freeBagSlots"] = 20,
 						["auchindounAttune"] = true,
 						["buffs"] = {
 							["Spirit of Zandalar"] = {
@@ -647,45 +683,45 @@ NWBdatabase = {
 								["type"] = "zan",
 								["setTime"] = 1606042261,
 								["playedCacheSetAt"] = 323226,
-								["timeLeft"] = -1138913,
+								["timeLeft"] = -1139506,
 							},
 							["Warchief's Blessing"] = {
 								["track"] = false,
 								["type"] = "rend",
 								["setTime"] = 1673140865,
 								["playedCacheSetAt"] = 1363286,
-								["timeLeft"] = -102453,
+								["timeLeft"] = -103046,
 							},
 							["Ribbon Dance"] = {
 								["track"] = false,
 								["type"] = "ribbonDance",
 								["setTime"] = 1627415099,
 								["playedCacheSetAt"] = 742806,
-								["timeLeft"] = -722933,
+								["timeLeft"] = -723526,
 							},
 							["Fire Festival Fury"] = {
 								["track"] = false,
 								["type"] = "festivalFury",
 								["setTime"] = 1627418098,
 								["playedCacheSetAt"] = 678157,
-								["timeLeft"] = -787582,
+								["timeLeft"] = -788175,
 							},
 							["Rallying Cry of the Dragonslayer"] = {
 								["track"] = false,
 								["type"] = "nef",
 								["setTime"] = 1613778472,
 								["playedCacheSetAt"] = 549975,
-								["timeLeft"] = -912164,
+								["timeLeft"] = -912757,
 							},
 						},
 						["coilfangAttune"] = true,
 						["chronoCooldown"] = 1676276937.108,
-						["guildRankName"] = "Alt",
+						["guildRankName"] = "No guild rank",
 						["raceEnglish"] = "Troll",
 						["englishClass"] = "SHAMAN",
 						["blackMorassAttune"] = true,
 						["race"] = "Troll",
-						["gold"] = 70504437,
+						["gold"] = 5500117,
 						["17058"] = 0,
 						["blackTempleAttune"] = true,
 						["realm"] = "Golemagg",
@@ -695,7 +731,7 @@ NWBdatabase = {
 						["hellfireCitadelAttune"] = true,
 						["tempestKeepAttune"] = true,
 						["karaAttune"] = true,
-						["guild"] = "The Awakened Path",
+						["guild"] = "No guild",
 						["faction"] = "Horde",
 						["shadowLabAttune"] = true,
 						["zanCount"] = 3,
@@ -706,19 +742,19 @@ NWBdatabase = {
 						["rendCount"] = 0,
 						["chronoCooldown"] = 1664032834.284,
 						["guild"] = "Revolution of Twinstar",
-						["17026"] = 0,
 						["raceEnglish"] = "Troll",
+						["17026"] = 0,
 						["englishClass"] = "MAGE",
-						["17056"] = 0,
+						["g"] = "Player-4465-0280FC03",
 						["zanCount"] = 0,
 						["durabilityAverage"] = 99.609375,
 						["17020"] = 0,
 						["race"] = "Troll",
-						["gold"] = 259182,
-						["freeBagSlots"] = 49,
+						["gold"] = 257562,
+						["freeBagSlots"] = 27,
 						["level"] = 18,
 						["chronoCount"] = 0,
-						["realm"] = "Golemagg",
+						["17038"] = 0,
 						["guildRankName"] = "Mini Boss",
 						["raceLocalized"] = "Troll",
 						["nefCount"] = 0,
@@ -732,10 +768,10 @@ NWBdatabase = {
 						["17032"] = 0,
 						["totalBagSlots"] = 84,
 						["faction"] = "Horde",
-						["17038"] = 0,
+						["realm"] = "Golemagg",
 						["buffs"] = {
 						},
-						["g"] = "Player-4465-0280FC03",
+						["17056"] = 0,
 						["pvpFlag"] = false,
 					},
 					["Tailcow"] = {
@@ -777,7 +813,7 @@ NWBdatabase = {
 						["g"] = "Player-4465-019F349A",
 						["durabilityAverage"] = 100,
 						["zanCount"] = 0,
-						["gold"] = 19093746,
+						["gold"] = 4716674,
 						["level"] = 13,
 						["chronoCount"] = 0,
 						["realm"] = "Golemagg",
@@ -788,9 +824,9 @@ NWBdatabase = {
 						["race"] = "Orc",
 						["rendCount"] = 8,
 						["raceLocalized"] = "Orc",
-						["freeBagSlots"] = 0,
-						["totalBagSlots"] = 84,
 						["faction"] = "Horde",
+						["totalBagSlots"] = 84,
+						["freeBagSlots"] = 21,
 						["onyCount"] = 4,
 						["buffs"] = {
 							["Warchief's Blessing"] = {
@@ -798,14 +834,14 @@ NWBdatabase = {
 								["type"] = "rend",
 								["setTime"] = 1612542753,
 								["playedCacheSetAt"] = 360777,
-								["timeLeft"] = -429497,
+								["timeLeft"] = -431810,
 							},
 							["Rallying Cry of the Dragonslayer"] = {
 								["track"] = true,
 								["type"] = "ony",
 								["setTime"] = 1614634893,
 								["playedCacheSetAt"] = 375760,
-								["timeLeft"] = -410914,
+								["timeLeft"] = -413227,
 							},
 						},
 						["guildRankName"] = "Guild Master",
@@ -819,7 +855,7 @@ NWBdatabase = {
 						["shatteredHallsAttune"] = true,
 						["g"] = "Player-4465-01A22C9F",
 						["resistFireCount"] = 1,
-						["durabilityAverage"] = 97.6068376068376,
+						["durabilityAverage"] = 100,
 						["moxieCount"] = 2,
 						["songflowerCount"] = 2,
 						["chronoCount"] = 0,
@@ -1358,6 +1394,12 @@ NWBdatabase = {
 								["resetTime"] = 1625036403,
 								["difficultyName"] = "10 Player",
 							},
+							[234753735] = {
+								["locked"] = true,
+								["name"] = "Ulduar",
+								["resetTime"] = 1678852911,
+								["difficultyName"] = "25 Player",
+							},
 							[222415803] = {
 								["locked"] = true,
 								["name"] = "The Obsidian Sanctum",
@@ -1472,11 +1514,11 @@ NWBdatabase = {
 								["resetTime"] = 1624431603,
 								["difficultyName"] = "25 Player",
 							},
-							[139064621] = {
+							[96001838] = {
 								["locked"] = true,
-								["resetTime"] = 1643785676,
-								["name"] = "Auchindoun: Sethekk Halls",
-								["difficultyName"] = "Heroic",
+								["name"] = "Karazhan",
+								["resetTime"] = 1625642012,
+								["difficultyName"] = "10 Player",
 							},
 							[177334530] = {
 								["locked"] = true,
@@ -1484,11 +1526,11 @@ NWBdatabase = {
 								["name"] = "The Sunwell",
 								["difficultyName"] = "25 Player",
 							},
-							[96001838] = {
+							[139064621] = {
 								["locked"] = true,
-								["name"] = "Karazhan",
-								["resetTime"] = 1625642012,
-								["difficultyName"] = "10 Player",
+								["resetTime"] = 1643785676,
+								["name"] = "Auchindoun: Sethekk Halls",
+								["difficultyName"] = "Heroic",
 							},
 							[139325251] = {
 								["locked"] = true,
@@ -1526,17 +1568,17 @@ NWBdatabase = {
 								["name"] = "The Battle for Mount Hyjal",
 								["difficultyName"] = "25 Player",
 							},
-							[149583776] = {
-								["locked"] = true,
-								["name"] = "The Battle for Mount Hyjal",
-								["resetTime"] = 1648623628,
-								["difficultyName"] = "25 Player",
-							},
 							[88004336] = {
 								["locked"] = true,
 								["name"] = "Auchindoun: Sethekk Halls",
 								["resetTime"] = 1623135599,
 								["difficultyName"] = "Heroic",
+							},
+							[149583776] = {
+								["locked"] = true,
+								["name"] = "The Battle for Mount Hyjal",
+								["resetTime"] = 1648623628,
+								["difficultyName"] = "25 Player",
 							},
 							[107532617] = {
 								["locked"] = true,
@@ -1675,47 +1717,47 @@ NWBdatabase = {
 						["spiritZanzaCount"] = 1,
 						["gender"] = "Male",
 						["hyjalAttune"] = true,
-						["freeBagSlots"] = 50,
-						["mcAttune"] = true,
-						["ribbonDanceCount"] = 1,
-						["totalBagSlots"] = 102,
 						["arcatrazAttune"] = true,
-						["serpentshrineAttune"] = true,
+						["mcAttune"] = true,
+						["savvyCount"] = 2,
+						["totalBagSlots"] = 102,
+						["freeBagSlots"] = 43,
+						["auchindounAttune"] = true,
 						["buffs"] = {
 							["Spirit of Zandalar"] = {
 								["track"] = false,
 								["type"] = "zan",
 								["setTime"] = 1622571727,
 								["playedCacheSetAt"] = 1232761,
-								["timeLeft"] = -2351387,
+								["timeLeft"] = -2427761,
 							},
 							["Resist Fire"] = {
 								["track"] = false,
 								["type"] = "resistFire",
 								["setTime"] = 1609361904,
 								["playedCacheSetAt"] = 855335,
-								["timeLeft"] = -2732413,
+								["timeLeft"] = -2808787,
 							},
 							["Mol'dar's Moxie"] = {
 								["track"] = false,
 								["type"] = "moxie",
 								["setTime"] = 1611430582,
 								["playedCacheSetAt"] = 1082831,
-								["timeLeft"] = -2501317,
+								["timeLeft"] = -2577691,
 							},
 							["Distilled Wisdom"] = {
 								["track"] = false,
 								["type"] = "flaskWisdom",
 								["setTime"] = 1622585139,
 								["playedCacheSetAt"] = 1239842,
-								["timeLeft"] = -2344306,
+								["timeLeft"] = -2420680,
 							},
 							["Rallying Cry of the Dragonslayer"] = {
 								["track"] = false,
 								["type"] = "ony",
 								["setTime"] = 1622568463,
 								["playedCacheSetAt"] = 1232090,
-								["timeLeft"] = -2352058,
+								["timeLeft"] = -2428432,
 								["npcID"] = 173758,
 							},
 							["Blinding Light of Shattrath"] = {
@@ -1723,42 +1765,42 @@ NWBdatabase = {
 								["type"] = "shattrathFlaskBlinding",
 								["setTime"] = 1650391995,
 								["playedCacheSetAt"] = 3384885,
-								["timeLeft"] = -199263,
+								["timeLeft"] = -275637,
 							},
 							["Slip'kik's Savvy"] = {
 								["track"] = false,
 								["type"] = "savvy",
 								["setTime"] = 1611430470,
 								["playedCacheSetAt"] = 1082719,
-								["timeLeft"] = -2501429,
+								["timeLeft"] = -2577803,
 							},
-							["Songflower Serenade"] = {
+							["Flask of Blinding Light"] = {
 								["track"] = false,
-								["type"] = "songflower",
-								["setTime"] = 1607894186,
-								["playedCacheSetAt"] = 639313,
-								["timeLeft"] = -2948435,
+								["type"] = "flaskBlinding",
+								["setTime"] = 1638229529,
+								["playedCacheSetAt"] = 2989812,
+								["timeLeft"] = -670710,
 							},
 							["Spirit of Zanza"] = {
 								["track"] = false,
 								["type"] = "spiritZanza",
 								["setTime"] = 1622585126,
 								["playedCacheSetAt"] = 1239836,
-								["timeLeft"] = -2344312,
+								["timeLeft"] = -2420686,
 							},
 							["Ribbon Dance"] = {
 								["track"] = false,
 								["type"] = "ribbonDance",
 								["setTime"] = 1627504028,
 								["playedCacheSetAt"] = 1997023,
-								["timeLeft"] = -1590725,
+								["timeLeft"] = -1667099,
 							},
 							["Warchief's Blessing"] = {
 								["track"] = false,
 								["type"] = "rend",
 								["setTime"] = 1622583041,
 								["playedCacheSetAt"] = 1237751,
-								["timeLeft"] = -2349997,
+								["timeLeft"] = -2426371,
 								["npcID"] = 4949,
 							},
 							["Fengus' Ferocity"] = {
@@ -1766,21 +1808,21 @@ NWBdatabase = {
 								["type"] = "ferocity",
 								["setTime"] = 1611430532,
 								["playedCacheSetAt"] = 1082781,
-								["timeLeft"] = -2501367,
+								["timeLeft"] = -2577741,
 							},
-							["Flask of Blinding Light"] = {
+							["Songflower Serenade"] = {
 								["track"] = false,
-								["type"] = "flaskBlinding",
-								["setTime"] = 1638229529,
-								["playedCacheSetAt"] = 2989812,
-								["timeLeft"] = -594336,
+								["type"] = "songflower",
+								["setTime"] = 1607894186,
+								["playedCacheSetAt"] = 639313,
+								["timeLeft"] = -3024809,
 							},
 						},
 						["shadowLabAttune"] = true,
 						["coilfangAttune"] = true,
 						["onyCount"] = 29,
 						["guild"] = "The Awakened Path",
-						["guildRankName"] = "Social",
+						["guildRankName"] = "Member",
 						["raceEnglish"] = "Tauren",
 						["17026"] = 0,
 						["englishClass"] = "DRUID",
@@ -1805,13 +1847,13 @@ NWBdatabase = {
 						["blackMorassAttune"] = true,
 						["race"] = "Tauren",
 						["shattrathFlaskBlindingCount"] = 1,
-						["gold"] = 2409976,
-						["pvpFlag"] = true,
+						["gold"] = 193564881,
+						["pvpFlag"] = false,
 						["blackTempleAttune"] = true,
 						["realm"] = "Golemagg",
 						["17038"] = 0,
 						["zanCount"] = 19,
-						["chronoCooldown"] = 1676210809.466,
+						["chronoCooldown"] = 1678573558.757,
 						["raceLocalized"] = "Tauren",
 						["localizedClass"] = "Druid",
 						["playerName"] = "Zowl",
@@ -1823,8 +1865,8 @@ NWBdatabase = {
 						["testAttune"] = true,
 						["faction"] = "Horde",
 						["karaAttune"] = true,
-						["auchindounAttune"] = true,
-						["savvyCount"] = 2,
+						["serpentshrineAttune"] = true,
+						["ribbonDanceCount"] = 1,
 						["tempestKeepAttune"] = true,
 					},
 					["Meatcow"] = {
@@ -1842,7 +1884,7 @@ NWBdatabase = {
 						["savedInstances"] = {
 						},
 						["guildRankName"] = "Mini Boss",
-						["nefCount"] = 0,
+						["raceLocalized"] = "Tauren",
 						["localizedClass"] = "Hunter",
 						["playerName"] = "Meatcow",
 						["gender"] = "Male",
@@ -1855,16 +1897,19 @@ NWBdatabase = {
 						["ammo"] = 0,
 						["buffs"] = {
 						},
-						["raceLocalized"] = "Tauren",
+						["nefCount"] = 0,
 						["zanCount"] = 0,
 					},
 				},
-				["Elanar-Golemagg"] = {
+				["rendTimer"] = 1622583041,
+				["wintergraspTime"] = 1678647981,
+				["onyTimerWho"] = "Zowl",
+				["Kofoa-Golemagg"] = {
 					["guildCommand"] = 1,
 					["guildBuffDropped"] = 1,
 					["guild10"] = 1,
+					["updated"] = 1676222622,
 					["guildNpcWalking"] = 1,
-					["updated"] = 1674407565,
 					["guildNpcKilled"] = 1,
 					["guildSongflower"] = 0,
 					["guildTerok10"] = 1,
@@ -1873,7 +1918,6 @@ NWBdatabase = {
 					["guildNpcDialogue"] = 1,
 					["guild1"] = 1,
 				},
-				["onyTimerWho"] = "Zowl",
 				["Elkredence-Golemagg"] = {
 					["guildCommand"] = 1,
 					["guildBuffDropped"] = 1,
@@ -1902,11 +1946,41 @@ NWBdatabase = {
 					["guildNpcDialogue"] = 1,
 					["guild1"] = 1,
 				},
+				["nefYell2"] = 1614704513,
+				["nefTimerWho"] = "Zowl",
+				["Mayt-Golemagg"] = {
+					["guildCommand"] = 1,
+					["guildBuffDropped"] = 1,
+					["guild10"] = 1,
+					["guildNpcWalking"] = 1,
+					["updated"] = 1678544905,
+					["guildNpcKilled"] = 1,
+					["guildSongflower"] = 0,
+					["guildTerok10"] = 1,
+					["disableAllGuildMsgs"] = 0,
+					["guildZanDialogue"] = 1,
+					["guildNpcDialogue"] = 1,
+					["guild1"] = 1,
+				},
+				["Wrathie-Golemagg"] = {
+					["guildCommand"] = 1,
+					["guildBuffDropped"] = 1,
+					["guild10"] = 1,
+					["guildNpcWalking"] = 1,
+					["updated"] = 1678544905,
+					["guildNpcKilled"] = 1,
+					["guildSongflower"] = 0,
+					["guildTerok10"] = 1,
+					["disableAllGuildMsgs"] = 0,
+					["guildZanDialogue"] = 1,
+					["guildNpcDialogue"] = 1,
+					["guild1"] = 1,
+				},
 				["Puky-Golemagg"] = {
 					["guildCommand"] = 1,
 					["guildBuffDropped"] = 1,
 					["guild10"] = 1,
-					["updated"] = 1676222622,
+					["updated"] = 1678525507,
 					["guildNpcWalking"] = 1,
 					["guildNpcKilled"] = 1,
 					["guildSongflower"] = 0,
@@ -1916,26 +1990,85 @@ NWBdatabase = {
 					["guildNpcDialogue"] = 1,
 					["guild1"] = 1,
 				},
-				["Martinézz-Golemagg"] = {
-					["guildCommand"] = 0,
-					["guildBuffDropped"] = 0,
-					["guild10"] = 0,
-					["guildNpcWalking"] = 0,
-					["updated"] = 1673860427,
-					["guildNpcKilled"] = 0,
+				["Deathko-Golemagg"] = {
+					["guildCommand"] = 1,
+					["guildBuffDropped"] = 1,
+					["guild10"] = 1,
+					["updated"] = 1676277122,
+					["guildNpcWalking"] = 1,
+					["guildNpcKilled"] = 1,
 					["guildSongflower"] = 0,
 					["guildTerok10"] = 1,
 					["disableAllGuildMsgs"] = 0,
-					["guildZanDialogue"] = 0,
-					["guildNpcDialogue"] = 0,
-					["guild1"] = 0,
+					["guildZanDialogue"] = 1,
+					["guildNpcDialogue"] = 1,
+					["guild1"] = 1,
+				},
+				["faction"] = "Horde",
+				["Maÿt-Golemagg"] = {
+					["guildCommand"] = 1,
+					["guildBuffDropped"] = 1,
+					["guild10"] = 1,
+					["guildNpcWalking"] = 1,
+					["updated"] = 1678648924,
+					["guildNpcKilled"] = 1,
+					["guildSongflower"] = 0,
+					["guildTerok10"] = 1,
+					["disableAllGuildMsgs"] = 0,
+					["guildZanDialogue"] = 1,
+					["guildNpcDialogue"] = 1,
+					["guild1"] = 1,
+				},
+				["Teajay-Golemagg"] = {
+					["guildCommand"] = 1,
+					["guildBuffDropped"] = 1,
+					["guild10"] = 1,
+					["updated"] = 1678647478,
+					["guildNpcWalking"] = 1,
+					["guildNpcKilled"] = 1,
+					["guildSongflower"] = 0,
+					["guildTerok10"] = 1,
+					["disableAllGuildMsgs"] = 0,
+					["guildZanDialogue"] = 1,
+					["guildNpcDialogue"] = 1,
+					["guild1"] = 1,
+				},
+				["dmfBuffSettings"] = {
 				},
 				["Vypol-Golemagg"] = {
 					["guildCommand"] = 1,
 					["guildBuffDropped"] = 1,
 					["guild10"] = 1,
-					["updated"] = 1676202626,
 					["guildNpcWalking"] = 1,
+					["updated"] = 1678648924,
+					["guildNpcKilled"] = 1,
+					["guildSongflower"] = 0,
+					["guildTerok10"] = 1,
+					["disableAllGuildMsgs"] = 0,
+					["guildZanDialogue"] = 1,
+					["guildNpcDialogue"] = 1,
+					["guild1"] = 1,
+				},
+				["Thaximé-Golemagg"] = {
+					["guildCommand"] = 1,
+					["guildBuffDropped"] = 1,
+					["guild10"] = 1,
+					["updated"] = 1678527019,
+					["guildNpcWalking"] = 1,
+					["guildNpcKilled"] = 1,
+					["guildSongflower"] = 0,
+					["guildTerok10"] = 1,
+					["disableAllGuildMsgs"] = 0,
+					["guildZanDialogue"] = 1,
+					["guildNpcDialogue"] = 1,
+					["guild1"] = 1,
+				},
+				["Thaxiré-Golemagg"] = {
+					["guildCommand"] = 1,
+					["guildBuffDropped"] = 1,
+					["guild10"] = 1,
+					["guildNpcWalking"] = 1,
+					["updated"] = 1678564726,
 					["guildNpcKilled"] = 1,
 					["guildSongflower"] = 0,
 					["guildTerok10"] = 1,
@@ -1945,7 +2078,50 @@ NWBdatabase = {
 					["guild1"] = 1,
 				},
 				["flower10"] = 1617053839,
-				["Zld-Golemagg"] = {
+				["Lupinka-Golemagg"] = {
+					["guildCommand"] = 1,
+					["guildBuffDropped"] = 1,
+					["guild10"] = 1,
+					["updated"] = 1678559195,
+					["guildNpcWalking"] = 1,
+					["guildNpcKilled"] = 1,
+					["guildSongflower"] = 0,
+					["guildTerok10"] = 1,
+					["disableAllGuildMsgs"] = 0,
+					["guildZanDialogue"] = 1,
+					["guildNpcDialogue"] = 1,
+					["guild1"] = 1,
+				},
+				["Fireburns-Golemagg"] = {
+					["guildCommand"] = 1,
+					["guildBuffDropped"] = 1,
+					["guild10"] = 1,
+					["guildNpcWalking"] = 1,
+					["updated"] = 1678575442,
+					["guildNpcKilled"] = 1,
+					["guildSongflower"] = 0,
+					["guildTerok10"] = 1,
+					["disableAllGuildMsgs"] = 0,
+					["guildZanDialogue"] = 1,
+					["guildNpcDialogue"] = 1,
+					["guild1"] = 1,
+				},
+				["Thaie-Golemagg"] = {
+					["guildCommand"] = 1,
+					["guildBuffDropped"] = 1,
+					["guild10"] = 1,
+					["guildNpcWalking"] = 1,
+					["updated"] = 1678559969,
+					["guildNpcKilled"] = 1,
+					["guildSongflower"] = 0,
+					["guildTerok10"] = 1,
+					["disableAllGuildMsgs"] = 0,
+					["guildZanDialogue"] = 1,
+					["guildNpcDialogue"] = 1,
+					["guild1"] = 1,
+				},
+				["lastSyncBy"] = "Roogadin-Golemagg",
+				["Kredencium-Golemagg"] = {
 					["guildCommand"] = 1,
 					["guildBuffDropped"] = 1,
 					["guild10"] = 1,
@@ -1959,12 +2135,13 @@ NWBdatabase = {
 					["guildNpcDialogue"] = 1,
 					["guild1"] = 1,
 				},
-				["Årchaon-Golemagg"] = {
+				["flower5"] = 1613773976,
+				["Mystögan-Golemagg"] = {
 					["guildCommand"] = 1,
 					["guildBuffDropped"] = 1,
 					["guild10"] = 1,
 					["guildNpcWalking"] = 1,
-					["updated"] = 1674384457,
+					["updated"] = 1678648924,
 					["guildNpcKilled"] = 1,
 					["guildSongflower"] = 0,
 					["guildTerok10"] = 1,
@@ -1973,6 +2150,52 @@ NWBdatabase = {
 					["guildNpcDialogue"] = 1,
 					["guild1"] = 1,
 				},
+				["Prdzriti-Golemagg"] = {
+					["guildCommand"] = 1,
+					["guildBuffDropped"] = 1,
+					["guild10"] = 1,
+					["guildNpcWalking"] = 1,
+					["updated"] = 1678559827,
+					["guildNpcKilled"] = 1,
+					["guildSongflower"] = 0,
+					["guildTerok10"] = 1,
+					["disableAllGuildMsgs"] = 0,
+					["guildZanDialogue"] = 1,
+					["guildNpcDialogue"] = 1,
+					["guild1"] = 1,
+				},
+				["Zld-Golemagg"] = {
+					["guildCommand"] = 1,
+					["guildBuffDropped"] = 1,
+					["guild10"] = 1,
+					["guildNpcWalking"] = 1,
+					["updated"] = 1678648924,
+					["guildNpcKilled"] = 1,
+					["guildSongflower"] = 0,
+					["guildTerok10"] = 1,
+					["disableAllGuildMsgs"] = 0,
+					["guildZanDialogue"] = 1,
+					["guildNpcDialogue"] = 1,
+					["guild1"] = 1,
+				},
+				["dragon3"] = 1613155038,
+				["flower3"] = 1613154280,
+				["rendYell2"] = 1624821781,
+				["Alcony-Golemagg"] = {
+					["guildCommand"] = 1,
+					["guildBuffDropped"] = 1,
+					["guild10"] = 1,
+					["guildNpcWalking"] = 1,
+					["updated"] = 1678648924,
+					["guildNpcKilled"] = 1,
+					["guildSongflower"] = 0,
+					["guildTerok10"] = 1,
+					["disableAllGuildMsgs"] = 0,
+					["guildZanDialogue"] = 1,
+					["guildNpcDialogue"] = 1,
+					["guild1"] = 1,
+				},
+				["wintergrasp"] = 1678651281,
 				["Wokujin-Golemagg"] = {
 					["guildCommand"] = 1,
 					["guildBuffDropped"] = 1,
@@ -1987,11 +2210,13 @@ NWBdatabase = {
 					["guildNpcDialogue"] = 1,
 					["guild1"] = 1,
 				},
-				["Brutalpala-Golemagg"] = {
+				["onyYell2"] = 1641491835,
+				["tuber1"] = 1614450654,
+				["Pukasefka-Golemagg"] = {
 					["guildCommand"] = 1,
 					["guildBuffDropped"] = 1,
 					["guild10"] = 1,
-					["updated"] = 1674159902,
+					["updated"] = 1678647968,
 					["guildNpcWalking"] = 1,
 					["guildNpcKilled"] = 1,
 					["guildSongflower"] = 0,
@@ -2001,12 +2226,13 @@ NWBdatabase = {
 					["guildNpcDialogue"] = 1,
 					["guild1"] = 1,
 				},
-				["Wuko-Golemagg"] = {
+				["zanYell"] = 1622571677,
+				["Totterr-Golemagg"] = {
 					["guildCommand"] = 1,
 					["guildBuffDropped"] = 1,
 					["guild10"] = 1,
-					["updated"] = 1674420744,
 					["guildNpcWalking"] = 1,
+					["updated"] = 1678575560,
 					["guildNpcKilled"] = 1,
 					["guildSongflower"] = 0,
 					["guildTerok10"] = 1,
@@ -2015,300 +2241,166 @@ NWBdatabase = {
 					["guildNpcDialogue"] = 1,
 					["guild1"] = 1,
 				},
+				["flower9"] = 1617217736,
+				["flower7"] = 1614030687,
 				["layers"] = {
-					[133] = {
+					[23262] = {
 						["GUID"] = "other",
-						["flower2"] = 0,
-						["rendYell"] = 0,
 						["flower10"] = 0,
+						["flower4"] = 0,
+						["flower2"] = 0,
 						["nefYell"] = 0,
 						["flower1"] = 0,
 						["flower6"] = 0,
 						["rendTimer"] = 0,
-						["flower3"] = 0,
-						["rendYell2"] = 0,
-						["onyNpcDied"] = 0,
-						["created"] = 1676275114,
-						["flower8"] = 0,
-						["nefNpcDied"] = 0,
-						["flower4"] = 0,
-						["nefYell2"] = 0,
-						["nefTimer"] = 0,
 						["flower9"] = 0,
-						["flower7"] = 0,
-						["lastSeenNPC"] = 1676277519,
-						["onyYell"] = 0,
+						["nefTimer"] = 0,
+						["onyNpcDied"] = 0,
+						["created"] = 1678647478,
+						["flower8"] = 0,
 						["onyYell2"] = 0,
+						["rendYell"] = 0,
+						["nefYell2"] = 0,
+						["rendYell2"] = 0,
+						["flower3"] = 0,
+						["flower7"] = 0,
+						["lastSeenNPC"] = 1678648957,
+						["onyYell"] = 0,
+						["nefNpcDied"] = 0,
 						["flower5"] = 0,
 						["layerMap"] = {
-							1437, -- [1]
-							1455, -- [2]
-							1420, -- [3]
-							1435, -- [4]
-							1421, -- [5]
-							1947, -- [6]
-							1431, -- [7]
-							1453, -- [8]
-							1433, -- [9]
-							1419, -- [10]
-							1434, -- [11]
-							1422, -- [12]
-							1427, -- [13]
-							1436, -- [14]
-							1418, -- [15]
-							1432, -- [16]
-							nil, -- [17]
-							1454, -- [18]
-							nil, -- [19]
-							nil, -- [20]
-							nil, -- [21]
-							nil, -- [22]
-							nil, -- [23]
-							119, -- [24]
-							121, -- [25]
-							117, -- [26]
-							[106] = 1446,
-							[122] = 1442,
-							[107] = 1456,
-							[123] = 118,
-							[108] = 1450,
-							[124] = 116,
-							[152] = 1423,
-							[153] = 1417,
-							[125] = 115,
-							[154] = 1942,
-							[110] = 1411,
-							[126] = 1948,
-							[111] = 1444,
-							[112] = 1443,
-							[128] = 1951,
-							[129] = 120,
-							[113] = 1944,
-							[130] = 1954,
-							[114] = 1953,
-							[132] = 1448,
-							[115] = 1955,
-							[134] = 1428,
-							[135] = 1957,
-							[116] = 1439,
-							[136] = 1447,
-							[117] = 1440,
-							[102] = 1452,
-							[118] = 1946,
-							[103] = 1457,
-							[104] = 1441,
-							[120] = 114,
+							[10277] = 118,
+							[12739] = 120,
+							[12518] = 1952,
+							[23540] = 1454,
+							[15350] = 119,
+							[9962] = 121,
+							[10359] = 116,
+							[22113] = 114,
+							[24232] = 117,
+							[10007] = 115,
+						},
+						["onyTimer"] = 0,
+					},
+					[48] = {
+						["GUID"] = "other",
+						["flower10"] = 0,
+						["flower4"] = 0,
+						["flower2"] = 0,
+						["nefYell"] = 0,
+						["flower1"] = 0,
+						["flower6"] = 0,
+						["rendTimer"] = 0,
+						["flower9"] = 0,
+						["nefTimer"] = 0,
+						["onyNpcDied"] = 0,
+						["created"] = 1678647478,
+						["flower8"] = 0,
+						["onyYell2"] = 0,
+						["rendYell"] = 0,
+						["nefYell2"] = 0,
+						["rendYell2"] = 0,
+						["flower3"] = 0,
+						["flower7"] = 0,
+						["lastSeenNPC"] = 1678648694,
+						["onyYell"] = 0,
+						["nefNpcDied"] = 0,
+						["flower5"] = 0,
+						["layerMap"] = {
+							[121] = 1451,
+							[128] = 1443,
+							[134] = 1953,
+							[136] = 1942,
+							[138] = 1944,
+							[140] = 1948,
+							[142] = 1954,
+							[144] = 1946,
+							[148] = 1951,
+							[150] = 1950,
+							[156] = 1426,
+							[158] = 1417,
+							[170] = 1453,
+							[172] = 1424,
+							[174] = 1423,
+							[176] = 1421,
+							[184] = 1435,
+							[47] = 114,
+							[190] = 1458,
+							[192] = 1432,
+							[50] = 117,
+							[206] = 1422,
+							[210] = 1418,
+							[54] = 121,
+							[133] = 1949,
+							[68] = 118,
+							[69] = 119,
+							[139] = 1952,
+							[141] = 1955,
+							[145] = 1957,
+							[149] = 1941,
+							[155] = 1425,
+							[157] = 1433,
+							[83] = 116,
+							[84] = 120,
+							[169] = 1429,
+							[171] = 1437,
+							[173] = 1420,
+							[175] = 1434,
+							[91] = 1441,
+							[92] = 1456,
+							[93] = 1454,
+							[94] = 1412,
+							[189] = 1431,
+							[191] = 1428,
+							[197] = 1427,
+							[183] = 1455,
+							[96] = 1445,
 							[105] = 1449,
-							[155] = 1429,
-							[109] = 1445,
-							[151] = 1426,
-						},
-						["onyTimer"] = 0,
-					},
-					[22786] = {
-						["GUID"] = "other",
-						["flower2"] = 0,
-						["rendYell"] = 0,
-						["flower10"] = 0,
-						["nefYell"] = 0,
-						["flower1"] = 0,
-						["flower6"] = 0,
-						["rendTimer"] = 0,
-						["flower3"] = 0,
-						["rendYell2"] = 0,
-						["onyNpcDied"] = 0,
-						["created"] = 1676275114,
-						["flower8"] = 0,
-						["nefNpcDied"] = 0,
-						["flower4"] = 0,
-						["nefYell2"] = 0,
-						["nefTimer"] = 0,
-						["flower9"] = 0,
-						["flower7"] = 0,
-						["lastSeenNPC"] = 1676277456,
-						["onyYell"] = 0,
-						["onyYell2"] = 0,
-						["flower5"] = 0,
-						["layerMap"] = {
-							[7960] = 1437,
-							[8516] = 1420,
-							[8517] = 1448,
-							[7961] = 1422,
-							[8518] = 1456,
-							[7962] = 1441,
-							[8136] = 121,
-							[28] = 120,
-							[6231] = 1417,
-							[6232] = 1434,
-							[6233] = 1413,
-							[29622] = 117,
-							[7644] = 1445,
-							[22785] = 1427,
-							[7746] = 1436,
-							[22787] = 1444,
-							[7313] = 118,
-							[9111] = 1423,
-							[7747] = 1449,
-							[7645] = 1439,
-							[25020] = 1425,
-							[6234] = 1443,
-							[9114] = 1411,
-							[10108] = 1455,
-							[8032] = 1426,
-							[10109] = 1431,
-							[8034] = 1442,
-							[10110] = 1438,
-							[8033] = 1453,
-							[10111] = 1451,
-							[16821] = 1418,
-							[30174] = 1458,
-							[30175] = 1419,
-							[30176] = 1452,
-							[30177] = 1440,
-							[24385] = 119,
-							[18453] = 114,
-							[18966] = 1424,
-							[18967] = 1433,
-							[18968] = 1447,
-							[18969] = 1450,
-							[16819] = 1428,
-							[9112] = 1421,
-							[7643] = 1429,
-							[25021] = 1435,
-							[25022] = 1412,
-							[25023] = 1446,
-							[23] = 115,
-							[20] = 116,
-						},
-						["onyTimer"] = 0,
-					},
-					[16376] = {
-						["GUID"] = "other",
-						["flower2"] = 0,
-						["rendYell"] = 0,
-						["flower10"] = 0,
-						["nefYell"] = 0,
-						["flower1"] = 0,
-						["flower6"] = 0,
-						["rendTimer"] = 0,
-						["flower3"] = 0,
-						["rendYell2"] = 0,
-						["onyNpcDied"] = 0,
-						["created"] = 1676275114,
-						["flower8"] = 0,
-						["nefNpcDied"] = 0,
-						["flower4"] = 0,
-						["nefYell2"] = 0,
-						["nefTimer"] = 0,
-						["flower9"] = 0,
-						["flower7"] = 0,
-						["lastSeenNPC"] = 1676276668,
-						["onyYell"] = 0,
-						["onyYell2"] = 0,
-						["flower5"] = 0,
-						["layerMap"] = {
-							[7681] = 116,
-							[22226] = 115,
-							[7412] = 120,
-							[29151] = 1454,
-						},
-						["onyTimer"] = 0,
-					},
-					[121] = {
-						["GUID"] = "other",
-						["flower2"] = 0,
-						["rendYell"] = 0,
-						["flower9"] = 0,
-						["nefYell"] = 0,
-						["flower1"] = 0,
-						["flower6"] = 0,
-						["rendTimer"] = 0,
-						["flower3"] = 0,
-						["nefTimer"] = 0,
-						["onyNpcDied"] = 0,
-						["created"] = 1676275114,
-						["lastSeenNPC"] = 1676277219,
-						["onyYell2"] = 0,
-						["flower10"] = 0,
-						["nefYell2"] = 0,
-						["flower4"] = 0,
-						["flower5"] = 0,
-						["rendYell2"] = 0,
-						["onyYell"] = 0,
-						["flower8"] = 0,
-						["nefNpcDied"] = 0,
-						["flower7"] = 0,
-						["onyTimer"] = 0,
-					},
-					[19] = {
-						["GUID"] = "other",
-						["flower2"] = 0,
-						["rendYell"] = 0,
-						["flower10"] = 0,
-						["nefYell"] = 0,
-						["flower1"] = 0,
-						["flower6"] = 0,
-						["rendTimer"] = 0,
-						["flower3"] = 0,
-						["rendYell2"] = 0,
-						["onyNpcDied"] = 0,
-						["created"] = 1676275114,
-						["flower8"] = 0,
-						["nefNpcDied"] = 0,
-						["flower4"] = 0,
-						["nefYell2"] = 0,
-						["nefTimer"] = 0,
-						["flower9"] = 0,
-						["flower7"] = 0,
-						["lastSeenNPC"] = 1676277037,
-						["onyYell"] = 0,
-						["onyYell2"] = 0,
-						["flower5"] = 0,
-						["layerMap"] = {
-							[27] = 118,
-							[119] = 1952,
-							[17845] = 114,
+							[106] = 1444,
+							[107] = 1450,
+							[108] = 1413,
+							[109] = 1411,
+							[110] = 1446,
+							[111] = 1448,
+							[112] = 1438,
+							[113] = 1447,
+							[114] = 1452,
+							[115] = 1442,
+							[116] = 1440,
+							[185] = 1430,
+							[186] = 1436,
+							[95] = 1439,
+							[67] = 115,
+							[135] = 1943,
 						},
 						["onyTimer"] = 0,
 					},
 				},
 				["layersDisabled"] = {
 				},
+				["Miosham-Golemagg"] = {
+					["guildCommand"] = 1,
+					["guildBuffDropped"] = 1,
+					["guild10"] = 1,
+					["guildNpcWalking"] = 1,
+					["updated"] = 1678574538,
+					["guildNpcKilled"] = 1,
+					["guildSongflower"] = 0,
+					["guildTerok10"] = 1,
+					["disableAllGuildMsgs"] = 0,
+					["guildZanDialogue"] = 1,
+					["guildNpcDialogue"] = 1,
+					["guild1"] = 1,
+				},
 				["tuber3"] = 1614450798,
-				["Craxiee-Golemagg"] = {
-					["guildCommand"] = 1,
-					["guildBuffDropped"] = 1,
-					["guild10"] = 1,
-					["updated"] = 1674483292,
-					["guildNpcWalking"] = 1,
-					["guildNpcKilled"] = 1,
-					["guildSongflower"] = 0,
-					["guildTerok10"] = 1,
-					["disableAllGuildMsgs"] = 0,
-					["guildZanDialogue"] = 1,
-					["guildNpcDialogue"] = 1,
-					["guild1"] = 1,
-				},
-				["Ratsam-Golemagg"] = {
-					["guildCommand"] = 1,
-					["guildBuffDropped"] = 1,
-					["guild10"] = 1,
-					["guildNpcWalking"] = 1,
-					["updated"] = 1674385680,
-					["guildNpcKilled"] = 1,
-					["guildSongflower"] = 0,
-					["guildTerok10"] = 1,
-					["disableAllGuildMsgs"] = 0,
-					["guildZanDialogue"] = 1,
-					["guildNpcDialogue"] = 1,
-					["guild1"] = 1,
-				},
+				["dragon2"] = 1611416902,
+				["zanTimer"] = 0,
 				["Thaxilôl-Golemagg"] = {
 					["guildCommand"] = 1,
 					["guildBuffDropped"] = 1,
 					["guild10"] = 1,
+					["updated"] = 1678529546,
 					["guildNpcWalking"] = 1,
-					["updated"] = 1674383804,
 					["guildNpcKilled"] = 1,
 					["guildSongflower"] = 0,
 					["guildTerok10"] = 1,
@@ -2318,27 +2410,11 @@ NWBdatabase = {
 					["guild1"] = 1,
 				},
 				["zanYell2"] = 1622571723,
-				["Wôrlm-Golemagg"] = {
-					["guildCommand"] = 0,
-					["guildBuffDropped"] = 0,
-					["guild10"] = 0,
-					["updated"] = 1675013697,
-					["guildNpcWalking"] = 1,
-					["guildNpcKilled"] = 0,
-					["guildSongflower"] = 0,
-					["guildTerok10"] = 1,
-					["disableAllGuildMsgs"] = 0,
-					["guildZanDialogue"] = 0,
-					["guildNpcDialogue"] = 0,
-					["guild1"] = 0,
-				},
-				["onySource"] = "self",
-				["tuber6"] = 1613152676,
-				["Kysko-Golemagg"] = {
+				["Misshealin-Golemagg"] = {
 					["guildCommand"] = 1,
 					["guildBuffDropped"] = 1,
 					["guild10"] = 1,
-					["updated"] = 1675013697,
+					["updated"] = 1678560062,
 					["guildNpcWalking"] = 1,
 					["guildNpcKilled"] = 1,
 					["guildSongflower"] = 0,
@@ -2348,12 +2424,1199 @@ NWBdatabase = {
 					["guildNpcDialogue"] = 1,
 					["guild1"] = 1,
 				},
-				["nefYell"] = 1621365747,
+				["onySource"] = "self",
+				["Badkittyx-Golemagg"] = {
+					["guildCommand"] = 1,
+					["guildBuffDropped"] = 1,
+					["guild10"] = 1,
+					["updated"] = 1676211886,
+					["guildNpcWalking"] = 1,
+					["guildNpcKilled"] = 1,
+					["guildSongflower"] = 0,
+					["guildTerok10"] = 1,
+					["disableAllGuildMsgs"] = 0,
+					["guildZanDialogue"] = 1,
+					["guildNpcDialogue"] = 1,
+					["guild1"] = 1,
+				},
+				["tbcPD"] = 2,
 				["Rentoan-Golemagg"] = {
 					["guildCommand"] = 1,
 					["guildBuffDropped"] = 1,
 					["guild10"] = 1,
-					["updated"] = 1675013697,
+					["guildNpcWalking"] = 1,
+					["updated"] = 1678648924,
+					["guildNpcKilled"] = 1,
+					["guildSongflower"] = 0,
+					["guildTerok10"] = 1,
+					["disableAllGuildMsgs"] = 0,
+					["guildZanDialogue"] = 1,
+					["guildNpcDialogue"] = 1,
+					["guild1"] = 1,
+				},
+				["tuber6"] = 1613152676,
+				["rendTimerWho"] = "Zowl",
+				["layerBuffs"] = {
+				},
+				["nefYell"] = 1621365747,
+				["flower1"] = 1611520834,
+				["tbcHD"] = 13,
+				["Houbícka-Golemagg"] = {
+					["guildCommand"] = 1,
+					["guildBuffDropped"] = 1,
+					["guild10"] = 1,
+					["guildNpcWalking"] = 1,
+					["updated"] = 1678489646,
+					["guildNpcKilled"] = 1,
+					["guildSongflower"] = 0,
+					["guildTerok10"] = 1,
+					["disableAllGuildMsgs"] = 0,
+					["guildZanDialogue"] = 1,
+					["guildNpcDialogue"] = 1,
+					["guild1"] = 1,
+				},
+				["dragon1"] = 1612540835,
+				["wintergrasp10"] = true,
+				["onyNpcDied"] = 0,
+				["timerLog"] = {
+					{
+						["layerNum"] = 1,
+						["type"] = "r",
+						["timestamp"] = 1678563279,
+						["layerID"] = 48,
+					}, -- [1]
+					{
+						["layerNum"] = 1,
+						["type"] = "r",
+						["timestamp"] = 1678539411,
+						["layerID"] = 48,
+					}, -- [2]
+					{
+						["type"] = "r",
+						["timestamp"] = 1678481172,
+						["layerID"] = 48,
+					}, -- [3]
+					{
+						["layerNum"] = 2,
+						["type"] = "r",
+						["timestamp"] = 1673797743,
+						["layerID"] = 433,
+					}, -- [4]
+					{
+						["layerNum"] = 2,
+						["type"] = "r",
+						["timestamp"] = 1673382835,
+						["layerID"] = 24538,
+					}, -- [5]
+					{
+						["layerNum"] = 2,
+						["type"] = "r",
+						["timestamp"] = 1673375251,
+						["layerID"] = 24538,
+					}, -- [6]
+					{
+						["layerNum"] = 2,
+						["type"] = "r",
+						["timestamp"] = 1673354516,
+						["layerID"] = 24538,
+					}, -- [7]
+					{
+						["layerNum"] = 1,
+						["type"] = "r",
+						["timestamp"] = 1673354502,
+						["layerID"] = 113,
+					}, -- [8]
+					{
+						["type"] = "r",
+						["timestamp"] = 1673301653,
+						["layerID"] = 113,
+					}, -- [9]
+					{
+						["layerNum"] = 2,
+						["type"] = "r",
+						["timestamp"] = 1673044721,
+						["layerID"] = 24538,
+					}, -- [10]
+					{
+						["type"] = "r",
+						["timestamp"] = 1672595479,
+						["layerID"] = 79,
+					}, -- [11]
+					{
+						["type"] = "r",
+						["timestamp"] = 1671477860,
+						["layerID"] = 151,
+					}, -- [12]
+					{
+						["type"] = "r",
+						["timestamp"] = 1664102957,
+						["layerID"] = 6821,
+					}, -- [13]
+					{
+						["layerNum"] = 1,
+						["type"] = "r",
+						["timestamp"] = 1663929420,
+						["layerID"] = 58,
+					}, -- [14]
+					{
+						["layerNum"] = 4,
+						["type"] = "r",
+						["timestamp"] = 1661972194,
+						["layerID"] = 12491,
+					}, -- [15]
+					{
+						["layerNum"] = 1,
+						["type"] = "r",
+						["timestamp"] = 1660504897,
+						["layerID"] = 48,
+					}, -- [16]
+					{
+						["type"] = "r",
+						["timestamp"] = 1659027522,
+						["layerID"] = 32,
+					}, -- [17]
+					{
+						["type"] = "r",
+						["timestamp"] = 1658081925,
+						["layerID"] = 37,
+					}, -- [18]
+					{
+						["type"] = "r",
+						["timestamp"] = 1658005250,
+						["layerID"] = 37,
+					}, -- [19]
+					{
+						["type"] = "r",
+						["timestamp"] = 1657829180,
+						["layerID"] = 37,
+					}, -- [20]
+					{
+						["type"] = "r",
+						["timestamp"] = 1656516493,
+						["layerID"] = 29,
+					}, -- [21]
+					{
+						["type"] = "r",
+						["timestamp"] = 1652025682,
+						["layerID"] = 27,
+					}, -- [22]
+					{
+						["type"] = "r",
+						["timestamp"] = 1650401447,
+						["layerID"] = 37,
+					}, -- [23]
+					{
+						["type"] = "r",
+						["timestamp"] = 1647209860,
+						["layerID"] = 34,
+					}, -- [24]
+					{
+						["type"] = "r",
+						["timestamp"] = 1647184940,
+						["layerID"] = 34,
+					}, -- [25]
+					{
+						["type"] = "r",
+						["timestamp"] = 1643647093,
+						["layerID"] = 46,
+					}, -- [26]
+					{
+						["type"] = "r",
+						["timestamp"] = 1639932619,
+						["layerID"] = 29,
+					}, -- [27]
+					{
+						["type"] = "r",
+						["timestamp"] = 1639302739,
+						["layerID"] = 44,
+					}, -- [28]
+					{
+						["type"] = "r",
+						["timestamp"] = 1634838644,
+						["layerID"] = 29,
+					}, -- [29]
+					{
+						["type"] = "r",
+						["timestamp"] = 1631545836,
+						["layerID"] = 45,
+					}, -- [30]
+					{
+						["type"] = "r",
+						["timestamp"] = 1629647863,
+						["layerID"] = 5,
+					}, -- [31]
+					{
+						["type"] = "r",
+						["timestamp"] = 1629540359,
+						["layerID"] = 5,
+					}, -- [32]
+					{
+						["type"] = "r",
+						["timestamp"] = 1629148486,
+						["layerID"] = 110,
+					}, -- [33]
+					{
+						["type"] = "r",
+						["timestamp"] = 1627325935,
+						["layerID"] = 45,
+					}, -- [34]
+					{
+						["type"] = "r",
+						["timestamp"] = 1627222586,
+						["layerID"] = 45,
+					}, -- [35]
+					{
+						["type"] = "r",
+						["timestamp"] = 1626620138,
+						["layerID"] = 33,
+					}, -- [36]
+					{
+						["type"] = "r",
+						["timestamp"] = 1626387763,
+						["layerID"] = 33,
+					}, -- [37]
+					{
+						["type"] = "r",
+						["timestamp"] = 1625509066,
+						["layerID"] = 8566,
+					}, -- [38]
+					{
+						["type"] = "r",
+						["timestamp"] = 1625111871,
+						["layerID"] = 46,
+					}, -- [39]
+					{
+						["type"] = "r",
+						["timestamp"] = 1625111870,
+						["layerID"] = 18004,
+					}, -- [40]
+					{
+						["type"] = "r",
+						["timestamp"] = 1624827964,
+						["layerID"] = 16901,
+					}, -- [41]
+					{
+						["type"] = "r",
+						["timestamp"] = 1624821785,
+						["layerID"] = 33,
+					}, -- [42]
+					{
+						["type"] = "r",
+						["timestamp"] = 1624821783,
+						["layerID"] = 16901,
+					}, -- [43]
+					{
+						["type"] = "r",
+						["timestamp"] = 1624740014,
+						["layerID"] = 16901,
+					}, -- [44]
+					{
+						["type"] = "r",
+						["timestamp"] = 1624800736,
+						["layerID"] = 33,
+					}, -- [45]
+					{
+						["type"] = "r",
+						["timestamp"] = 1624800735,
+						["layerID"] = 16901,
+					}, -- [46]
+					{
+						["type"] = "r",
+						["timestamp"] = 1624740015,
+						["layerID"] = 33,
+					}, -- [47]
+					{
+						["type"] = "r",
+						["timestamp"] = 1624656196,
+						["layerID"] = 16901,
+					}, -- [48]
+					{
+						["type"] = "r",
+						["timestamp"] = 1624656195,
+						["layerID"] = 33,
+					}, -- [49]
+					{
+						["type"] = "r",
+						["timestamp"] = 1624182902,
+						["layerID"] = 17634,
+					}, -- [50]
+					{
+						["type"] = "r",
+						["timestamp"] = 1624182903,
+						["layerID"] = 32,
+					}, -- [51]
+					{
+						["type"] = "r",
+						["timestamp"] = 1624051165,
+						["layerID"] = 17634,
+					}, -- [52]
+					{
+						["type"] = "r",
+						["timestamp"] = 1624055396,
+						["layerID"] = 32,
+					}, -- [53]
+					{
+						["type"] = "r",
+						["timestamp"] = 1624051166,
+						["layerID"] = 32,
+					}, -- [54]
+					{
+						["type"] = "r",
+						["timestamp"] = 1623905234,
+						["layerID"] = 17634,
+					}, -- [55]
+					{
+						["type"] = "r",
+						["timestamp"] = 1623905234,
+						["layerID"] = 32,
+					}, -- [56]
+					{
+						["type"] = "r",
+						["timestamp"] = 1623950650,
+						["layerID"] = 32,
+					}, -- [57]
+					{
+						["type"] = "r",
+						["timestamp"] = 1623950650,
+						["layerID"] = 17634,
+					}, -- [58]
+					{
+						["type"] = "r",
+						["timestamp"] = 1623767019,
+						["layerID"] = 42,
+					}, -- [59]
+					{
+						["type"] = "r",
+						["timestamp"] = 1623767018,
+						["layerID"] = 17000,
+					}, -- [60]
+					{
+						["type"] = "r",
+						["timestamp"] = 1623590403,
+						["layerID"] = 42,
+					}, -- [61]
+					{
+						["type"] = "r",
+						["timestamp"] = 1623590402,
+						["layerID"] = 17000,
+					}, -- [62]
+					{
+						["type"] = "r",
+						["timestamp"] = 1623506409,
+						["layerID"] = 17000,
+					}, -- [63]
+					{
+						["type"] = "r",
+						["timestamp"] = 1623499495,
+						["layerID"] = 42,
+					}, -- [64]
+					{
+						["type"] = "r",
+						["timestamp"] = 1623506407,
+						["layerID"] = 42,
+					}, -- [65]
+					{
+						["type"] = "r",
+						["timestamp"] = 1623499495,
+						["layerID"] = 17000,
+					}, -- [66]
+					{
+						["type"] = "r",
+						["timestamp"] = 1623411599,
+						["layerID"] = 42,
+					}, -- [67]
+					{
+						["type"] = "r",
+						["timestamp"] = 1623411597,
+						["layerID"] = 17000,
+					}, -- [68]
+					{
+						["type"] = "r",
+						["timestamp"] = 1623314348,
+						["layerID"] = 42,
+					}, -- [69]
+					{
+						["type"] = "r",
+						["timestamp"] = 1623081820,
+						["layerID"] = 38,
+					}, -- [70]
+					{
+						["type"] = "r",
+						["timestamp"] = 1623081821,
+						["layerID"] = 20893,
+					}, -- [71]
+					{
+						["type"] = "r",
+						["timestamp"] = 1623081820,
+						["layerID"] = 3705,
+					}, -- [72]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622796232,
+						["layerID"] = 3705,
+					}, -- [73]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622770528,
+						["layerID"] = 38,
+					}, -- [74]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622754901,
+						["layerID"] = 1514,
+					}, -- [75]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622754899,
+						["layerID"] = 5516,
+					}, -- [76]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622754900,
+						["layerID"] = 22175,
+					}, -- [77]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622728071,
+						["layerID"] = 5516,
+					}, -- [78]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622728070,
+						["layerID"] = 54,
+					}, -- [79]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622728071,
+						["layerID"] = 1514,
+					}, -- [80]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622703367,
+						["layerID"] = 54,
+					}, -- [81]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622661526,
+						["layerID"] = 1283,
+					}, -- [82]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622661525,
+						["layerID"] = 24,
+					}, -- [83]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622703366,
+						["layerID"] = 1514,
+					}, -- [84]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622675977,
+						["layerID"] = 24,
+					}, -- [85]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622675978,
+						["layerID"] = 13078,
+					}, -- [86]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622675977,
+						["layerID"] = 1283,
+					}, -- [87]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622665781,
+						["layerID"] = 13286,
+					}, -- [88]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622665781,
+						["layerID"] = 12974,
+					}, -- [89]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622665781,
+						["layerID"] = 1283,
+					}, -- [90]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622665781,
+						["layerID"] = 12404,
+					}, -- [91]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622665780,
+						["layerID"] = 24,
+					}, -- [92]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622665780,
+						["layerID"] = 12884,
+					}, -- [93]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622661526,
+						["layerID"] = 10974,
+					}, -- [94]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622654881,
+						["layerID"] = 12884,
+					}, -- [95]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622665781,
+						["layerID"] = 10974,
+					}, -- [96]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622661525,
+						["layerID"] = 12884,
+					}, -- [97]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622654882,
+						["layerID"] = 1283,
+					}, -- [98]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622654881,
+						["layerID"] = 12974,
+					}, -- [99]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622654881,
+						["layerID"] = 10974,
+					}, -- [100]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622654880,
+						["layerID"] = 12404,
+					}, -- [101]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622654880,
+						["layerID"] = 7575,
+					}, -- [102]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622654880,
+						["layerID"] = 24,
+					}, -- [103]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622661526,
+						["layerID"] = 13410,
+					}, -- [104]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622648726,
+						["layerID"] = 7575,
+					}, -- [105]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622647772,
+						["layerID"] = 12404,
+					}, -- [106]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622647772,
+						["layerID"] = 7575,
+					}, -- [107]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622647772,
+						["layerID"] = 24,
+					}, -- [108]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622647771,
+						["layerID"] = 13286,
+					}, -- [109]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622647771,
+						["layerID"] = 13410,
+					}, -- [110]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622646156,
+						["layerID"] = 13410,
+					}, -- [111]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622640865,
+						["layerID"] = 13410,
+					}, -- [112]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622654881,
+						["layerID"] = 13410,
+					}, -- [113]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622648724,
+						["layerID"] = 13410,
+					}, -- [114]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622647771,
+						["layerID"] = 12974,
+					}, -- [115]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622646158,
+						["layerID"] = 24,
+					}, -- [116]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622646156,
+						["layerID"] = 12884,
+					}, -- [117]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622648726,
+						["layerID"] = 24,
+					}, -- [118]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622648724,
+						["layerID"] = 1283,
+					}, -- [119]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622647772,
+						["layerID"] = 12884,
+					}, -- [120]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622646156,
+						["layerID"] = 12404,
+					}, -- [121]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622647771,
+						["layerID"] = 1283,
+					}, -- [122]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622646156,
+						["layerID"] = 10974,
+					}, -- [123]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622640866,
+						["layerID"] = 13078,
+					}, -- [124]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622640866,
+						["layerID"] = 12974,
+					}, -- [125]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622604672,
+						["layerID"] = 1283,
+					}, -- [126]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622640867,
+						["layerID"] = 12884,
+					}, -- [127]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622640866,
+						["layerID"] = 7575,
+					}, -- [128]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622640867,
+						["layerID"] = 1283,
+					}, -- [129]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622613209,
+						["layerID"] = 24,
+					}, -- [130]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622611462,
+						["layerID"] = 13410,
+					}, -- [131]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622611462,
+						["layerID"] = 12974,
+					}, -- [132]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622623393,
+						["layerID"] = 13410,
+					}, -- [133]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622623392,
+						["layerID"] = 12974,
+					}, -- [134]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622620807,
+						["layerID"] = 10974,
+					}, -- [135]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622623392,
+						["layerID"] = 12884,
+					}, -- [136]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622623392,
+						["layerID"] = 13286,
+					}, -- [137]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622623392,
+						["layerID"] = 7575,
+					}, -- [138]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622623391,
+						["layerID"] = 12404,
+					}, -- [139]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622620807,
+						["layerID"] = 24,
+					}, -- [140]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622620807,
+						["layerID"] = 1283,
+					}, -- [141]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622620807,
+						["layerID"] = 13410,
+					}, -- [142]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622620806,
+						["layerID"] = 7575,
+					}, -- [143]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622620806,
+						["layerID"] = 12404,
+					}, -- [144]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622620807,
+						["layerID"] = 13286,
+					}, -- [145]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622620806,
+						["layerID"] = 12974,
+					}, -- [146]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622623393,
+						["layerID"] = 10974,
+					}, -- [147]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622620807,
+						["layerID"] = 12884,
+					}, -- [148]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622613209,
+						["layerID"] = 12884,
+					}, -- [149]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622613208,
+						["layerID"] = 7575,
+					}, -- [150]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622613208,
+						["layerID"] = 13410,
+					}, -- [151]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622613208,
+						["layerID"] = 1283,
+					}, -- [152]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622611462,
+						["layerID"] = 12884,
+					}, -- [153]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622611461,
+						["layerID"] = 10974,
+					}, -- [154]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622611461,
+						["layerID"] = 12404,
+					}, -- [155]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622613207,
+						["layerID"] = 12974,
+					}, -- [156]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622611462,
+						["layerID"] = 13078,
+					}, -- [157]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622603744,
+						["layerID"] = 13286,
+					}, -- [158]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622603691,
+						["layerID"] = 13078,
+					}, -- [159]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622601421,
+						["layerID"] = 12884,
+					}, -- [160]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622604671,
+						["layerID"] = 10974,
+					}, -- [161]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622603743,
+						["layerID"] = 1283,
+					}, -- [162]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622603690,
+						["layerID"] = 24,
+					}, -- [163]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622601422,
+						["layerID"] = 7575,
+					}, -- [164]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622601105,
+						["layerID"] = 12884,
+					}, -- [165]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622601420,
+						["layerID"] = 1283,
+					}, -- [166]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622601105,
+						["layerID"] = 1283,
+					}, -- [167]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622601421,
+						["layerID"] = 24,
+					}, -- [168]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622586321,
+						["layerID"] = 12404,
+					}, -- [169]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622586320,
+						["layerID"] = 7575,
+					}, -- [170]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622586320,
+						["layerID"] = 12884,
+					}, -- [171]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622586119,
+						["layerID"] = 13410,
+					}, -- [172]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622586118,
+						["layerID"] = 7575,
+					}, -- [173]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622586120,
+						["layerID"] = 1283,
+					}, -- [174]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622585645,
+						["layerID"] = 1283,
+					}, -- [175]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622585644,
+						["layerID"] = 12404,
+					}, -- [176]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622586321,
+						["layerID"] = 24,
+					}, -- [177]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622586118,
+						["layerID"] = 24,
+					}, -- [178]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622585646,
+						["layerID"] = 10974,
+					}, -- [179]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622585645,
+						["layerID"] = 12884,
+					}, -- [180]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622585645,
+						["layerID"] = 24,
+					}, -- [181]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622586320,
+						["layerID"] = 1283,
+					}, -- [182]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622586119,
+						["layerID"] = 12884,
+					}, -- [183]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622584780,
+						["layerID"] = 13078,
+					}, -- [184]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622585645,
+						["layerID"] = 13286,
+					}, -- [185]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622585070,
+						["layerID"] = 13078,
+					}, -- [186]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622585070,
+						["layerID"] = 13286,
+					}, -- [187]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622585070,
+						["layerID"] = 7575,
+					}, -- [188]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622585070,
+						["layerID"] = 24,
+					}, -- [189]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622585646,
+						["layerID"] = 13078,
+					}, -- [190]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622585070,
+						["layerID"] = 1283,
+					}, -- [191]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622584781,
+						["layerID"] = 12974,
+					}, -- [192]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622584804,
+						["layerID"] = 7575,
+					}, -- [193]
+					{
+						["layerNum"] = 9,
+						["type"] = "r",
+						["timestamp"] = 1622584803,
+						["layerID"] = 13286,
+					}, -- [194]
+					{
+						["layerNum"] = 6,
+						["type"] = "r",
+						["timestamp"] = 1622584802,
+						["layerID"] = 12884,
+					}, -- [195]
+					{
+						["layerNum"] = 5,
+						["type"] = "r",
+						["timestamp"] = 1622584781,
+						["layerID"] = 12404,
+					}, -- [196]
+					{
+						["layerNum"] = 5,
+						["type"] = "r",
+						["timestamp"] = 1622583043,
+						["layerID"] = 12404,
+					}, -- [197]
+					{
+						["layerNum"] = 6,
+						["type"] = "r",
+						["timestamp"] = 1622585069,
+						["layerID"] = 12884,
+					}, -- [198]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622584802,
+						["layerID"] = 10974,
+					}, -- [199]
+					{
+						["type"] = "r",
+						["timestamp"] = 1622584781,
+						["layerID"] = 24,
+					}, -- [200]
+				},
+				["flower8"] = 1615316985,
+				["Kriplellin-Golemagg"] = {
+					["guildCommand"] = 1,
+					["guildBuffDropped"] = 1,
+					["guild10"] = 1,
+					["guildNpcWalking"] = 1,
+					["updated"] = 1678574538,
+					["guildNpcKilled"] = 1,
+					["guildSongflower"] = 0,
+					["guildTerok10"] = 1,
+					["disableAllGuildMsgs"] = 0,
+					["guildZanDialogue"] = 1,
+					["guildNpcDialogue"] = 1,
+					["guild1"] = 1,
+				},
+				["layerMapBackups"] = {
+					[23262] = {
+						["created"] = 1678560055,
+						[10277] = 118,
+						[12739] = 120,
+						[12518] = 1952,
+						[15350] = 119,
+						[10007] = 115,
+						[10359] = 116,
+						[22113] = 114,
+						[24232] = 117,
+						[9962] = 121,
+					},
+					[93] = {
+						[20228] = 1454,
+						["created"] = 1678565613,
+					},
+					[48] = {
+						[121] = 1451,
+						[128] = 1443,
+						[134] = 1953,
+						[136] = 1942,
+						[138] = 1944,
+						[140] = 1948,
+						[142] = 1954,
+						[144] = 1946,
+						[148] = 1951,
+						[150] = 1950,
+						[156] = 1426,
+						[158] = 1417,
+						[170] = 1453,
+						[172] = 1424,
+						[174] = 1423,
+						[176] = 1421,
+						[184] = 1435,
+						[47] = 114,
+						[190] = 1458,
+						[192] = 1432,
+						[50] = 117,
+						[206] = 1422,
+						[210] = 1418,
+						[54] = 121,
+						[133] = 1949,
+						[68] = 118,
+						[69] = 119,
+						[139] = 1952,
+						[141] = 1955,
+						[145] = 1957,
+						["created"] = 1678560055,
+						[149] = 1941,
+						[155] = 1425,
+						[157] = 1433,
+						[83] = 116,
+						[84] = 120,
+						[169] = 1429,
+						[171] = 1437,
+						[173] = 1420,
+						[175] = 1434,
+						[91] = 1441,
+						[92] = 1456,
+						[93] = 1454,
+						[94] = 1412,
+						[189] = 1431,
+						[191] = 1428,
+						[197] = 1427,
+						[96] = 1445,
+						[105] = 1449,
+						[106] = 1444,
+						[107] = 1450,
+						[108] = 1413,
+						[109] = 1411,
+						[110] = 1446,
+						[111] = 1448,
+						[112] = 1438,
+						[113] = 1447,
+						[114] = 1452,
+						[115] = 1442,
+						[116] = 1440,
+						[186] = 1436,
+						[185] = 1430,
+						[95] = 1439,
+						[67] = 115,
+						[135] = 1943,
+					},
+				},
+				["Dewastator-Golemagg"] = {
+					["guildCommand"] = 1,
+					["guildBuffDropped"] = 1,
+					["guild10"] = 1,
+					["guildNpcWalking"] = 1,
+					["updated"] = 1678648924,
+					["guildNpcKilled"] = 1,
+					["guildSongflower"] = 0,
+					["guildTerok10"] = 1,
+					["disableAllGuildMsgs"] = 0,
+					["guildZanDialogue"] = 1,
+					["guildNpcDialogue"] = 1,
+					["guild1"] = 1,
+				},
+				["nefNpcDied"] = 0,
+				["nefSource"] = "self",
+				["Nobrainopain-Golemagg"] = {
+					["guildCommand"] = 1,
+					["guildBuffDropped"] = 1,
+					["guild10"] = 1,
+					["updated"] = 1676211886,
 					["guildNpcWalking"] = 1,
 					["guildNpcKilled"] = 1,
 					["guildSongflower"] = 0,
@@ -2363,165 +3626,19 @@ NWBdatabase = {
 					["guildNpcDialogue"] = 1,
 					["guild1"] = 1,
 				},
-				["tbcHD"] = 7,
-				["Dilinak-Golemagg"] = {
+				["Quickster-Golemagg"] = {
 					["guildCommand"] = 1,
-					["guildBuffDropped"] = 0,
-					["guild10"] = 0,
-					["guildNpcWalking"] = 0,
-					["updated"] = 1674407565,
-					["guildNpcKilled"] = 0,
-					["guildSongflower"] = 0,
-					["guildTerok10"] = 1,
-					["disableAllGuildMsgs"] = 0,
-					["guildZanDialogue"] = 0,
-					["guildNpcDialogue"] = 1,
-					["guild1"] = 0,
-				},
-				["Ugar-Golemagg"] = {
-					["guildCommand"] = 0,
-					["guildBuffDropped"] = 0,
+					["guildBuffDropped"] = 1,
 					["guild10"] = 1,
-					["updated"] = 1675013258,
-					["guildNpcWalking"] = 0,
-					["guildNpcKilled"] = 0,
+					["guildNpcWalking"] = 1,
+					["updated"] = 1676221017,
+					["guildNpcKilled"] = 1,
 					["guildSongflower"] = 0,
 					["guildTerok10"] = 1,
 					["disableAllGuildMsgs"] = 0,
-					["guildZanDialogue"] = 0,
-					["guildNpcDialogue"] = 0,
+					["guildZanDialogue"] = 1,
+					["guildNpcDialogue"] = 1,
 					["guild1"] = 1,
-				},
-				["layerMapBackups"] = {
-					[133] = {
-						1437, -- [1]
-						1455, -- [2]
-						1420, -- [3]
-						1435, -- [4]
-						1421, -- [5]
-						1947, -- [6]
-						1431, -- [7]
-						1453, -- [8]
-						1433, -- [9]
-						1419, -- [10]
-						1434, -- [11]
-						1422, -- [12]
-						1427, -- [13]
-						1436, -- [14]
-						1418, -- [15]
-						1432, -- [16]
-						nil, -- [17]
-						1454, -- [18]
-						nil, -- [19]
-						nil, -- [20]
-						nil, -- [21]
-						nil, -- [22]
-						nil, -- [23]
-						119, -- [24]
-						121, -- [25]
-						117, -- [26]
-						[106] = 1446,
-						[122] = 1442,
-						[107] = 1456,
-						[123] = 118,
-						[108] = 1450,
-						[124] = 116,
-						[152] = 1423,
-						[153] = 1417,
-						[125] = 115,
-						[154] = 1942,
-						[110] = 1411,
-						[126] = 1948,
-						[111] = 1444,
-						[112] = 1443,
-						[128] = 1951,
-						[129] = 120,
-						[113] = 1944,
-						[130] = 1954,
-						[114] = 1953,
-						[132] = 1448,
-						[115] = 1955,
-						[134] = 1428,
-						[135] = 1957,
-						[116] = 1439,
-						[136] = 1447,
-						[117] = 1440,
-						[102] = 1452,
-						[118] = 1946,
-						[103] = 1457,
-						[119] = 1952,
-						[104] = 1441,
-						[120] = 114,
-						[105] = 1449,
-						[151] = 1426,
-						[109] = 1445,
-						[155] = 1429,
-						["created"] = 1676199729,
-					},
-					[19] = {
-						[27] = 118,
-						[17845] = 114,
-						["created"] = 1676199729,
-					},
-					[22786] = {
-						[7960] = 1437,
-						[8516] = 1420,
-						[8517] = 1448,
-						[7961] = 1422,
-						[8518] = 1456,
-						[7962] = 1441,
-						[8136] = 121,
-						[28] = 120,
-						[6231] = 1417,
-						[6232] = 1434,
-						[20] = 116,
-						[6233] = 1413,
-						[23] = 115,
-						[25023] = 1446,
-						[22785] = 1427,
-						[6234] = 1443,
-						[22787] = 1444,
-						[25022] = 1412,
-						[7313] = 118,
-						[7747] = 1449,
-						[7643] = 1429,
-						[9112] = 1421,
-						[30175] = 1419,
-						[9114] = 1411,
-						[10108] = 1455,
-						[8032] = 1426,
-						[10109] = 1431,
-						[16819] = 1428,
-						[10110] = 1438,
-						[8033] = 1453,
-						[10111] = 1451,
-						[18967] = 1433,
-						[30174] = 1458,
-						[8034] = 1442,
-						[30176] = 1452,
-						[16821] = 1418,
-						[30177] = 1440,
-						[18453] = 114,
-						[18966] = 1424,
-						[24385] = 119,
-						[18968] = 1447,
-						[18969] = 1450,
-						[7645] = 1439,
-						[7746] = 1436,
-						[25020] = 1425,
-						[25021] = 1435,
-						[9111] = 1423,
-						[29622] = 117,
-						[7644] = 1445,
-						["created"] = 1676199729,
-					},
-					[16376] = {
-						[7681] = 116,
-						[22226] = 115,
-						[7412] = 120,
-						[29151] = 1454,
-						["created"] = 1676199729,
-					},
 				},
 				["Krutto-Golemagg"] = {
 					["guildCommand"] = 1,
@@ -2565,12 +3682,13 @@ NWBdatabase = {
 					["guildNpcDialogue"] = 1,
 					["guild1"] = 1,
 				},
+				["flower4"] = 1613148141,
 				["Rogalo-Golemagg"] = {
 					["guildCommand"] = 1,
 					["guildBuffDropped"] = 1,
 					["guild10"] = 1,
-					["updated"] = 1676222622,
 					["guildNpcWalking"] = 1,
+					["updated"] = 1678648924,
 					["guildNpcKilled"] = 1,
 					["guildSongflower"] = 0,
 					["guildTerok10"] = 1,
@@ -2579,1786 +3697,25 @@ NWBdatabase = {
 					["guildNpcDialogue"] = 1,
 					["guild1"] = 1,
 				},
-				["Craaxi-Golemagg"] = {
-					["guildCommand"] = 1,
-					["guildBuffDropped"] = 1,
-					["guild10"] = 1,
-					["updated"] = 1673812080,
-					["guildNpcWalking"] = 1,
-					["guildNpcKilled"] = 1,
-					["guildSongflower"] = 0,
-					["guildTerok10"] = 1,
-					["disableAllGuildMsgs"] = 0,
-					["guildZanDialogue"] = 1,
-					["guildNpcDialogue"] = 1,
-					["guild1"] = 1,
-				},
-				["Wukojin-Golemagg"] = {
-					["guildCommand"] = 1,
-					["guildBuffDropped"] = 1,
-					["guild10"] = 1,
-					["guildNpcWalking"] = 1,
-					["updated"] = 1674156782,
-					["guildNpcKilled"] = 1,
-					["guildSongflower"] = 0,
-					["guildTerok10"] = 1,
-					["disableAllGuildMsgs"] = 0,
-					["guildZanDialogue"] = 1,
-					["guildNpcDialogue"] = 1,
-					["guild1"] = 1,
-				},
-				["Wajprbank-Golemagg"] = {
-					["guildCommand"] = 1,
-					["guildBuffDropped"] = 1,
-					["guild10"] = 1,
-					["guildNpcWalking"] = 1,
-					["updated"] = 1674153196,
-					["guildNpcKilled"] = 1,
-					["guildSongflower"] = 0,
-					["guildTerok10"] = 1,
-					["disableAllGuildMsgs"] = 0,
-					["guildZanDialogue"] = 1,
-					["guildNpcDialogue"] = 1,
-					["guild1"] = 1,
-				},
-				["flower2"] = 1612556591,
-				["rendYell"] = 1624821775,
-				["Mystögan-Golemagg"] = {
-					["guildCommand"] = 1,
-					["guildBuffDropped"] = 1,
-					["guild10"] = 1,
-					["updated"] = 1676222622,
-					["guildNpcWalking"] = 1,
-					["guildNpcKilled"] = 1,
-					["guildSongflower"] = 0,
-					["guildTerok10"] = 1,
-					["disableAllGuildMsgs"] = 0,
-					["guildZanDialogue"] = 1,
-					["guildNpcDialogue"] = 1,
-					["guild1"] = 1,
-				},
-				["Deathwajpr-Golemagg"] = {
-					["guildCommand"] = 1,
-					["guildBuffDropped"] = 1,
-					["guild10"] = 1,
-					["guildNpcWalking"] = 1,
-					["updated"] = 1674407565,
-					["guildNpcKilled"] = 1,
-					["guildSongflower"] = 0,
-					["guildTerok10"] = 1,
-					["disableAllGuildMsgs"] = 0,
-					["guildZanDialogue"] = 1,
-					["guildNpcDialogue"] = 1,
-					["guild1"] = 1,
-				},
-				["Rohak-Golemagg"] = {
-					["guildCommand"] = 1,
-					["guildBuffDropped"] = 1,
-					["guild10"] = 1,
-					["updated"] = 1674472981,
-					["guildNpcWalking"] = 1,
-					["guildNpcKilled"] = 1,
-					["guildSongflower"] = 0,
-					["guildTerok10"] = 1,
-					["disableAllGuildMsgs"] = 1,
-					["guildZanDialogue"] = 1,
-					["guildNpcDialogue"] = 1,
-					["guild1"] = 1,
-				},
-				["Flowerist-Golemagg"] = {
-					["guildCommand"] = 1,
-					["guildBuffDropped"] = 1,
-					["guild10"] = 1,
-					["updated"] = 1676201540,
-					["guildNpcWalking"] = 1,
-					["guildNpcKilled"] = 1,
-					["guildSongflower"] = 0,
-					["guildTerok10"] = 1,
-					["disableAllGuildMsgs"] = 0,
-					["guildZanDialogue"] = 1,
-					["guildNpcDialogue"] = 1,
-					["guild1"] = 1,
-				},
-				["nefSource"] = "self",
-				["Gryfel-Golemagg"] = {
-					["guildCommand"] = 1,
-					["guildBuffDropped"] = 1,
-					["guild10"] = 1,
-					["updated"] = 1676222622,
-					["guildNpcWalking"] = 1,
-					["guildNpcKilled"] = 1,
-					["guildSongflower"] = 0,
-					["guildTerok10"] = 1,
-					["disableAllGuildMsgs"] = 0,
-					["guildZanDialogue"] = 1,
-					["guildNpcDialogue"] = 1,
-					["guild1"] = 1,
-				},
-				["Oslica-Golemagg"] = {
-					["guildCommand"] = 1,
-					["guildBuffDropped"] = 1,
-					["guild10"] = 1,
-					["updated"] = 1676222622,
-					["guildNpcWalking"] = 1,
-					["guildNpcKilled"] = 1,
-					["guildSongflower"] = 0,
-					["guildTerok10"] = 1,
-					["disableAllGuildMsgs"] = 0,
-					["guildZanDialogue"] = 1,
-					["guildNpcDialogue"] = 1,
-					["guild1"] = 1,
-				},
-				["tuber2"] = 1614450694,
-				["Neverender-Golemagg"] = {
-					["guildCommand"] = 1,
-					["guildBuffDropped"] = 1,
-					["guild10"] = 1,
-					["updated"] = 1676222622,
-					["guildNpcWalking"] = 1,
-					["guildNpcKilled"] = 1,
-					["guildSongflower"] = 0,
-					["guildTerok10"] = 1,
-					["disableAllGuildMsgs"] = 0,
-					["guildZanDialogue"] = 1,
-					["guildNpcDialogue"] = 1,
-					["guild1"] = 1,
-				},
-				["Funesral-Golemagg"] = {
-					["guildCommand"] = 1,
-					["guildBuffDropped"] = 1,
-					["guild10"] = 1,
-					["updated"] = 1675013697,
-					["guildNpcWalking"] = 1,
-					["guildNpcKilled"] = 1,
-					["guildSongflower"] = 0,
-					["guildTerok10"] = 1,
-					["disableAllGuildMsgs"] = 0,
-					["guildZanDialogue"] = 1,
-					["guildNpcDialogue"] = 1,
-					["guild1"] = 1,
-				},
-				["onyYell"] = 1641491827,
-				["Shaniqq-Golemagg"] = {
-					["guildCommand"] = 1,
-					["guildBuffDropped"] = 1,
-					["guild10"] = 1,
-					["updated"] = 1675013697,
-					["guildNpcWalking"] = 1,
-					["guildNpcKilled"] = 1,
-					["guildSongflower"] = 0,
-					["guildTerok10"] = 1,
-					["disableAllGuildMsgs"] = 0,
-					["guildZanDialogue"] = 1,
-					["guildNpcDialogue"] = 1,
-					["guild1"] = 1,
-				},
-				["tuber5"] = 1617627915,
-				["Mastarpone-Golemagg"] = {
-					["guildCommand"] = 1,
-					["guildBuffDropped"] = 1,
-					["guild10"] = 1,
-					["updated"] = 1675013697,
-					["guildNpcWalking"] = 1,
-					["guildNpcKilled"] = 1,
-					["guildSongflower"] = 0,
-					["guildTerok10"] = 1,
-					["disableAllGuildMsgs"] = 0,
-					["guildZanDialogue"] = 1,
-					["guildNpcDialogue"] = 1,
-					["guild1"] = 1,
-				},
-				["wintergrasp"] = 1676285998,
-				["Zdrc-Golemagg"] = {
-					["guildCommand"] = 1,
-					["guildBuffDropped"] = 1,
-					["guild10"] = 1,
-					["updated"] = 1676202626,
-					["guildNpcWalking"] = 1,
-					["guildNpcKilled"] = 1,
-					["guildSongflower"] = 0,
-					["guildTerok10"] = 1,
-					["disableAllGuildMsgs"] = 0,
-					["guildZanDialogue"] = 1,
-					["guildNpcDialogue"] = 1,
-					["guild1"] = 1,
-				},
-				["rendSource"] = "self",
-				["Tankkys-Golemagg"] = {
-					["guildCommand"] = 1,
-					["guildBuffDropped"] = 1,
-					["guild10"] = 1,
-					["updated"] = 1676222622,
-					["guildNpcWalking"] = 1,
-					["guildNpcKilled"] = 1,
-					["guildSongflower"] = 0,
-					["guildTerok10"] = 1,
-					["disableAllGuildMsgs"] = 0,
-					["guildZanDialogue"] = 1,
-					["guildNpcDialogue"] = 1,
-					["guild1"] = 1,
-				},
-				["tbcDD"] = 2,
-				["rendTimer"] = 1622583041,
-				["wintergraspTime"] = 1676275198,
-				["Fireburns-Golemagg"] = {
-					["guildCommand"] = 1,
-					["guildBuffDropped"] = 1,
-					["guild10"] = 1,
-					["updated"] = 1676211886,
-					["guildNpcWalking"] = 1,
-					["guildNpcKilled"] = 1,
-					["guildSongflower"] = 0,
-					["guildTerok10"] = 1,
-					["disableAllGuildMsgs"] = 0,
-					["guildZanDialogue"] = 1,
-					["guildNpcDialogue"] = 1,
-					["guild1"] = 1,
-				},
-				["Kofoa-Golemagg"] = {
-					["guildCommand"] = 1,
-					["guildBuffDropped"] = 1,
-					["guild10"] = 1,
-					["updated"] = 1676222622,
-					["guildNpcWalking"] = 1,
-					["guildNpcKilled"] = 1,
-					["guildSongflower"] = 0,
-					["guildTerok10"] = 1,
-					["disableAllGuildMsgs"] = 0,
-					["guildZanDialogue"] = 1,
-					["guildNpcDialogue"] = 1,
-					["guild1"] = 1,
-				},
-				["nefNpcDied"] = 0,
+				["tbcDDT"] = 1678648724,
 				["Ugarra-Golemagg"] = {
 					["guildCommand"] = 0,
 					["guildBuffDropped"] = 0,
 					["guild10"] = 1,
-					["updated"] = 1676222622,
 					["guildNpcWalking"] = 0,
+					["updated"] = 1678648924,
 					["guildNpcKilled"] = 0,
 					["guildSongflower"] = 0,
 					["guildTerok10"] = 1,
 					["disableAllGuildMsgs"] = 0,
 					["guildZanDialogue"] = 0,
 					["guildNpcDialogue"] = 0,
-					["guild1"] = 1,
-				},
-				["nefYell2"] = 1614704513,
-				["nefTimerWho"] = "Zowl",
-				["Wrathie-Golemagg"] = {
-					["guildCommand"] = 1,
-					["guildBuffDropped"] = 1,
-					["guild10"] = 1,
-					["updated"] = 1676202626,
-					["guildNpcWalking"] = 1,
-					["guildNpcKilled"] = 1,
-					["guildSongflower"] = 0,
-					["guildTerok10"] = 1,
-					["disableAllGuildMsgs"] = 0,
-					["guildZanDialogue"] = 1,
-					["guildNpcDialogue"] = 1,
-					["guild1"] = 1,
-				},
-				["Deathko-Golemagg"] = {
-					["guildCommand"] = 1,
-					["guildBuffDropped"] = 1,
-					["guild10"] = 1,
-					["updated"] = 1676277122,
-					["guildNpcWalking"] = 1,
-					["guildNpcKilled"] = 1,
-					["guildSongflower"] = 0,
-					["guildTerok10"] = 1,
-					["disableAllGuildMsgs"] = 0,
-					["guildZanDialogue"] = 1,
-					["guildNpcDialogue"] = 1,
-					["guild1"] = 1,
-				},
-				["faction"] = "Horde",
-				["dmfBuffSettings"] = {
-				},
-				["flower4"] = 1613148141,
-				["Thaie-Golemagg"] = {
-					["guildCommand"] = 1,
-					["guildBuffDropped"] = 1,
-					["guild10"] = 1,
-					["updated"] = 1674420744,
-					["guildNpcWalking"] = 1,
-					["guildNpcKilled"] = 1,
-					["guildSongflower"] = 0,
-					["guildTerok10"] = 1,
-					["disableAllGuildMsgs"] = 0,
-					["guildZanDialogue"] = 1,
-					["guildNpcDialogue"] = 1,
-					["guild1"] = 1,
-				},
-				["Balrogg-Golemagg"] = {
-					["guildCommand"] = 1,
-					["guildBuffDropped"] = 1,
-					["guild10"] = 1,
-					["updated"] = 1674159902,
-					["guildNpcWalking"] = 1,
-					["guildNpcKilled"] = 1,
-					["guildSongflower"] = 0,
-					["guildTerok10"] = 1,
-					["disableAllGuildMsgs"] = 0,
-					["guildZanDialogue"] = 1,
-					["guildNpcDialogue"] = 1,
-					["guild1"] = 1,
-				},
-				["dragon3"] = 1613155038,
-				["flower3"] = 1613154280,
-				["rendYell2"] = 1624821781,
-				["Nobrainopain-Golemagg"] = {
-					["guildCommand"] = 1,
-					["guildBuffDropped"] = 1,
-					["guild10"] = 1,
-					["updated"] = 1676211886,
-					["guildNpcWalking"] = 1,
-					["guildNpcKilled"] = 1,
-					["guildSongflower"] = 0,
-					["guildTerok10"] = 1,
-					["disableAllGuildMsgs"] = 0,
-					["guildZanDialogue"] = 1,
-					["guildNpcDialogue"] = 1,
-					["guild1"] = 1,
-				},
-				["Ratsäm-Golemagg"] = {
-					["guildCommand"] = 1,
-					["guildBuffDropped"] = 1,
-					["guild10"] = 1,
-					["guildNpcWalking"] = 1,
-					["updated"] = 1673810991,
-					["guildNpcKilled"] = 1,
-					["guildSongflower"] = 0,
-					["guildTerok10"] = 1,
-					["disableAllGuildMsgs"] = 0,
-					["guildZanDialogue"] = 1,
-					["guildNpcDialogue"] = 1,
-					["guild1"] = 1,
-				},
-				["Ashellin-Golemagg"] = {
-					["guildCommand"] = 1,
-					["guildBuffDropped"] = 1,
-					["guild10"] = 1,
-					["guildNpcWalking"] = 1,
-					["updated"] = 1673875498,
-					["guildNpcKilled"] = 1,
-					["guildSongflower"] = 0,
-					["guildTerok10"] = 1,
-					["disableAllGuildMsgs"] = 0,
-					["guildZanDialogue"] = 1,
-					["guildNpcDialogue"] = 1,
-					["guild1"] = 1,
-				},
-				["Tyrale-Golemagg"] = {
-					["guildCommand"] = 1,
-					["guildBuffDropped"] = 1,
-					["guild10"] = 1,
-					["guildNpcWalking"] = 1,
-					["updated"] = 1674384418,
-					["guildNpcKilled"] = 1,
-					["guildSongflower"] = 0,
-					["guildTerok10"] = 1,
-					["disableAllGuildMsgs"] = 0,
-					["guildZanDialogue"] = 1,
-					["guildNpcDialogue"] = 1,
-					["guild1"] = 1,
-				},
-				["Kopytkho-Golemagg"] = {
-					["guildCommand"] = 1,
-					["guildBuffDropped"] = 1,
-					["guild10"] = 1,
-					["updated"] = 1674396926,
-					["guildNpcWalking"] = 1,
-					["guildNpcKilled"] = 1,
-					["guildSongflower"] = 0,
-					["guildTerok10"] = 1,
-					["disableAllGuildMsgs"] = 0,
-					["guildZanDialogue"] = 1,
-					["guildNpcDialogue"] = 1,
-					["guild1"] = 1,
-				},
-				["Pukasefka-Golemagg"] = {
-					["guildCommand"] = 1,
-					["guildBuffDropped"] = 1,
-					["guild10"] = 1,
-					["guildNpcWalking"] = 1,
-					["updated"] = 1674384842,
-					["guildNpcKilled"] = 1,
-					["guildSongflower"] = 0,
-					["guildTerok10"] = 1,
-					["disableAllGuildMsgs"] = 0,
-					["guildZanDialogue"] = 1,
-					["guildNpcDialogue"] = 1,
-					["guild1"] = 1,
-				},
-				["Thaximé-Golemagg"] = {
-					["guildCommand"] = 1,
-					["guildBuffDropped"] = 1,
-					["guild10"] = 1,
-					["guildNpcWalking"] = 1,
-					["updated"] = 1674154718,
-					["guildNpcKilled"] = 1,
-					["guildSongflower"] = 0,
-					["guildTerok10"] = 1,
-					["disableAllGuildMsgs"] = 0,
-					["guildZanDialogue"] = 1,
-					["guildNpcDialogue"] = 1,
-					["guild1"] = 1,
-				},
-				["Totterr-Golemagg"] = {
-					["guildCommand"] = 1,
-					["guildBuffDropped"] = 1,
-					["guild10"] = 1,
-					["guildNpcWalking"] = 1,
-					["updated"] = 1674385681,
-					["guildNpcKilled"] = 1,
-					["guildSongflower"] = 0,
-					["guildTerok10"] = 1,
-					["disableAllGuildMsgs"] = 0,
-					["guildZanDialogue"] = 1,
-					["guildNpcDialogue"] = 1,
-					["guild1"] = 1,
-				},
-				["Kriplellin-Golemagg"] = {
-					["guildCommand"] = 1,
-					["guildBuffDropped"] = 1,
-					["guild10"] = 1,
-					["updated"] = 1676277122,
-					["guildNpcWalking"] = 1,
-					["guildNpcKilled"] = 1,
-					["guildSongflower"] = 0,
-					["guildTerok10"] = 1,
-					["disableAllGuildMsgs"] = 0,
-					["guildZanDialogue"] = 1,
-					["guildNpcDialogue"] = 1,
-					["guild1"] = 1,
-				},
-				["flower7"] = 1614030687,
-				["Zavyka-Golemagg"] = {
-					["guildCommand"] = 1,
-					["guildBuffDropped"] = 1,
-					["guild10"] = 1,
-					["updated"] = 1674420744,
-					["guildNpcWalking"] = 1,
-					["guildNpcKilled"] = 1,
-					["guildSongflower"] = 0,
-					["guildTerok10"] = 1,
-					["disableAllGuildMsgs"] = 0,
-					["guildZanDialogue"] = 1,
-					["guildNpcDialogue"] = 1,
-					["guild1"] = 1,
-				},
-				["Mishellin-Golemagg"] = {
-					["guildCommand"] = 1,
-					["guildBuffDropped"] = 1,
-					["guild10"] = 1,
-					["updated"] = 1674330194,
-					["guildNpcWalking"] = 1,
-					["guildNpcKilled"] = 1,
-					["guildSongflower"] = 0,
-					["guildTerok10"] = 1,
-					["disableAllGuildMsgs"] = 0,
-					["guildZanDialogue"] = 1,
-					["guildNpcDialogue"] = 1,
-					["guild1"] = 1,
-				},
-				["Xolthan-Golemagg"] = {
-					["guildCommand"] = 1,
-					["guildBuffDropped"] = 1,
-					["guild10"] = 1,
-					["updated"] = 1674396952,
-					["guildNpcWalking"] = 1,
-					["guildNpcKilled"] = 1,
-					["guildSongflower"] = 0,
-					["guildTerok10"] = 1,
-					["disableAllGuildMsgs"] = 0,
-					["guildZanDialogue"] = 1,
-					["guildNpcDialogue"] = 1,
-					["guild1"] = 1,
-				},
-				["Teenx-Golemagg"] = {
-					["guildCommand"] = 1,
-					["guildBuffDropped"] = 1,
-					["guild10"] = 1,
-					["guildNpcWalking"] = 1,
-					["updated"] = 1674151715,
-					["guildNpcKilled"] = 1,
-					["guildSongflower"] = 0,
-					["guildTerok10"] = 1,
-					["disableAllGuildMsgs"] = 0,
-					["guildZanDialogue"] = 1,
-					["guildNpcDialogue"] = 1,
-					["guild1"] = 1,
-				},
-				["Luckerka-Golemagg"] = {
-					["guildCommand"] = 1,
-					["guildBuffDropped"] = 1,
-					["guild10"] = 1,
-					["updated"] = 1674341555,
-					["guildNpcWalking"] = 1,
-					["guildNpcKilled"] = 1,
-					["guildSongflower"] = 0,
-					["guildTerok10"] = 1,
-					["disableAllGuildMsgs"] = 0,
-					["guildZanDialogue"] = 1,
-					["guildNpcDialogue"] = 1,
-					["guild1"] = 1,
-				},
-				["zanTimer"] = 0,
-				["flower5"] = 1613773976,
-				["Miosham-Golemagg"] = {
-					["guildCommand"] = 1,
-					["guildBuffDropped"] = 1,
-					["guild10"] = 1,
-					["updated"] = 1676202626,
-					["guildNpcWalking"] = 1,
-					["guildNpcKilled"] = 1,
-					["guildSongflower"] = 0,
-					["guildTerok10"] = 1,
-					["disableAllGuildMsgs"] = 0,
-					["guildZanDialogue"] = 1,
-					["guildNpcDialogue"] = 1,
-					["guild1"] = 1,
-				},
-				["Ajzakmi-Golemagg"] = {
-					["guildCommand"] = 0,
-					["guildBuffDropped"] = 0,
-					["guild10"] = 0,
-					["guildNpcWalking"] = 1,
-					["updated"] = 1674482907,
-					["guildNpcKilled"] = 0,
-					["guildSongflower"] = 0,
-					["guildTerok10"] = 1,
-					["disableAllGuildMsgs"] = 0,
-					["guildZanDialogue"] = 0,
-					["guildNpcDialogue"] = 0,
-					["guild1"] = 0,
-				},
-				["Worlm-Golemagg"] = {
-					["guildCommand"] = 0,
-					["guildBuffDropped"] = 0,
-					["guild10"] = 0,
-					["guildNpcWalking"] = 1,
-					["updated"] = 1674482880,
-					["guildNpcKilled"] = 0,
-					["guildSongflower"] = 0,
-					["guildTerok10"] = 1,
-					["disableAllGuildMsgs"] = 0,
-					["guildZanDialogue"] = 0,
-					["guildNpcDialogue"] = 0,
-					["guild1"] = 0,
-				},
-				["rendTimerWho"] = "Zowl",
-				["Misshealin-Golemagg"] = {
-					["guildCommand"] = 1,
-					["guildBuffDropped"] = 1,
-					["guild10"] = 1,
-					["updated"] = 1676222622,
-					["guildNpcWalking"] = 1,
-					["guildNpcKilled"] = 1,
-					["guildSongflower"] = 0,
-					["guildTerok10"] = 1,
-					["disableAllGuildMsgs"] = 0,
-					["guildZanDialogue"] = 1,
-					["guildNpcDialogue"] = 1,
-					["guild1"] = 1,
-				},
-				["Harakikiriki-Golemagg"] = {
-					["guildCommand"] = 1,
-					["guildBuffDropped"] = 1,
-					["guild10"] = 1,
-					["guildNpcWalking"] = 1,
-					["updated"] = 1674482516,
-					["guildNpcKilled"] = 1,
-					["guildSongflower"] = 0,
-					["guildTerok10"] = 1,
-					["disableAllGuildMsgs"] = 1,
-					["guildZanDialogue"] = 1,
-					["guildNpcDialogue"] = 1,
-					["guild1"] = 1,
-				},
-				["Strigå-Golemagg"] = {
-					["guildCommand"] = 1,
-					["guildBuffDropped"] = 1,
-					["guild10"] = 1,
-					["updated"] = 1674420744,
-					["guildNpcWalking"] = 1,
-					["guildNpcKilled"] = 1,
-					["guildSongflower"] = 0,
-					["guildTerok10"] = 1,
-					["disableAllGuildMsgs"] = 0,
-					["guildZanDialogue"] = 1,
-					["guildNpcDialogue"] = 1,
-					["guild1"] = 1,
-				},
-				["layerBuffs"] = {
-					[22786] = {
-						[57940] = 1676211744,
-					},
-					[133] = {
-						[57940] = 1676276849,
-					},
-				},
-				["Devianttka-Golemagg"] = {
-					["guildCommand"] = 1,
-					["guildBuffDropped"] = 1,
-					["guild10"] = 1,
-					["updated"] = 1674159902,
-					["guildNpcWalking"] = 1,
-					["guildNpcKilled"] = 1,
-					["guildSongflower"] = 0,
-					["guildTerok10"] = 1,
-					["disableAllGuildMsgs"] = 0,
-					["guildZanDialogue"] = 1,
-					["guildNpcDialogue"] = 1,
-					["guild1"] = 1,
-				},
-				["tbcPD"] = 9,
-				["flower1"] = 1611520834,
-				["Badkittyx-Golemagg"] = {
-					["guildCommand"] = 1,
-					["guildBuffDropped"] = 1,
-					["guild10"] = 1,
-					["updated"] = 1676211886,
-					["guildNpcWalking"] = 1,
-					["guildNpcKilled"] = 1,
-					["guildSongflower"] = 0,
-					["guildTerok10"] = 1,
-					["disableAllGuildMsgs"] = 0,
-					["guildZanDialogue"] = 1,
-					["guildNpcDialogue"] = 1,
-					["guild1"] = 1,
-				},
-				["timerLog"] = {
-					{
-						["layerNum"] = 2,
-						["type"] = "r",
-						["timestamp"] = 1673797743,
-						["layerID"] = 433,
-					}, -- [1]
-					{
-						["layerNum"] = 2,
-						["type"] = "r",
-						["timestamp"] = 1673382835,
-						["layerID"] = 24538,
-					}, -- [2]
-					{
-						["layerNum"] = 2,
-						["type"] = "r",
-						["timestamp"] = 1673375251,
-						["layerID"] = 24538,
-					}, -- [3]
-					{
-						["layerNum"] = 2,
-						["type"] = "r",
-						["timestamp"] = 1673354516,
-						["layerID"] = 24538,
-					}, -- [4]
-					{
-						["layerNum"] = 1,
-						["type"] = "r",
-						["timestamp"] = 1673354502,
-						["layerID"] = 113,
-					}, -- [5]
-					{
-						["type"] = "r",
-						["timestamp"] = 1673301653,
-						["layerID"] = 113,
-					}, -- [6]
-					{
-						["layerNum"] = 2,
-						["type"] = "r",
-						["timestamp"] = 1673044721,
-						["layerID"] = 24538,
-					}, -- [7]
-					{
-						["type"] = "r",
-						["timestamp"] = 1672595479,
-						["layerID"] = 79,
-					}, -- [8]
-					{
-						["type"] = "r",
-						["timestamp"] = 1671477860,
-						["layerID"] = 151,
-					}, -- [9]
-					{
-						["type"] = "r",
-						["timestamp"] = 1664102957,
-						["layerID"] = 6821,
-					}, -- [10]
-					{
-						["layerNum"] = 1,
-						["type"] = "r",
-						["timestamp"] = 1663929420,
-						["layerID"] = 58,
-					}, -- [11]
-					{
-						["layerNum"] = 4,
-						["type"] = "r",
-						["timestamp"] = 1661972194,
-						["layerID"] = 12491,
-					}, -- [12]
-					{
-						["layerNum"] = 1,
-						["type"] = "r",
-						["timestamp"] = 1660504897,
-						["layerID"] = 48,
-					}, -- [13]
-					{
-						["type"] = "r",
-						["timestamp"] = 1659027522,
-						["layerID"] = 32,
-					}, -- [14]
-					{
-						["type"] = "r",
-						["timestamp"] = 1658081925,
-						["layerID"] = 37,
-					}, -- [15]
-					{
-						["type"] = "r",
-						["timestamp"] = 1658005250,
-						["layerID"] = 37,
-					}, -- [16]
-					{
-						["type"] = "r",
-						["timestamp"] = 1657829180,
-						["layerID"] = 37,
-					}, -- [17]
-					{
-						["type"] = "r",
-						["timestamp"] = 1656516493,
-						["layerID"] = 29,
-					}, -- [18]
-					{
-						["type"] = "r",
-						["timestamp"] = 1652025682,
-						["layerID"] = 27,
-					}, -- [19]
-					{
-						["type"] = "r",
-						["timestamp"] = 1650401447,
-						["layerID"] = 37,
-					}, -- [20]
-					{
-						["type"] = "r",
-						["timestamp"] = 1647209860,
-						["layerID"] = 34,
-					}, -- [21]
-					{
-						["type"] = "r",
-						["timestamp"] = 1647184940,
-						["layerID"] = 34,
-					}, -- [22]
-					{
-						["type"] = "r",
-						["timestamp"] = 1643647093,
-						["layerID"] = 46,
-					}, -- [23]
-					{
-						["type"] = "r",
-						["timestamp"] = 1639932619,
-						["layerID"] = 29,
-					}, -- [24]
-					{
-						["type"] = "r",
-						["timestamp"] = 1639302739,
-						["layerID"] = 44,
-					}, -- [25]
-					{
-						["type"] = "r",
-						["timestamp"] = 1634838644,
-						["layerID"] = 29,
-					}, -- [26]
-					{
-						["type"] = "r",
-						["timestamp"] = 1631545836,
-						["layerID"] = 45,
-					}, -- [27]
-					{
-						["type"] = "r",
-						["timestamp"] = 1629647863,
-						["layerID"] = 5,
-					}, -- [28]
-					{
-						["type"] = "r",
-						["timestamp"] = 1629540359,
-						["layerID"] = 5,
-					}, -- [29]
-					{
-						["type"] = "r",
-						["timestamp"] = 1629148486,
-						["layerID"] = 110,
-					}, -- [30]
-					{
-						["type"] = "r",
-						["timestamp"] = 1627325935,
-						["layerID"] = 45,
-					}, -- [31]
-					{
-						["type"] = "r",
-						["timestamp"] = 1627222586,
-						["layerID"] = 45,
-					}, -- [32]
-					{
-						["type"] = "r",
-						["timestamp"] = 1626620138,
-						["layerID"] = 33,
-					}, -- [33]
-					{
-						["type"] = "r",
-						["timestamp"] = 1626387763,
-						["layerID"] = 33,
-					}, -- [34]
-					{
-						["type"] = "r",
-						["timestamp"] = 1625509066,
-						["layerID"] = 8566,
-					}, -- [35]
-					{
-						["type"] = "r",
-						["timestamp"] = 1625111871,
-						["layerID"] = 46,
-					}, -- [36]
-					{
-						["type"] = "r",
-						["timestamp"] = 1625111870,
-						["layerID"] = 18004,
-					}, -- [37]
-					{
-						["type"] = "r",
-						["timestamp"] = 1624827964,
-						["layerID"] = 16901,
-					}, -- [38]
-					{
-						["type"] = "r",
-						["timestamp"] = 1624821785,
-						["layerID"] = 33,
-					}, -- [39]
-					{
-						["type"] = "r",
-						["timestamp"] = 1624821783,
-						["layerID"] = 16901,
-					}, -- [40]
-					{
-						["type"] = "r",
-						["timestamp"] = 1624740014,
-						["layerID"] = 16901,
-					}, -- [41]
-					{
-						["type"] = "r",
-						["timestamp"] = 1624800736,
-						["layerID"] = 33,
-					}, -- [42]
-					{
-						["type"] = "r",
-						["timestamp"] = 1624800735,
-						["layerID"] = 16901,
-					}, -- [43]
-					{
-						["type"] = "r",
-						["timestamp"] = 1624740015,
-						["layerID"] = 33,
-					}, -- [44]
-					{
-						["type"] = "r",
-						["timestamp"] = 1624656196,
-						["layerID"] = 16901,
-					}, -- [45]
-					{
-						["type"] = "r",
-						["timestamp"] = 1624656195,
-						["layerID"] = 33,
-					}, -- [46]
-					{
-						["type"] = "r",
-						["timestamp"] = 1624182902,
-						["layerID"] = 17634,
-					}, -- [47]
-					{
-						["type"] = "r",
-						["timestamp"] = 1624182903,
-						["layerID"] = 32,
-					}, -- [48]
-					{
-						["type"] = "r",
-						["timestamp"] = 1624051165,
-						["layerID"] = 17634,
-					}, -- [49]
-					{
-						["type"] = "r",
-						["timestamp"] = 1624055396,
-						["layerID"] = 32,
-					}, -- [50]
-					{
-						["type"] = "r",
-						["timestamp"] = 1624051166,
-						["layerID"] = 32,
-					}, -- [51]
-					{
-						["type"] = "r",
-						["timestamp"] = 1623905234,
-						["layerID"] = 17634,
-					}, -- [52]
-					{
-						["type"] = "r",
-						["timestamp"] = 1623905234,
-						["layerID"] = 32,
-					}, -- [53]
-					{
-						["type"] = "r",
-						["timestamp"] = 1623950650,
-						["layerID"] = 32,
-					}, -- [54]
-					{
-						["type"] = "r",
-						["timestamp"] = 1623950650,
-						["layerID"] = 17634,
-					}, -- [55]
-					{
-						["type"] = "r",
-						["timestamp"] = 1623767019,
-						["layerID"] = 42,
-					}, -- [56]
-					{
-						["type"] = "r",
-						["timestamp"] = 1623767018,
-						["layerID"] = 17000,
-					}, -- [57]
-					{
-						["type"] = "r",
-						["timestamp"] = 1623590403,
-						["layerID"] = 42,
-					}, -- [58]
-					{
-						["type"] = "r",
-						["timestamp"] = 1623590402,
-						["layerID"] = 17000,
-					}, -- [59]
-					{
-						["type"] = "r",
-						["timestamp"] = 1623506409,
-						["layerID"] = 17000,
-					}, -- [60]
-					{
-						["type"] = "r",
-						["timestamp"] = 1623499495,
-						["layerID"] = 42,
-					}, -- [61]
-					{
-						["type"] = "r",
-						["timestamp"] = 1623506407,
-						["layerID"] = 42,
-					}, -- [62]
-					{
-						["type"] = "r",
-						["timestamp"] = 1623499495,
-						["layerID"] = 17000,
-					}, -- [63]
-					{
-						["type"] = "r",
-						["timestamp"] = 1623411599,
-						["layerID"] = 42,
-					}, -- [64]
-					{
-						["type"] = "r",
-						["timestamp"] = 1623411597,
-						["layerID"] = 17000,
-					}, -- [65]
-					{
-						["type"] = "r",
-						["timestamp"] = 1623314348,
-						["layerID"] = 42,
-					}, -- [66]
-					{
-						["type"] = "r",
-						["timestamp"] = 1623081820,
-						["layerID"] = 38,
-					}, -- [67]
-					{
-						["type"] = "r",
-						["timestamp"] = 1623081821,
-						["layerID"] = 20893,
-					}, -- [68]
-					{
-						["type"] = "r",
-						["timestamp"] = 1623081820,
-						["layerID"] = 3705,
-					}, -- [69]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622796232,
-						["layerID"] = 3705,
-					}, -- [70]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622770528,
-						["layerID"] = 38,
-					}, -- [71]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622754901,
-						["layerID"] = 1514,
-					}, -- [72]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622754899,
-						["layerID"] = 5516,
-					}, -- [73]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622754900,
-						["layerID"] = 22175,
-					}, -- [74]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622728071,
-						["layerID"] = 5516,
-					}, -- [75]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622728070,
-						["layerID"] = 54,
-					}, -- [76]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622728071,
-						["layerID"] = 1514,
-					}, -- [77]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622703367,
-						["layerID"] = 54,
-					}, -- [78]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622661526,
-						["layerID"] = 1283,
-					}, -- [79]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622661525,
-						["layerID"] = 24,
-					}, -- [80]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622703366,
-						["layerID"] = 1514,
-					}, -- [81]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622675977,
-						["layerID"] = 24,
-					}, -- [82]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622675978,
-						["layerID"] = 13078,
-					}, -- [83]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622675977,
-						["layerID"] = 1283,
-					}, -- [84]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622665781,
-						["layerID"] = 13286,
-					}, -- [85]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622665781,
-						["layerID"] = 12974,
-					}, -- [86]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622665781,
-						["layerID"] = 1283,
-					}, -- [87]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622665781,
-						["layerID"] = 12404,
-					}, -- [88]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622665780,
-						["layerID"] = 24,
-					}, -- [89]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622665780,
-						["layerID"] = 12884,
-					}, -- [90]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622661526,
-						["layerID"] = 10974,
-					}, -- [91]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622654881,
-						["layerID"] = 12884,
-					}, -- [92]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622665781,
-						["layerID"] = 10974,
-					}, -- [93]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622661525,
-						["layerID"] = 12884,
-					}, -- [94]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622654882,
-						["layerID"] = 1283,
-					}, -- [95]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622654881,
-						["layerID"] = 12974,
-					}, -- [96]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622654881,
-						["layerID"] = 10974,
-					}, -- [97]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622654880,
-						["layerID"] = 12404,
-					}, -- [98]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622654880,
-						["layerID"] = 7575,
-					}, -- [99]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622654880,
-						["layerID"] = 24,
-					}, -- [100]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622661526,
-						["layerID"] = 13410,
-					}, -- [101]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622648726,
-						["layerID"] = 7575,
-					}, -- [102]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622647772,
-						["layerID"] = 12404,
-					}, -- [103]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622647772,
-						["layerID"] = 7575,
-					}, -- [104]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622647772,
-						["layerID"] = 24,
-					}, -- [105]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622647771,
-						["layerID"] = 13286,
-					}, -- [106]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622647771,
-						["layerID"] = 13410,
-					}, -- [107]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622646156,
-						["layerID"] = 13410,
-					}, -- [108]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622640865,
-						["layerID"] = 13410,
-					}, -- [109]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622654881,
-						["layerID"] = 13410,
-					}, -- [110]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622648724,
-						["layerID"] = 13410,
-					}, -- [111]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622647771,
-						["layerID"] = 12974,
-					}, -- [112]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622646158,
-						["layerID"] = 24,
-					}, -- [113]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622646156,
-						["layerID"] = 12884,
-					}, -- [114]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622648726,
-						["layerID"] = 24,
-					}, -- [115]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622648724,
-						["layerID"] = 1283,
-					}, -- [116]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622647772,
-						["layerID"] = 12884,
-					}, -- [117]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622646156,
-						["layerID"] = 12404,
-					}, -- [118]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622647771,
-						["layerID"] = 1283,
-					}, -- [119]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622646156,
-						["layerID"] = 10974,
-					}, -- [120]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622640866,
-						["layerID"] = 13078,
-					}, -- [121]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622640866,
-						["layerID"] = 12974,
-					}, -- [122]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622604672,
-						["layerID"] = 1283,
-					}, -- [123]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622640867,
-						["layerID"] = 12884,
-					}, -- [124]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622640866,
-						["layerID"] = 7575,
-					}, -- [125]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622640867,
-						["layerID"] = 1283,
-					}, -- [126]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622613209,
-						["layerID"] = 24,
-					}, -- [127]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622611462,
-						["layerID"] = 13410,
-					}, -- [128]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622611462,
-						["layerID"] = 12974,
-					}, -- [129]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622623393,
-						["layerID"] = 13410,
-					}, -- [130]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622623392,
-						["layerID"] = 12974,
-					}, -- [131]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622620807,
-						["layerID"] = 10974,
-					}, -- [132]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622623392,
-						["layerID"] = 12884,
-					}, -- [133]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622623392,
-						["layerID"] = 13286,
-					}, -- [134]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622623392,
-						["layerID"] = 7575,
-					}, -- [135]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622623391,
-						["layerID"] = 12404,
-					}, -- [136]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622620807,
-						["layerID"] = 24,
-					}, -- [137]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622620807,
-						["layerID"] = 1283,
-					}, -- [138]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622620807,
-						["layerID"] = 13410,
-					}, -- [139]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622620806,
-						["layerID"] = 7575,
-					}, -- [140]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622620806,
-						["layerID"] = 12404,
-					}, -- [141]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622620807,
-						["layerID"] = 13286,
-					}, -- [142]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622620806,
-						["layerID"] = 12974,
-					}, -- [143]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622623393,
-						["layerID"] = 10974,
-					}, -- [144]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622620807,
-						["layerID"] = 12884,
-					}, -- [145]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622613209,
-						["layerID"] = 12884,
-					}, -- [146]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622613208,
-						["layerID"] = 7575,
-					}, -- [147]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622613208,
-						["layerID"] = 13410,
-					}, -- [148]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622613208,
-						["layerID"] = 1283,
-					}, -- [149]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622611462,
-						["layerID"] = 12884,
-					}, -- [150]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622611461,
-						["layerID"] = 10974,
-					}, -- [151]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622611461,
-						["layerID"] = 12404,
-					}, -- [152]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622613207,
-						["layerID"] = 12974,
-					}, -- [153]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622611462,
-						["layerID"] = 13078,
-					}, -- [154]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622603744,
-						["layerID"] = 13286,
-					}, -- [155]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622603691,
-						["layerID"] = 13078,
-					}, -- [156]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622601421,
-						["layerID"] = 12884,
-					}, -- [157]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622604671,
-						["layerID"] = 10974,
-					}, -- [158]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622603743,
-						["layerID"] = 1283,
-					}, -- [159]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622603690,
-						["layerID"] = 24,
-					}, -- [160]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622601422,
-						["layerID"] = 7575,
-					}, -- [161]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622601105,
-						["layerID"] = 12884,
-					}, -- [162]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622601420,
-						["layerID"] = 1283,
-					}, -- [163]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622601105,
-						["layerID"] = 1283,
-					}, -- [164]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622601421,
-						["layerID"] = 24,
-					}, -- [165]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622586321,
-						["layerID"] = 12404,
-					}, -- [166]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622586320,
-						["layerID"] = 7575,
-					}, -- [167]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622586320,
-						["layerID"] = 12884,
-					}, -- [168]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622586119,
-						["layerID"] = 13410,
-					}, -- [169]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622586118,
-						["layerID"] = 7575,
-					}, -- [170]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622586120,
-						["layerID"] = 1283,
-					}, -- [171]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622585645,
-						["layerID"] = 1283,
-					}, -- [172]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622585644,
-						["layerID"] = 12404,
-					}, -- [173]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622586321,
-						["layerID"] = 24,
-					}, -- [174]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622586118,
-						["layerID"] = 24,
-					}, -- [175]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622585646,
-						["layerID"] = 10974,
-					}, -- [176]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622585645,
-						["layerID"] = 12884,
-					}, -- [177]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622585645,
-						["layerID"] = 24,
-					}, -- [178]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622586320,
-						["layerID"] = 1283,
-					}, -- [179]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622586119,
-						["layerID"] = 12884,
-					}, -- [180]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622584780,
-						["layerID"] = 13078,
-					}, -- [181]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622585645,
-						["layerID"] = 13286,
-					}, -- [182]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622585070,
-						["layerID"] = 13078,
-					}, -- [183]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622585070,
-						["layerID"] = 13286,
-					}, -- [184]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622585070,
-						["layerID"] = 7575,
-					}, -- [185]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622585070,
-						["layerID"] = 24,
-					}, -- [186]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622585646,
-						["layerID"] = 13078,
-					}, -- [187]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622585070,
-						["layerID"] = 1283,
-					}, -- [188]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622584781,
-						["layerID"] = 12974,
-					}, -- [189]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622584804,
-						["layerID"] = 7575,
-					}, -- [190]
-					{
-						["layerNum"] = 9,
-						["type"] = "r",
-						["timestamp"] = 1622584803,
-						["layerID"] = 13286,
-					}, -- [191]
-					{
-						["layerNum"] = 6,
-						["type"] = "r",
-						["timestamp"] = 1622584802,
-						["layerID"] = 12884,
-					}, -- [192]
-					{
-						["layerNum"] = 5,
-						["type"] = "r",
-						["timestamp"] = 1622584781,
-						["layerID"] = 12404,
-					}, -- [193]
-					{
-						["layerNum"] = 5,
-						["type"] = "r",
-						["timestamp"] = 1622583043,
-						["layerID"] = 12404,
-					}, -- [194]
-					{
-						["layerNum"] = 6,
-						["type"] = "r",
-						["timestamp"] = 1622585069,
-						["layerID"] = 12884,
-					}, -- [195]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622584802,
-						["layerID"] = 10974,
-					}, -- [196]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622584781,
-						["layerID"] = 24,
-					}, -- [197]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622584779,
-						["layerID"] = 1283,
-					}, -- [198]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622583041,
-						["layerID"] = 12884,
-					}, -- [199]
-					{
-						["type"] = "r",
-						["timestamp"] = 1622583042,
-						["layerID"] = 10974,
-					}, -- [200]
-				},
-				["dragon1"] = 1612540835,
-				["wintergrasp10"] = true,
-				["onyNpcDied"] = 0,
-				["zanYell"] = 1622571677,
-				["flower8"] = 1615316985,
-				["Wukko-Golemagg"] = {
-					["guildCommand"] = 1,
-					["guildBuffDropped"] = 1,
-					["guild10"] = 1,
-					["updated"] = 1674159902,
-					["guildNpcWalking"] = 1,
-					["guildNpcKilled"] = 1,
-					["guildSongflower"] = 0,
-					["guildTerok10"] = 1,
-					["disableAllGuildMsgs"] = 0,
-					["guildZanDialogue"] = 1,
-					["guildNpcDialogue"] = 1,
-					["guild1"] = 1,
-				},
-				["onyYell2"] = 1641491835,
-				["dragon2"] = 1611416902,
-				["Jaytea-Golemagg"] = {
-					["guildCommand"] = 1,
-					["guildBuffDropped"] = 1,
-					["guild10"] = 1,
-					["updated"] = 1674396952,
-					["guildNpcWalking"] = 1,
-					["guildNpcKilled"] = 1,
-					["guildSongflower"] = 0,
-					["guildTerok10"] = 1,
-					["disableAllGuildMsgs"] = 0,
-					["guildZanDialogue"] = 1,
-					["guildNpcDialogue"] = 1,
-					["guild1"] = 1,
-				},
-				["flower9"] = 1617217736,
-				["tbcPDT"] = 1676277276,
-				["Quickster-Golemagg"] = {
-					["guildCommand"] = 1,
-					["guildBuffDropped"] = 1,
-					["guild10"] = 1,
-					["guildNpcWalking"] = 1,
-					["updated"] = 1676221017,
-					["guildNpcKilled"] = 1,
-					["guildSongflower"] = 0,
-					["guildTerok10"] = 1,
-					["disableAllGuildMsgs"] = 0,
-					["guildZanDialogue"] = 1,
-					["guildNpcDialogue"] = 1,
-					["guild1"] = 1,
-				},
-				["tuber1"] = 1614450654,
-				["lastSyncBy"] = "Elkredence-Golemagg",
-				["Cizo-Golemagg"] = {
-					["guildCommand"] = 1,
-					["guildBuffDropped"] = 1,
-					["guild10"] = 1,
-					["updated"] = 1674396597,
-					["guildNpcWalking"] = 1,
-					["guildNpcKilled"] = 1,
-					["guildSongflower"] = 0,
-					["guildTerok10"] = 1,
-					["disableAllGuildMsgs"] = 0,
-					["guildZanDialogue"] = 1,
-					["guildNpcDialogue"] = 1,
-					["guild1"] = 1,
-				},
-				["Roghalo-Golemagg"] = {
-					["guildCommand"] = 1,
-					["guildBuffDropped"] = 1,
-					["guild10"] = 1,
-					["guildNpcWalking"] = 1,
-					["updated"] = 1673809510,
-					["guildNpcKilled"] = 1,
-					["guildSongflower"] = 0,
-					["guildTerok10"] = 1,
-					["disableAllGuildMsgs"] = 0,
-					["guildZanDialogue"] = 1,
-					["guildNpcDialogue"] = 1,
-					["guild1"] = 1,
-				},
-				["Maginy-Golemagg"] = {
-					["guildCommand"] = 0,
-					["guildBuffDropped"] = 0,
-					["guild10"] = 0,
-					["guildNpcWalking"] = 1,
-					["updated"] = 1674482956,
-					["guildNpcKilled"] = 0,
-					["guildSongflower"] = 0,
-					["guildTerok10"] = 1,
-					["disableAllGuildMsgs"] = 0,
-					["guildZanDialogue"] = 0,
-					["guildNpcDialogue"] = 0,
-					["guild1"] = 0,
-				},
-				["tbcDDT"] = 1676277254,
-				["Kredencium-Golemagg"] = {
-					["guildCommand"] = 1,
-					["guildBuffDropped"] = 1,
-					["guild10"] = 1,
-					["updated"] = 1676222622,
-					["guildNpcWalking"] = 1,
-					["guildNpcKilled"] = 1,
-					["guildSongflower"] = 0,
-					["guildTerok10"] = 1,
-					["disableAllGuildMsgs"] = 0,
-					["guildZanDialogue"] = 1,
-					["guildNpcDialogue"] = 1,
 					["guild1"] = 1,
 				},
 			},
 		},
 		["resetSongflowers"] = false,
+		["resetLayers14"] = false,
 		["Zandalar Tribe"] = {
 			["Horde"] = {
 				["flower10"] = 1608486474,
@@ -4454,8 +3811,8 @@ NWBdatabase = {
 				["onyNpcDied"] = 0,
 				["onyTimerWho"] = "Locky",
 				["dragon2"] = 0,
-				["onyYell2"] = 1602094960,
 				["nefNpcDied"] = 0,
+				["onyYell2"] = 1602094960,
 				["flower8"] = 0,
 				["nefYell2"] = 1602091939,
 				["nefTimerWho"] = "Goham",
@@ -4473,7 +3830,6 @@ NWBdatabase = {
 			},
 		},
 		["middle5"] = true,
-		["lo"] = 1676277788,
 		["minimapButton"] = false,
 		["chat5"] = true,
 		["resetLayerMaps"] = false,
@@ -4517,9 +3873,9 @@ NWBdatabase = {
 						["zanCount"] = 0,
 						["raceLocalized"] = "Orc",
 						["pvpFlag"] = false,
-						["freeBagSlots"] = 18,
-						["totalBagSlots"] = 20,
 						["faction"] = "Horde",
+						["totalBagSlots"] = 20,
+						["freeBagSlots"] = 18,
 						["rendCount"] = 0,
 						["buffs"] = {
 						},
@@ -4553,10 +3909,11 @@ NWBdatabase = {
 				["nefTimer"] = 0,
 			},
 		},
-		["lastVersionMsg"] = 1676275114,
+		["lastVersionMsg"] = 1678559145,
 		["resetLayers4"] = false,
 		["wipeTerokkarData4"] = false,
-		["lt"] = 1676276521,
+		["lt"] = 1678649096,
+		["lo"] = 1678649278,
 		["resetDailyData"] = false,
 		["resetLayers13"] = false,
 	},

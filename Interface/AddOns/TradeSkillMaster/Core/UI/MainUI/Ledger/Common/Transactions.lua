@@ -4,7 +4,7 @@
 --    All Rights Reserved - Detailed license information included with addon.     --
 -- ------------------------------------------------------------------------------ --
 
-local _, TSM = ...
+local TSM = select(2, ...) ---@type TSM
 local Transactions = TSM.MainUI.Ledger.Common:NewPackage("Transactions")
 local L = TSM.Include("Locale").GetTable()
 local Money = TSM.Include("Util.Money")
@@ -35,7 +35,7 @@ do
 	for _, key in ipairs(TYPE_KEYS) do
 		private.typeFilter[key] = true
 	end
-	for i = 1, 4 do
+	for i = 0, 5 do
 		tinsert(private.rarityList, _G[format("ITEM_QUALITY%d_DESC", i)])
 		private.rarityFilter[i] = true
 	end
@@ -158,7 +158,7 @@ function private.DrawTransactionPage()
 					:SetTitle(L["Item"])
 					:SetFont("ITEM_BODY3")
 					:SetJustifyH("LEFT")
-					:SetTextInfo("itemString", UIUtils.GetColoredItemName)
+					:SetTextInfo("itemString", UIUtils.GetDisplayItemName)
 					:SetTooltipInfo("itemString")
 					:SetSortInfo("name")
 					:DisableHiding()

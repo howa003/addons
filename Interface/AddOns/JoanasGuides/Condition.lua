@@ -51,7 +51,7 @@ local REP = { }
 setmetatable(REP, {
 	__index = function(_, key)
 		local _, _, standingId = GetFactionInfoByID(key)
-		if (not standingID) then return REP_LEVELS.UNKNOWN end
+		if (not standingId) then return REP_LEVELS.UNKNOWN end
 		return standingId
 	end
 })

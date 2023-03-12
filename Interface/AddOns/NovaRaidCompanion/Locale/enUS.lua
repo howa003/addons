@@ -489,6 +489,9 @@ L["raidCooldownNeckStatsDesc"] = "Show party members cooldown for |cFF0070DD[Emb
 L["raidCooldownsNecksRaidOnlyTitle"] = "Necks In Raid Only";
 L["raidCooldownsNecksRaidOnlyDesc"] = "Only show neck buff cooldowns when you're in a raid group and hide while in a party?";
 
+L["raidCooldownsShowDeadTitle"] = "Show Dead";
+L["raidCooldownsShowDeadDesc"] = "Show players that are dead in with a red bar and skull, also counts thier cooldown as not being ready.";
+
 L["Eating"] = "Eating"; --This can't be longer than 6 characters to fit in the raid status column.
 L["Food"] = "Food";
 
@@ -902,6 +905,9 @@ L["raidCooldownsWidthDesc"] = "How wide do you want each bar to be?";
 L["raidCooldownsHeightTitle"] = "Height";
 L["raidCooldownsHeightDesc"] = "How high do you want each bar to be?";
 
+L["raidCooldownsPaddingTitle"] = "Padding";
+L["raidCooldownsPaddingDesc"] = "How much space between each bar do you want?";
+
 L["raidManaFontSizeTitle"] = "Font Size";
 L["raidManaFontSizeDesc"] = "How big do you want the font to be?";
 
@@ -910,6 +916,9 @@ L["raidManaWidthDesc"] = "How wide do you want each bar to be?";
 
 L["raidManaHeightTitle"] = "Height";
 L["raidManaHeightDesc"] = "How high do you want each bar to be?";
+
+L["raidManaPaddingTitle"] = "Padding";
+L["raidManaPaddingDesc"] = "How much space between each bar do you want?";
 
 L["raidCooldownsFontOutlineTitle"] = "Font Outline";
 L["raidCooldownsFontOutlineDesc"] = "Do you want raid cooldowns font to have an outline?";
@@ -1006,8 +1015,8 @@ L["raidCooldownIceboundFortitudeDesc"] = "Show Icebound Fortitude raid cooldowns
 L["raidCooldownAntiMagicZoneTitle"] = "Anti-Magic Zone";
 L["raidCooldownAntiMagicZoneDesc"] = "Show Anti-Magic Zone raid cooldowns?";
 
-L["raidCooldownAntiMagicShieldTitle"] = "Anti-Magic Shield";
-L["raidCooldownAntiMagicShieldDesc"] = "Show Anti-Magic Shield raid cooldowns?";
+L["raidCooldownAntiMagicShellTitle"] = "Anti-Magic Shell";
+L["raidCooldownAntiMagicShellDesc"] = "Show Anti-Magic Shell raid cooldowns?";
 
 L["raidCooldownSurvivalInstinctsTitle"] = "Survival Instincts";
 L["raidCooldownSurvivalInstinctsDesc"] = "Show Survival Instincts raid cooldowns?";

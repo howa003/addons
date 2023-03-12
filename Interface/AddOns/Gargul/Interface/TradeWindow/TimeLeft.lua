@@ -319,7 +319,7 @@ function TimeLeft:createBroadcastWindow()
     GL:debug("TimeLeft:createBroadcastWindow");
 
     local BroadCast = GL.AceGUI:Create("InlineGroup");
-    self.BroadCast = BroadCast;
+    BroadCast:PauseLayout();
 
     BroadCast:SetLayout("Fill");
     BroadCast:SetWidth(210);
@@ -396,6 +396,8 @@ function TimeLeft:createBroadcastWindow()
     CancelButton:SetScript("OnClick", function ()
         self:hideBroadcastWindow();
     end);
+
+    self.BroadCast = BroadCast;
 end
 
 function TimeLeft:toggleBroadcastWindow()
@@ -610,7 +612,11 @@ function TimeLeft:refreshBars(byRefresh)
 
     -- Sort inventory items from shortest to largest trade duration left
     table.sort(ItemsWithTradeTimeRemaining, function (a, b)
-        return a.timeRemaining < b.timeRemaining;
+        if (a.timeRemaining and b.timeRemaining) then
+            return a.timeRemaining < b.timeRemaining;
+        end
+
+        return false;
     end);
 
     local barsDiffer = false;
@@ -706,7 +712,7 @@ function TimeLeft:refreshBars(byRefresh)
         end);
 
         TimerBar:SetScript("OnMouseUp", function(_, mouseButtonPressed)
-            GL:handleItemClick(BagItem.itemLink, mouseButtonPressed);
+            HandleModifiedItemClick(BagItem.itemLink, mouseButtonPressed);
         end)
 
         TimerBar:SetScript("OnLeave", function()

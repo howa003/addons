@@ -155,7 +155,6 @@ function Overview:draw()
         ItemIcon:SetWidth(30);
         ItemIcon:SetHeight(30);
         ItemIcon:SetImageSize(30, 30);
---         ItemIcon:SetImage("Interface\\Icons\\INV_Sword_39");
         Details:AddChild(ItemIcon);
         ItemIcon:SetCallback("OnLeave", function()
             GameTooltip:Hide();
@@ -234,7 +233,7 @@ function Overview:draw()
     if (DB.SoftRes.MetaData.source == Constants.SoftReserveSources.weakaura) then
         -- Show a game tooltip that explains the question mark
         HardReservesLabel:SetCallback("OnEnter", function()
-            GameTooltip:SetOwner(HardReservesLabel.frame, "ANCHOR_TOP");
+            GameTooltip:SetOwner(HardReservesLabel.frame, "ANCHOR_CURSOR");
             GameTooltip:AddLine("Hard-reserve information is not available because the softres.it information\nprovided was not generated using the 'Gargul Data Export' button.");
             GameTooltip:Show();
         end)
@@ -298,7 +297,7 @@ function Overview:refreshDetailsFrame()
     local titleText = GL:capitalize(self.selectedCharacter);
 
     local SoftResDetails = SoftRes:getDetailsForPlayer(GL:stripRealm(self.selectedCharacter));
-    local plusOnes = GL.PlusOnes:get(self.selectedCharacter);
+    local plusOnes = GL.PlusOnes:getPlusOnes(self.selectedCharacter);
     local class = GL:tableGet(SoftResDetails, "class", SoftRes:getPlayerClass(self.selectedCharacter));
 
     if (GL:higherThanZero(plusOnes)) then
@@ -345,10 +344,13 @@ function Overview:refreshDetailsFrame()
         if (ItemIcon) then
             ItemIcon:SetImage(Item.icon);
             ItemIcon:SetCallback("OnEnter", function()
-                GameTooltip:SetOwner(ItemIcon.frame, "ANCHOR_TOP");
+                GameTooltip:SetOwner(ItemIcon.frame, "ANCHOR_CURSOR");
                 GameTooltip:SetHyperlink(Item.link);
                 GameTooltip:Show();
             end)
+            ItemIcon:SetCallback("OnClick", function()
+                HandleModifiedItemClick(Item.link);
+            end);
             ItemIcon.frame:Show();
         end
 
@@ -524,7 +526,7 @@ function Overview:drawCharacterTable(Parent)
     local TableData = {};
 
     for playerName, Entry in pairs(PlayerData) do
-        local plusOnes = GL.PlusOnes:get(playerName);
+        local plusOnes = GL.PlusOnes:getPlusOnes(playerName);
         local numberOfSoftReservedItems = 0;
 
         for _, numberOfReserves in pairs(Entry.Items) do
@@ -616,22 +618,30 @@ function Overview:drawHardReservesTable(Parent)
                 return;
             end
 
-            GameTooltip:SetOwner(rowFrame, "ANCHOR_TOP");
-
-            if (not GL:empty(hardReserveDetails.reservedFor)) then
-                GameTooltip:AddLine("For: " .. hardReserveDetails.reservedFor);
-            end
-
-            if (not GL:empty(hardReserveDetails.note)) then
-                GameTooltip:AddLine("Note: " .. hardReserveDetails.note);
-            end
-
+            GameTooltip:SetOwner(rowFrame, "ANCHOR_CURSOR");
+            GameTooltip:SetHyperlink(selected);
             GameTooltip:Show();
         end,
 
         OnLeave = function ()
             GameTooltip:Hide();
-        end
+        end,
+
+        OnClick = function (rowFrame, _, data, _, _, realrow)
+            -- Make sure that all data is available, better safe than lua error
+            if (not GL:higherThanZero(realrow)
+                or type(data) ~= "table"
+                or not data[realrow]
+                or not data[realrow].cols
+                or not data[realrow].cols[1]
+            ) then
+                return;
+            end
+
+            -- We always select the first column of the selected row because that contains the player name
+            local selected = data[realrow].cols[1].value;
+            HandleModifiedItemClick(selected);
+        end,
     });
 
     local TableData = {};

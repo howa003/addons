@@ -22,6 +22,7 @@ f:RegisterEvent("READY_CHECK");
 f:RegisterEvent("READY_CHECK_CONFIRM");
 f:RegisterEvent("READY_CHECK_FINISHED");
 f:RegisterEvent("PLAYER_REGEN_DISABLED");
+f:RegisterEvent("PLAYER_ROLES_ASSIGNED");
 --f:RegisterEvent("GROUP_ROSTER_UPDATE");
 f:SetScript('OnEvent', function(self, event, ...)
 	if (event == "GROUP_JOINED" or event == "GROUP_FORMED") then
@@ -97,6 +98,8 @@ f:SetScript('OnEvent', function(self, event, ...)
 			NRC:updateRaidStatusFrames(true);
 			NRC:updateRaidStatusReadyCheckStatus();
 		end
+	elseif (event == "PLAYER_ROLES_ASSIGNED") then
+		NRC:updateRaidStatusFrameButtons();
 	end
 end)
 
@@ -288,7 +291,7 @@ function NRC:loadRaidStatusFrames()
 	raidStatusFrame.button:SetWidth(50);
 	raidStatusFrame.button:SetHeight(15);
 	raidStatusFrame.button:SetScale(1);
-	raidStatusFrame.button:SetText("Expand");
+	raidStatusFrame.button:SetText("Expand"); --This text gets updated depending on what the button will do (More/Less).
 	raidStatusFrame.button:Show();
 	
 	raidStatusFrame.button.arrowRight = CreateFrame("Frame", "$parentArrowRight", raidStatusFrame.button);
@@ -334,6 +337,17 @@ function NRC:loadRaidStatusFrames()
 	raidStatusFrame.button:SetScript("OnLeave", function(self)
 		raidStatusFrame.button.tooltip:Hide();
 	end)
+	
+	raidStatusFrame.button2:SetPoint("TOPRIGHT", raidStatusFrame.topRight, -169, 0);
+	raidStatusFrame.button2:SetWidth(60);
+	raidStatusFrame.button2:SetHeight(15);
+	raidStatusFrame.button2:SetScale(1);
+	raidStatusFrame.button2:SetText("Readycheck");
+	raidStatusFrame.button2:SetScript("OnClick", function(self, arg)
+		DoReadyCheck();
+	end)
+	raidStatusFrame.button2:Hide();
+	
 	raidStatusFrame.checkbox = CreateFrame("CheckButton", "NRCRaidStatusFrameCheckbox", raidStatusFrame, "ChatConfigCheckButtonTemplate");
 	raidStatusFrame.checkbox.Text:SetText(L["Groups"]);
 	raidStatusFrame.checkbox.Text:SetFont(NRC.regionFont, 11);
@@ -354,8 +368,22 @@ function NRC:loadRaidStatusFrames()
 		--NRC.acr:NotifyChange("NovaRaidCompanion");
 	end);
 	NRC:updateRaidStatusGroupColors();
+	NRC:updateRaidStatusFrameButtons();
 	NRC:setRaidStatusSize();
 	raidStatusFrame:Hide();
+end
+
+function NRC:updateRaidStatusFrameButtons()
+	if (raidStatusFrame) then
+		if (UnitIsGroupLeader("player") or UnitIsGroupAssistant("player")) then
+			raidStatusFrame.button2:Show();
+			raidStatusFrame.topRight:SetSize(251, 30);
+			raidStatusFrame.button2:Show();
+		else
+			raidStatusFrame.topRight:SetSize(150.5, 30);
+			raidStatusFrame.button2:Hide();
+		end
+	end
 end
 
 function NRC:reloadRaidStatusFrames()
@@ -415,19 +443,6 @@ NRC.tempEnchants = nil;
 local validFoods = {};
 if (NRC.isWrath) then
 	validFoods = {
-		--Remove TBC foods after prepatch.
-		[33258] = "Food", --30 stam 20 spirit.
-		[33269] = "Food", --44 healing 20 spirit.
-		[33264] = "Food", --23 SP 20 spirit.
-		[33260] = "Food", --40 AP 20 spirit.
-		[33262] = "Food", --20 agi 20 spirit.
-		[43763] = "Food", --20 hit 20 spirit.
-		[33255] = "Food", --20 str 20 spirit.
-		[43706] = "Drink", --20 crit 20 spirit.
-		[33266] = "Food", --20 stam 8MP5.
-		[45618] = "Food", --8 resistances.
-		[43730] = "Electrified", --Zap nearby enemies.
-		--Wrath.
 		[57292] = "Refreshment", --Attack Power increased by 60, Spell Power increased by 35 and Stamina increased by 30.
 		[58067] = "Refreshment", --Attack Power increased by 60, Spell Power increased by 35 and Stamina increased by 30.
 		[57398] = "Refreshment", --Attack Power increased by 80, Spell Power increased by 46 and Stamina increased by 40.
@@ -435,7 +450,6 @@ if (NRC.isWrath) then
 		[65363] = "Brewfest Drink", --Critical strike rating increased by 40.
 		[69561] = "Brewfest Drink", --Critical strike rating increased by 40.
 		[59227] = "Refreshment", --You are covered in eel oil!  On the bright side, at least your dodge rating has increased by 40. 
-		[64056] = "Food", --Attack power increased by 24 and spell power increased by 14.
 		[57110] = "Refreshment", --Attack Power increased by 60 and Stamina increased by 30.
 		[58503] = "Refreshment", --Attack Power increased by 60 and Stamina increased by 30. (or this is just a human form buff?)
 		[57085] = "Refreshment", --Attack Power increased by 60 and Stamina increased by 40.
@@ -459,12 +473,17 @@ if (NRC.isWrath) then
 		[57370] = "Refreshment", --Strength increased by 40 and Stamina increased by 40.
 		[57355] = "Refreshment", --Expertise Rating increased by 40 and Stamina increased by 40.
 		[57366] = "Refreshment", --Agility increased by 40 and Stamina increased by 40.
-		[53283] = "Food", --Stamina and Spirit increased by 25.
 		[57364] = "Refreshment", --Spirit increased by 40 and Stamina increased by 40.
 		[57106] = "Refreshment", --Mana Regeneration increased by 15 every 5 seconds and Stamina increased by 40.
 		[57289] = "Refreshment", --Mana Regeneration increased by 15 every 5 seconds and Stamina increased by 30.
 		[57333] = "Refreshment", --Mana Regeneration increased by 20 every 5 seconds and Stamina increased by 40.
 		[57354] = "Refreshment", --Mana Regeneration increased by 20 every 5 seconds and Stamina increased by 40.
+		[53283] = "Food", --Stamina and Spirit increased by 25.
+		[64056] = "Food", --Attack power increased by 24 and spell power increased by 14.
+		--Seems you don't actually get the above buffs in wrath, you get seperate drink and food?
+		--Track he food buff, I think al
+		[45548] = "Food", --Restores 22500 health over 30 sec.
+		---Test feasts.
 	};
 elseif (NRC.isTBC) then
 	validFoods = {
@@ -539,6 +558,7 @@ function NRC:openRaidStatusFrame(showOnly, fromLog, buttonID)
 		--raidStatusFrame.showRes = nil;
 	end
 	NRC:updateRaidStatusReadyCheckStatus();
+	NRC:updateRaidStatusFrameButtons();
 end
 
 local function updateGridTooltip(frame, localBuffData, buffData)

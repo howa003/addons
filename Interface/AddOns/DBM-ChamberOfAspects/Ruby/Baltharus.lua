@@ -1,9 +1,9 @@
 local mod	= DBM:NewMod("Baltharus", "DBM-ChamberOfAspects", 2)
 local L		= mod:GetLocalizedStrings()
 
-mod:SetRevision("20230118214338")
+mod:SetRevision("20230301053143")
 mod:SetCreatureID(39751)
-mod:SetEncounterID(1147)
+mod:SetEncounterID(mod:IsClassic() and 890 or 1147)
 mod:SetModelID(31761)
 mod:SetUsedIcons(1, 2, 3, 4, 5, 6, 7, 8)
 

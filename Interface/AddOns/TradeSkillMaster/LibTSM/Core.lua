@@ -8,9 +8,6 @@
 
 local ADDON_NAME = select(1, ...)
 local TSM = select(2, ...) ---@class TSM
-local VERSION_RAW = GetAddOnMetadata("TradeSkillMaster", "Version")
-local IS_DEV_VERSION = strmatch(VERSION_RAW, "^@tsm%-project%-version@$") and true or false
-local BUILD_NUMBER = select(4, GetBuildInfo())
 local private = {
 	context = {},
 	initOrder = {},
@@ -68,7 +65,7 @@ local MODULE_MT = {
 
 ---Creates a new TSM module.
 ---@param path string The name of the module
----@return table @The module table
+---@return table
 function TSM.Init(path)
 	assert(type(path) == "string")
 	if private.context[path] then
@@ -106,52 +103,10 @@ function TSM.Include(path)
 	return context.module
 end
 
----Returns whether or not we're running a dev version.
----@return boolean
-function TSM.IsDevVersion()
-	return IS_DEV_VERSION
-end
-
----Returns whether or not we're running in a test environment
----@return boolean
-function TSM.IsTestEnvironment()
-	return VERSION_RAW == "v4.99.99"
-end
-
----Gets the current addon version
----@return string @The current addon version
-function TSM.GetVersion()
-	return TSM.IsDevVersion() and "Dev" or VERSION_RAW
-end
-
 ---Returns an iterator over all available modules.
 ---@return fun(): number, string, number, number, number, number # An iterator with fields: `index, loadTime, settingsLoadTime, gameDataLoadTime, moduleUnloadTime`
 function TSM.ModuleInfoIterator()
 	return private.ModuleInfoIterator, nil, 0
-end
-
----Returns whether or not we're running within a classic version of the game.
----@return boolean
-function TSM.IsWowClassic()
-	return WOW_PROJECT_ID == WOW_PROJECT_CLASSIC or WOW_PROJECT_ID == WOW_PROJECT_BURNING_CRUSADE_CLASSIC or WOW_PROJECT_ID == WOW_PROJECT_WRATH_CLASSIC
-end
-
----Returns whether or not we're running within Vanilla Classic.
----@return boolean
-function TSM.IsWowVanillaClassic()
-	return WOW_PROJECT_ID == WOW_PROJECT_CLASSIC
-end
-
----Returns whether or not we're running within Wrath Classic.
----@return boolean
-function TSM.IsWowWrathClassic()
-	return WOW_PROJECT_ID == WOW_PROJECT_WRATH_CLASSIC or WOW_PROJECT_ID == WOW_PROJECT_BURNING_CRUSADE_CLASSIC
-end
-
----Returns whether or not we're running within Wrath Classic.
----@return boolean
-function TSM.IsWowWrathPatch341()
-	return TSM.IsWowWrathClassic() and BUILD_NUMBER >= 30401
 end
 
 ---Unloads all modules to simulate a logout.
@@ -186,9 +141,9 @@ function private.ProcessModuleLoad(path)
 	tinsert(private.loadOrder, path)
 	context.moduleLoadTime = 0
 	if context.moduleLoadFunc then
-		local st = debugprofilestop()
+		local st = GetTimePreciseSec()
 		context.moduleLoadFunc()
-		context.moduleLoadTime = debugprofilestop() - st
+		context.moduleLoadTime = GetTimePreciseSec() - st
 	end
 end
 
@@ -201,9 +156,9 @@ function private.ProcessSettingsLoad(path)
 	end
 	context.settingsLoadTime = 0
 	if context.settingsLoadFunc then
-		local st = debugprofilestop()
+		local st = GetTimePreciseSec()
 		context.settingsLoadFunc()
-		context.settingsLoadTime = debugprofilestop() - st
+		context.settingsLoadTime = GetTimePreciseSec() - st
 	end
 end
 
@@ -216,9 +171,9 @@ function private.ProcessGameDataLoad(path)
 	end
 	context.gameDataLoadTime = 0
 	if context.gameDataLoadFunc then
-		local st = debugprofilestop()
+		local st = GetTimePreciseSec()
 		context.gameDataLoadFunc()
-		context.gameDataLoadTime = debugprofilestop() - st
+		context.gameDataLoadTime = GetTimePreciseSec() - st
 	end
 end
 
@@ -231,9 +186,9 @@ function private.ProcessModuleUnload(path)
 	end
 	context.moduleUnloadTime = 0
 	if context.moduleUnloadFunc then
-		local st = debugprofilestop()
+		local st = GetTimePreciseSec()
 		context.moduleUnloadFunc()
-		context.moduleUnloadTime = debugprofilestop() - st
+		context.moduleUnloadTime = GetTimePreciseSec() - st
 	end
 end
 

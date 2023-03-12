@@ -4,6 +4,7 @@ local _, GL = ...;
 ---@class Data
 GL.Data = GL.Data or {};
 
+---@class Constants
 GL.Data.Constants = {
     defaultFrameTitle = string.format("Gargul |c00967FD2v%s|r", GL.version),
     discordURL = "https://discord.gg/D3mDhYPVzf",
@@ -162,23 +163,27 @@ GL.Data.Constants = {
             "Arvada",
             "Codzima",
             "Curnil",
+            "DingoGDKP",
+            "Jadedspirit",
             "Lantis",
             "Lemmings19",
             "Schweex",
-            "Tonio",
         },
         Uncommon = {
             "CarbonFury",
             "Silvertungh",
             "Sneaky",
             "Snickels",
+            "Tonio",
         },
         Rare = {
             "Busmonstret",
             "Coldemort",
             "Kelziad",
             "Nambojambo",
+            "Panya",
             "Scratchd",
+            "Sgtglimmer",
             "WaDaFruCK",
         },
         Epic = {
@@ -218,6 +223,7 @@ GL.Data.Constants = {
     SoftReserveSources = {
         weakaura = 0,
         gargul = 1,
+        lootReserve = 2,
     },
 
     GargulConflictsWith = {
@@ -232,6 +238,16 @@ GL.Data.Constants = {
         "LootFast2",
         "RCLootCouncil_Classic",
         "SpeedyAutoLoot",
+    },
+
+    DroppedLoot = {
+        WhenToLogLoot = {
+            [1] = "When in a party or raid",
+            [2] = "When in a raid",
+            [3] = "When master loot is active",
+            [4] = "When I'm the master looter",
+            [5] = "When I'm the raid leader",
+        }
     },
 
     GDKP = {
@@ -251,7 +267,7 @@ GL.Data.Constants = {
         GREED = 2,
     },
 
-    ItemsThatSouldntBeAnnounced = {
+    ItemsThatShouldntBeAnnounced = {
         20725, -- Nexus Crystal
         22450, -- Void Crystal
         29434, -- Badge of Justice
@@ -508,7 +524,7 @@ GL.Data.Constants = {
     ]]
     Comm = {
         channel = "GargulComm2",
-        minimumAppVersion = "4.12.0",
+        minimumAppVersion = "5.3.1",
         Actions = {
             awardItem = 1,
             broadcastLootPriorities = 2,
@@ -528,13 +544,16 @@ GL.Data.Constants = {
             deleteAwardedItem = 16,
             startGDKPAuction = 17,
             stopGDKPAuction = 18,
-            extendGDKPAuction = 19,
-            refreshGDKPAuction = 20,
+            rescheduleGDKPAuction = 19,
+            --refreshGDKPAuction = 20, ---@todo: use or remove, unused atm
             requestGDKPSession = 21,
             broadcastGDKPSession = 22,
             broadcastGDKPMutation = 23,
             broadcastGDKPAuctionQueue = 24,
             checkForUpdate = 25,
+            broadcastPlusOnesData = 26,
+            requestPlusOnesData = 27,
+            broadcastPlusOnesMutation = 28,
         },
     },
 

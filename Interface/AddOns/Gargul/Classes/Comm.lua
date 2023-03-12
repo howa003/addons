@@ -45,7 +45,7 @@ Comm.Actions = {
         GL.BagInspector:report(Message);
     end,
     [Actions.requestAppVersion] = function (Message)
-        if (GL:iEquals(GL.User.name, Message.Sender.name)) then
+        if (Message.Sender.isSelf) then
             return;
         end
 
@@ -72,11 +72,8 @@ Comm.Actions = {
     [Actions.stopGDKPAuction] = function (Message)
         GL.GDKP.Auction:stop(Message);
     end,
-    [Actions.extendGDKPAuction] = function (Message)
+    [Actions.rescheduleGDKPAuction] = function (Message)
         GL.GDKP.Auction:extend(Message);
-    end,
-    [Actions.refreshGDKPAuction] = function (Message)
-        GL.GDKP.Auction:refresh(Message);
     end,
     [Actions.broadcastGDKPAuctionQueue] = function (Message)
         GL.GDKP.Auction:receiveQueue(Message);
@@ -89,6 +86,15 @@ Comm.Actions = {
     end,
     [Actions.broadcastBoostedRollsMutation] = function (Message)
         GL.BoostedRolls:receiveUpdate(Message);
+    end,
+    [Actions.broadcastPlusOnesData] = function (Message)
+        GL.PlusOnes:receiveBroadcast(Message);
+    end,
+    [Actions.requestPlusOnesData] = function (Message)
+        GL.PlusOnes:replyToDataRequest(Message);
+    end,
+    [Actions.broadcastPlusOnesMutation] = function (Message)
+        GL.PlusOnes:receiveUpdate(Message);
     end
 };
 
@@ -215,7 +221,7 @@ end
 ---@param payload string
 ---@param distribution string
 ---@return boolean
-function Comm:listen(payload, distribution)
+function Comm:listen(payload, distribution, playerName)
     GL:debug(string.format("Received message on %s", GL.Comm.channel));
 
     payload = GL.CommMessage:decompress(payload);
@@ -229,13 +235,13 @@ function Comm:listen(payload, distribution)
 
     -- Let's find out who sent us this message
     if (not Sender.id) then
-        if (distribution ~= "GUILD") then
-            GL:warning("Unable to confirm identity of sender '" .. payload.senderFqn .. "'");
-            return false;
-        end
-
-        Sender.name = payload.senderName;
+        Sender.name = playerName or GL:stripRealm(payload.senderFqn);
     end
+
+    -- Was this sent by ourself?
+    Sender.isSelf = GL:iEquals(Sender.id, GL.User.id)
+        or GL:iEquals(playerName, GL.User.name)
+        or GL:iEquals(Sender.name, GL.User.name);
 
     -- We're missing a payload
     if (not payload) then

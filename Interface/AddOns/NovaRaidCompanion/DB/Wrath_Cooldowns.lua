@@ -810,13 +810,13 @@ NRC.cooldowns = {
 			[55233] = "Vampiric Blood", --Rank 1.
 		},
 	},
-	["Anti Magic Shield"] = {
+	["Anti Magic Shell"] = {
 		class = "DEATHKNIGHT",
 		icon = "Interface\\Icons\\spell_shadow_antimagicshell",
 		cooldown = 45,
 		minLevel = 68,
 		spellIDs = {
-			[48707] = "Anti-Magic Shield", --Rank 1.
+			[48707] = "Anti-Magic Shell", --Rank 1.
 		},
 	},
 };
