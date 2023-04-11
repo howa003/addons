@@ -1,0 +1,38 @@
+
+AtlasDB = {
+	["profileKeys"] = {
+		["Zowl - Golemagg"] = "Default",
+		["Tailcow - Golemagg"] = "Default",
+		["Thezandalar - Hydraxian Waterlords"] = "Default",
+		["Azerot - Golemagg"] = "Default",
+		["Meatcow - Golemagg"] = "Default",
+		["Zandalara - Golemagg"] = "Default",
+		["Herbcow - Golemagg"] = "Default",
+		["Leathercow - Golemagg"] = "Default",
+		["Banger - Golemagg"] = "Default",
+		["Thezandalar - Mograine"] = "Default",
+		["Zandalar - Golemagg"] = "Default",
+		["Zandalar - Gandling"] = "Default",
+		["Zandalar - Mograine"] = "Default",
+		["Zandalar - Gehennas"] = "Default",
+		["Zandalar - Zandalar Tribe"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["dropdowns"] = {
+				["Eastern Kingdoms Instances"] = 21,
+				["Kalimdor Instances"] = 11,
+				["Outland Instances"] = 22,
+			},
+			["options"] = {
+				["dropdowns"] = {
+					["module"] = 4,
+					["zone"] = 22,
+				},
+			},
+			["minimap"] = {
+				["minimapPos"] = 25.32100082557836,
+			},
+		},
+	},
+}

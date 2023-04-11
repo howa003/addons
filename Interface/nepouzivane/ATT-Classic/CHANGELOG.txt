@@ -1,0 +1,15 @@
+1.4.2 Release Notes
+Contributions made by Crieve:
+* Added missing timeline constants from Retail.
+* Added mainline Auctionator support for group-based AH searching.
+* Fixed an issue with the Auction House module.
+* Parser main.lua files now (almost) match each other between both versions of ATT.
+* Quick King's Amber isn't out until the rest of the epic gems are out.
+* Design: Teardrop Living Ruby was available, it was removed, but definitely not NYI.
+* Added Lesser Flask of Resistance to Wrath Alchemy. Added some missing recipes to Wrath Leatherworking. Updated Chef's Award / Epicurean's Award costs to use a helper function.
+* Updated locale names.
+* Apparently you can't have an empty source file.
+* Added some missing Tailoring Recipes to Wrath Classic.
+* Added some missing Engineering Tinkers to Wrath Classic.
+* Killed Wrath Jewelcrafting recipe data in the Retail DB in order to fix expansion specific recipe assignments.
+

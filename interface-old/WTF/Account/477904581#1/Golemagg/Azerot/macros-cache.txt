@@ -1,0 +1,18 @@
+VER 3 0000000001000003 "FB" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast frostbolt
+END
+VER 3 0000000001000005 "FiBl" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast fire blast
+END
+VER 3 0000000001000004 "FireB" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast fireball
+END
+VER 3 0000000001000001 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1MR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0000000001000002 "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Aze[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END

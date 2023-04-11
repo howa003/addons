@@ -2,7 +2,7 @@
 DejaClassicStatsDBPC = {
 	["gdbdefaults"] = {
 		["DejaClassicStatsManaRegenNotCasting"] = {
-			["DCSnotcasting"] = 67.93706512451172,
+			["DCSnotcasting"] = 72.42074584960938,
 		},
 		["DejaClassicStatsShowDuraTextureChecked"] = {
 			["ShowDuraTextureSetChecked"] = true,
@@ -32,7 +32,7 @@ DejaClassicStatsDBPC = {
 			["ShowHideDefenseSetChecked"] = true,
 		},
 		["DejaClassicStatsShowEnchantChecked"] = {
-			["ShowEnchantSetChecked"] = true,
+			["ShowEnchantSetChecked"] = false,
 		},
 		["DejaClassicStatsShowHidePrimaryChecked"] = {
 			["ShowHidePrimarySetChecked"] = true,

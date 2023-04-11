@@ -1,0 +1,10 @@
+## Interface: 20501
+## Title: HealBot Taiwanese Localization
+## Author: Required
+## Notes: HealBot localization for zhTW
+## RequiredDeps: HealBot
+## LoadOnDemand: 1
+## Version: 2.5.1.0
+
+HealBot_Localization.tw.lua
+HealBot_Tips_Localization.tw.lua

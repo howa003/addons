@@ -1,0 +1,10 @@
+tag 576836a77c369bd5153404f245c2ec3ca342d799 Details.DF.Wrath.10409.148
+Author:	Tercio Jose <terciob19@hotmail.com>
+Date:	Fri Jan 20 11:55:40 2023 -0300
+
+commit 597dac46992bd96c1876af6f01dbdc080c980ac6
+Author: Tercio Jose <terciob19@hotmail.com>
+Date:   Fri Jan 20 11:55:06 2023 -0300
+
+    Spell list maintenance
+

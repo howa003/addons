@@ -1,0 +1,20 @@
+## Interface: 20501
+## Title: HealBot English Localization
+## Author: Strife
+## Notes: HealBot localization for enUS and enUK
+## Version: 2.5.1.7
+
+Libs\LibStub\LibStub.lua
+Libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
+
+Libs\LibSharedMedia-3.0\lib.xml
+Libs\libdatabroker-1-1\LibDataBroker-1.1.lua
+Libs\LibDBIcon-1.0\lib.xml
+Libs\UTF8\utf8data.lua
+Libs\UTF8\utf8.lua
+Libs\LibHealComm-4.0\LibHealComm-4.0.xml
+
+HealBot_Global.lua
+HealBot_Version.lua
+HealBot_Localization.en.lua
+HealBot_Libs.lua

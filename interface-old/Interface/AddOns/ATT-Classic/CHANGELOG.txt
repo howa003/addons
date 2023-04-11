@@ -1,0 +1,18 @@
+1.3.4 Release Notes
+Contributions made by Crieve:
+* Fixed a bug with certain reagents showing up when they shouldn't.
+* Fixed some Lunar Festival coordinates for Wrath Classic.
+* Added the Lunar Festival Vendor.
+* Blackrock Spire mini list now appropriately shows things that occur in the instance from other sources.
+* Fixed the Hoplet for Wrath Classic.
+* Farwhisper the Elder now points to the Service Gate for Wrath Classic.
+* The quest "Blood Crystals" in Azuremyst Isle no longer triggers an invalid texture error.
+* Moved the "Argent Tournament Grounds" to Icecrown. Added some missing Borean Tundra explorationIDs for Wrath Classic.
+* Added spellIDs for the Festering Emerald Drake and Hoplet for Wrath Classic.
+* Hoplet is now properly tagged as a Battle Pet.
+* Updated Elder Windtotem's coordinates for Wrath Classic.
+* Updated Moonwarden the Elder's coordinate for Wrath Classic.
+* Valiants also count for Lance a Lot.
+* The Black and Plagued Proto-Drakes didn't get removed with Phase 2 as everyone expected.
+* Added Cutting Edge: Ulduar and Ahead of the Curve: Yogg-Saron.
+

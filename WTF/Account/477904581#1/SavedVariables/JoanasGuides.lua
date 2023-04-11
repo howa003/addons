@@ -1,6 +1,6 @@
 
 JoanasGuides_Account = {
-	["hideGuide"] = true,
+	["hideGuide"] = false,
 	["autoquests"] = true,
 	["WindowLocation"] = {
 		"RIGHT", -- [1]
@@ -10,9 +10,9 @@ JoanasGuides_Account = {
 		-92.12792205810547, -- [5]
 	},
 	["scale"] = 1,
-	["enableStepID"] = true,
-	["objectiveCompletionSound"] = true,
 	["JoanasGuides-MinimapButton"] = {
-		["position"] = -2.351656612067641,
+		["position"] = -2.811899384511558,
 	},
+	["objectiveCompletionSound"] = true,
+	["enableStepID"] = true,
 }

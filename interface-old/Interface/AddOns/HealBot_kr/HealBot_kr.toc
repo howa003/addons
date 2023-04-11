@@ -1,0 +1,10 @@
+## Interface: 20501
+## Title: HealBot Korean Localization
+## Author: Required
+## Notes: HealBot localization for koKR
+## RequiredDeps: HealBot
+## LoadOnDemand: 1
+## Version: 2.5.1.0
+
+HealBot_Localization.kr.lua
+HealBot_Tips_Localization.kr.lua

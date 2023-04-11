@@ -58,9 +58,9 @@ function Settings:sanitizeSettings()
     end
 
     -- Remove old roll data so it doesn't clog our SavedVariables
-    local twoWeeksAgo = GetServerTime() - 1209600;
+    local fiveWeeksAgo = GetServerTime() - 3024000;
     for key, Award in pairs(DB:get("AwardHistory") or {}) do
-        if (Award.timestamp < twoWeeksAgo) then
+        if (Award.timestamp < fiveWeeksAgo) then
             Award.Rolls = nil;
             DB:set("AwardHistory." .. key, Award);
         end
@@ -261,7 +261,7 @@ end
 --- Draw a setting section
 ---
 ---@param section string|nil
----@param param function|nil What to do after closing the settings again
+---@param onCloseCallback function|nil What to do after closing the settings again
 ---@return void
 function Settings:draw(section, onCloseCallback)
     GL.Interface.Settings.Overview:draw(section, onCloseCallback);

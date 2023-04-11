@@ -1,0 +1,318 @@
+
+BejeweledProfile = {
+	["scoresPopup"] = true,
+	["stats"] = {
+		["timed"] = {
+			["data"] = "7Nt```",
+			["played"] = 0,
+			["score"] = 0,
+			["mostMoves"] = 0,
+		},
+		["largestCascade"] = 0,
+		["classic"] = {
+			["highestLevel"] = 0,
+			["played"] = 0,
+			["score"] = 0,
+			["data"] = "x?W````",
+		},
+		["totalHyperGems"] = 0,
+		["totalGemsMatched"] = 0,
+		["combatPause"] = 0,
+		["gemMatch"] = {
+			0, -- [1]
+			0, -- [2]
+			0, -- [3]
+			0, -- [4]
+			0, -- [5]
+			0, -- [6]
+			0, -- [7]
+			0, -- [8]
+		},
+		["totalPowerGems"] = 0,
+		["played"] = 0,
+		["largestCombo"] = 0,
+	},
+	["settings"] = {
+		["publishScores"] = 1,
+		["newGameFlight"] = 1,
+		["publishRankGains"] = 1,
+		["defaultPublish"] = "GUILD",
+		["closeReadyCheck"] = 1,
+		["mouseoffAlpha"] = 0.3,
+		["openOnDeath"] = 1,
+		["openFlightStart"] = 1,
+		["publishSkillGains"] = 1,
+		["enableSounds"] = 1,
+		["gameAlpha"] = 1,
+		["showFlightTooltips"] = 1,
+		["closeCombat"] = 1,
+	},
+	["scoresUpdated"] = true,
+	["scoreList"] = {
+		["friends"] = {
+			["classic"] = {
+				{
+					"PopCap Games", -- [1]
+					1, -- [2]
+					1000, -- [3]
+					"9VW``nt", -- [4]
+				}, -- [1]
+				{
+					"PopCap Games", -- [1]
+					1, -- [2]
+					900, -- [3]
+					"7Rk``lQ", -- [4]
+				}, -- [2]
+				{
+					"PopCap Games", -- [1]
+					1, -- [2]
+					800, -- [3]
+					"zDR``k3", -- [4]
+				}, -- [3]
+				{
+					"PopCap Games", -- [1]
+					1, -- [2]
+					700, -- [3]
+					"v>z``j`", -- [4]
+				}, -- [4]
+				{
+					"PopCap Games", -- [1]
+					1, -- [2]
+					600, -- [3]
+					"v;a``h=", -- [4]
+				}, -- [5]
+				{
+					"PopCap Games", -- [1]
+					1, -- [2]
+					500, -- [3]
+					";OC``gj", -- [4]
+				}, -- [6]
+				{
+					"PopCap Games", -- [1]
+					1, -- [2]
+					400, -- [3]
+					";MH``eG", -- [4]
+				}, -- [7]
+				{
+					"PopCap Games", -- [1]
+					1, -- [2]
+					300, -- [3]
+					"7EM``dt", -- [4]
+				}, -- [8]
+				{
+					"PopCap Games", -- [1]
+					1, -- [2]
+					200, -- [3]
+					"7CR``bQ", -- [4]
+				}, -- [9]
+				{
+					"PopCap Games", -- [1]
+					1, -- [2]
+					10, -- [3]
+					"x1C```j", -- [4]
+				}, -- [10]
+			},
+			["timed"] = {
+				{
+					"PopCap Games", -- [1]
+					1, -- [2]
+					2.8, -- [3]
+					"=H7`d`", -- [4]
+				}, -- [1]
+				{
+					"PopCap Games", -- [1]
+					1, -- [2]
+					2.6, -- [3]
+					"wST`cG", -- [4]
+				}, -- [2]
+				{
+					"PopCap Games", -- [1]
+					1, -- [2]
+					2.4, -- [3]
+					"<Nm`c3", -- [4]
+				}, -- [3]
+				{
+					"PopCap Games", -- [1]
+					1, -- [2]
+					2.2, -- [3]
+					";ST`cj", -- [4]
+				}, -- [4]
+				{
+					"PopCap Games", -- [1]
+					1, -- [2]
+					2, -- [3]
+					"xgl`bQ", -- [4]
+				}, -- [5]
+				{
+					"PopCap Games", -- [1]
+					1, -- [2]
+					1.8, -- [3]
+					"=a5`b=", -- [4]
+				}, -- [6]
+				{
+					"PopCap Games", -- [1]
+					1, -- [2]
+					1.6, -- [3]
+					"<gl`bt", -- [4]
+				}, -- [7]
+				{
+					"PopCap Games", -- [1]
+					1, -- [2]
+					1.4, -- [3]
+					"9BI`b`", -- [4]
+				}, -- [8]
+				{
+					"PopCap Games", -- [1]
+					1, -- [2]
+					1.2, -- [3]
+					"=oH`aG", -- [4]
+				}, -- [9]
+				{
+					"PopCap Games", -- [1]
+					1, -- [2]
+					1, -- [3]
+					"8H4`a3", -- [4]
+				}, -- [10]
+			},
+		},
+		["guild"] = {
+			["classic"] = {
+				{
+					"PopCap Games", -- [1]
+					1, -- [2]
+					1000, -- [3]
+					"9VW``nt", -- [4]
+				}, -- [1]
+				{
+					"PopCap Games", -- [1]
+					1, -- [2]
+					900, -- [3]
+					"7Rk``lQ", -- [4]
+				}, -- [2]
+				{
+					"PopCap Games", -- [1]
+					1, -- [2]
+					800, -- [3]
+					"zDR``k3", -- [4]
+				}, -- [3]
+				{
+					"PopCap Games", -- [1]
+					1, -- [2]
+					700, -- [3]
+					"v>z``j`", -- [4]
+				}, -- [4]
+				{
+					"PopCap Games", -- [1]
+					1, -- [2]
+					600, -- [3]
+					"v;a``h=", -- [4]
+				}, -- [5]
+				{
+					"PopCap Games", -- [1]
+					1, -- [2]
+					500, -- [3]
+					";OC``gj", -- [4]
+				}, -- [6]
+				{
+					"PopCap Games", -- [1]
+					1, -- [2]
+					400, -- [3]
+					";MH``eG", -- [4]
+				}, -- [7]
+				{
+					"PopCap Games", -- [1]
+					1, -- [2]
+					300, -- [3]
+					"7EM``dt", -- [4]
+				}, -- [8]
+				{
+					"PopCap Games", -- [1]
+					1, -- [2]
+					200, -- [3]
+					"7CR``bQ", -- [4]
+				}, -- [9]
+				{
+					"PopCap Games", -- [1]
+					1, -- [2]
+					100, -- [3]
+					"x1C```j", -- [4]
+				}, -- [10]
+			},
+			["timed"] = {
+				{
+					"PopCap Games", -- [1]
+					1, -- [2]
+					2.8, -- [3]
+					"=H7`d`", -- [4]
+				}, -- [1]
+				{
+					"PopCap Games", -- [1]
+					1, -- [2]
+					2.6, -- [3]
+					"wST`cG", -- [4]
+				}, -- [2]
+				{
+					"PopCap Games", -- [1]
+					1, -- [2]
+					2.4, -- [3]
+					"<Nm`c3", -- [4]
+				}, -- [3]
+				{
+					"PopCap Games", -- [1]
+					1, -- [2]
+					2.2, -- [3]
+					";ST`cj", -- [4]
+				}, -- [4]
+				{
+					"PopCap Games", -- [1]
+					1, -- [2]
+					2, -- [3]
+					"xgl`bQ", -- [4]
+				}, -- [5]
+				{
+					"PopCap Games", -- [1]
+					1, -- [2]
+					1.8, -- [3]
+					"=a5`b=", -- [4]
+				}, -- [6]
+				{
+					"PopCap Games", -- [1]
+					1, -- [2]
+					1.6, -- [3]
+					"<gl`bt", -- [4]
+				}, -- [7]
+				{
+					"PopCap Games", -- [1]
+					1, -- [2]
+					1.4, -- [3]
+					"9BI`b`", -- [4]
+				}, -- [8]
+				{
+					"PopCap Games", -- [1]
+					1, -- [2]
+					1.2, -- [3]
+					"=oH`aG", -- [4]
+				}, -- [9]
+				{
+					"PopCap Games", -- [1]
+					1, -- [2]
+					1, -- [3]
+					"8H4`a3", -- [4]
+				}, -- [10]
+			},
+		},
+	},
+	["skill"] = {
+		["games"] = 0,
+		["timedGames"] = 0,
+		["friendList"] = {
+			["c"] = 0,
+		},
+		["guildList"] = {
+			["c"] = 0,
+		},
+		["skillPoints"] = 0,
+		["rank"] = 1,
+	},
+	["version"] = "1.13.2",
+}

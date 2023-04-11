@@ -10,8 +10,8 @@ TomTomDB = {
 		["Zandalar - Golemagg"] = "Default",
 		["Zandalar - Gandling"] = "Default",
 		["Banger - Golemagg"] = "Default",
-		["Leathercow - Golemagg"] = "Default",
 		["Zandalar - Zandalar Tribe"] = "Default",
+		["Leathercow - Golemagg"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -48,8 +48,8 @@ TomTomWaypointsM = {
 		["Zandalar - Golemagg"] = "Zandalar - Golemagg",
 		["Zandalar - Gandling"] = "Zandalar - Gandling",
 		["Banger - Golemagg"] = "Banger - Golemagg",
-		["Leathercow - Golemagg"] = "Leathercow - Golemagg",
 		["Zandalar - Zandalar Tribe"] = "Zandalar - Zandalar Tribe",
+		["Leathercow - Golemagg"] = "Leathercow - Golemagg",
 	},
 	["profiles"] = {
 		["Zowl - Golemagg"] = {
@@ -68,18 +68,10 @@ TomTomWaypointsM = {
 					["from"] = "TomTom/way",
 					["callbacks"] = {
 						["distance"] = {
-							[10] = nil --[[ skipped inline function ]],
-							[15] = nil --[[ skipped inline function ]],
-						},
-						["world"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
 						},
 						["minimap"] = {
-							["onclick"] = nil --[[ skipped inline function ]],
-							["tooltip_update"] = nil --[[ skipped inline function ]],
-							["tooltip_show"] = nil --[[ skipped inline function ]],
+						},
+						["world"] = {
 						},
 					},
 					["minimap"] = true,
@@ -114,9 +106,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["world"] = {
-						},
 						["minimap"] = {
+						},
+						["world"] = {
 						},
 					},
 					["minimap"] = true,
@@ -137,9 +129,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["world"] = {
-						},
 						["minimap"] = {
+						},
+						["world"] = {
 						},
 					},
 					["minimap"] = true,
@@ -151,9 +143,9 @@ TomTomWaypointsM = {
 		},
 		["Banger - Golemagg"] = {
 		},
-		["Leathercow - Golemagg"] = {
-		},
 		["Zandalar - Zandalar Tribe"] = {
+		},
+		["Leathercow - Golemagg"] = {
 		},
 	},
 }

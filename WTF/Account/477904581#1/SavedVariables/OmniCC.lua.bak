@@ -1,22 +1,27 @@
 
 OmniCCDB = {
 	["profileKeys"] = {
-		["Zowl - Golemagg"] = "Default",
-		["Tailcow - Golemagg"] = "Default",
-		["Zandalar - Zandalar Tribe"] = "Default",
+		["Maffoboss - Golemagg"] = "Default",
 		["Meatcow - Golemagg"] = "Default",
 		["Zandalara - Golemagg"] = "Default",
-		["Herbcow - Golemagg"] = "Default",
-		["Azerot - Golemagg"] = "Default",
+		["Leathercow - Golemagg"] = "Default",
 		["Zandalar - Golemagg"] = "Default",
+		["Banger - Golemagg"] = "Default",
+		["Potioncow - Golemagg"] = "Default",
+		["Enchancow - Golemagg"] = "Default",
+		["Tailcow - Golemagg"] = "Default",
+		["Azerot - Golemagg"] = "Default",
+		["Lickmenow - Golemagg"] = "Default",
+		["Zowl - Golemagg"] = "Default",
+		["Alchemcow - Golemagg"] = "Default",
 		["Zandalar - Gandling"] = "Default",
 		["Zandalar - Mograine"] = "Default",
-		["Banger - Golemagg"] = "Default",
-		["Leathercow - Golemagg"] = "Default",
+		["Zandalar - Zandalar Tribe"] = "Default",
+		["Herbcow - Golemagg"] = "Default",
 	},
 	["global"] = {
 		["dbVersion"] = 6,
-		["addonVersion"] = "10.0.4",
+		["addonVersion"] = "10.0.5",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -51,11 +56,11 @@ OmniCCDB = {
 			["themes"] = {
 				["Default"] = {
 					["textStyles"] = {
-						["minutes"] = {
-						},
 						["soon"] = {
 						},
 						["seconds"] = {
+						},
+						["minutes"] = {
 						},
 					},
 				},

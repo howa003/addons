@@ -1,0 +1,123 @@
+
+NauticusClassic5DB = {
+	["char"] = {
+		["Zowl - Golemagg"] = {
+			["activeTransit"] = 2,
+		},
+		["Zandalar - Golemagg"] = {
+			["activeTransit"] = 2,
+		},
+		["Zandalar - Mograine"] = {
+			["activeTransit"] = 4,
+		},
+		["Zandalara - Golemagg"] = {
+			["activeTransit"] = 3,
+		},
+		["Banger - Golemagg"] = {
+			["activeTransit"] = 4,
+		},
+	},
+	["global"] = {
+		["knownCycles"] = {
+			{
+				["swaps"] = 1,
+				["boots"] = 0,
+				["since"] = -193672.663,
+			}, -- [1]
+			{
+				["swaps"] = 1,
+				["boots"] = 0,
+				["since"] = 36517.531,
+			}, -- [2]
+			{
+				["swaps"] = 1,
+				["boots"] = 0,
+				["since"] = -50069.402,
+			}, -- [3]
+			{
+				["swaps"] = 1,
+				["boots"] = 0,
+				["since"] = 34280.254,
+			}, -- [4]
+			{
+				["swaps"] = 3,
+				["boots"] = 0,
+				["since"] = 11902.875,
+			}, -- [5]
+			{
+				["swaps"] = 2,
+				["boots"] = 0,
+				["since"] = -234286.991,
+			}, -- [6]
+			{
+				["swaps"] = 2,
+				["boots"] = 0,
+				["since"] = -1376996.137,
+			}, -- [7]
+			{
+				["swaps"] = 2,
+				["boots"] = 0,
+				["since"] = -482364.886,
+			}, -- [8]
+			{
+				["swaps"] = 3,
+				["boots"] = 0,
+				["since"] = -141350.71,
+			}, -- [9]
+			{
+				["swaps"] = 3,
+				["boots"] = 0,
+				["since"] = -141279.342,
+			}, -- [10]
+		},
+		["timestamp"] = 1621639047,
+		["uptime"] = 146261.907,
+	},
+	["profileKeys"] = {
+		["Zowl - Golemagg"] = "Zowl - Golemagg",
+		["Tailcow - Golemagg"] = "Tailcow - Golemagg",
+		["Zandalar - Zandalar Tribe"] = "Zandalar - Zandalar Tribe",
+		["Meatcow - Golemagg"] = "Meatcow - Golemagg",
+		["Zandalara - Golemagg"] = "Zandalara - Golemagg",
+		["Herbcow - Golemagg"] = "Herbcow - Golemagg",
+		["Zandalar - Golemagg"] = "Zandalar - Golemagg",
+		["Azerot - Golemagg"] = "Azerot - Golemagg",
+		["Banger - Golemagg"] = "Banger - Golemagg",
+		["Zandalar - Mograine"] = "Zandalar - Mograine",
+		["Leathercow - Golemagg"] = "Leathercow - Golemagg",
+	},
+	["profiles"] = {
+		["Zowl - Golemagg"] = {
+			["broadcastChannel"] = "RAID",
+			["minimap"] = {
+				["minimapPos"] = 316.561271179301,
+			},
+		},
+		["Tailcow - Golemagg"] = {
+		},
+		["Zandalar - Zandalar Tribe"] = {
+		},
+		["Meatcow - Golemagg"] = {
+		},
+		["Zandalara - Golemagg"] = {
+		},
+		["Herbcow - Golemagg"] = {
+		},
+		["Zandalar - Golemagg"] = {
+			["minimap"] = {
+				["minimapPos"] = 315.946400381062,
+			},
+		},
+		["Azerot - Golemagg"] = {
+		},
+		["Banger - Golemagg"] = {
+			["minimap"] = {
+				["minimapPos"] = 184.853303737271,
+			},
+		},
+		["Zandalar - Mograine"] = {
+		},
+		["Leathercow - Golemagg"] = {
+		},
+	},
+}

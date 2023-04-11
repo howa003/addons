@@ -1,18 +1,3 @@
-VER 3 0000000000000007 " " "INV_MISC_QUESTIONMARK"
-#showtooltip
-/startattack
-/cast Flame Shock(Rank 6)
-END
-VER 3 0000000000000410 " " "INV_MISC_QUESTIONMARK"
-/tar garhal
-/cast moonfire
-END
-VER 3 0000000000000018 " " "136085"
-#showtooltip
-/cancelform
-/cast Regrowth
-/targetlastenemy
-END
 VER 3 0000000000000406 " " "INV_MISC_QUESTIONMARK"
 /tar Darkspine Myr
 /script SetRaidTarget("target", 8);
@@ -31,13 +16,28 @@ VER 3 0000000000000020 " " "132115"
 /cast Cat Form
 /startattack
 END
-VER 3 0000000000000002 "  " "136026"
+VER 3 000000000000041A " " "135833"
+/script C_GossipInfo.SelectAvailableQuest(1)
+/script C_GossipInfo.SelectActiveQuest(1)
+/script CompleteQuest()
+/script GetQuestReward(1)
+/script C_GossipInfo.SelectOption(1)
+/script AcceptQuest()
+END
+VER 3 0000000000000007 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
 /startattack
-/cast Earth Shock(Rank 7)
+/cast Flame Shock(Rank 6)
 END
-VER 3 0000000000000411 "  " "INV_MISC_QUESTIONMARK"
-/tar nexus drake hatch
+VER 3 0000000000000410 " " "INV_MISC_QUESTIONMARK"
+/tar garhal
+/cast moonfire
+END
+VER 3 0000000000000018 " " "136085"
+#showtooltip
+/cancelform
+/cast Regrowth
+/targetlastenemy
 END
 VER 3 00000000000003D5 "  " "INV_MISC_QUESTIONMARK"
 /script MacroFrameText:Insert("")
@@ -45,6 +45,11 @@ END
 VER 3 00000000000003E1 "  " "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast Starfire
+END
+VER 3 0000000000000002 "  " "136026"
+#showtooltip
+/startattack
+/cast Earth Shock(Rank 7)
 END
 VER 3 00000000000003FC "   " "INV_MISC_QUESTIONMARK"
 #showtooltip
@@ -64,8 +69,7 @@ VER 3 0000000000000016 " STUN" "132368"
 /cast War Stomp(Racial)
 END
 VER 3 0000000000000008 " TAR" "136072"
-/tar storm
-/script SetRaidTarget("target", 8);
+/tar Collapsing Star
 END
 VER 3 00000000000003DD "0TAIL" "135828"
 SPELLFIRE:
@@ -203,28 +207,26 @@ END
 VER 3 0000000000000408 "GHETTO" "136047"
 /run InviteUnit("a");C_Timer.After(1,function() LeaveParty() end)
 END
+VER 3 00000000000003F4 "Inner" "136048"
+#showtooltip
+/cast Innervate
+/y Innervating %t z oblázkového města!
+END
 VER 3 000000000000040E "INV" "INV_MISC_QUESTIONMARK"
 /tar mouseover
 /invite
 /cleartarget
-END
-VER 3 000000000000040F "LFM" "135727"
-/2 {star} LFM  dps MECHA  (only 1st boss) {star}
-/2 {star} LFM  dps MECHA (only 1st boss) {star}
-/5 {star} LFM  dps MECHA (only 1st boss) {star}
-/6 {star} LFM  dps MECHA  (only 1st boss) {star}
 END
 VER 3 00000000000003D1 "LFM" "INV_MISC_QUESTIONMARK"
 /1 {circle} LFM Zul'Drak arena (Amphitheater of Anguish) quests {circle} (1 spot)
 /3 {circle} LFM Zul'Drak arena (Amphitheater of Anguish) quests {circle} (1 spot)
 /6 {circle} LFM Zul'Drak arena (Amphitheater of Anguish) quests {circle} (1 spot)
 END
-VER 3 000000000000001C "MAFO" "136081"
-#showtooltip
-/cancelform
-/tar Maffo
-/cast Rejuvenation
-/targetlastenemy
+VER 3 000000000000040F "LFM" "135727"
+/2 {star} LFM  dps MECHA  (only 1st boss) {star}
+/2 {star} LFM  dps MECHA (only 1st boss) {star}
+/5 {star} LFM  dps MECHA (only 1st boss) {star}
+/6 {star} LFM  dps MECHA  (only 1st boss) {star}
 END
 VER 3 0000000000000014 "MAFO" "136048"
 #showtooltip
@@ -239,6 +241,13 @@ VER 3 0000000000000019 "MAFO" "136085"
 /cancelform
 /tar Maffo
 /cast Regrowth
+/targetlastenemy
+END
+VER 3 000000000000001C "MAFO" "136081"
+#showtooltip
+/cancelform
+/tar Maffo
+/cast Rejuvenation
 /targetlastenemy
 END
 VER 3 000000000000040D "mf" "INV_MISC_QUESTIONMARK"
@@ -316,15 +325,21 @@ VER 3 00000000000003F3 "Shaniq" "INV_MISC_QUESTIONMARK"
 /y Innervating %t!
 /targetlastenemy
 END
-VER 3 000000000000000C "skull" "132094"
-/script SetRaidTarget("target", 8);
-END
 VER 3 0000000000000404 "skull" "136047"
 /focus
+END
+VER 3 000000000000000C "skull" "132094"
+/script SetRaidTarget("target", 8);
 END
 VER 3 00000000000003EE "Spine" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use Naj'entus Spine
+END
+VER 3 000000000000041B "STAR" "132123"
+/tar Collapsing Star
+END
+VER 3 0000000000000419 "STRT" "134400"
+/castsequence Force of Nature, Faerie Fire, Insect Swarm, Moonfire, Starfall
 END
 VER 3 0000000000000412 "TAR" "132089"
 /tar exh
@@ -333,11 +348,8 @@ END
 VER 3 00000000000003EA "TAR" "132123"
 /targetenemy
 END
-VER 3 00000000000003F4 "Tomi" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/tar Tomi
-/cast Innervate
-/y Innervating %t z oblázkového města!
+VER 3 000000000000041C "TENT" "135774"
+/tar Constrictor Tentacle
 END
 VER 3 00000000000003E7 "totem" "132093"
 /tar spit

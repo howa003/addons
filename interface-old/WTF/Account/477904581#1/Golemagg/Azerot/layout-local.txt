@@ -1,0 +1,22 @@
+Version: 1
+Frame: AtlasLoot_GUI-Frame
+FrameLevel: 1
+Anchor: BOTTOM
+X: 4
+Y: 125
+W: 920
+H: 600
+Frame: Five Second Rule Statusbar
+FrameLevel: 1
+Anchor: TOPLEFT
+X: 92
+Y: -98
+W: 117
+H: 11
+Frame: GroupBulletinBoardFrame
+FrameLevel: 1
+Anchor: CENTER
+X: 9
+Y: 49
+W: 987
+H: 371

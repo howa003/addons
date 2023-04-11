@@ -1,0 +1,22 @@
+
+InFlightDB = {
+	["version"] = "classic",
+	["global"] = {
+		["Horde"] = {
+			["Everlook"] = {
+				["Camp Mojache"] = 666,
+			},
+		},
+	},
+	["upload"] = 1615884004,
+	["dbinit"] = 1134,
+	["profileKeys"] = {
+		["Zowl - Golemagg"] = "Default",
+		["Zandalar - Mograine"] = "Default",
+		["Zandalar - Golemagg"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

@@ -1,0 +1,13 @@
+## Interface: 20501
+## Title: Bejeweled
+## Version: 2.5.1
+## Notes: The popular game Bejeweled, for World of Warcraft Classic!
+## Author: PopCap Games, Inc.
+## X-ArcadePanel: getglobal("BejeweledWindow"):Show();
+## X-ArcadePanelGraphic: interface\addons\bejeweled\images\bejeweled
+## X-ArcadePanelDescription: The popular game Bejeweled, now for World of Warcraft!\n\n(c) 2000, 2008 PopCap Games Inc. All right reserved.
+## SavedVariables: BejeweledData
+## SavedVariablesPerCharacter: BejeweledProfile
+
+Bejeweled.lua
+

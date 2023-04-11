@@ -3,15 +3,20 @@ ClassicLFG_DB = {
 	["profileKeys"] = {
 		["Zowl - Golemagg"] = "Zowl - Golemagg",
 		["Tailcow - Golemagg"] = "Tailcow - Golemagg",
+		["Lickmenow - Golemagg"] = "Lickmenow - Golemagg",
+		["Enchancow - Golemagg"] = "Enchancow - Golemagg",
 		["Azerot - Golemagg"] = "Azerot - Golemagg",
 		["Meatcow - Golemagg"] = "Meatcow - Golemagg",
 		["Zandalara - Golemagg"] = "Zandalara - Golemagg",
+		["Alchemcow - Golemagg"] = "Alchemcow - Golemagg",
+		["Herbcow - Golemagg"] = "Herbcow - Golemagg",
 		["Leathercow - Golemagg"] = "Leathercow - Golemagg",
+		["Zandalar - Zandalar Tribe"] = "Zandalar - Zandalar Tribe",
 		["Zandalar - Golemagg"] = "Zandalar - Golemagg",
 		["Zandalar - Gandling"] = "Zandalar - Gandling",
 		["Banger - Golemagg"] = "Banger - Golemagg",
-		["Zandalar - Zandalar Tribe"] = "Zandalar - Zandalar Tribe",
-		["Herbcow - Golemagg"] = "Herbcow - Golemagg",
+		["Maffoboss - Golemagg"] = "Maffoboss - Golemagg",
+		["Potioncow - Golemagg"] = "Potioncow - Golemagg",
 	},
 	["profiles"] = {
 		["Zowl - Golemagg"] = {
@@ -22,21 +27,31 @@ ClassicLFG_DB = {
 				["Y"] = -475.076904296875,
 				["X"] = 838.2051391601562,
 			},
-			["BroadcastDungeonGroupChannel"] = 0,
+			["BroadcastDungeonGroupChannel"] = 1,
 		},
 		["Tailcow - Golemagg"] = {
 		},
+		["Lickmenow - Golemagg"] = {
+		},
+		["Enchancow - Golemagg"] = {
+		},
 		["Azerot - Golemagg"] = {
+			["BroadcastDungeonGroupChannel"] = 0,
 			["minimap"] = {
 				["minimapPos"] = 104.761587412634,
 			},
-			["BroadcastDungeonGroupChannel"] = 0,
 		},
 		["Meatcow - Golemagg"] = {
 		},
 		["Zandalara - Golemagg"] = {
 		},
+		["Alchemcow - Golemagg"] = {
+		},
+		["Herbcow - Golemagg"] = {
+		},
 		["Leathercow - Golemagg"] = {
+		},
+		["Zandalar - Zandalar Tribe"] = {
 		},
 		["Zandalar - Golemagg"] = {
 			["minimap"] = {
@@ -44,20 +59,21 @@ ClassicLFG_DB = {
 			},
 			["DungeonSelection"] = "All TBC Dungeons",
 			["ShowAllDungeons"] = true,
-			["BroadcastDungeonGroupChannel"] = 0,
+			["BroadcastDungeonGroupChannel"] = 1,
 		},
 		["Zandalar - Gandling"] = {
 		},
 		["Banger - Golemagg"] = {
 			["DungeonSelection"] = "All TBC Dungeons",
-			["ShowAllDungeons"] = true,
 			["minimap"] = {
 				["minimapPos"] = 347.2424319569581,
 			},
+			["ShowAllDungeons"] = true,
 		},
-		["Zandalar - Zandalar Tribe"] = {
+		["Maffoboss - Golemagg"] = {
+			["BroadcastDungeonGroupChannel"] = 1,
 		},
-		["Herbcow - Golemagg"] = {
+		["Potioncow - Golemagg"] = {
 		},
 	},
 }

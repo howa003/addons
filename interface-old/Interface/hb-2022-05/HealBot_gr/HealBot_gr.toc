@@ -1,0 +1,10 @@
+## Interface: 20503
+## Title: HealBot Greek Localization
+## Author: Snaomi
+## Notes: HealBot localization for grGR
+## RequiredDeps: HealBot
+## LoadOnDemand: 1
+## Version: 2.5.3.0
+
+HealBot_Localization.gr.lua
+HealBot_Tips_Localization.gr.lua

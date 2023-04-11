@@ -59,7 +59,7 @@ WeakAurasTemplates: enabled
 WeaponSwingTimer: disabled
 XpCounter: disabled
 ZygorGuidesViewerClassic: enabled
-Questie: disabled
+Questie: enabled
 WeakAurasCompanion: enabled
 Outfitter: disabled
 DBM-Core: enabled
@@ -99,7 +99,7 @@ DBM-AQ40: enabled
 DBM-ZG: enabled
 DBM-MC: enabled
 AutoDismount: disabled
-Atlas: disabled
+Atlas: enabled
 Atlas_ClassicWoW: enabled
 Bejeweled: enabled
 BetterRaidBuffs: disabled
@@ -134,9 +134,9 @@ WeakAurasModelPaths: enabled
 DejaClassicStats: enabled
 Attune: disabled
 Auctionator: enabled
-GatherMate2: enabled
+GatherMate2: disabled
 GatherMate2_Data: enabled
-FarmHud: enabled
+FarmHud: disabled
 FarmHud_QuestArrow: enabled
 CharacterStatsTBC: disabled
 ClassicLFG: enabled
@@ -149,7 +149,7 @@ NovaInstanceTracker: enabled
 NovaRaidCompanion: enabled
 QuestCompletist: enabled
 BtWQuests: disabled
-BtWQuestsTheBurningCrusade: enabled
+BtWQuestsTheBurningCrusade: disabled
 Details_Streamer: disabled
 HandyNotes: enabled
 LFGBulletinBoard: enabled
@@ -165,7 +165,7 @@ VuhDoOptions: enabled
 FarmHud_TrailPath: enabled
 JoanasGuides: enabled
 Atlas_WrathoftheLichKing: enabled
-BtWQuestsWrathOfTheLichKing: enabled
+BtWQuestsWrathOfTheLichKing: disabled
 Details_Compare2: enabled
 Details_EncounterDetails: enabled
 Details_RaidCheck: enabled

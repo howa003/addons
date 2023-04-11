@@ -6,10 +6,10 @@ PawnCommon = {
 	["ShowItemID"] = false,
 	["ShowRelicUpgrades"] = false,
 	["ShowValuesForUpgradesOnly"] = false,
-	["ShowEnchanted"] = true,
+	["Debug"] = false,
 	["ShowItemLevelUpgrades"] = false,
 	["ShownGettingStarted"] = true,
-	["Debug"] = false,
+	["ShowEnchanted"] = true,
 	["ColorTooltipBorder"] = true,
 	["ShowTooltipIcons"] = true,
 	["Scales"] = {
@@ -46,7 +46,13 @@ PawnCommon = {
 		},
 		["\"Classic\":MAGE1"] = {
 			["PerCharacterOptions"] = {
+				["Maffoboss-Golemagg"] = {
+					["Visible"] = true,
+				},
 				["Azerot-Golemagg"] = {
+					["Visible"] = true,
+				},
+				["Lickmenow-Golemagg"] = {
 					["Visible"] = true,
 				},
 			},
@@ -139,6 +145,15 @@ PawnCommon = {
 		},
 		["\"Classic\":SHAMAN1"] = {
 			["PerCharacterOptions"] = {
+				["Enchancow-Golemagg"] = {
+					["Visible"] = true,
+				},
+				["Alchemcow-Golemagg"] = {
+					["Visible"] = true,
+				},
+				["Potioncow-Golemagg"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "0070dd",
 			["LocalizedName"] = "Shaman: Elemental",
@@ -153,7 +168,16 @@ PawnCommon = {
 		},
 		["\"Classic\":SHAMAN2"] = {
 			["PerCharacterOptions"] = {
+				["Alchemcow-Golemagg"] = {
+					["Visible"] = true,
+				},
 				["Zandalar-Golemagg"] = {
+					["Visible"] = true,
+				},
+				["Potioncow-Golemagg"] = {
+					["Visible"] = true,
+				},
+				["Enchancow-Golemagg"] = {
 					["Visible"] = true,
 				},
 			},
@@ -170,6 +194,9 @@ PawnCommon = {
 		},
 		["\"Classic\":HUNTER3"] = {
 			["PerCharacterOptions"] = {
+				["Meatcow-Golemagg"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "aad372",
 			["LocalizedName"] = "Hunter: Survival",
@@ -184,6 +211,9 @@ PawnCommon = {
 		},
 		["\"Classic\":HUNTER1"] = {
 			["PerCharacterOptions"] = {
+				["Meatcow-Golemagg"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "aad372",
 			["LocalizedName"] = "Hunter: Beast Mastery",
@@ -198,7 +228,16 @@ PawnCommon = {
 		},
 		["\"Classic\":SHAMAN3"] = {
 			["PerCharacterOptions"] = {
+				["Alchemcow-Golemagg"] = {
+					["Visible"] = true,
+				},
 				["Zandalar-Golemagg"] = {
+					["Visible"] = true,
+				},
+				["Potioncow-Golemagg"] = {
+					["Visible"] = true,
+				},
+				["Enchancow-Golemagg"] = {
 					["Visible"] = true,
 				},
 			},
@@ -215,6 +254,15 @@ PawnCommon = {
 		},
 		["\"Classic\":DRUID1"] = {
 			["PerCharacterOptions"] = {
+				["Tailcow-Golemagg"] = {
+					["Visible"] = true,
+				},
+				["Leathercow-Golemagg"] = {
+					["Visible"] = true,
+				},
+				["Herbcow-Golemagg"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "ff7c0a",
 			["LocalizedName"] = "Druid: Balance",
@@ -257,7 +305,16 @@ PawnCommon = {
 		},
 		["\"Classic\":DRUID4"] = {
 			["PerCharacterOptions"] = {
+				["Tailcow-Golemagg"] = {
+					["Visible"] = true,
+				},
+				["Leathercow-Golemagg"] = {
+					["Visible"] = true,
+				},
 				["Zowl-Golemagg"] = {
+					["Visible"] = true,
+				},
+				["Herbcow-Golemagg"] = {
 					["Visible"] = true,
 				},
 			},
@@ -274,6 +331,15 @@ PawnCommon = {
 		},
 		["\"Classic\":DRUID2"] = {
 			["PerCharacterOptions"] = {
+				["Tailcow-Golemagg"] = {
+					["Visible"] = true,
+				},
+				["Leathercow-Golemagg"] = {
+					["Visible"] = true,
+				},
+				["Herbcow-Golemagg"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "ff7c0a",
 			["LocalizedName"] = "Druid: Feral (Damage)",
@@ -288,6 +354,15 @@ PawnCommon = {
 		},
 		["\"Classic\":DRUID3"] = {
 			["PerCharacterOptions"] = {
+				["Tailcow-Golemagg"] = {
+					["Visible"] = true,
+				},
+				["Leathercow-Golemagg"] = {
+					["Visible"] = true,
+				},
+				["Herbcow-Golemagg"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "ff7c0a",
 			["LocalizedName"] = "Druid: Feral (Tank)",
@@ -331,7 +406,16 @@ PawnCommon = {
 		["mojeELE"] = {
 			["Role"] = "DAMAGER",
 			["PerCharacterOptions"] = {
+				["Alchemcow-Golemagg"] = {
+					["Visible"] = true,
+				},
 				["Zandalar-Golemagg"] = {
+					["Visible"] = true,
+				},
+				["Potioncow-Golemagg"] = {
+					["Visible"] = true,
+				},
+				["Enchancow-Golemagg"] = {
 					["Visible"] = true,
 				},
 			},
@@ -343,21 +427,21 @@ PawnCommon = {
 				["Intellect"] = 0.24,
 				["IsWarglaive"] = -1000000,
 				["CritRating"] = 0.47,
-				["IsPlate"] = -1000000,
+				["IsWand"] = -1000000,
 				["HasteRating"] = 0.87,
 				["IsCrossbow"] = -1000000,
 				["MetaSocketEffect"] = 36,
 				["IsPolearm"] = -1000000,
-				["IsGun"] = -1000000,
+				["IsThrown"] = -1000000,
 				["AllResist"] = 0.2,
 				["IsBow"] = -1000000,
+				["IsPlate"] = -1000000,
 				["IsSword"] = -1000000,
-				["IsThrown"] = -1000000,
 				["HitRating"] = 1.55,
 				["Is2HSword"] = -1000000,
 				["SpellPower"] = 1,
 				["Mp5"] = 0.12,
-				["IsWand"] = -1000000,
+				["IsGun"] = -1000000,
 			},
 		},
 		["\"Classic\":PRIEST2"] = {
@@ -376,7 +460,13 @@ PawnCommon = {
 		},
 		["\"Classic\":MAGE3"] = {
 			["PerCharacterOptions"] = {
+				["Maffoboss-Golemagg"] = {
+					["Visible"] = true,
+				},
 				["Azerot-Golemagg"] = {
+					["Visible"] = true,
+				},
+				["Lickmenow-Golemagg"] = {
 					["Visible"] = true,
 				},
 			},
@@ -407,7 +497,13 @@ PawnCommon = {
 		},
 		["\"Classic\":MAGE2"] = {
 			["PerCharacterOptions"] = {
+				["Maffoboss-Golemagg"] = {
+					["Visible"] = true,
+				},
 				["Azerot-Golemagg"] = {
+					["Visible"] = true,
+				},
+				["Lickmenow-Golemagg"] = {
 					["Visible"] = true,
 				},
 			},
@@ -425,7 +521,16 @@ PawnCommon = {
 		["Balance-moje"] = {
 			["Role"] = "DAMAGER",
 			["PerCharacterOptions"] = {
+				["Tailcow-Golemagg"] = {
+					["Visible"] = true,
+				},
+				["Leathercow-Golemagg"] = {
+					["Visible"] = true,
+				},
 				["Zowl-Golemagg"] = {
+					["Visible"] = true,
+				},
+				["Herbcow-Golemagg"] = {
 					["Visible"] = true,
 				},
 			},
@@ -442,7 +547,7 @@ PawnCommon = {
 				["MetaSocketEffect"] = 36,
 				["Spirit"] = 0.34,
 				["IsGun"] = -1000000,
-				["HitRating"] = 1,
+				["AllResist"] = 0.2,
 				["Is2HAxe"] = -1000000,
 				["IsWand"] = -1000000,
 				["IsOffHand"] = -1000000,
@@ -450,7 +555,7 @@ PawnCommon = {
 				["IsMail"] = -1000000,
 				["IsPlate"] = -1000000,
 				["IsThrown"] = -1000000,
-				["AllResist"] = 0.2,
+				["HitRating"] = 1,
 				["IsAxe"] = -1000000,
 				["Is2HSword"] = -1000000,
 				["SpellPower"] = 1,
@@ -488,6 +593,9 @@ PawnCommon = {
 		},
 		["\"Classic\":HUNTER2"] = {
 			["PerCharacterOptions"] = {
+				["Meatcow-Golemagg"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "aad372",
 			["LocalizedName"] = "Hunter: Marksmanship",
@@ -517,7 +625,16 @@ PawnCommon = {
 		["Balance-P2-BiS"] = {
 			["Role"] = "DAMAGER",
 			["PerCharacterOptions"] = {
+				["Tailcow-Golemagg"] = {
+					["Visible"] = true,
+				},
+				["Leathercow-Golemagg"] = {
+					["Visible"] = true,
+				},
 				["Zowl-Golemagg"] = {
+					["Visible"] = true,
+				},
+				["Herbcow-Golemagg"] = {
 					["Visible"] = true,
 				},
 			},
@@ -538,17 +655,17 @@ PawnCommon = {
 				["IsOffHand"] = -1000000,
 				["Is2HAxe"] = -1000000,
 				["HitRating"] = 0.01,
-				["IsAxe"] = -1000000,
+				["IsPlate"] = -1000000,
 				["IsBow"] = -1000000,
 				["IsMail"] = -1000000,
-				["IsPlate"] = -1000000,
+				["IsSword"] = -1000000,
 				["IsGun"] = -1000000,
 				["AllResist"] = 0.2,
-				["IsSword"] = -1000000,
+				["Intellect"] = 0.38,
 				["Is2HSword"] = -1000000,
 				["SpellPower"] = 1,
 				["Mp5"] = 0.5,
-				["Intellect"] = 0.38,
+				["IsAxe"] = -1000000,
 			},
 		},
 		["\"Classic\":ROGUE"] = {
@@ -598,6 +715,6 @@ PawnCommon = {
 	["ButtonPosition"] = 2,
 	["ShowLootUpgradeAdvisor"] = true,
 	["ShowQuestUpgradeAdvisor"] = true,
-	["LastVersion"] = 2.0717,
 	["Digits"] = 1,
+	["LastVersion"] = 2.0717,
 }

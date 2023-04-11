@@ -10,8 +10,8 @@ HandyNotesDB = {
 		["Zandalar - Golemagg"] = "Zandalar - Golemagg",
 		["Zandalar - Gandling"] = "Zandalar - Gandling",
 		["Banger - Golemagg"] = "Banger - Golemagg",
-		["Zandalar - Zandalar Tribe"] = "Zandalar - Zandalar Tribe",
 		["Leathercow - Golemagg"] = "Leathercow - Golemagg",
+		["Zandalar - Zandalar Tribe"] = "Zandalar - Zandalar Tribe",
 	},
 	["profiles"] = {
 		["Zowl - Golemagg"] = {
@@ -32,9 +32,9 @@ HandyNotesDB = {
 		},
 		["Banger - Golemagg"] = {
 		},
-		["Zandalar - Zandalar Tribe"] = {
-		},
 		["Leathercow - Golemagg"] = {
+		},
+		["Zandalar - Zandalar Tribe"] = {
 		},
 	},
 }
@@ -49,8 +49,8 @@ HandyNotes_HandyNotesDB = {
 		["Zandalar - Golemagg"] = "Zandalar - Golemagg",
 		["Zandalar - Gandling"] = "Zandalar - Gandling",
 		["Banger - Golemagg"] = "Banger - Golemagg",
-		["Zandalar - Zandalar Tribe"] = "Zandalar - Zandalar Tribe",
 		["Leathercow - Golemagg"] = "Leathercow - Golemagg",
+		["Zandalar - Zandalar Tribe"] = "Zandalar - Zandalar Tribe",
 	},
 	["profiles"] = {
 		["Zowl - Golemagg"] = {
@@ -71,9 +71,9 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Banger - Golemagg"] = {
 		},
-		["Zandalar - Zandalar Tribe"] = {
-		},
 		["Leathercow - Golemagg"] = {
+		},
+		["Zandalar - Zandalar Tribe"] = {
 		},
 	},
 }

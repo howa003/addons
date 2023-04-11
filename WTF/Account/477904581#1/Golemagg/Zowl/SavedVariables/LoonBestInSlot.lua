@@ -38,7 +38,7 @@ LBISSettings = {
 	},
 	["SelectedSpec"] = "",
 	["minimap"] = {
-		["minimapPos"] = 206.611418173301,
+		["minimapPos"] = 231.2089665628467,
 		["hide"] = false,
 	},
 	["PhaseTooltip"] = {

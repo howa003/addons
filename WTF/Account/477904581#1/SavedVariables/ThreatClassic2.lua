@@ -1,18 +1,23 @@
 
 ThreatClassic2DB = {
 	["profileKeys"] = {
-		["Zowl - Golemagg"] = "Zowl - Golemagg",
-		["Tailcow - Golemagg"] = "Tailcow - Golemagg",
-		["Zandalar - Zandalar Tribe"] = "Zandalar - Zandalar Tribe",
+		["Maffoboss - Golemagg"] = "Default",
 		["Meatcow - Golemagg"] = "Meatcow - Golemagg",
 		["Zandalara - Golemagg"] = "Zandalara - Golemagg",
-		["Herbcow - Golemagg"] = "Herbcow - Golemagg",
 		["Leathercow - Golemagg"] = "Leathercow - Golemagg",
 		["Zandalar - Golemagg"] = "Zandalar - Golemagg",
-		["Zandalar - Gandling"] = "Default",
-		["Zandalar - Mograine"] = "Zandalar - Mograine",
 		["Banger - Golemagg"] = "Banger - Golemagg",
+		["Potioncow - Golemagg"] = "Default",
+		["Enchancow - Golemagg"] = "Default",
+		["Tailcow - Golemagg"] = "Tailcow - Golemagg",
+		["Zandalar - Zandalar Tribe"] = "Zandalar - Zandalar Tribe",
+		["Herbcow - Golemagg"] = "Herbcow - Golemagg",
 		["Azerot - Golemagg"] = "Azerot - Golemagg",
+		["Zandalar - Mograine"] = "Zandalar - Mograine",
+		["Zandalar - Gandling"] = "Default",
+		["Alchemcow - Golemagg"] = "Default",
+		["Zowl - Golemagg"] = "Zowl - Golemagg",
+		["Lickmenow - Golemagg"] = "Default",
 	},
 	["profiles"] = {
 		["Zowl - Golemagg"] = {
@@ -23,8 +28,8 @@ ThreatClassic2DB = {
 					nil, -- [1]
 					nil, -- [2]
 					nil, -- [3]
-					9.796426773071289, -- [4]
-					-490.4619140625, -- [5]
+					1508.463623046875, -- [4]
+					-613.1287841796875, -- [5]
 				},
 			},
 			["bar"] = {
@@ -47,9 +52,11 @@ ThreatClassic2DB = {
 			},
 		},
 		["Zandalara - Golemagg"] = {
+			["bar"] = {
+				["count"] = 3,
+			},
 			["frame"] = {
 				["height"] = 69.9231033325195,
-				["width"] = 210.43586730957,
 				["position"] = {
 					nil, -- [1]
 					nil, -- [2]
@@ -57,9 +64,7 @@ ThreatClassic2DB = {
 					1872.35949707031, -- [4]
 					-1086.97485351563, -- [5]
 				},
-			},
-			["bar"] = {
-				["count"] = 3,
+				["width"] = 210.43586730957,
 			},
 		},
 		["Herbcow - Golemagg"] = {
@@ -80,11 +85,22 @@ ThreatClassic2DB = {
 			["bar"] = {
 				["count"] = 8,
 			},
+			["frame"] = {
+				["position"] = {
+					nil, -- [1]
+					nil, -- [2]
+					nil, -- [3]
+					1455.333862304688, -- [4]
+					-684.4444580078125, -- [5]
+				},
+			},
 		},
 		["Zandalar - Golemagg"] = {
+			["bar"] = {
+				["count"] = 5,
+			},
 			["frame"] = {
 				["height"] = 106.025581359863,
-				["width"] = 233.410232543945,
 				["position"] = {
 					nil, -- [1]
 					nil, -- [2]
@@ -92,31 +108,26 @@ ThreatClassic2DB = {
 					23.79487228393555, -- [4]
 					-677.5384521484375, -- [5]
 				},
-			},
-			["bar"] = {
-				["count"] = 5,
+				["width"] = 233.410232543945,
 			},
 		},
-		["Leathercow - Golemagg"] = {
+		["Azerot - Golemagg"] = {
 			["bar"] = {
 				["count"] = 3,
 			},
 			["frame"] = {
-				["height"] = 55.1537551879883,
+				["height"] = 65.00003051757812,
 				["position"] = {
 					nil, -- [1]
 					nil, -- [2]
 					nil, -- [3]
-					23.7435913085938, -- [4]
-					-126.974349975586, -- [5]
+					124.6666717529297, -- [4]
+					-1079.589965820313, -- [5]
 				},
-				["width"] = 180.897308349609,
+				["width"] = 235.8718414306641,
 			},
 		},
 		["Zandalar - Mograine"] = {
-			["bar"] = {
-				["count"] = 8,
-			},
 			["frame"] = {
 				["position"] = {
 					nil, -- [1]
@@ -126,11 +137,16 @@ ThreatClassic2DB = {
 					-978.666870117188, -- [5]
 				},
 			},
+			["bar"] = {
+				["count"] = 8,
+			},
 		},
 		["Banger - Golemagg"] = {
+			["bar"] = {
+				["count"] = 3,
+			},
 			["frame"] = {
 				["height"] = 63.358943939209,
-				["width"] = 189.923049926758,
 				["position"] = {
 					nil, -- [1]
 					nil, -- [2]
@@ -138,21 +154,19 @@ ThreatClassic2DB = {
 					1682.82080078125, -- [4]
 					-1109.12805175781, -- [5]
 				},
-			},
-			["bar"] = {
-				["count"] = 3,
+				["width"] = 189.923049926758,
 			},
 		},
-		["Azerot - Golemagg"] = {
+		["Leathercow - Golemagg"] = {
 			["frame"] = {
-				["height"] = 65.00003051757812,
-				["width"] = 235.8718414306641,
+				["height"] = 55.1537551879883,
+				["width"] = 180.897308349609,
 				["position"] = {
 					nil, -- [1]
 					nil, -- [2]
 					nil, -- [3]
-					124.6666717529297, -- [4]
-					-1079.589965820313, -- [5]
+					23.7435913085938, -- [4]
+					-126.974349975586, -- [5]
 				},
 			},
 			["bar"] = {

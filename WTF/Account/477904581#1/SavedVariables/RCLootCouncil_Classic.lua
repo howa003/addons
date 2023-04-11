@@ -4091,437 +4091,24 @@ RCLootCouncilDB = {
 		["Classic_game"] = 11,
 		["Classic_oldVersion"] = "0.17.1",
 		["locale"] = "enUS",
-		["verTestCandidates"] = {
-			["Mystögan-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678657068, -- [3]
-			},
-			["Bankotsu-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678567429, -- [3]
-			},
-			["Tominda-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678657068, -- [3]
-			},
-			["Thaxim-Golemagg"] = {
-				"0.17.1", -- [1]
-				nil, -- [2]
-				1678559341, -- [3]
-			},
-			["Karr-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678544703, -- [3]
-			},
-			["Hidemi-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678571915, -- [3]
-			},
-			["Gryfel-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678657069, -- [3]
-			},
-			["Oslica-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678657068, -- [3]
-			},
-			["Chmellda-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1678575604, -- [3]
-			},
-			["Kriplellin-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1678574539, -- [3]
-			},
-			["Oslík-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678573242, -- [3]
-			},
-			["Angrön-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678663085, -- [3]
-			},
-			["Tominny-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678544975, -- [3]
-			},
-			["Catastropha-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678657068, -- [3]
-			},
-			["Shaniqq-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678657068, -- [3]
-			},
-			["Cizosaurus-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678565030, -- [3]
-			},
-			["Maÿt-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678661813, -- [3]
-			},
-			["Chmllda-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1678576917, -- [3]
-			},
-			["Confiknez-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678660732, -- [3]
-			},
-			["Tominfa-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678576565, -- [3]
-			},
-			["Mastarpone-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678657068, -- [3]
-			},
-			["Tankkys-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678544975, -- [3]
-			},
-			["Pomenato-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678655764, -- [3]
-			},
-			["Raptorkacz-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678576917, -- [3]
-			},
-			["Tomindee-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678524362, -- [3]
-			},
-			["Spoderlock-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678657068, -- [3]
-			},
-			["Dewastator-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678663085, -- [3]
-			},
-			["Skapitos-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678574539, -- [3]
-			},
-			["Zdechliak-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678530079, -- [3]
-			},
-			["Mayt-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678544975, -- [3]
-			},
-			["Wrathie-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678544975, -- [3]
-			},
-			["Puky-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678525511, -- [3]
-			},
-			["Misshealin-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1678662191, -- [3]
-			},
-			["Johanson-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678652474, -- [3]
-			},
-			["Alcony-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678652951, -- [3]
-			},
-			["Mischelin-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678662191, -- [3]
-			},
-			["Slzoherec-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678527239, -- [3]
-			},
-			["Lupinka-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678559202, -- [3]
-			},
-			["Thaie-Golemagg"] = {
-				"0.17.1", -- [1]
-				nil, -- [2]
-				1678651653, -- [3]
-			},
-			["Kæl-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678574539, -- [3]
-			},
-			["Breesix-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678657068, -- [3]
-			},
-			["Zld-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678657068, -- [3]
-			},
-			["Hailyë-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1678657068, -- [3]
-			},
-			["Ratsäm-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678559956, -- [3]
-			},
-			["Pukasefka-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678647973, -- [3]
-			},
-			["Impol-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678544723, -- [3]
-			},
-			["Totterr-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678576917, -- [3]
-			},
-			["Tomindos-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678576917, -- [3]
-			},
-			["Førc-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678567272, -- [3]
-			},
-			["Zukkzug-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678657068, -- [3]
-			},
-			["Bioohazard-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678657068, -- [3]
-			},
-			["Thaxilôl-Golemagg"] = {
-				"0.17.1", -- [1]
-				nil, -- [2]
-				1678530079, -- [3]
-			},
-			["Teajay-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678647479, -- [3]
-			},
-			["Wôrlm-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678523947, -- [3]
-			},
-			["Worlm-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678521841, -- [3]
-			},
-			["Rogalo-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678662191, -- [3]
-			},
-			["Vernitka-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678661813, -- [3]
-			},
-			["Aggai-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678576917, -- [3]
-			},
-			["Ugarra-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1678662191, -- [3]
-			},
-			["Kimby-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678657068, -- [3]
-			},
-			["Vypol-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1678657068, -- [3]
-			},
-			["Chmeldaa-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1678575447, -- [3]
-			},
-			["Rentoan-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678657068, -- [3]
-			},
-			["Saktak-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1678563315, -- [3]
-			},
-			["Tomitunak-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678544928, -- [3]
-			},
-			["Tominak-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678526309, -- [3]
-			},
-			["Zowl-Golemagg"] = {
-				"0.17.1", -- [1]
-				nil, -- [2]
-				1678663086, -- [3]
-			},
-			["Theolin-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678657068, -- [3]
-			},
-			["Tyralyon-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678663085, -- [3]
-			},
-			["Kybell-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678563315, -- [3]
-			},
-			["Ugar-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1678649767, -- [3]
-			},
-			["Mischelín-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1678559889, -- [3]
-			},
-			["Diego-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1678660732, -- [3]
-			},
-			["Tomigege-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678576130, -- [3]
-			},
-			["Miosham-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678657068, -- [3]
-			},
-			["Karrx-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678559202, -- [3]
-			},
-			["Houbícka-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1678489647, -- [3]
-			},
-			["Geeners-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678657068, -- [3]
-			},
-			["Ugara-Golemagg"] = {
-				"0.18.0", -- [1]
-				nil, -- [2]
-				1678663085, -- [3]
-			},
-			["Prdzriti-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678559832, -- [3]
-			},
-			["Fireburns-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678576917, -- [3]
-			},
-			["Thaximé-Golemagg"] = {
-				"0.17.1", -- [1]
-				nil, -- [2]
-				1678526309, -- [3]
-			},
-			["Thaxiré-Golemagg"] = {
-				"0.17.1", -- [1]
-				nil, -- [2]
-				1678652951, -- [3]
-			},
-			["Jaytyy-Golemagg"] = {
-				"0.18.1", -- [1]
-				nil, -- [2]
-				1678648609, -- [3]
-			},
-		},
-		["version"] = "2.19.3",
 		["regionID"] = 3,
+		["version"] = "2.19.3",
 		["Classic_version"] = "0.17.1",
 	},
 	["profileKeys"] = {
+		["Enchancow - Golemagg"] = "Default",
+		["Tailcow - Golemagg"] = "Default",
+		["Azerot - Golemagg"] = "Default",
+		["Meatcow - Golemagg"] = "Default",
+		["Lickmenow - Golemagg"] = "Default",
+		["Leathercow - Golemagg"] = "Default",
+		["Herbcow - Golemagg"] = "Default",
+		["Alchemcow - Golemagg"] = "Default",
+		["Zandalar - Golemagg"] = "Default",
 		["Zowl - Golemagg"] = "Default",
 		["Banger - Golemagg"] = "Default",
-		["Azerot - Golemagg"] = "Default",
-		["Zandalar - Golemagg"] = "Default",
+		["Maffoboss - Golemagg"] = "Default",
+		["Potioncow - Golemagg"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -4537,14 +4124,14 @@ RCLootCouncilDB = {
 						0.84, -- [2]
 						1, -- [3]
 					},
+					["background"] = "Blizzard Garrison Background 3",
+					["border"] = "Blizzard Dialog",
 					["borderColor"] = {
 						0.62, -- [1]
 						0.86, -- [2]
 						0.87, -- [3]
 						0.85, -- [4]
 					},
-					["background"] = "Blizzard Garrison Background 3",
-					["border"] = "Blizzard Dialog",
 				},
 				["lootframe"] = {
 					["bgColor"] = {
@@ -4552,14 +4139,14 @@ RCLootCouncilDB = {
 						0.84, -- [2]
 						1, -- [3]
 					},
+					["background"] = "Blizzard Garrison Background 3",
+					["border"] = "Blizzard Dialog",
 					["borderColor"] = {
 						0.62, -- [1]
 						0.86, -- [2]
 						0.87, -- [3]
 						0.85, -- [4]
 					},
-					["background"] = "Blizzard Garrison Background 3",
-					["border"] = "Blizzard Dialog",
 				},
 				["default"] = {
 					["bgColor"] = {
@@ -4567,14 +4154,14 @@ RCLootCouncilDB = {
 						0.84, -- [2]
 						1, -- [3]
 					},
+					["background"] = "Blizzard Garrison Background 3",
+					["border"] = "Blizzard Dialog",
 					["borderColor"] = {
 						0.62, -- [1]
 						0.86, -- [2]
 						0.87, -- [3]
 						0.85, -- [4]
 					},
-					["background"] = "Blizzard Garrison Background 3",
-					["border"] = "Blizzard Dialog",
 				},
 				["votingframe"] = {
 					["y"] = 46.76936043692876,
@@ -4600,10 +4187,19 @@ RCLootCouncilDB = {
 }
 RCLootCouncilLootDB = {
 	["profileKeys"] = {
+		["Enchancow - Golemagg"] = "Enchancow - Golemagg",
+		["Tailcow - Golemagg"] = "Tailcow - Golemagg",
+		["Azerot - Golemagg"] = "Azerot - Golemagg",
+		["Meatcow - Golemagg"] = "Meatcow - Golemagg",
+		["Lickmenow - Golemagg"] = "Lickmenow - Golemagg",
+		["Leathercow - Golemagg"] = "Leathercow - Golemagg",
+		["Herbcow - Golemagg"] = "Herbcow - Golemagg",
+		["Alchemcow - Golemagg"] = "Alchemcow - Golemagg",
+		["Zandalar - Golemagg"] = "Zandalar - Golemagg",
 		["Zowl - Golemagg"] = "Zowl - Golemagg",
 		["Banger - Golemagg"] = "Banger - Golemagg",
-		["Azerot - Golemagg"] = "Azerot - Golemagg",
-		["Zandalar - Golemagg"] = "Zandalar - Golemagg",
+		["Maffoboss - Golemagg"] = "Maffoboss - Golemagg",
+		["Potioncow - Golemagg"] = "Potioncow - Golemagg",
 	},
 	["factionrealm"] = {
 		["Horde - Golemagg"] = {
@@ -5383,8 +4979,8 @@ RCLootCouncilLootDB = {
 					["time"] = "20:30:16",
 					["iClass"] = 4,
 					["itemReplaced1"] = "|cffa335ee|Hitem:45456::39999::::::80:::::::::|h[Loop of the Agile]|h|r",
-					["typeCode"] = "default",
 					["instance"] = "Ulduar-25 Player",
+					["typeCode"] = "default",
 					["owner"] = "Ugarra-Golemagg",
 					["id"] = "1678645816-4",
 					["response"] = "Upgrade",

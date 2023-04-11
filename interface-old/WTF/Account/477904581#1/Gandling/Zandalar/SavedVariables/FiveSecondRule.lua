@@ -1,0 +1,2 @@
+
+FiveSecondRule_Options = nil

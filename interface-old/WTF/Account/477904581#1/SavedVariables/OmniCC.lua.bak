@@ -1,0 +1,69 @@
+
+OmniCCDB = {
+	["profileKeys"] = {
+		["Zowl - Golemagg"] = "Default",
+		["Tailcow - Golemagg"] = "Default",
+		["Thezandalar - Hydraxian Waterlords"] = "Default",
+		["Zandalar - Zandalar Tribe"] = "Default",
+		["Meatcow - Golemagg"] = "Default",
+		["Zandalara - Golemagg"] = "Default",
+		["Azerot - Golemagg"] = "Default",
+		["Herbcow - Golemagg"] = "Default",
+		["Zandalar - Mograine"] = "Default",
+		["Thezandalar - Mograine"] = "Default",
+		["Zandalar - Golemagg"] = "Default",
+		["Zandalar - Gandling"] = "Default",
+		["Banger - Golemagg"] = "Default",
+		["Zandalar - Gehennas"] = "Default",
+		["Leathercow - Golemagg"] = "Default",
+	},
+	["global"] = {
+		["dbVersion"] = 6,
+		["addonVersion"] = "10.0.3",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["rules"] = {
+				{
+					["enabled"] = false,
+					["patterns"] = {
+						"Aura", -- [1]
+						"Buff", -- [2]
+						"Debuff", -- [3]
+					},
+					["name"] = "Auras",
+					["id"] = "auras",
+				}, -- [1]
+				{
+					["enabled"] = false,
+					["patterns"] = {
+						"Plate", -- [1]
+					},
+					["name"] = "Unit Nameplates",
+					["id"] = "plates",
+				}, -- [2]
+				{
+					["enabled"] = false,
+					["patterns"] = {
+						"ActionButton", -- [1]
+					},
+					["name"] = "ActionBars",
+					["id"] = "actions",
+				}, -- [3]
+			},
+			["themes"] = {
+				["Default"] = {
+					["textStyles"] = {
+						["minutes"] = {
+						},
+						["soon"] = {
+						},
+						["seconds"] = {
+						},
+					},
+				},
+			},
+		},
+	},
+}
+OmniCC4Config = nil

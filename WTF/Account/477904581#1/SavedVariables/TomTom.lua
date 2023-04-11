@@ -10,8 +10,8 @@ TomTomDB = {
 		["Zandalar - Golemagg"] = "Default",
 		["Zandalar - Gandling"] = "Default",
 		["Banger - Golemagg"] = "Default",
-		["Zandalar - Zandalar Tribe"] = "Default",
 		["Leathercow - Golemagg"] = "Default",
+		["Zandalar - Zandalar Tribe"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -48,8 +48,8 @@ TomTomWaypointsM = {
 		["Zandalar - Golemagg"] = "Zandalar - Golemagg",
 		["Zandalar - Gandling"] = "Zandalar - Gandling",
 		["Banger - Golemagg"] = "Banger - Golemagg",
-		["Zandalar - Zandalar Tribe"] = "Zandalar - Zandalar Tribe",
 		["Leathercow - Golemagg"] = "Leathercow - Golemagg",
+		["Zandalar - Zandalar Tribe"] = "Zandalar - Zandalar Tribe",
 	},
 	["profiles"] = {
 		["Zowl - Golemagg"] = {
@@ -114,9 +114,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
@@ -137,9 +137,9 @@ TomTomWaypointsM = {
 					["callbacks"] = {
 						["distance"] = {
 						},
-						["minimap"] = {
-						},
 						["world"] = {
+						},
+						["minimap"] = {
 						},
 					},
 					["minimap"] = true,
@@ -151,9 +151,9 @@ TomTomWaypointsM = {
 		},
 		["Banger - Golemagg"] = {
 		},
-		["Zandalar - Zandalar Tribe"] = {
-		},
 		["Leathercow - Golemagg"] = {
+		},
+		["Zandalar - Zandalar Tribe"] = {
 		},
 	},
 }

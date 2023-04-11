@@ -1,0 +1,98 @@
+
+AucAdvancedConfig = {
+	["users.Golemagg.Banger"] = "Default",
+	["profile.Default"] = {
+		["core"] = {
+			["matcher"] = {
+				["matcherlist"] = {
+					"Undercut", -- [1]
+					"BeanCount", -- [2]
+				},
+			},
+		},
+		["configator.left"] = 650.256530761719,
+		["stat"] = {
+			["sales"] = {
+				["ignoredsigs"] = {
+				},
+				["upgraded32"] = true,
+			},
+		},
+		["printwindow"] = "Combat Log",
+		["ModTTShow"] = "alt",
+		["util"] = {
+			["appraiser"] = {
+				["item.15969:839.fixed.buy"] = 9999,
+				["item.15969:839.fixed.bid"] = 4999,
+				["item.15969:839.match"] = false,
+				["duration"] = 480,
+				["item.2770.stack"] = 5,
+				["columnsortcurSort"] = 6,
+				["item.14730.fixed.buy"] = 3999,
+				["item.14730.fixed.bid"] = 6682,
+				["item.14730.model"] = "fixed",
+				["columnsortcurDir"] = 1,
+				["item.14730.match"] = false,
+				["bid.markdown"] = 9.2,
+				["item.15969:839.model"] = "fixed",
+			},
+			["EasyBuyout"] = {
+				["EBid.active"] = true,
+				["active"] = true,
+				["EC.active"] = true,
+			},
+			["compactui"] = {
+				["priceperitem"] = true,
+			},
+			["simpleauc"] = {
+				["undercut.percent"] = 1,
+				["columnwidth.Buy/ea"] = 61.717945098877,
+				["columnwidth.Min/ea"] = 65.0000228881836,
+			},
+			["automagic"] = {
+				["ammailguix"] = 160,
+				["SavedMailButtons"] = {
+				},
+			},
+			["ahwindowcontrol"] = {
+				["ahframeanchors"] = "TOPLEFT:TOPLEFT:64.9:-139.3",
+			},
+		},
+		["configator.top"] = 815.769226074219,
+	},
+	["version"] = 1,
+}
+AucAdvancedData = {
+	["Stats"] = {
+	},
+	["UtilSearchUiData"] = {
+		["Version"] = 1,
+		["Current"] = {
+			["snatch.itemsList"] = {
+			},
+		},
+		["Global"] = {
+			["configator.left"] = 600.256408691406,
+			["configator.top"] = 840.769226074219,
+		},
+		["SavedSearches"] = {
+		},
+	},
+}
+AucAdvancedServers = {
+	["KnownServerKeys"] = {
+		["ZandalarTribe"] = 1609633943,
+		["Mograine"] = 1609633969,
+		["Golemagg"] = 1621372511,
+	},
+	["Timestamp"] = 1586598491,
+	["KnownRealms"] = {
+		["ZandalarTribe"] = "ZandalarTribe",
+		["Mograine"] = "Mograine",
+		["Golemagg"] = "Golemagg",
+	},
+	["Version"] = 1,
+	["ExpandedNames"] = {
+		["ZandalarTribe"] = "Zandalar Tribe",
+	},
+}

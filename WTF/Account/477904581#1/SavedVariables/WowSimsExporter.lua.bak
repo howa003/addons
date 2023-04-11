@@ -1,9 +1,18 @@
 
 WSEDB = {
 	["profileKeys"] = {
-		["Zowl - Golemagg"] = "Default",
-		["Banger - Golemagg"] = "Default",
+		["Enchancow - Golemagg"] = "Default",
+		["Tailcow - Golemagg"] = "Default",
 		["Azerot - Golemagg"] = "Default",
+		["Meatcow - Golemagg"] = "Default",
+		["Lickmenow - Golemagg"] = "Default",
+		["Leathercow - Golemagg"] = "Default",
+		["Maffoboss - Golemagg"] = "Default",
+		["Banger - Golemagg"] = "Default",
 		["Zandalar - Golemagg"] = "Default",
+		["Zowl - Golemagg"] = "Default",
+		["Alchemcow - Golemagg"] = "Default",
+		["Herbcow - Golemagg"] = "Default",
+		["Potioncow - Golemagg"] = "Default",
 	},
 }

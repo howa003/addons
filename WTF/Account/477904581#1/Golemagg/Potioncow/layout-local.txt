@@ -1,0 +1,8 @@
+Version: 1
+Frame: Vd2
+FrameLevel: 2
+Anchor: LEFT
+X: 39
+Y: -46
+W: 260
+H: 235

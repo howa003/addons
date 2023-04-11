@@ -1,0 +1,76 @@
+
+ThreatPlatesDB = {
+	["char"] = {
+		["Zowl - Golemagg"] = {
+			["welcome"] = true,
+		},
+		["Tailcow - Golemagg"] = {
+			["welcome"] = true,
+		},
+		["Azerot - Golemagg"] = {
+			["welcome"] = true,
+		},
+		["Zandalar - Mograine"] = {
+			["welcome"] = true,
+		},
+		["Thezandalar - Hydraxian Waterlords"] = {
+			["welcome"] = true,
+		},
+		["Zandalar - Golemagg"] = {
+			["welcome"] = true,
+		},
+		["Thezandalar - Mograine"] = {
+			["welcome"] = true,
+		},
+		["Banger - Golemagg"] = {
+			["welcome"] = true,
+		},
+		["Zandalar - Zandalar Tribe"] = {
+			["welcome"] = true,
+		},
+		["Zandalar - Gandling"] = {
+			["welcome"] = true,
+		},
+	},
+	["profileKeys"] = {
+		["Zowl - Golemagg"] = "Default",
+		["Tailcow - Golemagg"] = "Default",
+		["Azerot - Golemagg"] = "Default",
+		["Zandalar - Mograine"] = "Default",
+		["Thezandalar - Hydraxian Waterlords"] = "Default",
+		["Zandalar - Golemagg"] = "Default",
+		["Thezandalar - Mograine"] = "Default",
+		["Banger - Golemagg"] = "Default",
+		["Zandalar - Zandalar Tribe"] = "Default",
+		["Zandalar - Gandling"] = "Default",
+	},
+	["global"] = {
+		["version"] = "10.5.2",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["AuraWidget"] = {
+				["CrowdControl"] = {
+					["ShowAllEnemy"] = true,
+					["ShowAllFriendly"] = true,
+					["ShowBlizzardForEnemy"] = false,
+					["ShowBlizzardForFriendly"] = false,
+					["ShowBoss"] = false,
+					["ShowDispellable"] = false,
+				},
+				["Debuffs"] = {
+					["ShowAllFriendly"] = true,
+					["ShowBlizzardForFriendly"] = false,
+					["ShowBoss"] = false,
+					["ShowDispellable"] = false,
+				},
+			},
+			["settings"] = {
+				["frame"] = {
+					["height"] = 52.875,
+					["width"] = 154,
+				},
+			},
+		},
+	},
+}

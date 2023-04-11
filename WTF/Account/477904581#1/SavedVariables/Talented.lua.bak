@@ -29,6 +29,8 @@ TalentedDB = {
 			["DEATHKNIGHT"] = {
 			},
 			["DRUID"] = {
+				["Bala-PvE-P2-Mayt"] = "0tcAnFpd3Bp5mcnZAt31A",
+				["Empty"] = "0",
 				["BalancePvE"] = "0to0nFpc3Bp5ncnZAt31A",
 				["RestoPvE"] = "05ZZD0pnAnt5n5pd5a",
 			},
@@ -40,20 +42,25 @@ TalentedDB = {
 	},
 	["profileKeys"] = {
 		["Zowl - Golemagg"] = "Zowl - Golemagg",
+		["Lickmenow - Golemagg"] = "Lickmenow - Golemagg",
 		["Tailcow - Golemagg"] = "Tailcow - Golemagg",
+		["Maffoboss - Golemagg"] = "Maffoboss - Golemagg",
 		["Azerot - Golemagg"] = "Azerot - Golemagg",
 		["Meatcow - Golemagg"] = "Meatcow - Golemagg",
 		["Zandalara - Golemagg"] = "Zandalara - Golemagg",
+		["Banger - Golemagg"] = "Banger - Golemagg",
+		["Herbcow - Golemagg"] = "Herbcow - Golemagg",
 		["Leathercow - Golemagg"] = "Leathercow - Golemagg",
+		["Zandalar - Zandalar Tribe"] = "Zandalar - Zandalar Tribe",
 		["Zandalar - Golemagg"] = "Zandalar - Golemagg",
 		["Zandalar - Gandling"] = "Zandalar - Gandling",
-		["Banger - Golemagg"] = "Banger - Golemagg",
-		["Zandalar - Zandalar Tribe"] = "Zandalar - Zandalar Tribe",
-		["Herbcow - Golemagg"] = "Herbcow - Golemagg",
+		["Alchemcow - Golemagg"] = "Alchemcow - Golemagg",
+		["Enchancow - Golemagg"] = "Enchancow - Golemagg",
+		["Potioncow - Golemagg"] = "Potioncow - Golemagg",
 	},
 	["profiles"] = {
 		["Zowl - Golemagg"] = {
-			["last_template"] = "BalancePvE",
+			["last_template"] = "Bala-PvE-P2-Mayt",
 			["framepos"] = {
 				["TalentedGlyphs"] = {
 					["y"] = -4.102559089660645,
@@ -62,14 +69,18 @@ TalentedDB = {
 					["anchorTo"] = "RIGHT",
 				},
 				["TalentedFrame"] = {
-					["y"] = -4.923436641693115,
-					["x"] = 9.845006942749023,
+					["y"] = -16.47905731201172,
+					["x"] = -30.15493202209473,
 					["anchor"] = "CENTER",
 					["anchorTo"] = "CENTER",
 				},
 			},
 		},
+		["Lickmenow - Golemagg"] = {
+		},
 		["Tailcow - Golemagg"] = {
+		},
+		["Maffoboss - Golemagg"] = {
 		},
 		["Azerot - Golemagg"] = {
 			["last_template"] = "Empty",
@@ -86,7 +97,13 @@ TalentedDB = {
 		},
 		["Zandalara - Golemagg"] = {
 		},
+		["Banger - Golemagg"] = {
+		},
+		["Herbcow - Golemagg"] = {
+		},
 		["Leathercow - Golemagg"] = {
+		},
+		["Zandalar - Zandalar Tribe"] = {
 		},
 		["Zandalar - Golemagg"] = {
 			["last_template"] = "WotlkElePvE",
@@ -107,11 +124,11 @@ TalentedDB = {
 		},
 		["Zandalar - Gandling"] = {
 		},
-		["Banger - Golemagg"] = {
+		["Alchemcow - Golemagg"] = {
 		},
-		["Zandalar - Zandalar Tribe"] = {
+		["Enchancow - Golemagg"] = {
 		},
-		["Herbcow - Golemagg"] = {
+		["Potioncow - Golemagg"] = {
 		},
 	},
 }

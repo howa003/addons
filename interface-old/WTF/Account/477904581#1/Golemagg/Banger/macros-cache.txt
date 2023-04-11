@@ -1,0 +1,13 @@
+VER 3 0000000001000002 " " "INV_MISC_QUESTIONMARK"
+/script MacroFrameText:Insert("")
+END
+VER 3 0000000001000001 "AIR" "135920"
+/2 WTS |cff1eff00|Hitem:22451::::::::13::::::::|h[Primal Air]|h|r 23g/piece
+/6 WTS |cff1eff00|Hitem:22451::::::::13::::::::|h[Primal Air]|h|r 23g/piece
+END
+VER 3 0000000001000003 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1WT[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0000000001000004 "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Ban[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END

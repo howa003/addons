@@ -1,6 +1,8 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0715,
+	["LastVersion"] = 2.0717,
+	["LastPlayerFullName"] = "Zandalar-Golemagg",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 29986,
@@ -88,8 +90,6 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:44032:1128:::::::80:::::::::|h[Bulwark of Redemption]|h|r",
 		}, -- [17]
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "Zandalar-Golemagg",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

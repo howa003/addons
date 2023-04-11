@@ -7665,16 +7665,7 @@ end
 --These are friday dates when construction starts, taken from the retail calendar.
 NWB.staticDmfDates = {};
 function NWB:setDmfDates()
-	if (NWB.isTBC or NWB.realmsTBC) then
-		NWB.staticDmfDates = {
-			[1] = {
-				day = 29,
-				month = 4,
-				year = 2022,
-				zone = "Outlands",
-			},
-		}
-	else
+	if (NWB.isClassic) then
 		NWB.staticDmfDates = {
 			--[[[1] = { --July 30th setup, August 1st start 2021.
 				day = 30,
@@ -7734,8 +7725,8 @@ local dmfTextures = {
 	--[235447] = "Days inbetween Elwynn",
 	[235446] = "End Elwynn",
 };
+
 --Timestamp, seconds left, type (start/end), zone.
---local dmfTimestampCache, dmfTimeLeftCache, dmfTypeCache, dmfZoneCache;
 local dmfCalenderCache = {
 	dmfTimestampCache = 0;
 	dmfTimeLeftCache = 0;
@@ -7744,9 +7735,6 @@ local dmfCalenderCache = {
 };
 
 local function getNextDmfCalender()
-	--if (not IsAddOnLoaded("Blizzard_Calendar")) then
-	--
-	--end
 	if (CalendarFrame and CalendarFrame:IsShown()) then
 		--Use cache if it's open so we don't change page while player is looking at it.
 		--Maybe there's a way to calc from current month without SetAbsMonth() updating the UI?
@@ -7754,23 +7742,16 @@ local function getNextDmfCalender()
 	end
 	local eventStart, eventEnd;
 	local nextStart, nextEnd = 0, 0;
-	--[[local now = date("*t", GetServerTime());
-	--Set's month offset calc from current month we're in.
-	C_Calendar.SetAbsMonth(now.month, now.year);
-	for month = 0, 2 do
-		for day = 1, 31 do
-			for eventIndex = 1, 3 do
-				local event = C_Calendar.GetDayEvent(month, day, eventIndex);]]
 	local now = C_DateAndTime.GetCurrentCalendarTime();
-	--Set's month offset calc from current month we're in.
+	--Record current month so we can subtract it from offsetTime.month so we always start at 0 but can +1 next month when needed too.
+	local month = now.month;
 	C_Calendar.SetAbsMonth(now.month, now.year);
 	for dayOffset = 0, 60 do
 		local offsetTime = C_DateAndTime.AdjustTimeByDays(now, dayOffset);
-		for eventIndex = 1, C_Calendar.GetNumDayEvents(offsetTime.month, offsetTime.monthDay) do
-			local event = C_Calendar.GetDayEvent(offsetTime.month, offsetTime.monthDay, eventIndex);
+		for eventIndex = 1, C_Calendar.GetNumDayEvents(offsetTime.month - month, offsetTime.monthDay) do
+			local event = C_Calendar.GetDayEvent(offsetTime.month - month, offsetTime.monthDay, eventIndex);
 			--Get next dmf start or end time, whichever is next after current time.
 			if (event and dmfTextures[event.iconTexture]) then
-			--if (event and event.title == "Darkmoon Faire") then
 				if (event.sequenceType == "START") then
 					--Fix date table structure so it works with time().
 					event.startTime.day = event.startTime.monthDay;
@@ -7824,7 +7805,9 @@ function NWB:getDmfStartEnd(month, nextYear, recalc)
 	--I may change this to realm names later instead, region may be unreliable with US client on EU region if that issue still exists.
 	if (NWB.realm == "Arugal" or NWB.realm == "Felstriker" or NWB.realm == "Remulos" or NWB.realm == "Yojamba") then
 		--OCE Sunday 12pm UTC reset time (4am monday server time).
-		dayOffset = 2; --2 days after friday (sunday).
+		--dayOffset = 2; --2 days after friday (sunday).
+		--Change this saturday instead of of friday to try fix classic era calcs.
+		dayOffset = 1;
 		hourOffset = 18; -- 6pm.
 		validRegion = true;
 	elseif (NWB.realm == "Arcanite Reaper" or NWB.realm == "Old Blanchy" or NWB.realm == "Anathema" or NWB.realm == "Azuresong"
@@ -7832,34 +7815,40 @@ function NWB:getDmfStartEnd(month, nextYear, recalc)
 			or NWB.realm == "Thunderfury" or NWB.realm == "Atiesh" or NWB.realm == "Bigglesworth" or NWB.realm == "Blaumeux"
 			or NWB.realm == "Fairbanks" or NWB.realm == "Grobbulus" or NWB.realm == "Whitemane") then
 		--US west Sunday 11am UTC reset time (4am monday server time).
-		dayOffset = 2; --2 days after friday (sunday).
+		--dayOffset = 2; --2 days after friday (sunday).
+		dayOffset = 1;
 		hourOffset = 11; -- 11am.
 		validRegion = true;
 	elseif (region == 1) then
 		--US east + Latin Sunday 8am UTC reset time (4am monday server time).
-		dayOffset = 2; --2 days after friday (sunday).
+		--dayOffset = 2; --2 days after friday (sunday).
+		dayOffset = 1;
 		hourOffset = 8; -- 8am.
 		validRegion = true;
 	elseif (region == 2) then
 		--Korea 1am UTC monday (9am monday local) reset time.
 		--(TW seems to be region 2 for some reason also? Hopefully they have same DMF spawn).
 		--I can change it to server name based if someone from KR says this spawn time is wrong.
-		dayOffset = 3;
+		--dayOffset = 3;
+		dayOffset = 2;
 		hourOffset = 1;
 		validRegion = true;
 	elseif (region == 3) then
 		--EU Monday 4am UTC reset time.
-		dayOffset = 3; --3 days after friday (monday).
+		--dayOffset = 3; --3 days after friday (monday).
+		dayOffset = 2;
 		hourOffset = 2; -- 4am.
 		validRegion = true;
 	elseif (region == 4) then
 		--Taiwan 1am UTC monday (9am monday local) reset time.
-		dayOffset = 3;
+		--dayOffset = 3;
+		dayOffset = 2;
 		hourOffset = 1;
 		validRegion = true;
 	elseif (region == 5) then
 		--China 8pm UTC sunday (4am monday local) reset time.
-		dayOffset = 2;
+		--dayOffset = 2;
+		dayOffset = 1;
 		hourOffset = 20;
 		validRegion = true;
 	end
@@ -7882,7 +7871,9 @@ function NWB:getDmfStartEnd(month, nextYear, recalc)
 	for i = 1, 7 do
 		--Iterate the first 7 days in the month to find first friday.
 		local time = date("!*t", time({year = data.year, month = data.month, day = i}));
-		if (time.wday == 6) then
+		--if (time.wday == 6) then
+		--Change this saturday instead of of friday to try fix classic era calcs.
+		if (time.wday == 7) then
 			--If day of the week (wday) is 6 (friday) then set this as first friday of the month.
 			dmfStartDay = i;
 		end
